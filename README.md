@@ -1,10 +1,7 @@
-# Examples of Bayesian and MCMC statistics and inference with pymc and scipy
+# Examples of Bayesian and HMMs: statistics, learning and inference
 
 ---
-
-## HMM
-
-##### An HMM:
+### An HMM:
  - **Q** = $${q_1,q_2, .. , q_N}$, states
  - **V** = {v_1, ..., v_M}, symbols
  - **A** = {aij}, aij = Pr(qj at t + 11 qi at t), state transition probability distribution
@@ -24,8 +21,11 @@ The last one can be solved by an iterative *Expectation-Maximization* (EM) algor
 #### Sources
 hmmlearn: https://hmmlearn.readthedocs.io/en/latest/
 
-pomegranate comparison: https://github.com/jmschrei/pomegranate/blob/master/benchmarks/pomegranate_vs_hmmlearn.ipynb
+hmmlearn vs. pomegranate: https://github.com/jmschrei/pomegranate/blob/master/benchmarks/pomegranate_vs_hmmlearn.ipynb
 
+hmm model testing: https://github.com/manitadayon/Auto_HMM
+
+causal Hmms: https://github.com/LilJing/causal_hmm 
 
 >#####References: 
 >  - Lawrence R. Rabiner “A tutorial on hidden Markov models and selected applications in speech recognition”, Proceedings of the IEEE 77.2, pp. 257-286, 1989.

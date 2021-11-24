@@ -3,13 +3,7 @@ from examples import bayes, poisson, exponential
 
 def main():
     # bayes update rule
-    bayes.show()
-
-    # poisson dist.
-    poisson.show()
-
-    # exponential dist.
-    exponential.show()
+    print("main...")
 
 
 if __name__ == "__main__":
