@@ -5,6 +5,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import numpy as np
+from matplotlib.ticker import FormatStrFormatter
 
 
 def matrix_from_tps(tps_dict,x_encoding,y_encoding):
@@ -39,7 +40,6 @@ def hebb_gen(sequence, hm):
 
 
 def plot_matrix(data, x_labels=[],y_labels=[], fileName="", title="transition matrix", clim=True):
-    fig = plt.figure(dpi=150)
     nr,nc = data.shape
     plt.imshow(data, cmap="plasma")
     if clim:
@@ -60,6 +60,7 @@ def plot_matrix(data, x_labels=[],y_labels=[], fileName="", title="transition ma
     ax.grid(which='minor', color='w', linestyle='-', linewidth=0.5)
     plt.colorbar()
     plt.xticks(fontsize=6)
+    plt.gcf().autofmt_xdate()
     # plt.yticks(fontsize=10)
     ax.set_title(title)
     if fileName:
