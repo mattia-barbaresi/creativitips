@@ -1,6 +1,6 @@
 import os
 from collections import Counter
-from sklearn import preprocessing, model_selection
+from sklearn import preprocessing
 import numpy as np
 from hmmlearn import hmm
 import complexity as cx
@@ -33,7 +33,8 @@ le_multi.fit(sequences_multi)
 print(Counter(e for e in sequences_multi))
 print("le1: ", le1.classes_)
 print("le2: ", le2.classes_)
-hebb_mtx = utils.mtx_from_multi(le1.transform(sequences_1), le2.transform(sequences_2), nd1=len(le1.classes_), nd2=len(le2.classes_))
+hebb_mtx = utils.mtx_from_multi(le1.transform(sequences_1), le2.transform(sequences_2),
+                                nd1=len(le1.classes_), nd2=len(le2.classes_))
 # utils.plot_matrix(hebb_mtx, x_labels=le.classes_, y_labels=le2.classes_,save=False, title="Hebb matrix", clim=False)
 # sm_hebb = utils.softmax(hebb_mtx, axis=1)
 sm_hebb = softmax(hebb_mtx, axis=1)
@@ -74,12 +75,12 @@ print("seq_ent_multi: ", seq_ent_multi)
 # n_state_1 = int(seq_ent1)+1
 # n_state_2 = int(seq_ent2)+1
 # n_state_multi = int(seq_ent_multi)+1
-n_state_1 = 17
-n_state_2 = 17
-n_state_multi = 24
+n_state_1 = 10
+n_state_2 = 10
+n_state_multi = 10
 model1 = hmm.MultinomialHMM(n_components=n_state_1).fit(np.vstack(le1.transform(sequences_1)), lens_1)
 model2 = hmm.MultinomialHMM(n_components=n_state_2).fit(np.vstack(le2.transform(sequences_2)), lens_2)
-model_multi = hmm.MultinomialHMM(n_components=n_state_multi).fit(np.vstack(le_multi.transform(sequences_multi)), lens_1)  # lens are th same
+model_multi = hmm.MultinomialHMM(n_components=n_state_multi).fit(np.vstack(le_multi.transform(sequences_multi)), lens_1)
 # model = hmm.MultinomialHMM(n_components=int(seq_rand_ent)).fit(np.vstack(sequences_rand), lens_1)
 
 # prints
@@ -94,14 +95,14 @@ print(np.round(model_multi.transmat_, decimals=2), "\n")
 # utils.plot_matrix(model_multi.transmat_, fileName="", title="model_multi.transmat_")
 print("emission probabilities 1: ")
 print(np.round(model1.emissionprob_, decimals=2), "\n")
-# utils.plot_matrix(model1.emissionprob_,x_labels=le.classes_, fileName="", title="model1.emissionprob_")
+utils.plot_matrix(model1.emissionprob_,x_labels=le1.classes_, fileName="", title="model1.emissionprob_")
 print("emission probabilities 2: ")
 print(np.round(model2.emissionprob_, decimals=2), "\n")
 # use le2 instead of le because this stream has less symbols
 # utils.plot_matrix(model2.emissionprob_,x_labels=le2.classes_, save=False, title="model2.emissionprob_")
 # print("emission probabilities multi: ")
-# print(np.round(model_multi.emissionprob_, decimals=2), "\n")
-# utils.plot_matrix(model_multi.emissionprob_, x_labels=le_multi.classes_, save=False, title="model_multi.emissionprob_")
+print(np.round(model_multi.emissionprob_, decimals=2), "\n")
+utils.plot_matrix(model_multi.emissionprob_, x_labels=le_multi.classes_, fileName="", title="mmulti.emissionprob_")
 
 # ------------------------------ out ------------------------------
 # save models
