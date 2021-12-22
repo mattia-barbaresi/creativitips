@@ -1,11 +1,9 @@
 import fnmatch
 import os
 import string
-import matplotlib
+
 import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
 import numpy as np
-from matplotlib.ticker import FormatStrFormatter
 
 
 def matrix_from_tps(tps_dict,x_encoding,y_encoding):
@@ -125,3 +123,60 @@ def softmax(x):
     f_x = e_x / sum
     return f_x
 
+
+def generate_Saffran_sequence():
+    words = ["babupu", "bupada", "dutaba", "patubi", "pidabu", "tutibu"]
+    ss = ""
+    prev = ""
+    # for x in range(0, 910):  # strict criterion
+    for x in range(0, 910):  # looser criterion
+        ww = np.random.choice(words)
+        # no repeated words in succession
+        while ww == prev:
+            ww = np.random.choice(words)
+        prev = ww
+        ss += ww
+    # p = ["tuti","buduta","batu","tibupa","tu","bi"]  # for testing
+
+    return [ss]
+
+
+def read_percept(mem, sequence):
+    """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
+    res = []
+    # number of units embedded in next percepts
+    i = np.random.randint(low=1, high=4)
+    s = sequence
+    while len(s) > 0 and i != 0:
+        units_list = [k for k in mem.keys() if s.startswith(k)]
+        if units_list:
+            # a unit in mem matched
+            unit = sorted(units_list, key=lambda item: len(item), reverse=True)[0]
+        else:
+            # add thr basic components (bigram)
+            unit = s[:2]
+        res.append(unit)
+        s = s[len(unit):]
+        i -= 1
+    return res
+
+
+BASE_LIST = string.ascii_letters + string.digits
+BASE_DICT = {}
+
+
+def base_fit(ss):
+    for i,s in enumerate(ss):
+        BASE_DICT[s] = BASE_LIST[i]
+
+
+def base_decode(istr):
+    ret = ""
+    rev_d = {v: k for k, v in BASE_DICT.items()}
+    for c in istr:
+        ret += rev_d[c] + " "
+    return ret.strip()
+
+
+def base_encode(sym):
+    return BASE_DICT[sym]
