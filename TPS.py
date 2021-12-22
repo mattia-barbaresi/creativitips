@@ -1,11 +1,15 @@
 import numpy as np
+from matplotlib import pyplot as plt
 from sklearn import preprocessing
 from scipy.special import softmax
+import const
 import utils
+from Parser import Parser
 
 
 class TPS:
     """Implements a transitional probabilities module"""
+
     def __init__(self, order=1):
         self.mem = dict()
         self.norm_mem = []
@@ -25,7 +29,7 @@ class TPS:
         if self.order > 0:
             for ii in range(self.order, len(percept)):
                 h = "".join(percept[ii - self.order:ii])
-                o = "".join(percept[ii:ii+1])
+                o = "".join(percept[ii:ii + 1])
                 if h in self.mem:
                     if o in self.mem[h]:
                         self.mem[h][o] += wg
@@ -37,16 +41,18 @@ class TPS:
             print("(TPmodule):Order must be grater than 1.")
 
     def normalize(self):
-        self.le_rows.fit(self.mem.keys())
         cols = []
-        for k in self.mem.keys():
-            cols.append(self.mem[k].keys())
-        self.le_cols.fit(self.mem.keys())
-        self.norm_mem = np.zeros((self.le_rows, self.le_cols))
+        keys = list(self.mem.keys())
+        self.le_rows.fit(keys)
+        for k in keys:
+            cols.extend(list(self.mem[k].keys()))
+        self.le_cols.fit(cols)
+        self.norm_mem = np.zeros((len(self.le_rows.classes_), len(self.le_cols.classes_)))
         for k, v in self.mem.items():
-            for kk,vv in v.items():
-                self.norm_mem[self.le_rows.transform(k)][self.le_cols.transform(kk)] = vv
+            for kk, vv in v.items():
+                self.norm_mem[self.le_rows.transform([k])[0]][self.le_cols.transform([kk])[0]] = vv
         self.norm_mem = softmax(self.norm_mem, axis=1)
+        # self.norm_mem = utils.softmax(self.norm_mem)
 
     def get_units(self, percept, ths=0.5):
         """
@@ -63,7 +69,7 @@ class TPS:
                 o = "".join(percept[ii:ii + 1])
                 tps_seqs.append(self.norm_mem[self.le_rows.transform(h)][self.le_rows.transform(o)])
             start = 0
-            for ind,tp in enumerate(tps_seqs):
+            for ind, tp in enumerate(tps_seqs):
                 if tp < ths:  # insert a break
                     res.append(percept[start:ind])
                     start = ind
@@ -92,7 +98,7 @@ class TPS:
                 o = "".join(percept[ii:ii + 1])
                 tps_seqs.append(self.norm_mem[self.le_rows.transform(h)][self.le_rows.transform(o)])
             start = 0
-            for ind,tp in enumerate(tps_seqs):
+            for ind, tp in enumerate(tps_seqs):
                 if tp < ths:  # insert a break
                     res.append(percept[start:ind])
                     start = ind
@@ -104,12 +110,12 @@ class TPS:
 
 
 if __name__ == "__main__":
-    np.random.seed(55)
-    w = 1.0
-    f = 0.05
-    i = 0.005
+    np.random.seed(19)
+    pars = Parser()
+    w = const.WEIGHT
+    f = const.FORGETTING
+    i = const.INTERFERENCE
     tps1 = TPS(1)  # memory for TPs
-    pmem = dict()  # memory for parser segments
 
     # input
     # with open("data/input.txt", "r") as fp:
@@ -120,19 +126,32 @@ if __name__ == "__main__":
     for s in sequences:
         while len(s) > 0:
             # read percept as an array of units
-            units = utils.read_percept(dict((k, v) for k, v in pmem.items() if v >= 1.0), s)
+            units = utils.read_percept(dict((k, v) for k, v in pars.mem.items() if v >= 1.0), s)
             p = "".join(units)
-            print("-----------------------------------")
-            print("percept: ", p)
-            tps1.encode(p, wg=w)
-            units = []
+
+            print("units: ", units, " -> ", p)
+            # add entire percept
             if len(p) <= 2:
                 # p is a unit, a primitive
-                if p in pmem:
-                    pmem[p] += 0.5
+                if p in pars.mem:
+                    pars.mem[p] += w / 2
                 else:
-                    pmem[p] = 1
+                    pars.mem[p] = w
+            else:
+                tps1.encode(units)
+                pars.add_weight(p, comps=units, weight=w)
+            # forgetting and interference
+            pars.forget_interf(p, comps=units, forget=f, interfer=i)
+            s = s[len(p):]
 
-        print("mem:", list(sorted(pmem.items(), key=lambda item: item[1], reverse=True)))
-
-    ord_mem = dict(sorted([(x, y) for x, y in pmem.items()], key=lambda item: item[1], reverse=True))
+    tps1.normalize()
+    print(tps1.mem)
+    # utils.plot_gra(tps1.mem)
+    utils.plot_gra_from_m(tps1.norm_mem, ler=tps1.le_rows, lec=tps1.le_cols)
+    ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
+    # for bicinia use base_decode
+    # ord_mem = dict(sorted([(utils.base_decode(x), y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
+    plt.bar(range(len(ord_mem)), list(ord_mem.values()), align='center')
+    plt.gcf().autofmt_xdate()
+    plt.xticks(range(len(ord_mem)), list(ord_mem.keys()))
+    plt.show()

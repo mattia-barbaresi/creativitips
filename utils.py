@@ -1,7 +1,7 @@
 import fnmatch
 import os
 import string
-
+from graphviz import Digraph
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -117,10 +117,8 @@ def show_counts(hebb_mtx):
 
 
 def softmax(x):
-    max = np.max(x, axis=1, keepdims=True)  # returns max of each row and keeps same dims
-    e_x = np.exp(x - max)  # subtracts each row with its max value
-    sum = np.sum(e_x, axis=1, keepdims=True)  # returns sum of each row and keeps same dims
-    f_x = e_x / sum
+    sum = np.sum(x, axis=1, keepdims=True)  # returns sum of each row and keeps same dims
+    f_x = x / sum
     return f_x
 
 
@@ -129,7 +127,7 @@ def generate_Saffran_sequence():
     ss = ""
     prev = ""
     # for x in range(0, 910):  # strict criterion
-    for x in range(0, 910):  # looser criterion
+    for x in range(0, 450):  # looser criterion
         ww = np.random.choice(words)
         # no repeated words in succession
         while ww == prev:
@@ -180,3 +178,42 @@ def base_decode(istr):
 
 def base_encode(sym):
     return BASE_DICT[sym]
+
+
+def plot_gra(d):
+    gra = Digraph(comment='TPs')
+    added = set()
+    for k,v in d.items():
+        if k not in added:
+            gra.node(k)
+            added.add(k)
+        for k2,v2 in v.items():
+            if v2 > 0.2:
+                if k2 not in added:
+                    gra.node(k)
+                    added.add(k)
+                gra.edge(k,k2,label="{:.2f}".format(v2))
+
+    print(gra.source)
+    gra.render('tps', view=True)
+
+
+def plot_gra_from_m(m, ler, lec):
+    gra = Digraph(comment='Normalized TPS > 0.2')
+    added = set()
+    rows,cols = m.shape
+    for i in range(rows):
+        li = ler.inverse_transform([i])[0]
+        if li not in added:
+            gra.node(li)
+            added.add(li)
+        for j in range(cols):
+            if m[i][j] > 0.05:
+                lj = lec.inverse_transform([j])[0]
+                if lj not in added:
+                    gra.node(lj)
+                    added.add(lj)
+                gra.edge(li,lj,label="{:.2f}".format(m[i][j]))
+
+    print(gra.source)
+    gra.render('tps_norm', view=True)
