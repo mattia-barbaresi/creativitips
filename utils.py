@@ -6,10 +6,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-def matrix_from_tps(tps_dict,x_encoding,y_encoding):
-    res = np.zeros((len(y_encoding.classes_),len(x_encoding.classes_)))
+# import networkx as nx
+# from networkx.drawing.nx_pydot import write_dot
+
+
+def matrix_from_tps(tps_dict, x_encoding, y_encoding):
+    res = np.zeros((len(y_encoding.classes_), len(x_encoding.classes_)))
     for start, ems in tps_dict.items():
-        for v,k in ems.items():
+        for v, k in ems.items():
             res[y_encoding.transform([start])[0]][x_encoding.transform([v])[0]] = k
     return res
 
@@ -37,8 +41,8 @@ def hebb_gen(sequence, hm):
     return out
 
 
-def plot_matrix(data, x_labels=[],y_labels=[], fileName="", title="transition matrix", clim=True):
-    nr,nc = data.shape
+def plot_matrix(data, x_labels=[], y_labels=[], fileName="", title="transition matrix", clim=True):
+    nr, nc = data.shape
     plt.imshow(data, cmap="plasma")
     if clim:
         plt.clim(0, 1.0)
@@ -99,12 +103,30 @@ def load_bicinia(dir_name):
                 b = lines[2].strip().split(" ")
                 seq2.extend(list(b))
                 len2.append(len(b))
-    return seq1,seq2,len1,len2
+    return seq1, seq2, len1, len2
 
 
-def mtx_from_multi(seq1,seq2,nd1,nd2):
-    mtx = np.zeros((nd1,nd2))
-    for s1,s2 in zip(seq1,seq2):
+def load_bicinia_single(dir_name):
+    seq1 = []
+    seq2 = []
+    ss = set()
+    for file in os.listdir(dir_name):
+        if fnmatch.fnmatch(file, "*.mid.txt"):
+            with open(dir_name + file, "r") as fp:
+                lines = fp.readlines()
+                a = lines[0].strip().split(" ")
+                seq1.append(a)
+                # lines[1] is empty
+                b = lines[2].strip().split(" ")
+                seq2.append(b)
+                ss.update(b)
+    base_fit(ss)
+    return ["".join([base_encode(y) for y in x]) for x in seq2]
+
+
+def mtx_from_multi(seq1, seq2, nd1, nd2):
+    mtx = np.zeros((nd1, nd2))
+    for s1, s2 in zip(seq1, seq2):
         mtx[s1][s2] += 1
     return mtx
 
@@ -127,7 +149,7 @@ def generate_Saffran_sequence():
     ss = ""
     prev = ""
     # for x in range(0, 910):  # strict criterion
-    for x in range(0, 450):  # looser criterion
+    for x in range(0, 910):  # looser criterion
         ww = np.random.choice(words)
         # no repeated words in succession
         while ww == prev:
@@ -151,8 +173,9 @@ def read_percept(mem, sequence):
             # a unit in mem matched
             unit = sorted(units_list, key=lambda item: len(item), reverse=True)[0]
         else:
-            # add thr basic components (bigram)
-            unit = s[:2]
+            lp = np.random.randint(2, 4)
+            unit = s[:2]  # add Parser basic components (bigram)..
+            # unit = s[:lp]  # ..or add rnd percept (randgram)
         res.append(unit)
         s = s[len(unit):]
         i -= 1
@@ -164,7 +187,7 @@ BASE_DICT = {}
 
 
 def base_fit(ss):
-    for i,s in enumerate(ss):
+    for i, s in enumerate(ss):
         BASE_DICT[s] = BASE_LIST[i]
 
 
@@ -183,37 +206,118 @@ def base_encode(sym):
 def plot_gra(d):
     gra = Digraph(comment='TPs')
     added = set()
-    for k,v in d.items():
+    for k, v in d.items():
         if k not in added:
             gra.node(k)
             added.add(k)
-        for k2,v2 in v.items():
+        for k2, v2 in v.items():
             if v2 > 0.2:
                 if k2 not in added:
                     gra.node(k)
                     added.add(k)
-                gra.edge(k,k2,label="{:.2f}".format(v2))
+                gra.edge(k, k2, label="{:.2f}".format(v2))
 
     print(gra.source)
     gra.render('tps', view=True)
 
 
-def plot_gra_from_m(m, ler, lec):
-    gra = Digraph(comment='Normalized TPS > 0.2')
+def plot_gra_from_m(m, ler, lec, filename=""):
+    gra = Digraph()  # comment='Normalized TPS'
     added = set()
-    rows,cols = m.shape
+    rows, cols = m.shape
     for i in range(rows):
         li = ler.inverse_transform([i])[0]
         if li not in added:
             gra.node(li)
             added.add(li)
         for j in range(cols):
-            if m[i][j] > 0.05:
+            if m[i][j] >= 0.1:
                 lj = lec.inverse_transform([j])[0]
                 if lj not in added:
                     gra.node(lj)
                     added.add(lj)
-                gra.edge(li,lj,label="{:.2f}".format(m[i][j]))
+                gra.edge(li, lj, label="{:.2f}".format(m[i][j]))
 
     print(gra.source)
-    gra.render('tps_norm', view=True)
+    gra.render(filename, view=True, format="png")
+
+
+# pygraphviz: problems while installing the package
+# def plot_nx_from_m(m, ler, lec):
+#     gra = nx.DiGraph()
+#     added = set()
+#     rows,cols = m.shape
+#     for i in range(rows):
+#         li = ler.inverse_transform([i])[0]
+#         if li not in added:
+#             gra.add_node(li)
+#             added.add(li)
+#         for j in range(cols):
+#             if m[i][j] >= 0.1:
+#                 lj = lec.inverse_transform([j])[0]
+#                 if lj not in added:
+#                     gra.add_node(lj)
+#                     added.add(lj)
+#                 gra.add_edge(li,lj,label="{:.2f}".format(m[i][j]))
+#
+#     G = nx.petersen_graph()
+#     subax1 = plt.subplot(121)
+#     nx.draw(G, with_labels=True, font_weight='bold')
+#     subax2 = plt.subplot(122)
+#     nx.draw_shell(G, nlist=[range(5, 10), range(5)], with_labels=True, font_weight='bold')
+#     pos = nx.nx_agraph.graphviz_layout(G)
+#     nx.draw(G, pos=pos)
+#     write_dot(G, 'tps_nx.dot')
+
+
+# bar-plot memory content
+def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
+    plt.rcParams["figure.figsize"] = (15, 5)
+    plt.bar(range(len(mem)), list(mem.values()), align='center')
+    plt.gcf().autofmt_xdate()
+    plt.xticks(range(len(mem)), list(mem.keys()))
+    if save_fig:
+        plt.savefig(fig_name, bbox_inches='tight')
+    if show_fig:
+        plt.tight_layout()
+        plt.show()
+
+
+# from transition probabilities, generates (occ) sequences
+def generate(tps, n_seq, occ_per_seq=16):
+    res = dict()
+    for order in tps.keys():
+        res[order] = list()
+        if int(order) == 0:
+            for _ns in range(0, n_seq):
+                str_res = ""
+                for _ops in range(0, occ_per_seq):
+                    idx = mc_choice(list(tps[order].values()))
+                    str_res += " " + list(tps[order].keys())[idx]
+                res[order].append(str_res.strip(" "))
+        else:
+            for _ns in range(0, n_seq):
+                # first choice
+                str_res = np.random.choice(list(tps[order].keys()))
+                sid = str_res
+                # all other occs
+                for _ops in range(0, occ_per_seq - order):
+                    #  ending symbol, no further nth-order transition
+                    # cut first symbol and search for the order-1 transition
+                    i = 0
+                    while i < order and (sid not in tps[order - i].keys()):
+                        sid = " ".join(sid.split(" ")[1:])
+                        i += 1
+                    if sid:
+                        val = tps[order - i][sid]
+                        idx = mc_choice(list(val.values()))
+                        str_res += " " + list(val.keys())[idx]
+                    else:
+                        # choose a symbol of the 0-th level
+                        idx = mc_choice(list(tps[0].values()))
+                        val = list(tps[0].keys())[idx]
+                        str_res += " " + val
+
+                    sid = " ".join(str_res.split(" ")[-order:])
+                res[order].append(str_res)
+    return res
