@@ -1,3 +1,5 @@
+import fnmatch
+import os
 import numpy as np
 from matplotlib import pyplot as plt
 from sklearn import preprocessing
@@ -51,8 +53,8 @@ class TPS:
         for k, v in self.mem.items():
             for kk, vv in v.items():
                 self.norm_mem[self.le_rows.transform([k])[0]][self.le_cols.transform([kk])[0]] = vv
-        self.norm_mem = softmax(self.norm_mem, axis=1)
-        # self.norm_mem = utils.softmax(self.norm_mem)
+        # self.norm_mem = softmax(self.norm_mem, axis=1)
+        self.norm_mem = utils.softmax(self.norm_mem)
 
     def get_units(self, percept, ths=0.5):
         """
@@ -116,17 +118,25 @@ if __name__ == "__main__":
     f = const.FORGETTING
     i = const.INTERFERENCE
     tps1 = TPS(1)  # memory for TPs
+    out_dir = const.OUT_DIR + "tps_{}/".format("parser")
 
     # input
     # with open("data/input.txt", "r") as fp:
     #     sequences = [line.rstrip() for line in fp]
+
+    # load bicinia
+    # sequences = utils.load_bicinia_single("data/bicinia/")
+
     sequences = utils.generate_Saffran_sequence()
 
     # read percepts using parser function
     for s in sequences:
         while len(s) > 0:
+            print(" ------------------------------------------------------ ")
             # read percept as an array of units
-            units = utils.read_percept(dict((k, v) for k, v in pars.mem.items() if v >= 1.0), s)
+            # active elements in mem shape perception
+            active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 1.0)
+            units = utils.read_percept(active_mem, s)
             p = "".join(units)
 
             print("units: ", units, " -> ", p)
@@ -147,11 +157,8 @@ if __name__ == "__main__":
     tps1.normalize()
     print(tps1.mem)
     # utils.plot_gra(tps1.mem)
-    utils.plot_gra_from_m(tps1.norm_mem, ler=tps1.le_rows, lec=tps1.le_cols)
+    utils.plot_gra_from_m(tps1.norm_mem, ler=tps1.le_rows, lec=tps1.le_cols, filename=out_dir+"tps_norm")
     ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
     # for bicinia use base_decode
-    # ord_mem = dict(sorted([(utils.base_decode(x), y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
-    plt.bar(range(len(ord_mem)), list(ord_mem.values()), align='center')
-    plt.gcf().autofmt_xdate()
-    plt.xticks(range(len(ord_mem)), list(ord_mem.keys()))
-    plt.show()
+    # ord_mem = dict(sorted([(utils.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
+    utils.plot_mem(ord_mem, out_dir + "words_plot.png",save_fig=True)

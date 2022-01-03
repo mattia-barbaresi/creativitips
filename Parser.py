@@ -100,23 +100,9 @@ if __name__ == "__main__":
     #     sequences = [line.rstrip() for line in fp]
 
     # load bicinia
-    # seq1 = []
-    # seq2 = []
-    # ss= set()
-    # for file in os.listdir("data/bicinia"):
-    #     if fnmatch.fnmatch(file, "*.mid.txt"):
-    #         with open("data/bicinia/" + file, "r") as fp:
-    #             lines = fp.readlines()
-    #             a = lines[0].strip().split(" ")
-    #             seq1.append(a)
-    #             # lines[1] is empty
-    #             b = lines[2].strip().split(" ")
-    #             seq2.append(b)
-    #             ss.update(b)
-    # utils.base_fit(ss)
-    # sequences = ["".join([utils.base_encode(y) for y in x]) for x in seq2]
+    sequences = utils.load_bicinia_single("data/bicinia/")
 
-    sequences = utils.generate_Saffran_sequence()
+    # sequences = utils.generate_Saffran_sequence()
 
     for s in sequences:
         while len(s) > 0:
@@ -136,11 +122,9 @@ if __name__ == "__main__":
             # forgetting and interference
             pars.forget_interf(p, comps=units, forget=f, interfer=i)
             s = s[len(p):]
-    ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
+    # ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
     # for bicinia use base_decode
-    # ord_mem = dict(sorted([(utils.base_decode(x), y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
-    plt.bar(range(len(ord_mem)), list(ord_mem.values()), align='center')
-    plt.gcf().autofmt_xdate()
-    plt.xticks(range(len(ord_mem)), list(ord_mem.keys()))
-    plt.show()
+    ord_mem = dict(sorted([(utils.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
+    plt.rcParams["figure.figsize"] = (15, 7)
+    utils.plot_mem(ord_mem, save_fig=False)
 
