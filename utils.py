@@ -41,7 +41,7 @@ def hebb_gen(sequence, hm):
     return out
 
 
-def plot_matrix(data, x_labels=[], y_labels=[], fileName="", title="transition matrix", clim=True):
+def plot_matrix(data, x_labels=None, y_labels=None, fileName="", title="transition matrix", clim=True):
     nr, nc = data.shape
     plt.imshow(data, cmap="plasma")
     if clim:
@@ -51,9 +51,9 @@ def plot_matrix(data, x_labels=[], y_labels=[], fileName="", title="transition m
     ax.set_xticks(np.arange(0, nc, 1))
     ax.set_yticks(np.arange(0, nr, 1))
     # Labels for major ticks
-    if len(y_labels) > 0:
+    if y_labels > 0:
         ax.set_yticklabels(y_labels)
-    if len(x_labels) > 0:
+    if x_labels > 0:
         ax.set_xticklabels(x_labels)
     # Minor ticks
     ax.set_xticks(np.arange(-.5, nc, 1), minor=True)
@@ -106,7 +106,7 @@ def load_bicinia(dir_name):
     return seq1, seq2, len1, len2
 
 
-def load_bicinia_single(dir_name):
+def load_bicinia_single(dir_name, be):
     seq1 = []
     seq2 = []
     ss = set()
@@ -120,8 +120,8 @@ def load_bicinia_single(dir_name):
                 b = lines[2].strip().split(" ")
                 seq2.append(b)
                 ss.update(b)
-    base_fit(ss)
-    return ["".join([base_encode(y) for y in x]) for x in seq2]
+    be.base_fit(ss)
+    return ["".join([be.base_encode(y) for y in x]) for x in seq2]
 
 
 def mtx_from_multi(seq1, seq2, nd1, nd2):
@@ -139,8 +139,8 @@ def show_counts(hebb_mtx):
 
 
 def softmax(x):
-    sum = np.sum(x, axis=1, keepdims=True)  # returns sum of each row and keeps same dims
-    f_x = x / sum
+    rsum = np.sum(x, axis=1, keepdims=True)  # returns sum of each row and keeps same dims
+    f_x = x / rsum
     return f_x
 
 
@@ -148,8 +148,8 @@ def generate_Saffran_sequence():
     words = ["babupu", "bupada", "dutaba", "patubi", "pidabu", "tutibu"]
     ss = ""
     prev = ""
-    # for x in range(0, 910):  # strict criterion
-    for x in range(0, 910):  # looser criterion
+    # for x in range(0, 449):  # looser criterion
+    for x in range(0, 910):  # strict criterion
         ww = np.random.choice(words)
         # no repeated words in succession
         while ww == prev:
@@ -161,7 +161,7 @@ def generate_Saffran_sequence():
     return [ss]
 
 
-def read_percept(mem, sequence):
+def read_percept(mem, sequence, ulens=[2]):
     """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
     res = []
     # number of units embedded in next percepts
@@ -173,34 +173,34 @@ def read_percept(mem, sequence):
             # a unit in mem matched
             unit = sorted(units_list, key=lambda item: len(item), reverse=True)[0]
         else:
-            lp = np.random.randint(2, 4)
-            unit = s[:2]  # add Parser basic components (bigram)..
-            # unit = s[:lp]  # ..or add rnd percept (randgram)
+            # unit = s[:2]  # add Parser basic components (bigram)..
+            unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram and/or trigram..)
         res.append(unit)
         s = s[len(unit):]
         i -= 1
     return res
 
 
-BASE_LIST = string.ascii_letters + string.digits
-BASE_DICT = {}
+class Encoder:
+    """Class for encoding input"""
 
+    def __init__(self):
+        self.base_list = string.ascii_letters + string.digits
+        self.base_dict = {}
 
-def base_fit(ss):
-    for i, s in enumerate(ss):
-        BASE_DICT[s] = BASE_LIST[i]
+    def base_fit(self, ss):
+        for i, s in enumerate(ss):
+            self.base_dict[s] = self.base_list[i]
 
+    def base_decode(self, istr):
+        ret = ""
+        rev_d = {v: k for k, v in self.base_dict.items()}
+        for c in istr:
+            ret += rev_d[c] + " "
+        return ret.strip()
 
-def base_decode(istr):
-    ret = ""
-    rev_d = {v: k for k, v in BASE_DICT.items()}
-    for c in istr:
-        ret += rev_d[c] + " "
-    return ret.strip()
-
-
-def base_encode(sym):
-    return BASE_DICT[sym]
+    def base_encode(self, sym):
+        return self.base_dict[sym]
 
 
 def plot_gra(d):
@@ -238,8 +238,8 @@ def plot_gra_from_m(m, ler, lec, filename=""):
                     added.add(lj)
                 gra.edge(li, lj, label="{:.2f}".format(m[i][j]))
 
-    print(gra.source)
-    gra.render(filename, view=True, format="png")
+    # print(gra.source)
+    gra.render(filename, view=False, engine="dot", format="png")
 
 
 # pygraphviz: problems while installing the package

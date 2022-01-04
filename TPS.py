@@ -81,14 +81,13 @@ class TPS:
 
         return res
 
-    def get_units_brent(self, percept, ths=0.5):
+    def get_units_brent(self, percept):
         """
         Returns segmented percept using stored TPs.
         (Brent 1999) a formalization of the original proposal by Saffarn, Newport et al.
-        Consider the segment “wxyz”…whenever the statistical value (TPs or O\E) of the transitions under consideration
+        Consider the segment “wxyz”…whenever the statistical value (TPs or O/E) of the transitions under consideration
         is lower than the statistical values of its adjacent neighbors, a boundary is inserted.
         IF TPs (“xy”) < TPs(“wx”) and < TPs(“yz”)  segments between “x” e “y”
-        :param ths: segmentation threshold
         :param percept could be a string, or an (ordered, sequential) array of strings.
         In latter case TPs are counted between elements of the array(units), instead of between symbols
         """
@@ -100,10 +99,10 @@ class TPS:
                 o = "".join(percept[ii:ii + 1])
                 tps_seqs.append(self.norm_mem[self.le_rows.transform(h)][self.le_rows.transform(o)])
             start = 0
-            for ind, tp in enumerate(tps_seqs):
-                if tp < ths:  # insert a break
-                    res.append(percept[start:ind])
-                    start = ind
+            # for ind, tp in enumerate(tps_seqs):
+            #     if tp < ths:  # insert a break
+            #         res.append(percept[start:ind])
+            #         start = ind
             res.append(percept[start:])
         else:
             print("(TPmodule):Order must be grater than 1.")
@@ -118,47 +117,51 @@ if __name__ == "__main__":
     f = const.FORGETTING
     i = const.INTERFERENCE
     tps1 = TPS(1)  # memory for TPs
-    out_dir = const.OUT_DIR + "tps_{}/".format("parser")
+    file_names = ["input"]
+    units_len = [2,3]
+    for fn in file_names:
+        out_dir = const.OUT_DIR + "{}_({})/".format(fn,"-".join([str(u) for u in units_len]))
+        # --------------- INPUT ---------------
+        if fn == "saffran":
+            # load Saffran input
+            sequences = utils.generate_Saffran_sequence()
+        else:
+            with open("data/{}.txt".format(fn), "r") as fp:
+                sequences = [line.strip() for line in fp]
 
-    # input
-    # with open("data/input.txt", "r") as fp:
-    #     sequences = [line.rstrip() for line in fp]
+        # load bicinia
+        # base_encoder = utils.Encoder()
+        # sequences = utils.load_bicinia_single("data/bicinia/",base_encoder)
 
-    # load bicinia
-    # sequences = utils.load_bicinia_single("data/bicinia/")
-
-    sequences = utils.generate_Saffran_sequence()
-
-    # read percepts using parser function
-    for s in sequences:
-        while len(s) > 0:
-            print(" ------------------------------------------------------ ")
-            # read percept as an array of units
-            # active elements in mem shape perception
-            active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 1.0)
-            units = utils.read_percept(active_mem, s)
-            p = "".join(units)
-
-            print("units: ", units, " -> ", p)
-            # add entire percept
-            if len(p) <= 2:
-                # p is a unit, a primitive
-                if p in pars.mem:
-                    pars.mem[p] += w / 2
+        # read percepts using parser function
+        for s in sequences:
+            while len(s) > 0:
+                print(" ------------------------------------------------------ ")
+                # read percept as an array of units
+                # active elements in mem shape perception
+                active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 1.0)
+                units = utils.read_percept(active_mem, s, ulens=units_len)
+                p = "".join(units)
+                print("units: ", units, " -> ", p)
+                # add entire percept
+                if len(p) <= 3:
+                    # p is a unit, a primitive
+                    if p in pars.mem:
+                        pars.mem[p] += w / 2
+                    else:
+                        pars.mem[p] = w
                 else:
-                    pars.mem[p] = w
-            else:
-                tps1.encode(units)
-                pars.add_weight(p, comps=units, weight=w)
-            # forgetting and interference
-            pars.forget_interf(p, comps=units, forget=f, interfer=i)
-            s = s[len(p):]
+                    tps1.encode(units)
+                    pars.add_weight(p, comps=units, weight=w)
+                # forgetting and interference
+                pars.forget_interf(p, comps=units, forget=f, interfer=i)
+                s = s[len(p):]
 
-    tps1.normalize()
-    print(tps1.mem)
-    # utils.plot_gra(tps1.mem)
-    utils.plot_gra_from_m(tps1.norm_mem, ler=tps1.le_rows, lec=tps1.le_cols, filename=out_dir+"tps_norm")
-    ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
-    # for bicinia use base_decode
-    # ord_mem = dict(sorted([(utils.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
-    utils.plot_mem(ord_mem, out_dir + "words_plot.png",save_fig=True)
+        tps1.normalize()
+        print(tps1.mem)
+        # utils.plot_gra(tps1.mem)
+        utils.plot_gra_from_m(tps1.norm_mem, ler=tps1.le_rows, lec=tps1.le_cols, filename=out_dir + "tps_norm")
+        ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
+        # for bicinia use base_decode
+        # ord_mem = dict(sorted([(base_encoder.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
+        utils.plot_mem(ord_mem, out_dir + "words_plot.png", save_fig=True, show_fig=True)
