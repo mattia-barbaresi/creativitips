@@ -1,4 +1,6 @@
 # from: https://www.nltk.org/howto/grammar.html
+import random
+
 from nltk import CFG, PCFG, ChartParser
 from nltk.parse.generate import generate
 from random import choice
@@ -51,9 +53,34 @@ grammar = CFG.fromstring('''
 #     P -> 'with' [0.61] | 'under' [0.39]
 #     """)
 
-parser = ChartParser(grammar)
+# parser = ChartParser(grammar)
+#
+# gr = parser.grammar()
+# for x in generate(gr):
+#     # print(' '.join(produce(gr, gr.start())))
+#     print(' '.join(x))
 
-gr = parser.grammar()
-for x in generate(gr):
-    # print(' '.join(produce(gr, gr.start())))
-    print(' '.join(x))
+# generates input and input2 complete
+A = ["mer", "kof", "daz"]
+B = ["hox", "neb", "lev"]
+C = ["tid", "rel", "jes"]
+D = ["lum", "sot", "zor"]
+E = ["rud", "fal", "taf"]
+F = ["tril","kijo","fido"]
+G = ["haiku","zidyl","virxu"]
+
+res = []
+for a in A:
+    for e in E:
+        for b in B:
+            for c in C:
+                for d in D:
+                    res.append(a + b + c + d + e)
+        for f in F:
+            for g in G:
+                res.append(a + f + g + e)
+
+random.shuffle(res)
+with open("data/input2_full.txt", "w") as fp:
+    for l in res:
+        fp.write(l+"\n")
