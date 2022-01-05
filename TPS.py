@@ -56,6 +56,18 @@ class TPS:
         # self.norm_mem = softmax(self.norm_mem, axis=1)
         self.norm_mem = utils.softmax(self.norm_mem)
 
+    def forget(self, uts, forget):
+        for h,vs in self.mem.items():
+            for o,v in vs.items():
+                if h not in uts and o not in uts:
+                    self.mem[h][o] -= forget
+        # cleaning
+        for h, vs in self.mem.items():
+            for key in [k for k, v in vs.items() if v <= 0.0]:
+                self.mem[h].pop(key)
+        for key in [k for k, v in self.mem.items() if len(v) == 0]:
+            self.mem.pop(key)
+
     def get_units(self, percept, ths=0.5):
         """
         Returns segmented percept using stored TPs.
@@ -73,7 +85,7 @@ class TPS:
             start = 0
             for ind, tp in enumerate(tps_seqs):
                 if tp < ths:  # insert a break
-                    res.append(percept[start:ind])
+                    res.append(percept[self.order + start:ind])
                     start = ind
             res.append(percept[start:])
         else:
@@ -109,18 +121,55 @@ class TPS:
 
         return res
 
+    def get_next_unit(self, percept, ulens):
+        tps_seqs = []
+        if self.order > 0:
+            if self.order < len(percept):
+                for ii in range(self.order, len(percept)):
+                    h = "".join(percept[ii - self.order:ii])
+                    o = "".join(percept[ii:ii + 1])
+                    if h in self.mem and o in self.mem[h]:
+                        tps_seqs.append(self.mem[h][o])
+                    else:
+                        tps_seqs.append(0)  # no encoded transition
+                for ii in range(len(tps_seqs) - 1):
+                    if tps_seqs[ii + 1] - tps_seqs[ii] > 0:  # insert a break
+                        print("------ unit: ", percept[:self.order + ii])
+                        return percept[:self.order + ii]
+            else:
+                print("(TPmodule):Order grater than percetp length. Percept is too short.")
+        else:
+            print("(TPmodule):Order must be grater than 1.")
+
+        return percept[:np.random.choice(ulens)]
+
+    # def generate(self, n_samples, start=None):
+    #     res = ""
+    #     if start:
+    #         curr = start
+    #     else:
+    #         curr = np.random.choice(self.mem.keys())
+    #     res += curr
+    #     for ii in range(n_samples):
+    #         idx = utils.mc_choice(list(self.mem[curr].values()))
+    #         nx = self.mem[curr].keys()[idx]
+    #         res += nx
+    #         curr = nc
+    #     return res
+
 
 if __name__ == "__main__":
-    np.random.seed(19)
+    np.random.seed(77)
     pars = Parser()
     w = const.WEIGHT
     f = const.FORGETTING
     i = const.INTERFERENCE
-    tps1 = TPS(1)  # memory for TPs
-    file_names = ["input"]
-    units_len = [2,3]
+    tps1 = TPS(1)  # memory for TPs inter
+    tps2 = TPS(1)  # memory for TPs intra
+    file_names = ["saffran"]
+    units_len = [2]
     for fn in file_names:
-        out_dir = const.OUT_DIR + "{}_({})/".format(fn,"-".join([str(u) for u in units_len]))
+        out_dir = const.OUT_DIR + "{}_({})/".format(fn, "-".join([str(u) for u in units_len]))
         # --------------- INPUT ---------------
         if fn == "saffran":
             # load Saffran input
@@ -139,12 +188,13 @@ if __name__ == "__main__":
                 print(" ------------------------------------------------------ ")
                 # read percept as an array of units
                 # active elements in mem shape perception
-                active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 1.0)
-                units = utils.read_percept(active_mem, s, ulens=units_len)
+                active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.9)
+                units = utils.read_percept(active_mem, s, ulens=units_len, tps=tps2)
                 p = "".join(units)
+                tps2.encode(p)
                 print("units: ", units, " -> ", p)
                 # add entire percept
-                if len(p) <= 3:
+                if len(p) <= max(units_len):
                     # p is a unit, a primitive
                     if p in pars.mem:
                         pars.mem[p] += w / 2
@@ -154,13 +204,16 @@ if __name__ == "__main__":
                     tps1.encode(units)
                     pars.add_weight(p, comps=units, weight=w)
                 # forgetting and interference
-                pars.forget_interf(p, comps=units, forget=f, interfer=i)
+                pars.forget_interf(p, comps=units, forget=f, interfer=i, ulens=units_len)
+                tps1.forget(units, i)
                 s = s[len(p):]
 
         tps1.normalize()
-        print(tps1.mem)
+        tps2.normalize()
+        # print(tps1.mem)
         # utils.plot_gra(tps1.mem)
-        utils.plot_gra_from_m(tps1.norm_mem, ler=tps1.le_rows, lec=tps1.le_cols, filename=out_dir + "tps_norm")
+        utils.plot_gra_from_m(tps1.norm_mem, ler=tps1.le_rows, lec=tps1.le_cols, filename=out_dir + "tps1_norm")
+        utils.plot_gra_from_m(tps2.norm_mem, ler=tps2.le_rows, lec=tps2.le_cols, filename=out_dir + "tps2_norm")
         ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
         # for bicinia use base_decode
         # ord_mem = dict(sorted([(base_encoder.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))

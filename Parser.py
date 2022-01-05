@@ -61,28 +61,39 @@ class Parser:
         for u in comps:
             if u in self.mem:
                 self.mem[u] += weight/2
+                # print("u: ", u, weight/2)
             else:
                 self.mem[u] = weight
-            print("u: ", u, 0.5)
+                # print("u: ", u, weight)
 
         if pct in self.mem:
-            self.mem[pct] += weight
+            self.mem[pct] += weight/2
         else:
             self.mem[pct] = weight
-        print("pct: ", pct, weight)
+        # print("pct: ", pct, weight)
 
-    def forget_interf(self, pct, comps=None, forget=0.05, interfer=0.005):
+    def forget_interf(self, pct, comps=None, forget=0.05, interfer=0.005, ulens=[2]):
         # forgetting
         self.mem.update((k, v - forget) for k, v in self.mem.items() if k != pct)
 
         # interference
         for s in comps:
             # decompose in units
-            for s2 in [s[_i:_i + 2] for _i in range(0, len(s), 2)]:
+            if len(s) > max(ulens):
+                _i = 0
+                uts = []
+                while _i <= len(s):
+                    ul = np.random.choice(ulens)
+                    uts.append(s[_i:_i + ul])
+                    _i += ul
+            else:
+                uts = [s]
+            # uts = [s[_i:_i + 2] for _i in range(0, len(s), 2)]
+            for s2 in uts:
                 for k, v in self.mem.items():
                     if s2 in k and k != pct and k not in comps:
                         self.mem[k] -= interfer
-                        print("k: ", k, -interfer)
+                        # print("k: ", k, -interfer)
         # cleaning
         for key in [k for k, v in self.mem.items() if v <= 0.0]:
             self.mem.pop(key)
@@ -100,9 +111,9 @@ if __name__ == "__main__":
     #     sequences = [line.rstrip() for line in fp]
 
     # load bicinia
-    sequences = utils.load_bicinia_single("data/bicinia/")
+    # sequences = utils.load_bicinia_single("data/bicinia/")
 
-    # sequences = utils.generate_Saffran_sequence()
+    sequences = utils.generate_Saffran_sequence()
 
     for s in sequences:
         while len(s) > 0:
@@ -122,9 +133,9 @@ if __name__ == "__main__":
             # forgetting and interference
             pars.forget_interf(p, comps=units, forget=f, interfer=i)
             s = s[len(p):]
-    # ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
+    ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
     # for bicinia use base_decode
-    ord_mem = dict(sorted([(utils.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
+    # ord_mem = dict(sorted([(utils.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
     plt.rcParams["figure.figsize"] = (15, 7)
     utils.plot_mem(ord_mem, save_fig=False)
 
