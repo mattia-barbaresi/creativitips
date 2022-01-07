@@ -1,7 +1,7 @@
 import string
 from matplotlib import pyplot as plt
 import utils
-from Parser import Parser
+from Parser import ParserModule
 from TPS import TPSModule
 import numpy as np
 
@@ -9,13 +9,14 @@ np.set_printoptions(linewidth=np.inf)
 np.random.seed(77)
 max_order = 3
 
-# with open("data/{}.txt".format("input"), "r") as fp:
-#     sequences = [line.strip() for line in fp]
+with open("data/{}.txt".format("input"), "r") as fp:
+    sequences = [line.strip() for line in fp]
 
-sequences = utils.generate_Saffran_sequence()
+# sequences = utils.generate_Saffran_sequence()
 
 symbols = set([x for sl in sequences for x in sl])
 print(symbols)
+parser = ParserModule()
 symbols_dict = {s:0 for s in symbols}
 TPS = list()
 for o in range(max_order):
@@ -39,6 +40,31 @@ for seq in sequences:
             _tps.encode(buffer[-(_i+1):] + seq[idx])
         # update buffer
         buffer = buffer[1:] + seq[idx]
+        # units from memory, if any
+        units = parser.read_percept(buffer)
+        units_tps = []
+        if len(units) == 0:
+            for _tps in TPS:
+                units_tps.append(_tps.get_units(buffer))
+        # else units using brent tps
+        units_tps_brent = []
+        if len(units) == 0:
+            for _tps in TPS:
+                units_tps_brent.append(_tps.get_units_brent(buffer))
+
+        # mem
+        # tps_units.encode(units)
+        # pars.add_weight(p, comps=units, weight=w)
+        # # forgetting and interference
+        # pars.forget_interf(p, comps=units, forget=f, interfer=i, ulens=units_len)
+        # tps_units.forget(units, i)
+
+
+        print("*****************************")
+        print("units: ", units)
+        print("units_tps: ", units_tps)
+        print("units_tps_brent: ", units_tps_brent)
+        print("*****************************")
 
 print(symbols_dict)
 print(sum(symbols_dict.values()))
@@ -49,7 +75,8 @@ for tps in TPS:
 print("==========================")
 
 # segmentation
-seq = "tutibubupadadutabapatubipidabu"
+# seq = "tutibubupadadutabapatubipidabu"
+seq = "kofhoxrellumtaf"
 for tps in TPS:
     print("--- order: ", tps.order)
     tps.normalize()

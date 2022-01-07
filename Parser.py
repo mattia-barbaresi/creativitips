@@ -8,7 +8,7 @@ import re
 import numpy as np
 
 
-class Parser:
+class ParserModule:
     """Class for PARSER"""
     def __init__(self, memory=None):
         if memory is None:
@@ -54,6 +54,25 @@ class Parser:
                             # splits bi-grams
                             lst = [c[_i:_i + 2] for _i in range(0, len(c), 2)]
                             res = res + lst
+        return res
+
+    def read_percept(self, sequence):
+        """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
+        res = []
+        # number of units embedded in next percepts
+        i = np.random.randint(low=1, high=4)
+        s = sequence
+        while len(s) > 0 and i != 0:
+            units_list = [k for k,v in self.mem.items() if v > 0.9 and len(k) > 1 and s.startswith(k)]
+            if units_list:
+                # a unit in mem matched
+                unit = sorted(units_list, key=lambda item: len(item), reverse=True)[0]
+                print("unit shape perception:", unit)
+            else:
+                return res
+            res.append(unit)
+            s = s[len(unit):]
+            i -= 1
         return res
 
     def add_weight(self, pct, comps=None, weight=1.0):

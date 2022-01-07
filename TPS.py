@@ -4,11 +4,10 @@ import numpy as np
 from matplotlib import pyplot as plt
 from sklearn import preprocessing
 from scipy.special import softmax
-
 import complexity
 import const
 import utils
-from Parser import Parser
+from Parser import ParserModule
 
 
 class TPSModule:
@@ -77,6 +76,7 @@ class TPSModule:
         :param percept could be a string, or an (ordered, sequential) array of strings.
         In latter case TPs are counted between elements of the array(units), instead of between symbols
         """
+        self.normalize()
         res = []
         tps_seqs = []
         if self.order > 0:
@@ -87,8 +87,8 @@ class TPSModule:
             start = 0
             for ind, tp in enumerate(tps_seqs):
                 if tp < ths:  # insert a break
-                    res.append(percept[self.order + start:ind])
-                    start = ind
+                    res.append(percept[start: self.order + ind])
+                    start = self.order + ind
             res.append(percept[start:])
         else:
             print("(TPmodule):Order must be grater than 1.")
@@ -113,10 +113,17 @@ class TPSModule:
                 o = "".join(percept[ii:ii + 1])
                 tps_seqs.append(self.norm_mem[self.le_rows.transform([h])[0]][self.le_cols.transform([o])[0]])
             start = 0
-            # for ind, tp in enumerate(tps_seqs):
-            #     if tp < ths:  # insert a break
-            #         res.append(percept[start:ind])
-            #         start = ind
+            _i = 1
+            tps_seqs = [1.0] + tps_seqs  # consider the first as high transitions(for segmenting first positions too)
+            while _i < len(tps_seqs) - 1:
+                if tps_seqs[_i - 1] > tps_seqs[_i] < tps_seqs[_i + 1]:  # insert a break
+                    res.append(percept[start: self.order + _i - 1])
+                    start = self.order + _i - 1
+                _i += 1
+            # for _i in range(1,len(tps_seqs)-1):
+            #     if tps_seqs[_i-1] < tps_seqs[_i] < tps_seqs[_i+1]:  # insert a break
+            #         res.append(percept[start:self.order + _i])
+            #         start = self.order + _i
             res.append(percept[start:])
         else:
             print("(TPmodule):Order must be grater than 1.")
@@ -192,7 +199,7 @@ class TPSModule:
 
 if __name__ == "__main__":
     np.random.seed(77)
-    pars = Parser()
+    pars = ParserModule()
     w = const.WEIGHT
     f = const.FORGETTING
     i = const.INTERFERENCE
