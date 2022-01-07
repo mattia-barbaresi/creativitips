@@ -4,12 +4,14 @@ import numpy as np
 from matplotlib import pyplot as plt
 from sklearn import preprocessing
 from scipy.special import softmax
+
+import complexity
 import const
 import utils
 from Parser import Parser
 
 
-class TPS:
+class TPSModule:
     """Implements a transitional probabilities module"""
 
     def __init__(self, order=1):
@@ -57,8 +59,8 @@ class TPS:
         self.norm_mem = utils.softmax(self.norm_mem)
 
     def forget(self, uts, forget):
-        for h,vs in self.mem.items():
-            for o,v in vs.items():
+        for h, vs in self.mem.items():
+            for o, v in vs.items():
                 if h not in uts and o not in uts:
                     self.mem[h][o] -= forget
         # cleaning
@@ -81,7 +83,7 @@ class TPS:
             for ii in range(self.order, len(percept)):
                 h = "".join(percept[ii - self.order:ii])
                 o = "".join(percept[ii:ii + 1])
-                tps_seqs.append(self.norm_mem[self.le_rows.transform(h)][self.le_rows.transform(o)])
+                tps_seqs.append(self.norm_mem[self.le_rows.transform([h])[0]][self.le_cols.transform([o])[0]])
             start = 0
             for ind, tp in enumerate(tps_seqs):
                 if tp < ths:  # insert a break
@@ -109,7 +111,7 @@ class TPS:
             for ii in range(self.order, len(percept)):
                 h = "".join(percept[ii - self.order:ii])
                 o = "".join(percept[ii:ii + 1])
-                tps_seqs.append(self.norm_mem[self.le_rows.transform(h)][self.le_rows.transform(o)])
+                tps_seqs.append(self.norm_mem[self.le_rows.transform([h])[0]][self.le_cols.transform([o])[0]])
             start = 0
             # for ind, tp in enumerate(tps_seqs):
             #     if tp < ths:  # insert a break
@@ -120,6 +122,36 @@ class TPS:
             print("(TPmodule):Order must be grater than 1.")
 
         return res
+
+    def get_probs(self, percept):
+        """
+        Returns segmented percept using stored TPs.
+        (Brent 1999) a formalization of the original proposal by Saffarn, Newport et al.
+        Consider the segment “wxyz”…whenever the statistical value (TPs or O/E) of the transitions under consideration
+        is lower than the statistical values of its adjacent neighbors, a boundary is inserted.
+        IF TPs (“xy”) < TPs(“wx”) and < TPs(“yz”)  segments between “x” e “y”
+        :param percept could be a string, or an (ordered, sequential) array of strings.
+        In latter case TPs are counted between elements of the array(units), instead of between symbols
+        """
+        res = []
+        tps_seqs = []
+        if self.order > 0:
+            for ii in range(self.order, len(percept)):
+                h = "".join(percept[ii - self.order:ii])
+                o = "".join(percept[ii:ii + 1])
+                tps_seqs.append(self.norm_mem[self.le_rows.transform([h])[0]][self.le_cols.transform([o])[0]])
+            return tps_seqs
+        else:
+            print("(TPmodule):Order must be grater than 1.")
+
+        return res
+
+    def get_certain_units(self):
+        ures = []
+        for k in self.mem.keys():
+            if len(self.mem[k]) == 1:
+                ures.append(k + next(iter(self.mem[k])))
+        return ures
 
     def get_next_unit(self, percept, ulens):
         tps_seqs = []
@@ -164,10 +196,10 @@ if __name__ == "__main__":
     w = const.WEIGHT
     f = const.FORGETTING
     i = const.INTERFERENCE
-    tps1 = TPS(1)  # memory for TPs inter
-    tps2 = TPS(1)  # memory for TPs intra
-    file_names = ["saffran"]
-    units_len = [2]
+    tps_units = TPSModule(1)  # memory for TPs inter
+    tps_1 = TPSModule(1)  # memory for TPs intra
+    file_names = ["input"]
+    units_len = [3]
     for fn in file_names:
         out_dir = const.OUT_DIR + "{}_({})/".format(fn, "-".join([str(u) for u in units_len]))
         # --------------- INPUT ---------------
@@ -189,9 +221,9 @@ if __name__ == "__main__":
                 # read percept as an array of units
                 # active elements in mem shape perception
                 active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.9)
-                units = utils.read_percept(active_mem, s, ulens=units_len, tps=tps2)
+                units = utils.read_percept(active_mem, s, ulens=units_len, tps=tps_1)
                 p = "".join(units)
-                tps2.encode(p)
+                tps_1.encode(p)
                 print("units: ", units, " -> ", p)
                 # add entire percept
                 if len(p) <= max(units_len):
@@ -201,19 +233,20 @@ if __name__ == "__main__":
                     else:
                         pars.mem[p] = w
                 else:
-                    tps1.encode(units)
+                    tps_units.encode(units)
                     pars.add_weight(p, comps=units, weight=w)
                 # forgetting and interference
                 pars.forget_interf(p, comps=units, forget=f, interfer=i, ulens=units_len)
-                tps1.forget(units, i)
+                tps_units.forget(units, i)
                 s = s[len(p):]
 
-        tps1.normalize()
-        tps2.normalize()
-        # print(tps1.mem)
-        # utils.plot_gra(tps1.mem)
-        utils.plot_gra_from_m(tps1.norm_mem, ler=tps1.le_rows, lec=tps1.le_cols, filename=out_dir + "tps1_norm")
-        utils.plot_gra_from_m(tps2.norm_mem, ler=tps2.le_rows, lec=tps2.le_cols, filename=out_dir + "tps2_norm")
+        tps_units.normalize()
+        tps_1.normalize()
+        # print(tps_units.mem)
+        # utils.plot_gra(tps_units.mem)
+        utils.plot_gra_from_m(tps_units.norm_mem, ler=tps_units.le_rows, lec=tps_units.le_cols,
+                              filename=out_dir + "tps_units_norm")
+        utils.plot_gra_from_m(tps_1.norm_mem, ler=tps_1.le_rows, lec=tps_1.le_cols, filename=out_dir + "tps_1_norm")
         ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
         # for bicinia use base_decode
         # ord_mem = dict(sorted([(base_encoder.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))

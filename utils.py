@@ -175,8 +175,8 @@ def read_percept(mem, sequence, ulens=[2],tps=None):
             print("unit shape perception:", unit)
         else:
             # unit = s[:2]  # add Parser basic components (bigram/syllable)..
-            # unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram or trigram..)
-            unit = tps.get_next_unit(s[:3], ulens)
+            unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram or trigram..)
+            # unit = tps.get_next_unit(s[:3], ulens)
         res.append(unit)
         s = s[len(unit):]
         i -= 1
@@ -223,7 +223,7 @@ def plot_gra(d):
     gra.render('tps', view=True)
 
 
-def plot_gra_from_m(m, ler, lec, filename=""):
+def plot_gra_from_m(m, ler, lec, filename="", filter=0.0):
     gra = Digraph()  # comment='Normalized TPS'
     added = set()
     rows, cols = m.shape
@@ -233,12 +233,15 @@ def plot_gra_from_m(m, ler, lec, filename=""):
             gra.node(li)
             added.add(li)
         for j in range(cols):
-            if m[i][j] >= 0.1:
+            if m[i][j] > filter:
                 lj = lec.inverse_transform([j])[0]
                 if lj not in added:
                     gra.node(lj)
                     added.add(lj)
-                gra.edge(li, lj, label="{:.2f}".format(m[i][j]))
+                if m[i][j] == 1.0:
+                    gra.edge(li, lj, label="{:.2f}".format(m[i][j]), penwidth="2", color="red")
+                else:
+                    gra.edge(li, lj, label="{:.2f}".format(m[i][j]), penwidth="1", color="black")
 
     # print(gra.source)
     gra.render(filename, view=False, engine="dot", format="png")

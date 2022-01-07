@@ -154,7 +154,7 @@ def entropy_rate(data, Llim=0):
 ####################################################################################################################
 def ngram_entropy(data, L):
     """Function computing the L-excess entropy hn = Hn+1 - Hn."""
-    return (block_entropy(data, L + 1) - block_entropy(data, L))
+    return block_entropy(data, L + 1) - block_entropy(data, L)
     # return (block_entropy(data,L) - block_entropy(data,L-1))
 
 
