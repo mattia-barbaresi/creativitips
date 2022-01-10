@@ -175,8 +175,11 @@ def read_percept(mem, sequence, ulens=[2],tps=None):
             print("unit shape perception:", unit)
         else:
             # unit = s[:2]  # add Parser basic components (bigram/syllable)..
-            unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram or trigram..)
-            # unit = tps.get_next_unit(s[:3], ulens)
+            # unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram or trigram..)
+            unit = tps.get_next_unit(s[:5], ulens)
+        sf = s[len(unit):]
+        if len(sf) == 1:
+            unit += sf
         res.append(unit)
         s = s[len(unit):]
         i -= 1
@@ -277,6 +280,7 @@ def plot_gra_from_m(m, ler, lec, filename="", filter=0.0):
 
 # bar-plot memory content
 def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
+    plt.clf()
     plt.rcParams["figure.figsize"] = (15, 5)
     plt.bar(range(len(mem)), list(mem.values()), align='center')
     plt.gcf().autofmt_xdate()
