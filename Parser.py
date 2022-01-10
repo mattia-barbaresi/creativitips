@@ -120,7 +120,7 @@ class ParserModule:
 
 if __name__ == "__main__":
     np.random.seed(19)
-    pars = Parser()
+    pars = ParserModule()
     w = const.WEIGHT
     f = const.FORGETTING
     i = const.INTERFERENCE

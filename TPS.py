@@ -105,6 +105,7 @@ class TPSModule:
         :param percept could be a string, or an (ordered, sequential) array of strings.
         In latter case TPs are counted between elements of the array(units), instead of between symbols
         """
+        self.normalize()
         res = []
         tps_seqs = []
         if self.order > 0:
@@ -132,13 +133,7 @@ class TPSModule:
 
     def get_probs(self, percept):
         """
-        Returns segmented percept using stored TPs.
-        (Brent 1999) a formalization of the original proposal by Saffarn, Newport et al.
-        Consider the segment “wxyz”…whenever the statistical value (TPs or O/E) of the transitions under consideration
-        is lower than the statistical values of its adjacent neighbors, a boundary is inserted.
-        IF TPs (“xy”) < TPs(“wx”) and < TPs(“yz”)  segments between “x” e “y”
-        :param percept could be a string, or an (ordered, sequential) array of strings.
-        In latter case TPs are counted between elements of the array(units), instead of between symbols
+        Returns TPs between symbols in percepts.
         """
         res = []
         tps_seqs = []
@@ -160,7 +155,7 @@ class TPSModule:
                 ures.append(k + next(iter(self.mem[k])))
         return ures
 
-    def get_next_unit(self, percept, ulens):
+    def get_next_unit(self, percept):
         tps_seqs = []
         if self.order > 0:
             if self.order < len(percept):
@@ -171,8 +166,9 @@ class TPSModule:
                         tps_seqs.append(self.mem[h][o])
                     else:
                         tps_seqs.append(0)  # no encoded transition
+                print("tps_seqs: ",tps_seqs)
                 for ii in range(len(tps_seqs) - 1):
-                    if tps_seqs[ii + 1] - tps_seqs[ii] > 0:  # insert a break
+                    if tps_seqs[ii] < tps_seqs[ii + 1]:  # insert a break
                         print("------ unit: ", percept[:self.order + ii])
                         return percept[:self.order + ii]
             else:
@@ -180,7 +176,7 @@ class TPSModule:
         else:
             print("(TPmodule):Order must be grater than 1.")
 
-        return percept[:np.random.choice(ulens)]
+        return ""
 
     # def generate(self, n_samples, start=None):
     #     res = ""
@@ -196,19 +192,45 @@ class TPSModule:
     #         curr = nc
     #     return res
 
+    def get_next_unit_brent(self, percept):
+        tps_seqs = []
+        if self.order > 0:
+            if self.order < len(percept):
+                for ii in range(self.order, len(percept)):
+                    h = "".join(percept[ii - self.order:ii])
+                    o = "".join(percept[ii:ii + 1])
+                    if h in self.mem and o in self.mem[h]:
+                        tps_seqs.append(self.mem[h][o])
+                    else:
+                        tps_seqs.append(0)  # no encoded transition
+                tps_seqs = [float('inf')] + tps_seqs  # add an init high trans (for segmenting first positions too)
+                for ii in range(1,len(tps_seqs) - 1):
+                    if tps_seqs[ii-1] > tps_seqs[ii] < tps_seqs[ii + 1]:  # insert a break
+                        print("------ unit: ", percept[:self.order + ii-1])
+                        return percept[:self.order + ii-1]
+            else:
+                print("(TPmodule):Order grater than percetp length. Percept is too short.")
+        else:
+            print("(TPmodule):Order must be grater than 1.")
+
+        return ""
+
 
 if __name__ == "__main__":
-    np.random.seed(77)
-    pars = ParserModule()
+    np.random.seed(const.RND_SEED)
     w = const.WEIGHT
     f = const.FORGETTING
     i = const.INTERFERENCE
-    tps_units = TPSModule(1)  # memory for TPs inter
-    tps_1 = TPSModule(1)  # memory for TPs intra
-    file_names = ["input"]
-    units_len = [3]
+    file_names = ["saffran","input","input2"]
+    units_len = [2,3]
+    tps_order = 1
     for fn in file_names:
-        out_dir = const.OUT_DIR + "{}_({})/".format(fn, "-".join([str(u) for u in units_len]))
+        # init
+        pars = ParserModule()
+        tps_units = TPSModule(1)  # memory for TPs inter
+        tps_1 = TPSModule(tps_order)  # memory for TPs intra
+
+        out_dir = const.OUT_DIR + "brent_{}_{}_({})/".format(fn, const.MEM_THRES, "-".join([str(u) for u in units_len]))
         # --------------- INPUT ---------------
         if fn == "saffran":
             # load Saffran input
@@ -220,17 +242,19 @@ if __name__ == "__main__":
         # load bicinia
         # base_encoder = utils.Encoder()
         # sequences = utils.load_bicinia_single("data/bicinia/",base_encoder)
-
+        old_p = ""
         # read percepts using parser function
         for s in sequences:
             while len(s) > 0:
                 print(" ------------------------------------------------------ ")
                 # read percept as an array of units
                 # active elements in mem shape perception
-                active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.9)
+                active_mem = dict((k, v) for k, v in pars.mem.items() if v >= const.MEM_THRES)
+                # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
                 units = utils.read_percept(active_mem, s, ulens=units_len, tps=tps_1)
                 p = "".join(units)
-                tps_1.encode(p)
+                tps_1.encode(old_p+p)
+                old_p = p[-tps_order:]
                 print("units: ", units, " -> ", p)
                 # add entire percept
                 if len(p) <= max(units_len):
@@ -251,9 +275,8 @@ if __name__ == "__main__":
         tps_1.normalize()
         # print(tps_units.mem)
         # utils.plot_gra(tps_units.mem)
-        utils.plot_gra_from_m(tps_units.norm_mem, ler=tps_units.le_rows, lec=tps_units.le_cols,
-                              filename=out_dir + "tps_units_norm")
-        utils.plot_gra_from_m(tps_1.norm_mem, ler=tps_1.le_rows, lec=tps_1.le_cols, filename=out_dir + "tps_1_norm")
+        utils.plot_gra_from_m(tps_units.norm_mem, ler=tps_units.le_rows, lec=tps_units.le_cols, filename=out_dir + "tps_units")
+        utils.plot_gra_from_m(tps_1.norm_mem, ler=tps_1.le_rows, lec=tps_1.le_cols, filename=out_dir + "tps_1")
         ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
         # for bicinia use base_decode
         # ord_mem = dict(sorted([(base_encoder.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))

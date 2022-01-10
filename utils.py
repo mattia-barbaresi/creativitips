@@ -161,8 +161,11 @@ def generate_Saffran_sequence():
     return [ss]
 
 
-def read_percept(mem, sequence, ulens=[2],tps=None):
+def read_percept(mem, sequence, ulens=None, tps=None):
     """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
+    if ulens is None:
+        # default like parser (bigrams)
+        ulens = [2]
     res = []
     # number of units embedded in next percepts
     i = np.random.randint(low=1, high=4)
@@ -176,13 +179,18 @@ def read_percept(mem, sequence, ulens=[2],tps=None):
         else:
             # unit = s[:2]  # add Parser basic components (bigram/syllable)..
             # unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram or trigram..)
-            unit = tps.get_next_unit(s[:5], ulens)
+            unit = tps.get_next_unit_brent(s[:5])
+        if unit == "":
+            # random unit
+            unit = s[:np.random.choice(ulens)]
+        # check if last symbol
         sf = s[len(unit):]
         if len(sf) == 1:
             unit += sf
         res.append(unit)
         s = s[len(unit):]
         i -= 1
+
     return res
 
 
