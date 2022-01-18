@@ -221,7 +221,7 @@ if __name__ == "__main__":
     w = const.WEIGHT
     f = const.FORGETTING
     i = const.INTERFERENCE
-    file_names = ["saffran","input","input2"]
+    file_names = ["input"]
     units_len = [2,3]
     tps_order = 1
     for fn in file_names:
@@ -242,9 +242,10 @@ if __name__ == "__main__":
         # load bicinia
         # base_encoder = utils.Encoder()
         # sequences = utils.load_bicinia_single("data/bicinia/",base_encoder)
-        old_p = ""
+
         # read percepts using parser function
         for s in sequences:
+            old_p = ""
             while len(s) > 0:
                 print(" ------------------------------------------------------ ")
                 # read percept as an array of units
@@ -268,10 +269,12 @@ if __name__ == "__main__":
                     pars.add_weight(p, comps=units, weight=w)
                 # forgetting and interference
                 pars.forget_interf(p, comps=units, forget=f, interfer=i, ulens=units_len)
-                tps_units.forget(units, i)
+                tps_units.forget(units, f)
                 s = s[len(p):]
 
         tps_units.normalize()
+        gens = utils.generate_new_sequences(pars.mem, tps_units, min_len=50)
+        print("gens: ", gens)
         tps_1.normalize()
         # print(tps_units.mem)
         # utils.plot_gra(tps_units.mem)

@@ -171,15 +171,17 @@ def read_percept(mem, sequence, ulens=None, tps=None):
     i = np.random.randint(low=1, high=4)
     s = sequence
     while len(s) > 0 and i != 0:
-        units_list = [k for k in mem.keys() if s.startswith(k) and len(k) > 1]
+        units_list = [(k,v) for k,v in mem.items() if s.startswith(k) and len(k) > 1]
         if units_list:
             # a unit in mem matched
-            unit = sorted(units_list, key=lambda item: len(item), reverse=True)[0]
+            # unit = sorted(units_list, key=lambda item: len(item), reverse=True)[0]
+            unit = sorted(units_list, key=lambda item: item[1], reverse=True)[0][0]
             print("unit shape perception:", unit)
         else:
             # unit = s[:2]  # add Parser basic components (bigram/syllable)..
             # unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram or trigram..)
-            unit = tps.get_next_unit_brent(s[:5])
+            unit = tps.get_next_unit(s[:5])
+            # unit = tps.get_next_unit_brent(s[:5])
         if unit == "":
             # random unit
             unit = s[:np.random.choice(ulens)]
@@ -289,7 +291,7 @@ def plot_gra_from_m(m, ler, lec, filename="", filter=0.0):
 # bar-plot memory content
 def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
     plt.clf()
-    plt.rcParams["figure.figsize"] = (15, 5)
+    plt.rcParams["figure.figsize"] = (20, 10)
     plt.bar(range(len(mem)), list(mem.values()), align='center')
     plt.gcf().autofmt_xdate()
     plt.xticks(range(len(mem)), list(mem.keys()))
@@ -337,4 +339,26 @@ def generate(tps, n_seq, occ_per_seq=16):
 
                     sid = " ".join(str_res.split(" ")[-order:])
                 res[order].append(str_res)
+    return res
+
+
+def generate_new_sequences(mem, tps, n_seq=10, min_len=20):
+    rows, cols = tps.norm_mem.shape
+    # row classes minus cols classes returns the nodes that have no inward edges
+    init_set = list(set(tps.le_rows.classes_) - set(tps.le_cols.classes_))
+    print("tps.le_rows.classes_:", tps.le_rows.classes_)
+    print("tps.le_cols.classes_:", tps.le_cols.classes_)
+    print("init_set:", init_set)
+    res = []
+    for _ in range(n_seq):
+        # choose rnd starting point
+        seq = np.random.choice(init_set)
+        s = seq
+        for _ in range(min_len):
+            if s not in tps.le_rows.classes_:
+                break
+            i = tps.le_rows.transform([s])[0]
+            s = tps.le_cols.inverse_transform([mc_choice(tps.norm_mem[i])])[0]
+            seq += s
+        res.append(seq)
     return res
