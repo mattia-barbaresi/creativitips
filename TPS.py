@@ -1,4 +1,5 @@
 import fnmatch
+import json
 import os
 import numpy as np
 from matplotlib import pyplot as plt
@@ -166,7 +167,7 @@ class TPSModule:
                         tps_seqs.append(self.mem[h][o])
                     else:
                         tps_seqs.append(0)  # no encoded transition
-                print("tps_seqs: ",tps_seqs)
+                print("tps_seqs: ", tps_seqs)
                 for ii in range(len(tps_seqs) - 1):
                     if tps_seqs[ii] < tps_seqs[ii + 1]:  # insert a break
                         print("------ unit: ", percept[:self.order + ii])
@@ -204,10 +205,10 @@ class TPSModule:
                     else:
                         tps_seqs.append(0)  # no encoded transition
                 tps_seqs = [float('inf')] + tps_seqs  # add an init high trans (for segmenting first positions too)
-                for ii in range(1,len(tps_seqs) - 1):
-                    if tps_seqs[ii-1] > tps_seqs[ii] < tps_seqs[ii + 1]:  # insert a break
-                        print("------ unit: ", percept[:self.order + ii-1])
-                        return percept[:self.order + ii-1]
+                for ii in range(1, len(tps_seqs) - 1):
+                    if tps_seqs[ii - 1] > tps_seqs[ii] < tps_seqs[ii + 1]:  # insert a break
+                        print("------ unit: ", percept[:self.order + ii - 1])
+                        return percept[:self.order + ii - 1]
             else:
                 print("(TPmodule):Order grater than percetp length. Percept is too short.")
         else:
@@ -217,33 +218,38 @@ class TPSModule:
 
 
 if __name__ == "__main__":
+    np.set_printoptions(linewidth=np.inf)
     np.random.seed(const.RND_SEED)
     w = const.WEIGHT
     f = const.FORGETTING
     i = const.INTERFERENCE
-    file_names = ["input"]
-    units_len = [2,3]
-    tps_order = 1
+    file_names = ["all_irish-notes_and_durations"]
+    units_len = [2, 3]
+    tps_order = 2
     for fn in file_names:
         # init
         pars = ParserModule()
         tps_units = TPSModule(1)  # memory for TPs inter
         tps_1 = TPSModule(tps_order)  # memory for TPs intra
 
-        out_dir = const.OUT_DIR + "brent_{}_{}_({})/".format(fn, const.MEM_THRES, "-".join([str(u) for u in units_len]))
+        out_dir = const.OUT_DIR + "{}_{}_({})/".format(fn, const.MEM_THRES, "-".join([str(u) for u in units_len]))
+        os.makedirs(out_dir)
         # --------------- INPUT ---------------
         if fn == "saffran":
             # load Saffran input
             sequences = utils.generate_Saffran_sequence()
+        elif fn == "all_irish-notes_and_durations":
+            base_encoder = utils.Encoder()
+            sequences = utils.load_irish_n_d("data/all_irish-notes_and_durations-abc.txt", base_encoder)
+        elif fn == "bicinia":
+            base_encoder = utils.Encoder()
+            sequences = utils.load_bicinia_single("data/bicinia/", base_encoder)
         else:
             with open("data/{}.txt".format(fn), "r") as fp:
                 sequences = [line.strip() for line in fp]
 
-        # load bicinia
-        # base_encoder = utils.Encoder()
-        # sequences = utils.load_bicinia_single("data/bicinia/",base_encoder)
-
         # read percepts using parser function
+        actions = []
         for s in sequences:
             old_p = ""
             while len(s) > 0:
@@ -252,9 +258,11 @@ if __name__ == "__main__":
                 # active elements in mem shape perception
                 active_mem = dict((k, v) for k, v in pars.mem.items() if v >= const.MEM_THRES)
                 # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
-                units = utils.read_percept(active_mem, s, ulens=units_len, tps=tps_1)
+                units, action = utils.read_percept(active_mem, s, ulens=units_len, tps=tps_1)
+                actions.append(action)
                 p = "".join(units)
-                tps_1.encode(old_p+p)
+                tps_1.encode(old_p + p)
+                # save past for tps
                 old_p = p[-tps_order:]
                 print("units: ", units, " -> ", p)
                 # add entire percept
@@ -272,15 +280,32 @@ if __name__ == "__main__":
                 tps_units.forget(units, f)
                 s = s[len(p):]
 
-        tps_units.normalize()
-        gens = utils.generate_new_sequences(pars.mem, tps_units, min_len=50)
-        print("gens: ", gens)
+        # normilizes memories
         tps_1.normalize()
+        tps_units.normalize()
+
+        # generate sample sequences
+        decoded = []
+        gens = utils.generate_new_sequences(tps_units, min_len=100)
+        for gg in gens:
+            decoded.append(base_encoder.base_decode(gg))
+        print("gens: ", gens)
+        print("decoded: ", decoded)
+
+        # save all
+        with open(out_dir + "action.json", "w") as of:
+            json.dump(actions,of)
+        utils.plot_actions(actions)
+
         # print(tps_units.mem)
         # utils.plot_gra(tps_units.mem)
-        utils.plot_gra_from_m(tps_units.norm_mem, ler=tps_units.le_rows, lec=tps_units.le_cols, filename=out_dir + "tps_units")
-        utils.plot_gra_from_m(tps_1.norm_mem, ler=tps_1.le_rows, lec=tps_1.le_cols, filename=out_dir + "tps_1")
-        ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
-        # for bicinia use base_decode
-        # ord_mem = dict(sorted([(base_encoder.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
+        utils.plot_gra_from_normalized(tps_units.norm_mem, ler=tps_units.le_rows, lec=tps_units.le_cols, filename=out_dir + "tps_units", be=base_encoder)
+        utils.plot_gra_from_normalized(tps_1.norm_mem, ler=tps_1.le_rows, lec=tps_1.le_cols, filename=out_dir + "tps_1", be=base_encoder)
+
+        # plot memeory chunks
+        # for "bicinia" and "all_irish_notes_and_durations" use base_decode
+        if fn == "bicinia" or fn == "all_irish-notes_and_durations":
+            ord_mem = dict(sorted([(base_encoder.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
+        else:
+            ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
         utils.plot_mem(ord_mem, out_dir + "words_plot.png", save_fig=True, show_fig=True)

@@ -192,7 +192,7 @@ def read_percept(mem, sequence, ulens=None, tps=None):
         else:
             # unit = s[:2]  # add Parser basic components (bigram/syllable)..
             # unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram or trigram..)
-            unit = tps.get_next_unit(s[:6])
+            unit = tps.get_next_unit(s[:10])
             print("TPs next unit:", unit)
             action = "tps"
             # unit = tps.get_next_unit_brent(s[:5])
@@ -252,18 +252,24 @@ def plot_gra(d):
     gra.render('tps', view=True)
 
 
-def plot_gra_from_m(m, ler, lec, filename="", filter=0.0):
+def plot_gra_from_normalized(m, ler, lec, filename="", be=None, filter=0.0):
     gra = Digraph()  # comment='Normalized TPS'
     added = set()
     rows, cols = m.shape
     for i in range(rows):
-        li = ler.inverse_transform([i])[0]
+        if be:
+            li = be.base_decode(ler.inverse_transform([i])[0])
+        else:
+            li = ler.inverse_transform([i])[0]
         if li not in added:
             gra.node(li)
             added.add(li)
         for j in range(cols):
             if m[i][j] > filter:
-                lj = lec.inverse_transform([j])[0]
+                if be:
+                    lj = be.base_decode(lec.inverse_transform([j])[0])
+                else:
+                    lj = lec.inverse_transform([j])[0]
                 if lj not in added:
                     gra.node(lj)
                     added.add(lj)
@@ -276,38 +282,10 @@ def plot_gra_from_m(m, ler, lec, filename="", filter=0.0):
     gra.render(filename, view=False, engine="dot", format="pdf")
 
 
-# pygraphviz: problems while installing the package
-# def plot_nx_from_m(m, ler, lec):
-#     gra = nx.DiGraph()
-#     added = set()
-#     rows,cols = m.shape
-#     for i in range(rows):
-#         li = ler.inverse_transform([i])[0]
-#         if li not in added:
-#             gra.add_node(li)
-#             added.add(li)
-#         for j in range(cols):
-#             if m[i][j] >= 0.1:
-#                 lj = lec.inverse_transform([j])[0]
-#                 if lj not in added:
-#                     gra.add_node(lj)
-#                     added.add(lj)
-#                 gra.add_edge(li,lj,label="{:.2f}".format(m[i][j]))
-#
-#     G = nx.petersen_graph()
-#     subax1 = plt.subplot(121)
-#     nx.draw(G, with_labels=True, font_weight='bold')
-#     subax2 = plt.subplot(122)
-#     nx.draw_shell(G, nlist=[range(5, 10), range(5)], with_labels=True, font_weight='bold')
-#     pos = nx.nx_agraph.graphviz_layout(G)
-#     nx.draw(G, pos=pos)
-#     write_dot(G, 'tps_nx.dot')
-
-
 # bar-plot memory content
 def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
     plt.clf()
-    plt.rcParams["figure.figsize"] = (20, 10)
+    plt.rcParams["figure.figsize"] = (18,5)
     plt.bar(range(len(mem)), list(mem.values()), align='center')
     # plt.gcf().autofmt_xdate()
     plt.xticks(range(len(mem)), list(mem.keys()), rotation=90)
@@ -318,9 +296,11 @@ def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
         plt.show()
 
 
-def plot_actions(actions):
+def plot_actions(actions, save=False):
     plt.clf()
     plt.plot(actions,"-o")
+    if save:
+        plt.savefig("actions.pdf", bbox_inches='tight')
     plt.tight_layout()
     plt.show()
 
@@ -365,7 +345,7 @@ def generate(tps, n_seq, occ_per_seq=16):
     return res
 
 
-def generate_new_sequences(mem, tps, n_seq=10, min_len=20):
+def generate_new_sequences(tps, n_seq=10, min_len=20):
     rows, cols = tps.norm_mem.shape
     # row classes minus cols classes returns the nodes that have no inward edges
     init_set = list(set(tps.le_rows.classes_) - set(tps.le_cols.classes_))
