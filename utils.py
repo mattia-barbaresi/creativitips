@@ -4,8 +4,6 @@ import string
 from graphviz import Digraph
 import matplotlib.pyplot as plt
 import numpy as np
-
-
 # import networkx as nx
 # from networkx.drawing.nx_pydot import write_dot
 
@@ -124,6 +122,18 @@ def load_bicinia_single(dir_name, be):
     return ["".join([be.base_encode(y) for y in x]) for x in seq2]
 
 
+def load_irish_n_d(filename, be):
+    seq = []
+    ss = set()
+    with open(filename, "r") as fp:
+        for line in fp.readlines():
+            a = line.strip().split(" ")
+            seq.append(a)
+            ss.update(a)
+    be.base_fit(ss)
+    return ["".join([be.base_encode(y) for y in x]) for x in seq]
+
+
 def mtx_from_multi(seq1, seq2, nd1, nd2):
     mtx = np.zeros((nd1, nd2))
     for s1, s2 in zip(seq1, seq2):
@@ -171,20 +181,26 @@ def read_percept(mem, sequence, ulens=None, tps=None):
     i = np.random.randint(low=1, high=4)
     s = sequence
     while len(s) > 0 and i != 0:
-        units_list = [(k,v) for k,v in mem.items() if s.startswith(k) and len(k) > 1]
+        # units_list = [(k,v) for k,v in mem.items() if s.startswith(k) and len(k) > 1]
+        units_list = [k for k in mem.keys() if s.startswith(k) and len(k) > 1]
         if units_list:
             # a unit in mem matched
-            # unit = sorted(units_list, key=lambda item: len(item), reverse=True)[0]
-            unit = sorted(units_list, key=lambda item: item[1], reverse=True)[0][0]
+            # unit = sorted(units_list, key=lambda item: item[1], reverse=True)[0][0]
+            unit = sorted(units_list, key=lambda key: len(key), reverse=True)[0]
             print("unit shape perception:", unit)
+            action = "mem"
         else:
             # unit = s[:2]  # add Parser basic components (bigram/syllable)..
             # unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram or trigram..)
-            unit = tps.get_next_unit(s[:5])
+            unit = tps.get_next_unit(s[:6])
+            print("TPs next unit:", unit)
+            action = "tps"
             # unit = tps.get_next_unit_brent(s[:5])
         if unit == "":
             # random unit
             unit = s[:np.random.choice(ulens)]
+            print("random unit:", unit)
+            action = "rnd"
         # check if last symbol
         sf = s[len(unit):]
         if len(sf) == 1:
@@ -193,14 +209,14 @@ def read_percept(mem, sequence, ulens=None, tps=None):
         s = s[len(unit):]
         i -= 1
 
-    return res
+    return res, action
 
 
 class Encoder:
     """Class for encoding input"""
 
     def __init__(self):
-        self.base_list = string.ascii_letters + string.digits
+        self.base_list = string.printable
         self.base_dict = {}
 
     def base_fit(self, ss):
@@ -257,7 +273,7 @@ def plot_gra_from_m(m, ler, lec, filename="", filter=0.0):
                     gra.edge(li, lj, label="{:.2f}".format(m[i][j]), penwidth="1", color="black")
 
     # print(gra.source)
-    gra.render(filename, view=False, engine="dot", format="png")
+    gra.render(filename, view=False, engine="dot", format="pdf")
 
 
 # pygraphviz: problems while installing the package
@@ -293,13 +309,20 @@ def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
     plt.clf()
     plt.rcParams["figure.figsize"] = (20, 10)
     plt.bar(range(len(mem)), list(mem.values()), align='center')
-    plt.gcf().autofmt_xdate()
-    plt.xticks(range(len(mem)), list(mem.keys()))
+    # plt.gcf().autofmt_xdate()
+    plt.xticks(range(len(mem)), list(mem.keys()), rotation=90)
     if save_fig:
         plt.savefig(fig_name, bbox_inches='tight')
     if show_fig:
         plt.tight_layout()
         plt.show()
+
+
+def plot_actions(actions):
+    plt.clf()
+    plt.plot(actions,"-o")
+    plt.tight_layout()
+    plt.show()
 
 
 # from transition probabilities, generates (occ) sequences
