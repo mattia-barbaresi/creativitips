@@ -243,7 +243,7 @@ class TPSModule:
 if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     np.random.seed(const.RND_SEED)
-    file_names = ["input"]
+    file_names = ["saffran"]
     base_encoder = None
 
     for fn in file_names:
@@ -273,6 +273,7 @@ if __name__ == "__main__":
         actions = []
         for s in sequences:
             old_p = ""
+            old_p_units = []
             while len(s) > 0:
                 print(" ------------------------------------------------------ ")
                 # read percept as an array of units
@@ -294,11 +295,13 @@ if __name__ == "__main__":
                     else:
                         pars.mem[p] = const.WEIGHT
                 else:
-                    tps_units.encode(units)
+                    tps_units.encode(old_p_units + units)
+                    # save past for tps units
+                    old_p_units = units[-const.TPS_ORDER:]
                     pars.add_weight(p, comps=units, weight=const.WEIGHT)
                 # forgetting and interference
                 pars.forget_interf(p, comps=units, forget=const.FORGETTING, interfer=const.INTERFERENCE, ulens=const.ULENS)
-                # tps_units.forget(units, forget=const.FORGETTING)
+                tps_units.forget(units, forget=const.FORGETTING)
                 s = s[len(p):]
 
         # dc = fc.distributional_context(fc_seqs, 3)
