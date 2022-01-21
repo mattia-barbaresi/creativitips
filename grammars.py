@@ -66,21 +66,47 @@ B = ["hox", "neb", "lev"]
 C = ["tid", "rel", "jes"]
 D = ["lum", "sot", "zor"]
 E = ["rud", "fal", "taf"]
-F = ["tril","kijo","fido"]
-G = ["haiku","zidyl","virxu"]
+F = ["ker", "nav", "sib"]
+
+# G = ["tril","kijo","fido"]
+# H = ["haiku","zidyl","virxu"]
+# res.append(a + g + h + e)
+
+# (thomson&Newport,2007): http://socsci.uci.edu/~lpearl/courses/readings/ThompsonNewport2007_StatLearningSyn.pdf
+# ABCDEF, plus ABCD, ABEF, and CDEF
+# Baseline language.
+# There is only one sentence type: ABCDEF. Each letter, A through F, # represents a form class analogous to the lexical
+# classes noun and verb. Three words are assigned to each form class.
+# Optional phrases.
+# The optional phrases language uses the baseline language as a starting point, but in this language the six form
+# classes are grouped in pairs (hereafter, phrases) as follows: AB, CD, and EF. A grammatical sentence may be created
+# by removing one of the three phrases and making it “optional.” This results in a total of four distinct sentence
+# types: ABCDEF, plus ABCD, ABEF, and CDEF. The optional phrases language can be represented by phrase structure rules:
+# S→(P1)+(P2)+(P3);P1→A+B;P2→C+D;P3→E+F,with the stipulation that every sentence must have at least two phrases.
 
 res = []
 for a in A:
-    for e in E:
-        for b in B:
-            for c in C:
-                for d in D:
-                    res.append(a + b + c + d + e)
-        for f in F:
-            for g in G:
-                res.append(a + f + g + e)
+    for b in B:
+        for c in C:
+            for d in D:
+                res.append(a + b + c + d)
+                for e in E:
+                    for f in F:
+                        res.append(a + b + c + d + e + f)
+for a in A:
+    for b in B:
+        for e in E:
+            for f in F:
+                res.append(a + b + e + f)
+
+for c in C:
+    for d in D:
+        for e in E:
+            for f in F:
+                res.append(c + d + e + f)
+
 
 random.shuffle(res)
-with open("data/input2_full.txt", "w") as fp:
-    for l in res:
-        fp.write(l+"\n")
+with open("data/thompson_newport.txt", "w") as fp:
+    for _l in res:
+        fp.write(_l+"\n")
