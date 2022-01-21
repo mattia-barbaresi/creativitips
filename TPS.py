@@ -243,7 +243,7 @@ class TPSModule:
 if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     np.random.seed(const.RND_SEED)
-    file_names = ["saffran"]
+    file_names = ["all_songs_in_G"]
     base_encoder = None
 
     for fn in file_names:
@@ -286,7 +286,7 @@ if __name__ == "__main__":
                 tps_1.encode(old_p + p)
                 # save past for tps
                 old_p = p[-const.TPS_ORDER:]
-                print("units: ", units, " -> ", p)
+                # print("units: ", units, " -> ", p)
                 # add entire percept
                 if len(p) <= max(const.ULENS):
                     # p is a unit, a primitive
@@ -321,10 +321,15 @@ if __name__ == "__main__":
         decoded = []
         gens = tps_units.generate_new_sequences(min_len=100)
         print("gens: ", gens)
-        if base_encoder:
-            for gg in gens:
-                decoded.append(base_encoder.base_decode(gg))
-            print("decoded: ", decoded)
+        # save all
+        with open(out_dir + "generated.json", "w") as of:
+            if base_encoder:
+                for gg in gens:
+                    decoded.append(base_encoder.base_decode(gg))
+                json.dump(decoded, of)
+                print("decoded: ", decoded)
+            else:
+                json.dump(gens, of)
 
         # save all
         with open(out_dir + "action.json", "w") as of:
