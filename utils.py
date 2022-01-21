@@ -104,7 +104,7 @@ def load_bicinia(dir_name):
     return seq1, seq2, len1, len2
 
 
-def load_bicinia_single(dir_name, be):
+def load_bicinia_single(dir_name, be, seq_n=1):
     seq1 = []
     seq2 = []
     ss = set()
@@ -117,9 +117,34 @@ def load_bicinia_single(dir_name, be):
                 # lines[1] is empty
                 b = lines[2].strip().split(" ")
                 seq2.append(b)
+                if seq_n == 1:
+                    ss.update(a)
+                else:
+                    ss.update(b)
+    be.base_fit(ss)
+    if seq_n == 1:
+        return ["".join([be.base_encode(y) for y in x]) for x in seq1]
+    else:
+        return ["".join([be.base_encode(y) for y in x]) for x in seq2]
+
+
+def load_bicinia_full(dir_name, be):
+    seq1 = []
+    seq2 = []
+    ss = set()
+    for file in os.listdir(dir_name):
+        if fnmatch.fnmatch(file, "*.mid.txt"):
+            with open(dir_name + file, "r") as fp:
+                lines = fp.readlines()
+                a = lines[0].strip().split(" ")
+                seq1.append(a)
+                # lines[1] is empty
+                b = lines[2].strip().split(" ")
+                seq2.append(b)
+                ss.update(a)
                 ss.update(b)
     be.base_fit(ss)
-    return ["".join([be.base_encode(y) for y in x]) for x in seq2]
+    return ["".join([be.base_encode(y) for y in x]) for x in seq1], ["".join([be.base_encode(y) for y in x]) for x in seq2]
 
 
 def load_irish_n_d(filename, be):
@@ -156,19 +181,22 @@ def softmax(x):
 
 def generate_Saffran_sequence():
     words = ["babupu", "bupada", "dutaba", "patubi", "pidabu", "tutibu"]
-    ss = ""
+    res = []
     prev = ""
-    # for x in range(0, 449):  # looser criterion
-    for x in range(0, 910):  # strict criterion
-        ww = np.random.choice(words)
-        # no repeated words in succession
-        while ww == prev:
+    # for x in range(449):  # looser criterion
+    for x in range(91):  # strict criterion
+        ss = ""
+        for y in range(10):
             ww = np.random.choice(words)
-        prev = ww
-        ss += ww
+            # no repeated words in succession
+            while ww == prev:
+                ww = np.random.choice(words)
+            prev = ww
+            ss += ww
+        res.append(ss)
     # p = ["tuti","buduta","batu","tibupa","tu","bi"]  # for testing
 
-    return [ss]
+    return res
 
 
 def read_percept(mem, sequence, ulens=None, tps=None):
@@ -274,9 +302,9 @@ def plot_gra_from_normalized(m, ler, lec, filename="", be=None, filter=0.0):
                     gra.node(lj)
                     added.add(lj)
                 if m[i][j] == 1.0:
-                    gra.edge(li, lj, label="{:.2f}".format(m[i][j]), penwidth="2", color="red")
+                    gra.edge(li, lj, label="{:.3f}".format(m[i][j]), penwidth="2", color="red")
                 else:
-                    gra.edge(li, lj, label="{:.2f}".format(m[i][j]), penwidth="1", color="black")
+                    gra.edge(li, lj, label="{:.3f}".format(m[i][j]), penwidth="1", color="black")
 
     # print(gra.source)
     gra.render(filename, view=False, engine="dot", format="pdf")
@@ -296,11 +324,11 @@ def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
         plt.show()
 
 
-def plot_actions(actions, save=False):
+def plot_actions(actions, path=""):
     plt.clf()
-    plt.plot(actions,"-o")
-    if save:
-        plt.savefig("actions.pdf", bbox_inches='tight')
+    plt.plot(actions, ".")
+    if path:
+        plt.savefig(path + "actions.pdf", bbox_inches='tight')
     plt.tight_layout()
     plt.show()
 
@@ -344,24 +372,3 @@ def generate(tps, n_seq, occ_per_seq=16):
                 res[order].append(str_res)
     return res
 
-
-def generate_new_sequences(tps, n_seq=10, min_len=20):
-    rows, cols = tps.norm_mem.shape
-    # row classes minus cols classes returns the nodes that have no inward edges
-    init_set = list(set(tps.le_rows.classes_) - set(tps.le_cols.classes_))
-    print("tps.le_rows.classes_:", tps.le_rows.classes_)
-    print("tps.le_cols.classes_:", tps.le_cols.classes_)
-    print("init_set:", init_set)
-    res = []
-    for _ in range(n_seq):
-        # choose rnd starting point
-        seq = np.random.choice(init_set)
-        s = seq
-        for _ in range(min_len):
-            if s not in tps.le_rows.classes_:
-                break
-            i = tps.le_rows.transform([s])[0]
-            s = tps.le_cols.inverse_transform([mc_choice(tps.norm_mem[i])])[0]
-            seq += s
-        res.append(seq)
-    return res

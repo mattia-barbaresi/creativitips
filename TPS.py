@@ -1,11 +1,15 @@
 import fnmatch
 import json
 import os
+import shutil
+import time
+
 import numpy as np
 from matplotlib import pyplot as plt
 from sklearn import preprocessing
 from scipy.special import softmax
 import complexity
+import form_class as fc
 import const
 import utils
 from Parser import ParserModule
@@ -16,7 +20,7 @@ class TPSModule:
 
     def __init__(self, order=1):
         self.mem = dict()
-        self.norm_mem = []
+        self.norm_mem = np.array([])
         self.order = order
         self.prev = ""
         self.le_rows = preprocessing.LabelEncoder()
@@ -179,19 +183,26 @@ class TPSModule:
 
         return ""
 
-    # def generate(self, n_samples, start=None):
-    #     res = ""
-    #     if start:
-    #         curr = start
-    #     else:
-    #         curr = np.random.choice(self.mem.keys())
-    #     res += curr
-    #     for ii in range(n_samples):
-    #         idx = utils.mc_choice(list(self.mem[curr].values()))
-    #         nx = self.mem[curr].keys()[idx]
-    #         res += nx
-    #         curr = nc
-    #     return res
+    def generate_new_sequences(self, n_seq=10, min_len=20):
+        rows, cols = self.norm_mem.shape
+        # row classes minus cols classes returns the nodes that have no inward edges
+        init_set = list(set(self.le_rows.classes_) - set(self.le_cols.classes_))
+        print("tps.le_rows.classes_:", self.le_rows.classes_)
+        print("tps.le_cols.classes_:", self.le_cols.classes_)
+        print("init_set:", init_set)
+        res = []
+        for _ in range(n_seq):
+            # choose rnd starting point
+            seq = np.random.choice(init_set)
+            s = seq
+            for _ in range(min_len):
+                if s not in self.le_rows.classes_:
+                    break
+                i = self.le_rows.transform([s])[0]
+                s = self.le_cols.inverse_transform([utils.mc_choice(self.norm_mem[i])])[0]
+                seq += s
+            res.append(seq)
+        return res
 
     def get_next_unit_brent(self, percept):
         tps_seqs = []
@@ -220,20 +231,18 @@ class TPSModule:
 if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     np.random.seed(const.RND_SEED)
-    w = const.WEIGHT
-    f = const.FORGETTING
-    i = const.INTERFERENCE
-    file_names = ["all_irish-notes_and_durations"]
-    units_len = [2, 3]
-    tps_order = 2
+    file_names = ["saffran"]
+    base_encoder = None
+
     for fn in file_names:
         # init
         pars = ParserModule()
-        tps_units = TPSModule(1)  # memory for TPs inter
-        tps_1 = TPSModule(tps_order)  # memory for TPs intra
+        tps_units = TPSModule(const.TPS_ORDER)  # memory for TPs inter
+        tps_1 = TPSModule(const.TPS_ORDER)  # memory for TPs intra
 
-        out_dir = const.OUT_DIR + "{}_{}_({})/".format(fn, const.MEM_THRES, "-".join([str(u) for u in units_len]))
-        os.makedirs(out_dir)
+        out_dir = const.OUT_DIR + "{}_{}/".format(fn+"_2", time.strftime("%Y%m%d-%H%M%S"))
+        os.makedirs(out_dir,exist_ok=True)
+        shutil.copy2("const.py",out_dir+"/pars.txt")
         # --------------- INPUT ---------------
         if fn == "saffran":
             # load Saffran input
@@ -243,7 +252,7 @@ if __name__ == "__main__":
             sequences = utils.load_irish_n_d("data/all_irish-notes_and_durations-abc.txt", base_encoder)
         elif fn == "bicinia":
             base_encoder = utils.Encoder()
-            sequences = utils.load_bicinia_single("data/bicinia/", base_encoder)
+            sequences = utils.load_bicinia_single("data/bicinia/", base_encoder, seq_n=2)
         else:
             with open("data/{}.txt".format(fn), "r") as fp:
                 sequences = [line.strip() for line in fp]
@@ -258,27 +267,33 @@ if __name__ == "__main__":
                 # active elements in mem shape perception
                 active_mem = dict((k, v) for k, v in pars.mem.items() if v >= const.MEM_THRES)
                 # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
-                units, action = utils.read_percept(active_mem, s, ulens=units_len, tps=tps_1)
+                units, action = utils.read_percept(active_mem, s, ulens=const.ULENS, tps=tps_1)
                 actions.append(action)
                 p = "".join(units)
                 tps_1.encode(old_p + p)
                 # save past for tps
-                old_p = p[-tps_order:]
+                old_p = p[-const.TPS_ORDER:]
                 print("units: ", units, " -> ", p)
                 # add entire percept
-                if len(p) <= max(units_len):
+                if len(p) <= max(const.ULENS):
                     # p is a unit, a primitive
                     if p in pars.mem:
-                        pars.mem[p] += w / 2
+                        pars.mem[p] += const.WEIGHT / 2
                     else:
-                        pars.mem[p] = w
+                        pars.mem[p] = const.WEIGHT
                 else:
                     tps_units.encode(units)
-                    pars.add_weight(p, comps=units, weight=w)
+                    pars.add_weight(p, comps=units, weight=const.WEIGHT)
                 # forgetting and interference
-                pars.forget_interf(p, comps=units, forget=f, interfer=i, ulens=units_len)
-                tps_units.forget(units, f)
+                pars.forget_interf(p, comps=units, forget=const.FORGETTING, interfer=const.INTERFERENCE, ulens=const.ULENS)
+                tps_units.forget(units, forget=const.FORGETTING)
                 s = s[len(p):]
+
+        # dc = fc.distributional_context(fc_seqs, 3)
+        # # print("---- dc ---- ")
+        # # pp.pprint(dc)
+        # classes = fc.form_classes(dc)
+        # class_patt = fc.classes_patterns(classes, fc_seqs)
 
         # normilizes memories
         tps_1.normalize()
@@ -286,16 +301,17 @@ if __name__ == "__main__":
 
         # generate sample sequences
         decoded = []
-        gens = utils.generate_new_sequences(tps_units, min_len=100)
-        for gg in gens:
-            decoded.append(base_encoder.base_decode(gg))
+        gens = tps_units.generate_new_sequences(min_len=100)
         print("gens: ", gens)
-        print("decoded: ", decoded)
+        if base_encoder:
+            for gg in gens:
+                decoded.append(base_encoder.base_decode(gg))
+            print("decoded: ", decoded)
 
         # save all
         with open(out_dir + "action.json", "w") as of:
             json.dump(actions,of)
-        utils.plot_actions(actions)
+        utils.plot_actions(actions,path=out_dir)
 
         # print(tps_units.mem)
         # utils.plot_gra(tps_units.mem)
