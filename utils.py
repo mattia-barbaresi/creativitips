@@ -280,31 +280,28 @@ def plot_gra(d):
     gra.render('tps', view=True)
 
 
-def plot_gra_from_normalized(m, ler, lec, filename="", be=None, filter=0.0):
+def plot_gra_from_normalized(tps, filename="", be=None, thresh=0.0):
     gra = Digraph()  # comment='Normalized TPS'
     added = set()
-    rows, cols = m.shape
+    rows, cols = tps.norm_mem.shape
     for i in range(rows):
         if be:
-            li = be.base_decode(ler.inverse_transform([i])[0])
+            li = be.base_decode(tps.le_rows.inverse_transform([i])[0])
         else:
-            li = ler.inverse_transform([i])[0]
+            li = tps.le_rows.inverse_transform([i])[0]
         if li not in added:
-            gra.node(li)
+            gra.node(li, label="{} ({:.3f})".format(li, tps.state_entropies[li]))
             added.add(li)
         for j in range(cols):
-            if m[i][j] > filter:
+            if tps.norm_mem[i][j] > thresh:
                 if be:
-                    lj = be.base_decode(lec.inverse_transform([j])[0])
+                    lj = be.base_decode(tps.le_cols.inverse_transform([j])[0])
                 else:
-                    lj = lec.inverse_transform([j])[0]
-                if lj not in added:
-                    gra.node(lj)
-                    added.add(lj)
-                if m[i][j] == 1.0:
-                    gra.edge(li, lj, label="{:.3f}".format(m[i][j]), penwidth="2", color="red")
+                    lj = tps.le_cols.inverse_transform([j])[0]
+                if tps.norm_mem[i][j] == 1.0:
+                    gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]), penwidth="2", color="red")
                 else:
-                    gra.edge(li, lj, label="{:.3f}".format(m[i][j]), penwidth="1", color="black")
+                    gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]))
 
     # print(gra.source)
     gra.render(filename, view=False, engine="dot", format="pdf")
@@ -371,4 +368,3 @@ def generate(tps, n_seq, occ_per_seq=16):
                     sid = " ".join(str_res.split(" ")[-order:])
                 res[order].append(str_res)
     return res
-

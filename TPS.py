@@ -1,5 +1,6 @@
 import fnmatch
 import json
+import math
 import os
 import shutil
 import time
@@ -25,6 +26,7 @@ class TPSModule:
         self.prev = ""
         self.le_rows = preprocessing.LabelEncoder()
         self.le_cols = preprocessing.LabelEncoder()
+        self.state_entropies = {}
 
     def encode(self, percept, wg=1.0):
         """
@@ -184,7 +186,6 @@ class TPSModule:
         return ""
 
     def generate_new_sequences(self, n_seq=10, min_len=20):
-        rows, cols = self.norm_mem.shape
         # row classes minus cols classes returns the nodes that have no inward edges
         init_set = list(set(self.le_rows.classes_) - set(self.le_cols.classes_))
         print("tps.le_rows.classes_:", self.le_rows.classes_)
@@ -194,13 +195,13 @@ class TPSModule:
         for _ in range(n_seq):
             # choose rnd starting point
             seq = np.random.choice(init_set)
-            s = seq
+            _s = seq
             for _ in range(min_len):
-                if s not in self.le_rows.classes_:
+                if _s not in self.le_rows.classes_:
                     break
-                i = self.le_rows.transform([s])[0]
-                s = self.le_cols.inverse_transform([utils.mc_choice(self.norm_mem[i])])[0]
-                seq += s
+                i = self.le_rows.transform([_s])[0]
+                _s = self.le_cols.inverse_transform([utils.mc_choice(self.norm_mem[i])])[0]
+                seq += _s
             res.append(seq)
         return res
 
@@ -227,11 +228,22 @@ class TPSModule:
 
         return ""
 
+    def compute_states_entropy(self):
+        self.state_entropies = {}
+        rows, cols = self.norm_mem.shape
+        for _r in range(rows):
+            _s = 0
+            for _el in self.norm_mem[_r]:
+                if _el > 0.0:
+                    _s -= _el * math.log(_el, 2)
+            self.state_entropies[self.le_rows.inverse_transform([_r])[0]] = _s
+        return self.state_entropies
+
 
 if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     np.random.seed(const.RND_SEED)
-    file_names = ["saffran"]
+    file_names = ["input"]
     base_encoder = None
 
     for fn in file_names:
@@ -286,7 +298,7 @@ if __name__ == "__main__":
                     pars.add_weight(p, comps=units, weight=const.WEIGHT)
                 # forgetting and interference
                 pars.forget_interf(p, comps=units, forget=const.FORGETTING, interfer=const.INTERFERENCE, ulens=const.ULENS)
-                tps_units.forget(units, forget=const.FORGETTING)
+                # tps_units.forget(units, forget=const.FORGETTING)
                 s = s[len(p):]
 
         # dc = fc.distributional_context(fc_seqs, 3)
@@ -298,7 +310,10 @@ if __name__ == "__main__":
         # normilizes memories
         tps_1.normalize()
         tps_units.normalize()
-
+        
+        # calculate states uncertainty
+        tps_1.compute_states_entropy()
+        tps_units.compute_states_entropy()
         # generate sample sequences
         decoded = []
         gens = tps_units.generate_new_sequences(min_len=100)
@@ -315,8 +330,8 @@ if __name__ == "__main__":
 
         # print(tps_units.mem)
         # utils.plot_gra(tps_units.mem)
-        utils.plot_gra_from_normalized(tps_units.norm_mem, ler=tps_units.le_rows, lec=tps_units.le_cols, filename=out_dir + "tps_units", be=base_encoder)
-        utils.plot_gra_from_normalized(tps_1.norm_mem, ler=tps_1.le_rows, lec=tps_1.le_cols, filename=out_dir + "tps_1", be=base_encoder)
+        utils.plot_gra_from_normalized(tps_units, filename=out_dir + "tps_units", be=base_encoder)
+        utils.plot_gra_from_normalized(tps_1, filename=out_dir + "tps_1", be=base_encoder)
 
         # plot memeory chunks
         # for "bicinia" and "all_irish_notes_and_durations" use base_decode
