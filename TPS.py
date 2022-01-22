@@ -192,6 +192,10 @@ class TPSModule:
         print("tps.le_cols.classes_:", self.le_cols.classes_)
         print("init_set:", init_set)
         res = []
+        if not init_set:
+            print("Empty init set. No generation occurred.")
+            return res
+
         for _ in range(n_seq):
             # choose rnd starting point
             seq = np.random.choice(init_set)
@@ -228,7 +232,7 @@ class TPSModule:
 
         return ""
 
-    def compute_states_entropy(self):
+    def compute_states_entropy(self, be):
         self.state_entropies = {}
         rows, cols = self.norm_mem.shape
         for _r in range(rows):
@@ -236,14 +240,17 @@ class TPSModule:
             for _el in self.norm_mem[_r]:
                 if _el > 0.0:
                     _s -= _el * math.log(_el, 2)
-            self.state_entropies[self.le_rows.inverse_transform([_r])[0]] = _s
+            if be:
+                self.state_entropies[be.base_decode(self.le_rows.inverse_transform([_r])[0])] = _s
+            else:
+                self.state_entropies[self.le_rows.inverse_transform([_r])[0]] = _s
         return self.state_entropies
 
 
 if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     np.random.seed(const.RND_SEED)
-    file_names = ["all_songs_in_G"]
+    file_names = ["saffran"]
     base_encoder = None
 
     for fn in file_names:
@@ -252,7 +259,7 @@ if __name__ == "__main__":
         tps_units = TPSModule(const.TPS_ORDER)  # memory for TPs inter
         tps_1 = TPSModule(const.TPS_ORDER)  # memory for TPs intra
 
-        out_dir = const.OUT_DIR + "{}_{}/".format(fn+"_2", time.strftime("%Y%m%d-%H%M%S"))
+        out_dir = const.OUT_DIR + "{}_{}/".format(fn, time.strftime("%Y%m%d-%H%M%S"))
         os.makedirs(out_dir,exist_ok=True)
         shutil.copy2("const.py",out_dir+"/pars.txt")
         # --------------- INPUT ---------------
@@ -264,7 +271,7 @@ if __name__ == "__main__":
             sequences = utils.load_irish_n_d("data/all_irish-notes_and_durations-abc.txt", base_encoder)
         elif fn == "bicinia":
             base_encoder = utils.Encoder()
-            sequences = utils.load_bicinia_single("data/bicinia/", base_encoder, seq_n=2)
+            sequences = utils.load_bicinia_single("data/bicinia/", base_encoder, seq_n=1)
         else:
             with open("data/{}.txt".format(fn), "r") as fp:
                 sequences = [line.strip() for line in fp]
@@ -315,8 +322,8 @@ if __name__ == "__main__":
         tps_units.normalize()
         
         # calculate states uncertainty
-        tps_1.compute_states_entropy()
-        tps_units.compute_states_entropy()
+        tps_1.compute_states_entropy(be=base_encoder)
+        tps_units.compute_states_entropy(be=base_encoder)
         # generate sample sequences
         decoded = []
         gens = tps_units.generate_new_sequences(min_len=100)

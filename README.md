@@ -13,8 +13,8 @@ ____________________________
 
 
 ### TODOs:
-- manage first item segmentation
-
+- manage first item segmentation (e.g., 'mer' → 'm' + 'er' )
+- empty init_set: how to choose init nodes for generation?
 
 ### What's next?
 - abstraction
