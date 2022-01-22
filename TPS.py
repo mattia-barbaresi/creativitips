@@ -250,13 +250,13 @@ class TPSModule:
 if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     np.random.seed(const.RND_SEED)
-    file_names = ["saffran"]
+    file_names = ["all_irish-notes_and_durations"]
     base_encoder = None
 
     for fn in file_names:
         # init
         pars = ParserModule()
-        tps_units = TPSModule(const.TPS_ORDER)  # memory for TPs inter
+        tps_units = TPSModule(1)  # memory for TPs inter
         tps_1 = TPSModule(const.TPS_ORDER)  # memory for TPs intra
 
         out_dir = const.OUT_DIR + "{}_{}/".format(fn, time.strftime("%Y%m%d-%H%M%S"))
@@ -304,7 +304,7 @@ if __name__ == "__main__":
                 else:
                     tps_units.encode(old_p_units + units)
                     # save past for tps units
-                    old_p_units = units[-const.TPS_ORDER:]
+                    old_p_units = units[-1:]
                     pars.add_weight(p, comps=units, weight=const.WEIGHT)
                 # forgetting and interference
                 pars.forget_interf(p, comps=units, forget=const.FORGETTING, interfer=const.INTERFERENCE, ulens=const.ULENS)
@@ -355,3 +355,4 @@ if __name__ == "__main__":
         else:
             ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
         utils.plot_mem(ord_mem, out_dir + "words_plot.png", save_fig=True, show_fig=True)
+

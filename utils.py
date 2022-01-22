@@ -221,9 +221,9 @@ def read_percept(mem, sequence, ulens=None, tps=None):
             # unit = s[:2]  # add Parser basic components (bigram/syllable)..
             # unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram or trigram..)
             unit = tps.get_next_unit(s[:10])
+            # unit = tps.get_next_unit_brent(s[:10])
             print("TPs next unit:", unit)
             action = "tps"
-            # unit = tps.get_next_unit_brent(s[:5])
         if unit == "":
             # random unit
             unit = s[:np.random.choice(ulens)]
