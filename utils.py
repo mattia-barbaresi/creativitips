@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 # import networkx as nx
 # from networkx.drawing.nx_pydot import write_dot
+import const
 
 
 def matrix_from_tps(tps_dict, x_encoding, y_encoding):
@@ -179,7 +180,7 @@ def softmax(x):
     return f_x
 
 
-def generate_Saffran_sequence():
+def generate_Saffran_sequence_segmented():
     words = ["babupu", "bupada", "dutaba", "patubi", "pidabu", "tutibu"]
     res = []
     prev = ""
@@ -199,7 +200,22 @@ def generate_Saffran_sequence():
     return res
 
 
-def read_percept(mem, sequence, ulens=None, tps=None):
+def generate_Saffran_sequence():
+    words = ["babupu", "bupada", "dutaba", "patubi", "pidabu", "tutibu"]
+    prev = ""
+    res = ""
+    # for x in range(449):  # looser criterion
+    for x in range(910):  # strict criterion
+        ww = np.random.choice(words)
+        # no repeated words in succession
+        while ww == prev:
+            ww = np.random.choice(words)
+        prev = ww
+        res += ww
+    return [res]
+
+
+def read_percept(mem, sequence, old_seq="", ulens=None, tps=None):
     """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
     if ulens is None:
         # default like parser (bigrams)
@@ -211,30 +227,39 @@ def read_percept(mem, sequence, ulens=None, tps=None):
     while len(s) > 0 and i != 0:
         # units_list = [(k,v) for k,v in mem.items() if s.startswith(k) and len(k) > 1]
         units_list = [k for k in mem.keys() if s.startswith(k) and len(k) > 1]
-        if units_list:
+        unit = ""
+        if len(s) <= max(const.ULENS):
+            unit = s
+            action = "end"
+        elif units_list:
             # a unit in mem matched
             # unit = sorted(units_list, key=lambda item: item[1], reverse=True)[0][0]
             unit = sorted(units_list, key=lambda key: len(key), reverse=True)[0]
-            print("unit shape perception:", unit)
+            print("mem unit:", unit)
             action = "mem"
-        else:
+        elif tps:
             # unit = s[:2]  # add Parser basic components (bigram/syllable)..
             # unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram or trigram..)
-            unit = tps.get_next_unit(s[:10])
-            # unit = tps.get_next_unit_brent(s[:10])
-            print("TPs next unit:", unit)
+            # unit = tps.get_next_unit(s[:6], past=old_seq)
+            unit = tps.get_next_unit_brent(s[:6], past=old_seq)
             action = "tps"
+
+        # if no unit found, pick at random length
         if unit == "":
             # random unit
             unit = s[:np.random.choice(ulens)]
             print("random unit:", unit)
             action = "rnd"
+
         # check if last symbol
         sf = s[len(unit):]
         if len(sf) == 1:
             unit += sf
         res.append(unit)
+        print("final unit:", unit)
         s = s[len(unit):]
+        # for calculating next unit with tps
+        old_seq = unit
         i -= 1
 
     return res, action
@@ -321,13 +346,14 @@ def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
         plt.show()
 
 
-def plot_actions(actions, path=""):
+def plot_actions(actions, path="", show_fig=True):
     plt.clf()
     plt.plot(actions, ".")
     if path:
         plt.savefig(path + "actions.pdf", bbox_inches='tight')
-    plt.tight_layout()
-    plt.show()
+    if show_fig:
+        plt.tight_layout()
+        plt.show()
 
 
 # from transition probabilities, generates (occ) sequences
