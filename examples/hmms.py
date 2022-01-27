@@ -10,7 +10,7 @@ from scipy.special import softmax
 
 # ------------------------------ INIT ------------------------------
 # set random
-np.random.seed(55)
+rng = np.random.default_rng(const.RND_SEED)
 np.set_printoptions(linewidth=np.inf)
 
 # LabelEncoder for symbols (all lower letters)
@@ -46,7 +46,7 @@ print(np.round(sm_hebb, decimals=4))
 # create random sequence
 # sequences_rand = []
 # for ll in lens_1:
-#     sequences_rand.extend(np.random.randint(len(le.classes_),size=ll))
+#     sequences_rand.extend(rng.integers(len(le.classes_),size=ll))
 # print("sequences : ",sequences_1)
 # print("sequences rand: ", sequences_rand)
 
@@ -148,7 +148,7 @@ for x in range(0, 10):
     with open(dir_name+"/hebb{}.txt".format(x), "w") as of:
         # Plot the sampled data
         converted = le1.inverse_transform(X1[:, 0])
-        hebb_seq = utils.hebb_gen(X1[:, 0],sm_hebb)
+        hebb_seq = utils.hebb_gen(rng, X1[:, 0],sm_hebb)
         converted2 = le2.inverse_transform(hebb_seq)
         of.write(" ".join([str(x) for x in converted]))
         of.write("\n\n")

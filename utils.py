@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 # import networkx as nx
 # from networkx.drawing.nx_pydot import write_dot
-import const
 
 
 def matrix_from_tps(tps_dict, x_encoding, y_encoding):
@@ -18,8 +17,8 @@ def matrix_from_tps(tps_dict, x_encoding, y_encoding):
 
 
 # return an index using MonteCarlo choice on arr
-def mc_choice(arr):
-    rnd = np.random.uniform()
+def mc_choice(rng, arr):
+    rnd = rng.uniform()
     sm = arr[0]
     j = 1
     ind = 0
@@ -32,10 +31,10 @@ def mc_choice(arr):
 
 
 # gen with hebb associations
-def hebb_gen(sequence, hm):
+def hebb_gen(rng,sequence, hm):
     out = []
     for s in sequence:
-        idx = mc_choice(hm[s])
+        idx = mc_choice(rng, hm[s])
         out.append(idx)
     return out
 
@@ -145,7 +144,8 @@ def load_bicinia_full(dir_name, be):
                 ss.update(a)
                 ss.update(b)
     be.base_fit(ss)
-    return ["".join([be.base_encode(y) for y in x]) for x in seq1], ["".join([be.base_encode(y) for y in x]) for x in seq2]
+    return ["".join([be.base_encode(y) for y in x]) for x in seq1],\
+           ["".join([be.base_encode(y) for y in x]) for x in seq2]
 
 
 def load_irish_n_d(filename, be):
@@ -156,7 +156,7 @@ def load_irish_n_d(filename, be):
             a = line.strip().split(" ")
             seq.append(a)
             ss.update(a)
-    be.base_fit(ss)
+    be.base_fit(sorted(ss))
     return ["".join([be.base_encode(y) for y in x]) for x in seq]
 
 
@@ -180,7 +180,7 @@ def softmax(x):
     return f_x
 
 
-def generate_Saffran_sequence_segmented():
+def generate_Saffran_sequence_segmented(rng):
     words = ["babupu", "bupada", "dutaba", "patubi", "pidabu", "tutibu"]
     res = []
     prev = ""
@@ -188,10 +188,10 @@ def generate_Saffran_sequence_segmented():
     for x in range(91):  # strict criterion
         ss = ""
         for y in range(10):
-            ww = np.random.choice(words)
+            ww = rng.choice(words)
             # no repeated words in succession
             while ww == prev:
-                ww = np.random.choice(words)
+                ww = rng.choice(words)
             prev = ww
             ss += ww
         res.append(ss)
@@ -200,55 +200,55 @@ def generate_Saffran_sequence_segmented():
     return res
 
 
-def generate_Saffran_sequence():
+def generate_Saffran_sequence(rng):
     words = ["babupu", "bupada", "dutaba", "patubi", "pidabu", "tutibu"]
     prev = ""
     res = ""
     # for x in range(449):  # looser criterion
     for x in range(910):  # strict criterion
-        ww = np.random.choice(words)
+        ww = rng.choice(words)
         # no repeated words in succession
         while ww == prev:
-            ww = np.random.choice(words)
+            ww = rng.choice(words)
         prev = ww
         res += ww
     return [res]
 
 
-def read_percept(mem, sequence, old_seq="", ulens=None, tps=None):
+def read_percept(rng, mem, sequence, old_seq="", ulens=None, tps=None):
     """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
     if ulens is None:
         # default like parser (bigrams)
         ulens = [2]
     res = []
     # number of units embedded in next percepts
-    i = np.random.randint(low=1, high=4)
+    i = rng.integers(low=1, high=4)
     s = sequence
+    action = ""
     while len(s) > 0 and i != 0:
         # units_list = [(k,v) for k,v in mem.items() if s.startswith(k) and len(k) > 1]
         units_list = [k for k in mem.keys() if s.startswith(k) and len(k) > 1]
         unit = ""
-        if len(s) <= max(const.ULENS):
+        if len(s) <= max(ulens):
             unit = s
             action = "end"
         elif units_list:
             # a unit in mem matched
             # unit = sorted(units_list, key=lambda item: item[1], reverse=True)[0][0]
             unit = sorted(units_list, key=lambda key: len(key), reverse=True)[0]
-            print("mem unit:", unit)
+            # print("mem unit:", unit)
             action = "mem"
         elif tps:
-            # unit = s[:2]  # add Parser basic components (bigram/syllable)..
-            # unit = s[:np.random.choice(ulens)]  # ..or add rnd percept (bigram or trigram..)
             # unit = tps.get_next_unit(s[:6], past=old_seq)
             unit = tps.get_next_unit_brent(s[:6], past=old_seq)
             action = "tps"
 
         # if no unit found, pick at random length
         if unit == "":
+            # unit = s[:2]  # add Parser basic components (bigram/syllable)..
             # random unit
-            unit = s[:np.random.choice(ulens)]
-            print("random unit:", unit)
+            unit = s[:rng.choice(ulens)]
+            # print("random unit:", unit)
             action = "rnd"
 
         # check if last symbol
@@ -256,7 +256,7 @@ def read_percept(mem, sequence, old_seq="", ulens=None, tps=None):
         if len(sf) == 1:
             unit += sf
         res.append(unit)
-        print("final unit:", unit)
+        # print("final unit:", unit)
         s = s[len(unit):]
         # for calculating next unit with tps
         old_seq = unit
@@ -357,7 +357,7 @@ def plot_actions(actions, path="", show_fig=True):
 
 
 # from transition probabilities, generates (occ) sequences
-def generate(tps, n_seq, occ_per_seq=16):
+def generate(rng, tps, n_seq, occ_per_seq=16):
     res = dict()
     for order in tps.keys():
         res[order] = list()
@@ -365,13 +365,13 @@ def generate(tps, n_seq, occ_per_seq=16):
             for _ns in range(0, n_seq):
                 str_res = ""
                 for _ops in range(0, occ_per_seq):
-                    idx = mc_choice(list(tps[order].values()))
+                    idx = mc_choice(rng, list(tps[order].values()))
                     str_res += " " + list(tps[order].keys())[idx]
                 res[order].append(str_res.strip(" "))
         else:
             for _ns in range(0, n_seq):
                 # first choice
-                str_res = np.random.choice(list(tps[order].keys()))
+                str_res = rng.choice(list(tps[order].keys()))
                 sid = str_res
                 # all other occs
                 for _ops in range(0, occ_per_seq - order):
@@ -383,11 +383,11 @@ def generate(tps, n_seq, occ_per_seq=16):
                         i += 1
                     if sid:
                         val = tps[order - i][sid]
-                        idx = mc_choice(list(val.values()))
+                        idx = mc_choice(rng, list(val.values()))
                         str_res += " " + list(val.keys())[idx]
                     else:
                         # choose a symbol of the 0-th level
-                        idx = mc_choice(list(tps[0].values()))
+                        idx = mc_choice(rng, list(tps[0].values()))
                         val = list(tps[0].keys())[idx]
                         str_res += " " + val
 

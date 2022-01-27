@@ -60,7 +60,7 @@ class ParserModule:
         """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
         res = []
         # number of units embedded in next percepts
-        i = np.random.randint(low=1, high=4)
+        i = rng.randint(low=1, high=4)
         s = sequence
         while len(s) > 0 and i != 0:
             units_list = [k for k,v in self.mem.items() if v > 0.9 and len(k) > 1 and s.startswith(k)]
@@ -91,7 +91,7 @@ class ParserModule:
             self.mem[pct] = weight
         # print("pct: ", pct, weight)
 
-    def forget_interf(self, pct, comps=None, forget=0.05, interfer=0.005, ulens=[2]):
+    def forget_interf(self, rng, pct, comps=None, forget=0.05, interfer=0.005, ulens=[2]):
         # forgetting
         self.mem.update((k, v - forget) for k, v in self.mem.items() if k != pct)
 
@@ -102,7 +102,7 @@ class ParserModule:
                 _i = 0
                 uts = []
                 while _i <= len(s):
-                    ul = np.random.choice(ulens)
+                    ul = rng.choice(ulens)
                     uts.append(s[_i:_i + ul])
                     _i += ul
             else:
@@ -119,7 +119,7 @@ class ParserModule:
 
 
 if __name__ == "__main__":
-    np.random.seed(19)
+    rng = np.random.default_rng(const.RND_SEED)
     pars = ParserModule()
     w = const.WEIGHT
     f = const.FORGETTING
@@ -132,12 +132,12 @@ if __name__ == "__main__":
     # load bicinia
     # sequences = utils.load_bicinia_single("data/bicinia/")
 
-    sequences = utils.generate_Saffran_sequence()
+    sequences = utils.generate_Saffran_sequence(rng)
 
     for s in sequences:
         while len(s) > 0:
             # read percept as an array of units
-            units = utils.read_percept(dict((k,v) for k,v in pars.mem.items() if v >= 1.0), s)
+            units = utils.read_percept(rng, dict((k,v) for k,v in pars.mem.items() if v >= 1.0), s)
             p = "".join(units)
             print("units: ", units, " -> ", p)
             # add entire percept
@@ -150,7 +150,7 @@ if __name__ == "__main__":
             else:
                 pars.add_weight(p, comps=units, weight=w)
             # forgetting and interference
-            pars.forget_interf(p, comps=units, forget=f, interfer=i)
+            pars.forget_interf(rng, p, comps=units, forget=f, interfer=i)
             s = s[len(p):]
     ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
     # for bicinia use base_decode
