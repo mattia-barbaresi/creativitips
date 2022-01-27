@@ -13,6 +13,7 @@ from sympy import sequence
 import complexity
 import form_class as fc
 import const
+from Graph import GraphModule
 import utils
 from Parser import ParserModule
 
@@ -115,7 +116,7 @@ class TPSModule:
         (Brent 1999) a formalization of the original proposal by Saffarn, Newport et al.
         Consider the segment “wxyz”…whenever the statistical value (TPs or O/E) of the transitions under consideration
         is lower than the statistical values of its adjacent neighbors, a boundary is inserted.
-        IF TPs (“xy”) < TPs(“wx”) and < TPs(“yz”)  segments between “x” e “y”
+        IF TPs(“wx”) > TPs(“xy”) < TPs(“yz”)  segments between “x” e “y”
         :param percept could be a string, or an (ordered, sequential) array of strings.
         In latter case TPs are counted between elements of the array(units), instead of between symbols
         """
@@ -283,8 +284,10 @@ if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     rng = np.random.default_rng(const.RND_SEED)
 
-    file_names = \
-        ["input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G", "all_irish-notes_and_durations"]
+    # file_names = \
+    #     ["input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G", "all_irish-notes_and_durations"]
+
+    file_names = ["input"]
 
     # root_dir = const.OUT_DIR + "TPS_{}_({}_{}_{})_{}/".format(
     #     const.TPS_ORDER, const.MEM_THRES, const.FORGETTING, const.INTERFERENCE,
@@ -296,20 +299,20 @@ if __name__ == "__main__":
     # os.makedirs(root_dir, exist_ok=True)
     # shutil.copy2("const.py", root_dir + "pars.txt")
 
-    interferences = [0.0, 0.005]
-    forgets = [0.01, 0.05]
-    thresholds_mem = [0.1, 0.8, 0.95]
-    tps_orders = [1,2,3]
+    interferences = [0.005]
+    forgets = [0.05]
+    thresholds_mem = [0.95]
+    tps_orders = [2]
 
     for order in tps_orders:
         for interf in interferences:
             for fogs in forgets:
                 for t_mem in thresholds_mem:
                     # init
-                    root_dir = const.OUT_DIR + "BRENT_{}_({}_{}_{})_{}/"\
+                    root_dir = const.OUT_DIR + "TPS_{}_({}_{}_{})_{}/"\
                         .format(order, t_mem, fogs, interf, time.strftime("%Y%m%d-%H%M%S"))
-                    # root_dir = const.OUT_DIR + "RND_(2-3)_({}_{}_{})_{}/".
-                    # format(const.MEM_THRES,const.FORGETTING, const.INTERFERENCE, time.strftime("%Y%m%d-%H%M%S"))
+                    # root_dir = const.OUT_DIR + "RND_(2-3)_({}_{}_{})_{}/".\
+                    #     format(t_mem, fogs, interf, time.strftime("%Y%m%d-%H%M%S"))
 
                     base_encoder = None
                     os.makedirs(root_dir, exist_ok=True)
@@ -321,7 +324,7 @@ if __name__ == "__main__":
                             "forgetting": fogs,
                             "mem thresh": t_mem,
                             "lens": const.ULENS,
-                            "tps_order": order,
+                            # "tps_order": order,
                         }, of)
 
                     for fn in file_names:
@@ -407,12 +410,19 @@ if __name__ == "__main__":
 
                         results["processing time"] = str((datetime.now() - start_time).total_seconds())
                         # normilizes memories
-                        tps_1.normalize()
+                        # tps_1.normalize()
                         tps_units.normalize()
 
                         # calculate states uncertainty
-                        tps_1.compute_states_entropy(be=base_encoder)
+                        # tps_1.compute_states_entropy(be=base_encoder)
                         tps_units.compute_states_entropy(be=base_encoder)
+
+                        graph = GraphModule()
+                        graph.create_graph(tps_units, be=base_encoder)
+                        graph.draw_graph(out_dir + "nxGraph.dot")
+                        graph.print_values()
+                        graph.form_classes()
+                        graph.get_communities()
 
                         # generate sample sequences
                         print("initials: ", sorted(initial_set))
@@ -435,8 +445,8 @@ if __name__ == "__main__":
                         # utils.plot_gra(tps_units.mem)
                         print("plotting tps units...")
                         utils.plot_gra_from_normalized(tps_units, filename=out_dir + "tps_units", be=base_encoder)
-                        print("plotting tps all...")
-                        utils.plot_gra_from_normalized(tps_1, filename=out_dir + "tps_symbols", be=base_encoder)
+                        # print("plotting tps all...")
+                        # utils.plot_gra_from_normalized(tps_1, filename=out_dir + "tps_symbols", be=base_encoder)
                         print("plotting memory...")
                         # plot memeory chunks
                         # for "bicinia" and "all_irish_notes_and_durations" use base_decode
