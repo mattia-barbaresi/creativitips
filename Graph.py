@@ -9,10 +9,7 @@ from networkx.algorithms import community
 
 
 class GraphModule:
-    def __init__(self):
-        self.G = nx.DiGraph()
-
-    def create_graph(self, tps, be=None, thresh=0.0):
+    def __init__(self, tps, be=None, thresh=0.0):
         self.G = nx.DiGraph()
         added = set()
         rows, cols = tps.norm_mem.shape
@@ -45,13 +42,13 @@ class GraphModule:
         print("k_components: ", nx.algorithms.k_components(self.G.to_undirected()))
         print("maximal_independent_set: ", nx.algorithms.maximal_independent_set(self.G.to_undirected()))
         # print("traveling_salesman_problem: ", nx.algorithms.approximation.traveling_salesman_problem(self.G))
-
-    def form_classes(self):
-        print("topological_generations: ",[sorted(generation) for generation in nx.topological_generations(self.G)])
         # print("topological: ",list(nx.topological_sort(self.G)))
         # print("common_neighbors (kof,mer): ",list(nx.common_neighbors(self.G.to_undirected(),"kof","mer")))
         # print("flow_hierarchy: ",nx.flow_hierarchy(self.G))
         # print("max clique: ", list(nx.algorithms.approximation.clique.max_clique(self.G.to_undirected())))
+
+    def form_classes(self):
+        print("topological_generations: ",[sorted(generation) for generation in nx.topological_generations(self.G)])
 
     def get_communities(self):
         communities_generator = community.girvan_newman(self.G)

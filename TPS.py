@@ -287,7 +287,7 @@ if __name__ == "__main__":
     # file_names = \
     #     ["input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G", "all_irish-notes_and_durations"]
 
-    file_names = ["input"]
+    file_names = ["all_irish-notes_and_durations"]
 
     # root_dir = const.OUT_DIR + "TPS_{}_({}_{}_{})_{}/".format(
     #     const.TPS_ORDER, const.MEM_THRES, const.FORGETTING, const.INTERFERENCE,
@@ -417,12 +417,11 @@ if __name__ == "__main__":
                         # tps_1.compute_states_entropy(be=base_encoder)
                         tps_units.compute_states_entropy(be=base_encoder)
 
-                        graph = GraphModule()
-                        graph.create_graph(tps_units, be=base_encoder)
-                        graph.draw_graph(out_dir + "nxGraph.dot")
-                        graph.print_values()
+                        graph = GraphModule(tps_units, be=base_encoder)
                         graph.form_classes()
-                        graph.get_communities()
+                        # graph.draw_graph(out_dir + "nxGraph.dot")
+                        # graph.print_values()
+                        # graph.get_communities()
 
                         # generate sample sequences
                         print("initials: ", sorted(initial_set))
