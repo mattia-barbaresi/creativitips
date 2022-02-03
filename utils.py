@@ -215,7 +215,7 @@ def generate_Saffran_sequence(rng):
     return [res]
 
 
-def read_percept(rng, mem, sequence, old_seq="", ulens=None, tps=None):
+def read_percept(rng, mem, sequence, old_seq="", ulens=None, tps=None, method=""):
     """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
     if ulens is None:
         # default like parser (bigrams)
@@ -239,8 +239,10 @@ def read_percept(rng, mem, sequence, old_seq="", ulens=None, tps=None):
             # print("mem unit:", unit)
             action = "mem"
         elif tps:
-            unit = tps.get_next_unit(s[:6], past=old_seq)
-            # unit = tps.get_next_unit_brent(s[:6], past=old_seq)
+            if method == "BRENT":
+                unit = tps.get_next_unit_brent(s[:6], past=old_seq)
+            else:
+                unit = tps.get_next_unit(s[:6], past=old_seq)
             action = "tps"
 
         # if no unit found, pick at random length
@@ -337,7 +339,7 @@ def plot_gra_from_normalized(tps, filename="", be=None, thresh=0.0):
 # bar-plot memory content
 def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
     plt.clf()
-    plt.rcParams["figure.figsize"] = (18,5)
+    # plt.rcParams["figure.figsize"] = (18,5)
     plt.bar(range(len(mem)), list(mem.values()), align='center')
     # plt.gcf().autofmt_xdate()
     plt.xticks(range(len(mem)), list(mem.keys()), rotation=90)

@@ -10,7 +10,10 @@ from networkx.algorithms import community
 
 class GraphModule:
     def __init__(self, tps, be=None, thresh=0.0):
+        self.fc = None
         self.G = nx.DiGraph()
+
+        # create graph
         added = set()
         rows, cols = tps.norm_mem.shape
         for i in range(rows):
@@ -41,6 +44,11 @@ class GraphModule:
     def print_values(self):
         print("k_components: ", nx.algorithms.k_components(self.G.to_undirected()))
         print("maximal_independent_set: ", nx.algorithms.maximal_independent_set(self.G.to_undirected()))
+        print("dominating_set: ", nx.algorithms.dominating.dominating_set(self.G))
+        print("flow_hierarchy: ", nx.algorithms.hierarchy.flow_hierarchy(self.G))
+        # d_graph, d_nodes = nx.algorithms.summarization.dedensify(self.G,3)
+        # nx.nx_pydot.write_dot(d_graph, "dedensified.dot")
+        print("betweenness_centrality: ", nx.algorithms.centrality.betweenness_centrality(self.G))
         # print("traveling_salesman_problem: ", nx.algorithms.approximation.traveling_salesman_problem(self.G))
         # print("topological: ",list(nx.topological_sort(self.G)))
         # print("common_neighbors (kof,mer): ",list(nx.common_neighbors(self.G.to_undirected(),"kof","mer")))
@@ -48,7 +56,8 @@ class GraphModule:
         # print("max clique: ", list(nx.algorithms.approximation.clique.max_clique(self.G.to_undirected())))
 
     def form_classes(self):
-        print("topological_generations: ",[sorted(generation) for generation in nx.topological_generations(self.G)])
+        self.fc = nx.topological_generations(self.G)
+        print("topological_generations: ",[sorted(gen) for gen in self.fc])
 
     def get_communities(self):
         communities_generator = community.girvan_newman(self.G)

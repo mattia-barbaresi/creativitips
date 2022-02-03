@@ -9,7 +9,7 @@ from TPS import TPSModule
 import numpy as np
 
 np.set_printoptions(linewidth=np.inf)
-nrg = np.random.default_rng(const.RND_SEED)
+rng = np.random.default_rng(const.RND_SEED)
 max_order = 3
 units_len = [3]
 
@@ -112,7 +112,7 @@ for s1,s2 in zip(sequences):
         # active elements in mem shape perception
         active_mem = dict((k, v) for k, v in pars.mem.items() if v >= const.MEM_THRES)
         # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
-        units, action = utils.read_percept(active_mem, s, ulens=units_len, tps=tps_1)
+        units, action = utils.read_percept(rng, active_mem, s1, ulens=units_len, tps=tps_1)
         actions.append(action)
         p = "".join(units)
         tps_1.encode(old_p + p)
@@ -146,7 +146,7 @@ tps_units.normalize()
 
 # generate sample sequences
 decoded = []
-gens = utils.generate_new_sequences(tps_units, min_len=100)
+gens = tps_units.generate_new_sequences(rng, min_len=100)
 print("gens: ", gens)
 if base_encoder:
     for gg in gens:
@@ -165,7 +165,5 @@ utils.plot_gra_from_normalized(tps_units.norm_mem, filename=out_dir + "tps_units
 utils.plot_gra_from_normalized(tps_1.norm_mem,  filename=out_dir + "tps_1", be=base_encoder)
 # plot memeory chunks
 # for "bicinia" and "all_irish_notes_and_durations" use base_decode
-ord_mem = dict(sorted([(base_encoder.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
-utils.plot_mem(ord_mem, out_dir + "words_plot.png", save_fig=True, show_fig=True)
-
-
+o_mem = dict(sorted([(base_encoder.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
+utils.plot_mem(o_mem, out_dir + "words_plot.png", save_fig=True, show_fig=True)
