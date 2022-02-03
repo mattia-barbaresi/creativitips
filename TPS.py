@@ -16,6 +16,7 @@ import const
 from Graph import GraphModule
 import utils
 from Parser import ParserModule
+from word_emmbedding import EmbedModule
 
 
 class TPSModule:
@@ -112,7 +113,7 @@ class TPSModule:
 
     def get_units_brent(self, percept):
         """
-        Returns segmented percept using stored TPs.
+        Returns segmented percept using stored TPs. (trough-based segmentation strategy)
         (Brent 1999) a formalization of the original proposal by Saffarn, Newport et al.
         Consider the segment “wxyz”…whenever the statistical value (TPs or O/E) of the transitions under consideration
         is lower than the statistical values of its adjacent neighbors, a boundary is inserted.
@@ -195,6 +196,14 @@ class TPSModule:
         return ""
 
     def get_next_unit_brent(self, percept, past=""):
+        """
+        Returns segmented percept using stored TPs. (trough-based segmentation strategy)
+        (Brent 1999) a formalization of the original proposal by Saffarn, Newport et al.
+        Consider the segment “wxyz”…whenever the statistical value (TPs or O/E) of the transitions under consideration
+        is lower than the statistical values of its adjacent neighbors, a boundary is inserted.
+        IF TPs(“wx”) > TPs(“xy”) < TPs(“yz”)  segments between “x” e “y”.
+        Paper: https://link.springer.com/content/pdf/10.1023/A:1007541817488.pdf
+        """
         # if order = 1 no past required
         if self.order > 1:
             past = past[-(self.order-1):]
@@ -287,7 +296,7 @@ if __name__ == "__main__":
     # file_names = \
     #     ["input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G", "all_irish-notes_and_durations"]
 
-    file_names = ["all_irish-notes_and_durations"]
+    file_names = ["input"]
 
     # root_dir = const.OUT_DIR + "TPS_{}_({}_{}_{})_{}/".format(
     #     const.TPS_ORDER, const.MEM_THRES, const.FORGETTING, const.INTERFERENCE,
@@ -299,18 +308,19 @@ if __name__ == "__main__":
     # os.makedirs(root_dir, exist_ok=True)
     # shutil.copy2("const.py", root_dir + "pars.txt")
 
+    # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     interferences = [0.005]
     forgets = [0.05]
-    thresholds_mem = [0.95]
+    thresholds_mem = [0.9]
     tps_orders = [2]
-
+    method = "TPS"
     for order in tps_orders:
         for interf in interferences:
             for fogs in forgets:
                 for t_mem in thresholds_mem:
                     # init
-                    root_dir = const.OUT_DIR + "TPS_{}_({}_{}_{})_{}/"\
-                        .format(order, t_mem, fogs, interf, time.strftime("%Y%m%d-%H%M%S"))
+                    root_dir = const.OUT_DIR + "{}_{}_({}_{}_{})_{}/"\
+                        .format(method, order, t_mem, fogs, interf, time.strftime("%Y%m%d-%H%M%S"))
                     # root_dir = const.OUT_DIR + "RND_(2-3)_({}_{}_{})_{}/".\
                     #     format(t_mem, fogs, interf, time.strftime("%Y%m%d-%H%M%S"))
 
@@ -364,7 +374,7 @@ if __name__ == "__main__":
                                 # active elements in mem shape perception
                                 active_mem = dict((k, v) for k, v in pars.mem.items() if v >= t_mem)
                                 # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
-                                units, action = utils.read_percept(rng, active_mem, s, old_seq=old_p, ulens=const.ULENS, tps=tps_1)
+                                units, action = utils.read_percept(rng, active_mem, s, old_seq=old_p, ulens=const.ULENS, tps=tps_1, method=method)
                                 # add initial nodes of sequences for generation
                                 if first_in_seq:
                                     initial_set.add(units[0])
@@ -375,6 +385,8 @@ if __name__ == "__main__":
                                 # save past for tps
                                 old_p = p[-order:]
                                 # print("units: ", units, " -> ", p)
+                                tps_units.encode(old_p_units + units)
+
                                 # add entire percept
                                 if len(p) <= max(const.ULENS):
                                     # p is a unit, a primitive
@@ -383,15 +395,17 @@ if __name__ == "__main__":
                                     else:
                                         pars.mem[p] = const.WEIGHT
                                 else:
-                                    tps_units.encode(old_p_units + units)
-                                    # save past for tps units
                                     pars.add_weight(p, comps=units, weight=const.WEIGHT)
+
+                                # save past for tps units
                                 old_p_units = units[-1:]
                                 # forgetting and interference
                                 pars.forget_interf(rng, p, comps=units, forget=fogs, interfer=interf, ulens=const.ULENS)
                                 tps_units.forget(units, forget=fogs)
+                                # print("mem: ", tps_units.mem)
                                 s = s[len(p):]
 
+                            # generation
                             if iteration % 10 == 1:
                                 tps_units.normalize()
                                 results[iteration] = dict()
@@ -413,15 +427,13 @@ if __name__ == "__main__":
                         # tps_1.normalize()
                         tps_units.normalize()
 
+                        # embedding chunks
+                        # wem = EmbedModule(tps_units.norm_mem)
+                        # wem.compute(tps_units.le_rows)
+
                         # calculate states uncertainty
                         # tps_1.compute_states_entropy(be=base_encoder)
                         tps_units.compute_states_entropy(be=base_encoder)
-
-                        graph = GraphModule(tps_units, be=base_encoder)
-                        graph.form_classes()
-                        # graph.draw_graph(out_dir + "nxGraph.dot")
-                        # graph.print_values()
-                        # graph.get_communities()
 
                         # generate sample sequences
                         print("initials: ", sorted(initial_set))
@@ -454,4 +466,10 @@ if __name__ == "__main__":
                         else:
                             ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
                         utils.plot_mem(ord_mem, out_dir + "words_plot.png", save_fig=True, show_fig=False)
+
+                        graph = GraphModule(tps_units, be=base_encoder)
+                        graph.form_classes()
+                        # graph.draw_graph(out_dir + "nxGraph.dot")
+                        graph.print_values()
+                        # graph.get_communities()
 
