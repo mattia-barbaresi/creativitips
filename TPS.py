@@ -26,7 +26,6 @@ class TPSModule:
         self.mem = dict()
         self.norm_mem = np.array([])
         self.order = order
-        self.prev = ""
         self.le_rows = preprocessing.LabelEncoder()
         self.le_cols = preprocessing.LabelEncoder()
         self.state_entropies = {}
@@ -41,8 +40,8 @@ class TPSModule:
 
         if self.order > 0:
             for ii in range(self.order, len(percept)):
-                h = "".join(percept[ii - self.order:ii])
-                o = "".join(percept[ii:ii + 1])
+                h = " ".join(percept[ii - self.order:ii])
+                o = " ".join(percept[ii:ii + 1])
                 if h in self.mem:
                     if o in self.mem[h]:
                         self.mem[h][o] += wg
@@ -91,8 +90,8 @@ class TPSModule:
         tps_seqs = []
         if self.order > 0:
             for ii in range(self.order, len(percept)):
-                h = "".join(percept[ii - self.order:ii])
-                o = "".join(percept[ii:ii + 1])
+                h = " ".join(percept[ii - self.order:ii])
+                o = " ".join(percept[ii:ii + 1])
                 tps_seqs.append(self.norm_mem[self.le_rows.transform([h])[0]][self.le_cols.transform([o])[0]])
             start = 0
             # for ind, tp in enumerate(tps_seqs):
@@ -126,8 +125,8 @@ class TPSModule:
         tps_seqs = []
         if self.order > 0:
             for ii in range(self.order, len(percept)):
-                h = "".join(percept[ii - self.order:ii])
-                o = "".join(percept[ii:ii + 1])
+                h = " ".join(percept[ii - self.order:ii])
+                o = " ".join(percept[ii:ii + 1])
                 tps_seqs.append(self.norm_mem[self.le_rows.transform([h])[0]][self.le_cols.transform([o])[0]])
             start = 0
             _i = 1
@@ -155,8 +154,8 @@ class TPSModule:
         tps_seqs = []
         if self.order > 0:
             for ii in range(self.order, len(percept)):
-                h = "".join(percept[ii - self.order:ii])
-                o = "".join(percept[ii:ii + 1])
+                h = " ".join(percept[ii - self.order:ii])
+                o = " ".join(percept[ii:ii + 1])
                 tps_seqs.append(self.norm_mem[self.le_rows.transform([h])[0]][self.le_cols.transform([o])[0]])
             return tps_seqs
         else:
@@ -171,12 +170,12 @@ class TPSModule:
                 res.append(k + next(iter(self.mem[k])))
         return res
 
-    def get_next_unit(self, percept, past=""):
+    def get_next_unit(self, percept, past=None):
         # if order = 1 no past required
-        if self.order > 1:
+        if self.order > 1 and past:
             past = past[-(self.order-1):]
         else:
-            past = ""
+            past = []
         pp_seq = past + percept
         if self.order > 0:
             if self.order < len(pp_seq):
@@ -193,9 +192,9 @@ class TPSModule:
         else:
             print("(TPmodule):Order must be grater than 1.")
 
-        return ""
+        return []
 
-    def get_next_unit_brent(self, percept, past=""):
+    def get_next_unit_brent(self, percept, past=None):
         """
         Returns segmented percept using stored TPs. (trough-based segmentation strategy)
         (Brent 1999) a formalization of the original proposal by Saffarn, Newport et al.
@@ -205,10 +204,10 @@ class TPSModule:
         Paper: https://link.springer.com/content/pdf/10.1023/A:1007541817488.pdf
         """
         # if order = 1 no past required
-        if self.order > 1:
+        if self.order > 1 and past:
             past = past[-(self.order-1):]
         else:
-            past = ""
+            past = []
         pp_seq = past + percept
         if self.order > 0:
             if self.order < len(pp_seq):
@@ -225,13 +224,13 @@ class TPSModule:
         else:
             print("(TPmodule):Order must be grater than 1.")
 
-        return ""
+        return []
 
     def get_tps_sequence(self, seq):
         tps_seqs = []
         for ii in range(self.order, len(seq)):
-            h = "".join(seq[ii - self.order:ii])
-            o = "".join(seq[ii:ii + 1])
+            h = " ".join(seq[ii - self.order:ii])
+            o = " ".join(seq[ii:ii + 1])
             if h in self.mem and o in self.mem[h]:
                 # v = self.mem[h][o]
                 v = self.mem[h][o] / np.sum(list(self.mem[h].values()))
@@ -262,7 +261,7 @@ class TPSModule:
                     break
                 i = self.le_rows.transform([_s])[0]
                 _s = self.le_cols.inverse_transform([utils.mc_choice(rand_gen, self.norm_mem[i])])[0]
-                seq += _s
+                seq += " " + _s
             res.append(seq)
 
         if be:
@@ -274,7 +273,7 @@ class TPSModule:
 
         return res, init_set
 
-    def compute_states_entropy(self, be):
+    def compute_states_entropy(self, be=None):
         self.state_entropies = {}
         rows, cols = self.norm_mem.shape
         for _r in range(rows):
@@ -298,22 +297,13 @@ if __name__ == "__main__":
 
     file_names = ["input"]
 
-    # root_dir = const.OUT_DIR + "TPS_{}_({}_{}_{})_{}/".format(
-    #     const.TPS_ORDER, const.MEM_THRES, const.FORGETTING, const.INTERFERENCE,
-    #     time.strftime("%Y%m%d-%H%M%S"))
-    # # root_dir = const.OUT_DIR + "RND_(2-3)_({}_{}_{})_{}/".
-    # # format(const.MEM_THRES,const.FORGETTING, const.INTERFERENCE, time.strftime("%Y%m%d-%H%M%S"))
-
-    # base_encoder = None
-    # os.makedirs(root_dir, exist_ok=True)
-    # shutil.copy2("const.py", root_dir + "pars.txt")
-
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     interferences = [0.005]
     forgets = [0.05]
-    thresholds_mem = [0.9]
+    thresholds_mem = [0.95]
     tps_orders = [2]
-    method = "TPS"
+    method = "BRENT"
+
     for order in tps_orders:
         for interf in interferences:
             for fogs in forgets:
@@ -324,7 +314,6 @@ if __name__ == "__main__":
                     # root_dir = const.OUT_DIR + "RND_(2-3)_({}_{}_{})_{}/".\
                     #     format(t_mem, fogs, interf, time.strftime("%Y%m%d-%H%M%S"))
 
-                    base_encoder = None
                     os.makedirs(root_dir, exist_ok=True)
                     with open(root_dir + "pars.txt", "w") as of:
                         json.dump({
@@ -348,24 +337,24 @@ if __name__ == "__main__":
                         results = dict()
                         # --------------- INPUT ---------------
                         if fn == "saffran":
-                            # load Saffran input
+                            # load/generate Saffran input
                             sequences = utils.generate_Saffran_sequence(rng)
                         elif fn == "all_irish-notes_and_durations":
-                            base_encoder = utils.Encoder()
-                            sequences = utils.load_irish_n_d("data/all_irish-notes_and_durations-abc.txt", base_encoder)
+                            # read
+                            sequences = utils.load_irish_n_d("data/all_irish-notes_and_durations-abc.txt")
                         elif fn == "bicinia":
-                            base_encoder = utils.Encoder()
-                            sequences = utils.load_bicinia_single("data/bicinia/", base_encoder, seq_n=1)
+                            sequences = utils.load_bicinia_single("data/bicinia/", seq_n=2)
                         else:
                             with open("data/{}.txt".format(fn), "r") as fp:
-                                sequences = [line.strip() for line in fp]
+                                # split lines char by char
+                                sequences = [list(line.strip()) for line in fp]
 
                         # read percepts using parser function
                         actions = []
                         initial_set = set()
                         start_time = datetime.now()
                         for iteration,s in enumerate(sequences):
-                            old_p = ""
+                            old_p = []
                             old_p_units = []
                             first_in_seq = True
                             while len(s) > 0:
@@ -380,15 +369,15 @@ if __name__ == "__main__":
                                     initial_set.add(units[0])
                                     first_in_seq = False
                                 actions.append(action)
-                                p = "".join(units)
-                                tps_1.encode(old_p + p)
+                                p = " ".join(units)
+                                tps_1.encode(old_p + p.strip().split(" "))
                                 # save past for tps
-                                old_p = p[-order:]
+                                old_p = p.strip().split(" ")[-order:]
                                 # print("units: ", units, " -> ", p)
                                 tps_units.encode(old_p_units + units)
 
                                 # add entire percept
-                                if len(p) <= max(const.ULENS):
+                                if len(p.strip().split(" ")) <= max(const.ULENS):
                                     # p is a unit, a primitive
                                     if p in pars.mem:
                                         pars.mem[p] += const.WEIGHT / 2
@@ -403,17 +392,14 @@ if __name__ == "__main__":
                                 pars.forget_interf(rng, p, comps=units, forget=fogs, interfer=interf, ulens=const.ULENS)
                                 tps_units.forget(units, forget=fogs)
                                 # print("mem: ", tps_units.mem)
-                                s = s[len(p):]
+                                s = s[len(p.strip().split(" ")):]
 
                             # generation
                             if iteration % 10 == 1:
                                 tps_units.normalize()
                                 results[iteration] = dict()
-                                results[iteration]["generated"], results[iteration]["initials"] = tps_units.generate_new_sequences(rng, min_len=100, be=base_encoder, initials=initial_set)
-                                if fn == "bicinia" or fn == "all_irish-notes_and_durations":
-                                    iter_mem = dict(sorted([(base_encoder.base_decode(x), y) for x, y in pars.mem.items()], key=lambda it: it[1], reverse=True))
-                                else:
-                                    iter_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
+                                results[iteration]["generated"], results[iteration]["initials"] = tps_units.generate_new_sequences(rng, min_len=100, initials=initial_set)
+                                iter_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
                                 results[iteration]["mem"] = iter_mem
 
                         # dc = fc.distributional_context(fc_seqs, 3)
@@ -432,13 +418,13 @@ if __name__ == "__main__":
                         # wem.compute(tps_units.le_rows)
 
                         # calculate states uncertainty
-                        # tps_1.compute_states_entropy(be=base_encoder)
-                        tps_units.compute_states_entropy(be=base_encoder)
+                        # tps_1.compute_states_entropy()
+                        tps_units.compute_states_entropy()
 
                         # generate sample sequences
                         print("initials: ", sorted(initial_set))
-                        # gens, init = tps_units.generate_new_sequences(min_len=100, be=base_encoder, initials=initial_set)
-                        gens, init = tps_units.generate_new_sequences(rng, min_len=100, be=base_encoder, initials=initial_set)
+                        # gens, init = tps_units.generate_new_sequences(min_len=100, initials=initial_set)
+                        gens, init = tps_units.generate_new_sequences(rng, min_len=100, initials=initial_set)
                         print("init set: ", init)
                         print("gens: ", gens)
 
@@ -455,21 +441,17 @@ if __name__ == "__main__":
                         # print(tps_units.mem)
                         # utils.plot_gra(tps_units.mem)
                         print("plotting tps units...")
-                        utils.plot_gra_from_normalized(tps_units, filename=out_dir + "tps_units", be=base_encoder)
+                        utils.plot_gra_from_normalized(tps_units, filename=out_dir + "tps_units")
                         # print("plotting tps all...")
-                        # utils.plot_gra_from_normalized(tps_1, filename=out_dir + "tps_symbols", be=base_encoder)
+                        # utils.plot_gra_from_normalized(tps_1, filename=out_dir + "tps_symbols")
                         print("plotting memory...")
                         # plot memeory chunks
-                        # for "bicinia" and "all_irish_notes_and_durations" use base_decode
-                        if fn == "bicinia" or fn == "all_irish-notes_and_durations":
-                            ord_mem = dict(sorted([(base_encoder.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
-                        else:
-                            ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
+                        ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
                         utils.plot_mem(ord_mem, out_dir + "words_plot.png", save_fig=True, show_fig=False)
 
-                        graph = GraphModule(tps_units, be=base_encoder)
-                        graph.form_classes()
+                        # graph = GraphModule(tps_units)
+                        # graph.form_classes()
                         # graph.draw_graph(out_dir + "nxGraph.dot")
-                        graph.print_values()
+                        # graph.print_values()
                         # graph.get_communities()
 

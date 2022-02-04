@@ -4,6 +4,8 @@ import string
 from graphviz import Digraph
 import matplotlib.pyplot as plt
 import numpy as np
+
+
 # import networkx as nx
 # from networkx.drawing.nx_pydot import write_dot
 
@@ -31,7 +33,7 @@ def mc_choice(rng, arr):
 
 
 # gen with hebb associations
-def hebb_gen(rng,sequence, hm):
+def hebb_gen(rng, sequence, hm):
     out = []
     for s in sequence:
         idx = mc_choice(rng, hm[s])
@@ -104,28 +106,18 @@ def load_bicinia(dir_name):
     return seq1, seq2, len1, len2
 
 
-def load_bicinia_single(dir_name, be, seq_n=1):
-    seq1 = []
-    seq2 = []
-    ss = set()
+def load_bicinia_single(dir_name, seq_n=1):
+    seq = []
+    idx = 0  # read first sequence
+    if seq_n != 1:
+        # read second sequence
+        idx = 2  # line 1 is empty
     for file in os.listdir(dir_name):
         if fnmatch.fnmatch(file, "*.mid.txt"):
             with open(dir_name + file, "r") as fp:
                 lines = fp.readlines()
-                a = lines[0].strip().split(" ")
-                seq1.append(a)
-                # lines[1] is empty
-                b = lines[2].strip().split(" ")
-                seq2.append(b)
-                if seq_n == 1:
-                    ss.update(a)
-                else:
-                    ss.update(b)
-    be.base_fit(ss)
-    if seq_n == 1:
-        return ["".join([be.base_encode(y) for y in x]) for x in seq1]
-    else:
-        return ["".join([be.base_encode(y) for y in x]) for x in seq2]
+                seq.append(lines[idx].strip().split(" "))
+    return seq
 
 
 def load_bicinia_full(dir_name, be):
@@ -144,20 +136,16 @@ def load_bicinia_full(dir_name, be):
                 ss.update(a)
                 ss.update(b)
     be.base_fit(ss)
-    return ["".join([be.base_encode(y) for y in x]) for x in seq1],\
+    return ["".join([be.base_encode(y) for y in x]) for x in seq1], \
            ["".join([be.base_encode(y) for y in x]) for x in seq2]
 
 
-def load_irish_n_d(filename, be):
+def load_irish_n_d(filename):
     seq = []
-    ss = set()
     with open(filename, "r") as fp:
         for line in fp.readlines():
-            a = line.strip().split(" ")
-            seq.append(a)
-            ss.update(a)
-    be.base_fit(sorted(ss))
-    return ["".join([be.base_encode(y) for y in x]) for x in seq]
+            seq.append(line.strip().split(" "))
+    return seq
 
 
 def mtx_from_multi(seq1, seq2, nd1, nd2):
@@ -194,16 +182,16 @@ def generate_Saffran_sequence_segmented(rng):
                 ww = rng.choice(words)
             prev = ww
             ss += ww
-        res.append(ss)
+        res.append(list(ss))
     # p = ["tuti","buduta","batu","tibupa","tu","bi"]  # for testing
 
     return res
 
 
 def generate_Saffran_sequence(rng):
-    words = ["babupu", "bupada", "dutaba", "patubi", "pidabu", "tutibu"]
+    words = ["babupu","bupada","dutaba","patubi","pidabu","tutibu"]
     prev = ""
-    res = ""
+    res = []
     # for x in range(449):  # looser criterion
     for x in range(910):  # strict criterion
         ww = rng.choice(words)
@@ -211,15 +199,16 @@ def generate_Saffran_sequence(rng):
         while ww == prev:
             ww = rng.choice(words)
         prev = ww
-        res += ww
+        res += list(ww)
     return [res]
 
 
-def read_percept(rng, mem, sequence, old_seq="", ulens=None, tps=None, method=""):
+def read_percept(rng, mem, sequence, old_seq=None, ulens=None, tps=None, method=""):
     """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
     if ulens is None:
-        # default like parser (bigrams)
-        ulens = [2]
+        ulens = [2]  # default like parser (bigrams)
+    if not old_seq:
+        old_seq = []
     res = []
     # number of units embedded in next percepts
     i = rng.integers(low=1, high=4)
@@ -227,15 +216,16 @@ def read_percept(rng, mem, sequence, old_seq="", ulens=None, tps=None, method=""
     action = ""
     while len(s) > 0 and i != 0:
         # units_list = [(k,v) for k,v in mem.items() if s.startswith(k) and len(k) > 1]
-        units_list = [k for k in mem.keys() if s.startswith(k) and len(k) > 1]
-        unit = ""
-        if len(s) <= max(ulens):
-            unit = s
-            action = "end"
-        elif units_list:
+        units_list = [k for k in mem.keys() if " ".join(s).startswith(k) and len(k) > 1]
+        unit = []
+        # if len(s) <= max(ulens):
+        #     unit = s
+        #     action = "end"
+        # el
+        if units_list:
             # a unit in mem matched
             # unit = sorted(units_list, key=lambda item: item[1], reverse=True)[0][0]
-            unit = sorted(units_list, key=lambda key: len(key), reverse=True)[0]
+            unit = (sorted(units_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
             # print("mem unit:", unit)
             action = "mem"
         elif tps:
@@ -246,7 +236,7 @@ def read_percept(rng, mem, sequence, old_seq="", ulens=None, tps=None, method=""
             action = "tps"
 
         # if no unit found, pick at random length
-        if unit == "":
+        if not unit:
             # unit = s[:2]  # add Parser basic components (bigram/syllable)..
             # random unit
             unit = s[:rng.choice(ulens)]
@@ -257,7 +247,7 @@ def read_percept(rng, mem, sequence, old_seq="", ulens=None, tps=None, method=""
         sf = s[len(unit):]
         if len(sf) == 1:
             unit += sf
-        res.append(unit)
+        res.append(" ".join(unit))
         # print("final unit:", unit)
         s = s[len(unit):]
         # for calculating next unit with tps
@@ -332,19 +322,21 @@ def plot_gra_from_normalized(tps, filename="", be=None, thresh=0.0):
 
     # print(gra.source)
     gra.render(filename, view=False, engine="dot", format="pdf")
-    os.rename(filename, filename+'.dot')
+    os.rename(filename, filename + '.dot')
     return gra
 
 
 # bar-plot memory content
 def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
     plt.clf()
+    # plt.subplots_adjust(bottom=0.15)
     # plt.rcParams["figure.figsize"] = (18,5)
     plt.bar(range(len(mem)), list(mem.values()), align='center')
     # plt.gcf().autofmt_xdate()
     plt.xticks(range(len(mem)), list(mem.keys()), rotation=90)
+
     if save_fig:
-        plt.savefig(fig_name)
+        plt.savefig(fig_name, bbox_inches='tight')
     if show_fig:
         plt.show()
 
