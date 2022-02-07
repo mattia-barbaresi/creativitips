@@ -148,6 +148,16 @@ def load_irish_n_d(filename):
     return seq
 
 
+def load_irish_n_d_repeated(filename):
+    seq = []
+    with open(filename, "r") as fp:
+        for line in fp.readlines():
+            seq.append(line.strip().split(" "))
+            seq.append(line.strip().split(" "))
+            seq.append(line.strip().split(" "))
+    return seq
+
+
 def mtx_from_multi(seq1, seq2, nd1, nd2):
     mtx = np.zeros((nd1, nd2))
     for s1, s2 in zip(seq1, seq2):
