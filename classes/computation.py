@@ -5,7 +5,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from networkx.algorithms import community
 import numpy as np
-from sklearn.decomposition import PCA, TruncatedSVD
+from sklearn.decomposition import TruncatedSVD
 from sklearn.utils.extmath import randomized_svd
 
 
@@ -44,8 +44,8 @@ class ComputeModule:
         active_mem = dict((k, v) for k, v in self.pars.mem.items() if v >= self.t_mem)
         # interference could be applied for those units activated but not used (reinforced)!
         # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
-        units, action = utils.read_percept(self.rng, active_mem, s, old_seq=self.old_p, ulens=self.ulens, tps=self.tps_1,
-                                           method=self.method)
+        units, action = utils.read_percept(self.rng, active_mem, s, old_seq=self.old_p, ulens=self.ulens,
+                                           tps=self.tps_1, method=self.method)
         # add initial nodes of sequences for generation
         if first_in_seq:
             self.initial_set.add(units[0])
