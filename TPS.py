@@ -1,31 +1,25 @@
 from datetime import datetime
-import fnmatch
 import json
 import math
 import os
-import shutil
 import time
 import numpy as np
-from matplotlib import pyplot as plt
 from sklearn import preprocessing
-from scipy.special import softmax
-from sympy import sequence
-import complexity
-import form_class as fc
 import const
-from Graph import GraphModule
 import utils
 from Parser import ParserModule
+import form_class as fc
+from Graph import GraphModule
 from word_emmbedding import EmbedModule
 
 
 class TPSModule:
     """Implements a transitional probabilities module"""
 
-    def __init__(self, order=1):
+    def __init__(self, ordr=1):
         self.mem = dict()
         self.norm_mem = np.array([])
-        self.order = order
+        self.order = ordr
         self.le_rows = preprocessing.LabelEncoder()
         self.le_cols = preprocessing.LabelEncoder()
         self.state_entropies = {}
@@ -88,11 +82,9 @@ class TPSModule:
         self.normalize()
         res = []
         tps_seqs = []
+        percept = percept.strip().split(" ")
         if self.order > 0:
-            for ii in range(self.order, len(percept)):
-                h = " ".join(percept[ii - self.order:ii])
-                o = " ".join(percept[ii:ii + 1])
-                tps_seqs.append(self.norm_mem[self.le_rows.transform([h])[0]][self.le_cols.transform([o])[0]])
+            tps_seqs = self.get_probs_normalized(percept)
             start = 0
             # for ind, tp in enumerate(tps_seqs):
             #     if tp < ths:  # insert a break
@@ -123,11 +115,9 @@ class TPSModule:
         self.normalize()
         res = []
         tps_seqs = []
+        percept = percept.strip().split(" ")
         if self.order > 0:
-            for ii in range(self.order, len(percept)):
-                h = " ".join(percept[ii - self.order:ii])
-                o = " ".join(percept[ii:ii + 1])
-                tps_seqs.append(self.norm_mem[self.le_rows.transform([h])[0]][self.le_cols.transform([o])[0]])
+            tps_seqs = self.get_probs_normalized(percept)
             start = 0
             _i = 1
             tps_seqs = [1.0] + tps_seqs  # consider the first as high transitions(for segmenting first positions too)
@@ -146,7 +136,7 @@ class TPSModule:
 
         return res
 
-    def get_probs(self, percept):
+    def get_probs_normalized(self, percept):
         """
         Returns TPs between symbols in percepts.
         """
@@ -301,7 +291,7 @@ if __name__ == "__main__":
     interferences = [0.005]
     forgets = [0.05]
     thresholds_mem = [0.95]
-    tps_orders = [2]
+    tps_orders = [1]
     method = "BRENT"
 
     for order in tps_orders:
@@ -341,6 +331,7 @@ if __name__ == "__main__":
                             sequences = utils.generate_Saffran_sequence(rng)
                         elif fn == "all_irish-notes_and_durations":
                             # read
+                            # sequences = utils.load_irish_n_d_repeated("data/all_irish-notes_and_durations-abc.txt")
                             sequences = utils.load_irish_n_d("data/all_irish-notes_and_durations-abc.txt")
                         elif fn == "bicinia":
                             sequences = utils.load_bicinia_single("data/bicinia/", seq_n=2)
@@ -362,6 +353,7 @@ if __name__ == "__main__":
                                 # read percept as an array of units
                                 # active elements in mem shape perception
                                 active_mem = dict((k, v) for k, v in pars.mem.items() if v >= t_mem)
+                                 # interference could be applied for those units activated but not used (reinforced)!
                                 # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
                                 units, action = utils.read_percept(rng, active_mem, s, old_seq=old_p, ulens=const.ULENS, tps=tps_1, method=method)
                                 # add initial nodes of sequences for generation
@@ -390,7 +382,8 @@ if __name__ == "__main__":
                                 old_p_units = units[-1:]
                                 # forgetting and interference
                                 pars.forget_interf(rng, p, comps=units, forget=fogs, interfer=interf, ulens=const.ULENS)
-                                tps_units.forget(units, forget=fogs)
+                                # tps_units.forget(units, forget=fogs)
+                                tps_units.forget(units, forget=0.01)
                                 # print("mem: ", tps_units.mem)
                                 s = s[len(p.strip().split(" ")):]
 
@@ -410,7 +403,7 @@ if __name__ == "__main__":
 
                         results["processing time"] = str((datetime.now() - start_time).total_seconds())
                         # normilizes memories
-                        # tps_1.normalize()
+                        tps_1.normalize()
                         tps_units.normalize()
 
                         # embedding chunks
@@ -418,7 +411,7 @@ if __name__ == "__main__":
                         # wem.compute(tps_units.le_rows)
 
                         # calculate states uncertainty
-                        # tps_1.compute_states_entropy()
+                        tps_1.compute_states_entropy()
                         tps_units.compute_states_entropy()
 
                         # generate sample sequences
@@ -427,6 +420,10 @@ if __name__ == "__main__":
                         gens, init = tps_units.generate_new_sequences(rng, min_len=100, initials=initial_set)
                         print("init set: ", init)
                         print("gens: ", gens)
+
+                        print("REGENERATION")
+                        for g in gens:
+                            print(tps_1.get_units_brent(g))
 
                         # save results
                         with open(out_dir + "results.json", "w") as of:
@@ -443,7 +440,7 @@ if __name__ == "__main__":
                         print("plotting tps units...")
                         utils.plot_gra_from_normalized(tps_units, filename=out_dir + "tps_units")
                         # print("plotting tps all...")
-                        # utils.plot_gra_from_normalized(tps_1, filename=out_dir + "tps_symbols")
+                        utils.plot_gra_from_normalized(tps_1, filename=out_dir + "tps_symbols")
                         print("plotting memory...")
                         # plot memeory chunks
                         ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
