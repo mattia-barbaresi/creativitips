@@ -120,10 +120,9 @@ def load_bicinia_single(dir_name, seq_n=1):
     return seq
 
 
-def load_bicinia_full(dir_name, be):
+def load_bicinia_full(dir_name):
     seq1 = []
     seq2 = []
-    ss = set()
     for file in os.listdir(dir_name):
         if fnmatch.fnmatch(file, "*.mid.txt"):
             with open(dir_name + file, "r") as fp:
@@ -133,11 +132,7 @@ def load_bicinia_full(dir_name, be):
                 # lines[1] is empty
                 b = lines[2].strip().split(" ")
                 seq2.append(b)
-                ss.update(a)
-                ss.update(b)
-    be.base_fit(ss)
-    return ["".join([be.base_encode(y) for y in x]) for x in seq1], \
-           ["".join([be.base_encode(y) for y in x]) for x in seq2]
+    return seq1, seq2
 
 
 def load_irish_n_d(filename):
@@ -225,8 +220,8 @@ def read_percept(rng, mem, sequence, old_seq=None, ulens=None, tps=None, method=
     s = sequence
     action = ""
     while len(s) > 0 and i != 0:
-        # units_list = [(k,v) for k,v in mem.items() if s.startswith(k) and len(k) > 1]
-        units_list = [k for k in mem.keys() if " ".join(s).startswith(k) and len(k) > 1]
+        # units_list = [(k,v) for k,v in mem.items() if s.startswith(k)]
+        units_list = [k for k in mem.keys() if " ".join(s).startswith(k)]
         unit = []
         # if len(s) <= max(ulens):
         #     unit = s

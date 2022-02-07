@@ -1,16 +1,7 @@
-from datetime import datetime
-import json
 import math
-import os
-import time
 import numpy as np
 from sklearn import preprocessing
-import const
 import utils
-from Parser import ParserModule
-import form_class as fc
-from Graph import GraphModule
-from word_emmbedding import EmbedModule
 
 
 class TPSModule:
@@ -26,9 +17,9 @@ class TPSModule:
 
     def encode(self, percept, wg=1.0):
         """
-        Encode TPs of the given percept, for the given order.
-        :param wg: assigned weight for memory entries
-        :param percept: could be a (i) string, or (ii) an (ordered, sequential) array of strings.
+        Encode TPs of the given percept, for the given order
+        :param wg assigned weight for memory entries
+        :param percept could be a (i) string, or (ii) an (ordered, sequential) array of strings.
         In case (ii) TPs are counted between elements of the array (units), instead of between symbols
         """
 
@@ -74,14 +65,13 @@ class TPSModule:
 
     def get_units(self, percept, ths=0.5):
         """
-        Returns segmented percept using stored TPs.
-        :param ths: segmentation threshold
+        Returns segmented percept using stored TPs
+        :param ths segmentation threshold
         :param percept could be a string, or an (ordered, sequential) array of strings.
         In latter case TPs are counted between elements of the array(units), instead of between symbols
         """
         self.normalize()
         res = []
-        tps_seqs = []
         percept = percept.strip().split(" ")
         if self.order > 0:
             tps_seqs = self.get_probs_normalized(percept)
@@ -109,12 +99,12 @@ class TPSModule:
         Consider the segment “wxyz”…whenever the statistical value (TPs or O/E) of the transitions under consideration
         is lower than the statistical values of its adjacent neighbors, a boundary is inserted.
         IF TPs(“wx”) > TPs(“xy”) < TPs(“yz”)  segments between “x” e “y”
+
         :param percept could be a string, or an (ordered, sequential) array of strings.
         In latter case TPs are counted between elements of the array(units), instead of between symbols
         """
         self.normalize()
         res = []
-        tps_seqs = []
         percept = percept.strip().split(" ")
         if self.order > 0:
             tps_seqs = self.get_probs_normalized(percept)
@@ -276,179 +266,3 @@ class TPSModule:
             else:
                 self.state_entropies[self.le_rows.inverse_transform([_r])[0]] = _s
         return self.state_entropies
-
-
-if __name__ == "__main__":
-    np.set_printoptions(linewidth=np.inf)
-    rng = np.random.default_rng(const.RND_SEED)
-
-    # file_names = \
-    #     ["input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G", "all_irish-notes_and_durations"]
-
-    file_names = ["input"]
-
-    # maintaining INTERFERENCES/FORGETS separation by a factor of 10
-    interferences = [0.005]
-    forgets = [0.05]
-    thresholds_mem = [0.95]
-    tps_orders = [1]
-    method = "BRENT"
-
-    for order in tps_orders:
-        for interf in interferences:
-            for fogs in forgets:
-                for t_mem in thresholds_mem:
-                    # init
-                    root_dir = const.OUT_DIR + "{}_{}_({}_{}_{})_{}/"\
-                        .format(method, order, t_mem, fogs, interf, time.strftime("%Y%m%d-%H%M%S"))
-                    # root_dir = const.OUT_DIR + "RND_(2-3)_({}_{}_{})_{}/".\
-                    #     format(t_mem, fogs, interf, time.strftime("%Y%m%d-%H%M%S"))
-
-                    os.makedirs(root_dir, exist_ok=True)
-                    with open(root_dir + "pars.txt", "w") as of:
-                        json.dump({
-                            "rnd": const.RND_SEED,
-                            "w": const.WEIGHT,
-                            "interference": interf,
-                            "forgetting": fogs,
-                            "mem thresh": t_mem,
-                            "lens": const.ULENS,
-                            # "tps_order": order,
-                        }, of)
-
-                    for fn in file_names:
-                        print("processing {} series ...".format(fn))
-                        # init
-                        pars = ParserModule()
-                        tps_units = TPSModule(1)  # memory for TPs inter
-                        tps_1 = TPSModule(order)  # memory for TPs intra
-                        out_dir = root_dir + "{}/".format(fn)
-                        os.makedirs(out_dir, exist_ok=True)
-                        results = dict()
-                        # --------------- INPUT ---------------
-                        if fn == "saffran":
-                            # load/generate Saffran input
-                            sequences = utils.generate_Saffran_sequence(rng)
-                        elif fn == "all_irish-notes_and_durations":
-                            # read
-                            # sequences = utils.load_irish_n_d_repeated("data/all_irish-notes_and_durations-abc.txt")
-                            sequences = utils.load_irish_n_d("data/all_irish-notes_and_durations-abc.txt")
-                        elif fn == "bicinia":
-                            sequences = utils.load_bicinia_single("data/bicinia/", seq_n=2)
-                        else:
-                            with open("data/{}.txt".format(fn), "r") as fp:
-                                # split lines char by char
-                                sequences = [list(line.strip()) for line in fp]
-
-                        # read percepts using parser function
-                        actions = []
-                        initial_set = set()
-                        start_time = datetime.now()
-                        for iteration,s in enumerate(sequences):
-                            old_p = []
-                            old_p_units = []
-                            first_in_seq = True
-                            while len(s) > 0:
-                                # print(" ------------------------------------------------------ ")
-                                # read percept as an array of units
-                                # active elements in mem shape perception
-                                active_mem = dict((k, v) for k, v in pars.mem.items() if v >= t_mem)
-                                 # interference could be applied for those units activated but not used (reinforced)!
-                                # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
-                                units, action = utils.read_percept(rng, active_mem, s, old_seq=old_p, ulens=const.ULENS, tps=tps_1, method=method)
-                                # add initial nodes of sequences for generation
-                                if first_in_seq:
-                                    initial_set.add(units[0])
-                                    first_in_seq = False
-                                actions.append(action)
-                                p = " ".join(units)
-                                tps_1.encode(old_p + p.strip().split(" "))
-                                # save past for tps
-                                old_p = p.strip().split(" ")[-order:]
-                                # print("units: ", units, " -> ", p)
-                                tps_units.encode(old_p_units + units)
-
-                                # add entire percept
-                                if len(p.strip().split(" ")) <= max(const.ULENS):
-                                    # p is a unit, a primitive
-                                    if p in pars.mem:
-                                        pars.mem[p] += const.WEIGHT / 2
-                                    else:
-                                        pars.mem[p] = const.WEIGHT
-                                else:
-                                    pars.add_weight(p, comps=units, weight=const.WEIGHT)
-
-                                # save past for tps units
-                                old_p_units = units[-1:]
-                                # forgetting and interference
-                                pars.forget_interf(rng, p, comps=units, forget=fogs, interfer=interf, ulens=const.ULENS)
-                                # tps_units.forget(units, forget=fogs)
-                                tps_units.forget(units, forget=0.01)
-                                # print("mem: ", tps_units.mem)
-                                s = s[len(p.strip().split(" ")):]
-
-                            # generation
-                            if iteration % 10 == 1:
-                                tps_units.normalize()
-                                results[iteration] = dict()
-                                results[iteration]["generated"], results[iteration]["initials"] = tps_units.generate_new_sequences(rng, min_len=100, initials=initial_set)
-                                iter_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
-                                results[iteration]["mem"] = iter_mem
-
-                        # dc = fc.distributional_context(fc_seqs, 3)
-                        # # print("---- dc ---- ")
-                        # # pp.pprint(dc)
-                        # classes = fc.form_classes(dc)
-                        # class_patt = fc.classes_patterns(classes, fc_seqs)
-
-                        results["processing time"] = str((datetime.now() - start_time).total_seconds())
-                        # normilizes memories
-                        tps_1.normalize()
-                        tps_units.normalize()
-
-                        # embedding chunks
-                        # wem = EmbedModule(tps_units.norm_mem)
-                        # wem.compute(tps_units.le_rows)
-
-                        # calculate states uncertainty
-                        tps_1.compute_states_entropy()
-                        tps_units.compute_states_entropy()
-
-                        # generate sample sequences
-                        print("initials: ", sorted(initial_set))
-                        # gens, init = tps_units.generate_new_sequences(min_len=100, initials=initial_set)
-                        gens, init = tps_units.generate_new_sequences(rng, min_len=100, initials=initial_set)
-                        print("init set: ", init)
-                        print("gens: ", gens)
-
-                        print("REGENERATION")
-                        for g in gens:
-                            print(tps_1.get_units_brent(g))
-
-                        # save results
-                        with open(out_dir + "results.json", "w") as of:
-                            json.dump(results, of)
-                        # save generated
-                        with open(out_dir + "generated.json", "w") as of:
-                            json.dump(gens, of)
-                        # save actions
-                        with open(out_dir + "action.json", "w") as of:
-                            json.dump(actions,of)
-                        utils.plot_actions(actions,path=out_dir, show_fig=False)
-                        # print(tps_units.mem)
-                        # utils.plot_gra(tps_units.mem)
-                        print("plotting tps units...")
-                        utils.plot_gra_from_normalized(tps_units, filename=out_dir + "tps_units")
-                        # print("plotting tps all...")
-                        utils.plot_gra_from_normalized(tps_1, filename=out_dir + "tps_symbols")
-                        print("plotting memory...")
-                        # plot memeory chunks
-                        ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
-                        utils.plot_mem(ord_mem, out_dir + "words_plot.png", save_fig=True, show_fig=False)
-
-                        # graph = GraphModule(tps_units)
-                        # graph.form_classes()
-                        # graph.draw_graph(out_dir + "nxGraph.dot")
-                        # graph.print_values()
-                        # graph.get_communities()
-

@@ -1,15 +1,9 @@
-import fnmatch
-import os
-from matplotlib import pyplot as plt
-from sklearn import preprocessing
-import const
-import utils
 import re
-import numpy as np
 
 
 class ParserModule:
     """Class for PARSER"""
+
     def __init__(self, memory=None):
         if memory is None:
             memory = dict()
@@ -56,7 +50,7 @@ class ParserModule:
                             res = res + lst
         return res
 
-    def read_percept(self, sequence):
+    def read_percept(self, rng, sequence):
         """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
         res = []
         # number of units embedded in next percepts
@@ -91,7 +85,9 @@ class ParserModule:
             self.mem[pct] = weight
         # print("pct: ", pct, weight)
 
-    def forget_interf(self, rng, pct, comps=None, forget=0.05, interfer=0.005, ulens=[2]):
+    def forget_interf(self, rng, pct, comps=None, forget=0.05, interfer=0.005, ulens=None):
+        if not ulens:
+            ulens = [2]
         # forgetting
         self.mem.update((k, v - forget) for k, v in self.mem.items() if k != pct)
 
@@ -116,45 +112,3 @@ class ParserModule:
         # cleaning
         for key in [k for k, v in self.mem.items() if v <= 0.0]:
             self.mem.pop(key)
-
-
-if __name__ == "__main__":
-    rng = np.random.default_rng(const.RND_SEED)
-    pars = ParserModule()
-    w = const.WEIGHT
-    f = const.FORGETTING
-    i = const.INTERFERENCE
-
-    # load input
-    # with open("data/input.txt", "r") as fp:
-    #     sequences = [line.rstrip() for line in fp]
-
-    # load bicinia
-    # sequences = utils.load_bicinia_single("data/bicinia/")
-
-    sequences = utils.generate_Saffran_sequence(rng)
-
-    for s in sequences:
-        while len(s) > 0:
-            # read percept as an array of units
-            units = utils.read_percept(rng, dict((k,v) for k,v in pars.mem.items() if v >= 1.0), s)
-            p = "".join(units)
-            print("units: ", units, " -> ", p)
-            # add entire percept
-            if len(p) <= 2:
-                # p is a unit, a primitive
-                if p in pars.mem:
-                    pars.mem[p] += w/2
-                else:
-                    pars.mem[p] = w
-            else:
-                pars.add_weight(p, comps=units, weight=w)
-            # forgetting and interference
-            pars.forget_interf(rng, p, comps=units, forget=f, interfer=i)
-            s = s[len(p):]
-    ord_mem = dict(sorted([(x, y) for x, y in pars.mem.items()], key=lambda item: item[1], reverse=True))
-    # for bicinia use base_decode
-    # ord_mem = dict(sorted([(utils.base_decode(x),y) for x,y in pars.mem.items()], key=lambda it: it[1], reverse=True))
-    plt.rcParams["figure.figsize"] = (15, 7)
-    utils.plot_mem(ord_mem, save_fig=False)
-
