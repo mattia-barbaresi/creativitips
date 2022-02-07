@@ -20,7 +20,7 @@ if __name__ == "__main__":
     interferences = [0.005]
     forgets = [0.05]
     thresholds_mem = [0.95]
-    tps_orders = [1]
+    tps_orders = [2]
     method = "BRENT"
 
     for order in tps_orders:
@@ -67,25 +67,25 @@ if __name__ == "__main__":
                                 sequences = [list(line.strip()) for line in fp]
 
                         # read percepts using parser function
-                        actions = []
-                        initial_set = set()
                         start_time = datetime.now()
                         # init module for computation
                         cm = ComputeModule(rng, order=order, weight=const.WEIGHT, interference=interf, forgetting=fogs,
                                            memory_thres=t_mem, unit_len=const.ULENS, method=method)
                         for iteration, s in enumerate(sequences):
+                            first_in_seq = True
+                            while len(s) > 0:
+                                p, units, first_in_seq = cm.compute(s, first_in_seq)
+                                s = s[len(p.strip().split(" ")):]
 
-                            cm.compute(s)
-
-                            # generation
-                            if iteration % 10 == 1:
-                                cm.tps_units.normalize()
-                                results[iteration] = dict()
-                                results[iteration]["generated"], results[iteration]["initials"] = \
-                                    cm.tps_units.generate_new_sequences(rng, min_len=100, initials=initial_set)
-                                im = dict(sorted([(x, y) for x, y in cm.pars.mem.items()],
-                                                 key=lambda it: it[1], reverse=True))
-                                results[iteration]["mem"] = im
+                                # generation
+                                if iteration % 10 == 1:
+                                    cm.tps_units.normalize()
+                                    results[iteration] = dict()
+                                    results[iteration]["generated"], results[iteration]["initials"] = \
+                                        cm.tps_units.generate_new_sequences(rng, min_len=100, initials=cm.initial_set)
+                                    im = dict(sorted([(x, y) for x, y in cm.pars.mem.items()],
+                                                     key=lambda it: it[1], reverse=True))
+                                    results[iteration]["mem"] = im
 
                         # dc = fc.distributional_context(fc_seqs, 3)
                         # # print("---- dc ---- ")
@@ -107,15 +107,15 @@ if __name__ == "__main__":
                         cm.tps_units.compute_states_entropy()
 
                         # generate sample sequences
-                        print("initials: ", sorted(initial_set))
+                        print("initials: ", sorted(cm.initial_set))
                         # gens, init = tps_units.generate_new_sequences(min_len=100, initials=initial_set)
-                        gens, init = cm.tps_units.generate_new_sequences(rng, min_len=100, initials=initial_set)
+                        gens, init = cm.tps_units.generate_new_sequences(rng, min_len=100, initials=cm.initial_set)
                         print("init set: ", init)
                         print("gens: ", gens)
 
-                        print("REGENERATION")
-                        for g in gens:
-                            print(cm.tps_1.get_units_brent(g))
+                        # print("REGENERATION")
+                        # for g in gens:
+                        #     print(cm.tps_1.get_units_brent(g))
 
                         # save results
                         with open(out_dir + "results.json", "w") as of:
@@ -125,8 +125,8 @@ if __name__ == "__main__":
                             json.dump(gens, of)
                         # save actions
                         with open(out_dir + "action.json", "w") as of:
-                            json.dump(actions,of)
-                        utils.plot_actions(actions,path=out_dir, show_fig=False)
+                            json.dump(cm.actions,of)
+                        utils.plot_actions(cm.actions,path=out_dir, show_fig=False)
                         # print(tps_units.mem)
                         # utils.plot_gra(tps_units.mem)
                         print("plotting tps units...")
@@ -138,8 +138,8 @@ if __name__ == "__main__":
                         om = dict(sorted([(x, y) for x, y in cm.pars.mem.items()], key=lambda it: it[1], reverse=True))
                         utils.plot_mem(om, out_dir + "words_plot.png", save_fig=True, show_fig=False)
 
-                        # graph = GraphModule(cm.tps_units)
-                        # graph.form_classes()
-                        # graph.draw_graph(out_dir + "nxGraph.dot")
-                        # # graph.print_values()
-                        # graph.get_communities()
+                        graph = GraphModule(cm.tps_units)
+                        graph.form_classes()
+                        graph.draw_graph(out_dir + "nxGraph.dot")
+                        # graph.print_values()
+                        graph.get_communities()

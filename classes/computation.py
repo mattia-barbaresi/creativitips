@@ -31,50 +31,51 @@ class ComputeModule:
         self.initial_set = set()
         self.actions = []
         self.state_entropies = {}
+        self.old_p = []
+        self.old_p_units = []
 
-    def compute(self,s):
-        old_p = []
-        old_p_units = []
-        first_in_seq = True
-        while len(s) > 0:
-            # print(" ------------------------------------------------------ ")
-            # read percept as an array of units
-            # active elements in mem shape perception
-            active_mem = dict((k, v) for k, v in self.pars.mem.items() if v >= self.t_mem)
-            # interference could be applied for those units activated but not used (reinforced)!
-            # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
-            units, action = utils.read_percept(self.rng, active_mem, s, old_seq=old_p, ulens=self.ulens, tps=self.tps_1,
-                                               method=self.method)
-            # add initial nodes of sequences for generation
-            if first_in_seq:
-                self.initial_set.add(units[0])
-                first_in_seq = False
-            self.actions.append(action)
-            p = " ".join(units)
-            self.tps_1.encode(old_p + p.strip().split(" "))
-            # save past for tps
-            old_p = p.strip().split(" ")[-self.order:]
-            # print("units: ", units, " -> ", p)
-            self.tps_units.encode(old_p_units + units)
+    def compute(self, s, first_in_seq):
+        if first_in_seq:
+            self.old_p = []
+            self.old_p_units = []
+        # print(" ------------------------------------------------------ ")
+        # read percept as an array of units
+        # active elements in mem shape perception
+        active_mem = dict((k, v) for k, v in self.pars.mem.items() if v >= self.t_mem)
+        # interference could be applied for those units activated but not used (reinforced)!
+        # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
+        units, action = utils.read_percept(self.rng, active_mem, s, old_seq=self.old_p, ulens=self.ulens, tps=self.tps_1,
+                                           method=self.method)
+        # add initial nodes of sequences for generation
+        if first_in_seq:
+            self.initial_set.add(units[0])
+            first_in_seq = False
+        self.actions.append(action)
+        p = " ".join(units)
+        self.tps_1.encode(self.old_p + p.strip().split(" "))
+        # save past for tps
+        self.old_p = p.strip().split(" ")[-self.order:]
+        # print("units: ", units, " -> ", p)
+        self.tps_units.encode(self.old_p_units + units)
 
-            # add entire percept
-            if len(p.strip().split(" ")) <= max(self.ulens):
-                # p is a unit, a primitive
-                if p in self.pars.mem:
-                    self.pars.mem[p] += self.weight / 2
-                else:
-                    self.pars.mem[p] = self.weight
+        # add entire percept
+        if len(p.strip().split(" ")) <= max(self.ulens):
+            # p is a unit, a primitive
+            if p in self.pars.mem:
+                self.pars.mem[p] += self.weight / 2
             else:
-                self.pars.add_weight(p, comps=units, weight=self.weight)
+                self.pars.mem[p] = self.weight
+        else:
+            self.pars.add_weight(p, comps=units, weight=self.weight)
 
-            # save past for tps units
-            old_p_units = units[-1:]
-            # forgetting and interference
-            self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf, ulens=self.ulens)
-            # tps_units.forget(units, forget=fogs)
-            self.tps_units.forget(units, forget=0.01)
-            # print("mem: ", tps_units.mem)
-            s = s[len(p.strip().split(" ")):]
+        # save past for tps units
+        self.old_p_units = units[-1:]
+        # forgetting and interference
+        self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf, ulens=self.ulens)
+        # tps_units.forget(units, forget=fogs)
+        self.tps_units.forget(units, forget=self.fogs)
+        # print("mem: ", tps_units.mem)
+        return p, units, first_in_seq
 
 
 class GraphModule:
@@ -131,7 +132,7 @@ class GraphModule:
 
     def get_communities(self):
         communities_generator = community.girvan_newman(self.G)
-        top_level_communities = next(communities_generator)
+        # top_level_communities = next(communities_generator)
         next_level_communities = next(communities_generator)
         print("communities:", sorted(map(sorted, next_level_communities)))
 
@@ -149,10 +150,10 @@ class EmbedModule:
         # re-norm (Hellinger) distance
         self.squared = np.sqrt(self.mtx)
         # singular value decomposition
-        svd = TruncatedSVD(n_components=3)
+        svd = TruncatedSVD(n_components=3, random_state=0)
         self.trans = svd.fit_transform(self.squared)
         self.plot3D(self.trans,lex)
-        u, s, vt = randomized_svd(self.squared, n_components=3)
+        u, s, vt = randomized_svd(self.squared, n_components=3, random_state=0)
         self.plot3D(u,lex)
         # self.u, self.s, self.vh = np.linalg.svd(self.squared, full_matrices=True)
         print("dfsf")
