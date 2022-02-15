@@ -197,8 +197,7 @@ def generate_Saffran_sequence(rng):
     words = ["babupu","bupada","dutaba","patubi","pidabu","tutibu"]
     prev = ""
     res = []
-    # for x in range(449):  # looser criterion
-    for x in range(910):  # strict criterion
+    for x in range(910):  # 910: strict criterion, 449: looser criterion
         ww = rng.choice(words)
         # no repeated words in succession
         while ww == prev:
@@ -345,6 +344,7 @@ def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
     if save_fig:
         plt.savefig(fig_name, bbox_inches='tight')
     if show_fig:
+        plt.tight_layout()
         plt.show()
 
 
