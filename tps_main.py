@@ -3,6 +3,8 @@ import json
 import os
 import time
 import numpy as np
+from sklearn import preprocessing
+
 import const
 import utils
 from classes.computation import ComputeModule, GraphModule, EmbedModule
@@ -14,12 +16,12 @@ if __name__ == "__main__":
     # file_names = \
     #     ["input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G", "all_irish-notes_and_durations"]
 
-    file_names = ["input"]
+    file_names = ["saffran"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     interferences = [0.005]
     forgets = [0.05]
-    thresholds_mem = [0.95]
+    thresholds_mem = [1]
     tps_orders = [2]
     method = "BRENT"
 
@@ -28,7 +30,7 @@ if __name__ == "__main__":
             for fogs in forgets:
                 for t_mem in thresholds_mem:
                     # init
-                    root_dir = const.OUT_DIR + "{}_{}_({}_{}_{})_{}/"\
+                    root_dir = const.OUT_DIR + "{}_{}_({}_{}_{})_{}/" \
                         .format(method, order, t_mem, fogs, interf, time.strftime("%Y%m%d-%H%M%S"))
                     # root_dir = const.OUT_DIR + "RND_(2-3)_({}_{}_{})_{}/".\
                     #     format(t_mem, fogs, interf, time.strftime("%Y%m%d-%H%M%S"))
@@ -58,7 +60,7 @@ if __name__ == "__main__":
                         elif fn == "all_irish-notes_and_durations":
                             # read
                             # sequences = utils.load_irish_n_d_repeated("data/all_irish-notes_and_durations-abc.txt")
-                            sequences = utils.load_irish_n_d("data/all_irish-notes_and_durations-abc.txt")
+                            sequences = utils.load_irish_n_d_repeated("data/all_irish-notes_and_durations-abc.txt")
                         elif fn == "bicinia":
                             sequences = utils.load_bicinia_single("data/bicinia/", seq_n=2)
                         else:
@@ -68,13 +70,17 @@ if __name__ == "__main__":
 
                         # read percepts using parser function
                         start_time = datetime.now()
+
                         # init module for computation
                         cm = ComputeModule(rng, order=order, weight=const.WEIGHT, interference=interf, forgetting=fogs,
                                            memory_thres=t_mem, unit_len=const.ULENS, method=method)
+
                         for iteration, s in enumerate(sequences):
                             first_in_seq = True
                             while len(s) > 0:
+                                # compute next percept
                                 p, units, first_in_seq = cm.compute(s, first_in_seq)
+                                # update s
                                 s = s[len(p.strip().split(" ")):]
 
                                 # generation
@@ -99,8 +105,20 @@ if __name__ == "__main__":
                         cm.tps_units.normalize()
 
                         # embedding chunks
-                        wem = EmbedModule(cm.tps_units.norm_mem)
-                        wem.compute(cm.tps_units.le_rows)
+                        emb_le = preprocessing.LabelEncoder()
+                        emb_le.fit(list(cm.tps_units.le_rows.classes_) + list(cm.tps_units.le_cols.classes_))
+                        last_nodes = set(cm.tps_units.le_cols.classes_) - set(cm.tps_units.le_rows.classes_)
+                        nx, ny = cm.tps_units.norm_mem.shape
+                        emb_matrix = np.zeros((len(emb_le.classes_), len(emb_le.classes_)))
+                        for x in range(nx):
+                            for y in range(ny):
+                                emb_matrix[emb_le.transform(cm.tps_units.le_rows.inverse_transform([x]))[0]] \
+                                          [emb_le.transform(cm.tps_units.le_cols.inverse_transform([y]))[0]] = \
+                                    cm.tps_units.norm_mem[x][y]
+                        for lbl in last_nodes:
+                            emb_matrix[emb_le.transform([lbl])[0]] = np.ones(len(emb_le.classes_))*0.5
+                        wem = EmbedModule(emb_matrix)
+                        wem.compute(emb_le)
 
                         # calculate states uncertainty
                         cm.tps_1.compute_states_entropy()
@@ -125,8 +143,8 @@ if __name__ == "__main__":
                             json.dump(gens, of)
                         # save actions
                         with open(out_dir + "action.json", "w") as of:
-                            json.dump(cm.actions,of)
-                        utils.plot_actions(cm.actions,path=out_dir, show_fig=False)
+                            json.dump(cm.actions, of)
+                        utils.plot_actions(cm.actions, path=out_dir, show_fig=False)
                         # print(tps_units.mem)
                         # utils.plot_gra(tps_units.mem)
                         print("plotting tps units...")
