@@ -207,6 +207,20 @@ def generate_Saffran_sequence(rng):
     return [res]
 
 
+def generate_Saffran_sequence_exp2(rng):
+    words = ["pabiku", "tibudo", "golatu","daropi"]
+    prev = ""
+    res = []
+    for x in range(910):  # 910: strict criterion, 449: looser criterion
+        ww = rng.choice(words)
+        # no repeated words in succession
+        while ww == prev:
+            ww = rng.choice(words)
+        prev = ww
+        res += list(ww)
+    return [res]
+
+
 def read_percept(rng, mem, sequence, old_seq=None, ulens=None, tps=None, method=""):
     """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
     if ulens is None:
