@@ -50,7 +50,7 @@ class ComputeModule:
         if first_in_seq:
             self.initial_set.add(units[0])
             first_in_seq = False
-        self.actions.append(action)
+        self.actions.extend(action)
         p = " ".join(units)
         self.tps_1.encode(self.old_p + p.strip().split(" "))
         # save past for tps
@@ -153,10 +153,9 @@ class EmbedModule:
         svd = TruncatedSVD(n_components=3, random_state=0)
         self.trans = svd.fit_transform(self.squared)
         self.plot3D(self.trans,lex)
-        u, s, vt = randomized_svd(self.squared, n_components=3, random_state=0)
-        self.plot3D(u,lex)
+        # u, s, vt = randomized_svd(self.squared, n_components=3, random_state=0)
+        # self.plot3D(u,lex)
         # self.u, self.s, self.vh = np.linalg.svd(self.squared, full_matrices=True)
-        print("dfsf")
 
     @staticmethod
     def plot3D(mtx,le):
@@ -167,6 +166,23 @@ class EmbedModule:
         x,y,z = mtx.T
         for _ in range(len(z)):
             ax.scatter(x[_], y[_], z[_], cmap='viridis', linewidth=0.5)
-            ax.text(x[_], y[_], z[_], le.inverse_transform([_])[0])
+            xr = np.random.uniform(0, 0.01) * -np.random.randint(0, 2)
+            yr = np.random.uniform(0, 0.01) * -np.random.randint(0, 2)
+            zr = np.random.uniform(0, 0.01) * -np.random.randint(0, 2)
+            ax.text(x[_]+xr, y[_]+yr, z[_]+zr, le.inverse_transform([_])[0])
+            print(le.inverse_transform([_])[0])
+        plt.show()
+
+    @staticmethod
+    def plot2D(mtx, le):
+        fig = plt.figure(figsize=(10, 10))
+        ax = fig.add_subplot(111)
+
+        x, y = mtx.T
+        for _ in range(len(x)):
+            ax.scatter(x[_], y[_],cmap='viridis', linewidth=0.5)
+            xr = np.random.uniform(0, 0.01)*-np.random.randint(0,2)
+            yr = np.random.uniform(0, 0.01)*-np.random.randint(0,2)
+            ax.text(x[_]+xr, y[_]+yr, le.inverse_transform([_])[0])
             print(le.inverse_transform([_])[0])
         plt.show()
