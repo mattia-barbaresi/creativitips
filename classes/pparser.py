@@ -92,23 +92,23 @@ class ParserModule:
         self.mem.update((k, v - forget) for k, v in self.mem.items() if k != pct)
 
         # interference
+        uts = []
         for s in comps:
             # decompose in units
-            if len(s) > max(ulens):
+            if len(s.split(" ")) > max(ulens):
+                ss = s.split(" ")
                 _i = 0
-                uts = []
-                while _i <= len(s):
+                while _i < len(ss):
                     ul = rng.choice(ulens)
-                    uts.append(s[_i:_i + ul])
+                    uts.append(" ".join(ss[_i:_i + ul]))
                     _i += ul
-            else:
-                uts = [s]
-            # uts = [s[_i:_i + 2] for _i in range(0, len(s), 2)]
-            for s2 in uts:
-                for k, v in self.mem.items():
-                    if s2 in k and k != pct and k not in comps:
+            # else:
+            #     uts.append(s)
+        for s2 in uts:
+            for k, v in self.mem.items():
+                if k != pct and k not in comps:
+                    if s2 in k:
                         self.mem[k] -= interfer
-                        # print("k: ", k, -interfer)
         # cleaning
         for key in [k for k, v in self.mem.items() if v <= 0.0]:
             self.mem.pop(key)
