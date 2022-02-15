@@ -218,11 +218,12 @@ def read_percept(rng, mem, sequence, old_seq=None, ulens=None, tps=None, method=
     # number of units embedded in next percepts
     i = rng.integers(low=1, high=4)
     s = sequence
-    action = ""
+    actions = []
     while len(s) > 0 and i != 0:
         # units_list = [(k,v) for k,v in mem.items() if s.startswith(k)]
         units_list = [k for k in mem.keys() if " ".join(s).startswith(k)]
         unit = []
+        action = ""
         # if len(s) <= max(ulens):
         #     unit = s
         #     action = "end"
@@ -253,13 +254,14 @@ def read_percept(rng, mem, sequence, old_seq=None, ulens=None, tps=None, method=
         if len(sf) == 1:
             unit += sf
         res.append(" ".join(unit))
+        actions.append(action)
         # print("final unit:", unit)
         s = s[len(unit):]
         # for calculating next unit with tps
         old_seq = unit
         i -= 1
 
-    return res, action
+    return res, actions
 
 
 class Encoder:
@@ -284,7 +286,7 @@ class Encoder:
         return self.base_dict[sym]
 
 
-def plot_gra(d):
+def plot_gra(d, filename="tps",):
     gra = Digraph(comment='TPs')
     added = set()
     for k, v in d.items():
@@ -299,7 +301,7 @@ def plot_gra(d):
                 gra.edge(k, k2, label="{:.2f}".format(v2))
 
     print(gra.source)
-    gra.render('tps', view=True)
+    gra.render(filename, view=True)
 
 
 def plot_gra_from_normalized(tps, filename="", be=None, thresh=0.0):
@@ -348,7 +350,7 @@ def plot_mem(mem, fig_name="plt_mem.png", show_fig=True, save_fig=False):
 
 def plot_actions(actions, path="", show_fig=True):
     plt.clf()
-    plt.plot(actions, ".")
+    plt.plot(actions, ".", markersize=1)
     if path:
         plt.savefig(path + "actions.pdf", bbox_inches='tight')
     if show_fig:
