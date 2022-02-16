@@ -76,7 +76,7 @@ class ParserModule:
                 self.mem[u] += weight/2
                 # print("u: ", u, weight/2)
             else:
-                self.mem[u] = weight
+                self.mem[u] = weight/2
                 # print("u: ", u, weight)
 
         if pct in self.mem:
