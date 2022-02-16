@@ -92,7 +92,8 @@ class GraphModule:
             else:
                 li = tps.le_rows.inverse_transform([i])[0]
             if li not in added:
-                self.G.add_node(li, label="{} ({:.3f})".format(li, tps.state_entropies[li]))
+                # self.G.add_node(li, label="{} ({:.3f})".format(li, tps.state_entropies[li]))
+                self.G.add_node(li, label="{}".format(li))
                 added.add(li)
             for j in range(cols):
                 if tps.norm_mem[i][j] > thresh:
@@ -112,14 +113,28 @@ class GraphModule:
         nx.nx_pydot.write_dot(self.G, filename)
         # plt.show()
 
+    def sim_rank(self):
+        inw = nx.algorithms.similarity.simrank_similarity(self.G)
+        otw = nx.algorithms.similarity.simrank_similarity(self.G.reverse())
+        cl_form = set()
+        for k, v in inw.items():
+            tt = tuple(k2 for k2, v2 in v.items() if v2 > 0)
+            if len(tt) > 1:
+                cl_form.add(tt)
+        for k, v in otw.items():
+            tt = tuple(k2 for k2, v2 in v.items() if v2 > 0)
+            if len(tt) > 1:
+                cl_form.add(tt)
+        return cl_form
+
     def print_values(self):
         print("k_components: ", nx.algorithms.k_components(self.G.to_undirected()))
-        print("maximal_independent_set: ", nx.algorithms.maximal_independent_set(self.G.to_undirected()))
-        print("dominating_set: ", nx.algorithms.dominating.dominating_set(self.G))
-        print("flow_hierarchy: ", nx.algorithms.hierarchy.flow_hierarchy(self.G))
+        # print("maximal_independent_set: ", nx.algorithms.maximal_independent_set(self.G.to_undirected()))
+        # print("dominating_set: ", nx.algorithms.dominating.dominating_set(self.G))
+        # print("flow_hierarchy: ", nx.algorithms.hierarchy.flow_hierarchy(self.G))
         # d_graph, d_nodes = nx.algorithms.summarization.dedensify(self.G,3)
         # nx.nx_pydot.write_dot(d_graph, "dedensified.dot")
-        print("betweenness_centrality: ", nx.algorithms.centrality.betweenness_centrality(self.G))
+        # print("betweenness_centrality: ", nx.algorithms.centrality.betweenness_centrality(self.G))
         # print("traveling_salesman_problem: ", nx.algorithms.approximation.traveling_salesman_problem(self.G))
         # print("topological: ",list(nx.topological_sort(self.G)))
         # print("common_neighbors (kof,mer): ",list(nx.common_neighbors(self.G.to_undirected(),"kof","mer")))
@@ -170,7 +185,6 @@ class EmbedModule:
             yr = np.random.uniform(0, 0.01) * -np.random.randint(0, 2)
             zr = np.random.uniform(0, 0.01) * -np.random.randint(0, 2)
             ax.text(x[_]+xr, y[_]+yr, z[_]+zr, le.inverse_transform([_])[0])
-            print(le.inverse_transform([_])[0])
         plt.show()
 
     @staticmethod

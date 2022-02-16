@@ -120,6 +120,24 @@ def load_bicinia_single(dir_name, seq_n=1):
     return seq
 
 
+def load_cello(dir_name):
+    seq = []
+    for file in os.listdir(dir_name):
+        if fnmatch.fnmatch(file, "*.mid.txt"):
+            with open(dir_name + file, "r") as fp:
+                seq.append(fp.readline().strip().split(" "))
+    return seq
+
+
+def load_bach(dir_name):
+    seq = []
+    for file in os.listdir(dir_name):
+        if fnmatch.fnmatch(file, "*cpt.txt"):
+            with open(dir_name + file, "r") as fp:
+                seq.append(fp.readline().strip().split(" "))
+    return seq
+
+
 def load_bicinia_full(dir_name):
     seq1 = []
     seq2 = []
@@ -151,6 +169,28 @@ def load_irish_n_d_repeated(filename):
             seq.append(line.strip().split(" "))
             seq.append(line.strip().split(" "))
     return seq
+
+
+def read_sequences(fn, rng):
+    seqs = []
+    if fn == "saffran":
+        # load/generate Saffran input
+        seqs = generate_Saffran_sequence_exp2(rng)
+    elif fn == "all_irish-notes_and_durations":
+        # read
+        # seqs = load_irish_n_d_repeated("data/all_irish-notes_and_durations-abc.txt")
+        seqs = load_irish_n_d_repeated("data/all_irish-notes_and_durations-abc.txt")
+    elif fn == "bicinia":
+        seqs = load_bicinia_single("data/bicinia/", seq_n=2)
+    elif fn == "cello":
+        seqs = load_cello("data/cello/")
+    elif fn == "bach_compact":
+        seqs = load_bach("data/bach_compact/")
+    else:
+        with open("data/{}.txt".format(fn), "r") as fp:
+            # split lines char by char
+            seqs = [list(line.strip()) for line in fp]
+    return seqs
 
 
 def mtx_from_multi(seq1, seq2, nd1, nd2):
@@ -341,7 +381,7 @@ def plot_gra_from_normalized(tps, filename="", be=None, thresh=0.0):
                     gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]))
 
     # print(gra.source)
-    gra.render(filename, view=False, engine="dot", format="pdf")
+    gra.render(filename, view=False, engine="dot", format="png")
     os.rename(filename, filename + '.dot')
     return gra
 

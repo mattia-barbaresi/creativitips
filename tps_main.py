@@ -4,7 +4,6 @@ import os
 import time
 import numpy as np
 from sklearn import preprocessing
-
 import const
 import utils
 from classes.computation import ComputeModule, GraphModule, EmbedModule
@@ -16,7 +15,7 @@ if __name__ == "__main__":
     # file_names = \
     #     ["input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G", "all_irish-notes_and_durations"]
 
-    file_names = ["saffran"]
+    file_names = ["bach_compact"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     interferences = [0.005]
@@ -53,20 +52,9 @@ if __name__ == "__main__":
                         out_dir = root_dir + "{}/".format(fn)
                         os.makedirs(out_dir, exist_ok=True)
                         results = dict()
+
                         # --------------- INPUT ---------------
-                        if fn == "saffran":
-                            # load/generate Saffran input
-                            sequences = utils.generate_Saffran_sequence(rng)
-                        elif fn == "all_irish-notes_and_durations":
-                            # read
-                            # sequences = utils.load_irish_n_d_repeated("data/all_irish-notes_and_durations-abc.txt")
-                            sequences = utils.load_irish_n_d_repeated("data/all_irish-notes_and_durations-abc.txt")
-                        elif fn == "bicinia":
-                            sequences = utils.load_bicinia_single("data/bicinia/", seq_n=2)
-                        else:
-                            with open("data/{}.txt".format(fn), "r") as fp:
-                                # split lines char by char
-                                sequences = [list(line.strip()) for line in fp]
+                        sequences = utils.read_sequences(fn, rng)
 
                         # read percepts using parser function
                         start_time = datetime.now()
@@ -78,20 +66,26 @@ if __name__ == "__main__":
                         for iteration, s in enumerate(sequences):
                             first_in_seq = True
                             while len(s) > 0:
+                                # --------------- COMPUTE ---------------
                                 # compute next percept
                                 p, units, first_in_seq = cm.compute(s, first_in_seq)
                                 # update s
                                 s = s[len(p.strip().split(" ")):]
 
-                                # generation
-                                if iteration % 10 == 1:
-                                    cm.tps_units.normalize()
-                                    results[iteration] = dict()
-                                    results[iteration]["generated"], results[iteration]["initials"] = \
-                                        cm.tps_units.generate_new_sequences(rng, min_len=100, initials=cm.initial_set)
-                                    im = dict(sorted([(x, y) for x, y in cm.pars.mem.items()],
-                                                     key=lambda it: it[1], reverse=True))
-                                    results[iteration]["mem"] = im
+                            # --------------- GENERATE ---------------
+                            if iteration % 5 == 1:
+                                cm.tps_units.normalize()
+                                results[iteration] = dict()
+                                results[iteration]["generated"], results[iteration]["initials"] = \
+                                    cm.tps_units.generate_new_sequences(rng, min_len=100, initials=cm.initial_set)
+                                im = dict(sorted([(x, y) for x, y in cm.pars.mem.items()],
+                                                 key=lambda it: it[1], reverse=True))
+                                results[iteration]["mem"] = im
+
+                                # class form on graph
+                                # graph = GraphModule(cm.tps_units)
+                                # cl_form = {i:x for i,x in enumerate(graph.sim_rank())}
+                                # print("cl: ", cl_form)
 
                         # dc = fc.distributional_context(fc_seqs, 3)
                         # # print("---- dc ---- ")
@@ -105,20 +99,20 @@ if __name__ == "__main__":
                         cm.tps_units.normalize()
 
                         # embedding chunks
-                        emb_le = preprocessing.LabelEncoder()
-                        emb_le.fit(list(cm.tps_units.le_rows.classes_) + list(cm.tps_units.le_cols.classes_))
-                        last_nodes = set(cm.tps_units.le_cols.classes_) - set(cm.tps_units.le_rows.classes_)
-                        nx, ny = cm.tps_units.norm_mem.shape
-                        emb_matrix = np.zeros((len(emb_le.classes_), len(emb_le.classes_)))
-                        for x in range(nx):
-                            for y in range(ny):
-                                emb_matrix[emb_le.transform(cm.tps_units.le_rows.inverse_transform([x]))[0]] \
-                                          [emb_le.transform(cm.tps_units.le_cols.inverse_transform([y]))[0]] = \
-                                    cm.tps_units.norm_mem[x][y]
-                        for lbl in last_nodes:
-                            emb_matrix[emb_le.transform([lbl])[0]] = np.ones(len(emb_le.classes_))*0.5
-                        wem = EmbedModule(emb_matrix)
-                        wem.compute(emb_le)
+                        # emb_le = preprocessing.LabelEncoder()
+                        # emb_le.fit(list(cm.tps_units.le_rows.classes_) + list(cm.tps_units.le_cols.classes_))
+                        # last_nodes = set(cm.tps_units.le_cols.classes_) - set(cm.tps_units.le_rows.classes_)
+                        # nx, ny = cm.tps_units.norm_mem.shape
+                        # emb_matrix = np.zeros((len(emb_le.classes_), len(emb_le.classes_)))
+                        # for x in range(nx):
+                        #     for y in range(ny):
+                        #         emb_matrix[emb_le.transform(cm.tps_units.le_rows.inverse_transform([x]))[0]] \
+                        #             [emb_le.transform(cm.tps_units.le_cols.inverse_transform([y]))[0]] = \
+                        #             cm.tps_units.norm_mem[x][y]
+                        # for lbl in last_nodes:
+                        #     emb_matrix[emb_le.transform([lbl])[0]] = np.ones(len(emb_le.classes_)) * 0.5
+                        # wem = EmbedModule(emb_matrix)
+                        # wem.compute(emb_le)
 
                         # calculate states uncertainty
                         cm.tps_1.compute_states_entropy()
@@ -157,7 +151,8 @@ if __name__ == "__main__":
                         utils.plot_mem(om, out_dir + "words_plot.png", save_fig=True, show_fig=False)
 
                         graph = GraphModule(cm.tps_units)
-                        graph.form_classes()
+                        # graph.form_classes()
                         graph.draw_graph(out_dir + "nxGraph.dot")
-                        # graph.print_values()
+                        cl_form = graph.sim_rank()
+                        print("class form: ", cl_form)
                         graph.get_communities()
