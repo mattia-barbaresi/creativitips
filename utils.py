@@ -381,7 +381,7 @@ def plot_gra_from_normalized(tps, filename="", be=None, thresh=0.0):
                     gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]))
 
     # print(gra.source)
-    gra.render(filename, view=False, engine="dot", format="png")
+    gra.render(filename, view=False, engine="dot", format="pdf")
     os.rename(filename, filename + '.dot')
     return gra
 
