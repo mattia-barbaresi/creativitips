@@ -5,9 +5,9 @@ from graphviz import Digraph
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 # import networkx as nx
 # from networkx.drawing.nx_pydot import write_dot
+import utils
 
 
 def matrix_from_tps(tps_dict, x_encoding, y_encoding):
@@ -18,8 +18,9 @@ def matrix_from_tps(tps_dict, x_encoding, y_encoding):
     return res
 
 
-# return an index using MonteCarlo choice on arr
+#
 def mc_choice(rng, arr):
+    """Return an index using MonteCarlo choice on arr"""
     rnd = rng.uniform()
     sm = arr[0]
     j = 1
@@ -138,6 +139,22 @@ def load_bach(dir_name):
     return seq
 
 
+def load_bach_separated(dir_name):
+    seqT = []
+    seqD = []
+    for file in os.listdir(dir_name):
+        if fnmatch.fnmatch(file, "*cpt.txt"):
+            with open(dir_name + file, "r") as fp:
+                appt = []
+                appd = []
+                for symb in fp.readline().strip().split(" "):
+                    appt.append(symb.split("-")[0])
+                    appd.append(symb.split("-")[1])
+                seqT.append(appt)
+                seqD.append(appd)
+    return seqT, seqD
+
+
 def load_bicinia_full(dir_name):
     seq1 = []
     seq2 = []
@@ -186,6 +203,8 @@ def read_sequences(fn, rng):
         seqs = load_cello("data/cello/")
     elif fn == "bach_compact":
         seqs = load_bach("data/bach_compact/")
+    elif fn == "miller":
+        seqs = generate_miller(rng)
     else:
         with open("data/{}.txt".format(fn), "r") as fp:
             # split lines char by char
@@ -234,7 +253,7 @@ def generate_Saffran_sequence_segmented(rng):
 
 
 def generate_Saffran_sequence(rng):
-    words = ["babupu","bupada","dutaba","patubi","pidabu","tutibu"]
+    words = ["babupu", "bupada", "dutaba", "patubi", "pidabu", "tutibu"]
     prev = ""
     res = []
     for x in range(910):  # 910: strict criterion, 449: looser criterion
@@ -248,7 +267,7 @@ def generate_Saffran_sequence(rng):
 
 
 def generate_Saffran_sequence_exp2(rng):
-    words = ["pabiku", "tibudo", "golatu","daropi"]
+    words = ["pabiku", "tibudo", "golatu", "daropi"]
     prev = ""
     res = []
     for x in range(910):  # 910: strict criterion, 449: looser criterion
@@ -259,6 +278,21 @@ def generate_Saffran_sequence_exp2(rng):
         prev = ww
         res += list(ww)
     return [res]
+
+
+def generate_miller(rng, nm="L1"):
+    seqs = {
+        "L1": ["SSXG", "NNXSG", "SXSXG", "SSXNSG", "SXXXSG", "NNSXNSG", "SXSXNSG", "SXXXSXG", "SXXXXSG"],
+        "L2": ["NNSG", "NNSXG", "SXXSG", "NNXSXG", "NNXXSG", "NNXXSXG", "NNXXXSG", "SSXNSXG", "SSXNXSG"],
+        "R1": ["GNSX", "NSGXN", "XGSSN", "SXNNGN", "XGSXXS", "GSXXGNS", "NSXXGSG", "SGXGGNN", "XXGNSGG"],
+        "R2": ["NXGS", "GNXSG", "SXNGG", "GGSNXG", "NSGNGX", "NGSXXNS", "NGXXGGN", "SXGXGNS", "XGSNGXG"],
+    }
+    res = []
+    for x in range(10):
+        setw = seqs[nm]
+        for ww in rng.choice(setw, len(setw), replace=False):
+            res.append(list(ww))
+    return res
 
 
 def read_percept(rng, mem, sequence, old_seq=None, ulens=None, tps=None, method=""):
@@ -339,7 +373,7 @@ class Encoder:
         return self.base_dict[sym]
 
 
-def plot_gra(d, filename="tps",):
+def plot_gra(d, filename="tps", ):
     gra = Digraph(comment='TPs')
     added = set()
     for k, v in d.items():
@@ -357,32 +391,29 @@ def plot_gra(d, filename="tps",):
     gra.render(filename, view=True)
 
 
-def plot_gra_from_normalized(tps, filename="", be=None, thresh=0.0):
+def plot_gra_from_normalized(tps, filename="", render=False, thresh=0.0):
     gra = Digraph()  # comment='Normalized TPS'
     added = set()
     rows, cols = tps.norm_mem.shape
     for i in range(rows):
-        if be:
-            li = be.base_decode(tps.le_rows.inverse_transform([i])[0])
-        else:
-            li = tps.le_rows.inverse_transform([i])[0]
+        li = tps.le_rows.inverse_transform([i])[0]
         if li not in added:
             gra.node(li, label="{} ({:.3f})".format(li, tps.state_entropies[li]))
             added.add(li)
         for j in range(cols):
             if tps.norm_mem[i][j] > thresh:
-                if be:
-                    lj = be.base_decode(tps.le_cols.inverse_transform([j])[0])
-                else:
-                    lj = tps.le_cols.inverse_transform([j])[0]
+                lj = tps.le_cols.inverse_transform([j])[0]
                 if tps.norm_mem[i][j] == 1.0:
                     gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]), penwidth="2", color="red")
                 else:
                     gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]))
 
     # print(gra.source)
-    gra.render(filename, view=False, engine="dot", format="pdf")
-    os.rename(filename, filename + '.dot')
+    if render:
+        gra.render(filename, view=False, engine="dot", format="pdf")
+        os.rename(filename, filename + '.dot')
+    else:
+        gra.save(filename + '.dot')
     return gra
 
 
@@ -449,4 +480,33 @@ def generate(rng, tps, n_seq, occ_per_seq=16):
 
                     sid = " ".join(str_res.split(" ")[-order:])
                 res[order].append(str_res)
+    return res
+
+
+def multi_generation(rng, cm1, cm2, mim):
+    init_set = cm1.initial_set
+    res = ""
+    for _ in range(0, 50):
+        gg = cm1.tps_units.generate_new_next(rng, initials=init_set)
+        if not gg:
+            return res
+        res += " " + gg
+        init_set = mim.get_associated(str(gg))
+        gg2 = cm2.tps_units.generate_new_next(rng, initials=init_set)
+        if not gg2:
+            return res
+        res += " " + gg2
+        init_set = mim.get_associated(str(gg2))
+    return res
+
+
+def multi_generation_ass(rng, cm, mim):
+    init_set = cm.initial_set
+    res = ""
+    for _ in range(0, 50):
+        gg = cm.tps_units.generate_new_next(rng, initials=init_set)
+        tt = mim.get_associated(str(gg), fun=list)
+        t = utils.mc_choice(rng, tt)
+        res += " " + gg + "-" + t
+
     return res
