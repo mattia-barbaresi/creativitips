@@ -22,10 +22,10 @@ class TPSModule:
         :param percept could be a (i) string, or (ii) an (ordered, sequential) array of strings.
         In case (ii) TPs are counted between elements of the array (units), instead of between symbols
         """
-
         if self.order > 0:
             for ii in range(self.order, len(percept)):
                 h = " ".join(percept[ii - self.order:ii])
+                # o = " ".join(percept[ii:ii + self.order])
                 o = " ".join(percept[ii:ii + 1])
                 if h in self.mem:
                     if o in self.mem[h]:
@@ -56,6 +56,18 @@ class TPSModule:
             for o, v in vs.items():
                 if h not in uts and o not in uts:
                     self.mem[h][o] -= forget
+        # cleaning
+        for h, vs in self.mem.items():
+            for key in [k for k, v in vs.items() if v <= 0.0]:
+                self.mem[h].pop(key)
+        for key in [k for k, v in self.mem.items() if len(v) == 0]:
+            self.mem.pop(key)
+
+    def interference(self, uts, interf):
+        for ut in uts:
+            for k,v in self.mem[ut].items():
+                if k != ut:
+                    self.mem[ut][k] -= interf
         # cleaning
         for h, vs in self.mem.items():
             for key in [k for k, v in vs.items() if v <= 0.0]:
@@ -220,40 +232,56 @@ class TPSModule:
             # print("{}-{} = {}".format(h, o, v))
         return tps_seqs
 
-    def generate_new_sequences(self, rand_gen, n_seq=20, min_len=20, initials=None, be=None):
+    def generate_new_sequences(self, rand_gen, n_seq=20, min_len=20):
         res = []
-        if not initials:
-            # row classes minus cols classes returns the nodes that have no inward edges
-            init_set = sorted(set(self.le_rows.classes_) - set(self.le_cols.classes_))
-        else:
-            init_set = sorted(initials.intersection(set(self.le_rows.classes_)))
+        init_keys = []
+        init_values = []
+        tot = sum(self.mem["START"].values())  # used to normalize frequencies for utils.mc_choice()
+        for k,v in self.mem["START"].items():
+            init_keys.append(k)
+            init_values.append(v/tot)
 
-        if not init_set:
+        if not init_keys:
             print("Empty init set. No generation occurred.")
             return res, []
 
         for _ in range(n_seq):
-            # choose rnd starting point
-            seq = rand_gen.choice(init_set)
+            seq = init_keys[utils.mc_choice(rand_gen, init_values)]  # choose rnd starting point (monte carlo)
             _s = seq
             for _ in range(min_len):
                 if _s not in self.le_rows.classes_:
                     break
                 i = self.le_rows.transform([_s])[0]
                 _s = self.le_cols.inverse_transform([utils.mc_choice(rand_gen, self.norm_mem[i])])[0]
-                seq += " " + _s
+                if _s != "END":
+                    seq += " " + _s
             res.append(seq)
 
-        if be:
-            decs = []
-            init_set = [be.base_decode(x) for x in init_set]
-            for gg in res:
-                decs.append(be.base_decode(gg))
-            res = decs
+        return res
 
-        return res, init_set
+    def generate_new_next(self, rand_gen, initials=None):
+        res = ""
+        if not initials:
+            # row classes minus cols classes returns the nodes that have no inward edges
+            init_set = sorted(set(self.le_rows.classes_) - set(self.le_cols.classes_))
+        else:
+            init_set = sorted(initials.intersection(set(self.le_rows.classes_)))
+            # init_set = sorted(set([x for el in self.le_rows.classes_ for x in initials if x in el]))
 
-    def compute_states_entropy(self, be=None):
+        if not init_set:
+            print("Empty init set. No generation occurred.")
+            return res
+
+        # choose rnd starting point
+        seq = rand_gen.choice(init_set)
+        if seq not in self.le_rows.classes_:
+            print("Error: ", init_set)
+            return res
+        i = self.le_rows.transform([seq])[0]
+        res = self.le_cols.inverse_transform([utils.mc_choice(rand_gen, self.norm_mem[i])])[0]
+        return res
+
+    def compute_states_entropy(self):
         self.state_entropies = {}
         rows, cols = self.norm_mem.shape
         for _r in range(rows):
@@ -261,8 +289,6 @@ class TPSModule:
             for _el in self.norm_mem[_r]:
                 if _el > 0.0:
                     _s -= _el * math.log(_el, 2)
-            if be:
-                self.state_entropies[be.base_decode(self.le_rows.inverse_transform([_r])[0])] = _s
-            else:
-                self.state_entropies[self.le_rows.inverse_transform([_r])[0]] = _s
+            self.state_entropies[self.le_rows.inverse_transform([_r])[0]] = _s
         return self.state_entropies
+
