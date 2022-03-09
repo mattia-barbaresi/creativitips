@@ -13,14 +13,15 @@ if __name__ == "__main__":
     rng = np.random.default_rng(const.RND_SEED)
 
     # file_names = \
-    #     ["input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G", "all_irish-notes_and_durations"]
+    #     ["input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G",
+    #     "all_irish-notes_and_durations","cello", "bach_compact"]
 
-    file_names = ["bach_compact"]
+    file_names = ["input"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     interferences = [0.005]
     forgets = [0.05]
-    thresholds_mem = [1]
+    thresholds_mem = [0.9]
     tps_orders = [2]
     method = "BRENT"
 
@@ -68,19 +69,19 @@ if __name__ == "__main__":
                             while len(s) > 0:
                                 # --------------- COMPUTE ---------------
                                 # compute next percept
-                                p, units, first_in_seq = cm.compute(s, first_in_seq)
+                                p, units = cm.compute(s, first_in_seq)
+                                first_in_seq = False
                                 # update s
                                 s = s[len(p.strip().split(" ")):]
-
+                            cm.compute(["END"], first_in_seq=False, last_in_seq=True)
                             # --------------- GENERATE ---------------
-                            if iteration % 5 == 1:
-                                cm.tps_units.normalize()
-                                results[iteration] = dict()
-                                results[iteration]["generated"], results[iteration]["initials"] = \
-                                    cm.tps_units.generate_new_sequences(rng, min_len=100, initials=cm.initial_set)
-                                im = dict(sorted([(x, y) for x, y in cm.pars.mem.items()],
-                                                 key=lambda it: it[1], reverse=True))
-                                results[iteration]["mem"] = im
+                            # if iteration % 5 == 1:
+                            #     cm.tps_units.normalize()
+                            #     results[iteration] = dict()
+                            #     results[iteration]["generated"] = cm.tps_units.generate_new_sequences(rng,min_len=100)
+                            #     im = dict(sorted([(x, y) for x, y in cm.pars.mem.items()],
+                            #                      key=lambda it: it[1], reverse=True))
+                            #     results[iteration]["mem"] = im
 
                                 # class form on graph
                                 # graph = GraphModule(cm.tps_units)
@@ -119,13 +120,10 @@ if __name__ == "__main__":
                         cm.tps_units.compute_states_entropy()
 
                         # generate sample sequences
-                        print("initials: ", sorted(cm.initial_set))
-                        # gens, init = tps_units.generate_new_sequences(min_len=100, initials=initial_set)
-                        gens, init = cm.tps_units.generate_new_sequences(rng, min_len=100, initials=cm.initial_set)
-                        print("init set: ", init)
+                        gens = cm.tps_units.generate_new_sequences(rng, min_len=100)
                         print("gens: ", gens)
 
-                        # print("REGENERATION")
+                        print("REGENERATION")
                         # for g in gens:
                         #     print(cm.tps_1.get_units_brent(g))
 
@@ -142,9 +140,9 @@ if __name__ == "__main__":
                         # print(tps_units.mem)
                         # utils.plot_gra(tps_units.mem)
                         print("plotting tps units...")
-                        utils.plot_gra_from_normalized(cm.tps_units, filename=out_dir + "tps_units")
-                        # print("plotting tps all...")
-                        utils.plot_gra_from_normalized(cm.tps_1, filename=out_dir + "tps_symbols")
+                        utils.plot_gra_from_normalized(cm.tps_units, filename=out_dir + "tps_units", render=True)
+                        print("plotting tps all...")
+                        utils.plot_gra_from_normalized(cm.tps_1, filename=out_dir + "tps_symbols", render=True)
                         print("plotting memory...")
                         # plot memory chunks
                         om = dict(sorted([(x, y) for x, y in cm.pars.mem.items()], key=lambda it: it[1], reverse=True))
@@ -152,7 +150,9 @@ if __name__ == "__main__":
 
                         graph = GraphModule(cm.tps_units)
                         # graph.form_classes()
-                        graph.draw_graph(out_dir + "nxGraph.dot")
+                        # graph.draw_graph(out_dir + "nxGraph.dot")
                         cl_form = graph.sim_rank()
                         print("class form: ", cl_form)
-                        graph.get_communities()
+                        with open(out_dir + "classes.json", "w") as of:
+                            json.dump(list(cl_form), of)
+                        # graph.get_communities()
