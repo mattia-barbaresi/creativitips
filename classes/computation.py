@@ -28,16 +28,19 @@ class ComputeModule:
         self.ulens = unit_len
         self.interf = interference
         self.fogs = forgetting
-        self.initial_set = set()
         self.actions = []
         self.state_entropies = {}
         self.old_p = []
         self.old_p_units = []
 
-    def compute(self, s, first_in_seq):
+    def compute(self, s, first_in_seq, last_in_seq=False):
         if first_in_seq:
-            self.old_p = []
-            self.old_p_units = []
+            self.old_p = ["START"]
+            self.old_p_units = ["START"]
+        if last_in_seq:
+            self.tps_1.encode(self.old_p + ["END"])
+            self.tps_units.encode(self.old_p_units + ["END"])
+            return ["END"]
         # print(" ------------------------------------------------------ ")
         # read percept as an array of units
         # active elements in mem shape perception
@@ -46,17 +49,18 @@ class ComputeModule:
         # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
         units, action = utils.read_percept(self.rng, active_mem, s, old_seq=self.old_p, ulens=self.ulens,
                                            tps=self.tps_1, method=self.method)
-        # add initial nodes of sequences for generation
-        if first_in_seq:
-            self.initial_set.add(units[0])
-            first_in_seq = False
+
         self.actions.extend(action)
         p = " ".join(units)
+
+        # encode units
         self.tps_1.encode(self.old_p + p.strip().split(" "))
+        self.tps_units.encode(self.old_p_units + units)
+        # self.encode_patterns(self.old_p_units + units)
         # save past for tps
         self.old_p = p.strip().split(" ")[-self.order:]
-        # print("units: ", units, " -> ", p)
-        self.tps_units.encode(self.old_p_units + units)
+        # save past for tps units
+        self.old_p_units = units[-1:]
 
         # add entire percept
         if len(p.strip().split(" ")) <= max(self.ulens):
@@ -68,18 +72,23 @@ class ComputeModule:
         else:
             self.pars.add_weight(p, comps=units, weight=self.weight)
 
-        # save past for tps units
-        self.old_p_units = units[-1:]
         # forgetting and interference
         self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf, ulens=self.ulens)
         # tps_units.forget(units, forget=fogs)
         self.tps_units.forget(units, forget=self.fogs)
+        # self.tps_units.forget(units, forget=0.02)
         # print("mem: ", tps_units.mem)
-        return p, units, first_in_seq
+        return p, units
+
+    def generalize(self):
+        graph = GraphModule(self.tps_units)
+        cl_dict = {x:i for i,x in enumerate(graph.sim_rank())}
+        found_paths = set()
 
 
 class GraphModule:
-    def __init__(self, tps, be=None, thresh=0.0):
+    def __init__(self, tps, thresh=0.0):
+        self.p_index = 0
         self.fc = None
         self.G = nx.DiGraph()
 
@@ -87,20 +96,14 @@ class GraphModule:
         added = set()
         rows, cols = tps.norm_mem.shape
         for i in range(rows):
-            if be:
-                li = be.base_decode(tps.le_rows.inverse_transform([i])[0])
-            else:
-                li = tps.le_rows.inverse_transform([i])[0]
+            li = tps.le_rows.inverse_transform([i])[0]
             if li not in added:
                 # self.G.add_node(li, label="{} ({:.3f})".format(li, tps.state_entropies[li]))
                 self.G.add_node(li, label="{}".format(li))
                 added.add(li)
             for j in range(cols):
                 if tps.norm_mem[i][j] > thresh:
-                    if be:
-                        lj = be.base_decode(tps.le_cols.inverse_transform([j])[0])
-                    else:
-                        lj = tps.le_cols.inverse_transform([j])[0]
+                    lj = tps.le_cols.inverse_transform([j])[0]
                     if tps.norm_mem[i][j] == 1.0:
                         self.G.add_edge(li, lj, weight=tps.norm_mem[i][j],
                                         label="{:.3f}".format(tps.norm_mem[i][j]), penwidth="2", color="red")
@@ -113,19 +116,25 @@ class GraphModule:
         nx.nx_pydot.write_dot(self.G, filename)
         # plt.show()
 
-    def sim_rank(self):
+    def sim_rank(self,tsh=0.5):
         inw = nx.algorithms.similarity.simrank_similarity(self.G)
         otw = nx.algorithms.similarity.simrank_similarity(self.G.reverse())
         cl_form = set()
         for k, v in inw.items():
-            tt = tuple(k2 for k2, v2 in v.items() if v2 > 0)
-            if len(tt) > 1:
-                cl_form.add(tt)
-        for k, v in otw.items():
-            tt = tuple(k2 for k2, v2 in v.items() if v2 > 0)
+            tt1 = tuple(k2 for k2, v2 in v.items() if v2 > tsh)
+            tt2 = tuple(k2 for k2, v2 in otw[k].items() if v2 > tsh)
+            tt = tuple(set(tt1 + tt2))
             if len(tt) > 1:
                 cl_form.add(tt)
         return cl_form
+
+    def generalize(self, sim_classes):
+
+        for cls in sim_classes:
+            self.G.add_node("P" + self.p_index)
+            for node in self.G.nodes(data=True):
+                if node in cls:
+                    self.G.remove_node(node)
 
     def print_values(self):
         print("k_components: ", nx.algorithms.k_components(self.G.to_undirected()))

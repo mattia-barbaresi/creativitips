@@ -1,6 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-import numpy as np
+
+from multil import LayeredNetworkGraph
 
 
 class MIModule:
@@ -30,18 +31,20 @@ class MIModule:
                         self.G.nodes[percepts[m][j]]["level"] = m
                         added.append((percepts[n][i], percepts[m][j]))
         # forgetting
-        for e in self.G.edges():
-            if e not in added:
-                self.G[e[0]][e[1]]["weight"] -= decay
-                if self.G[e[0]][e[1]]["weight"] <= 0:
-                    self.G.remove_edge(e[0],e[1])
-        self.G.remove_nodes_from(list(nx.isolates(self.G)))
+        # for e in self.G.edges():
+        #     if e not in added:
+        #         self.G[e[0]][e[1]]["weight"] -= decay
+        #         if self.G[e[0]][e[1]]["weight"] <= 0:
+        #             self.G.remove_edge(e[0],e[1])
+        # self.G.remove_nodes_from(list(nx.isolates(self.G)))
 
     def draw_graph(self):
-        nx.draw_networkx(self.G)
+        # nx.draw_networkx(self.G)
+        colm = [["#ff1500","#0000FF"][node[1]["level"]] for node in self.G.nodes(data=True)]
         # pos = nx.spring_layout(self.G, dim=2, scale=2, k=100, seed=779)
-        pos = pos = nx.multipartite_layout(self.G, subset_key="level")
-        nx.draw(self.G, pos=pos, with_labels=True)
+        pos = nx.nx_agraph.graphviz_layout(self.G, prog="dot")
+        # pos = nx.multipartite_layout(self.G, subset_key="level")
+        nx.draw(self.G, pos=pos, node_color=colm, with_labels=True)
         plt.draw()
         plt.show()
 
@@ -77,3 +80,15 @@ class MIModule:
         # _format_axes(ax)
         # fig.tight_layout()
         # plt.show()
+
+    def get_associated(self, node, fun=set):
+        return fun(self.G.neighbors(node))
+
+    def draw_graph2(self, g1,g2):
+        # initialise figure and plot
+        fig = plt.figure()
+        ax = fig.add_subplot(111, projection='3d')
+        node_labels = {nn:str(nn) for nn in self.G.nodes}
+        LayeredNetworkGraph([g1.G, g2.G], node_labels=node_labels, ax=ax, layout=nx.spring_layout)
+        ax.set_axis_off()
+        plt.show()
