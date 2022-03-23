@@ -8,7 +8,7 @@ from classes.pparser import ParserModule
 from classes.tps import TPSModule
 import numpy as np
 
-from computation import ComputeModule, GraphModule
+from computation import ComputeModule
 from multi_integration import MIModule
 
 np.set_printoptions(linewidth=np.inf)
@@ -64,10 +64,10 @@ for order in tps_orders:
                 start_time = datetime.now()
                 mim = MIModule()
                 cm1 = ComputeModule(rng, order=order, weight=const.WEIGHT, interference=interf, forgetting=fogs,
-                                    memory_thres=t_mem, unit_len=const.ULENS, method=method)
+                                    mem_thres=t_mem, unit_len=const.ULENS, method=method)
                 cm2 = ComputeModule(rng, order=order, weight=const.WEIGHT, interference=interf, forgetting=fogs,
-                                    memory_thres=t_mem, unit_len=const.ULENS, method=method)
-                for iter, (s1, s2) in enumerate(zip(sequences[0], sequences[1])):
+                                    mem_thres=t_mem, unit_len=const.ULENS, method=method)
+                for itr, (s1, s2) in enumerate(zip(sequences[0], sequences[1])):
                     first_in_seq = True
                     while len(s1) > 0 and len(s2) > 0:
                         p1, units1 = cm1.compute(s1, first_in_seq)
@@ -77,11 +77,11 @@ for order in tps_orders:
                         first_in_seq = False
                         mim.encode(units1, units2)
 
-                    if iter % 5 == 1:
+                    if itr % 5 == 1:
                         cm1.tps_units.normalize()
                         cm2.tps_units.normalize()
-                        results[iter] = dict()
-                        results[iter]["generated"] = utils.multi_generation(rng, cm1, cm2, mim)
+                        results[itr] = dict()
+                        results[itr]["generated"] = utils.multi_generation(rng, cm1, cm2, mim)
 
                 with open(out_dir + "multi_results.json","w") as op:
                     json.dump(results, op)

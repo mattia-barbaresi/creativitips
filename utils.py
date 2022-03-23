@@ -190,7 +190,7 @@ def load_irish_n_d_repeated(filename):
     return seq
 
 
-def read_sequences(fn, rng):
+def read_sequences(rng, fn):
     seqs = []
     if fn == "saffran":
         # load/generate Saffran input
@@ -306,7 +306,7 @@ def generate_miller(rng, nm="L1"):
     return res
 
 
-def read_percept(rng, mem, sequence, old_seq=None, ulens=None, tps=None, method=""):
+def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None, tps=None, method=""):
     """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
     if ulens is None:
         ulens = [2]  # default like parser (bigrams)
@@ -320,21 +320,32 @@ def read_percept(rng, mem, sequence, old_seq=None, ulens=None, tps=None, method=
     while len(s) > 0 and i != 0:
         # units_list = [(k,v) for k,v in mem.items() if s.startswith(k)]
         units_list = [k for k in mem.keys() if " ".join(s).startswith(k)]
+        h_list = []
+        # if higher_list:
+        #     h_list = [k for k in higher_list if " ".join(s).startswith(k)]
         unit = []
-        action = ""
+        # action = ""
         # if len(s) <= max(ulens):
         #     unit = s
         #     action = "end"
         # el
-        if units_list:
+        print("--------------- p:", s[:6])
+        if h_list:
+            unit = (sorted(h_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
+            # print("mem unit:", unit)
+            action = "high_mem"
+        elif units_list:
             # a unit in mem matched
-            # unit = sorted(units_list, key=lambda item: item[1], reverse=True)[0][0]
             unit = (sorted(units_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
             # print("mem unit:", unit)
             action = "mem"
         elif tps:
             if method == "BRENT":
                 unit = tps.get_next_unit_brent(s[:6], past=old_seq)
+            elif method == "CT":
+                unit = tps.get_next_certain_unit(s[:6], past=old_seq)
+            elif method == "MI":
+                unit = tps.get_next_unit_mi(s[:6], past=old_seq)
             else:
                 unit = tps.get_next_unit(s[:6], past=old_seq)
             action = "tps"
@@ -344,7 +355,7 @@ def read_percept(rng, mem, sequence, old_seq=None, ulens=None, tps=None, method=
             # unit = s[:2]  # add Parser basic components (bigram/syllable)..
             # random unit
             unit = s[:rng.choice(ulens)]
-            # print("random unit:", unit)
+            print("random unit:", unit)
             action = "rnd"
 
         # check if last symbol
@@ -415,7 +426,7 @@ def plot_gra_from_normalized(tps, filename="", render=False, thresh=0.0):
             if tps.norm_mem[i][j] > thresh:
                 lj = tps.le_cols.inverse_transform([j])[0]
                 if tps.norm_mem[i][j] == 1.0:
-                    gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]), penwidth=str(1+2*tps.norm_mem[i][j]), color="red")
+                    gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]), penwidth=str(3), color="red")
                 else:
                     gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]), penwidth=str(3*tps.norm_mem[i][j]))
     # print(gra.source)
