@@ -34,6 +34,9 @@ class TPSModule:
                         self.mem[h][o] = wg
                 else:
                     self.mem[h] = {o: wg}
+
+
+
         else:
             print("(TPmodule):Order must be grater than 1.")
 
@@ -51,11 +54,24 @@ class TPSModule:
         # self.norm_mem = softmax(self.norm_mem, axis=1)
         self.norm_mem = utils.softmax(self.norm_mem)
 
-    def forget(self, uts, forget):
+    def forget_interf(self, uts, forget, interf=0.005):
+        # for each transition
+        hs = []
+        for ii in range(self.order, len(uts)):
+            h = " ".join(uts[ii - self.order:ii])
+            # o = " ".join(uts[ii:ii + self.order])
+            o = " ".join(uts[ii:ii + 1])
+            hs.append((h, o))
+            # interfer
+            for k in self.mem[h].keys():
+                if k != o:
+                    self.mem[h][k] -= interf
+        # forget
         for h, vs in self.mem.items():
             for o, v in vs.items():
-                if h not in uts and o not in uts:
+                if (h,o) not in hs:
                     self.mem[h][o] -= forget
+
         # cleaning
         for h, vs in self.mem.items():
             for key in [k for k, v in vs.items() if v <= 0.0]:
@@ -63,11 +79,6 @@ class TPSModule:
         for key in [k for k, v in self.mem.items() if len(v) == 0]:
             self.mem.pop(key)
 
-    def interference(self, uts, interf):
-        for ut in uts:
-            for k,v in self.mem[ut].items():
-                if k != ut:
-                    self.mem[ut][k] -= interf
         # cleaning
         for h, vs in self.mem.items():
             for key in [k for k, v in vs.items() if v <= 0.0]:
@@ -159,7 +170,7 @@ class TPSModule:
         res = []
         for k in self.mem.keys():
             if len(self.mem[k]) == 1:
-                res.append(k + next(iter(self.mem[k])))
+                res.append(k + " " + next(iter(self.mem[k])))
         return res
 
     def get_next_unit(self, percept, past=None):
@@ -171,7 +182,7 @@ class TPSModule:
         pp_seq = past + percept
         if self.order > 0:
             if self.order < len(pp_seq):
-                tps_seqs = self.get_tps_sequence(pp_seq)
+                tps_seqs = self.get_ftps_sequence(pp_seq)
                 # print("percept: ", percept)
                 # print("tps_seqs: ", tps_seqs)
                 # tps_seqs += [float('-inf'),float('+inf')]
@@ -203,13 +214,79 @@ class TPSModule:
         pp_seq = past + percept
         if self.order > 0:
             if self.order < len(pp_seq):
-                tps_seqs = self.get_tps_sequence(pp_seq)
-                # print("percept: ", percept)
+                tps_seqs = self.get_ftps_sequence(pp_seq)
+                # print("pp_seq: ", pp_seq)
                 # print("tps_seqs: ", tps_seqs)
-                tps_seqs = [float('inf')] + tps_seqs  # add an init high trans (for segmenting first positions too)
+                tps_seqs = [float('inf')] + tps_seqs + [float('inf')]  # for segmenting first/last pos too
                 for ii in range(1, len(tps_seqs) - 1):
                     if tps_seqs[ii - 1] > tps_seqs[ii] < tps_seqs[ii + 1]:  # insert a break
-                        # print("tps unit: ", percept[:(self.order - len(past)) + ii - 1])
+                        print("tps unit: ", percept[:(self.order - len(past)) + ii - 1])
+                        return percept[:(self.order - len(past)) + ii - 1]
+
+            else:
+                print("(TPmodule):Order grater than percept length. Percept is too short.")
+        else:
+            print("(TPmodule):Order must be grater than 1.")
+
+        return []
+
+    def get_next_certain_unit(self, percept, past=None):
+        """
+        Returns segmented percept using stored TPs. (trough-based segmentation strategy)
+        (Brent 1999) a formalization of the original proposal by Saffarn, Newport et al.
+        Consider the segment “wxyz”…whenever the statistical value (TPs or O/E) of the transitions under consideration
+        is lower than the statistical values of its adjacent neighbors, a boundary is inserted.
+        IF TPs(“wx”) > TPs(“xy”) < TPs(“yz”)  segments between “x” e “y”.
+        Paper: https://link.springer.com/content/pdf/10.1023/A:1007541817488.pdf
+        """
+        # if order = 1 no past required
+        if self.order > 1 and past:
+            past = past[-(self.order-1):]
+        else:
+            past = []
+        pp_seq = past + percept
+        if self.order > 0:
+            if self.order < len(pp_seq):
+                tps_seqs = self.get_ftps_sequence(pp_seq)
+                # print("pp_seq: ", pp_seq)
+                # print("tps_seqs: ", tps_seqs)
+                ii = 0
+                if tps_seqs[ii] == 1.0:
+                    while ii < len(tps_seqs) and tps_seqs[ii] == 1.0:
+                        ii += 1
+                    print("tps unit: ", percept[:(self.order - len(past)) + ii])
+                    return percept[:(self.order - len(past)) + ii]
+            else:
+                print("(TPmodule):Order grater than percept length. Percept is too short.")
+        else:
+            print("(TPmodule):Order must be grater than 1.")
+
+        return []
+
+    def get_next_unit_mi(self, percept, past=None):
+        """
+        Returns segmented percept using stored TPs. (trough-based segmentation strategy)
+        (Brent 1999) a formalization of the original proposal by Saffarn, Newport et al.
+        Consider the segment “wxyz”…whenever the statistical value (TPs or O/E) of the transitions under consideration
+        is lower than the statistical values of its adjacent neighbors, a boundary is inserted.
+        IF TPs(“wx”) > TPs(“xy”) < TPs(“yz”)  segments between “x” e “y”.
+        Paper: https://link.springer.com/content/pdf/10.1023/A:1007541817488.pdf
+        """
+        # if order = 1 no past required
+        if self.order > 1 and past:
+            past = past[-(self.order - 1):]
+        else:
+            past = []
+        pp_seq = past + percept
+        if self.order > 0:
+            if self.order < len(pp_seq):
+                tps_seqs = self.get_mis_sequence(pp_seq)
+                # print("percept: ", percept)
+                # print("tps_seqs: ", tps_seqs)
+                tps_seqs = [0] + tps_seqs  # add an init low trans (for segmenting first positions too)
+                for ii in range(1, len(tps_seqs) - 1):
+                    if tps_seqs[ii - 1] < tps_seqs[ii] > tps_seqs[ii + 1]:  # insert a break
+                        print("tps unit: ", percept[:(self.order - len(past)) + ii - 1])
                         return percept[:(self.order - len(past)) + ii - 1]
             else:
                 print("(TPmodule):Order grater than percept length. Percept is too short.")
@@ -218,14 +295,30 @@ class TPSModule:
 
         return []
 
-    def get_tps_sequence(self, seq):
+    def get_ftps_sequence(self, seq):
         tps_seqs = []
         for ii in range(self.order, len(seq)):
             h = " ".join(seq[ii - self.order:ii])
             o = " ".join(seq[ii:ii + 1])
             if h in self.mem and o in self.mem[h]:
                 # v = self.mem[h][o]
-                v = self.mem[h][o] / np.sum(list(self.mem[h].values()))
+                v = self.mem[h][o] / np.sum(list(self.mem[h].values()))  # forward TPs
+            else:
+                v = 0  # no encoded transition
+            tps_seqs.append(v)  # TPS
+            # print("{}-{} = {}".format(h, o, v))
+        return tps_seqs
+
+    def get_mis_sequence(self, seq):
+        tps_seqs = []
+        for ii in range(self.order, len(seq)):
+            h = " ".join(seq[ii - self.order:ii])
+            o = " ".join(seq[ii:ii + 1])
+            if h in self.mem and o in self.mem[h]:
+                obs = self.mem[h][o]
+                ovs = np.sum(list([v[o] for k,v in self.mem.items() if o in v.keys() and h != k]))
+                exp = np.sum(list(self.mem[h].values())) + ovs
+                v = obs / exp  # forward MIs
             else:
                 v = 0  # no encoded transition
             tps_seqs.append(v)  # TPS
@@ -236,14 +329,17 @@ class TPSModule:
         res = []
         init_keys = []
         init_values = []
-        tot = sum(self.mem["START"].values())  # used to normalize frequencies for utils.mc_choice()
-        for k,v in self.mem["START"].items():
-            init_keys.append(k)
-            init_values.append(v/tot)
+        if "START" in self.mem:
+            tot = sum(self.mem["START"].values())  # used to normalize frequencies for utils.mc_choice()
+            for k,v in self.mem["START"].items():
+                init_keys.append(k)
+                init_values.append(v/tot)
+        else:
+            print("no START found")
 
         if not init_keys:
             print("Empty init set. No generation occurred.")
-            return res, []
+            return res
 
         for _ in range(n_seq):
             seq = init_keys[utils.mc_choice(rand_gen, init_values)]  # choose rnd starting point (monte carlo)

@@ -4,10 +4,13 @@ import re
 class ParserModule:
     """Class for PARSER"""
 
-    def __init__(self, memory=None):
+    def __init__(self, ulen=None, memory=None):
         if memory is None:
             memory = dict()
+        if ulen is None:
+            ulen = [2]
         self.mem = memory
+        self.ulens = ulen
 
     def get_units(self, pct, thr=1.0):
         # list of units filtered with thr and then ordered by length
@@ -74,20 +77,15 @@ class ParserModule:
         for u in comps:
             if u in self.mem:
                 self.mem[u] += weight/2
-                # print("u: ", u, weight/2)
             else:
-                self.mem[u] = weight/2
-                # print("u: ", u, weight)
-
+                self.mem[u] = weight
+        # add weight to percept
         if pct in self.mem:
-            self.mem[pct] += weight/2
+            self.mem[pct] += weight
         else:
             self.mem[pct] = weight
-        # print("pct: ", pct, weight)
 
-    def forget_interf(self, rng, pct, comps=None, forget=0.05, interfer=0.005, ulens=None):
-        if not ulens:
-            ulens = [2]
+    def forget_interf(self, rng, pct, comps=None, forget=0.05, interfer=0.005):
         # forgetting
         self.mem.update((k, v - forget) for k, v in self.mem.items() if k != pct)
 
@@ -95,20 +93,31 @@ class ParserModule:
         uts = []
         for s in comps:
             # decompose in units
-            if len(s.split(" ")) > max(ulens):
+            if len(s.split(" ")) > max(self.ulens):
                 ss = s.split(" ")
                 _i = 0
                 while _i < len(ss):
-                    ul = rng.choice(ulens)
+                    ul = rng.choice(self.ulens)
                     uts.append(" ".join(ss[_i:_i + ul]))
                     _i += ul
-            # else:
-            #     uts.append(s)
-        for s2 in uts:
-            for k, v in self.mem.items():
+            else:
+                uts.append(s)
+        for s2 in list(uts):
+            for k in self.mem.keys():
                 if k != pct and k not in comps:
                     if s2 in k:
                         self.mem[k] -= interfer
         # cleaning
-        for key in [k for k, v in self.mem.items() if v <= 0.0]:
+        for key in [k for k,v in self.mem.items() if v <= 0.0]:
             self.mem.pop(key)
+
+    def encode(self, p, units, weight=1.0):
+        # add entire percept
+        if len(p.strip().split(" ")) <= max(self.ulens):
+            # p is a unit, a primitive
+            if p in self.mem:
+                self.mem[p] += weight / 2
+            else:
+                self.mem[p] = weight
+        else:
+            self.add_weight(p, comps=units, weight=weight)
