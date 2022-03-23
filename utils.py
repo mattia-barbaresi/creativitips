@@ -7,6 +7,8 @@ import numpy as np
 
 # import networkx as nx
 # from networkx.drawing.nx_pydot import write_dot
+from matplotlib import cm
+
 import utils
 
 
@@ -192,10 +194,9 @@ def read_sequences(fn, rng):
     seqs = []
     if fn == "saffran":
         # load/generate Saffran input
-        seqs = generate_Saffran_sequence_exp2(rng)
+        seqs = generate_Saffran_sequence(rng)
     elif fn == "all_irish-notes_and_durations":
         # read
-        # seqs = load_irish_n_d_repeated("data/all_irish-notes_and_durations-abc.txt")
         seqs = load_irish_n_d_repeated("data/all_irish-notes_and_durations-abc.txt")
     elif fn == "bicinia":
         seqs = load_bicinia_single("data/bicinia/", seq_n=2)
@@ -205,6 +206,8 @@ def read_sequences(fn, rng):
         seqs = load_bach("data/bach_compact/")
     elif fn == "miller":
         seqs = generate_miller(rng)
+    elif fn == "isaac":
+        seqs = read_isaac("data/isaac.txt")
     else:
         with open("data/{}.txt".format(fn), "r") as fp:
             # split lines char by char
@@ -278,6 +281,14 @@ def generate_Saffran_sequence_exp2(rng):
         prev = ww
         res += list(ww)
     return [res]
+
+
+def read_isaac(fn):
+    seqs = []
+    with open(fn, "r") as fp:
+        # split lines word by word
+        seqs = [line.strip().split(" ") for line in fp]
+    return seqs
 
 
 def generate_miller(rng, nm="L1"):
@@ -404,10 +415,24 @@ def plot_gra_from_normalized(tps, filename="", render=False, thresh=0.0):
             if tps.norm_mem[i][j] > thresh:
                 lj = tps.le_cols.inverse_transform([j])[0]
                 if tps.norm_mem[i][j] == 1.0:
-                    gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]), penwidth="2", color="red")
+                    gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]), penwidth=str(1+2*tps.norm_mem[i][j]), color="red")
                 else:
-                    gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]))
+                    gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]), penwidth=str(3*tps.norm_mem[i][j]))
+    # print(gra.source)
+    if render:
+        gra.render(filename, view=False, engine="dot", format="pdf")
+        os.rename(filename, filename + '.dot')
+    else:
+        gra.save(filename + '.dot')
 
+
+def plot_gra_from_nx(graph, filename="", render=False):
+    gra = Digraph()  # comment='Normalized TPS'
+
+    for li in graph.nodes():
+        gra.node(str(li), label="{} ({})".format(graph.nodes[li]["label"], graph.nodes[li]["words"]))
+    for x,y in graph.edges():
+        gra.edge(str(x), str(y))
     # print(gra.source)
     if render:
         gra.render(filename, view=False, engine="dot", format="pdf")
