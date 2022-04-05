@@ -67,7 +67,7 @@ class GraphModule:
             inverse_d[i] = x
         paths_to_add = []
         if "START" in self.G.nodes():
-            for path in nx.all_simple_paths(self.G, source="START", target="END", cutoff=10):
+            for path in nx.all_simple_paths(self.G, source="START", target="END", cutoff=50):
                 # collect converted labels
                 paths_to_add.append([self.get_class_from_node(nd) for nd in path])
         else:

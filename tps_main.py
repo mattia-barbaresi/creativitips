@@ -20,14 +20,14 @@ if __name__ == "__main__":
     #     ["isaac", "input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G",
     #     "all_irish-notes_and_durations","cello", "bach_compact"]
 
-    file_names = ["input", "saffran", "thompson_newport", "all_irish-notes_and_durations","all_songs_in_G"]
+    file_names = ["input"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     interferences = [0.005]
     forgets = [0.05]
     thresholds_mem = [1]
     tps_orders = [1]
-    methods = ["MI", "CT", "BRENT"]  # MI, CT or BRENT
+    methods = ["MI"]  # MI, CT or BRENT
 
     for method in methods:
         for order in tps_orders:
