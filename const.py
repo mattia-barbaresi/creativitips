@@ -6,4 +6,4 @@ FORGETTING = 0.05
 MEM_THRES = 1.0
 ULENS = [2, 3]
 TPS_ORDER = 1
-OUT_DIR = "./data/percept_mode_result_no_encoding/"
+OUT_DIR = "./data/percept_mode_result_on_graph/"
