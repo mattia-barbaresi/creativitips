@@ -54,7 +54,25 @@ class TPSModule:
         # self.norm_mem = softmax(self.norm_mem, axis=1)
         self.norm_mem = utils.softmax(self.norm_mem)
 
-    def forget_interf(self, uts, forget, interf=0.005):
+    def forget(self, uts, forget=0.05, cleaning=False):
+        # for each transition
+        hs = []
+        for ii in range(self.order, len(uts)):
+            h = " ".join(uts[ii - self.order:ii])
+            # o = " ".join(uts[ii:ii + self.order])
+            o = " ".join(uts[ii:ii + 1])
+            hs.append((h, o))
+
+        # forget
+        for h, vs in self.mem.items():
+            for o, v in vs.items():
+                if (h,o) not in hs:
+                    self.mem[h][o] -= forget
+
+        if cleaning:
+            self.cleaning()
+
+    def interfere(self, uts, interf=0.005, cleaning=False):
         # for each transition
         hs = []
         for ii in range(self.order, len(uts)):
@@ -66,19 +84,10 @@ class TPSModule:
             for k in self.mem[h].keys():
                 if k != o:
                     self.mem[h][k] -= interf
-        # forget
-        for h, vs in self.mem.items():
-            for o, v in vs.items():
-                if (h,o) not in hs:
-                    self.mem[h][o] -= forget
+        if cleaning:
+            self.cleaning()
 
-        # cleaning
-        for h, vs in self.mem.items():
-            for key in [k for k, v in vs.items() if v <= 0.0]:
-                self.mem[h].pop(key)
-        for key in [k for k, v in self.mem.items() if len(v) == 0]:
-            self.mem.pop(key)
-
+    def cleaning(self):
         # cleaning
         for h, vs in self.mem.items():
             for key in [k for k, v in vs.items() if v <= 0.0]:

@@ -54,9 +54,9 @@ def plot_matrix(data, x_labels=None, y_labels=None, fileName="", title="transiti
     ax.set_xticks(np.arange(0, nc, 1))
     ax.set_yticks(np.arange(0, nr, 1))
     # Labels for major ticks
-    if y_labels > 0:
+    if y_labels is not None:
         ax.set_yticklabels(y_labels)
-    if x_labels > 0:
+    if x_labels is not None:
         ax.set_xticklabels(x_labels)
     # Minor ticks
     ax.set_xticks(np.arange(-.5, nc, 1), minor=True)
