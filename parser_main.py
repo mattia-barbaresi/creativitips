@@ -1,3 +1,5 @@
+import os
+
 import utils
 import numpy as np
 from pparser import ParserModule
@@ -47,4 +49,5 @@ if __name__ == "__main__":
     for k, v in tot_mem.items():
         tot_mem[k] = v / n_iter
     ord_mem = dict(sorted([(x, y) for x, y in tot_mem.items()], key=lambda item: item[1], reverse=True)[:30])
-    utils.plot_mem(ord_mem, fig_name="./data/parser_results/parser.png", save_fig=True, show_fig=False)
+    os.makedirs("./data/out/parser_results/", exist_ok=True)
+    utils.plot_mem(ord_mem, fig_name="./data/out/parser_results/parser.png", save_fig=True, show_fig=False)

@@ -2,11 +2,11 @@
 
 ---
 ### An HMM:
- - **Q** = $${q_1,q_2, .. , q_N}$, states
- - **V** = {v_1, ..., v_M}, symbols
- - **A** = {aij}, aij = Pr(qj at t + 11 qi at t), state transition probability distribution
- - **B** = {bj(k)}, bj(k) = Pr(vk at tl q; at t), observation symbol probability distribution in state i
- - **π** = {π_i}, π_i = Pr(q_i at t =1), initial state distribution
+ - **Q** = {q<sub>1</sub>,q<sub>2</sub>, .. , q<sub>N</sub>}, states
+ - **V** = {v<sub>1</sub>, ..., v<sub>M</sub>}, symbols
+ - **A** = {a<sub>ij</sub>}, a<sub>ij</sub> = Pr(q<sub>j</sub> at t+1, q<sub>i</sub> at t), state transition probability distribution
+ - **B** = {b<sub>j</sub>(k)}, b<sub>j</sub>(k) = Pr(v<sub>k</sub> at state q<sub>j</sub>), observation symbol probability distribution in state j
+ - **π** = {π<sub>i</sub>}, π<sub>i</sub> = Pr(q<sub>i</sub> at t =1), initial state distribution
 
 
 There are three fundamental problems for HMMs:
