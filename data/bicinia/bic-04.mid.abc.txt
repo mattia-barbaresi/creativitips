@@ -1,0 +1,10 @@
+V:1 clef=treble staff=1
+K:C
+M:2/2
+L:1/32
+z48 =d24 =A8 =c16 =F12 =G4 =A4 ^A4 =c16 =A8 ^A8 =A16 =G8 =A48 =c16 =G48 ^A16 =A8 =F8 =c16 =A8 =d16 =c8 ^A8 =A8 ^A16 =A40 =G8 =E8 =F8 =E16 =D8 =d48 =G24 ^A16 =d16 =c24 =d16 =c8 ^A16 =A24 ^A16 =A8 =G16 =F24 =d16 =c8 ^A12 =A2 =G2 =F4 =G4 =A12 =G20 ^F8 =G31 
+V:2 clef=treble staff=1
+K:C
+M:2/2
+L:1/32
+=G24 =C8 =F16 ^A,12 =C4 =D4 =E4 =F12 =E4 =F4 =G4 =A8 =D16 =E8 =F12 =E4 =D12 =C4 ^A,16 =A,8 =D24 =F16 =C48 ^D16 =D8 ^A,8 =D16 =A,8 =A16 =G8 =F8 =E8 =D16 =G,8 =G16 =F8 =E8 =D8 =C12 ^A,4 =C4 =A,4 =D16 ^C8 =D24 ^A48 ^D24 ^A,16 =F4 =G4 =A4 =F4 ^A16 =A24 =G16 =F8 ^D16 =D24 ^A16 =A8 =G16 =F24 =D16 =C8 ^A,16 =A,16 =G,31 
