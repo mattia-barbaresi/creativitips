@@ -1,4 +1,4 @@
-"""Module for models tests"""
+"""Module for models tests and  measures"""
 
 # from Learning a Generative Probabilistic Grammar of Experience: A Process-Level Model of Language Acquisition
 # (https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cogs.12140)

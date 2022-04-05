@@ -107,6 +107,6 @@ for c in C:
 
 
 random.shuffle(res)
-with open("data/thompson_newport.txt", "w") as fp:
+with open("../data/thompson_newport.txt", "w") as fp:
     for _l in res:
         fp.write(_l+"\n")

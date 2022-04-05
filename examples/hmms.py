@@ -3,7 +3,7 @@ from collections import Counter
 from sklearn import preprocessing
 import numpy as np
 from hmmlearn import hmm
-import complexity as cx
+from utils import complexity as cx
 import const
 import utils
 from scipy.special import softmax
