@@ -8,8 +8,8 @@ from networkx.drawing.nx_pydot import read_dot
 
 import const
 import utils
-from classes.pparser import Parser
-from classes.tps import TPS
+from CTPs.pparser import Parser
+from CTPs.tps import TPS
 import numpy as np
 
 from computation import Computation

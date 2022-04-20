@@ -7,8 +7,8 @@ from matplotlib import pyplot as plt
 from sklearn import preprocessing
 import const
 import utils
-from classes.computation import Computation, Embedding
-from classes.graphs import TPsGraph
+from CTPs.computation import Computation, Embedding
+from CTPs.graphs import TPsGraph
 
 # NOTES: more iterations over the same input enhance resulting model!
 
