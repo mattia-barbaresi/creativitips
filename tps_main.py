@@ -7,8 +7,8 @@ from matplotlib import pyplot as plt
 from sklearn import preprocessing
 import const
 import utils
-from classes.computation import ComputeModule, EmbedModule
-from classes.graphs import GraphModule
+from classes.computation import Computation, Embedding
+from classes.graphs import TPsGraph
 
 # NOTES: more iterations over the same input enhance resulting model!
 
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     interferences = [0.005]
     forgets = [0.05]
     thresholds_mem = [1]
-    tps_orders = [1]
+    tps_orders = [2]
     methods = ["MI"]  # MI, CT or BRENT
 
     for method in methods:
@@ -35,9 +35,9 @@ if __name__ == "__main__":
                 for fogs in forgets:
                     for t_mem in thresholds_mem:
                         # init
-                        root_dir = const.OUT_DIR + "{}_{}/".format(method, time.strftime("%Y%m%d-%H%M%S"))
+                        root_dir = const.OUT_DIR + "{}_{}_{}/".format(method, order, time.strftime("%Y%m%d-%H%M%S"))
                         os.makedirs(root_dir, exist_ok=True)
-                        with open(root_dir + "pars.txt", "w") as of:
+                        with open(root_dir + "params.txt", "w") as of:
                             json.dump({
                                 "rnd": const.RND_SEED,
                                 "mem thresh": t_mem,
@@ -62,8 +62,8 @@ if __name__ == "__main__":
                             start_time = datetime.now()
 
                             # init module for computation
-                            cm = ComputeModule(rng, order=order, weight=const.WEIGHT, interference=interf, forgetting=fogs,
-                                               mem_thres=t_mem, unit_len=const.ULENS, method=method)
+                            cm = Computation(rng, order=order, weight=const.WEIGHT, interference=interf, forgetting=fogs,
+                                             mem_thres=t_mem, unit_len=const.ULENS, method=method)
 
                             for iteration, s in enumerate(sequences):
                                 fis = True
@@ -75,16 +75,16 @@ if __name__ == "__main__":
                                     # update s
                                     s = s[len(p.strip().split(" ")):]
                                 cm.compute_last()
-                                # # --------------- GENERATE ---------------
-                                # if iteration % 5 == 1:
-                                #     cm.tps_units.normalize()
-                                #     results[iteration] = dict()
-                                #     results[iteration]["generated"] = cm.tps_units.generate_new_sequences(rng,min_len=100)
-                                #     im = dict(sorted([(x, y) for x, y in cm.pars.mem.items()],
-                                #                      key=lambda it: it[1], reverse=True))
-                                #     results[iteration]["mem"] = im
-                                # class form on graph
+                                # --------------- GENERATE ---------------
+                                if iteration % 5 == 1:
+                                    cm.tps_units.normalize()
+                                    results[iteration] = dict()
+                                    results[iteration]["generated"] = cm.tps_units.generate_new_seqs(rng, min_len=100)
+                                    im = dict(sorted([(x, y) for x, y in cm.pars.mem.items()],
+                                                     key=lambda it: it[1], reverse=True))
+                                    results[iteration]["mem"] = im
 
+                            # class form on graph
                             # dc = fc.distributional_context(fc_seqs, 3)
                             # # print("---- dc ---- ")
                             # # pp.pprint(dc)
@@ -110,7 +110,7 @@ if __name__ == "__main__":
                             #             cm.tps_units.norm_mem[x][y]
                             # for lbl in last_nodes:
                             #     emb_matrix[emb_le.transform([lbl])[0]] = np.ones(len(emb_le.classes_)) * 0.5
-                            # wem = EmbedModule(emb_matrix)
+                            # wem = Embedding(emb_matrix)
                             # wem.compute(emb_le)
 
                             # calculate states uncertainty
@@ -119,7 +119,7 @@ if __name__ == "__main__":
                             # generalization
                             cm.generalize(out_dir)
                             # generate sample sequences
-                            gens = cm.tps_units.generate_new_sequences(rng, min_len=100)
+                            gens = cm.tps_units.generate_new_seqs(rng, min_len=100)
                             print("gens: ", gens)
                             fig, axs = plt.subplots(3)
                             axs[0].set_title("ftps")
@@ -169,7 +169,7 @@ if __name__ == "__main__":
                             om = dict(sorted([(x, y) for x, y in cm.pars.mem.items()], key=lambda it: it[1], reverse=True))
                             utils.plot_mem(om, out_dir + "words_plot.png", save_fig=True, show_fig=False)
 
-                            graph = GraphModule(cm.tps_units)
+                            graph = TPsGraph(cm.tps_units)
                             # graph.form_classes()
                             # graph.draw_graph(out_dir + "nxGraph.dot")
                             cl_form = graph.cf_by_sim_rank()

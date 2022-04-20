@@ -4,7 +4,7 @@ from sklearn import preprocessing
 import utils
 
 
-class TPSModule:
+class TPS:
     """Implements a transitional probabilities module"""
 
     def __init__(self, ordr=1):
@@ -241,12 +241,8 @@ class TPSModule:
 
     def get_next_certain_unit(self, percept, past=None):
         """
-        Returns segmented percept using stored TPs. (trough-based segmentation strategy)
-        (Brent 1999) a formalization of the original proposal by Saffarn, Newport et al.
-        Consider the segment “wxyz”…whenever the statistical value (TPs or O/E) of the transitions under consideration
-        is lower than the statistical values of its adjacent neighbors, a boundary is inserted.
-        IF TPs(“wx”) > TPs(“xy”) < TPs(“yz”)  segments between “x” e “y”.
-        Paper: https://link.springer.com/content/pdf/10.1023/A:1007541817488.pdf
+        Returns segmented percept using stored TPs.
+        Returns the longest segments of transitions, from the start symbol, with p=1
         """
         # if order = 1 no past required
         if self.order > 1 and past:
@@ -274,12 +270,8 @@ class TPSModule:
 
     def get_next_unit_mi(self, percept, past=None):
         """
-        Returns segmented percept using stored TPs. (trough-based segmentation strategy)
-        (Brent 1999) a formalization of the original proposal by Saffarn, Newport et al.
-        Consider the segment “wxyz”…whenever the statistical value (TPs or O/E) of the transitions under consideration
-        is lower than the statistical values of its adjacent neighbors, a boundary is inserted.
-        IF TPs(“wx”) > TPs(“xy”) < TPs(“yz”)  segments between “x” e “y”.
-        Paper: https://link.springer.com/content/pdf/10.1023/A:1007541817488.pdf
+        Returns segmented percept using stored MIs.
+        Uses the Brent's method to find the boundary (see get_next_unit_brent).
         """
         # if order = 1 no past required
         if self.order > 1 and past:
@@ -334,7 +326,7 @@ class TPSModule:
             # print("{}-{} = {}".format(h, o, v))
         return tps_seqs
 
-    def generate_new_sequences(self, rand_gen, n_seq=20, min_len=20):
+    def generate_new_seqs(self, rand_gen, n_seq=20, min_len=20):
         res = []
         init_keys = []
         init_values = []

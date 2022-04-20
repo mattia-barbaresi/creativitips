@@ -15,7 +15,7 @@ where
 
 `mem_thresh`,`forgetting`, and `interference` are the parameter for PARSER-like memory.
 
-These directories contain also a *pars.txt* file storing the used parameters.
+These directories contain also a *params.txt* file storing the used parameters.
 
 ----------------------------------------------------------------------------
 

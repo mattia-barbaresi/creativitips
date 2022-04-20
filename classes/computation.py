@@ -1,13 +1,13 @@
 import utils
-from graphs import GraphModule
-from tps import TPSModule
-from pparser import ParserModule
+from graphs import TPsGraph
+from tps import TPS
+from pparser import Parser
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.decomposition import TruncatedSVD
 
 
-class ComputeModule:
+class Computation:
     """Implements computation module for compute sequences in iteration"""
 
     def __init__(self, rng, order=2, weight=1.0, interference=0.001, forgetting=0.05,
@@ -16,13 +16,13 @@ class ComputeModule:
         if not unit_len:
             unit_len = [2,3]
         self.rng = rng
-        self.pars = ParserModule(unit_len)
+        self.pars = Parser(unit_len)
         self.method = method
-        self.tps_1 = TPSModule(order)  # memory for TPs between symbols
-        # self.tps_2 = TPSModule(2)  # memory for TPs between symbols
-        # self.tps_3 = TPSModule(3)  # memory for TPs between symbols
-        self.tps_units = TPSModule(1)  # memory for TPs between units
-        self.graph = GraphModule()  # memory for tree representation
+        self.tps_1 = TPS(order)  # memory for TPs between symbols
+        # self.tps_2 = TPS(2)  # memory for TPs between symbols
+        # self.tps_3 = TPS(3)  # memory for TPs between symbols
+        self.tps_units = TPS(1)  # memory for TPs between units
+        self.graph = TPsGraph()  # memory for tree representation
         self.weight = weight
         self.order = order
         self.t_mem = mem_thres
@@ -55,8 +55,7 @@ class ComputeModule:
         # interference could be applied for those units activated but not used (reinforced)!
         # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
         units, action = utils.read_percept(self.rng, active_mem, s, old_seq=self.old_p,
-                                           tps=self.tps_1, method=self.method,
-                                           ulens=self.pars.ulens)
+                                           tps=self.tps_1, method=self.method, ulens=self.pars.ulens)
         self.actions.extend(action)
         p = " ".join(units)
 
@@ -89,11 +88,11 @@ class ComputeModule:
 
     def generalize(self,out_dir):
         # self.tps_units.normalize()
-        self.graph = GraphModule(self.tps_units)
+        self.graph = TPsGraph(self.tps_units)
         self.graph.generalize(dir_name=out_dir)
 
 
-class EmbedModule:
+class Embedding:
     def __init__(self, mtx):
         self.vh = None
         self.u = None  # Each row of U matrix is a 3-dimensional vector representation of word

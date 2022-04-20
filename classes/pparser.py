@@ -1,8 +1,9 @@
 import re
 
 
-class ParserModule:
-    """Class for PARSER"""
+class Parser:
+    """Class for PARSER: A Model for Word Segmentation
+    Pierre Perruchet and Annie Vinter, 1998"""
 
     def __init__(self, ulen=None, memory=None):
         if memory is None:

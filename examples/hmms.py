@@ -3,7 +3,7 @@ from collections import Counter
 from sklearn import preprocessing
 import numpy as np
 from hmmlearn import hmm
-from utils import complexity as cx
+import complexity as cx
 import const
 import utils
 from scipy.special import softmax
@@ -77,7 +77,7 @@ print("seq_ent_multi: ", seq_ent_multi)
 # n_state_2 = int(seq_ent2)+1
 # n_state_multi = int(seq_ent_multi)+1
 n_state_1 = 11
-n_state_2 = 11
+n_state_2 = 10
 n_state_multi = 15
 model1 = hmm.MultinomialHMM(n_components=n_state_1).fit(np.vstack(le1.transform(sequences_1)), lens_1)
 model2 = hmm.MultinomialHMM(n_components=n_state_2).fit(np.vstack(le2.transform(sequences_2)), lens_2)
@@ -107,7 +107,7 @@ utils.plot_matrix(model_multi.emissionprob_, x_labels=le_multi.classes_, fileNam
 
 # ------------------------------ out ------------------------------
 # save models
-dir_name = const.OUT_DIR + "out_hmms_{}_{}_{}".format(n_state_1,n_state_2,n_state_multi)
+dir_name = const.EXAMPLES_OUT_DIR + "out_hmms_{}_{}_{}".format(n_state_1,n_state_2,n_state_multi)
 data = {
     "m1_state_transitions": model1.transmat_,
     "m1_emission_probabilities": model1.emissionprob_,

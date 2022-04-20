@@ -1,10 +1,12 @@
 import os
 
+import const
 import utils
 import numpy as np
-from pparser import ParserModule
+from pparser import Parser
 
 if __name__ == "__main__":
+    out_dir = const.OUT_DIR + "parser_results/"
     rng = np.random.default_rng(33)
     threshold = 1.0
     w = 1.0
@@ -19,7 +21,7 @@ if __name__ == "__main__":
     tot_mem = {}
 
     for bb in range(0, n_iter):
-        pars = ParserModule()
+        pars = Parser()
         sequences = utils.generate_Saffran_sequence(rng)
         # initialise syllables
         # syllables = set()
@@ -49,5 +51,5 @@ if __name__ == "__main__":
     for k, v in tot_mem.items():
         tot_mem[k] = v / n_iter
     ord_mem = dict(sorted([(x, y) for x, y in tot_mem.items()], key=lambda item: item[1], reverse=True)[:30])
-    os.makedirs("./data/out/parser_results/", exist_ok=True)
-    utils.plot_mem(ord_mem, fig_name="./data/out/parser_results/parser.png", save_fig=True, show_fig=False)
+    os.makedirs(out_dir, exist_ok=True)
+    utils.plot_mem(ord_mem, fig_name=out_dir + "parser.png", save_fig=True, show_fig=False)

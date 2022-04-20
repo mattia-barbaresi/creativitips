@@ -1,8 +1,8 @@
 # (from https://www.sciencedirect.com/science/article/pii/S089662731500776X)
 
-from graphs import GraphModule
-from pparser import ParserModule
-from tps import TPSModule
+from graphs import TPsGraph
+from pparser import Parser
+from tps import TPS
 
 
 class Knowledge:
@@ -23,11 +23,11 @@ class Knowledge:
                  memory_thres=1.0, unit_len=None, method="BRENT"):
 
         self.rng = rng
-        self.tps = TPSModule()
-        self.chunk = ParserModule()
+        self.tps = TPS()
+        self.chunk = Parser()
         # self.ordinal = Ordinal()
-        # self.algebraic = TPSModule()
-        self.tree = GraphModule()
+        # self.algebraic = TPS()
+        self.tree = TPsGraph()
 
     def encode(self, percept):
         pass

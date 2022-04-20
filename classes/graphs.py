@@ -7,7 +7,7 @@ from networkx.algorithms import community
 import utils
 
 
-class GraphModule:
+class TPsGraph:
     def __init__(self, tps=None, thresh=0.0):
         self.p_index = 0
         self.fc = dict()
