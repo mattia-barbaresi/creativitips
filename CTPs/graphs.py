@@ -55,10 +55,10 @@ class TPsGraph:
             tt1 = set(k2 for k2, v2 in v.items() if v2 > tsh)
             tt2 = set(k2 for k2, v2 in otw[k].items() if v2 > tsh)
             # tt = tuple((set(tt1).intersection(tt2)).difference(("START","END")))
-            tt = tuple(tt1.intersection(tt2))
+            tt = tuple(sorted(tt1.intersection(tt2)))
             if len(tt) > 0:
                 cl_form.add(tt)
-        return cl_form
+        return sorted(cl_form)
 
     def generalize(self, dir_name, indx=""):
         inverse_d = dict()
