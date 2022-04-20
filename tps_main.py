@@ -26,26 +26,31 @@ if __name__ == "__main__":
     interferences = [0.005]
     forgets = [0.05]
     thresholds_mem = [1]
-    tps_orders = [2]
-    methods = ["MI"]  # MI, CT or BRENT
+    tps_orders = [1,2]
+    methods = ["MI", "CT", "BRENT"]  # MI, CT or BRENT
 
-    for method in methods:
-        for order in tps_orders:
+    for tps_method in methods:
+        for tps_order in tps_orders:
             for interf in interferences:
-                for fogs in forgets:
+                for fogt in forgets:
                     for t_mem in thresholds_mem:
                         # init
-                        root_dir = const.OUT_DIR + "{}_{}_{}/".format(method, order, time.strftime("%Y%m%d-%H%M%S"))
-                        os.makedirs(root_dir, exist_ok=True)
+                        root_dir = const.OUT_DIR + "{}_{}_{}_{}_{}/" \
+                            .format(tps_method, tps_order, fogt, interf, t_mem)
+                        try:
+                            os.makedirs(root_dir, exist_ok=False)
+                        except (Exception,):
+                            raise
+
                         with open(root_dir + "params.txt", "w") as of:
                             json.dump({
                                 "rnd": const.RND_SEED,
                                 "mem thresh": t_mem,
-                                "forgetting": fogs,
+                                "forgetting": fogt,
                                 "interference": interf,
                                 "weight": const.WEIGHT,
                                 "lens": const.ULENS,
-                                "tps_order": order,
+                                "tps_order": tps_order,
                             }, of)
 
                         for fn in file_names:
@@ -62,8 +67,9 @@ if __name__ == "__main__":
                             start_time = datetime.now()
 
                             # init module for computation
-                            cm = Computation(rng, order=order, weight=const.WEIGHT, interference=interf, forgetting=fogs,
-                                             mem_thres=t_mem, unit_len=const.ULENS, method=method)
+                            cm = Computation(rng, order=tps_order, weight=const.WEIGHT, interference=interf,
+                                             forgetting=fogt,
+                                             mem_thres=t_mem, unit_len=const.ULENS, method=tps_method)
 
                             for iteration, s in enumerate(sequences):
                                 fis = True
@@ -133,8 +139,8 @@ if __name__ == "__main__":
                                 axs[0].plot(x1)
                                 axs[1].plot(x2)
                                 axs[2].set_xlim(axs[0].get_xlim())
-                                axs[2].set_ylim([0,40])
-                                for i,x in enumerate(gg.split(" ")[cm.tps_1.order:]):
+                                axs[2].set_ylim([0, 40])
+                                for i, x in enumerate(gg.split(" ")[cm.tps_1.order:]):
                                     axs[2].text(i, ll, '{}'.format(x))
                                     # axs[1].text(i, ll, '{}'.format(x))
                                 ll += 2
@@ -166,7 +172,8 @@ if __name__ == "__main__":
                             utils.plot_gra_from_normalized(cm.tps_1, filename=out_dir + "tps_symbols", render=True)
                             print("plotting memory...")
                             # plot memory chunks
-                            om = dict(sorted([(x, y) for x, y in cm.pars.mem.items()], key=lambda it: it[1], reverse=True))
+                            om = dict(
+                                sorted([(x, y) for x, y in cm.pars.mem.items()], key=lambda it: it[1], reverse=True))
                             utils.plot_mem(om, out_dir + "words_plot.png", save_fig=True, show_fig=False)
 
                             graph = TPsGraph(cm.tps_units)
