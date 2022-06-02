@@ -4,12 +4,13 @@ import string
 from graphviz import Digraph
 import matplotlib.pyplot as plt
 import numpy as np
-
 # import networkx as nx
 # from networkx.drawing.nx_pydot import write_dot
 from matplotlib import cm
 
-import utils
+
+def params_to_string(tps_method, tps_order, fogt, interf, t_mem):
+    return "{}_{}_{}_{}_{}/".format(tps_method, tps_order, fogt, interf, t_mem)
 
 
 def matrix_from_tps(tps_dict, x_encoding, y_encoding):
@@ -20,14 +21,13 @@ def matrix_from_tps(tps_dict, x_encoding, y_encoding):
     return res
 
 
-#
 def mc_choice(rng, arr):
     """Return an index using MonteCarlo choice on arr"""
     rnd = rng.uniform()
     sm = arr[0]
     j = 1
     ind = 0
-    while sm < rnd:
+    while sm < rnd and j < len(arr):
         sm += float(arr[j])
         if sm >= rnd:
             ind = j
@@ -35,8 +35,8 @@ def mc_choice(rng, arr):
     return ind
 
 
-# gen with hebb associations
 def hebb_gen(rng, sequence, hm):
+    """gen with hebb associations"""
     out = []
     for s in sequence:
         idx = mc_choice(rng, hm[s])
@@ -45,6 +45,7 @@ def hebb_gen(rng, sequence, hm):
 
 
 def plot_matrix(data, x_labels=None, y_labels=None, fileName="", title="transition matrix", clim=True):
+    """Plot"""
     nr, nc = data.shape
     plt.imshow(data, cmap="plasma")
     if clim:
@@ -206,8 +207,8 @@ def read_sequences(rng, fn):
         seqs = load_bach("data/bach_compact/")
     elif fn == "miller":
         seqs = generate_miller(rng)
-    elif fn == "isaac":
-        seqs = read_isaac("data/isaac.txt")
+    elif fn == "isaac" or fn == "hello" or fn == "mediapipe":
+        seqs = read_words("data/"+fn+".txt")
     else:
         with open("data/{}.txt".format(fn), "r") as fp:
             # split lines char by char
@@ -283,7 +284,7 @@ def generate_Saffran_sequence_exp2(rng):
     return [res]
 
 
-def read_isaac(fn):
+def read_words(fn):
     seqs = []
     with open(fn, "r") as fp:
         # split lines word by word
@@ -329,7 +330,6 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
         #     unit = s
         #     action = "end"
         # el
-        print("--------------- p:", s[:6])
         if h_list:
             unit = (sorted(h_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
             # print("mem unit:", unit)
@@ -413,6 +413,16 @@ def plot_gra(d, filename="tps", ):
     gra.render(filename, view=True)
 
 
+def plot_nx_creativity(G, filename="tps", ):
+    gra = Digraph()
+    for k, v, d in G.edges(data=True):
+        # gra.edge(k, v, label="{:.2f}-{:.2f}-{:.2f}".format(float(d["p"]),float(d["u"]),float(d["v"])))
+        c = (1 - float(d["p"])) * float(d["u"]) * (0.67 - float(d["v"]))
+        gra.edge(k, v, label="{:.2f} ({:.2f},{:.2f},{:.2f})".format(c,float(d["p"]),float(d["u"]),float(d["v"])))
+    print(gra.source)
+    gra.render(filename, view=True)
+
+
 def plot_gra_from_normalized(tps, filename="", render=False, thresh=0.0):
     gra = Digraph()  # comment='Normalized TPS'
     added = set()
@@ -425,32 +435,17 @@ def plot_gra_from_normalized(tps, filename="", render=False, thresh=0.0):
         for j in range(cols):
             if tps.norm_mem[i][j] > thresh:
                 lj = tps.le_cols.inverse_transform([j])[0]
-                if tps.norm_mem[i][j] == 1.0:
-                    gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]), penwidth=str(3), color="red")
+                p = tps.norm_mem[i][j]
+                if p == 1.0:
+                    gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="0", v="0", penwidth=str(3), color="red")
                 else:
-                    gra.edge(li, lj, label="{:.3f}".format(tps.norm_mem[i][j]), penwidth=str(3*tps.norm_mem[i][j]))
+                    gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="0", v="0", penwidth=str(3*p))
     # print(gra.source)
     if render:
         gra.render(filename, view=False, engine="dot", format="pdf")
         os.rename(filename, filename + '.dot')
     else:
         gra.save(filename + '.dot')
-
-
-def plot_gra_from_nx(graph, filename="", render=False):
-    gra = Digraph()  # comment='Normalized TPS'
-
-    for li in graph.nodes():
-        gra.node(str(li), label="{} ({})".format(graph.nodes[li]["label"], graph.nodes[li]["words"]))
-    for x,y in graph.edges():
-        gra.edge(str(x), str(y))
-    # print(gra.source)
-    if render:
-        gra.render(filename, view=False, engine="dot", format="pdf")
-        os.rename(filename, filename + '.dot')
-    else:
-        gra.save(filename + '.dot')
-    return gra
 
 
 # bar-plot memory content
@@ -542,7 +537,7 @@ def multi_generation_ass(rng, cm, mim):
     for _ in range(0, 50):
         gg = cm.tps_units.generate_new_next(rng, initials=init_set)
         tt = mim.get_associated(str(gg), fun=list)
-        t = utils.mc_choice(rng, tt)
+        t = mc_choice(rng, tt)
         res += " " + gg + "-" + t
 
     return res
