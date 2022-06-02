@@ -1,6 +1,5 @@
 # Segmentation and Chunking
-
-## ...using Transitional Quantities, and Parser-like mechanisms for attention
+## using Transitional Probabilities and attentional mechanisms
 
 ____________________________
 
@@ -25,7 +24,7 @@ ____________________________
 - segmentation: TPS (forward, backward, MI)??
 - chunking: with or without TPS? using MDL?
 - abstraction/generalization: (algebraic patterns?)
-- creation/production: how?
+- creative generation, using **Simonton's formula**: how to make it converge faster?
 - 
 
 ### What's next?
