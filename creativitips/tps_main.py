@@ -1,16 +1,20 @@
 from datetime import datetime
 import json
 import os
-import time
 import numpy as np
 from matplotlib import pyplot as plt
-from sklearn import preprocessing
-import const
-import utils
-from CTPs.computation import Computation, Embedding
-from CTPs.graphs import TPsGraph
+from creativitips import utils
+from creativitips import const
+from creativitips.CTPs.computation import Computation
+from creativitips.CTPs.graphs import TPsGraph
+
 
 # NOTES: more iterations over the same input enhance resulting model!
+
+def elaborate(test=False):
+    if test:
+        print("Called creativitips elaborate!")
+
 
 if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
@@ -20,29 +24,26 @@ if __name__ == "__main__":
     #     ["isaac", "input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G",
     #     "all_irish-notes_and_durations","cello", "bach_compact"]
 
-    file_names = ["input"]
+    file_names = ["mediapipe2"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
+    thresholds_mem = [0.9]
     interferences = [0.005]
     forgets = [0.05]
-    thresholds_mem = [1]
-    tps_orders = [1,2]
-    methods = ["MI", "CT", "BRENT"]  # MI, CT or BRENT
+    tps_orders = [1]
+    methods = ["CT"]  # MI, CT or BRENT
 
     for tps_method in methods:
         for tps_order in tps_orders:
-            for interf in interferences:
-                for fogt in forgets:
+            for fogt in forgets:
+                for interf in interferences:
                     for t_mem in thresholds_mem:
                         # init
-                        root_dir = const.OUT_DIR + "{}_{}_{}_{}_{}/" \
-                            .format(tps_method, tps_order, fogt, interf, t_mem)
-                        try:
-                            os.makedirs(root_dir, exist_ok=False)
-                        except (Exception,):
-                            raise
+                        root_out_dir = const.OUT_DIR + "tps_results/" + \
+                                       utils.params_to_string(tps_method, tps_order, fogt, interf, t_mem)
+                        os.makedirs(root_out_dir, exist_ok=True)
 
-                        with open(root_dir + "params.txt", "w") as of:
+                        with open(root_out_dir + "params.txt", "w") as of:
                             json.dump({
                                 "rnd": const.RND_SEED,
                                 "mem thresh": t_mem,
@@ -56,8 +57,13 @@ if __name__ == "__main__":
                         for fn in file_names:
                             print("processing {} series ...".format(fn))
                             # init
-                            out_dir = root_dir + "{}/".format(fn)
-                            os.makedirs(out_dir, exist_ok=True)
+                            fi_dir = root_out_dir + "{}/".format(fn)
+
+                            try:
+                                os.makedirs(fi_dir, exist_ok=False)
+                            except (Exception,):
+                                raise
+
                             results = dict()
 
                             # --------------- INPUT ---------------
@@ -123,7 +129,7 @@ if __name__ == "__main__":
                             cm.tps_1.compute_states_entropy()
                             cm.tps_units.compute_states_entropy()
                             # generalization
-                            cm.generalize(out_dir)
+                            cm.generalize(fi_dir)
                             # generate sample sequences
                             gens = cm.tps_units.generate_new_seqs(rng, min_len=100)
                             print("gens: ", gens)
@@ -145,42 +151,43 @@ if __name__ == "__main__":
                                     # axs[1].text(i, ll, '{}'.format(x))
                                 ll += 2
                             # plt.show()
-                            plt.savefig(out_dir + "tps_plot.png", bbox_inches='tight')
+                            plt.savefig(fi_dir + "tps_plot.png", bbox_inches='tight')
+                            plt.close('all')
                             # print("REGENERATION")
                             # for g in gens:
                             #     print(cm.tps_1.get_units_brent(g))
 
                             # save results
-                            with open(out_dir + "results.json", "w") as of:
+                            with open(fi_dir + "results.json", "w") as of:
                                 json.dump(results, of)
                             # save generated
-                            with open(out_dir + "generated.json", "w") as of:
+                            with open(fi_dir + "generated.json", "w") as of:
                                 json.dump(gens, of)
                             # save actions
-                            with open(out_dir + "action.json", "w") as of:
+                            with open(fi_dir + "action.json", "w") as of:
                                 json.dump(cm.actions, of)
-                            utils.plot_actions(cm.actions, path=out_dir, show_fig=False)
+                            utils.plot_actions(cm.actions, path=fi_dir, show_fig=False)
                             # print(tps_units.mem)
                             # utils.plot_gra(tps_units.mem)
                             print("plotting tps units...")
-                            with open(out_dir + "tps_units.json", "w") as of:
+                            with open(fi_dir + "tps_units.json", "w") as of:
                                 json.dump(cm.tps_units.mem, of)
-                            utils.plot_gra_from_normalized(cm.tps_units, filename=out_dir + "tps_units", render=True)
+                            utils.plot_gra_from_normalized(cm.tps_units, filename=fi_dir + "tps_units", render=True)
                             print("plotting tps all...")
-                            with open(out_dir + "tps.json", "w") as of:
+                            with open(fi_dir + "tps.json", "w") as of:
                                 json.dump(cm.tps_1.mem, of)
-                            utils.plot_gra_from_normalized(cm.tps_1, filename=out_dir + "tps_symbols", render=True)
+                            utils.plot_gra_from_normalized(cm.tps_1, filename=fi_dir + "tps_symbols", render=True)
                             print("plotting memory...")
                             # plot memory chunks
                             om = dict(
                                 sorted([(x, y) for x, y in cm.pars.mem.items()], key=lambda it: it[1], reverse=True))
-                            utils.plot_mem(om, out_dir + "words_plot.png", save_fig=True, show_fig=False)
+                            utils.plot_mem(om, fi_dir + "words_plot.png", save_fig=True, show_fig=False)
 
                             graph = TPsGraph(cm.tps_units)
                             # graph.form_classes()
                             # graph.draw_graph(out_dir + "nxGraph.dot")
                             cl_form = graph.cf_by_sim_rank()
                             print("class form: ", cl_form)
-                            with open(out_dir + "classes.json", "w") as of:
+                            with open(fi_dir + "classes.json", "w") as of:
                                 json.dump(list(cl_form), of)
                             # graph.get_communities()

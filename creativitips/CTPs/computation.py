@@ -1,10 +1,11 @@
-import utils
-from graphs import TPsGraph
-from tps import TPS
-from pparser import Parser
+from creativitips import utils
+from creativitips.CTPs.graphs import TPsGraph
+from creativitips.CTPs.tps import TPS
+from creativitips.CTPs.pparser import Parser
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.decomposition import TruncatedSVD
+from sklearn.utils.extmath import randomized_svd
 
 
 class Computation:
@@ -45,7 +46,7 @@ class Computation:
         tpc = self.tps_1.get_certain_units()
         # tpc2 = self.tps_2.get_certain_units()
         # tpc3 = self.tps_3.get_certain_units()
-        print("tpc1: ", tpc)
+        # print("tpc1: ", tpc)
         # print("tpc2: ", tpc2)
         # print("tpc3: ", tpc3)
         # next nodes from last unit
@@ -55,7 +56,7 @@ class Computation:
         # interference could be applied for those units activated but not used (reinforced)!
         # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
         units, action = utils.read_percept(self.rng, active_mem, s, old_seq=self.old_p,
-                                           tps=self.tps_1, method=self.method, ulens=self.pars.ulens)
+                                          tps=self.tps_1, method=self.method, ulens=self.pars.ulens)
         self.actions.extend(action)
         p = " ".join(units)
 
@@ -68,9 +69,9 @@ class Computation:
         # self.encode_patterns(self.old_p_units + units)
 
         # forgetting and interference
-        self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf)
-        self.tps_units.interfere(self.old_p_units + units, interf=0.0015)
-        self.tps_units.forget(self.old_p_units + units, forget=0.015, cleaning=True)
+        # self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf)
+        # self.tps_units.interfere(self.old_p_units + units, interf=0.0015)
+        # self.tps_units.forget(self.old_p_units + units, forget=0.015, cleaning=True)
 
         # generalization step
         # self.graph.encode(units)

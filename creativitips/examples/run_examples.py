@@ -1,7 +1,7 @@
 # samples taken from:
 # https://nbviewer.org/github/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/blob/master/Chapter1_Introduction/Ch1_Introduction_PyMC3.ipynb
 
-from examples import bayes, poisson, exponential
+from creativitips.examples import bayes, poisson
 
 
 def run():

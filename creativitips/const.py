@@ -6,5 +6,5 @@ FORGETTING = 0.05
 MEM_THRES = 1.0
 ULENS = [2, 3]
 TPS_ORDER = 1
-OUT_DIR = "./data/out/"
+OUT_DIR = "data/out/"
 EXAMPLES_OUT_DIR = "./out/"

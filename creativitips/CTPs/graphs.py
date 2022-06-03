@@ -1,10 +1,8 @@
-import json
-
+import os
+from graphviz import Digraph
 from matplotlib import pyplot as plt
-from sklearn.utils.extmath import randomized_svd
 import networkx as nx
 from networkx.algorithms import community
-import utils
 
 
 class TPsGraph:
@@ -83,7 +81,7 @@ class TPsGraph:
                 self.GG.nodes[pta[i]]["words"] = "/".join(["".join(x.split(" ")) for x in inverse_d[pta[i]]])
                 self.GG.nodes[pta[i+1]]["label"] = "P" + str(pta[i+1])
                 self.GG.nodes[pta[i+1]]["words"] = "/".join(["".join(x.split(" ")) for x in inverse_d[pta[i+1]]])
-        utils.plot_gra_from_nx(self.GG, filename=dir_name + "ggraph" + str(indx), render=True)
+        plot_gra_from_nx(self.GG, filename=dir_name + "ggraph" + str(indx), render=True)
 
     def get_class_from_node(self, node_name):
         for cl,l in self.fc.items():
@@ -114,3 +112,19 @@ class TPsGraph:
         # print("common_neighbors (kof,mer): ",list(nx.common_neighbors(self.G.to_undirected(),"kof","mer")))
         # print("flow_hierarchy: ",nx.flow_hierarchy(self.G))
         # print("max clique: ", list(nx.algorithms.approximation.clique.max_clique(self.G.to_undirected())))
+
+
+def plot_gra_from_nx(graph, filename="", render=False):
+    gra = Digraph()  # comment='Normalized TPS'
+
+    for li in graph.nodes():
+        gra.node(str(li), label="{} ({})".format(graph.nodes[li]["label"], graph.nodes[li]["words"]))
+    for x,y in graph.edges():
+        gra.edge(str(x), str(y))
+    # print(gra.source)
+    if render:
+        gra.render(filename, view=False, engine="dot", format="pdf")
+        os.rename(filename, filename + '.dot')
+    else:
+        gra.save(filename + '.dot')
+    return gra

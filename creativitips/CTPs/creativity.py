@@ -1,7 +1,7 @@
 """Module for creativity classes and functions"""
 
 import more_itertools as mit
-import utils
+from creativitips import misc
 from difflib import SequenceMatcher
 
 
@@ -24,7 +24,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
 
     for _ in range(n_seq):
         seq = []
-        _s = init_keys[utils.mc_choice(rand_gen, init_values)]  # choose rnd starting point (monte carlo)
+        _s = init_keys[misc.mc_choice(rand_gen, init_values)]  # choose rnd starting point (monte carlo)
         seq.append(_s)
         for _ in range(min_len):
             # succs = list(kg0.edges(_s, data=True))
@@ -35,7 +35,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
                 succs.append(y)
                 succs_values.append(float(v["p"]))
             if succs:
-                _s = succs[utils.mc_choice(rand_gen, succs_values)]
+                _s = succs[misc.mc_choice(rand_gen, succs_values)]
                 if _s != "END":
                     seq.append(_s)
         res.append(seq)

@@ -1,6 +1,6 @@
 # (from https://www.sciencedirect.com/science/article/pii/S089662731500776X)
 
-from graphs import TPsGraph
+from creativitips.CTPs.graphs import TPsGraph
 from pparser import Parser
 from tps import TPS
 

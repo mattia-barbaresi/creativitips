@@ -3,9 +3,7 @@ from collections import Counter
 from sklearn import preprocessing
 import numpy as np
 from hmmlearn import hmm
-import complexity as cx
-import const
-import utils
+from creativitips import misc, complexity as cx, const
 from scipy.special import softmax
 
 # ------------------------------ INIT ------------------------------
@@ -24,7 +22,7 @@ le_multi = preprocessing.LabelEncoder()
 # le.fit(list(string.ascii_lowercase))
 
 # load bicinia
-sequences_1, sequences_2, lens_1, lens_2 = utils.load_bicinia("../data/bicinia/")
+sequences_1, sequences_2, lens_1, lens_2 = misc.load_bicinia("../data/bicinia/")
 le1.fit(sequences_1)
 le2.fit(sequences_2)
 sequences_multi = ["-".join(x) for x in zip(sequences_1, sequences_2)]
@@ -34,8 +32,8 @@ le_multi.fit(sequences_multi)
 print(Counter(e for e in sequences_multi))
 print("le1: ", le1.classes_)
 print("le2: ", le2.classes_)
-hebb_mtx = utils.mtx_from_multi(le1.transform(sequences_1), le2.transform(sequences_2),
-                                nd1=len(le1.classes_), nd2=len(le2.classes_))
+hebb_mtx = misc.mtx_from_multi(le1.transform(sequences_1), le2.transform(sequences_2),
+                               nd1=len(le1.classes_), nd2=len(le2.classes_))
 # utils.plot_matrix(hebb_mtx, x_labels=le.classes_, y_labels=le2.classes_,save=False, title="Hebb matrix", clim=False)
 # sm_hebb = utils.softmax(hebb_mtx, axis=1)
 sm_hebb = softmax(hebb_mtx, axis=1)
@@ -96,18 +94,18 @@ print(np.round(model_multi.transmat_, decimals=2), "\n")
 # utils.plot_matrix(model_multi.transmat_, fileName="", title="model_multi.transmat_")
 print("emission probabilities 1: ")
 print(np.round(model1.emissionprob_, decimals=2), "\n")
-utils.plot_matrix(model1.emissionprob_,x_labels=le1.classes_, fileName="", title="model1.emissionprob_")
+misc.plot_matrix(model1.emissionprob_, x_labels=le1.classes_, fileName="", title="model1.emissionprob_")
 print("emission probabilities 2: ")
 print(np.round(model2.emissionprob_, decimals=2), "\n")
 # use le2 instead of le because this stream has less symbols
 # utils.plot_matrix(model2.emissionprob_,x_labels=le2.classes_, save=False, title="model2.emissionprob_")
 # print("emission probabilities multi: ")
 print(np.round(model_multi.emissionprob_, decimals=2), "\n")
-utils.plot_matrix(model_multi.emissionprob_, x_labels=le_multi.classes_, fileName="", title="mmulti.emissionprob_")
+misc.plot_matrix(model_multi.emissionprob_, x_labels=le_multi.classes_, fileName="", title="mmulti.emissionprob_")
 
 # ------------------------------ out ------------------------------
 # save models
-dir_name = const.EXAMPLES_OUT_DIR + "out_hmms_{}_{}_{}".format(n_state_1,n_state_2,n_state_multi)
+dir_name = const.EXAMPLES_OUT_DIR + "out_hmms_{}_{}_{}".format(n_state_1, n_state_2, n_state_multi)
 data = {
     "m1_state_transitions": model1.transmat_,
     "m1_emission_probabilities": model1.emissionprob_,
@@ -148,7 +146,7 @@ for x in range(0, 10):
     with open(dir_name+"/hebb{}.txt".format(x), "w") as of:
         # Plot the sampled data
         converted = le1.inverse_transform(X1[:, 0])
-        hebb_seq = utils.hebb_gen(rng, X1[:, 0],sm_hebb)
+        hebb_seq = misc.hebb_gen(rng, X1[:, 0], sm_hebb)
         converted2 = le2.inverse_transform(hebb_seq)
         of.write(" ".join([str(x) for x in converted]))
         of.write("\n\n")

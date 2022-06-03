@@ -1,7 +1,7 @@
 import math
 import numpy as np
 from sklearn import preprocessing
-import utils
+from creativitips import utils
 
 
 class TPS:
