@@ -13,46 +13,46 @@ class Parser:
         self.mem = memory
         self.ulens = ulen
 
-    def get_units(self, pct, thr=1.0):
-        # list of units filtered with thr and then ordered by length
-        mems = sorted([x for x, y in self.mem.items() if y >= thr], key=lambda item: len(item), reverse=True)
-        us = self._get_unit(mems, pct)
-        # orders units
-        us = sorted(us, key=lambda x: pct.find(x))
-        return us
-
-    def _get_unit(self, mem_items, pp):
-        res = []
-        if len(pp) <= 2:
-            res.append(pp)
-        else:
-            for s in mem_items:  # for each piece in mem
-                if s in pp:  # if the piece is in percept
-                    for pc in pp.split(s):
-                        if len(pc) <= 2:
-                            if len(pc) > 0:
-                                res.append(pc)
-                        else:
-                            for u in self._get_unit(mem_items, pc):
-                                res.append(u)
-                    res.append(s)
-                    break
-            # if no units were found
-            # if res = [] -> no chunks for pp
-            # if res = [c] -> either c is pp or c is a sub of pp
-            if len("".join(res)) != len(pp):
-                # create new components (bi-grams)
-                if len(res) == 0:
-                    # splits bi-grams
-                    lst = [pp[_i:_i + 2] for _i in range(0, len(pp), 2)]
-                    res = res + lst
-                else:
-                    for c in re.split("|".join(res), pp):
-                        if c:
-                            # splits bi-grams
-                            lst = [c[_i:_i + 2] for _i in range(0, len(c), 2)]
-                            res = res + lst
-        return res
+    # def get_units(self, pct, thr=1.0):
+    #     # list of units filtered with thr and then ordered by length
+    #     mems = sorted([x for x, y in self.mem.items() if y >= thr], key=lambda item: len(item), reverse=True)
+    #     us = self._get_unit_recursive(mems, pct)
+    #     # orders units
+    #     us = sorted(us, key=lambda x: pct.find(x))
+    #     return us
+    #
+    # def _get_unit_recursive(self, mem_items, pp):
+    #     res = []
+    #     if len(pp) <= 2:
+    #         res.append(pp)
+    #     else:
+    #         for s in mem_items:  # for each piece in mem
+    #             if s in pp:  # if the piece is in percept
+    #                 for pc in pp.split(s):
+    #                     if len(pc) <= 2:
+    #                         if len(pc) > 0:
+    #                             res.append(pc)
+    #                     else:
+    #                         for u in self._get_unit_recursive(mem_items, pc):
+    #                             res.append(u)
+    #                 res.append(s)
+    #                 break
+    #         # if no units were found
+    #         # if res = [] -> no chunks for pp
+    #         # if res = [c] -> either c is pp or c is a sub of pp
+    #         if len("".join(res)) != len(pp):
+    #             # create new components (bi-grams)
+    #             if len(res) == 0:
+    #                 # splits bi-grams
+    #                 lst = [pp[_i:_i + 2] for _i in range(0, len(pp), 2)]
+    #                 res = res + lst
+    #             else:
+    #                 for c in re.split("|".join(res), pp):
+    #                     if c:
+    #                         # splits bi-grams
+    #                         lst = [c[_i:_i + 2] for _i in range(0, len(c), 2)]
+    #                         res = res + lst
+    #     return res
 
     def read_percept(self, rng, sequence):
         """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
