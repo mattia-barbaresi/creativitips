@@ -47,6 +47,7 @@ for file_name in file_names:
                                 utils.params_to_string(method, order, forg, interf, t_mem) \
                                 + file_name + "/tps_units.dot"
 
+                        # ============= GRAPH
                         # create graph from input model
                         G = nx.DiGraph(read_dot(ipath))
                         # with open("data/" + file_name + ".txt", "r") as fp:
