@@ -474,6 +474,29 @@ def plot_actions(actions, path="", show_fig=True):
         plt.show()
 
 
+def plot_tps_sequences(cm, gens, fi_dir=""):
+    fig, axs = plt.subplots(3)
+    axs[0].set_title("ftps")
+    axs[1].set_title("mis")
+    axs[2].axis('off')
+    axs[2].axis("tight")
+    ll = 0
+    for gg in gens:
+        x1 = cm.tps_1.get_ftps_sequence(gg.split(" "))
+        x2 = cm.tps_1.get_mis_sequence(gg.split(" "))
+        axs[0].plot(x1)
+        axs[1].plot(x2)
+        axs[2].set_xlim(axs[0].get_xlim())
+        axs[2].set_ylim([0, 40])
+        for i, x in enumerate(gg.split(" ")[cm.tps_1.order:]):
+            axs[2].text(i, ll, '{}'.format(x))
+            # axs[1].text(i, ll, '{}'.format(x))
+        ll += 2
+    # plt.show()
+    plt.savefig(fi_dir + "tps_plot.png", bbox_inches='tight')
+    plt.close('all')
+
+
 # from transition probabilities, generates (occ) sequences
 def generate(rng, tps, n_seq, occ_per_seq=16):
     res = dict()
