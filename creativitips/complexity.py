@@ -2,7 +2,7 @@
 
 import bz2
 from math import log
-
+from lempel_ziv_complexity import lempel_ziv_complexity
 
 ####################################################################################################################
 def frequency(data):
@@ -326,9 +326,36 @@ def predictive_information(data):
 
     return predictive_information
 
+
 ###################################################################################################################
 # def neural_complexity(traj):
 # """Computes an approximation of the neural complexity considering only the partitions {1,n-1}.
 # Trajectory is a list of strings which will be treated as char sequencences."""
 
 # for x in data:
+
+
+###################################################################################################################
+def calculate_complexities(sequences):
+    ent = 0
+    corr_info = 0
+    lem_ziv = 0
+    ling_comp = 0
+
+    for seq in sequences:
+        ent += entropy(seq)
+        corr_info += correlation_information(seq, 3)
+        lem_ziv += lempel_ziv_complexity("".join(seq))
+        ling_comp += 0
+
+    # returns the averages over all sequences
+    n = len(sequences)
+    return {
+        "mean_entropy": ent/n,
+        "mean_corr_info": corr_info/n,
+        "mean_lem_ziv": lem_ziv/n,
+        "mean_ling_comp": ling_comp/n,
+        "n_seqs": n
+    }
+
+
