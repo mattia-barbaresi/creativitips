@@ -256,8 +256,8 @@ class TPS:
                 # print("pp_seq: ", pp_seq)
                 # print("tps_seqs: ", tps_seqs)
                 ii = 0
-                if tps_seqs[ii] == 1.0:
-                    while ii < len(tps_seqs) and tps_seqs[ii] == 1.0:
+                if tps_seqs[ii] > 0.99:
+                    while ii < len(tps_seqs) and tps_seqs[ii] > 0.99:
                         ii += 1
                     print("tps unit: ", percept[:(self.order - len(past)) + ii])
                     return percept[:(self.order - len(past)) + ii]
