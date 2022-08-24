@@ -15,7 +15,7 @@ class Computation:
                  mem_thres=1.0, unit_len=None, method="BRENT"):
 
         if not unit_len:
-            unit_len = [2,3]
+            unit_len = [2, 3]
         self.rng = rng
         self.pars = Parser(unit_len)
         self.method = method
@@ -56,7 +56,7 @@ class Computation:
         # interference could be applied for those units activated but not used (reinforced)!
         # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
         units, action = utils.read_percept(self.rng, active_mem, s, old_seq=self.old_p,
-                                          tps=self.tps_1, method=self.method, ulens=self.pars.ulens)
+                                           tps=self.tps_1, method=self.method, ulens=self.pars.ulens)
         self.actions.extend(action)
         p = " ".join(units)
 
@@ -87,7 +87,7 @@ class Computation:
         self.tps_units.encode(self.old_p_units + ["END"])
         return ["END"]
 
-    def generalize(self,out_dir):
+    def generalize(self, out_dir):
         # self.tps_units.normalize()
         self.graph = TPsGraph(self.tps_units)
         self.graph.generalize(dir_name=out_dir)
@@ -102,30 +102,30 @@ class Embedding:
         self.mtx = mtx
         self.squared = None
 
-    def compute(self,lex):
+    def compute(self, lex):
         # re-norm (Hellinger) distance
         self.squared = np.sqrt(self.mtx)
         # singular value decomposition
         svd = TruncatedSVD(n_components=3, random_state=0)
         self.trans = svd.fit_transform(self.squared)
-        self.plot3D(self.trans,lex)
+        self.plot3D(self.trans, lex)
         # u, s, vt = randomized_svd(self.squared, n_components=3, random_state=0)
         # self.plot3D(u,lex)
         # self.u, self.s, self.vh = np.linalg.svd(self.squared, full_matrices=True)
 
     @staticmethod
-    def plot3D(mtx,le):
+    def plot3D(mtx, le):
         fig = plt.figure(figsize=(10, 10))
         fig.subplots_adjust(top=1.1, bottom=-.1)
         ax = fig.add_subplot(111, projection='3d')
 
-        x,y,z = mtx.T
+        x, y, z = mtx.T
         for _ in range(len(z)):
             ax.scatter(x[_], y[_], z[_], cmap='viridis', linewidth=0.5)
             xr = np.random.uniform(0, 0.01) * -np.random.randint(0, 2)
             yr = np.random.uniform(0, 0.01) * -np.random.randint(0, 2)
             zr = np.random.uniform(0, 0.01) * -np.random.randint(0, 2)
-            ax.text(x[_]+xr, y[_]+yr, z[_]+zr, le.inverse_transform([_])[0])
+            ax.text(x[_] + xr, y[_] + yr, z[_] + zr, le.inverse_transform([_])[0])
         plt.show()
 
     @staticmethod
@@ -135,9 +135,9 @@ class Embedding:
 
         x, y = mtx.T
         for _ in range(len(x)):
-            ax.scatter(x[_], y[_],cmap='viridis', linewidth=0.5)
-            xr = np.random.uniform(0, 0.01)*-np.random.randint(0,2)
-            yr = np.random.uniform(0, 0.01)*-np.random.randint(0,2)
-            ax.text(x[_]+xr, y[_]+yr, le.inverse_transform([_])[0])
+            ax.scatter(x[_], y[_], cmap='viridis', linewidth=0.5)
+            xr = np.random.uniform(0, 0.01) * -np.random.randint(0, 2)
+            yr = np.random.uniform(0, 0.01) * -np.random.randint(0, 2)
+            ax.text(x[_] + xr, y[_] + yr, le.inverse_transform([_])[0])
             print(le.inverse_transform([_])[0])
         plt.show()
