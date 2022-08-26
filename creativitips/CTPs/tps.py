@@ -185,7 +185,7 @@ class TPS:
     def get_next_unit(self, percept, past=None):
         # if order = 1 no past required
         if self.order > 1 and past:
-            past = past[-(self.order-1):]
+            past = past[-self.order:]
         else:
             past = []
         pp_seq = past + percept
@@ -194,11 +194,16 @@ class TPS:
                 tps_seqs = self.get_ftps_sequence(pp_seq)
                 # print("percept: ", percept)
                 # print("tps_seqs: ", tps_seqs)
-                # tps_seqs += [float('-inf'),float('+inf')]
                 for ii in range(len(tps_seqs)-1):
-                    if tps_seqs[ii] < tps_seqs[ii + 1]:  # insert a break
-                        # print("tps unit: ", percept[:(self.order - len(past)) + ii])
-                        return percept[:(self.order - len(past)) + ii]
+                    # break on a peak
+                    # if tps_seqs[ii] < (tps_seqs[ii + 1] + 0.2):  # insert a break
+                    #     print("tps unit: ", percept[:(self.order - len(past)) + ii])
+                    #     return percept[:(self.order - len(past)) + ii]
+                    # or break on a deap
+                    if tps_seqs[ii] > (tps_seqs[ii + 1] + 0.2):  # insert a break
+                        print("tps unit: ", percept[:(self.order - len(past)) + ii + 1])
+                        return percept[:(self.order - len(past)) + ii + 1]
+
             else:
                 print("(TPmodule):Order grater than percept length. Percept is too short.")
         else:

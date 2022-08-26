@@ -70,8 +70,8 @@ class Computation:
 
         # forgetting and interference
         self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf)
+        self.tps_units.forget(self.old_p_units + units, forget=self.fogs, cleaning=True)
         # self.tps_units.interfere(self.old_p_units + units, interf=0.0015)
-        # self.tps_units.forget(self.old_p_units + units, forget=0.015, cleaning=True)
 
         # generalization step
         # self.graph.encode(units)

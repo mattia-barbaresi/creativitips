@@ -38,16 +38,14 @@ class TPsGraph:
         plt.savefig(filename + ".pdf")
         # plt.show()
 
-    def cf_by_sim_rank(self, tsh=0.3):
+    def cf_by_sim_rank(self, tsh=0.5):
         # sim class using ingoing
         if "START" not in self.G.nodes():
             print("No START node")
             return set()
-        subl = set([itm for path in nx.all_simple_paths(self.G, source="START", target="END") for itm in path])
-        sub_g = nx.DiGraph(nx.subgraph_view(self.G, filter_node=lambda n: n in subl).copy())
-        inw = nx.algorithms.similarity.simrank_similarity(sub_g)
+        inw = nx.algorithms.similarity.simrank_similarity(self.G)
         # sim class using outgoing
-        otw = nx.algorithms.similarity.simrank_similarity(sub_g.reverse())
+        otw = nx.algorithms.similarity.simrank_similarity(self.G.reverse())
         cl_form = set()
         for k, v in inw.items():
             tt1 = set(k2 for k2, v2 in v.items() if v2 > tsh)
@@ -59,6 +57,7 @@ class TPsGraph:
         return sorted(cl_form)
 
     def generalize(self, dir_name, indx=""):
+
         inverse_d = dict()
         for i, x in enumerate(self.cf_by_sim_rank()):
             self.fc[x] = i
