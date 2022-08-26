@@ -225,11 +225,11 @@ def generate_Saffran_sequence_segmented(rng):
     return res
 
 
-def generate_Saffran_sequence(rng):
+def generate_Saffran_sequence_single_array(rng):
     words = ["babupu", "bupada", "dutaba", "patubi", "pidabu", "tutibu"]
     prev = ""
     res = []
-    for x in range(910):  # 910: strict criterion, 449: looser criterion
+    for _ in range(910):  # 910: strict criterion, 449: looser criterion
         ww = rng.choice(words)
         # no repeated words in succession
         while ww == prev:
@@ -238,6 +238,22 @@ def generate_Saffran_sequence(rng):
         res += list(ww)
     return [res]
 
+
+def generate_Saffran_sequence(rng):
+    words = ["babupu", "bupada", "dutaba", "patubi", "pidabu", "tutibu"]
+    prev = ""
+    res = []
+    for _ in range(91):  # 910: strict criterion, 449: looser criterion
+        seq = []
+        for _ in range(10):  # 910: strict criterion, 449: looser criterion
+            ww = rng.choice(words)
+            # no repeated words in succession
+            while ww == prev:
+                ww = rng.choice(words)
+            prev = ww
+            seq += list(ww)
+        res.append(seq)
+    return res
 
 def generate_Saffran_sequence_exp2(rng):
     words = ["pabiku", "tibudo", "golatu", "daropi"]
@@ -288,6 +304,7 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
     s = sequence
     actions = []
     while len(s) > 0 and i != 0:
+        action = ""
         unit = []
         # units_list = [(k,v) for k,v in mem.items() if s.startswith(k)]
         units_list = [k for k in mem.keys() if " ".join(s).startswith(k)]
@@ -310,13 +327,13 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
             action = "mem"
         elif tps:
             if method == "BRENT":
-                unit = tps.get_next_unit_brent(s[:6], past=old_seq)
+                unit = tps.get_next_unit_brent(s[:7], past=old_seq)
             elif method == "CT":
-                unit = tps.get_next_certain_unit(s[:6], past=old_seq)
+                unit = tps.get_next_certain_unit(s[:7], past=old_seq)
             elif method == "MI":
-                unit = tps.get_next_unit_mi(s[:6], past=old_seq)
+                unit = tps.get_next_unit_mi(s[:7], past=old_seq)
             else:  # if TPS
-                unit = tps.get_next_unit(s[:6], past=old_seq)
+                unit = tps.get_next_unit(s[:7], past=old_seq)
             action = "tps"
 
         # if no unit found, pick at random length
