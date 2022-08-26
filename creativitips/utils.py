@@ -44,38 +44,27 @@ def hebb_gen(rng, sequence, hm):
     return out
 
 
-def plot_matrix(data, x_labels=None, y_labels=None, fileName="", title="transition matrix", clim=True):
-    """Plot"""
-    nr, nc = data.shape
-    plt.imshow(data, cmap="plasma")
-    if clim:
-        plt.clim(0, 1.0)
-    ax = plt.gca()
-    # Major ticks
-    ax.set_xticks(np.arange(0, nc, 1))
-    ax.set_yticks(np.arange(0, nr, 1))
-    # Labels for major ticks
-    if y_labels is not None:
-        ax.set_yticklabels(y_labels)
-    if x_labels is not None:
-        ax.set_xticklabels(x_labels)
-    # Minor ticks
-    ax.set_xticks(np.arange(-.5, nc, 1), minor=True)
-    ax.set_yticks(np.arange(-.5, nr, 1), minor=True)
-    # Gridlines based on minor ticks
-    ax.grid(which='minor', color='w', linestyle='-', linewidth=0.5)
-    plt.colorbar()
-    plt.xticks(fontsize=6)
-    plt.gcf().autofmt_xdate()
-    # plt.yticks(fontsize=10)
-    ax.set_title(title)
-    if fileName:
-        plt.savefig("fileName.png", bbox_inches='tight')
-        plt.close()
-    else:
-        plt.tight_layout()
-        plt.show()
+def mtx_from_multi(seq1, seq2, nd1, nd2):
+    mtx = np.zeros((nd1, nd2))
+    for s1, s2 in zip(seq1, seq2):
+        mtx[s1][s2] += 1
+    return mtx
 
+
+def show_counts(hebb_mtx):
+    plt.matshow(hebb_mtx, cmap="plasma")
+    plt.title('hebb_mtx')
+    plt.tight_layout()
+    plt.show()
+
+
+def softmax(x):
+    rsum = np.sum(x, axis=1, keepdims=True)  # returns sum of each row and keeps same dims
+    f_x = x / rsum
+    return f_x
+
+
+############################################################## INPUTs
 
 def read_input(fn, separator=""):
     sequences = []
@@ -208,32 +197,12 @@ def read_sequences(rng, fn):
     elif fn == "miller":
         seqs = generate_miller(rng)
     elif fn == "isaac" or fn == "hello" or fn == "mediapipe":
-        seqs = read_words("data/"+fn+".txt")
+        seqs = read_words("data/" + fn + ".txt")
     else:
         with open("data/{}.txt".format(fn), "r") as fp:
             # split lines char by char
             seqs = [list(line.strip()) for line in fp]
     return seqs
-
-
-def mtx_from_multi(seq1, seq2, nd1, nd2):
-    mtx = np.zeros((nd1, nd2))
-    for s1, s2 in zip(seq1, seq2):
-        mtx[s1][s2] += 1
-    return mtx
-
-
-def show_counts(hebb_mtx):
-    plt.matshow(hebb_mtx, cmap="plasma")
-    plt.title('hebb_mtx')
-    plt.tight_layout()
-    plt.show()
-
-
-def softmax(x):
-    rsum = np.sum(x, axis=1, keepdims=True)  # returns sum of each row and keeps same dims
-    f_x = x / rsum
-    return f_x
 
 
 def generate_Saffran_sequence_segmented(rng):
@@ -319,12 +288,12 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
     s = sequence
     actions = []
     while len(s) > 0 and i != 0:
+        unit = []
         # units_list = [(k,v) for k,v in mem.items() if s.startswith(k)]
         units_list = [k for k in mem.keys() if " ".join(s).startswith(k)]
         h_list = []
         # if higher_list:
         #     h_list = [k for k in higher_list if " ".join(s).startswith(k)]
-        unit = []
         # action = ""
         # if len(s) <= max(ulens):
         #     unit = s
@@ -337,7 +306,7 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
         elif units_list:
             # a unit in mem matched
             unit = (sorted(units_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
-            # print("mem unit:", unit)
+            print("mem unit:", unit)
             action = "mem"
         elif tps:
             if method == "BRENT":
@@ -346,7 +315,7 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
                 unit = tps.get_next_certain_unit(s[:6], past=old_seq)
             elif method == "MI":
                 unit = tps.get_next_unit_mi(s[:6], past=old_seq)
-            else:
+            else:  # if TPS
                 unit = tps.get_next_unit(s[:6], past=old_seq)
             action = "tps"
 
@@ -362,6 +331,7 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
         sf = s[len(unit):]
         if len(sf) == 1:
             unit += sf
+            print("added last:", unit)
         res.append(" ".join(unit))
         actions.append(action)
         # print("final unit:", unit)
@@ -395,7 +365,42 @@ class Encoder:
         return self.base_dict[sym]
 
 
-def plot_gra(d, filename="tps", ):
+############################################################## PLOT
+
+def plot_matrix(data, x_labels=None, y_labels=None, fileName="", title="transition matrix", clim=True):
+    """Plot"""
+    nr, nc = data.shape
+    plt.imshow(data, cmap="plasma")
+    if clim:
+        plt.clim(0, 1.0)
+    ax = plt.gca()
+    # Major ticks
+    ax.set_xticks(np.arange(0, nc, 1))
+    ax.set_yticks(np.arange(0, nr, 1))
+    # Labels for major ticks
+    if y_labels is not None:
+        ax.set_yticklabels(y_labels)
+    if x_labels is not None:
+        ax.set_xticklabels(x_labels)
+    # Minor ticks
+    ax.set_xticks(np.arange(-.5, nc, 1), minor=True)
+    ax.set_yticks(np.arange(-.5, nr, 1), minor=True)
+    # Gridlines based on minor ticks
+    ax.grid(which='minor', color='w', linestyle='-', linewidth=0.5)
+    plt.colorbar()
+    plt.xticks(fontsize=6)
+    plt.gcf().autofmt_xdate()
+    # plt.yticks(fontsize=10)
+    ax.set_title(title)
+    if fileName:
+        plt.savefig("fileName.png", bbox_inches='tight')
+        plt.close()
+    else:
+        plt.tight_layout()
+        plt.show()
+
+
+def plot_gra(d, filename="tps"):
     gra = Digraph(comment='TPs')
     added = set()
     for k, v in d.items():
@@ -418,7 +423,7 @@ def plot_nx_creativity(G, filename="tps", ):
     for k, v, d in G.edges(data=True):
         # gra.edge(k, v, label="{:.2f}-{:.2f}-{:.2f}".format(float(d["p"]),float(d["u"]),float(d["v"])))
         c = (1 - float(d["p"])) * float(d["u"]) * (0.67 - float(d["v"]))
-        gra.edge(k, v, label="{:.2f} ({:.2f},{:.2f},{:.2f})".format(c,float(d["p"]),float(d["u"]),float(d["v"])))
+        gra.edge(k, v, label="{:.2f} ({:.2f},{:.2f},{:.2f})".format(c, float(d["p"]), float(d["u"]), float(d["v"])))
     print(gra.source)
     gra.render(filename, view=True)
 
@@ -439,7 +444,7 @@ def plot_gra_from_normalized(tps, filename="", render=False, thresh=0.0):
                 if p == 1.0:
                     gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="0", v="0", penwidth=str(3), color="red")
                 else:
-                    gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="0", v="0", penwidth=str(3*p))
+                    gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="0", v="0", penwidth=str(3 * p))
     # print(gra.source)
     if render:
         gra.render(filename, view=False, engine="dot", format="pdf")
@@ -475,7 +480,7 @@ def plot_actions(actions, path="", show_fig=True):
 
 
 def plot_tps_sequences(cm, gens, fi_dir=""):
-    fig, axs = plt.subplots(3)
+    fig, axs = plt.subplots(3,1,figsize=(16,9), gridspec_kw={'height_ratios': [1, 1, 2]})
     axs[0].set_title("ftps")
     axs[1].set_title("mis")
     axs[2].axis('off')
@@ -496,6 +501,8 @@ def plot_tps_sequences(cm, gens, fi_dir=""):
     plt.savefig(fi_dir + "tps_plot.png", bbox_inches='tight')
     plt.close('all')
 
+
+############################################################## GENERATION
 
 # from transition probabilities, generates (occ) sequences
 def generate(rng, tps, n_seq, occ_per_seq=16):
@@ -564,3 +571,10 @@ def multi_generation_ass(rng, cm, mim):
         res += " " + gg + "-" + t
 
     return res
+
+
+def generate_seqs(rng, model, res):
+    model.tps_units.normalize()
+    res["generated"] = model.tps_units.generate_new_seqs(rng, min_len=100)
+    im = dict(sorted([(x, y) for x, y in model.pars.mem.items()], key=lambda it: it[1], reverse=True))
+    res["mem"] = im

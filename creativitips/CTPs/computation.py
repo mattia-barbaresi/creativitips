@@ -69,7 +69,7 @@ class Computation:
         # self.encode_patterns(self.old_p_units + units)
 
         # forgetting and interference
-        # self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf)
+        self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf)
         # self.tps_units.interfere(self.old_p_units + units, interf=0.0015)
         # self.tps_units.forget(self.old_p_units + units, forget=0.015, cleaning=True)
 
