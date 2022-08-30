@@ -118,8 +118,7 @@ def thompson_newport2007():
                     for e in E:
                         for f in F:
                             res.append(a + b + c + d + e + f)
-    for a in A:
-        for b in B:
+
             for e in E:
                 for f in F:
                     res.append(a + b + e + f)
