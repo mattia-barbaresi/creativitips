@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 
 import bz2
+import json
+import os
 from math import log
 from lempel_ziv_complexity import lempel_ziv_complexity
+
 
 ####################################################################################################################
 def frequency(data):
@@ -351,11 +354,27 @@ def calculate_complexities(sequences):
     # returns the averages over all sequences
     n = len(sequences)
     return {
-        "mean_entropy": ent/n,
-        "mean_corr_info": corr_info/n,
-        "mean_lem_ziv": lem_ziv/n,
-        "mean_ling_comp": ling_comp/n,
+        "mean_entropy": ent / n,
+        "mean_corr_info": corr_info / n,
+        "mean_lem_ziv": lem_ziv / n,
+        "mean_ling_comp": ling_comp / n,
         "n_seqs": n
     }
 
 
+if __name__ == "__main__":
+
+    res = {}
+    for file in os.listdir("data"):
+        if file.endswith(".txt"):
+            with open("data/" + file, "r") as fp:
+                data = []
+                for line in fp:
+                    if " " in line.strip():
+                        data.append(line.strip().split())
+                    else:
+                        data.append(list(line.strip()))
+                res[file] = calculate_complexities(data)
+
+    with open("complexity_results.json", "w") as of:
+        json.dump(res, of)
