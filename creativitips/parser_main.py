@@ -33,7 +33,8 @@ if __name__ == "__main__":
         for s in sequences:
             while len(s) > 0:
                 # read percept as an array of units
-                units = utils.read_percept(rng, dict((k, v) for k, v in pars.mem.items() if v >= threshold), s)[0]
+                # units = utils.read_percept(rng, dict((k, v) for k, v in pars.mem.items() if v >= threshold), s)[0]
+                units = pars.read_percept(rng, s)
                 p = " ".join(units)
                 print("units: ", units, " -> ", p)
                 pars.encode(p, units, weight=w)
