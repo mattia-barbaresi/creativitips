@@ -4,6 +4,9 @@ import bz2
 import json
 import os
 from math import log
+
+import pandas as pd
+from pandasgui import show
 from lempel_ziv_complexity import lempel_ziv_complexity
 
 
@@ -378,3 +381,10 @@ if __name__ == "__main__":
 
     with open("complexity_results.json", "w") as of:
         json.dump(res, of)
+
+    # Reading JSON
+    df = pd.read_json('complexity_results.json')
+    show(df.T)
+
+
+
