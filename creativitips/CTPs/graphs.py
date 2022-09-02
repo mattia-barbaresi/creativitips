@@ -40,9 +40,6 @@ class TPsGraph:
 
     def cf_by_sim_rank(self, tsh=0.5):
         # sim class using ingoing
-        if "START" not in self.G.nodes():
-            print("No START node")
-            return set()
         inw = nx.algorithms.similarity.simrank_similarity(self.G)
         # sim class using outgoing
         otw = nx.algorithms.similarity.simrank_similarity(self.G.reverse())
@@ -56,31 +53,41 @@ class TPsGraph:
                 cl_form.add(tt)
         return sorted(cl_form)
 
-    def generalize(self, dir_name, indx=""):
-
+    def generalize(self, dir_name, gens):
         inverse_d = dict()
         for i, x in enumerate(self.cf_by_sim_rank()):
             self.fc[x] = i
             inverse_d[i] = x
-        paths_to_add = []
-        if "START" in self.G.nodes():
-            for path in nx.all_simple_paths(self.G, source="START", target="END", cutoff=50):
-                # collect converted labels
-                paths_to_add.append([self.get_class_from_node(nd) for nd in path])
-        else:
-            print("node START not found in graph G")
-
-        for pta in paths_to_add:
+        # paths_to_add = []
+        paths_to_add2 = []
+        # if "START" in self.G.nodes():
+        #     for path in nx.all_simple_paths(self.G, source="START", target="END"):
+        #         # collect converted labels
+        #         paths_to_add.append([self.get_class_from_node(nd) for nd in path])
+        # else:
+        #     print("node START not found in graph G")
+        for path in gens:
+            paths_to_add2.append([self.get_class_from_node(nd) for nd in path])
+        for pta in paths_to_add2:
             for i in range(len(pta) - 1):
                 if self.GG.has_edge(pta[i],pta[i+1]):
                     self.GG.edges[pta[i],pta[i+1]]["weight"] += 1
                 else:
-                    self.GG.add_edge(pta[i],pta[i+1],weight=1)
+                    self.GG.add_edge(pta[i],pta[i+1], weight=1)
                 self.GG.nodes[pta[i]]["label"] = "P" + str(pta[i])
                 self.GG.nodes[pta[i]]["words"] = "/".join(["".join(x.split(" ")) for x in inverse_d[pta[i]]])
                 self.GG.nodes[pta[i+1]]["label"] = "P" + str(pta[i+1])
                 self.GG.nodes[pta[i+1]]["words"] = "/".join(["".join(x.split(" ")) for x in inverse_d[pta[i+1]]])
-        plot_gra_from_nx(self.GG, filename=dir_name + "ggraph" + str(indx), render=True)
+        plot_gra_from_nx(self.GG, filename=dir_name + "ggraph", render=True)
+
+    def generate_sequences(self, rand_gen, n_seq=20):
+        res = []
+        init_keys = []
+        init_values = []
+        if "START" == self.GG.nodes[1]["words"]:
+            for succ in self.GG.successors(1):
+                print(succ)
+        return res
 
     def get_class_from_node(self, node_name):
         for cl,l in self.fc.items():
@@ -118,8 +125,8 @@ def plot_gra_from_nx(graph, filename="", render=False):
 
     for li in graph.nodes():
         gra.node(str(li), label="{} ({})".format(graph.nodes[li]["label"], graph.nodes[li]["words"]))
-    for x,y in graph.edges():
-        gra.edge(str(x), str(y))
+    for x,y,attr in graph.edges(data=True):
+        gra.edge(str(x), str(y), weight=str(attr["weight"]))
     # print(gra.source)
     if render:
         gra.render(filename, view=False, engine="dot", format="pdf")

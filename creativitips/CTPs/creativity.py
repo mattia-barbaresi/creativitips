@@ -47,7 +47,6 @@ def evaluate(seqs):
     vals = []
     for seq in seqs:
         sseq = "".join([_.replace(" ", "") for _ in seq])
-        # vals.append((seq, float(input("sequence:" + " ".join(seq) + ". Please judge:"))))
         val = 0
         if "ddcA" in sseq:
             val += 1
@@ -63,6 +62,13 @@ def evaluate(seqs):
 
         vals.append((seq,val))
 
+    return vals
+
+
+def evaluate_online(seqs):
+    vals = []
+    for seq in seqs:
+        vals.append((seq, float(input("sequence:" + " ".join(seq) + ". Please judge:"))))
     return vals
 
 

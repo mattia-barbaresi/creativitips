@@ -12,59 +12,58 @@ from creativitips.CTPs.graphs import TPsGraph
 
 
 # NOTES: more iterations over the same input enhance resulting model!
-
-def elaborate(file_in="", dir_out=""):
-    print("processing {} series ...".format(file_in))
-    # init
-    res = dict()
-    rnd_gen = np.random.default_rng(const.RND_SEED)
-    rout = dir_out + "/tps_results/"
-    os.makedirs(rout, exist_ok=True)
-    with open(file_in, "r") as fp:
-        seqs = [list(line.strip().split(" ")) for line in fp]
-    cm_m = Computation(rnd_gen)
-
-    for iter, s in enumerate(seqs):
-        fis = True
-        while len(s) > 0:
-            # compute next percept
-            p, units = cm_m.compute(s, first_in_seq=fis)
-            fis = False
-            # update s
-            s = s[len(p.strip().split(" ")):]
-        cm_m.compute_last()
-
-    cm_m.tps_units.normalize()
-    res[iteration] = dict()
-    res[iteration]["generated"] = cm_m.tps_units.generate_new_seqs(rng)
-    im = dict(sorted([(x, y) for x, y in cm_m.pars.mem.items()],
-                     key=lambda it: it[1], reverse=True))
-    res[iteration]["mem"] = im
-
-    res["processing time"] = str((datetime.now() - start_time).total_seconds())
-    # calculate states uncertainty
-    cm_m.tps_1.compute_states_entropy()
-    cm_m.tps_units.compute_states_entropy()
-    # generalization
-    cm_m.generalize(rout)
-    # save result
-    with open(rout + "res.json", "w") as of:
-        json.dump(res, of)
-    # save generated
-    with open(rout + "generated.json", "w") as of:
-        json.dump(gens, of)
-
+# def elaborate(file_in="", dir_out=""):
+#     print("processing {} series ...".format(file_in))
+#     # init
+#     res = dict()
+#     rnd_gen = np.random.default_rng(const.RND_SEED)
+#     rout = dir_out + "/tps_results/"
+#     os.makedirs(rout, exist_ok=True)
+#     with open(file_in, "r") as fp:
+#         seqs = [list(line.strip().split(" ")) for line in fp]
+#     cm_m = Computation(rnd_gen)
+#
+#     for iter, s in enumerate(seqs):
+#         fis = True
+#         while len(s) > 0:
+#             # compute next percept
+#             p, units = cm_m.compute(s, first_in_seq=fis)
+#             fis = False
+#             # update s
+#             s = s[len(p.strip().split(" ")):]
+#         cm_m.compute_last()
+#
+#     cm_m.tps_units.normalize()
+#     res[iter] = dict()
+#     res[iter]["generated"] = cm_m.tps_units.generate_new_seqs(rng)
+#     im = dict(sorted([(x, y) for x, y in cm_m.pars.mem.items()],
+#                      key=lambda it: it[1], reverse=True))
+#     res[iter]["mem"] = im
+#
+#     res["processing time"] = str((datetime.now() - start_time).total_seconds())
+#     # calculate states uncertainty
+#     cm_m.tps_1.compute_states_entropy()
+#     cm_m.tps_units.compute_states_entropy()
+#     # generalization
+#     cm_m.generalize(rout)
+#     # save result
+#     with open(rout + "res.json", "w") as of:
+#         json.dump(res, of)
+#     # save generated
+#     with open(rout + "generated.json", "w") as of:
+#         json.dump(gens, of)
+#
 
 if __name__ == "__main__":
 
     np.set_printoptions(linewidth=np.inf)
     rng = np.random.default_rng(const.RND_SEED)
 
-    # file_names = \
-    #     ["isaac", "input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G",
-    #     "all_irish-notes_and_durations","cello", "bach_compact"]
+    # file_names = ["input", "input2", "saffran", "thompson_newport",
+    #               "Onnis2003_L1_2","Onnis2003_L2_2","Onnis2003_L1_6","Onnis2003_L2_6",
+    #               "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
+    #               "all_songs_in_G", "all_irish-notes_and_durations", "bach_preludes"]
 
-    file_names = ["input", "input2","Onnis2003_L1_24","Onnis2003_L2_24", "saffran"]
     file_names = ["input"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
@@ -72,7 +71,7 @@ if __name__ == "__main__":
     interferences = [0.005]
     forgets = [0.05]
     tps_orders = [2]
-    methods = ["FTP"]  # MI, CT or BRENT, FTP
+    methods = ["FTP_AVG"]  # MI, CT or BRENT, FTP
 
     for tps_method in methods:
         for tps_order in tps_orders:
@@ -167,23 +166,27 @@ if __name__ == "__main__":
                             # generalization
                             # if input is a single array (as original saffran) the next command loops forever
                             # for the presence of cycles in the graph
-                            cm.generalize(fi_dir)
+                            gen_paths = cm.tps_units.generate_paths(rng, n_paths=20, min_len=50)
+                            if gen_paths:
+                                print("generalizing ...")
+                                cm.generalize(fi_dir, gen_paths)
 
                             # generate sample sequences
                             gens = cm.tps_units.generate_new_seqs(rng, min_len=100)
                             print("gens: ", gens)
+                            # TODO
+                            # generate sample sequences from generalized graph
+                            gg_gens = cm.graph.generate_sequences(rng)
+                            print("gens: ", gens)
                             # plot tps
-                            utils.plot_tps_sequences(cm, [" ".join(x) for x in sequences[:20]], fi_dir)
-                            comp_res = complexity.calculate_complexities(gens)
-                            results["complexities"] = comp_res
-                            print("---------- complexities:")
-                            for it, vl in comp_res.items():
-                                print(it, vl)
-                            print("----------")
-
-                            # print("REGENERATION")
-                            # for g in gens:
-                            #     print(cm.tps_1.get_units_brent(g))
+                            # utils.plot_tps_sequences(cm, [" ".join(x) for x in sequences[:20]], fi_dir)
+                            if gens:
+                                comp_res = complexity.calculate_complexities(gens)
+                                results["generated complexities"] = comp_res
+                                print("---------- complexities:")
+                                for it, vl in comp_res.items():
+                                    print(it, vl)
+                                print("----------")
 
                             # save results
                             with open(fi_dir + "results.json", "w") as of:
@@ -203,7 +206,7 @@ if __name__ == "__main__":
                                 json.dump(cm.tps_units.mem, of)
                             utils.plot_gra_from_normalized(cm.tps_units, filename=fi_dir + "tps_units", render=True)
 
-                            print("plotting tps all...")
+                            print("plotting tps symbols...")
                             with open(fi_dir + "tps.json", "w") as of:
                                 json.dump(cm.tps_1.mem, of)
                             utils.plot_gra_from_normalized(cm.tps_1, filename=fi_dir + "tps_symbols", render=True)

@@ -43,7 +43,7 @@ class Computation:
         # active elements in mem shape perception
         active_mem = dict((k, v) for k, v in self.pars.mem.items() if v >= self.t_mem)
         # certain tps
-        tpc = self.tps_1.get_certain_units()
+        # tpc = self.tps_1.get_certain_units()
         # tpc2 = self.tps_2.get_certain_units()
         # tpc3 = self.tps_3.get_certain_units()
         # print("tpc1: ", tpc)
@@ -71,7 +71,7 @@ class Computation:
         # forgetting and interference
         self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf)
         self.tps_units.forget(self.old_p_units + units, forget=self.fogs, cleaning=True)
-        # self.tps_units.interfere(self.old_p_units + units, interf=0.0015)
+        self.tps_units.interfere(self.old_p_units + units, interf=self.interf)
 
         # generalization step
         # self.graph.encode(units)
@@ -87,10 +87,10 @@ class Computation:
         self.tps_units.encode(self.old_p_units + ["END"])
         return ["END"]
 
-    def generalize(self, out_dir):
+    def generalize(self, out_dir, gens):
         # self.tps_units.normalize()
         self.graph = TPsGraph(self.tps_units)
-        self.graph.generalize(dir_name=out_dir)
+        self.graph.generalize(out_dir, gens)
 
 
 class Embedding:

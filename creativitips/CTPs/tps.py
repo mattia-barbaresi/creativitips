@@ -11,6 +11,8 @@ class TPS:
         self.mem = dict()
         self.norm_mem = np.array([])
         self.order = ordr
+        self.n_percepts = 0
+        self.totTPS = 0.0
         self.le_rows = preprocessing.LabelEncoder()
         self.le_cols = preprocessing.LabelEncoder()
         self.state_entropies = {}
@@ -23,6 +25,7 @@ class TPS:
         In case (ii) TPs are counted between elements of the array (units), instead of between symbols
         """
         if self.order > 0:
+            avg = 0
             for ii in range(self.order, len(percept)):
                 h = " ".join(percept[ii - self.order:ii])
                 # o = " ".join(percept[ii:ii + self.order])
@@ -34,9 +37,6 @@ class TPS:
                         self.mem[h][o] = wg
                 else:
                     self.mem[h] = {o: wg}
-
-
-
         else:
             print("(TPmodule):Order must be grater than 1.")
 
@@ -66,7 +66,8 @@ class TPS:
         # forget
         for h, vs in self.mem.items():
             for o, v in vs.items():
-                if (h,o) not in hs:
+                if (h,o) not in hs and h != "START" and o != "END":
+                # if (h,o) not in hs:
                     self.mem[h][o] -= forget
 
         if cleaning:
@@ -203,6 +204,42 @@ class TPS:
                     if tps_seqs[ii] > (tps_seqs[ii + 1] + 0.2):  # insert a break
                         print("tps unit: ", percept[:(self.order - len(past)) + ii + 1])
                         return percept[:(self.order - len(past)) + ii + 1]
+
+            else:
+                print("(TPmodule):Order grater than percept length. Percept is too short.")
+        else:
+            print("(TPmodule):Order must be grater than 1.")
+
+        return []
+
+    def update_avg(self, tps_seq):
+        self.n_percepts += len(tps_seq)
+        self.totTPS += sum(tps_seq)
+
+    def get_avg(self):
+        avg = 0.0
+        if self.n_percepts > 0:
+            avg = self.totTPS/self.n_percepts
+        return avg
+
+    def get_next_unit_with_AVG(self, percept, past=None):
+        # if order = 1 no past required
+        if self.order > 1 and past:
+            past = past[-self.order:]
+        else:
+            past = []
+        pp_seq = past + percept
+        if self.order > 0:
+            if self.order < len(pp_seq):
+                tps_seqs = self.get_ftps_sequence(pp_seq)
+                avgTP = self.get_avg()
+                # print("percept: ", percept)
+                # print("tps_seqs: ", tps_seqs)
+                if sum(tps_seqs) > 0:
+                    for ii in range(1,len(tps_seqs)-1):
+                        if tps_seqs[ii] < avgTP:  # insert a break
+                            print("tps unit: ", percept[:(self.order - len(past)) + ii])
+                            return percept[:(self.order - len(past)) + ii]
 
             else:
                 print("(TPmodule):Order grater than percept length. Percept is too short.")
@@ -357,6 +394,36 @@ class TPS:
                 _s = self.le_cols.inverse_transform([utils.mc_choice(rand_gen, self.norm_mem[i])])[0]
                 if _s != "END":
                     seq += " " + _s
+            res.append(seq)
+
+        return res
+
+    def generate_paths(self, rand_gen, n_paths=20, min_len=20):
+        res = []
+        init_keys = []
+        init_values = []
+        if "START" in self.mem:
+            tot = sum(self.mem["START"].values())  # used to normalize frequencies for utils.mc_choice()
+            for k,v in self.mem["START"].items():
+                init_keys.append(k)
+                init_values.append(v/tot)
+        else:
+            print("no START found")
+
+        if not init_keys:
+            print("Empty init set. No generation occurred.")
+            return res
+
+        for _ in range(n_paths):
+            seq = ["START"]
+            _s = init_keys[utils.mc_choice(rand_gen, init_values)]  # choose rnd starting point (monte carlo)
+            seq.append(_s)
+            for _ in range(min_len):
+                if _s not in self.le_rows.classes_:
+                    break
+                i = self.le_rows.transform([_s])[0]
+                _s = self.le_cols.inverse_transform([utils.mc_choice(rand_gen, self.norm_mem[i])])[0]
+                seq.append(_s)
             res.append(seq)
 
         return res

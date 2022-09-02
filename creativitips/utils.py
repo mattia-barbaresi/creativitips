@@ -131,22 +131,6 @@ def load_bach(dir_name):
     return seq
 
 
-def load_bach_separated(dir_name):
-    seqT = []
-    seqD = []
-    for file in os.listdir(dir_name):
-        if fnmatch.fnmatch(file, "*cpt.txt"):
-            with open(dir_name + file, "r") as fp:
-                appt = []
-                appd = []
-                for symb in fp.readline().strip().split(" "):
-                    appt.append(symb.split("-")[0])
-                    appd.append(symb.split("-")[1])
-                seqT.append(appt)
-                seqD.append(appd)
-    return seqT, seqD
-
-
 def load_bicinia_full(dir_name):
     seq1 = []
     seq2 = []
@@ -162,7 +146,7 @@ def load_bicinia_full(dir_name):
     return seq1, seq2
 
 
-def load_irish_n_d(filename):
+def read_spaced(filename):
     seq = []
     with open(filename, "r") as fp:
         for line in fp.readlines():
@@ -170,7 +154,7 @@ def load_irish_n_d(filename):
     return seq
 
 
-def load_irish_n_d_repeated(filename):
+def read_spaced_repeated(filename):
     seq = []
     with open(filename, "r") as fp:
         for line in fp.readlines():
@@ -185,9 +169,6 @@ def read_sequences(rng, fn):
     if fn == "saffran":
         # load/generate Saffran input
         seqs = generate_Saffran_sequence(rng)
-    elif fn == "all_irish-notes_and_durations":
-        # read
-        seqs = load_irish_n_d_repeated("data/all_irish-notes_and_durations-abc.txt")
     elif fn == "bicinia":
         seqs = load_bicinia_single("data/bicinia/", seq_n=2)
     elif fn == "cello":
@@ -198,6 +179,9 @@ def read_sequences(rng, fn):
         seqs = generate_miller(rng)
     elif fn == "isaac" or fn == "hello" or fn == "mediapipe":
         seqs = read_words("data/" + fn + ".txt")
+    elif fn == "all_irish-notes_and_durations" or fn == "bach_preludes":
+        # split lines by space
+        seqs = read_spaced("data/" + fn + ".txt")
     else:
         with open("data/{}.txt".format(fn), "r") as fp:
             # split lines char by char
@@ -333,7 +317,8 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
             elif method == "MI":
                 unit = tps.get_next_unit_mi(s[:7], past=old_seq)
             else:  # if TPS
-                unit = tps.get_next_unit(s[:7], past=old_seq)
+                # unit = tps.get_next_unit(s[:7], past=old_seq)
+                unit = tps.get_next_unit_with_AVG(s[:7], past=old_seq)
             action = "tps"
 
         # if no unit found, pick at random length
@@ -349,6 +334,7 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
         if len(sf) == 1:
             unit += sf
             print("added last:", unit)
+        tps.update_avg(tps.get_ftps_sequence(old_seq + unit))
         res.append(" ".join(unit))
         actions.append(action)
         # print("final unit:", unit)
@@ -595,3 +581,14 @@ def generate_seqs(rng, model, res):
     res["generated"] = model.tps_units.generate_new_seqs(rng, min_len=100)
     im = dict(sorted([(x, y) for x, y in model.pars.mem.items()], key=lambda it: it[1], reverse=True))
     res["mem"] = im
+
+
+def convert_french_phono():
+    data = []
+    with open("data/french_phono.txt", "r") as fp:
+        for line in fp:
+            data.append(" ".join(line.strip().split()[5:]))
+
+    with open("data/french_phono_converted.txt", "w") as fp:
+        for line in data:
+            fp.write(line + "\n")
