@@ -172,27 +172,27 @@ def Onnis2003():
     # 3x6 -> 18 x 24
     # 3x2 -> 6 x 72
     # so 432/3 = 144/n = n° duplicates
-    for n in [2,6,12,24]:
+    for n in [1]:
         L1 = []
         L2 = []
         for x in X[:n]:
-            # for _i in range(int(144 / n)):
-            #  Strings in L1 had the form aXd, bXe, and cXf.
-            L1.append(a + x + d)
-            L1.append(b + x + e)
-            L1.append(c + x + f)
-            # L2 strings had the form aXe, bXf, cXd.
-            L2.append(a + x + e)
-            L2.append(b + x + f)
-            L2.append(c + x + d)
+            for _i in range(int(144 / n)):
+                #  Strings in L1 had the form aXd, bXe, and cXf.
+                L1.append(a + x + d)
+                L1.append(b + x + e)
+                L1.append(c + x + f)
+                # L2 strings had the form aXe, bXf, cXd.
+                L2.append(a + x + e)
+                L2.append(b + x + f)
+                L2.append(c + x + d)
 
         random.shuffle(L1)
         random.shuffle(L2)
 
-        with open("../data/Onnis2003_single_L1_{}.txt".format(n), "w") as fp:
+        with open("../data/Onnis2003_L1_{}.txt".format(n), "w") as fp:
             for _l in L1:
                 fp.write(_l + "\n")
-        with open("../data/Onnis2003_single_L2_{}.txt".format(n), "w") as fp:
+        with open("../data/Onnis2003_L2_{}.txt".format(n), "w") as fp:
             for _l in L2:
                 fp.write(_l + "\n")
 
