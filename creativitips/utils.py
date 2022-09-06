@@ -179,7 +179,7 @@ def read_sequences(rng, fn):
         seqs = generate_miller(rng)
     elif fn == "isaac" or fn == "hello" or fn == "mediapipe":
         seqs = read_words("data/" + fn + ".txt")
-    elif fn == "all_irish-notes_and_durations" or fn == "bach_preludes":
+    elif fn == "all_irish-notes_and_durations-abc" or fn == "bach_preludes":
         # split lines by space
         seqs = read_spaced("data/" + fn + ".txt")
     else:
