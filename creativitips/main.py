@@ -11,7 +11,7 @@ rng = np.random.default_rng(const.RND_SEED)
 # file_names = ["input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G",
 #               "all_irish-notes_and_durations", "cello", "bach_compact"]
 
-file_names = ["in"]
+file_names = ["input"]
 
 # maintaining INTERFERENCES/FORGETS separation by a factor of 10
 interferences = [0.005]
