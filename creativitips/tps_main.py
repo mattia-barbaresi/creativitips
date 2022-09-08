@@ -62,16 +62,16 @@ if __name__ == "__main__":
     # file_names = ["input", "input2", "saffran", "thompson_newport",
     #               "Onnis2003_L1_2","Onnis2003_L2_2","Onnis2003_L1_6","Onnis2003_L2_6",
     #               "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
-    #               "all_songs_in_G", "all_irish-notes_and_durations", "bach_preludes"]
+    #               "all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
 
-    file_names = ["input"]
+    file_names = ["ocarolan", "scottish"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
     interferences = [0.005]
     forgets = [0.05]
     tps_orders = [2]
-    methods = ["FTP_AVG"]  # MI, CT or BRENT, FTP
+    methods = ["FTP_NFWI"]  # MI, CT or BRENT, FTP
 
     for tps_method in methods:
         for tps_order in tps_orders:
@@ -163,30 +163,9 @@ if __name__ == "__main__":
                             cm.tps_1.compute_states_entropy()
                             cm.tps_units.compute_states_entropy()
 
-                            # generalization
-                            # if input is a single array (as original saffran) the next command loops forever
-                            # for the presence of cycles in the graph
-                            gen_paths = cm.tps_units.generate_paths(rng, n_paths=20, min_len=50)
-                            if gen_paths:
-                                print("generalizing ...")
-                                cm.generalize(fi_dir, gen_paths)
-
                             # generate sample sequences
                             gens = cm.tps_units.generate_new_seqs(rng, min_len=100)
                             print("gens: ", gens)
-                            # TODO
-                            # generate sample sequences from generalized graph
-                            gg_gens = cm.graph.generate_sequences(rng)
-                            print("gens: ", gens)
-                            # plot tps
-                            # utils.plot_tps_sequences(cm, [" ".join(x) for x in sequences[:20]], fi_dir)
-                            if gens:
-                                comp_res = complexity.calculate_complexities(gens)
-                                results["generated complexities"] = comp_res
-                                print("---------- complexities:")
-                                for it, vl in comp_res.items():
-                                    print(it, vl)
-                                print("----------")
 
                             # save results
                             with open(fi_dir + "results.json", "w") as of:
@@ -201,21 +180,12 @@ if __name__ == "__main__":
                             # print(tps_units.mem)
                             # utils.plot_gra(tps_units.mem)
 
-                            print("plotting tps units...")
+                            # save tps
                             with open(fi_dir + "tps_units.json", "w") as of:
                                 json.dump(cm.tps_units.mem, of)
-                            utils.plot_gra_from_normalized(cm.tps_units, filename=fi_dir + "tps_units", render=True)
 
-                            print("plotting tps symbols...")
                             with open(fi_dir + "tps.json", "w") as of:
                                 json.dump(cm.tps_1.mem, of)
-                            utils.plot_gra_from_normalized(cm.tps_1, filename=fi_dir + "tps_symbols", render=True)
-
-                            print("plotting memory...")
-                            # plot memory chunks
-                            om = dict(sorted([(x, y) for x, y in cm.pars.mem.items()][:30], key=lambda _i: _i[1],
-                                             reverse=True))
-                            utils.plot_mem(om, fi_dir + "words_plot.png", save_fig=True, show_fig=False)
 
                             graph = TPsGraph(cm.tps_units)
                             # graph.form_classes()
@@ -225,4 +195,45 @@ if __name__ == "__main__":
                             with open(fi_dir + "classes.json", "w") as of:
                                 json.dump(list(cl_form), of)
                             # graph.get_communities()
+
+                            # generalization
+                            # if input is a single array (as original saffran) the next command loops forever
+                            # for the presence of cycles in the graph
+                            gen_paths = cm.tps_units.generate_paths(rng, n_paths=20, min_len=50)
+                            if gen_paths:
+                                print("generalizing ...")
+                                cm.generalize(fi_dir, gen_paths)
+                            # TODO
+                            # generate sample sequences from generalized graph
+                            gg_gens = cm.graph.generate_sequences(rng)
+                            print("gg_gens: ", gg_gens)
+                            # plot tps
+                            # utils.plot_tps_sequences(cm, [" ".join(x) for x in sequences[:20]], fi_dir)
+                            if gens:
+                                comp_res = complexity.calculate_complexities(gens)
+                                results["generated complexities"] = comp_res
+                                print("---------- complexities:")
+                                for it, vl in comp_res.items():
+                                    print(it, vl)
+                                print("----------")
+
+                            print("plotting memory...")
+                            # plot memory chunks
+                            om = dict(sorted([(x, y) for x, y in cm.pars.mem.items()][:30], key=lambda _i: _i[1],
+                                             reverse=True))
+                            utils.plot_mem(om, fi_dir + "words_plot.png", save_fig=True, show_fig=False)
+
+                            # setting threshold for plotting
+                            plot_thresh = 0.0
+                            if fn == "all_songs_in_G" or fn == "all_irish-notes_and_durations-abc"\
+                                    or fn == "scottish" or fn == "ocarolan":
+                                plot_thresh = 0.09
+
+                            print("plotting tps units...")
+                            utils.plot_gra_from_normalized(cm.tps_units, filename=fi_dir + "tps_units",
+                                                           thresh=plot_thresh, render=True)
+                            print("plotting tps symbols...")
+                            utils.plot_gra_from_normalized(cm.tps_1, filename=fi_dir + "tps_symbols",
+                                                           thresh=plot_thresh, render=True)
+
     print("END..")

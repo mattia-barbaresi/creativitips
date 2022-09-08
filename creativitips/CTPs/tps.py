@@ -54,7 +54,7 @@ class TPS:
         # self.norm_mem = softmax(self.norm_mem, axis=1)
         self.norm_mem = utils.softmax(self.norm_mem)
 
-    def forget(self, uts, forget=0.05, cleaning=False):
+    def forget(self, uts, forget=0.05):
         # for each transition
         hs = []
         for ii in range(self.order, len(uts)):
@@ -70,9 +70,6 @@ class TPS:
                 # if (h,o) not in hs:
                     self.mem[h][o] -= forget
 
-        if cleaning:
-            self.cleaning()
-
     def interfere(self, uts, interf=0.005, cleaning=False):
         # for each transition
         hs = []
@@ -85,8 +82,6 @@ class TPS:
             for k in self.mem[h].keys():
                 if k != o:
                     self.mem[h][k] -= interf
-        if cleaning:
-            self.cleaning()
 
     def cleaning(self):
         # cleaning
@@ -232,11 +227,11 @@ class TPS:
         if self.order > 0:
             if self.order < len(pp_seq):
                 tps_seqs = self.get_ftps_sequence(pp_seq)
-                avgTP = self.get_avg()
+                avgTP = sum(tps_seqs)/len(tps_seqs)
                 # print("percept: ", percept)
                 # print("tps_seqs: ", tps_seqs)
                 if sum(tps_seqs) > 0:
-                    for ii in range(1,len(tps_seqs)-1):
+                    for ii in range(1, len(tps_seqs)-1):
                         if tps_seqs[ii] < avgTP:  # insert a break
                             print("tps unit: ", percept[:(self.order - len(past)) + ii])
                             return percept[:(self.order - len(past)) + ii]

@@ -20,8 +20,6 @@ class Computation:
         self.pars = Parser(unit_len)
         self.method = method
         self.tps_1 = TPS(order)  # memory for TPs between symbols
-        # self.tps_2 = TPS(2)  # memory for TPs between symbols
-        # self.tps_3 = TPS(3)  # memory for TPs between symbols
         self.tps_units = TPS(1)  # memory for TPs between units
         self.graph = TPsGraph()  # memory for tree representation
         self.weight = weight
@@ -44,11 +42,7 @@ class Computation:
         active_mem = dict((k, v) for k, v in self.pars.mem.items() if v >= self.t_mem)
         # certain tps
         # tpc = self.tps_1.get_certain_units()
-        # tpc2 = self.tps_2.get_certain_units()
-        # tpc3 = self.tps_3.get_certain_units()
         # print("tpc1: ", tpc)
-        # print("tpc2: ", tpc2)
-        # print("tpc3: ", tpc3)
         # next nodes from last unit
         higher_mem = []
         if self.old_p_units[-1] in self.tps_units.mem.keys():
@@ -70,8 +64,9 @@ class Computation:
 
         # forgetting and interference
         self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf)
-        self.tps_units.forget(self.old_p_units + units, forget=self.fogs, cleaning=True)
+        # self.tps_units.forget(self.old_p_units + units, forget=self.fogs)
         self.tps_units.interfere(self.old_p_units + units, interf=self.interf)
+        self.tps_units.cleaning()
 
         # generalization step
         # self.graph.encode(units)

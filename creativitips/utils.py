@@ -103,7 +103,7 @@ def load_bicinia_single(dir_name, seq_n=1):
     seq = []
     idx = 0  # read first sequence
     if seq_n != 1:
-        # read second sequence
+        # read second sequence"
         idx = 2  # line 1 is empty
     for file in os.listdir(dir_name):
         if fnmatch.fnmatch(file, "*.mid.txt"):
@@ -119,6 +119,18 @@ def load_cello(dir_name):
         if fnmatch.fnmatch(file, "*.mid.txt"):
             with open(dir_name + file, "r") as fp:
                 seq.append(fp.readline().strip().split(" "))
+    return seq
+
+
+def convert_songs(dir_name):
+    seq = []
+    for file in os.listdir(dir_name):
+        if fnmatch.fnmatch(file, "*cpt.txt"):
+            with open(dir_name + file, "r") as fp:
+                seq.append(fp.readline().strip())
+    with open("data/ocarolan.txt", "w") as fp:
+        for line in seq:
+            fp.write(f"{line}\n")
     return seq
 
 
@@ -172,14 +184,14 @@ def read_sequences(rng, fn):
     elif fn == "bicinia":
         seqs = load_bicinia_single("data/bicinia/", seq_n=2)
     elif fn == "cello":
-        seqs = load_cello("data/cello/")
+        seqs = load_cello("data/" + fn + "/")
     elif fn == "bach_compact":
         seqs = load_bach("data/bach_compact/")
     elif fn == "miller":
         seqs = generate_miller(rng)
     elif fn == "isaac" or fn == "hello" or fn == "mediapipe":
         seqs = read_words("data/" + fn + ".txt")
-    elif fn == "all_irish-notes_and_durations-abc" or fn == "bach_preludes":
+    elif fn == "all_irish-notes_and_durations-abc" or fn == "bach_preludes" or fn == "ocarolan" or fn == "scottish":
         # split lines by space
         seqs = read_spaced("data/" + fn + ".txt")
     else:
@@ -317,8 +329,8 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
             elif method == "MI":
                 unit = tps.get_next_unit_mi(s[:7], past=old_seq)
             else:  # if TPS
-                # unit = tps.get_next_unit(s[:7], past=old_seq)
-                unit = tps.get_next_unit_with_AVG(s[:7], past=old_seq)
+                unit = tps.get_next_unit(s[:7], past=old_seq)
+                # unit = tps.get_next_unit_with_AVG(s[:7], past=old_seq)
             action = "tps"
 
         # if no unit found, pick at random length
