@@ -64,9 +64,15 @@ class Computation:
 
         # forgetting and interference
         self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf)
-        # self.tps_units.forget(self.old_p_units + units, forget=self.fogs)
-        self.tps_units.interfere(self.old_p_units + units, interf=self.interf)
-        self.tps_units.cleaning()
+        if "NFNI" not in self.method:
+            if "WFWI" in self.method:
+                self.tps_units.forget(self.old_p_units + units, forget=self.fogs)
+                self.tps_units.interfere(self.old_p_units + units, interf=self.interf)
+                self.tps_units.cleaning()
+            elif "LFLI" in self.method:
+                self.tps_units.forget(self.old_p_units + units, forget=self.fogs/10)
+                self.tps_units.interfere(self.old_p_units + units, interf=self.interf/10)
+                self.tps_units.cleaning()
 
         # generalization step
         # self.graph.encode(units)

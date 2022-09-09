@@ -59,19 +59,19 @@ if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     rng = np.random.default_rng(const.RND_SEED)
 
-    # file_names = ["input", "input2", "saffran", "thompson_newport",
-    #               "Onnis2003_L1_2","Onnis2003_L2_2","Onnis2003_L1_6","Onnis2003_L2_6",
-    #               "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
-    #               "all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
+    file_names = ["input", "input2", "saffran", "thompson_newport",
+                  "Onnis2003_L1_2","Onnis2003_L2_2","Onnis2003_L1_6","Onnis2003_L2_6",
+                  "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
+                  "all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
 
-    file_names = ["ocarolan", "scottish"]
+    # file_names = ["input", "input2"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
     interferences = [0.005]
     forgets = [0.05]
     tps_orders = [2]
-    methods = ["FTP_NFWI"]  # MI, CT or BRENT, FTP
+    methods = ["FTP_LFLI","FTP_WFWI","FTP_NFNI"]  # MI, CT or BRENT, FTP
 
     for tps_method in methods:
         for tps_order in tps_orders:
@@ -79,7 +79,7 @@ if __name__ == "__main__":
                 for interf in interferences:
                     for t_mem in thresholds_mem:
                         # init
-                        root_out_dir = const.OUT_DIR + "tps_results/" + \
+                        root_out_dir = const.OUT_DIR + "tps_results_ggen/" + \
                                        utils.params_to_string(tps_method, tps_order, fogt, interf, t_mem)
                         os.makedirs(root_out_dir, exist_ok=True)
 
@@ -203,10 +203,13 @@ if __name__ == "__main__":
                             if gen_paths:
                                 print("generalizing ...")
                                 cm.generalize(fi_dir, gen_paths)
-                            # TODO
+                            print("generating with generalized graph ...")
                             # generate sample sequences from generalized graph
                             gg_gens = cm.graph.generate_sequences(rng)
                             print("gg_gens: ", gg_gens)
+                            # save generated
+                            with open(fi_dir + "ggen.json", "w") as of:
+                                json.dump(gg_gens, of)
                             # plot tps
                             # utils.plot_tps_sequences(cm, [" ".join(x) for x in sequences[:20]], fi_dir)
                             if gens:
@@ -227,7 +230,7 @@ if __name__ == "__main__":
                             plot_thresh = 0.0
                             if fn == "all_songs_in_G" or fn == "all_irish-notes_and_durations-abc"\
                                     or fn == "scottish" or fn == "ocarolan":
-                                plot_thresh = 0.09
+                                plot_thresh = 0.099
 
                             print("plotting tps units...")
                             utils.plot_gra_from_normalized(cm.tps_units, filename=fi_dir + "tps_units",

@@ -122,13 +122,13 @@ def load_cello(dir_name):
     return seq
 
 
-def convert_songs(dir_name):
+def convert_songs(dir_name, fn):
     seq = []
     for file in os.listdir(dir_name):
         if fnmatch.fnmatch(file, "*cpt.txt"):
             with open(dir_name + file, "r") as fp:
                 seq.append(fp.readline().strip())
-    with open("data/ocarolan.txt", "w") as fp:
+    with open("data/" + fn + ".txt", "w") as fp:
         for line in seq:
             fp.write(f"{line}\n")
     return seq
@@ -193,7 +193,8 @@ def read_sequences(rng, fn):
         seqs = read_words("data/" + fn + ".txt")
     elif fn == "all_irish-notes_and_durations-abc" or fn == "bach_preludes" or fn == "ocarolan" or fn == "scottish":
         # split lines by space
-        seqs = read_spaced("data/" + fn + ".txt")
+        # seqs = read_spaced("data/" + fn + ".txt")
+        seqs = convert_songs("data/" + fn + "/", fn)
     else:
         with open("data/{}.txt".format(fn), "r") as fp:
             # split lines char by char
@@ -250,6 +251,7 @@ def generate_Saffran_sequence(rng):
             seq += list(ww)
         res.append(seq)
     return res
+
 
 def generate_Saffran_sequence_exp2(rng):
     words = ["pabiku", "tibudo", "golatu", "daropi"]
