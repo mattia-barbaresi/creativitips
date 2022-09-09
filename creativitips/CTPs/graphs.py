@@ -4,6 +4,8 @@ from matplotlib import pyplot as plt
 import networkx as nx
 from networkx.algorithms import community
 
+import utils
+
 
 class TPsGraph:
     def __init__(self, tps=None, thresh=0.0):
@@ -89,12 +91,28 @@ class TPsGraph:
 
     def generate_sequences(self, rand_gen, n_seq=20):
         res = []
-        init_keys = []
-        init_values = []
         sn = self.get_class_from_node("START")
         if sn != -1:
-            for succ in self.GG.successors(sn):
-                print(succ)
+            for _ in range(n_seq):
+                seq = []
+                next = ""
+                # start nodes
+                sn = self.get_class_from_node("START")
+                while next != "END" and sn != -1:
+                    # get successors list and values
+                    keys = list(self.GG.successors(sn))
+                    if len(keys) == 0:
+                        # no successors
+                        break
+                    values = [self.GG[sn][x]["weight"] for x in keys]
+                    next_c = keys[utils.mc_choice(rand_gen, values)]
+                    next = rand_gen.choice(self.GG.nodes[next_c]["words"].split("/"))
+                    if next != "END":
+                        seq.append(next)
+                    sn = next_c
+                res.append(" ".join(seq))
+        else:
+            print("No START found!")
         return res
 
     def get_class_from_node(self, node_name):
