@@ -71,7 +71,7 @@ if __name__ == "__main__":
     interferences = [0.005]
     forgets = [0.05]
     tps_orders = [2]
-    methods = ["FTP_LFLI","FTP_WFWI","FTP_NFNI"]  # MI, CT or BRENT, FTP
+    methods = ["FTP_LFLI","FTP_WFWI","FTP_NFNI","FTP_NFWI"]  # MI, CT or BRENT, FTP
 
     for tps_method in methods:
         for tps_order in tps_orders:
