@@ -1,5 +1,7 @@
 import re
 
+import utils
+
 
 class Parser:
     """Class for PARSER: A Model for Word Segmentation
@@ -12,7 +14,12 @@ class Parser:
             ulen = [2]
         self.mem = memory
         self.ulens = ulen
+        # for exponential forgetting
+        self.time = 0
 
+    # ##############################
+    # old stuff (needs refactoring):
+    #
     # def get_units(self, pct, thr=1.0):
     #     # list of units filtered with thr and then ordered by length
     #     mems = sorted([x for x, y in self.mem.items() if y >= thr], key=lambda item: len(item), reverse=True)
@@ -54,41 +61,55 @@ class Parser:
     #                         res = res + lst
     #     return res
 
-    def read_percept(self, rng, sequence):
+    def read_percept(self, rng, sequence, threshold=1.0):
         """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
         res = []
         # number of units embedded in next percepts
-        i = rng.randint(low=1, high=4)
+        i = rng.integers(low=1, high=4)
         s = sequence
         while len(s) > 0 and i != 0:
-            units_list = [k for k,v in self.mem.items() if v > 0.9 and len(k) > 1 and s.startswith(k)]
+            units_list = [k for k,v in self.mem.items() if v["weight"] >= threshold and len(k) > 1 and " ".join(s).startswith(k)]
             if units_list:
                 # a unit in mem matched
-                unit = sorted(units_list, key=lambda item: len(item), reverse=True)[0]
+                unit = (sorted(units_list, key=lambda item: len(item), reverse=True)[0]).strip().split(" ")
                 print("unit shape perception:", unit)
             else:
-                return res
-            res.append(unit)
+                unit = s[:rng.choice(self.ulens)]
+
+            # check if last symbol
+            sf = s[len(unit):]
+            if len(sf) == 1:
+                unit += sf
+                print("added last:", unit)
+            res.append(" ".join(unit))
+            # print("final unit:", unit)
             s = s[len(unit):]
             i -= 1
+
         return res
 
     def add_weight(self, pct, comps=None, weight=1.0):
         # add weight to units
         for u in comps:
             if u in self.mem:
-                self.mem[u] += weight/2
+                self.mem[u]["weight"] += weight/2
             else:
-                self.mem[u] = weight
+                self.mem[u] = dict()
+                self.mem[u]["weight"] = weight
+                self.mem[u]["t"] = self.time
         # add weight to percept
         if pct in self.mem:
-            self.mem[pct] += weight
+            self.mem[pct]["weight"] += weight
         else:
-            self.mem[pct] = weight
+            self.mem[pct] = dict()
+            self.mem[pct]["weight"] = weight
+            self.mem[pct]["t"] = self.time
 
-    def forget_interf(self, rng, pct, comps=None, forget=0.05, interfer=0.005):
+    def forget_interf(self, rng, pct, comps=None, interfer=0.005):
         # forgetting
-        self.mem.update((k, v - forget) for k, v in self.mem.items() if k != pct)
+        for k, v in self.mem.items():
+            if k != pct:
+                self.mem[k]["weight"] -= utils.calculateExp(self.time - v["t"])
 
         # interference
         uts = []
@@ -107,18 +128,23 @@ class Parser:
             for k in self.mem.keys():
                 if k != pct and k not in comps:
                     if s2 in k:
-                        self.mem[k] -= interfer
+                        self.mem[k]["weight"] -= interfer
         # cleaning
-        for key in [k for k,v in self.mem.items() if v <= 0.0]:
+        for key in [k for k,v in self.mem.items() if v["weight"] <= 0.0]:
             self.mem.pop(key)
 
     def encode(self, p, units, weight=1.0):
+        self.time += 1
         # add entire percept
         if len(p.strip().split(" ")) <= max(self.ulens):
             # p is a unit, a primitive
             if p in self.mem:
-                self.mem[p] += weight / 2
+                self.mem[p]["weight"] += weight / 2
+                # N.B. forgetting
+                self.mem[p]["t"] = self.time
             else:
-                self.mem[p] = weight
+                self.mem[p] = dict()
+                self.mem[p]["weight"] = weight
+                self.mem[p]["t"] = self.time
         else:
             self.add_weight(p, comps=units, weight=weight)

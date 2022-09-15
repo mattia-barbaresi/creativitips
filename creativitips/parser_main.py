@@ -10,7 +10,6 @@ if __name__ == "__main__":
     rng = np.random.default_rng(33)
     threshold = 1.0
     w = 1.0
-    f = 0.05
     i = 0.005
 
     # load input
@@ -33,24 +32,24 @@ if __name__ == "__main__":
         for s in sequences:
             while len(s) > 0:
                 # read percept as an array of units
-                # units = utils.read_percept(rng, dict((k, v) for k, v in pars.mem.items() if v >= threshold), s)[0]
-                units = pars.read_percept(rng, s)
+                # units = utils.read_percept(rng, dict((k, v) for k, v in pars.mem.items() if v["weight"] >= threshold), s)[0]
+                units = pars.read_percept(rng, s, threshold)
                 p = " ".join(units)
                 print("units: ", units, " -> ", p)
                 pars.encode(p, units, weight=w)
                 # forgetting and interference
-                pars.forget_interf(rng, p, comps=units, forget=f, interfer=i)
+                pars.forget_interf(rng, p, comps=units, interfer=i)
                 s = s[len(p.strip().split(" ")):]
 
         for k, v in pars.mem.items():
             if k in tot_mem.keys():
-                tot_mem[k] += v
+                tot_mem[k] += v["weight"]
             else:
-                tot_mem[k] = v
+                tot_mem[k] = v["weight"]
 
     # calculate mean
     for k, v in tot_mem.items():
         tot_mem[k] = v / n_iter
     ord_mem = dict(sorted([(x, y) for x, y in tot_mem.items()], key=lambda item: item[1], reverse=True)[:30])
     os.makedirs(out_dir, exist_ok=True)
-    utils.plot_mem(ord_mem, fig_name=out_dir + "parser.png", save_fig=True, show_fig=False)
+    utils.plot_mem(ord_mem, fig_name=out_dir + "parser_exp_forg.png", save_fig=True, show_fig=False)
