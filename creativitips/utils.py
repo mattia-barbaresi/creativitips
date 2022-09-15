@@ -1,4 +1,5 @@
 import fnmatch
+import math
 import os
 import string
 from graphviz import Digraph
@@ -348,7 +349,8 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
         if len(sf) == 1:
             unit += sf
             print("added last:", unit)
-        tps.update_avg(tps.get_ftps_sequence(old_seq + unit))
+        if tps:
+            tps.update_avg(tps.get_ftps_sequence(old_seq + unit))
         res.append(" ".join(unit))
         actions.append(action)
         # print("final unit:", unit)
@@ -520,6 +522,13 @@ def plot_tps_sequences(cm, gens, fi_dir=""):
 
 
 ############################################################## GENERATION
+
+# calculate exponential forgetting
+def calculateExp(time=1, s=10):
+    # r = e ^ (-t / s)
+    # s = memory stability
+    return math.exp(- time / s) / 20
+
 
 # from transition probabilities, generates (occ) sequences
 def generate(rng, tps, n_seq, occ_per_seq=16):
