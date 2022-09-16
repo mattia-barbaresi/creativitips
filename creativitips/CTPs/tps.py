@@ -37,7 +37,7 @@ class TPS:
                     if o in self.mem[h].keys():
                         self.mem[h][o]["weight"] += wg
                         # N.B. forgetting
-                        self.mem[h][o]["t"] += self.time
+                        self.mem[h][o]["t"] = self.time
                     else:
                         self.mem[h][o] = dict()
                         self.mem[h][o]["weight"] = wg
