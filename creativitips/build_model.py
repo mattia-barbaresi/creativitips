@@ -41,6 +41,6 @@ if __name__ == "__main__":
             cm.tps_units.normalize()
             results[iteration] = dict()
             results[iteration]["generated"] = cm.tps_units.generate_new_seqs(rng, min_len=100)
-            im = dict(sorted([(x, y) for x, y in cm.pars.mem.items()],
+            im = dict(sorted([(x, y["weight"]) for x, y in cm.pars.mem.items()],
                              key=lambda it: it[1], reverse=True))
             results[iteration]["mem"] = im
