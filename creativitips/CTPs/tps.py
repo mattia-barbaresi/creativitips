@@ -16,6 +16,8 @@ class TPS:
         self.le_rows = preprocessing.LabelEncoder()
         self.le_cols = preprocessing.LabelEncoder()
         self.state_entropies = {}
+        # for exponential forgetting
+        self.time = 0
 
     def encode(self, percept, wg=1.0):
         """
@@ -24,19 +26,24 @@ class TPS:
         :param percept could be a (i) string, or (ii) an (ordered, sequential) array of strings.
         In case (ii) TPs are counted between elements of the array (units), instead of between symbols
         """
+        self.time += 1
+
         if self.order > 0:
-            avg = 0
             for ii in range(self.order, len(percept)):
                 h = " ".join(percept[ii - self.order:ii])
                 # o = " ".join(percept[ii:ii + self.order])
                 o = " ".join(percept[ii:ii + 1])
                 if h in self.mem:
-                    if o in self.mem[h]:
-                        self.mem[h][o] += wg
+                    if o in self.mem[h].keys():
+                        self.mem[h][o]["weight"] += wg
+                        # N.B. forgetting
+                        self.mem[h][o]["t"] += self.time
                     else:
-                        self.mem[h][o] = wg
+                        self.mem[h][o] = dict()
+                        self.mem[h][o]["weight"] = wg
+                        self.mem[h][o]["t"] = self.time
                 else:
-                    self.mem[h] = {o: wg}
+                    self.mem[h] = {o: {"weight": wg, "t": self.time}}
         else:
             print("(TPmodule):Order must be grater than 1.")
 
@@ -50,11 +57,17 @@ class TPS:
         self.norm_mem = np.zeros((len(self.le_rows.classes_), len(self.le_cols.classes_)))
         for k, v in self.mem.items():
             for kk, vv in v.items():
-                self.norm_mem[self.le_rows.transform([k])[0]][self.le_cols.transform([kk])[0]] = vv
+                self.norm_mem[self.le_rows.transform([k])[0]][self.le_cols.transform([kk])[0]] = vv["weight"]
         # self.norm_mem = softmax(self.norm_mem, axis=1)
         self.norm_mem = utils.softmax(self.norm_mem)
 
-    def forget(self, uts, forget=0.05):
+    # calculate exponential forgetting
+    def calculateExp(self, init_time, s=10):
+        # r = e ^ (-t / s)
+        # s = memory stability
+        return math.exp(- (self.time - init_time) / s) / 20
+
+    def forget(self, uts):
         # for each transition
         hs = []
         for ii in range(self.order, len(uts)):
@@ -67,10 +80,9 @@ class TPS:
         for h, vs in self.mem.items():
             for o, v in vs.items():
                 if (h,o) not in hs and h != "START" and o != "END":
-                # if (h,o) not in hs:
-                    self.mem[h][o] -= forget
+                    self.mem[h][o]["weight"] -= self.calculateExp(v["t"])
 
-    def interfere(self, uts, interf=0.005, cleaning=False):
+    def interfere(self, uts, interf=0.005):
         # for each transition
         hs = []
         for ii in range(self.order, len(uts)):
@@ -81,12 +93,12 @@ class TPS:
             # interfer
             for k in self.mem[h].keys():
                 if k != o:
-                    self.mem[h][k] -= interf
+                    self.mem[h][k]["weight"] -= interf
 
     def cleaning(self):
         # cleaning
         for h, vs in self.mem.items():
-            for key in [k for k, v in vs.items() if v <= 0.0]:
+            for key in [k for k, v in vs.items() if v["weight"] <= 0.0]:
                 self.mem[h].pop(key)
         for key in [k for k, v in self.mem.items() if len(v) == 0]:
             self.mem.pop(key)
@@ -339,8 +351,7 @@ class TPS:
             h = " ".join(seq[ii - self.order:ii])
             o = " ".join(seq[ii:ii + 1])
             if h in self.mem and o in self.mem[h]:
-                # v = self.mem[h][o]
-                v = self.mem[h][o] / np.sum(list(self.mem[h].values()))  # forward TPs
+                v = self.mem[h][o]["weight"] / np.sum([v["weight"] for k,v in self.mem[h].items()])  # forward TPs
             else:
                 v = 0  # no encoded transition
             tps_seqs.append(v)  # TPS
@@ -353,9 +364,9 @@ class TPS:
             h = " ".join(seq[ii - self.order:ii])
             o = " ".join(seq[ii:ii + 1])
             if h in self.mem and o in self.mem[h]:
-                obs = self.mem[h][o]
-                ovs = np.sum(list([v[o] for k,v in self.mem.items() if o in v.keys() and h != k]))
-                exp = np.sum(list(self.mem[h].values())) + ovs
+                obs = self.mem[h][o]["weight"]
+                ovs = np.sum(list([v[o]["weight"] for k,v in self.mem.items() if o in v.keys() and h != k]))
+                exp = np.sum([v["weight"] for k, v in self.mem[h].items()]) + ovs
                 v = obs / exp  # forward MIs
             else:
                 v = 0  # no encoded transition
@@ -368,10 +379,11 @@ class TPS:
         init_keys = []
         init_values = []
         if "START" in self.mem:
-            tot = sum(self.mem["START"].values())  # used to normalize frequencies for utils.mc_choice()
+            # normalize freqs for utils.mc_choice()
+            tot = sum([v["weight"] for k, v in self.mem["START"].items()])
             for k,v in self.mem["START"].items():
                 init_keys.append(k)
-                init_values.append(v/tot)
+                init_values.append(v["weight"]/tot)
         else:
             print("no START found")
 
@@ -398,10 +410,11 @@ class TPS:
         init_keys = []
         init_values = []
         if "START" in self.mem:
-            tot = sum(self.mem["START"].values())  # used to normalize frequencies for utils.mc_choice()
+            # used to normalize frequencies for utils.mc_choice()
+            tot = sum([v["weight"] for k, v in self.mem["START"].items()])
             for k,v in self.mem["START"].items():
                 init_keys.append(k)
-                init_values.append(v/tot)
+                init_values.append(v["weight"]/tot)
         else:
             print("no START found")
 

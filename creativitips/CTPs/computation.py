@@ -39,16 +39,17 @@ class Computation:
         # print(" ------------------------------------------------------ ")
         # read percept as an array of units
         # active elements in mem shape perception
-        active_mem = dict((k, v) for k, v in self.pars.mem.items() if v >= self.t_mem)
+        active_mem = dict((k, v["weight"]) for k, v in self.pars.mem.items() if v["weight"] >= self.t_mem)
         # certain tps
         # tpc = self.tps_1.get_certain_units()
         # print("tpc1: ", tpc)
         # next nodes from last unit
         higher_mem = []
-        if self.old_p_units[-1] in self.tps_units.mem.keys():
-            higher_mem = list(u for u in self.tps_units.mem[self.old_p_units[-1]])
+        # if self.old_p_units[-1] in self.tps_units.mem.keys():
+        #     higher_mem = list(u for u in self.tps_units.mem[self.old_p_units[-1]])
+
         # interference could be applied for those units activated but not used (reinforced)!
-        # active_mem = dict((k, v) for k, v in pars.mem.items() if v >= 0.5)
+        # active_mem = dict((k, v) for k, v in pars.mem.items() if v["weight"] >= 0.5)
         units, action = utils.read_percept(self.rng, active_mem, s, old_seq=self.old_p,
                                            tps=self.tps_1, method=self.method, ulens=self.pars.ulens)
         self.actions.extend(action)
@@ -63,14 +64,12 @@ class Computation:
         # self.encode_patterns(self.old_p_units + units)
 
         # forgetting and interference
-        self.pars.forget_interf(self.rng, p, comps=units, forget=self.fogs, interfer=self.interf)
+        self.pars.forget_interf(self.rng, p, comps=units, interfer=self.interf)
 
         if "NFNI" not in self.method:
             # forgetting
             if "WF" in self.method:
-                self.tps_units.forget(self.old_p_units + units, forget=self.fogs)
-            elif "LF" in self.method:
-                self.tps_units.forget(self.old_p_units + units, forget=self.fogs/10)
+                self.tps_units.forget(self.old_p_units + units)
             # interference
             if "WI" in self.method:
                 self.tps_units.interfere(self.old_p_units + units, interf=self.interf)
