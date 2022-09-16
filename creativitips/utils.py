@@ -1,13 +1,9 @@
 import fnmatch
-import math
 import os
 import string
 from graphviz import Digraph
 import matplotlib.pyplot as plt
 import numpy as np
-# import networkx as nx
-# from networkx.drawing.nx_pydot import write_dot
-from matplotlib import cm
 
 
 def params_to_string(tps_method, tps_order, fogt, interf, t_mem):
@@ -65,7 +61,7 @@ def softmax(x):
     return f_x
 
 
-############################################################## INPUTs
+# ############################################################# INPUTs
 
 def read_input(fn, separator=""):
     sequences = []
@@ -521,14 +517,7 @@ def plot_tps_sequences(cm, gens, fi_dir=""):
     plt.close('all')
 
 
-############################################################## GENERATION
-
-# calculate exponential forgetting
-def calculateExp(time=1, s=10):
-    # r = e ^ (-t / s)
-    # s = memory stability
-    return math.exp(- time / s) / 20
-
+# ############################################################# GENERATION
 
 # from transition probabilities, generates (occ) sequences
 def generate(rng, tps, n_seq, occ_per_seq=16):
