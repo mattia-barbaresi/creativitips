@@ -16,6 +16,7 @@ if __name__ == "__main__":
     # with open("data/input.txt", "r") as fp:
     #     sequences = [list(line.strip()) for line in fp]
 
+    # num of repeated experiments
     n_iter = 1
     tot_mem = {}
 
@@ -23,11 +24,7 @@ if __name__ == "__main__":
         pars = Parser()
         sequences = utils.generate_Saffran_sequence(rng)
         # initialise syllables
-        # syllables = set()
-        # for sq in sequences:
-        #     syllables.update([" ".join(sq[_i:_i + 2]) for _i in range(0, len(sq), 2)])
-        # for sl in syllables:
-        #     pars.mem[sl] = w
+        # pars.init_syllables(sequences, w)
 
         for s in sequences:
             while len(s) > 0:

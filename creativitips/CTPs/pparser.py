@@ -1,3 +1,4 @@
+import math
 import re
 
 import utils
@@ -7,59 +8,20 @@ class Parser:
     """Class for PARSER: A Model for Word Segmentation
     Pierre Perruchet and Annie Vinter, 1998"""
 
-    def __init__(self, ulen=None, memory=None):
-        if memory is None:
-            memory = dict()
+    def __init__(self, ulen=None):
         if ulen is None:
             ulen = [2]
-        self.mem = memory
+        self.mem = dict()
         self.ulens = ulen
         # for exponential forgetting
         self.time = 0
 
-    # ##############################
-    # old stuff (needs refactoring):
-    #
-    # def get_units(self, pct, thr=1.0):
-    #     # list of units filtered with thr and then ordered by length
-    #     mems = sorted([x for x, y in self.mem.items() if y >= thr], key=lambda item: len(item), reverse=True)
-    #     us = self._get_unit_recursive(mems, pct)
-    #     # orders units
-    #     us = sorted(us, key=lambda x: pct.find(x))
-    #     return us
-    #
-    # def _get_unit_recursive(self, mem_items, pp):
-    #     res = []
-    #     if len(pp) <= 2:
-    #         res.append(pp)
-    #     else:
-    #         for s in mem_items:  # for each piece in mem
-    #             if s in pp:  # if the piece is in percept
-    #                 for pc in pp.split(s):
-    #                     if len(pc) <= 2:
-    #                         if len(pc) > 0:
-    #                             res.append(pc)
-    #                     else:
-    #                         for u in self._get_unit_recursive(mem_items, pc):
-    #                             res.append(u)
-    #                 res.append(s)
-    #                 break
-    #         # if no units were found
-    #         # if res = [] -> no chunks for pp
-    #         # if res = [c] -> either c is pp or c is a sub of pp
-    #         if len("".join(res)) != len(pp):
-    #             # create new components (bi-grams)
-    #             if len(res) == 0:
-    #                 # splits bi-grams
-    #                 lst = [pp[_i:_i + 2] for _i in range(0, len(pp), 2)]
-    #                 res = res + lst
-    #             else:
-    #                 for c in re.split("|".join(res), pp):
-    #                     if c:
-    #                         # splits bi-grams
-    #                         lst = [c[_i:_i + 2] for _i in range(0, len(c), 2)]
-    #                         res = res + lst
-    #     return res
+    def init_syllables(self, sequences, weight):
+        syllables = set()
+        for sq in sequences:
+            syllables.update([" ".join(sq[_i:_i + 2]) for _i in range(0, len(sq), 2)])
+        for sl in syllables:
+            self.mem[sl] = weight
 
     def read_percept(self, rng, sequence, threshold=1.0):
         """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
@@ -105,11 +67,17 @@ class Parser:
             self.mem[pct]["weight"] = weight
             self.mem[pct]["t"] = self.time
 
+    # calculate exponential forgetting
+    def calculateExp(self, init_time, s=10):
+        # r = e ^ (-t / s)
+        # s = memory stability
+        return math.exp(- (self.time - init_time) / s) / 20
+
     def forget_interf(self, rng, pct, comps=None, interfer=0.005):
         # forgetting
         for k, v in self.mem.items():
             if k != pct:
-                self.mem[k]["weight"] -= utils.calculateExp(self.time - v["t"])
+                self.mem[k]["weight"] -= self.calculateExp(v["t"])
 
         # interference
         uts = []
