@@ -190,8 +190,8 @@ def read_sequences(rng, fn):
         seqs = read_words("data/" + fn + ".txt")
     elif fn == "all_irish-notes_and_durations-abc" or fn == "bach_preludes" or fn == "ocarolan" or fn == "scottish":
         # split lines by space
-        # seqs = read_spaced("data/" + fn + ".txt")
-        seqs = convert_songs("data/" + fn + "/", fn)
+        seqs = read_spaced("data/" + fn + ".txt")
+        # seqs = convert_songs("data/" + fn + "/", fn)
     else:
         with open("data/{}.txt".format(fn), "r") as fp:
             # split lines char by char
