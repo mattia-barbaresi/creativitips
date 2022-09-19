@@ -63,9 +63,10 @@ class Computation:
         self.tps_units.encode(self.old_p_units + units)
         # self.encode_patterns(self.old_p_units + units)
 
-        # forgetting and interference
+        # forgetting and interference for parser
         self.pars.forget_interf(self.rng, p, comps=units, interfer=self.interf)
 
+        # forgetting and interference for tps
         if "NFNI" not in self.method:
             # forgetting
             if "WF" in self.method:
