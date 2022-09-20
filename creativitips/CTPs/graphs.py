@@ -89,7 +89,7 @@ class TPsGraph:
 
         plot_gra_from_nx(self.GG, filename=dir_name + "ggraph", render=True)
 
-    def generate_sequences(self, rand_gen, n_seq=20):
+    def generate_sequences(self, rand_gen, n_seq=20, min_len=100):
         res = []
         sn = self.get_class_from_node("START")
         if sn != -1:
@@ -98,7 +98,8 @@ class TPsGraph:
                 next = ""
                 # start nodes
                 sn = self.get_class_from_node("START")
-                while next != "END" and sn != -1:
+                itr = 0
+                while next != "END" and sn != -1 and itr <= min_len:
                     # get successors list and values
                     keys = list(self.GG.successors(sn))
                     if len(keys) == 0:
@@ -109,6 +110,7 @@ class TPsGraph:
                     next = rand_gen.choice(self.GG.nodes[next_c]["words"].split("/"))
                     if next != "END":
                         seq.append(next)
+                    itr += 1
                     sn = next_c
                 res.append(" ".join(seq))
         else:
