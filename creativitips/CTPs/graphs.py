@@ -78,9 +78,9 @@ class TPsGraph:
                 else:
                     self.GG.add_edge(pta[i][0],pta[i+1][0], weight=1.0)
                 self.GG.nodes[pta[i][0]]["label"] = "P" + str(pta[i][0])
-                self.GG.nodes[pta[i][0]]["words"] = "/".join([x for x in inverse_d[pta[i][0]]])
+                self.GG.nodes[pta[i][0]]["words"] = "|".join([x for x in inverse_d[pta[i][0]]])
                 self.GG.nodes[pta[i+1][0]]["label"] = "P" + str(pta[i+1][0])
-                self.GG.nodes[pta[i+1][0]]["words"] = "/".join([x for x in inverse_d[pta[i+1][0]]])
+                self.GG.nodes[pta[i+1][0]]["words"] = "|".join([x for x in inverse_d[pta[i+1][0]]])
         # normalize edges
         for n in self.GG.nodes:
             tot = sum([ew[2] for ew in self.GG.edges(n,data="weight")])
@@ -107,7 +107,7 @@ class TPsGraph:
                         break
                     values = [self.GG[sn][x]["weight"] for x in keys]
                     next_c = keys[utils.mc_choice(rand_gen, values)]
-                    next = rand_gen.choice(self.GG.nodes[next_c]["words"].split("/"))
+                    next = rand_gen.choice(self.GG.nodes[next_c]["words"].split("|"))
                     if next != "END":
                         seq.append(next)
                     itr += 1
