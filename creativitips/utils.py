@@ -188,7 +188,7 @@ def read_sequences(rng, fn):
         seqs = generate_miller(rng)
     elif fn == "isaac" or fn == "hello" or fn == "mediapipe":
         seqs = read_words("data/" + fn + ".txt")
-    elif fn == "all_irish-notes_and_durations-abc" or fn == "bach_preludes" or fn == "ocarolan" or fn == "scottish":
+    elif fn == "all_irish-notes_and_durations-abc" or fn == "bach_preludes" or fn == "ocarolan" or fn == "scottish" or fn == "bach_scot":
         # split lines by space
         seqs = read_spaced("data/" + fn + ".txt")
         # seqs = convert_songs("data/" + fn + "/", fn)
@@ -494,8 +494,43 @@ def plot_actions(actions, path="", show_fig=True):
         plt.show()
 
 
+def plot_actions2(actions, path="", show_fig=True):
+    nr = 0
+    nt = 0
+    nm = 0
+    tot = 0
+    resm = []
+    rest = []
+    resr = []
+    for a in actions:
+        tot += 1
+        if a == "mem":
+            nm += 1
+        elif a == "tps":
+            nt += 1
+        elif a == "rnd":
+            nr += 1
+        resm.append(nm / tot)
+        rest.append(nt / tot)
+        resr.append(nr / tot)
+    plt.clf()
+    plt.plot(resm, label="memory")
+    plt.plot(rest, label="tps")
+    plt.plot(resr, label="rnd")
+    plt.title('segmentation')
+    plt.xlabel('observations')
+    plt.ylabel('%')
+    plt.legend(loc="upper right")
+
+    if path:
+        plt.savefig(path + "actions2.pdf")
+    if show_fig:
+        plt.tight_layout()
+        plt.show()
+
+
 def plot_tps_sequences(cm, gens, fi_dir=""):
-    fig, axs = plt.subplots(3,1,figsize=(16,9), gridspec_kw={'height_ratios': [1, 1, 2]})
+    fig, axs = plt.subplots(3, 1, figsize=(16, 9), gridspec_kw={'height_ratios': [1, 1, 2]})
     axs[0].set_title("ftps")
     axs[1].set_title("mis")
     axs[2].axis('off')

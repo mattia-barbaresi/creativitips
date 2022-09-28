@@ -1,4 +1,5 @@
 """Module for creativity classes and functions"""
+import math
 
 import more_itertools as mit
 from creativitips import misc
@@ -96,4 +97,5 @@ def update(g_evals, G):
             v = float(G[sn][en]["v"]) if "v" in G[sn][en] else 0
             G[sn][en]["u"] = (u + val)/2  # u average (u mean)
             G[sn][en]["v"] = (v + abs(u - val))/2  # v average (u variability)
+            G[sn][en]["v"] = 1 - math.sqrt((u - val) ^ 2)  # v average (u variability)
     return G
