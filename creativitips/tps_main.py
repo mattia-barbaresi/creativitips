@@ -59,7 +59,7 @@ if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     rng = np.random.default_rng(const.RND_SEED)
 
-    file_names = ["input", "input2", "saffran", "thompson_newport",
+    file_names = ["input", "input2", "saffran", "thompson_newport", "reber",
                   "Onnis2003_L1_2","Onnis2003_L2_2","Onnis2003_L1_6","Onnis2003_L2_6",
                   "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
                   "all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
@@ -177,6 +177,7 @@ if __name__ == "__main__":
                             with open(fi_dir + "action.json", "w") as of:
                                 json.dump(cm.actions, of)
                             utils.plot_actions(cm.actions, path=fi_dir, show_fig=False)
+                            utils.plot_actions2(cm.actions, path=fi_dir, show_fig=False)
                             # print(tps_units.mem)
                             # utils.plot_gra(tps_units.mem)
 
