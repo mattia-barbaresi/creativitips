@@ -2,8 +2,21 @@
 import math
 
 import more_itertools as mit
-from creativitips import misc
+from creativitips import utils
 from difflib import SequenceMatcher
+
+
+def calculate_creativity(p,u,v):
+    cc = 0
+    if u == -1:
+        # v = 0 --> choose least probable
+        return 1.0 - p
+    elif p == 1:
+        return (1.0 - p) * u
+    elif v == 1:
+        return (1.0 - p) * u
+    else:
+        return (1.0 - p) * u * (1.0 - v)
 
 
 def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
@@ -14,7 +27,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
         # tot = sum([float(x[2]["label"]) for x in kg0.edges(data=True) if x[0] in kg0.successors("START")])
         for x, y, v in kg0.edges("START", data=True):
             init_keys.append(y)
-            c = (1 - float(v["p"])) * float(v["u"]) * (0.67 - float(v["v"]))
+            c = calculate_creativity(float(v["p"]), float(v["u"]), float(v["v"]))
             init_values.append(c)
     else:
         print("no START found")
@@ -25,7 +38,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
 
     for _ in range(n_seq):
         seq = []
-        _s = init_keys[misc.mc_choice(rand_gen, init_values)]  # choose rnd starting point (monte carlo)
+        _s = init_keys[utils.mc_choice(rand_gen, init_values)]  # choose rnd starting point (monte carlo)
         seq.append(_s)
         for _ in range(min_len):
             # succs = list(kg0.edges(_s, data=True))
@@ -36,7 +49,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
                 succs.append(y)
                 succs_values.append(float(v["p"]))
             if succs:
-                _s = succs[misc.mc_choice(rand_gen, succs_values)]
+                _s = succs[utils.mc_choice(rand_gen, succs_values)]
                 if _s != "END":
                     seq.append(_s)
         res.append(seq)
@@ -44,7 +57,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
     return res
 
 
-def evaluate(seqs):
+def evaluate_ad_hoc(seqs):
     vals = []
     for seq in seqs:
         sseq = "".join([_.replace(" ", "") for _ in seq])
@@ -96,6 +109,6 @@ def update(g_evals, G):
             u = float(G[sn][en]["u"]) if "u" in G[sn][en] else 0
             v = float(G[sn][en]["v"]) if "v" in G[sn][en] else 0
             G[sn][en]["u"] = (u + val)/2  # u average (u mean)
-            G[sn][en]["v"] = (v + abs(u - val))/2  # v average (u variability)
+            # G[sn][en]["v"] = (v + abs(u - val))/2  # v average (u variability)
             G[sn][en]["v"] = 1 - math.sqrt((u - val) ^ 2)  # v average (u variability)
     return G

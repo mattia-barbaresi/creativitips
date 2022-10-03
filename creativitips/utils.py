@@ -457,9 +457,9 @@ def plot_gra_from_normalized(tps, filename="", render=False, thresh=0.0):
                 lj = tps.le_cols.inverse_transform([j])[0]
                 p = tps.norm_mem[i][j]
                 if p == 1.0:
-                    gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="0", v="0", penwidth=str(3), color="red")
+                    gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="-1", v="0", penwidth=str(3), color="red")
                 else:
-                    gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="0", v="0", penwidth=str(3 * p))
+                    gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="-1", v="0", penwidth=str(3 * p))
     # print(gra.source)
     if render:
         gra.render(filename, view=False, engine="dot", format="pdf")
