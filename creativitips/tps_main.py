@@ -79,7 +79,7 @@ if __name__ == "__main__":
                 for interf in interferences:
                     for t_mem in thresholds_mem:
                         # init
-                        root_out_dir = const.OUT_DIR + "tps_results_no_mem_attention/" + \
+                        root_out_dir = const.OUT_DIR + "tps_results_no_chunking/" + \
                                        utils.params_to_string(tps_method, tps_order, fogt, interf, t_mem)
                         os.makedirs(root_out_dir, exist_ok=True)
 
