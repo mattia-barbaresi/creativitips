@@ -71,7 +71,7 @@ if __name__ == "__main__":
     interferences = [0.005]
     forgets = [0.05]
     tps_orders = [2]
-    methods = ["FTP_NFNI_exp"]  # MI, CT or BRENT, FTP
+    methods = ["FTP_NFNI","FTP_WFWI","FTP_WFLI","FTP_NFLI"]  # MI, CT or BRENT, FTP
 
     for tps_method in methods:
         for tps_order in tps_orders:
@@ -79,7 +79,7 @@ if __name__ == "__main__":
                 for interf in interferences:
                     for t_mem in thresholds_mem:
                         # init
-                        root_out_dir = const.OUT_DIR + "tps_results_expf/" + \
+                        root_out_dir = const.OUT_DIR + "tps_results_no_mem_attention/" + \
                                        utils.params_to_string(tps_method, tps_order, fogt, interf, t_mem)
                         os.makedirs(root_out_dir, exist_ok=True)
 

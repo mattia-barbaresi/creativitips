@@ -315,11 +315,11 @@ def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None,
             unit = (sorted(h_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
             # print("mem unit:", unit)
             action = "high_mem"
-        elif units_list:
-            # a unit in mem matched
-            unit = (sorted(units_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
-            print("mem unit:", unit)
-            action = "mem"
+        # elif units_list:
+        #     # a unit in mem matched
+        #     unit = (sorted(units_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
+        #     print("mem unit:", unit)
+        #     action = "mem"
         elif tps:
             if method == "BRENT":
                 unit = tps.get_next_unit_brent(s[:7], past=old_seq)
