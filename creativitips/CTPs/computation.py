@@ -53,6 +53,7 @@ class Computation:
         units, action = utils.read_percept(self.rng, active_mem, s, old_seq=self.old_p,
                                            tps=self.tps_1, method=self.method, ulens=self.pars.ulens)
         self.actions.extend(action)
+        # chunking
         p = " ".join(units)
 
         # encode units
