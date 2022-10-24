@@ -22,8 +22,8 @@ if __name__ == "__main__":
 
     for bb in range(0, n_iter):
         pars = Parser()
-        sequences = utils.generate_Saffran_sequence(rng)
-        sequences = utils.read_sequences(rng, "thompson_newport")
+        # sequences = utils.generate_Saffran_sequence(rng)
+        sequences = utils.read_sequences(rng, "thompson_newport_ABCDEF")
         # initialise syllables
         # syllables = set()
         # for sq in sequences:

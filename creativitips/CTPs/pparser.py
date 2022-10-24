@@ -54,23 +54,31 @@ class Parser:
     #                         res = res + lst
     #     return res
 
-    def read_percept(self, rng, sequence):
+    def read_percept(self, rng, sequence, threshold=1.0):
         """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
         res = []
         # number of units embedded in next percepts
-        i = rng.randint(low=1, high=4)
+        i = rng.integers(low=1, high=4)
         s = sequence
         while len(s) > 0 and i != 0:
-            units_list = [k for k,v in self.mem.items() if v > 0.9 and len(k) > 1 and s.startswith(k)]
+            units_list = [k for k,v in self.mem.items() if v > threshold and len(k) > 1 and " ".join(s).startswith(k)]
             if units_list:
                 # a unit in mem matched
-                unit = sorted(units_list, key=lambda item: len(item), reverse=True)[0]
+                unit = (sorted(units_list, key=lambda item: len(item), reverse=True)[0]).strip().split(" ")
                 print("unit shape perception:", unit)
             else:
-                return res
-            res.append(unit)
+                unit = s[:rng.choice(self.ulens)]
+
+            # check if last symbol
+            sf = s[len(unit):]
+            if len(sf) == 1:
+                unit += sf
+                print("added last:", unit)
+            res.append(" ".join(unit))
+            # print("final unit:", unit)
             s = s[len(unit):]
             i -= 1
+
         return res
 
     def add_weight(self, pct, comps=None, weight=1.0):
