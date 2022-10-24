@@ -23,6 +23,7 @@ if __name__ == "__main__":
     for bb in range(0, n_iter):
         pars = Parser()
         sequences = utils.generate_Saffran_sequence(rng)
+        sequences = utils.read_sequences(rng, "thompson_newport")
         # initialise syllables
         # pars.init_syllables(sequences, w)
 
