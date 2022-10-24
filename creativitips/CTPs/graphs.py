@@ -72,11 +72,11 @@ class TPsGraph:
             paths_to_add2.append([(self.get_class_from_node(nd), nd) for nd in path])
         for pta in paths_to_add2:
             for i in range(len(pta) - 1):
-                if self.GG.has_edge(pta[i][0],pta[i+1][0]):
-                    # self.GG.edges[pta[i][0],pta[i+1][0]]["weight"] += self.G[pta[i][1]][pta[i+1][1]]["weight"]
-                    self.GG.edges[pta[i][0],pta[i+1][0]]["weight"] += 1.0
+                if self.GG.has_edge(pta[i][0], pta[i+1][0]):
+                    # self.GG.edges[pta[i][0], pta[i+1][0]]["weight"] += self.G[pta[i][1]][pta[i+1][1]]["weight"]
+                    self.GG.edges[pta[i][0], pta[i+1][0]]["weight"] += 1.0
                 else:
-                    self.GG.add_edge(pta[i][0],pta[i+1][0], weight=1.0)
+                    self.GG.add_edge(pta[i][0], pta[i+1][0], weight=1.0)
                 self.GG.nodes[pta[i][0]]["label"] = "P" + str(pta[i][0])
                 self.GG.nodes[pta[i][0]]["words"] = "|".join([x for x in inverse_d[pta[i][0]]])
                 self.GG.nodes[pta[i+1][0]]["label"] = "P" + str(pta[i+1][0])
