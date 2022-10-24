@@ -59,19 +59,20 @@ if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     rng = np.random.default_rng(const.RND_SEED)
 
-    file_names = ["input", "input2", "saffran", "thompson_newport", "reber",
-                  "Onnis2003_L1_2","Onnis2003_L2_2","Onnis2003_L1_6","Onnis2003_L2_6",
-                  "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
-                  "all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
+    # file_names = ["input", "input2", "saffran", "thompson_newport", "reber",
+    #               "Onnis2003_L1_2","Onnis2003_L2_2","Onnis2003_L1_6","Onnis2003_L2_6",
+    #               "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
+    #               "all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
 
-    # file_names = ["input", "input2", "saffran", "thompson_newport"]
+    file_names = ["thompson_newport_ABCDEF"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
     interferences = [0.005]
     forgets = [0.05]
     tps_orders = [2]
-    methods = ["FTP_NFNI","FTP_WFWI","FTP_WFLI","FTP_NFLI"]  # MI, CT or BRENT, FTP
+    methods = ["FTP_WFWI"]  # MI, CT or BRENT, FTP
+    # methods = ["FTP_NFNI","FTP_WFWI","FTP_WFLI","FTP_NFLI"]  # MI, CT or BRENT, FTP
 
     for tps_method in methods:
         for tps_order in tps_orders:
@@ -79,7 +80,7 @@ if __name__ == "__main__":
                 for interf in interferences:
                     for t_mem in thresholds_mem:
                         # init
-                        root_out_dir = const.OUT_DIR + "tps_results_no_chunking/" + \
+                        root_out_dir = const.OUT_DIR + "tps_results_expf/" + \
                                        utils.params_to_string(tps_method, tps_order, fogt, interf, t_mem)
                         os.makedirs(root_out_dir, exist_ok=True)
 
@@ -235,8 +236,8 @@ if __name__ == "__main__":
                             print("plotting tps units...")
                             utils.plot_gra_from_normalized(cm.tps_units, filename=fi_dir + "tps_units",
                                                            thresh=plot_thresh, render=True)
-                            # print("plotting tps symbols...")
-                            # utils.plot_gra_from_normalized(cm.tps_1, filename=fi_dir + "tps_symbols",
-                            #                                thresh=plot_thresh, render=True)
+                            print("plotting tps symbols...")
+                            utils.plot_gra_from_normalized(cm.tps_1, filename=fi_dir + "tps_symbols",
+                                                           thresh=plot_thresh, render=False)
 
     print("END..")
