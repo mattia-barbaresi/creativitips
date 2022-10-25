@@ -4,13 +4,14 @@
 ____________________________
 
 ### Main modules (in creativitips.CTPs):
-- pparser.py (implementation of PARSER)
-- tps.py (modul for tracking Transitional Probabilities)
+- **pparser.py** (implementation of PARSER)
+- **tps.py** (modul for tracking Transitional Probabilities)
+- **computation.py** (for computing sequences iteratively: using previous modules)
 
 
 ### Entry points:
-- parser_main: for experiments using PARSER only
-- tps_main: for experimentsd combining TPs and PARSER mehcanisms
+- **parser_main.py**: for experiments using PARSER only
+- **tps_main.py**: for experimentsd combining TPs and PARSER mehcanisms
 
 ____________________________
 
@@ -29,10 +30,11 @@ ____________________________
 - Inference and error-driven learning
 - Multi-modal integration
 
+
 --------------------------------
 
 #### Local dist steps:
-build a package:
+build the package:
 
 `pip install .`
 
