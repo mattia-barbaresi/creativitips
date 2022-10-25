@@ -11,8 +11,7 @@ from sklearn.utils.extmath import randomized_svd
 class Computation:
     """Implements computation module for compute sequences in iteration"""
 
-    def __init__(self, rng, order=2, weight=1.0, interference=0.001, forgetting=0.05,
-                 mem_thres=1.0, unit_len=None, method="BRENT"):
+    def __init__(self, rng, order=2, weight=1.0, interference=0.001, mem_thres=1.0, unit_len=None, method="BRENT"):
 
         if not unit_len:
             unit_len = [2, 3]
@@ -26,7 +25,6 @@ class Computation:
         self.order = order
         self.t_mem = mem_thres
         self.interf = interference
-        self.fogs = forgetting
         self.actions = []
         self.state_entropies = {}
         self.old_p = []

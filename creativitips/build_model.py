@@ -23,8 +23,7 @@ if __name__ == "__main__":
     start_time = datetime.now()
 
     # init module for computation
-    cm = Computation(rng, order=tps_order, weight=const.WEIGHT, interference=interf,
-                     forgetting=forget, mem_thres=t_mem, unit_len=const.ULENS, method=tps_method)
+    cm = Computation(rng, order=tps_order, weight=const.WEIGHT, interference=interf, mem_thres=t_mem, unit_len=const.ULENS, method=tps_method)
 
     for iteration, s in enumerate(sequences):
         fis = True
