@@ -59,12 +59,12 @@ if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     rng = np.random.default_rng(const.RND_SEED)
 
-    # file_names = ["input", "input2", "saffran", "thompson_newport", "reber",
+    # file_names = ["input", "input2", "saffran", "thompson_newport", "thompson_newport_ABCDEF", "reber",
     #               "Onnis2003_L1_2","Onnis2003_L2_2","Onnis2003_L1_6","Onnis2003_L2_6",
     #               "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
     #               "all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
 
-    file_names = ["thompson_newport_ABCDEF"]
+    file_names = ["all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
@@ -80,7 +80,7 @@ if __name__ == "__main__":
                 for interf in interferences:
                     for t_mem in thresholds_mem:
                         # init
-                        root_out_dir = const.OUT_DIR + "tps_results_expf/" + \
+                        root_out_dir = const.OUT_DIR + "tps_results_exp_no_chunk_paper_0.3/" + \
                                        utils.params_to_string(tps_method, tps_order, fogt, interf, t_mem)
                         os.makedirs(root_out_dir, exist_ok=True)
 
@@ -114,7 +114,7 @@ if __name__ == "__main__":
 
                             # init module for computation
                             cm = Computation(rng, order=tps_order, weight=const.WEIGHT, interference=interf,
-                                             forgetting=fogt, mem_thres=t_mem, unit_len=const.ULENS, method=tps_method)
+                                             mem_thres=t_mem, unit_len=const.ULENS, method=tps_method)
 
                             for iteration, s in enumerate(sequences):
                                 fis = True
@@ -200,7 +200,7 @@ if __name__ == "__main__":
                             # generalization
                             # if input is a single array (as original saffran) the next command loops forever
                             # for the presence of cycles in the graph
-                            gen_paths = cm.tps_units.generate_paths(rng, n_paths=20, min_len=50)
+                            gen_paths = cm.tps_units.generate_paths(rng, n_paths=30, min_len=50)
                             if gen_paths:
                                 print("generalizing ...")
                                 cm.generalize(fi_dir, gen_paths)
@@ -223,8 +223,9 @@ if __name__ == "__main__":
 
                             print("plotting memory...")
                             # plot memory chunks
-                            om = dict(sorted([(x, y["weight"]) for x, y in cm.pars.mem.items()][:30], key=lambda _i: _i[1],
-                                             reverse=True))
+                            om = dict(sorted([(x, y["weight"]) for x, y in cm.pars.mem.items()
+                                              if y["weight"] >= t_mem][:30],
+                                             key=lambda _i: _i[1], reverse=True))
                             utils.plot_mem(om, fi_dir + "words_plot.png", save_fig=True, show_fig=False)
 
                             # setting threshold for plotting

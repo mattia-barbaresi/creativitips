@@ -208,7 +208,7 @@ class TPS:
                     #     print("tps unit: ", percept[:(self.order - len(past)) + ii])
                     #     return percept[:(self.order - len(past)) + ii]
                     # or break on a deap
-                    if tps_seqs[ii] > (tps_seqs[ii + 1] + 0.2):  # insert a break
+                    if tps_seqs[ii] > (tps_seqs[ii + 1] + 0.3):  # insert a break
                         print("tps unit: ", percept[:(self.order - len(past)) + ii + 1])
                         return percept[:(self.order - len(past)) + ii + 1]
 
