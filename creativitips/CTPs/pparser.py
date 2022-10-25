@@ -59,13 +59,13 @@ class Parser:
                 self.mem[u] = dict()
                 self.mem[u]["weight"] = weight
                 self.mem[u]["t"] = self.time
-        # add weight to  entire percept, chunking
-        if pct in self.mem:
-            self.mem[pct]["weight"] += weight
-        else:
-            self.mem[pct] = dict()
-            self.mem[pct]["weight"] = weight
-            self.mem[pct]["t"] = self.time
+        # add weight to  entire percept (chunking)
+        # if pct in self.mem:
+        #     self.mem[pct]["weight"] += weight
+        # else:
+        #     self.mem[pct] = dict()
+        #     self.mem[pct]["weight"] = weight
+        #     self.mem[pct]["t"] = self.time
 
     # calculate exponential forgetting
     def calculateExp(self, init_time, s=10):
