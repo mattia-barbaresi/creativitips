@@ -1,30 +1,23 @@
 # ISL and Creativity - A production-oriented model
-## Segmentation and Chunking using Transitional Probabilities and attentional mechanisms
+## Segmentation, Chunking and creative generations
 
 ____________________________
-### Dependencies:
-- pymc
-- pygraphviz
 
-### Some key parameters that alter results the most:
-
-- **fogetting**
-- **memory activation**
-- **interference**
-- the size of data:
-    - for a short-term memory, a lot of (different) data create messy representations.
+### Main modules (in creativitips.CTPs):
+- pparser.py (implementation of PARSER)
+- tps.py (modul for tracking Transitional Probabilities)
 
 
-##### TODOs:
-- TPS:
-  - deleting normalization of memories 
-  - (interference or softmax?): calculating tps with interference (incremental, on-line, not with softmax (normalized)
+### Entry points:
+- parser_main: for experiments using PARSER only
+- tps_main: for experimentsd combining TPs and PARSER mehcanisms
 
-
+____________________________
 
 ### Issues: 
 - segmentation: TPS (forward, backward, MI)??
-- chunking: with or without TPS? using MDL?
+- segmentation: with or without chunking?
+- chunking: with or without TPS as cues? what about using MDL instead?
 - abstraction/generalization: (algebraic patterns?)
 - creative generation, using **Simonton's formula**: how to make it converge faster?
 
@@ -37,12 +30,16 @@ ____________________________
 - Multi-modal integration
 
 --------------------------------
-##### Local dist steps:
+
+#### Local dist steps:
 build a package:
-- `pip install .`
-- `python setup.py sdist`
+
+`pip install .`
+
+`python setup.py sdist`
 
 Then (inside new project's venv):
+
 `pip install [FULL_PATH_TO_DIST]/creativitips-[VERS].tar.gz`
 
 
