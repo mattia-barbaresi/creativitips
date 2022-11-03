@@ -20,7 +20,6 @@ class Computation:
         self.method = method
         self.tps_1 = TPS(order)  # memory for TPs between symbols
         self.tps_units = TPS(1)  # memory for TPs between units
-        self.graph = TPsGraph()  # memory for tree representation
         self.weight = weight
         self.order = order
         self.t_mem = mem_thres
@@ -91,11 +90,6 @@ class Computation:
         self.tps_1.encode(self.old_p + ["END"])
         self.tps_units.encode(self.old_p_units + ["END"])
         return ["END"]
-
-    def generalize(self, out_dir, gens):
-        # self.tps_units.normalize()
-        self.graph = TPsGraph(self.tps_units)
-        self.graph.generalize(out_dir, gens)
 
 
 class Embedding:
