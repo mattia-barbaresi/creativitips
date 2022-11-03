@@ -8,3 +8,6 @@ ULENS = [2, 3]
 TPS_ORDER = 1
 OUT_DIR = "data/out/"
 EXAMPLES_OUT_DIR = "./out/"
+GRAPH_SEP = " | "
+STM_DECAY_RATE = 1000
+LTM_DECAY_RATE = 100
