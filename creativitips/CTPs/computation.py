@@ -1,5 +1,5 @@
-from creativitips import utils
-from creativitips.CTPs.graphs import TPsGraph
+from plotly.matplotlylib.mplexporter.utils import iter_all_children
+
 from creativitips.CTPs.tps import TPS
 from creativitips.CTPs.pparser import Parser
 import matplotlib.pyplot as plt
@@ -29,62 +29,144 @@ class Computation:
         self.old_p = []
         self.old_p_units = []
 
-    def compute(self, s, first_in_seq):
-        if first_in_seq:
-            self.old_p = ["START"]
-            self.old_p_units = ["START"]
-        # print(" ------------------------------------------------------ ")
-        # read percept as an array of units
-        # active elements in mem shape perception
-        active_mem = dict((k, v["weight"]) for k, v in self.pars.mem.items() if v["weight"] >= self.t_mem)
+    def read_percept(self, sequence):
         # certain tps
         # tpc = self.tps_1.get_certain_units()
         # print("tpc1: ", tpc)
+
         # next nodes from last unit
+        # interference could be applied for those units activated but not used (reinforced)!
         higher_mem = []
         # if self.old_p_units[-1] in self.tps_units.mem.keys():
         #     higher_mem = list(u for u in self.tps_units.mem[self.old_p_units[-1]])
 
-        # interference could be applied for those units activated but not used (reinforced)!
-        # active_mem = dict((k, v) for k, v in pars.mem.items() if v["weight"] >= 0.5)
-        units, action = utils.read_percept(self.rng, active_mem, s, old_seq=self.old_p,
-                                           tps=self.tps_1, method=self.method, ulens=self.pars.ulens)
-        self.actions.extend(action)
-        # chunking
-        p = " ".join(units)
+        active_mem = dict((k, v["weight"]) for k, v in self.pars.mem.items() if v["weight"] >= self.t_mem)
+        """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
+        ulens = self.pars.ulens
+        if ulens is None:
+            ulens = [2]  # default like parser (bigrams)
+        old_seq = self.old_p
+        res = []
+        # number of units embedded in next percepts
+        i = self.rng.integers(low=1, high=4)
+        s = sequence
+        actions = []
+        while len(s) > 0 and i != 0:
+            action = ""
+            unit = []
+            # units_list = [(k,v) for k,v in mem.items() if s.startswith(k)]
+            units_list = [k for k in active_mem.keys() if " ".join(s).startswith(k)]
+            h_list = []
+            # if higher_list:
+            #     h_list = [k for k in higher_list if " ".join(s).startswith(k)]
+            # action = ""
+            # if len(s) <= max(ulens):
+            #     unit = s
+            #     action = "end"
+            # el
+            if h_list:
+                unit = (sorted(h_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
+                # print("mem unit:", unit)
+                action = "high_mem"
+            elif units_list:
+                # a unit in mem matched
+                unit = (sorted(units_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
+                print("mem unit:", unit)
+                action = "mem"
+            elif self.tps_1:
+                if "BRENT" in self.method:
+                    unit = self.tps_1.get_next_unit_brent(s[:5], past=old_seq)
+                elif "CT" in self.method:
+                    unit = self.tps_1.get_next_certain_unit(s[:5], past=old_seq)
+                elif "MI" in self.method:
+                    unit = self.tps_1.get_next_unit_mi(s[:5], past=old_seq)
+                elif "BTP" in self.method:
+                    unit = self.tps_1.get_next_unit_btps(s[:5], past=old_seq)
+                elif "AVG" in self.method:
+                    unit = self.tps_1.get_next_unit_with_AVG(s[:5], past=old_seq)
+                else:  # if TPS
+                    unit = self.tps_1.get_next_unit_ftps(s[:5], past=old_seq)
+                action = "tps"
 
-        # encode units
-        self.pars.encode(p, units, weight=self.weight)
-        self.tps_1.encode(self.old_p + p.strip().split(" "))
-        # self.tps_2.encode(self.old_p + p.strip().split(" "))
-        # self.tps_3.encode(self.old_p + p.strip().split(" "))
-        self.tps_units.encode(self.old_p_units + units)
-        # self.encode_patterns(self.old_p_units + units)
+            # if no unit found, pick at random length
+            if not unit:
+                # unit = s[:2]  # add Parser basic components (bigram/syllable)..
+                # random unit
+                unit = s[:self.rng.choice(ulens)]
+                print("random unit:", unit)
+                action = "rnd"
 
-        # forgetting and interference for parser
-        self.pars.forget_interf(self.rng, p, comps=units, interfer=self.interf)
+            # check if last symbol
+            sf = s[len(unit):]
+            if len(sf) == 1:
+                unit += sf
+                print("added last:", unit)
+            # if self.tps_1:
+            #     self.tps_1.update_avg(self.tps_1.get_ftps_sequence(old_seq + unit))
+            res.append(" ".join(unit))
+            actions.append(action)
+            # print("final unit:", unit)
+            s = s[len(unit):]
+            # for calculating next unit with tps
+            old_seq = unit
+            i -= 1
 
-        # forgetting and interference for tps
-        if "NFNI" not in self.method:
-            # forgetting
-            if "WF" in self.method:
-                self.tps_units.forget(self.old_p_units + units)
-            # interference
-            if "WI" in self.method:
-                self.tps_units.interfere(self.old_p_units + units, interf=self.interf)
-            elif "LI" in self.method:
-                self.tps_units.interfere(self.old_p_units + units, interf=self.interf/10)
+        return res, actions
 
-            self.tps_units.cleaning()
+    def compute(self, sequences):
+        for s in sequences:
+            self.old_p = ["START"]
+            self.old_p_units = ["START"]
 
-        # generalization step
-        # self.graph.encode(units)
+            while len(s) > 0:
+                # --------------- COMPUTE ---------------
 
-        # save past for tps and tps units
-        self.old_p = p.strip().split(" ")[-self.order:]
-        self.old_p_units = units[-1:]
+                # compute next percept
+                units, action = self.read_percept(s)
+                self.actions.extend(action)
+                p = " ".join(units)
 
-        return p, units
+                # encode units
+                self.pars.encode(p, units, weight=self.weight)
+                self.tps_1.encode(self.old_p + p.strip().split(" "))
+                # self.tps_2.encode(self.old_p + p.strip().split(" "))
+                # self.tps_3.encode(self.old_p + p.strip().split(" "))
+                self.tps_units.encode(self.old_p_units + units)
+                # self.encode_patterns(self.old_p_units + units)
+
+                # forgetting and interference for parser
+                self.pars.forget_interf(self.rng, p, comps=units, interfer=self.interf)
+
+                # forgetting and interference for tps
+                if "NFNI" not in self.method:
+                    # forgetting
+                    if "WF" in self.method:
+                        self.tps_units.forget(self.old_p_units + units)
+                    # interference
+                    if "WI" in self.method:
+                        self.tps_units.interfere(self.old_p_units + units, interf=self.interf)
+                    elif "LI" in self.method:
+                        self.tps_units.interfere(self.old_p_units + units, interf=self.interf/10)
+
+                    self.tps_units.cleaning()
+
+                # generalization step
+                # self.graph.encode(units)
+
+                # save past for tps and tps units
+                self.old_p = p.strip().split(" ")[-self.order:]
+                self.old_p_units = units[-1:]
+                # update s
+                s = s[len(p.strip().split(" ")):]
+
+            # compute last
+            self.tps_1.encode(self.old_p + ["END"])
+            self.tps_units.encode(self.old_p_units + ["END"])
+
+            # --------------- GENERATE ---------------
+            # if iteration % 5 == 1:
+            #     results[iteration] = dict()
+            #     utils.generate_seqs(rng, cm, results[iteration])
 
     def compute_last(self):
         self.tps_1.encode(self.old_p + ["END"])

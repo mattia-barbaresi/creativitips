@@ -287,77 +287,6 @@ def generate_miller(rng, nm="L1"):
     return res
 
 
-def read_percept(rng, mem, sequence, higher_list=None, old_seq=None, ulens=None, tps=None, method=""):
-    """Return next percept in sequence as an ordered array of units in mem or components (bigrams)"""
-    if ulens is None:
-        ulens = [2]  # default like parser (bigrams)
-    if not old_seq:
-        old_seq = []
-    res = []
-    # number of units embedded in next percepts
-    i = rng.integers(low=1, high=4)
-    s = sequence
-    actions = []
-    while len(s) > 0 and i != 0:
-        action = ""
-        unit = []
-        # units_list = [(k,v) for k,v in mem.items() if s.startswith(k)]
-        units_list = [k for k in mem.keys() if " ".join(s).startswith(k)]
-        h_list = []
-        # if higher_list:
-        #     h_list = [k for k in higher_list if " ".join(s).startswith(k)]
-        # action = ""
-        # if len(s) <= max(ulens):
-        #     unit = s
-        #     action = "end"
-        # el
-        if h_list:
-            unit = (sorted(h_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
-            # print("mem unit:", unit)
-            action = "high_mem"
-        elif units_list:
-            # a unit in mem matched
-            unit = (sorted(units_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
-            print("mem unit:", unit)
-            action = "mem"
-        elif tps:
-            if method == "BRENT":
-                unit = tps.get_next_unit_brent(s[:7], past=old_seq)
-            elif method == "CT":
-                unit = tps.get_next_certain_unit(s[:7], past=old_seq)
-            elif method == "MI":
-                unit = tps.get_next_unit_mi(s[:7], past=old_seq)
-            else:  # if TPS
-                unit = tps.get_next_unit(s[:7], past=old_seq)
-                # unit = tps.get_next_unit_with_AVG(s[:7], past=old_seq)
-            action = "tps"
-
-        # if no unit found, pick at random length
-        if not unit:
-            # unit = s[:2]  # add Parser basic components (bigram/syllable)..
-            # random unit
-            unit = s[:rng.choice(ulens)]
-            print("random unit:", unit)
-            action = "rnd"
-
-        # check if last symbol
-        sf = s[len(unit):]
-        if len(sf) == 1:
-            unit += sf
-            print("added last:", unit)
-        if tps:
-            tps.update_avg(tps.get_ftps_sequence(old_seq + unit))
-        res.append(" ".join(unit))
-        actions.append(action)
-        # print("final unit:", unit)
-        s = s[len(unit):]
-        # for calculating next unit with tps
-        old_seq = unit
-        i -= 1
-
-    return res, actions
-
-
 class Encoder:
     """Class for encoding input"""
 
@@ -433,16 +362,6 @@ def plot_gra(d, filename="tps"):
     gra.render(filename, view=True)
 
 
-def plot_nx_creativity(G, filename="tps", ):
-    gra = Digraph()
-    for k, v, d in G.edges(data=True):
-        # gra.edge(k, v, label="{:.2f}-{:.2f}-{:.2f}".format(float(d["p"]),float(d["u"]),float(d["v"])))
-        c = (1 - float(d["p"])) * float(d["u"]) * (0.67 - float(d["v"]))
-        gra.edge(k, v, label="{:.2f} ({:.2f},{:.2f},{:.2f})".format(c, float(d["p"]), float(d["u"]), float(d["v"])))
-    print(gra.source)
-    gra.render(filename, view=True)
-
-
 def plot_gra_from_normalized(tps, filename="", render=False, thresh=0.0):
     gra = Digraph()  # comment='Normalized TPS'
     added = set()
@@ -456,10 +375,10 @@ def plot_gra_from_normalized(tps, filename="", render=False, thresh=0.0):
             if tps.norm_mem[i][j] > thresh:
                 lj = tps.le_cols.inverse_transform([j])[0]
                 p = tps.norm_mem[i][j]
-                if p == 1.0:
-                    gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="-1", v="0", penwidth=str(3), color="red")
-                else:
-                    gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="-1", v="0", penwidth=str(3 * p))
+                # if p == 1.0:
+                #     gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="-1", v="0", penwidth=str(3), color="red")
+                # else:
+                gra.edge(li, lj, label="{:.3f}".format(p), p=str(p), u="-1", v="0", penwidth=str(3 * p))
     # print(gra.source)
     if render:
         gra.render(filename, view=False, engine="dot", format="pdf")

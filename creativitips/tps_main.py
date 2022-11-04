@@ -10,7 +10,6 @@ from creativitips import const
 from creativitips.CTPs.computation import Computation
 from creativitips.CTPs.graphs import TPsGraph
 
-
 # NOTES: more iterations over the same input enhance resulting model!
 # def elaborate(file_in="", dir_out=""):
 #     print("processing {} series ...".format(file_in))
@@ -64,14 +63,14 @@ if __name__ == "__main__":
     #               "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
     #               "all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
 
-    file_names = ["all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
+    file_names = ["all_irish-notes_and_durations-abc"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
     interferences = [0.005]
     forgets = [0.05]
     tps_orders = [2]
-    methods = ["FTP_WFWI"]  # MI, CT or BRENT, FTP
+    methods = ["FTP_WFWI","AVG_WFWI","FTP_NFWI","AVG_NFWI"]  # MI, CT or BRENT, FTP
     # methods = ["FTP_NFNI","FTP_WFWI","FTP_WFLI","FTP_NFLI"]  # MI, CT or BRENT, FTP
 
     for tps_method in methods:
@@ -80,8 +79,10 @@ if __name__ == "__main__":
                 for interf in interferences:
                     for t_mem in thresholds_mem:
                         # init
-                        root_out_dir = const.OUT_DIR + "tps_results_exp_no_chunk_paper_0.3/" + \
-                                       utils.params_to_string(tps_method, tps_order, fogt, interf, t_mem)
+                        # root_out_dir = const.OUT_DIR + "tps_results" \
+                        root_out_dir = const.OUT_DIR + "tps_results_NC_" + str(const.STM_DECAY_RATE) + "_" + str(
+                            const.LTM_DECAY_RATE) \
+                                       + "/" + utils.params_to_string(tps_method, tps_order, fogt, interf, t_mem)
                         os.makedirs(root_out_dir, exist_ok=True)
 
                         with open(root_out_dir + "params.txt", "w") as of:
@@ -93,13 +94,13 @@ if __name__ == "__main__":
                                 "weight": const.WEIGHT,
                                 "lens": const.ULENS,
                                 "tps_order": tps_order,
+                                "parser_decay_rate": const.STM_DECAY_RATE,
+                                "tps_decay_rate": const.LTM_DECAY_RATE,
                             }, of)
 
                         for fn in file_names:
                             print("processing {} series ...".format(fn))
-                            # init
                             fi_dir = root_out_dir + "{}/".format(fn)
-
                             try:
                                 os.makedirs(fi_dir, exist_ok=False)
                             except (Exception,):
@@ -116,21 +117,9 @@ if __name__ == "__main__":
                             cm = Computation(rng, order=tps_order, weight=const.WEIGHT, interference=interf,
                                              mem_thres=t_mem, unit_len=const.ULENS, method=tps_method)
 
-                            for iteration, s in enumerate(sequences):
-                                fis = True
-                                while len(s) > 0:
-                                    # --------------- COMPUTE ---------------
-                                    # compute next percept
-                                    p, units = cm.compute(s, first_in_seq=fis)
-                                    fis = False
-                                    # update s
-                                    s = s[len(p.strip().split(" ")):]
-                                cm.compute_last()
-
-                                # --------------- GENERATE ---------------
-                                # if iteration % 5 == 1:
-                                #     results[iteration] = dict()
-                                #     utils.generate_seqs(rng, cm, results[iteration])
+                            # --------------- COMPUTE ---------------
+                            # compute next percept
+                            cm.compute(sequences)
 
                             # class form on graph
                             # dc = fc.distributional_context(fc_seqs, 3)
@@ -144,6 +133,11 @@ if __name__ == "__main__":
                             # normalizes memories
                             cm.tps_1.normalize()
                             cm.tps_units.normalize()
+
+                            # calculate states uncertainty
+                            cm.tps_1.compute_states_entropy()
+                            cm.tps_units.compute_states_entropy()
+
                             # embedding chunks
                             # emb_le = preprocessing.LabelEncoder()
                             # emb_le.fit(list(cm.tps_units.le_rows.classes_) + list(cm.tps_units.le_cols.classes_))
@@ -160,10 +154,6 @@ if __name__ == "__main__":
                             # wem = Embedding(emb_matrix)
                             # wem.compute(emb_le)
 
-                            # calculate states uncertainty
-                            cm.tps_1.compute_states_entropy()
-                            cm.tps_units.compute_states_entropy()
-
                             # generate sample sequences
                             gens = cm.tps_units.generate_new_seqs(rng, min_len=100)
                             print("gens: ", gens)
@@ -171,12 +161,15 @@ if __name__ == "__main__":
                             # save results
                             with open(fi_dir + "results.json", "w") as of:
                                 json.dump(results, of)
+
                             # save generated
                             with open(fi_dir + "generated.json", "w") as of:
                                 json.dump(gens, of)
+
                             # save actions
                             with open(fi_dir + "action.json", "w") as of:
                                 json.dump(cm.actions, of)
+
                             utils.plot_actions(cm.actions, path=fi_dir, show_fig=False)
                             # print(tps_units.mem)
                             # utils.plot_gra(tps_units.mem)
@@ -184,33 +177,28 @@ if __name__ == "__main__":
                             # save tps
                             with open(fi_dir + "tps_units.json", "w") as of:
                                 json.dump(cm.tps_units.mem, of)
-
                             with open(fi_dir + "tps.json", "w") as of:
                                 json.dump(cm.tps_1.mem, of)
 
-                            graph = TPsGraph(cm.tps_units)
-                            # graph.form_classes()
-                            # graph.draw_graph(out_dir + "nxGraph.dot")
-                            cl_form = graph.cf_by_sim_rank()
-                            print("class form: ", cl_form)
-                            with open(fi_dir + "classes.json", "w") as of:
-                                json.dump(list(cl_form), of)
-                            # graph.get_communities()
-
                             # generalization
-                            # if input is a single array (as original saffran) the next command loops forever
-                            # for the presence of cycles in the graph
-                            gen_paths = cm.tps_units.generate_paths(rng, n_paths=30, min_len=50)
+                            ggraph = TPsGraph(tps=cm.tps_units)
+                            gen_paths = cm.tps_units.generate_paths(rng, n_paths=100, min_len=50)
                             if gen_paths:
                                 print("generalizing ...")
-                                cm.generalize(fi_dir, gen_paths)
-                            print("generating with generalized graph ...")
+                                # self.tps_units.normalize()
+                                ggraph.generalize(fi_dir, gen_paths)
+                                # cm.generalize(fi_dir, gen_paths)
+
                             # generate sample sequences from generalized graph
-                            gg_gens = cm.graph.generate_sequences(rng)
+                            print("generating with generalized graph ...")
+                            gg_gens = ggraph.generate_sequences(rng)
+                            # gg_gens = ggraph.generate_creative_sequences(rng)
                             print("gg_gens: ", gg_gens)
+
                             # save generated
                             with open(fi_dir + "ggen.json", "w") as of:
                                 json.dump(gg_gens, of)
+
                             # plot tps
                             # utils.plot_tps_sequences(cm, [" ".join(x) for x in sequences[:20]], fi_dir)
                             if gens:
@@ -221,8 +209,8 @@ if __name__ == "__main__":
                                     print(it, vl)
                                 print("----------")
 
-                            print("plotting memory...")
                             # plot memory chunks
+                            print("plotting memory...")
                             om = dict(sorted([(x, y["weight"]) for x, y in cm.pars.mem.items()
                                               if y["weight"] >= t_mem][:30],
                                              key=lambda _i: _i[1], reverse=True))
@@ -230,9 +218,9 @@ if __name__ == "__main__":
 
                             # setting threshold for plotting
                             plot_thresh = 0.0
-                            if fn == "all_songs_in_G" or fn == "all_irish-notes_and_durations-abc"\
+                            if fn == "all_songs_in_G" or fn == "all_irish-notes_and_durations-abc" \
                                     or fn == "scottish" or fn == "ocarolan":
-                                plot_thresh = 0.099
+                                plot_thresh = 0.009
 
                             print("plotting tps units...")
                             utils.plot_gra_from_normalized(cm.tps_units, filename=fi_dir + "tps_units",
