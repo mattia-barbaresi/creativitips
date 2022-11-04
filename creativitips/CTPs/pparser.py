@@ -1,6 +1,7 @@
 import math
 import re
 
+import const
 import utils
 
 
@@ -67,10 +68,27 @@ class Parser:
         #     self.mem[pct]["weight"] = weight
         #     self.mem[pct]["t"] = self.time
 
+    def encode(self, p, units, weight=1.0):
+        self.time += 1
+        # add entire percept
+        if len(p.strip().split(" ")) <= max(self.ulens):
+            # p is a unit, a primitive
+            if p in self.mem:
+                self.mem[p]["weight"] += weight / 2
+                # N.B. forgetting
+                self.mem[p]["t"] = self.time
+            else:
+                self.mem[p] = dict()
+                self.mem[p]["weight"] = weight
+                self.mem[p]["t"] = self.time
+        else:
+            self.add_weight(p, comps=units, weight=weight)
+
     # calculate exponential forgetting
-    def calculateExp(self, init_time, s=10):
+    def calculateExp(self, init_time, s=const.STM_DECAY_RATE):
         # r = e ^ (-t / s)
         # s = memory stability
+        # return 0.05
         return math.exp(- (self.time - init_time) / s) / 20
 
     def forget_interf(self, rng, pct, comps=None, interfer=0.005):
@@ -100,19 +118,3 @@ class Parser:
         # cleaning
         for key in [k for k,v in self.mem.items() if v["weight"] <= 0.0]:
             self.mem.pop(key)
-
-    def encode(self, p, units, weight=1.0):
-        self.time += 1
-        # add entire percept
-        if len(p.strip().split(" ")) <= max(self.ulens):
-            # p is a unit, a primitive
-            if p in self.mem:
-                self.mem[p]["weight"] += weight / 2
-                # N.B. forgetting
-                self.mem[p]["t"] = self.time
-            else:
-                self.mem[p] = dict()
-                self.mem[p]["weight"] = weight
-                self.mem[p]["t"] = self.time
-        else:
-            self.add_weight(p, comps=units, weight=weight)
