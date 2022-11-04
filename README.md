@@ -1,7 +1,5 @@
 # ISL and Creativity - A production-oriented model
-## Segmentation, Chunking and creative generations
-
-____________________________
+## Segmentation, Chunking, Attention and Creative generations
 
 ### Main modules (in creativitips.CTPs):
 - **pparser.py** (implementation of PARSER)
@@ -11,16 +9,18 @@ ____________________________
 
 ### Entry points:
 - **parser_main.py**: for experiments using PARSER only
-- **tps_main.py**: for experimentsd combining TPs and PARSER mehcanisms
+- **tps_main.py**: for experiments combining TPs and PARSER mechanisms
 
 ____________________________
 
 ### Issues: 
-- segmentation: TPS (forward, backward, MI)??
-- segmentation: with or without chunking?
-- chunking: with or without TPS as cues? what about using MDL instead?
-- abstraction/generalization: (algebraic patterns?)
-- creative generation, using **Simonton's formula**: how to make it converge faster?
+- segmentation 
+  - TPS (forward, backward, MI). How to select the right one??
+  - With or without chunking?
+- chunking
+  - with or without TPS as cues? what about using MDL instead?
+- abstraction and generalization:
+  - algebraic patterns for abstraction?
 
 
 ### What's next?
@@ -31,17 +31,22 @@ ____________________________
 - Multi-modal integration
 
 
---------------------------------
+[//]: # (--------------------------------)
 
-#### Local dist steps:
-build the package:
+[//]: # (#### Local dist steps:)
 
-`pip install .`
+[//]: # (build the package:)
 
-`python setup.py sdist`
+[//]: # ()
+[//]: # (`pip install .`)
 
-Then (inside new project's venv):
+[//]: # ()
+[//]: # (`python setup.py sdist`)
 
-`pip install [FULL_PATH_TO_DIST]/creativitips-[VERS].tar.gz`
+[//]: # ()
+[//]: # (Then &#40;inside new project's venv&#41;:)
+
+[//]: # ()
+[//]: # (`pip install [FULL_PATH_TO_DIST]/creativitips-[VERS].tar.gz`)
 
 
