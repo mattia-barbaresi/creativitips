@@ -1,6 +1,8 @@
 import math
 import numpy as np
 from sklearn import preprocessing
+
+import const
 from creativitips import utils
 
 
@@ -13,6 +15,7 @@ class TPS:
         self.order = ordr
         self.n_percepts = 0
         self.totTPS = 0.0
+        # encoding
         self.le_rows = preprocessing.LabelEncoder()
         self.le_cols = preprocessing.LabelEncoder()
         self.state_entropies = {}
@@ -37,7 +40,7 @@ class TPS:
                     if o in self.mem[h].keys():
                         self.mem[h][o]["weight"] += wg
                         # N.B. forgetting
-                        self.mem[h][o]["t"] = self.time
+                        # self.mem[h][o]["t"] = self.time
                     else:
                         self.mem[h][o] = dict()
                         self.mem[h][o]["weight"] = wg
@@ -62,9 +65,9 @@ class TPS:
         self.norm_mem = utils.softmax(self.norm_mem)
 
     # calculate exponential forgetting
-    def calculateExp(self, init_time, s=10):
+    def calculateExp(self, init_time, s=const.LTM_DECAY_RATE):
         # r = e ^ (-t / s)
-        # s = memory stability
+        # s = memory stability, greater the value, shorter the term
         return math.exp(- (self.time - init_time) / s) / 20
 
     def forget(self, uts):
@@ -79,17 +82,18 @@ class TPS:
         # forget
         for h, vs in self.mem.items():
             for o, v in vs.items():
-                if (h,o) not in hs and h != "START" and o != "END":
+                # if (h,o) not in hs and h != "START" and o != "END":
+                if (h,o) not in hs:
                     self.mem[h][o]["weight"] -= self.calculateExp(v["t"])
 
     def interfere(self, uts, interf=0.005):
         # for each transition
-        hs = []
+        # hs = []
         for ii in range(self.order, len(uts)):
             h = " ".join(uts[ii - self.order:ii])
             # o = " ".join(uts[ii:ii + self.order])
             o = " ".join(uts[ii:ii + 1])
-            hs.append((h, o))
+            # hs.append((h, o))
             # interfer
             for k in self.mem[h].keys():
                 if k != o:
@@ -190,7 +194,7 @@ class TPS:
                 res.append(k + " " + next(iter(self.mem[k])))
         return res
 
-    def get_next_unit(self, percept, past=None):
+    def get_next_unit_ftps(self, percept, past=None):
         # if order = 1 no past required
         if self.order > 1 and past:
             past = past[-self.order:]
@@ -203,10 +207,31 @@ class TPS:
                 # print("percept: ", percept)
                 # print("tps_seqs: ", tps_seqs)
                 for ii in range(len(tps_seqs)-1):
-                    # break on a peak
-                    # if tps_seqs[ii] < (tps_seqs[ii + 1] + 0.2):  # insert a break
-                    #     print("tps unit: ", percept[:(self.order - len(past)) + ii])
-                    #     return percept[:(self.order - len(past)) + ii]
+                    # or break on a deap
+                    if tps_seqs[ii] > (tps_seqs[ii + 1] + 0.25):  # insert a break
+                        print("tps unit: ", percept[:(self.order - len(past)) + ii + 1])
+                        return percept[:(self.order - len(past)) + ii + 1]
+
+            else:
+                print("(TPmodule):Order grater than percept length. Percept is too short.")
+        else:
+            print("(TPmodule):Order must be grater than 1.")
+
+        return []
+
+    def get_next_unit_btps(self, percept, past=None):
+        # if order = 1 no past required
+        if self.order > 1 and past:
+            past = past[-self.order:]
+        else:
+            past = []
+        pp_seq = past + percept
+        if self.order > 0:
+            if self.order < len(pp_seq):
+                tps_seqs = self.get_btps_sequence(pp_seq)
+                # print("percept: ", percept)
+                # print("tps_seqs: ", tps_seqs)
+                for ii in range(len(tps_seqs) - 1):
                     # or break on a deap
                     if tps_seqs[ii] > (tps_seqs[ii + 1] + 0.3):  # insert a break
                         print("tps unit: ", percept[:(self.order - len(past)) + ii + 1])
@@ -240,11 +265,10 @@ class TPS:
             if self.order < len(pp_seq):
                 tps_seqs = self.get_ftps_sequence(pp_seq)
                 avgTP = sum(tps_seqs)/len(tps_seqs)
-                # print("percept: ", percept)
-                # print("tps_seqs: ", tps_seqs)
                 if sum(tps_seqs) > 0:
-                    for ii in range(1, len(tps_seqs)-1):
-                        if tps_seqs[ii] < avgTP:  # insert a break
+                    for ii in range(1, len(tps_seqs)):
+                        if tps_seqs[ii-1] > avgTP > tps_seqs[ii]:  # insert a break
+                            # print("avg unit: ", " ".join(pp_seq), " ".join([str(x) for x in tps_seqs]), " -> ", avgTP)
                             print("tps unit: ", percept[:(self.order - len(past)) + ii])
                             return percept[:(self.order - len(past)) + ii]
 
@@ -275,11 +299,11 @@ class TPS:
                 tps_seqs = self.get_ftps_sequence(pp_seq)
                 # print("pp_seq: ", pp_seq)
                 # print("tps_seqs: ", tps_seqs)
-                tps_seqs = [float('inf')] + tps_seqs + [float('inf')]  # for segmenting first/last pos too
+                # tps_seqs = [float('inf')] + tps_seqs + [float('inf')]  # for segmenting first/last pos too
                 for ii in range(1, len(tps_seqs) - 1):
                     if tps_seqs[ii - 1] > tps_seqs[ii] < tps_seqs[ii + 1]:  # insert a break
-                        print("tps unit: ", percept[:(self.order - len(past)) + ii - 1])
-                        return percept[:(self.order - len(past)) + ii - 1]
+                        print("tps unit: ", percept[:(self.order - len(past)) + ii])
+                        return percept[:(self.order - len(past)) + ii]
 
             else:
                 print("(TPmodule):Order grater than percept length. Percept is too short.")
@@ -358,14 +382,32 @@ class TPS:
             # print("{}-{} = {}".format(h, o, v))
         return tps_seqs
 
+    def get_btps_sequence(self, seq):
+        tps_seqs = []
+        for ii in range(self.order, len(seq)):
+            h = " ".join(seq[ii - self.order:ii])
+            o = " ".join(seq[ii:ii + 1])
+            if h in self.mem and o in self.mem[h]:
+                # X -> o ==> X <- o
+                ovs = np.sum(list([v[o]["weight"] for k, v in self.mem.items() if o in v.keys() and h != k]))
+                v = self.mem[h][o]["weight"] / ovs  # forward MIs
+            else:
+                v = 0  # no encoded transition
+            tps_seqs.append(v)  # TPS
+            # print("{}-{} = {}".format(h, o, v))
+        return tps_seqs
+
     def get_mis_sequence(self, seq):
         tps_seqs = []
         for ii in range(self.order, len(seq)):
             h = " ".join(seq[ii - self.order:ii])
             o = " ".join(seq[ii:ii + 1])
             if h in self.mem and o in self.mem[h]:
+                # h -> o
                 obs = self.mem[h][o]["weight"]
+                # X -> o ==> X <- o
                 ovs = np.sum(list([v[o]["weight"] for k,v in self.mem.items() if o in v.keys() and h != k]))
+                # tot: h -> Y + X -> o
                 exp = np.sum([v["weight"] for k, v in self.mem[h].items()]) + ovs
                 v = obs / exp  # forward MIs
             else:
