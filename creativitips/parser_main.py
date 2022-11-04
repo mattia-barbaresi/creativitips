@@ -22,11 +22,10 @@ if __name__ == "__main__":
 
     for bb in range(0, n_iter):
         pars = Parser()
-        sequences = utils.generate_Saffran_sequence(rng)
-        sequences = utils.read_sequences(rng, "thompson_newport")
+        # sequences = utils.read_sequences(rng, "saffran")
+        sequences = utils.generate_Saffran_sequence_single_array(rng)
         # initialise syllables
         # pars.init_syllables(sequences, w)
-
         for s in sequences:
             while len(s) > 0:
                 # read percept as an array of units
@@ -38,7 +37,6 @@ if __name__ == "__main__":
                 # forgetting and interference
                 pars.forget_interf(rng, p, comps=units, interfer=i)
                 s = s[len(p.strip().split(" ")):]
-
         for k, v in pars.mem.items():
             if k in tot_mem.keys():
                 tot_mem[k] += v["weight"]
@@ -48,6 +46,7 @@ if __name__ == "__main__":
     # calculate mean
     for k, v in tot_mem.items():
         tot_mem[k] = v / n_iter
-    ord_mem = dict(sorted([(x, y) for x, y in tot_mem.items()], key=lambda item: item[1], reverse=True)[:30])
+    ord_mem = dict(sorted([(x, y) for x, y in tot_mem.items() if y >= threshold],
+                          key=lambda item: item[1], reverse=True))
     os.makedirs(out_dir, exist_ok=True)
     utils.plot_mem(ord_mem, fig_name=out_dir + "parser_exp_forg.png", save_fig=True, show_fig=False)

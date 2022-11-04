@@ -5,10 +5,13 @@ import networkx as nx
 from networkx.algorithms import community
 
 import utils
+import const
 
 
 class TPsGraph:
-    def __init__(self, tps=None, thresh=0.0):
+    """Store a Digraph G to be generalized, to discover form classes.
+     Calling #generalize() results in the DiGraph GG"""
+    def __init__(self, tps=None, graph=None, thresh=0.0):
         self.p_index = 0
         self.fc = dict()
         self.G = nx.DiGraph()
@@ -31,6 +34,8 @@ class TPsGraph:
                                             label="{:.3f}".format(tps.norm_mem[i][j]), penwidth="2", color="red")
                         else:
                             self.G.add_edge(li, lj, weight=tps.norm_mem[i][j], label="{:.3f}".format(tps.norm_mem[i][j]))
+        elif graph:
+            self.G = graph.copy()
 
     def draw_g_graph(self, filename):
         nx.draw_networkx(self.GG)
@@ -42,9 +47,9 @@ class TPsGraph:
 
     def cf_by_sim_rank(self, tsh=0.5):
         # sim class using ingoing
-        inw = nx.algorithms.similarity.simrank_similarity(self.G)
+        inw = nx.algorithms.similarity.simrank_similarity(self.G, importance_factor=0.9)
         # sim class using outgoing
-        otw = nx.algorithms.similarity.simrank_similarity(self.G.reverse())
+        otw = nx.algorithms.similarity.simrank_similarity(self.G.reverse(), importance_factor=0.9)
         cl_form = set()
         for k, v in inw.items():
             tt1 = set(k2 for k2, v2 in v.items() if v2 > tsh)
@@ -78,9 +83,9 @@ class TPsGraph:
                 else:
                     self.GG.add_edge(pta[i][0], pta[i+1][0], weight=1.0)
                 self.GG.nodes[pta[i][0]]["label"] = "P" + str(pta[i][0])
-                self.GG.nodes[pta[i][0]]["words"] = "|".join([x for x in inverse_d[pta[i][0]]])
+                self.GG.nodes[pta[i][0]]["words"] = const.GRAPH_SEP.join([x for x in inverse_d[pta[i][0]]])
                 self.GG.nodes[pta[i+1][0]]["label"] = "P" + str(pta[i+1][0])
-                self.GG.nodes[pta[i+1][0]]["words"] = "|".join([x for x in inverse_d[pta[i+1][0]]])
+                self.GG.nodes[pta[i+1][0]]["words"] = const.GRAPH_SEP.join([x for x in inverse_d[pta[i+1][0]]])
         # normalize edges
         for n in self.GG.nodes:
             tot = sum([ew[2] for ew in self.GG.edges(n,data="weight")])
@@ -107,7 +112,7 @@ class TPsGraph:
                         break
                     values = [self.GG[sn][x]["weight"] for x in keys]
                     next_c = keys[utils.mc_choice(rand_gen, values)]
-                    next = rand_gen.choice(self.GG.nodes[next_c]["words"].split("|"))
+                    next = rand_gen.choice(self.GG.nodes[next_c]["words"].split(const.GRAPH_SEP))
                     if next != "END":
                         seq.append(next)
                     itr += 1
@@ -152,9 +157,10 @@ def plot_gra_from_nx(graph, filename="", render=False):
     gra = Digraph()  # comment='Normalized TPS'
 
     for li in graph.nodes():
-        gra.node(str(li), label="{} ({})".format(graph.nodes[li]["label"], graph.nodes[li]["words"]))
+        gra.node(str(li), label=graph.nodes[li]["words"])
     for x,y,attr in graph.edges(data=True):
-        gra.edge(str(x), str(y), label="{:.3f}".format(attr["weight"]), weight=str(attr["weight"]))
+        p = attr["weight"]
+        gra.edge(str(x), str(y), label="{:.3f}".format(p), p=str(p), u="-1", v="0", penwidth=str(3 * p))
     # print(gra.source)
     if render:
         gra.render(filename, view=False, engine="dot", format="pdf")
