@@ -8,7 +8,6 @@ from pparser import Parser
 if __name__ == "__main__":
     out_dir = const.OUT_DIR + "parser_results/"
     os.makedirs(out_dir, exist_ok=True)
-    rng = np.random.default_rng(33)
     threshold = 1.0
     w = 1.0
     i = 0.005
@@ -22,6 +21,7 @@ if __name__ == "__main__":
     #     sequences = [list(line.strip()) for line in fp]
 
     for fn in file_names:
+        rng = np.random.default_rng(33)
         # num of repeated experiments
         n_iter = 1
         tot_mem = {}

@@ -56,22 +56,21 @@ from creativitips.CTPs.graphs import TPsGraph
 if __name__ == "__main__":
 
     np.set_printoptions(linewidth=np.inf)
-    rng = np.random.default_rng(const.RND_SEED)
 
-    # file_names = ["input", "input2", "saffran", "thompson_newport", "thompson_newport_ABCDEF", "reber",
+    # file_names = ["input", "input2", "input_full", "input2_full", "saffran", "thompson_newport", "thompson_newport_ABCDEF", "reber",
     #               "Onnis2003_L1_2","Onnis2003_L2_2","Onnis2003_L1_6","Onnis2003_L2_6",
     #               "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
     #               "all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
 
-    file_names = ["all_irish-notes_and_durations-abc"]
+    file_names = ["input", "input2"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
     interferences = [0.005]
     forgets = [0.05]
     tps_orders = [2]
-    methods = ["FTP_WFWI","AVG_WFWI","FTP_NFWI","AVG_NFWI"]  # MI, CT or BRENT, FTP
-    # methods = ["FTP_NFNI","FTP_WFWI","FTP_WFLI","FTP_NFLI"]  # MI, CT or BRENT, FTP
+    # methods = ["AVG_WFWI"]  # MI, CT or BRENT, FTP
+    methods = ["FTP_NFWI", "AVG_NFWI", "FTP_NFWI", "AVG_NFWI"]  # MI, CT or BRENT, FTP
 
     for tps_method in methods:
         for tps_order in tps_orders:
@@ -79,9 +78,9 @@ if __name__ == "__main__":
                 for interf in interferences:
                     for t_mem in thresholds_mem:
                         # init
-                        # root_out_dir = const.OUT_DIR + "tps_results" \
-                        root_out_dir = const.OUT_DIR + "tps_results_NC_" + str(const.STM_DECAY_RATE) + "_" + str(
-                            const.LTM_DECAY_RATE) \
+                        rng = np.random.default_rng(const.RND_SEED)
+                        root_out_dir = const.OUT_DIR + "tps_results_" + str(const.STM_DECAY_RATE) \
+                                       + "_" + str(const.LTM_DECAY_RATE) \
                                        + "/" + utils.params_to_string(tps_method, tps_order, fogt, interf, t_mem)
                         os.makedirs(root_out_dir, exist_ok=True)
 
@@ -118,7 +117,7 @@ if __name__ == "__main__":
                                              mem_thres=t_mem, unit_len=const.ULENS, method=tps_method)
 
                             # --------------- COMPUTE ---------------
-                            # compute next percept
+                            # compute series
                             cm.compute(sequences)
 
                             # class form on graph
@@ -182,11 +181,11 @@ if __name__ == "__main__":
 
                             # generalization
                             ggraph = TPsGraph(tps=cm.tps_units)
-                            gen_paths = cm.tps_units.generate_paths(rng, n_paths=100, min_len=50)
+                            gen_paths = cm.tps_units.generate_paths(rng, n_paths=50, min_len=50)
                             if gen_paths:
                                 print("generalizing ...")
                                 # self.tps_units.normalize()
-                                ggraph.generalize(fi_dir, gen_paths)
+                                ggraph.generalize(fi_dir, gen_paths, render=False)
                                 # cm.generalize(fi_dir, gen_paths)
 
                             # generate sample sequences from generalized graph
@@ -212,21 +211,24 @@ if __name__ == "__main__":
                             # plot memory chunks
                             print("plotting memory...")
                             om = dict(sorted([(x, y["weight"]) for x, y in cm.pars.mem.items()
-                                              if y["weight"] >= t_mem][:30],
-                                             key=lambda _i: _i[1], reverse=True))
+                                              if y["weight"] >= t_mem][:30], key=lambda _i: _i[1], reverse=True))
                             utils.plot_mem(om, fi_dir + "words_plot.png", save_fig=True, show_fig=False)
 
                             # setting threshold for plotting
                             plot_thresh = 0.0
                             if fn == "all_songs_in_G" or fn == "all_irish-notes_and_durations-abc" \
                                     or fn == "scottish" or fn == "ocarolan":
-                                plot_thresh = 0.009
+                                plot_thresh = 0.01
 
                             print("plotting tps units...")
-                            utils.plot_gra_from_normalized(cm.tps_units, filename=fi_dir + "tps_units",
-                                                           thresh=plot_thresh, render=True)
+                            utils.plot_gra_from_normalized(cm.tps_units,
+                                                           filename=fi_dir + "tps_units",
+                                                           thresh=plot_thresh,
+                                                           render=False)
                             print("plotting tps symbols...")
-                            utils.plot_gra_from_normalized(cm.tps_1, filename=fi_dir + "tps_symbols",
-                                                           thresh=plot_thresh, render=False)
+                            utils.plot_gra_from_normalized(cm.tps_1,
+                                                           filename=fi_dir + "tps_symbols",
+                                                           thresh=plot_thresh,
+                                                           render=False)
 
     print("END..")

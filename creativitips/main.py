@@ -8,7 +8,6 @@ import numpy as np
 import creativity as ct
 
 np.set_printoptions(linewidth=np.inf)
-rng = np.random.default_rng(const.RND_SEED)
 
 # file_names = ["input", "input2", "saffran", "thompson_newport", "reber", "all_songs_in_G",
 #               "all_irish-notes_and_durations", "cello", "bach_compact"]
@@ -30,6 +29,7 @@ for ltmp in ltm:
                 for interf in interferences:
                     for forg in forgets:
                         for t_mem in thresholds_mem:
+                            rng = np.random.default_rng(const.RND_SEED)
                             # read input model
                             file_dir_in = "tps_results_" + str(const.STM_DECAY_RATE) + "_" + str(ltmp) \
                                           + "/" + utils.params_to_string(method, order, forg, interf, t_mem) + file_name + "/"
