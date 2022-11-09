@@ -60,22 +60,15 @@ class TPsGraph:
                 cl_form.add(tt)
         return sorted(cl_form)
 
-    def generalize(self, dir_name, gens):
+    def generalize(self, dir_name, gens, render=False):
         inverse_d = dict()
         for i, x in enumerate(self.cf_by_sim_rank()):
             self.fc[x] = i
             inverse_d[i] = x
-        # paths_to_add = []
-        paths_to_add2 = []
-        # if "START" in self.G.nodes():
-        #     for path in nx.all_simple_paths(self.G, source="START", target="END"):
-        #         # collect converted labels
-        #         paths_to_add.append([self.get_class_from_node(nd) for nd in path])
-        # else:
-        #     print("node START not found in graph G")
+        paths_to_add = []
         for path in gens:
-            paths_to_add2.append([(self.get_class_from_node(nd), nd) for nd in path])
-        for pta in paths_to_add2:
+            paths_to_add.append([(self.get_class_from_node(nd), nd) for nd in path])
+        for pta in paths_to_add:
             for i in range(len(pta) - 1):
                 if self.GG.has_edge(pta[i][0], pta[i+1][0]):
                     # self.GG.edges[pta[i][0], pta[i+1][0]]["weight"] += self.G[pta[i][1]][pta[i+1][1]]["weight"]
@@ -92,7 +85,7 @@ class TPsGraph:
             for u,v,ww in self.GG.edges(n,data="weight"):
                 self.GG[u][v]["weight"] = ww/tot
 
-        plot_gra_from_nx(self.GG, filename=dir_name + "ggraph", render=True)
+        plot_gra_from_nx(self.GG, filename=dir_name + "ggraph", render=render)
 
     def generate_sequences(self, rand_gen, n_seq=20, min_len=100):
         res = []
@@ -123,7 +116,7 @@ class TPsGraph:
         return res
 
     def get_class_from_node(self, node_name):
-        for cl,l in self.fc.items():
+        for cl, l in self.fc.items():
             if node_name in cl:
                 return l
         return -1
@@ -154,14 +147,15 @@ class TPsGraph:
 
 
 def plot_gra_from_nx(graph, filename="", render=False):
+    print("Plotting ggraph..")
     gra = Digraph()  # comment='Normalized TPS'
-
     for li in graph.nodes():
         gra.node(str(li), label=graph.nodes[li]["words"])
     for x,y,attr in graph.edges(data=True):
         p = attr["weight"]
         gra.edge(str(x), str(y), label="{:.3f}".format(p), p=str(p), u="-1", v="0", penwidth=str(3 * p))
     # print(gra.source)
+
     if render:
         gra.render(filename, view=False, engine="dot", format="pdf")
         os.rename(filename, filename + '.dot')
