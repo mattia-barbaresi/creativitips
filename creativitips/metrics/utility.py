@@ -25,7 +25,7 @@ def utility_kl(melody, allowed_intervals):
     interval_hist = np.histogram(intervals, bins=mybins, density=True)
     Q = np.array(rhist[0])
     P = np.array(interval_hist[0])
-    kl = sum(rel_entr(P, Q))
+    kl = sum(rel_entr(Q, P))
     return 1.0 / (kl + 1)
 
 
