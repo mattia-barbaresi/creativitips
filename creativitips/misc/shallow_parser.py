@@ -1,12 +1,26 @@
-from ccg_nlpy import remote_pipeline
+from ccg_nlpy import local_pipeline
+pipeline = local_pipeline.LocalPipeline()
 
-pipeline = remote_pipeline.RemotePipeline()
-doc = pipeline.doc("the naughty dog chased the cat alone")
-sp = " || ".join(x["tokens"] for x in doc.get_shallow_parse.cons_list)
-print(sp)
+file_in = "../data/br_text.txt"
+file_out = "../data/out/br_text.txt"
 
-# from ccg_nlpy import local_pipeline
-# pipeline = local_pipeline.LocalPipeline()
-#
-# document = [ ["Hi", "!"], ["How", "are", "you", "?"] ]
-# doc = pipeline.doc(document, pretokenized=True)
+with open(file_in, "r") as fpi:
+    with open(file_out, "w") as fpo:
+        for line in fpi.readlines():
+            doc = pipeline.doc(line, pretokenized=False)
+            # tks = list(x["tokens"] for x in doc.get_shallow_parse.cons_list)
+            tks = " || ".join(x["tokens"] for x in doc.get_shallow_parse.cons_list)
+            fpo.write(tks + "\n")
+
+
+# doc = pipeline.doc("The dog chase the cat", pretokenized=False)
+# sp = list(x["tokens"] for x in doc.get_shallow_parse.cons_list)
+# print(sp)
+
+# from ccg_nlpy import remote_pipeline
+# 
+# pipeline = remote_pipeline.RemotePipeline()
+# doc = pipeline.doc("the naughty dog chased the cat alone")
+# sp = " || ".join(x["tokens"] for x in doc.get_shallow_parse.cons_list)
+# print(sp)
+
