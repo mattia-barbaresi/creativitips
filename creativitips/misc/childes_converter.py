@@ -5,7 +5,6 @@ import const
 
 rootdir = const.CHILDES_REPO
 outdir = "../data/CHILDES_converted/"
-punctuation = string.punctuation
 
 for subdir, dirs, files in os.walk(rootdir):
     for file in files:
@@ -23,14 +22,15 @@ for subdir, dirs, files in os.walk(rootdir):
                     # get rid of special chars!!
                     # if lpt != "." or lpt != "?":
                     #     print("sdsdsfds: ", lpt)
+                    line = line.replace("	"," ")
                     ss = " ".join(re.sub(r'\[[^()]*\]', '', line).split())
+                    ss = " ".join(re.sub(r'\<[^()]*\>', '', ss).split())
                     ss = " ".join(re.sub(r'\[^()]*\', '', ss).split())
                     pcs = ss.replace("„","").replace("+...","").replace("‡","").replace("_"," ")\
                         .replace("xxx","").replace("+//","").replace("+/","").split()
-                    ss = " ".join(pcs[1:-1])
+                    ss = " ".join(pcs[1:-1]).replace("  ", " ")
 
-                    nl = ss.translate(str.maketrans('', '', punctuation))\
-                        .replace("	"," ").strip()
+                    nl = ss.translate(str.maketrans('', '', string.punctuation)).strip()
                     if len(nl.strip()) > 0:
                         new_lines.append(" ".join([pcs[0], nl, pcs[-1]]) + "\n")
 
