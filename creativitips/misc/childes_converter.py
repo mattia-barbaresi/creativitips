@@ -1,10 +1,12 @@
 import os
 import string
+import re
+import const
 
-rootdir = "./data/Anne/"
-outdir = "./data/Anne_converted/"
-
+rootdir = const.CHILDES_REPO
+outdir = "../data/CHILDES_converted/"
 punctuation = string.punctuation
+
 for subdir, dirs, files in os.walk(rootdir):
     for file in files:
         if '.cha' in file:
@@ -18,8 +20,23 @@ for subdir, dirs, files in os.walk(rootdir):
             new_lines = []
             for line in lines:
                 if line.startswith("*"):
-                    new_lines.append("*"+line.translate(str.maketrans('', '', punctuation)).replace("	"," "))
+                    # get rid of special chars!!
+                    # if lpt != "." or lpt != "?":
+                    #     print("sdsdsfds: ", lpt)
+                    ss = " ".join(re.sub(r'\[[^()]*\]', '', line).split())
+                    ss = " ".join(re.sub(r'\[^()]*\', '', ss).split())
+                    pcs = ss.replace("„","").replace("+...","").replace("‡","").replace("_"," ")\
+                        .replace("xxx","").replace("+//","").replace("+/","").split()
+                    ss = " ".join(pcs[1:-1])
+
+                    nl = ss.translate(str.maketrans('', '', punctuation))\
+                        .replace("	"," ").strip()
+                    if len(nl.strip()) > 0:
+                        new_lines.append(" ".join([pcs[0], nl, pcs[-1]]) + "\n")
 
             if new_lines:
-                with open(outdir + new_file,"w") as fp:
+                vals = "/".join(subdir.split("/")[-1].split("\\"))
+                fout = outdir + vals
+                os.makedirs(fout, exist_ok=True)
+                with open(fout + "/" + new_file,"w") as fp:
                     fp.writelines(new_lines)
