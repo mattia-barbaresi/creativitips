@@ -13,10 +13,10 @@
 *CHI: do it on the floor .
 *MOT: I will .
 *MOT: right .
-*CHI: right I]
+*CHI: right .
 *MOT: anyway .
 *MOT: whats happened to please ?
-*CHI: please I]
+*CHI: please .
 *CHI: please I have .
 *CHI: I dont want skin .
 *MOT: I know .
@@ -59,7 +59,7 @@
 *CHI: Amy .
 *MOT: yes .
 *MOT: do you love Amy ?
-*CHI: yes I]
+*CHI: yes .
 *MOT: good .
 *MOT: do you love mummy ?
 *CHI: no .
@@ -72,8 +72,8 @@
 *MOT: whose is this ?
 *CHI: mummy .
 *MOT: no .
-*CHI: daddy SR]
-*MOT: daddys IN]
+*CHI: daddy .
+*MOT: daddys +..?
 *CHI: shirt .
 *MOT: shirt .
 *MOT: and whose is this ?
@@ -82,7 +82,7 @@
 *MOT: and whose is this ?
 *CHI: daddys .
 *MOT: no .
-*CHI: mummys SR]
+*CHI: mummys .
 *MOT: yes .
 *MOT: no .
 *MOT: actually its Auntie Emmas .
@@ -97,7 +97,7 @@
 *MOT: because you had a few little poorliesn  didnt you ?
 *CHI: havent got on that side .
 *MOT: you have .
-*MOT: youve just got a couple on that IN]
+*MOT: youve just got a couple on that
 *MOT: I dont know what they do to you at nursery .
 *MOT: can I have a look ?
 *CHI: 0 .
@@ -110,7 +110,7 @@
 *MOT: never mind .
 *MOT: do you know what this says ?
 *MOT: it says he took hold of Poohs front paws and he took hold of
-*MOT: and oh R]
+*MOT: and oh .
 *MOT: now .
 *MOT: ouch .
 *CHI: 0 .
@@ -128,11 +128,11 @@
 *MOT: what ?
 *MOT: mummy .
 *CHI: not mummy .
-*CHI: mum SR]
+*CHI: mum .
 *MOT: is it mum ?
 *MOT: oh alright then .
 *MOT: its mum .
-*MOT: are you growing are you growing up ?
+*MOT: are you growing up ?
 *MOT: are you a big girl and saying mum ?
 *MOT: okay .
 *MOT: pardon ?
@@ -140,7 +140,7 @@
 *MOT: what do you want me to do ?
 *MOT: you hafta ask nicely .
 *MOT: do it for me please ?
-*CHI: do it for me please I]
+*CHI: do it for me please ?
 *CHI: no .
 *MOT: Ive got to do the knot first .
 *MOT: goodness me .
@@ -149,7 +149,7 @@
 *CHI: 0 .
 *CHI: I wanna do it .
 *CHI: 0 .
-*CHI: I wanna do IN]
+*CHI: I wanna do .
 *CHI: be careful .
 *CHI: snake .
 *MOT: be careful .
@@ -158,14 +158,14 @@
 *CHI: its wiggly .
 *MOT: mhm .
 *MOT: it certainly does .
-*CHI: its PI]
+*CHI: its .
 *CHI: theres a snake on there .
 *MOT: oh no .
 *MOT: get it off .
 *CHI: no .
 *MOT: say go away snake .
 *MOT: go away snake .
-*MOT: what is this PI]
+*MOT: what is this .
 *MOT: do you think this is a duck ?
 *MOT: oh its a nursery square duck .
 *MOT: quacko quacko .
@@ -177,7 +177,7 @@
 *MOT: its not .
 *MOT: its Amys .
 *MOT: you can borrow it .
-*CHI: no SR]
+*CHI: no .
 *CHI: its got poorly .
 *MOT: no .
 *MOT: no no no no no .
@@ -188,9 +188,9 @@
 *MOT: no .
 *MOT: because ducks dont need cream .
 *MOT: it just makes them dirty and mummy hasta wash them .
-*CHI: its a poorly SR]
+*CHI: its a poorly .
 *MOT: it doesnt need cream .
-*CHI: its poorly SR]
+*CHI: its poorly .
 *MOT: I know but its a duck .
 *MOT: only Laras and Amys need cream .
 *CHI: whats that funny noise ?
@@ -200,7 +200,7 @@
 *MOT: wheres it gone ?
 *CHI: 0 .
 *CHI: mummy .
-*CHI: mummy SR]
+*CHI: mummy .
 *CHI: catch me .
 *MOT: five minutes  Lara then its bedtime .
 *CHI: 0 .
@@ -210,20 +210,20 @@
 *MOT: dont throw it please .
 *CHI: poor snake .
 *CHI: its sad now .
-*CHI: sad now SR]
+*CHI: sad now .
 *MOT: oh poor snake .
 *MOT: is that because you threw him ?
 *CHI: yes .
 *MOT: say sorry .
 *MOT: say sorry snake .
-*CHI: sorry snake I]
+*CHI: sorry snake .
 *MOT: give her a kiss .
 *MOT: kisso .
 *MOT: do you want the rest of this apple ?
 *MOT: oh my goodness .
-*CHI: oh my goodness I]
+*CHI: oh my goodness .
 *MOT: oh my goodness gracious me .
-*CHI: oh goodness gracious me I]
+*CHI: oh goodness gracious me .
 *CHI: mhm .
 *MOT: dont throw him .
 *MOT: you only throw balls  dont you ?
@@ -231,7 +231,7 @@
 *MOT: your balls over there under the table .
 *CHI: you get it for me ?
 *MOT: pardon ?
-*CHI: you get it SR]
+*CHI: you get it ?
 *MOT: no .
 *MOT: you get it .
 *CHI: I cant .
@@ -242,7 +242,7 @@
 *MOT: the duck ?
 *MOT: its over there on the fireplace .
 *CHI: get it .
-*CHI: get it SR]
+*CHI: get it .
 *MOT: well .
 *MOT: we should really only throw balls .
 *MOT: hello  duck .
@@ -255,7 +255,7 @@
 *CHI: yes .
 *MOT: good .
 *CHI: get some apple .
-*MOT: can he can he have some ?
+*MOT: can he have some ?
 *MOT: can we share share it ?
 *MOT: thank you .
 *MOT: hes got a snake on him .
@@ -266,7 +266,7 @@
 *MOT: do you want Winnie Ther Pooh bottle or Eeyore bottle or Tigger
 *MOT: are you deciding ?
 *MOT: which one do you want ?
-*CHI: Eeyore I]
+*CHI: Eeyore .
 *MOT: Eeyore bottle .
 *MOT: okay .
 *CHI: Winnie Pooh bottle .
@@ -310,14 +310,14 @@
 *MOT: youve had five minutes .
 *MOT: one minute .
 *MOT: countdown .
-*MOT: ten nine eight seven six five four three two one R]
+*MOT: ten nine eight seven six five four three two one .
 *MOT: which monster story do you want ?
-*CHI: I want er IN]
+*CHI: I want &-er
 *CHI: snake .
 *CHI: this is a snake .
 *MOT: is that a snake as well ?
 *MOT: I thought that was a scarf .
-*CHI: scarf I]
+*CHI: scarf .
 *CHI: you have that .
 *CHI: you put that down .
 *MOT: er no .
@@ -342,7 +342,7 @@
 *MOT: its not a ball .
 *MOT: thats a scarf .
 *CHI: thats a ball .
-*CHI: thats a ball SR]
+*CHI: thats a ball .
 *MOT: yes .
 *MOT: thats youve made a ball with the scarf .
 *MOT: yes .
@@ -372,16 +372,16 @@
 *MOT: uhhuh ?
 *MOT: Im getting your bottle .
 *CHI: got it .
-*CHI: got it SR]
-*CHI: got it SR]
+*CHI: got it .
+*CHI: got it .
 *CHI: I got it .
-*CHI: I got it SR]
-*CHI: I got it SR]
+*CHI: I got it .
+*CHI: I got it .
 *MOT: thats your ball not the scarf .
 *MOT: dont you wanna take the scarf to bed ?
 *CHI: yes .
 *MOT: go on then .
-*CHI: scarf I]
+*CHI: scarf .
 *MOT: catch .
 *MOT: clever girl .
 *CHI: catch  mummy .

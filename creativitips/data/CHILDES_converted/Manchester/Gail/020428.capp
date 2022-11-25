@@ -790,7 +790,7 @@
 *CHI: this is a moocow .
 *MOT: a moocow ?
 *CHI: mooo .
-*CHI: put my animals under animals under there .
+*CHI: put my animals under there .
 *MOT: www .
 *MOT: is there a farmer there to look after all those animals ?
 *CHI: oh .
@@ -1046,8 +1046,7 @@
 *CHI: oh .
 *CHI: heres your little horse .
 *MOT: no .
-*MOT: I think that ones probably yours .
-*INV: thats yours .
+*MOT: I think that ones .
 *INV: yeah .
 *CHI: just my horse really .
 *MOT: put it in the box if its ours .
@@ -1097,8 +1096,7 @@
 *CHI: I cant see .
 *MOT: and I can see the techno trousers .
 *MOT: I can see Preston .
-*CHI: wheres Preston ?
-*MOT: I can see the penguin .
+*MOT: the penguin .
 *MOT: theres the penguin .
 *MOT: theres Preston .
 *MOT: the Cyber dog .

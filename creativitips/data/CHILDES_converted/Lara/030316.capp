@@ -5,16 +5,16 @@
 *CHI: hello ?
 *CHI: the speakers are not there .
 *MOT: who ?
-*CHI: not there SR]
+*CHI: not there .
 *MOT: whos not there ?
 *AMY: dob ohb ohb .
-*CHI: Im ringing Elsie Grandma PI]
+*CHI: Im ringing Elsie Grandma .
 *AMY: woob woob .
 *AMY: 0 .
 *MOT: doesnt stretch that far  Lara .
 *MOT: youll hafta leave it there .
 *DAD: hello .
-*CHI: is dinosaur broken PI]
+*CHI: is dinosaur broken ?
 *DAD: no .
 *DAD: not at all .
 *DAD: in fact hes two now .
@@ -25,7 +25,7 @@
 *CHI: what ?
 *MOT: Lara .
 *MOT: you can take this bag now .
-*MOT: because the other one is its all wet .
+*MOT: because its all wet .
 *CHI: wet .
 *DAD: its wet anyway .
 *MOT: thats Ames .
@@ -35,14 +35,14 @@
 *CHI: not doing it .
 *AMY: 0 .
 *CHI: look .
-*CHI: look SR]
+*CHI: look .
 *AMY: 0 .
 *AMY: 0 .
 *MOT: right .
 *MOT: do you want some breakfast  Lara ?
 *MOT: do you want some Frosties ?
 *CHI: yes .
-*CHI: thats my other thats my other Sophie having a bottle .
+*CHI: thats my other Sophie having a bottle .
 *MOT: okay .
 *MOT: right .
 *MOT: Rice Crispies .
@@ -53,15 +53,15 @@
 *MOT: thats no .
 *MOT: not Rice Crispies .
 *MOT: Frosties .
-*CHI: Rice Crispies SR]
-*CHI: Frosties I]
+*CHI: Rice Crispies .
+*CHI: Frosties .
 *CHI: daddy and mum .
 *CHI: my daddys upstairs and other Sophies daddys upstairs too .
 *MOT: here you are .
 *DAD: there we go .
 *DAD: thats me sorted .
 *CHI: daddy .
-*CHI: daddy SR]
+*CHI: daddy .
 *DAD: hello .
 *DAD: whatve you got ?
 *DAD: Frosties ?
@@ -80,7 +80,7 @@
 *DAD: yes or no ?
 *CHI: are you going to make that room pretty ?
 *DAD: were gonna make it absolutely gorgeous .
-*CHI: why is these havent got things on ?
+*CHI: these havent got things on ?
 *MOT: I dont know .
 *DAD: because I didnt put any up here .
 *CHI: not bedtime yet .
@@ -96,7 +96,7 @@
 *CHI: shes Sophie .
 *CHI: shes my other Sophie .
 *DAD: oh alright okay .
-*MOT: is it PI]
+*MOT: is it ?
 *CHI: yes .
 *CHI: it is .
 *CHI: you can come in if you want .
@@ -119,14 +119,14 @@
 *CHI: when on pirate
 *CHI: what time are you coming on pirate ship ?
 *MOT: after Ive washed up and tidied up and hoovered .
-*CHI: this is PI]
+*CHI: this is .
 *CHI: Im getting right in pirate ship and youre my mummy .
 *MOT: am I ?
 *CHI: Im Sophie .
 *MOT: you cant take your mummy on a pirate ship .
 *CHI: can .
 *MOT: cant .
-*CHI: can SR]
+*CHI: can .
 *MOT: can you ?
 *CHI: yes .
 *CHI: mummy sit there .
@@ -134,7 +134,7 @@
 *CHI: brrrmo .
 *CHI: ready to bed .
 *CHI: envelope .
-*CHI: envelope SR]
+*CHI: envelope .
 *CHI: I needta send a card to somebody .
 *MOT: okay .
 *CHI: send one to Elsie Grandma .
@@ -145,8 +145,6 @@
 *MOT: I think thats daddys letter .
 *MOT: Ill get you something .
 *CHI: are these chewing gums ?
-*CHI: are they chewing gums ?
-*MOT: lets have a look .
 *MOT: what are you doing ?
 *MOT: no .
 *MOT: theyre Polo mints .
@@ -180,7 +178,7 @@
 *CHI: no .
 *CHI: no .
 *CHI: Im doing this .
-*CHI: Ive got PI]
+*CHI: Ive got .
 *CHI: what is in this bag ?
 *MOT: Lara !
 *CHI: what is in that bag ?
@@ -196,13 +194,13 @@
 *MOT: well .
 *CHI: you 0have got to hoover that bit and then you can hoover this
 *MOT: alright then .
-*CHI: because er er Im sitting er PI]
+*CHI: because er er Im sitting er .
 *CHI: Im sitting in the pirate ship and thats not all .
 *MOT: okay .
 *CHI: Im just getting the pirate ship .
 *CHI: Im going right in pirate ship because this is my pirate ship .
 *MOT: is it ?
-*CHI: and my and my nana is driving me .
+*CHI: and my nana is driving me .
 *MOT: your nana is driving you in a pirate ship ?
 *CHI: yes .
 *CHI: and pirate ships are very very very very very noisy .
@@ -244,7 +242,7 @@
 *CHI: its cold .
 *MOT: yes .
 *MOT: well .
-*MOT: thats fridge PI]
+*MOT: thats fridge .
 *MOT: Im going to get some things from the car .
 *MOT: there .
 *CHI: why are you carrying everything else ?
@@ -254,7 +252,7 @@
 *MOT: oh  Lara .
 *CHI: what did you do ?
 *MOT: pardon ?
-*CHI: what did you do SR]
+*CHI: what did you do ?
 *MOT: nothing .
 *CHI: did you just bring your shoes in ?
 *MOT: mhm .
@@ -278,7 +276,7 @@
 *MOT: no .
 *MOT: she was wrong  wasnt she ?
 *CHI: yes .
-*CHI: and came out PI]
+*CHI: and came out .
 *CHI: yes .
 *CHI: and she forgot .
 *MOT: forgot what ?
@@ -316,8 +314,7 @@
 *MOT: dont you like it ?
 *CHI: dont like it .
 *MOT: thats alright then .
-*CHI: can I have IN]
-*MOT: I shall eat it it .
+*MOT: it .
 *MOT: right .
 *MOT: have you nearly finished that biscuit because its story time .
 *CHI: no .
@@ -334,10 +331,10 @@
 *MOT: oh .
 *MOT: just have a little bit more .
 *MOT: do you want one of those stories out of that book ?
-*MOT: Once Upon a Time R]
+*MOT: Once Upon a Time ?
 *MOT: if I can find it ?
 *CHI: wheres the basket ?
-*CHI: wheres the IN]
+*CHI: wheres the .
 *MOT: well .
 *MOT: what about Charlies Checklist .
 *CHI: no .
@@ -348,9 +345,9 @@
 *CHI: I want it though .
 *MOT: you cant .
 *MOT: its not here .
-*CHI: it IN]
-*MOT: Greedy Old Nan R]
-*CHI: Greedy Old Nan I]
+*CHI: it .
+*MOT: Greedy Old Nan ?
+*CHI: Greedy Old Nan ?
 *MOT: you know that one ?
 *CHI: yes .
 *CHI: yes .
@@ -363,7 +360,7 @@
 *MOT: just put these away .
 *MOT: right .
 *MOT: whats the matter with you ?
-*MOT: do you want some IN]
+*MOT: do you want some .
 *MOT: oh no .
 *MOT: bloody wasps .
 *MOT: oh .
@@ -371,9 +368,9 @@
 *MOT: ouch .
 *MOT: thank you .
 *AMY: 0 .
-*CHI: whyre you washing my apple my orange ?
+*CHI: whyre you washing my orange ?
 *MOT: pardon ?
-*CHI: why wash my orange PI]
+*CHI: why wash my orange ?
 *MOT: make sure its clean .
 *MOT: stop it .
 *AMY: 0 .
@@ -403,9 +400,9 @@
 *CHI: yes  mummy .
 *CHI: Im Sophie .
 *MOT: okay .
-*CHI: the other the baby Sophies eating her orange .
+*CHI: the baby Sophies eating her orange .
 *MOT: pardon ?
-*CHI: baby Sophies eating her orange SR]
+*CHI: baby Sophies eating her orange .
 *MOT: good .
 *MOT: good .
 *MOT: tell her shes a good baby Sophie .
@@ -443,7 +440,7 @@
 *AMY: 0 .
 *MOT: 0 .
 *CHI: watch .
-*CHI: this wont PI]
+*CHI: this wont .
 *MOT: I hope it wont .
 *MOT: no .
 *MOT: if it did that would be very silly .
@@ -467,7 +464,7 @@
 *CHI: only got one more left .
 *AMY: 0 .
 *CHI: can I have more orange ?
-*MOT: there isnt any more I dont IN]
+*MOT: there isnt any more I dont .
 *MOT: oh .
 *MOT: theres one more piece .
 *CHI: Im having orange .
@@ -482,12 +479,12 @@
 *CHI: say youre welcome  Sophie .
 *AMY: gab gob gob .
 *MOT: geeb .
-*CHI: say youre welcome  Sophie SR]
+*CHI: say youre welcome  Sophie .
 *MOT: I said youre welcome petal .
-*CHI: tomatoes are very PI]
+*CHI: tomatoes are very .
 *MOT: they are .
 *MOT: but youre eating oranges  arent you ?
-*CHI: tomato PI]
+*CHI: tomato .
 *MOT: did you ?
 *AMY: 0 .
 *MOT: put it down please while you are eating .

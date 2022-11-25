@@ -20,8 +20,6 @@
 *MOT: car wash taxi ?
 *CHI: yeah .
 *MOT: oh .
-*MOT: lets just>
-*CHI: gone in the postbox .
 *MOT: going in the postbox ?
 *MOT: can I just wipe your nose ?
 *MOT: youve had a cold havent you ?
@@ -31,8 +29,7 @@
 *MOT: yes .
 *MOT: you said before that poorly people were in the police car .
 *MOT: it isnt poorly people that go in police cars .
-*MOT: what kind of people go in police cars ?
-*CHI: whoops ap gone again .
+*MOT: what kind of people ?
 *MOT: is it gone again ?
 *CHI: yeah .
 *MOT: do naughty people go in police cars ?
@@ -110,8 +107,7 @@
 *MOT: oh right .
 *MOT: in that case it must be a number forty four bus mustnt it ?
 *CHI: yeah .
-*MOT: and the>
-*CHI: fire engine going that way .
+*CHI: going that way .
 *MOT: and wheres the fire engine going too ?
 *CHI: put the fire out .
 *MOT: to put the fire out ?
@@ -137,8 +133,7 @@
 *MOT: they hafta go very quickly though dont they ?
 *MOT: too a fire .
 *CHI: harder .
-*CHI: whats this ?
-*MOT: has he got there yet ?
+*MOT: there yet ?
 *MOT: do you think the fires at the farm ?
 *CHI: beebeebao .
 *CHI: Thomas go .
@@ -250,8 +245,8 @@
 *CHI: too fast ap 0
 *CHI: toottooto .
 *CHI: Dimitra coming .
-*CHI: a fire a fire engine .
-*INV: is the fire engine coming towards me ?
+*CHI: a fire engine .
+*INV: coming towards me ?
 *CHI: yeah .
 *INV: oh !
 *INV: am I on fire ?
@@ -265,7 +260,6 @@
 *CHI: not finished yet .
 *MOT: no .
 *MOT: I think you had better come back .
-*CHI: beebao bee^ba@o>
 *MOT: and look .
 *MOT: Auntie Mabels brother has no idea theres a fire .
 *MOT: and hes coming home for a cup of coffee .
@@ -277,7 +271,7 @@
 *CHI: neighbor ap Pippin .
 *MOT: yes .
 *MOT: thats Auntie Mabels brother .
-*MOT: shes hes going to see Auntie Mabel and Pippin .
+*MOT: hes going to see Auntie Mabel and Pippin .
 *MOT: hell say oh dear dear .
 *MOT: theres a fire .
 *MOT: is he driving straight in ?
@@ -513,7 +507,7 @@
 *MOT: and it has just gone snap .
 *MOT: but thats why when we walk through leaves when theyre dry like
 *MOT: what do they do ?
-*MOT: crunch crunch crunch .
+*MOT: crunch .
 *MOT: can you see the trees outside ?
 *MOT: I mean theyre far more golden yellow than they were yesterday
 *CHI: there not fallen down .
@@ -574,7 +568,7 @@
 *MOT: and all these leaves will be covered in snow .
 *MOT: do you remember snow last year ?
 *CHI: yeah .
-*CHI: ap snow snow snow .
+*CHI: ap snow .
 *MOT: who played in the snow ?
 *MOT: Po ?
 *CHI: Po snow .
@@ -588,18 +582,16 @@
 *MOT: oh .
 *MOT: yes they are .
 *MOT: I think we oughta put these away again now dont you ?
-*CHI: no no no .
+*CHI: no .
 *MOT: do you think Dimitra might like one of these pictures ?
 *CHI: no .
 *MOT: no ?
 *MOT: oh .
 *MOT: Grandma wanted one didnt she ?
 *MOT: and she forgot to take it home with her .
-*CHI: no no>
 *MOT: and we were going to give another one to Liz .
 *MOT: because Liz is poorly isnt she ?
 *CHI: yeah .
-*MOT: and Liz>
 *MOT: again again ?
 *MOT: Liz cant get out of the house at the moment .
 *CHI: oh .
@@ -607,7 +599,7 @@
 *MOT: and then she can remember what the leaves look like .
 *CHI: here .
 *MOT: steady steady  sweetheart .
-*MOT: be careful be careful .
+*MOT: be careful .
 *MOT: youre going to bump into the tripod .
 *MOT: no .
 *MOT: guess what has happened ?
@@ -693,10 +685,10 @@
 *CHI: oh .
 *CHI: Daddy Rod .
 *MOT: Daddy Rod ?
-*MOT: well I can see I can see somebody here wearing a hat .
+*MOT: well I can see somebody here wearing a hat .
 *MOT: dont pick your nose  sweetheart .
-*MOT: if you want your wipe your nose wiping come here .
-*CHI: no no no .
+*MOT: if you want your nose wiping come here .
+*CHI: no .
 *CHI: ap playing .
 *MOT: youre playing ?
 *MOT: are you wearing those hats because theyre cold ?
@@ -888,7 +880,7 @@
 *INV: cant get out ?
 *CHI: no .
 *INV: no .
-*INV: oh you can look what you can do .
+*INV: look what you can do .
 *INV: you can put the pipe through this .
 *CHI: yes .
 *CHI: ap get it out .
@@ -900,7 +892,7 @@
 *INV: oh what has Thomas found ?
 *CHI: open that .
 *INV: open that ?
-*INV: you want me to open that ?
+*INV: to open that ?
 *INV: right .
 *INV: Im going to open it .
 *INV: but were going to be very careful with these .
@@ -967,7 +959,7 @@
 *INV: ah you want me to open it ?
 *CHI: yes .
 *INV: oh you put it on your head ?
-*CHI: yeah yeah yeah .
+*CHI: yeah .
 *INV: oh look .
 *CHI: oh look .
 *INV: a pink one .
@@ -975,14 +967,13 @@
 *CHI: white one .
 *INV: we can put beads on this one .
 *INV: look a teddy bear .
-*CHI: go backwards .
 *INV: pardon ?
 *CHI: this ap ride around .
 *CHI: oh .
 *CHI: whats this ?
 *INV: whats that ?
 *CHI: fly .
-*INV: you can put this like a you can put that on like that .
+*INV: you can put that on like that .
 *CHI: whats this ?
 *CHI: get it off .
 *INV: get if off ?
@@ -1009,7 +1000,7 @@
 *MOT: oh .
 *INV: lots of different shapes .
 *CHI: oh no .
-*CHI: oh no no no .
+*CHI: oh no .
 *INV: are you taking them out and
 *INV: are you taking
 *INV: putting them back in again ?
@@ -1079,7 +1070,7 @@
 *INV: bye red one .
 *CHI: bye .
 *CHI: come home .
-*INV: its come its going home ?
+*INV: its going home ?
 *CHI: yes .
 *CHI: pink one coming home too .
 *INV: oh pink ones going home too ?
@@ -1108,7 +1099,7 @@
 *INV: this is the freezer .
 *CHI: freezer one .
 *INV: yes .
-*INV: it keeps food really cold .
+*INV: it food really cold .
 *INV: oh what do we have here ?
 *CHI: thep juice .
 *INV: some juice ?
@@ -1152,11 +1143,11 @@
 *INV: are you going to put them back in the box ?
 *CHI: yes .
 *CHI: 0 ap freezer .
-*INV: are you were you going to put them in the freezer ?
+*INV: were you going to put them in the freezer ?
 *CHI: yes .
 *INV: theyre better off there .
 *INV: shut the door .
-*CHI: um no more no more juice .
+*CHI: um no more juice .
 *INV: oh thats ketchup .
 *INV: thats tomato ketchup .
 *CHI: cake .
@@ -1253,7 +1244,6 @@
 *INV: you spread some butter on the toast ?
 *INV: and then you eat it ?
 *INV: like that ?
-*CHI: yeah yeah>
 *CHI: Thomas bite .
 *INV: Thomas bite it ?
 *INV: was it nice ?
@@ -1269,12 +1259,8 @@
 *CHI: lettuce .
 *CHI: apple .
 *INV: lettuce and apples .
-*CHI: play lamb>
 *INV: what did you say ?
-*CHI: play lamb>
 *INV: oh I dont understand what you say .
-*CHI: play lambs>
-*CHI: play lambs there>
 *MOT: are you saying something about lambs  Thomas ?
 *MOT: lambs ?
 *CHI: yeah .
@@ -1310,7 +1296,6 @@
 *INV: for the butter ?
 *CHI: yeah .
 *INV: oh I dont know .
-*CHI: oh here .
 *INV: ah .
 *INV: there it is .
 *INV: its not butter actually .
@@ -1331,7 +1316,6 @@
 *INV: its stuck .
 *INV: what can we do ?
 *CHI: ap 0 snip .
-*CHI: snip snip>
 *INV: cut the lid off ?
 *INV: with .
 *CHI: yeah .
@@ -1435,11 +1419,10 @@
 *MOT: whoops oh dear .
 *MOT: be careful .
 *MOT: we dont break the basket .
-*MOT: with Po and Dipsy>
-*CHI: run away run away .
-*MOT: run away run away .
+*CHI: run away .
+*MOT: run away .
 *MOT: would Po and Dipsy like to hide in the basket do you think ?
-*CHI: yeah yeah yeah .
+*CHI: yeah .
 *CHI: me .
 *CHI: one a Po .
 *CHI: yeah .
@@ -1452,7 +1435,6 @@
 *INV: is Thomas going in again ?
 *MOT: oops .
 *INV: oh Thomas has gone .
-*CHI: run away>
 *CHI: Mummy coming .
 *INV: Mummys coming ?
 *CHI: yeah .
@@ -1497,7 +1479,7 @@
 *CHI: oh .
 *INV: oh .
 *INV: what happened to your slipper ?
-*CHI: run away run away .
+*CHI: run away .
 *INV: run away run away ?
 *CHI: yeah .
 *CHI: Mummy coming .
@@ -1549,7 +1531,7 @@
 *CHI: no .
 *MOT: no ?
 *CHI: run away run away .
-*MOT: oh no no no .
+*MOT: oh no .
 *INV: no no .
 *MOT: dont touch .
 *MOT: no .
@@ -1606,14 +1588,13 @@
 *INV: its time to put everything away now .
 *CHI: no everything away now .
 *CHI: no .
-*CHI: no no>
 *CHI: ap lie down .
 *INV: you want me to lie down now ?
 *CHI: yes please .
 *INV: are you going to help me ?
 *INV: if you help me do these then Ill lie down .
 *INV: yeah .
-*CHI: putting it away now .
+*CHI: away now .
 *INV: are we going to put it away now ?
 *CHI: no .
 *CHI: no thanks .

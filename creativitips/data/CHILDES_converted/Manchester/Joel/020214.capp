@@ -15,7 +15,7 @@
 *MOT: not very good .
 *MOT: no .
 *INV: oh careful .
-*MOT: are you going to put IN]
+*MOT: are you going to put
 *MOT: cant get that to go on there .
 *INV: www .
 *MOT: sorry ?
@@ -498,9 +498,7 @@
 *MOT: what can you see ?
 *CHI: the video .
 *INV: yeah .
-*CHI: the tape see tape .
-*MOT: what else ?
-*INV: anything else ?
+*CHI: see tape .
 *CHI: I I see tapemeasure .
 *INV: whatre you singing ?
 *MOT: cant you sing something we know ?
@@ -590,13 +588,12 @@
 *CHI: Budgie helicopter .
 *MOT: Budgie the helicopter .
 *INV: pardon ?
-*INV: cant hear you .
-*MOT: I dont think Rachel wants you to take her pen .
+*MOT: Rachel wants you to take her pen .
 *INV: I cant hear you .
 *MOT: whatre you whispering for ?
 *MOT: youre mad  you are .
 *INV: I need this pen  Joel to write .
-*INV: cant you cant you get some other ones ?
+*INV: cant you get some other ones ?
 *CHI: oh .
 *INV: Joel ?
 *CHI: oh .
@@ -989,7 +986,6 @@
 *CHI: five pound .
 *MOT: five pound .
 *MOT: how much are the grapes then ?
-*CHI: a pound .
 *MOT: are they a pound as well ?
 *MOT: everything is rather expensive in this shop .
 *CHI: five pounds .
@@ -1005,7 +1001,6 @@
 *MOT: how much are they they going to cost you then ?
 *CHI: five pound .
 *MOT: does it all cost the same no matter what ?
-*CHI: five pound .
 *MOT: well .
 *MOT: you havent .
 *MOT: have you bought anything for panda ?
@@ -1021,11 +1016,10 @@
 *CHI: panda sit up there .
 *CHI: a the car .
 *CHI: my .
-*CHI: sit in the car .
 *MOT: does my shop look very appetizing or what ?
 *CHI: a eggs .
 *MOT: eggs .
-*MOT: you want you need some eggs ?
+*MOT: you need some eggs ?
 *MOT: are they for panda ?
 *MOT: for his tea ?
 *CHI: five pound .
@@ -1038,7 +1032,7 @@
 *CHI: yeah .
 *MOT: oh dear .
 *MOT: well .
-*MOT: well hafta theyre rejects now then  arent they ?
+*MOT: theyre rejects now then  arent they ?
 *MOT: you cant sell those if theyre broken .
 *MOT: oh .
 *MOT: youve just knocked all my display over .
@@ -1063,7 +1057,7 @@
 *CHI: a biscuit .
 *MOT: biscuit .
 *MOT: um dont you want some lettuce with your tomato ?
-*MOT: make a salad make a salad ?
+*MOT: make a salad ?
 *CHI: look .
 *CHI: Im fed up .
 *MOT: um celery .
@@ -1169,7 +1163,6 @@
 *MOT: a pineapple ?
 *MOT: how much is a pineapple ?
 *MOT: is it a penny or five pence ?
-*CHI: five pence .
 *MOT: five pence ?
 *CHI: five pound .
 *MOT: thats a penny .
@@ -1282,7 +1275,7 @@
 *MOT: poor panda .
 *MOT: is he shivering ?
 *CHI: yeah .
-*MOT: what does what does he do when he shivers ?
+*MOT: what does he do when he shivers ?
 *CHI: brrro .
 *CHI: open .
 *CHI: open .

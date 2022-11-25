@@ -285,7 +285,7 @@
 *CHI: where dancing bear ?
 *MOT: wheres dancing bear ?
 *MOT: hes there .
-*MOT: hes hes on your quilt  look .
+*MOT: hes on your quilt  look .
 *CHI: oh dear .
 *MOT: what ?
 *MOT: here comes Mummy .
@@ -460,8 +460,6 @@
 *MOT: there are certain games that we always come back to aren't
 *CHI: cover me up .
 *MOT: eh ?
-*CHI: cover up .
-*MOT: go to sleep .
 *MOT: night night then .
 *CHI: cover me up .
 *MOT: sleep tight .
@@ -530,8 +528,6 @@
 *MOT: are you going to tell me .
 *CHI: duck in the cupboard .
 *MOT: Duck in Trouble .
-*INV: Duck in Trouble .
-*MOT: Duck in Trouble .
 *MOT: not duck in the cupboard .
 *CHI: me read it .
 *CHI: ow .
@@ -564,7 +560,7 @@
 *MOT: at the castle didnt it ?
 *CHI: read it .
 *MOT: okay .
-*MOT: whats the whats duck doing ?
+*MOT: whats duck doing ?
 *CHI: a going up sky .
 *MOT: going up the in the sky on the balloon .
 *MOT: thats right .
@@ -713,8 +709,6 @@
 *CHI: no .
 *MOT: oh .
 *CHI: open it out .
-*MOT: open it out .
-*CHI: there you go .
 *MOT: shall I read it to her ?
 *CHI: yeah .
 *MOT: yeah ?
@@ -741,7 +735,7 @@
 *CHI: down there .
 *MOT: wheres that ?
 *CHI: in the box .
-*MOT: in the back in the box ?
+*MOT: in the box ?
 *MOT: oh .
 *CHI: in back .
 *MOT: in the back .
@@ -784,7 +778,7 @@
 *CHI: hello .
 *CHI: oh .
 *CHI: other phone .
-*MOT: it was its the other phone .
+*MOT: its the other phone .
 *MOT: yes .
 *MOT: whos on your phone ?
 *MOT: who ?
@@ -1635,7 +1629,7 @@
 *MOT: heres the bridge .
 *MOT: does it fit under ?
 *CHI: no .
-*MOT: I think so Pi]
+*MOT: I think so .
 *MOT: here you are .
 *MOT: here .
 *MOT: Anne .
@@ -2074,7 +2068,7 @@
 *CHI: night night .
 *MOT: good night .
 *MOT: see you in the morning .
-*CHI: sleeping on sleeping on bed .
+*CHI: sleeping on bed .
 *MOT: okay .
 *CHI: sleeping on my bed here .
 *MOT: baggy trousers .
@@ -2091,7 +2085,7 @@
 *MOT: cover you up ?
 *MOT: right .
 *MOT: night night .
-*MOT: who do you want me what ?
+*MOT: what ?
 *MOT: you wanna kiss somebody ?
 *CHI: no .
 *MOT: no ?
@@ -2108,8 +2102,6 @@
 *MOT: think you need a tissue dont you ?
 *MOT: lets just get a tissue  Anne for your nose .
 *CHI: drinking my drink .
-*INV: have you not got .
-*MOT: drink your drink .
 *MOT: well .
 *MOT: youve got your drink I think .
 *CHI: I want some more .

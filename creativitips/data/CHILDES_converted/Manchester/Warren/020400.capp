@@ -79,7 +79,7 @@
 *MOT: its a moving tunnel .
 *MOT: it tickles .
 *CHI: drive feet .
-*MOT: oh no oh no .
+*MOT: oh no .
 *MOT: that tickles .
 *CHI: on feet .
 *CHI: go up and up and up and up .
@@ -93,10 +93,10 @@
 *MOT: got you .
 *CHI: tipper lorry .
 *MOT: am I a tipper lorry now ?
-*MOT: tip tip tip tip tip tip .
+*MOT: tip .
 *MOT: Ill be a bulldozer  shall I ?
 *MOT: Ill be a bulldozer and bulldoze you out of the way .
-*MOT: bulldoze bulldoze bulldoze .
+*MOT: bulldoze .
 *CHI: theres a bulldozer .
 *CHI: I have a little ride .
 *CHI: one two three go .
@@ -262,14 +262,14 @@
 *CHI: theres horse .
 *MOT: whats this right at the front here ?
 *CHI: cowcatcher .
-*CHI: Toby have a cowcatcher .
+*CHI: a cowcatcher .
 *MOT: he does .
 *MOT: what else does Toby have ?
 *CHI: sideplates .
 *MOT: thats good .
 *MOT: why does he have a cowcatcher and sideplates ?
 *MOT: do you know why ?
-*CHI: he like he like Henrys coaches .
+*CHI: he like Henrys coaches .
 *MOT: well he has a cowcatcher and sideplates because he goes on the
 *CHI: Toby got sideplates .
 *MOT: because Tobys a tram  isnt he ?
@@ -295,7 +295,7 @@
 *MOT: whats that teddy doing ?
 *CHI: he going have that .
 *MOT: thats right .
-*MOT: and what is what is that ?
+*MOT: and what is that ?
 *MOT: whats in the pot ?
 *MOT: what does Pooh bear eat ?
 *MOT: what does Pooh bear eat in trees ?
@@ -428,7 +428,7 @@
 *MOT: oh yes .
 *CHI: theres a .
 *MOT: oh no .
-*MOT: oh gross gross gross .
+*MOT: oh gross .
 *MOT: Warren .
 *MOT: I think youre catching a cold  arent you my love ?
 *MOT: oh you horrid boy .
@@ -556,7 +556,7 @@
 *CHI: yes .
 *CHI: I needta go to bank shop .
 *CHI: need some money .
-*MOT: tell you what tell you what we could do .
+*MOT: tell you what we could do .
 *MOT: we could put the food on top of this box and you could choose it ,
 *MOT: lets put the food on here .
 *MOT: you can see a selection  cant you of what you wanna buy ?
@@ -570,7 +570,7 @@
 *MOT: are you going to do some shopping ?
 *MOT: whatre you going to buy ?
 *MOT: whatre you going to put in your basket ?
-*CHI: that ladys changing food like that .
+*CHI: like that .
 *MOT: what is it ?
 *CHI: thats icecream .
 *MOT: its not actually .
@@ -623,7 +623,7 @@
 *CHI: cant find a cup .
 *MOT: its in the box .
 *CHI: no .
-*MOT: shall we shall I get a cup out of your tea set ?
+*MOT: shall I get a cup out of your tea set ?
 *MOT: lets find you a cup and saucer  shall we ?
 *CHI: pour milk .
 *MOT: yeah .
@@ -773,7 +773,7 @@
 *MOT: thats not what you use for washing .
 *INV: leave that alone .
 *INV: dont touch this .
-*MOT: shall I go and get you some shall I .
+*MOT: shall I .
 *MOT: Ill go and find you something to do some washing with .
 *MOT: you go and pour Annas cup of tea .
 *MOT: and then Ill bring you something to do the washing up with .
@@ -785,11 +785,11 @@
 *MOT: is that saucer clean ?
 *CHI: thats washed .
 *MOT: oh .
-*MOT: shall I shall I pass you this cup to wash as well ?
+*MOT: shall I pass you this cup to wash as well ?
 *CHI: thats wash .
 *MOT: right .
-*MOT: theres a cup and saucer a cup and plate to be washed up as
-*CHI: I just tip my I tip my tea .
+*MOT: theres a cup and plate to be washed up as
+*CHI: I tip my tea .
 *MOT: you did  didnt you ?
 *CHI: tip .
 *CHI: this one finish .
@@ -799,7 +799,7 @@
 *CHI: food .
 *MOT: what else .
 *CHI: need washing .
-*MOT: what else needs what else wants washing ?
+*MOT: what else wants washing ?
 *MOT: does the tea pot need washing ?
 *MOT: thats nice and clean .
 *MOT: does Warrens foot need washing ?
@@ -811,7 +811,7 @@
 *CHI: I cant get it off .
 *CHI: it go on .
 *CHI: cant .
-*CHI: I cant I cant get on that one .
+*CHI: I cant get on that one .
 *MOT: no darling .
 *MOT: because that red one isnt right .
 *MOT: now its wedged .
@@ -882,7 +882,7 @@
 *MOT: oh .
 *MOT: how are you going to pay for your shopping then ?
 *MOT: how are you going to pay for your shopping with no money ?
-*MOT: shall we phone is there somebody we can phone ?
+*MOT: is there somebody we can phone ?
 *MOT: shall we phone Daddy and see if hell come and lend you some ?
 *CHI: mhm .
 *MOT: mhm .
@@ -950,7 +950,7 @@
 *MOT: you dont wanna talk to Brian .
 *MOT: Brians trying to watch his cricket on Sky nextdoor and your
 *CHI: asleep .
-*MOT: I think if you put your feet there your face there you
+*MOT: I think if you put your face there you
 *MOT: youll be rendered unconscious within about twenty seconds Warren
 *MOT: a braver man than many  Warren doing that .
 *CHI: like fish .
@@ -964,7 +964,7 @@
 *MOT: what is it .
 *MOT: no .
 *MOT: dont .
-*MOT: no no no .
+*MOT: no .
 *MOT: no .
 *MOT: Warren .
 *MOT: you mustnt do that .
@@ -1061,7 +1061,7 @@
 *CHI: I want that .
 *MOT: well you dont bite it please .
 *MOT: theres an orange in the sugar bowl .
-*MOT: oh no oh no .
+*MOT: oh no .
 *MOT: what shall we do ?
 *MOT: what if I want a spoonful of sugar in my tea ?
 *MOT: are you going to drink the orange ?

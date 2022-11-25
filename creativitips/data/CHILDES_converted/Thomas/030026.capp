@@ -92,7 +92,7 @@
 *MOT: tl hl ol ml al .
 *MOT: al for apple .
 *MOT: al for
-*CHI: I cant see apple here .
+*CHI: see apple here .
 *MOT: no .
 *MOT: al for apple .
 *MOT: al for alligator .
@@ -170,7 +170,7 @@
 *MOT: I will .
 *MOT: Ill go upstairs and reach them .
 *MOT: just let me count them  darling .
-*MOT: one two three four five six seven .
+*MOT: one two three four five .
 *CHI: about this ?
 *MOT: eight nine ten eleven twelve thirteen fourteen .
 *MOT: fifteen sixteen seventeen on the stair bannisters .
@@ -204,8 +204,7 @@
 *MOT: hm .
 *MOT: which is your favorite birthday card ?
 *CHI: I love Fireman Sam rescuing Purdie .
-*CHI: that one .
-*MOT: you like this one with Fireman Sam rescuing Purdie ?
+*MOT: this one with Fireman Sam rescuing Purdie ?
 *CHI: yeah .
 *MOT: it says happy birthday  Thomas .
 *MOT: third of April two thousand .
@@ -216,13 +215,13 @@
 *MOT: pardon ?
 *CHI: I lovely .
 *MOT: youre lovely ?
-*MOT: well Purdie has Purdie has been very poorly actually
+*MOT: well Purdie has been very poorly actually
 *CHI: 0 .
 *MOT: Purdie was in hospital yesterday .
 *CHI: 0 .
 *MOT: right .
 *MOT: so thats that was your favorite card was it ?
-*MOT: with Fireman Sam rescuing Purdie .
+*MOT: with .
 *MOT: has it ?
 *MOT: and do you know this was the first card that you opened .
 *MOT: and which other cards do you like  Thomas ?
@@ -244,7 +243,6 @@
 *MOT: now which other card is very special ?
 *CHI: Postman Pat and Jess .
 *MOT: Postman Pat and Jess .
-*CHI: ap put>
 *MOT: this is another one with a badge on it .
 *MOT: a badge with Jess holding a parcel saying three .
 *MOT: dear Thomas .
@@ -274,29 +272,27 @@
 *CHI: Dimitra .
 *MOT: Dimitra .
 *MOT: to Thomas .
-*MOT: for a>
 *CHI: brought some chocolate popsc .
 *MOT: she brought some chocolate lollipops for you ?
 *CHI: yeah .
-*MOT: to Thomas .
 *MOT: hope you have a very .
-*CHI: Im a fireman Sam real one .
-*CHI: your say nee nao !
+*CHI: Sam real one .
+*CHI: nee nao !
 *MOT: no no .
 *MOT: were looking at cards now  Thomas .
 *MOT: the big crocodile on the front and Dimitra are wishing you a
 *MOT: lots of love  Dimitra .
 *CHI: nee na@o
 *MOT: no .
-*MOT: no no no .
+*MOT: no .
 *MOT: were not doing that now .
 *MOT: come on .
 *MOT: lets sit down .
-*MOT: you want you pulled this table and chairs out .
+*MOT: you pulled this table and chairs out .
 *CHI: yes .
 *CHI: but I dont want .
-*CHI: nee nao on the sirens .
-*MOT: you pulled the chair up because you wanted to sit down to
+*CHI: nee nao on .
+*MOT: because you wanted to sit down to
 *CHI: nes fire engine went whoosh and he is park there .
 *MOT: right .
 *MOT: well you park the fire engine there .
@@ -314,11 +310,11 @@
 *CHI: thank you .
 *CHI: Im carrying .
 *MOT: right .
-*CHI: Im holding Im carrying these .
+*CHI: Im carrying these .
 *CHI: Im delivering .
 *MOT: youre delivering them ?
-*MOT: well lets just look at them .
-*CHI: its a post lorrys .
+*MOT: well lets just look .
+*CHI: post lorrys .
 *CHI: I can do deliverys .
 *MOT: come on .
 *MOT: lets look at these here .
@@ -362,7 +358,7 @@
 *CHI: Mummy  I get another .
 *CHI: ap .
 *CHI: um thank you .
-*CHI: thats a love thats a lovely letter .
+*CHI: thats a lovely letter .
 *MOT: is it a lovely letter ?
 *MOT: well lets open it up and see who its from .
 *CHI: okay .
@@ -404,7 +400,7 @@
 *MOT: what sort of shapes are there on that card ?
 *CHI: black red and green .
 *MOT: theyre circles and triangles .
-*CHI: please I have that in my>
+*CHI: please I have that
 *MOT: you can .
 *MOT: happy birthday  Thomas .
 *MOT: with lots of love  Grandma and Granddad .
@@ -437,8 +433,7 @@
 *MOT: well think of you .
 *MOT: lots of love Uncle Jan and Auntie Deenie .
 *MOT: and its all in in Dutch .
-*MOT: and I really cant read it .
-*CHI: thank you .
+*MOT: and I .
 *MOT: Im sorry .
 *MOT: it says .
 *MOT: oh this is a nice one .
@@ -500,7 +495,7 @@
 *CHI: what for ?
 *CHI: and my balloon .
 *MOT: and your balloons .
-*MOT: well get your balloons in a minute .
+*MOT: well get your balloons .
 *CHI: my balloon has cant fit in .
 *MOT: yes .
 *MOT: your balloons will come down later wont they ?
@@ -510,7 +505,6 @@
 *CHI: no your your look at them .
 *CHI: oh .
 *CHI: put on the table .
-*MOT: well Ive got to come>
 *CHI: not .
 *CHI: mind your head .
 *MOT: yes .
@@ -562,13 +556,12 @@
 *CHI: minute .
 *CHI: I 0am going down again .
 *CHI: 0 .
-*CHI: I got  ice lego .
+*CHI: I got .
 *CHI: I put it on .
 *MOT: no .
 *MOT: just put it on the table .
 *MOT: thats a good boy .
-*CHI: get it .
-*MOT: because if it gets trodden into the carpet its sticky and
+*MOT: gets trodden into the carpet its sticky and
 *MOT: itll make a big mess .
 *MOT: right .
 *CHI: blue mess .
@@ -672,7 +665,7 @@
 *CHI: hm .
 *CHI: Mummy am
 *MOT: yes .
-*MOT: and Sue made you a hand a hand made card didnt she ?
+*MOT: and Sue made you a hand made card didnt she ?
 *MOT: poor Sue .
 *CHI: the lorry went phsso .
 *CHI: is parked .
@@ -688,13 +681,12 @@
 *MOT: to wish you a happy third birthday .
 *MOT: now theres another other card here .
 *MOT: ah look at this .
-*CHI: Mummy  a fire engine goes>
+*CHI: Mummy a
 *MOT: yes .
 *MOT: look at this .
 *CHI: Mummy  your heard a lorry go phsso .
 *MOT: I did hear the lorry go phsso .
-*MOT: look at this one .
-*CHI: is a newspaper lorry .
+*CHI: lorry .
 *MOT: is it ?
 *CHI: yeah .
 *CHI: newspaper lorry jump out his wagon then he hes (de)livering
@@ -731,7 +723,7 @@
 *MOT: its a wonder she sent you a card after you said that .
 *CHI: oh .
 *MOT: so .
-*MOT: I was just wondering what Im doing with all these but>
+*MOT: I was just wondering
 *CHI: and cones .
 *MOT: pardon ?
 *CHI: and traffic cones .
@@ -787,7 +779,7 @@
 *MOT: ah !
 *MOT: theres a picture here of a pussy cat holding a cake on top of it's
 *CHI: where ?
-*MOT: and the cake has got three candles .
+*MOT: cake has got three candles .
 *CHI: where ?
 *MOT: here .
 *CHI: oh yeah .
@@ -803,8 +795,6 @@
 *MOT: look at this one .
 *MOT: bananas in pajamas are coming down the stairs .
 *CHI: pairs .
-*MOT: bananas in pajamas are coming down in pairs .
-*CHI: in pajamas are coming down in pairs .
 *MOT: do you know what it means when they say coming down in pairs ?
 *CHI: yeah .
 *MOT: theyre coming down in twos arent they ?
@@ -873,7 +863,6 @@
 *MOT: lets read this card .
 *MOT: to Thomas .
 *MOT: my best boyfriend on your third birthday .
-*MOT: have a lovely day>
 *CHI: murmuro .
 *MOT: lots of hugs and kiss .
 *MOT: from Isabelle .
@@ -891,7 +880,7 @@
 *MOT: this is a nice one .
 *MOT: now do you know why they sent you this card ?
 *MOT: this is Rachel and Jonathan .
-*MOT: and do you know why theyve sent you this one ?
+*MOT: and do you know why ?
 *CHI: murmuro .
 *MOT: Thomas .
 *CHI: whoosh .
@@ -914,7 +903,7 @@
 *MOT: and shes shes eleven
 *MOT: its not a lot of difference is it ?
 *MOT: so perhaps in eleven months time youll be writing your very own
-*CHI: your your your Missus Goggins .
+*CHI: your Missus Goggins .
 *CHI: Im Postman Pat ap lorry .
 *MOT: right .
 *MOT: Im Missus Goggins and youre Postman Pat .
@@ -985,8 +974,6 @@
 *MOT: look at that boat .
 *CHI: ahphsso ahphsso .
 *MOT: from Margaret and Michael .
-*CHI: ap butcher man ?
-*MOT: thats nice .
 *MOT: pardon ?
 *CHI: butcher man ?
 *MOT: oh no not the butcher .
@@ -1027,7 +1014,7 @@
 *MOT: that dog .
 *CHI: its carrying newspaper .
 *MOT: the dog was carrying a newspaper .
-*MOT: it was a big red setter wasnt it .
+*MOT: it was a big red setter .
 *CHI: uh one of the boy running and that crasho on his knee .
 *CHI: crasho and snapo and bango .
 *MOT: oh well no .
@@ -1079,7 +1066,7 @@
 *MOT: thats a jolly nice card isnt it ?
 *CHI: I got some another now .
 *CHI: Im Im going .
-*MOT: do you know youve got some beautiful cards .
+*MOT: know youve got some beautiful cards .
 *MOT: and look at how many people have sent you cards  Thomas .
 *MOT: people that have thought about you .
 *MOT: isnt that nice ?
@@ -1100,7 +1087,7 @@
 *CHI: yeah .
 *MOT: and now Sarahs a little baby called Sarah .
 *CHI: yeah .
-*MOT: thats funny isnt it ?
+*MOT: thats funny ?
 *CHI: Sarah Anne .
 *MOT: Sarah Anne .
 *MOT: arent you clever ?
@@ -1141,7 +1128,6 @@
 *MOT: happy birthday from all of us .
 *MOT: from Elaine  Jeannine  Anna  Elaina and Mike sent their
 *CHI: I getting sweetie in my bag .
-*MOT: are you ?
 *CHI: my special one .
 *MOT: youre getting a sweet from your bag ?
 *CHI: special bag  its called .
@@ -1158,7 +1144,6 @@
 *CHI: yes it is .
 *MOT: 0 .
 *MOT: the special bag where your sweets are kept I cant go in <because
-*CHI: sweetie gone ?
 *CHI: thats .
 *MOT: be careful  darling .
 *CHI: wheres the sweets ?
@@ -1206,7 +1191,7 @@
 *MOT: please call again .
 *MOT: Im sure you will wont you ?
 *CHI: mhm .
-*MOT: at that sweetie shop in Didsbury .
+*MOT: sweetie shop in Didsbury .
 *CHI: mhm .
 *MOT: they still serve sweeties um  in the jar dont they ?
 *MOT: theyve got to weigh them out .
@@ -1304,7 +1289,6 @@
 *MOT: my little tired Fireman Sam .
 *CHI: Im a little sheep .
 *CHI: baao .
-*MOT: youre a little sheep ?
 *MOT: ah .
 *MOT: youve had a busy day havent you ?
 *CHI: baao .
@@ -1313,7 +1297,6 @@
 *MOT: tired little boy .
 *CHI: baao .
 *MOT: did you wanna look at these easter cards ?
-*MOT: little lamb ?
 *CHI: I wanna look in easter eggs .
 *MOT: what would you like to look at ?
 *CHI: easter eggs .
@@ -1430,7 +1413,6 @@
 *CHI: look at thisp .
 *MOT: no .
 *MOT: I dont think
-*CHI: ap you ap climb up here ?
 *MOT: no .
 *CHI: look .
 *MOT: youll fall out of the window .
@@ -1459,15 +1441,14 @@
 *MOT: giggling .
 *MOT: thatll be the end of you .
 *CHI: no .
-*MOT: if you make a mess on my patio and I hafta sweep you up .
+*MOT: and I hafta sweep you up .
 *CHI: laughs .
 *MOT: therell be trouble if I hafta sweep bits of Thomas because he
 *CHI: 0 .
 *CHI: my bottom .
 *MOT: well hafta sweep your bottom up .
 *CHI: my belly and nipsc and your my hair .
-*MOT: your belly>
-*CHI: and your and your am your smash out that window .
+*CHI: and your am your smash out that window .
 *CHI: I sweep all your bottom up .
 *CHI: and your willie .
 *MOT: 0 .
@@ -1477,8 +1458,8 @@
 *MOT: I dont like belly .
 *CHI: 0 .
 *MOT: I dont know who has taught you to say that .
-*MOT: but I dont like it .
-*CHI: ap Bodger Badger got a belly .
+*MOT: but I .
+*CHI: got a belly .
 *MOT: oh Badger and Bodger .
 *MOT: is this something else youve seen on television ?
 *CHI: yes .
@@ -1504,13 +1485,12 @@
 *CHI: mhm .
 *CHI: mhm .
 *MOT: must be a lonely little bird .
-*CHI: I got smash out there and on the road .
+*CHI: smash out there and on the road .
 *CHI: ap sweep me all up .
 *MOT: mhm .
 *MOT: if you smashed through the window and fell in the road wed hafta
 *MOT: wouldnt be nice though  Thomas .
-*MOT: would it ?
-*CHI: ap dust sweep dustbin lorry .
+*CHI: sweep dustbin lorry .
 *MOT: yes .
 *MOT: its Saturday .
 *MOT: I think we might just leave you there actually for Monday .
@@ -1543,7 +1523,6 @@
 *MOT: would it be very lonely sleeping outside tonight when its dark ?
 *CHI: yeah .
 *MOT: would you be much better staying inside in the house with Mummy and
-*MOT: and Purdie ?
 *CHI: mhm .
 *MOT: oh well in that case you had better not fall through the window
 *MOT: my gorgeous little boy .
@@ -1589,7 +1568,7 @@
 *CHI: squash !
 *MOT: youre going to squeeze my hand after Ive just told you how much
 *CHI: 0 .
-*MOT: and how precious you are ?
+*MOT: precious you are ?
 *CHI: 0 .
 *MOT: youre an absolute horror .
 *CHI: 0 .
@@ -1620,7 +1599,7 @@
 *MOT: play with it again couldnt you ?
 *CHI: yeah .
 *MOT: right .
-*MOT: Im going to move Ill put the easter cards back up on the
+*MOT: Ill put the easter cards back up on the
 *CHI: need ap look at them .
 *MOT: well you said this before and I took them down and you never looked
 *MOT: there you are .
@@ -1645,7 +1624,6 @@
 *CHI: hm .
 *CHI: boo !
 *MOT: right .
-*CHI: eating apple .
 *MOT: youre eating an apple ?
 *MOT: thats fine .
 *MOT: Id like you to have some apple before bed .
@@ -1657,7 +1635,6 @@
 *MOT: but Daddys not here tonight .
 *CHI: thank you .
 *CHI: whee .
-*MOT: there we are .
 *MOT: thats it .
 *MOT: party over .
 *CHI: yeah .
@@ -1673,7 +1650,7 @@
 *CHI: Tuesday .
 *CHI: hm .
 *MOT: right .
-*MOT: shall we take would you like these balloons as they are ?
+*MOT: would you like these balloons as they are ?
 *MOT: or shall I take them off the string ?
 *CHI: no .
 *MOT: you think its quite fun carrying them round like this do you ?
@@ -1685,7 +1662,7 @@
 *CHI: pink .
 *MOT: all different colors ?
 *CHI: and orange .
-*MOT: theyre Tele uh Tweenie balloons arent they ?
+*MOT: theyre Tweenie balloons arent they ?
 *MOT: shall we have a look and see whos on the balloons ?
 *CHI: uh yeah .
 *MOT: on one side they say Tweenies and on the other side they have
@@ -1715,7 +1692,7 @@
 *CHI: that my balloon to go outside .
 *MOT: thats your balloon to go outside is it ?
 *MOT: well you cant go out now  love .
-*MOT: its uh it isnt dark actually .
+*MOT: it isnt dark actually .
 *MOT: its still very light .
 *MOT: but uh  its a little bit too late to go out tonight isn't
 *MOT: in a few minutes when Ive packed these cards away were going to
@@ -1723,7 +1700,7 @@
 *MOT: and run a nice bath .
 *MOT: look forward to that ?
 *CHI: big one .
-*CHI: big huge big huge one .
+*CHI: big huge one .
 *MOT: a big huge one ?
 *CHI: here you are .
 *CHI: buy your big balloons .
@@ -1747,8 +1724,7 @@
 *MOT: you had a beautiful Teletubby cake didnt you ?
 *CHI: where has it gone ?
 *CHI: I eat it all .
-*MOT: well we yes  weve eaten it all now .
-*CHI: in your fat bellys .
+*MOT: yes  weve eaten it all now .
 *MOT: oh  Thomas .
 *MOT: in your tummy .
 *MOT: in your tummy  say .
@@ -1757,8 +1733,7 @@
 *CHI: no I eat it all up .
 *MOT: yes .
 *MOT: weve eaten that all up havent we ?
-*MOT: theres a really nice>
-*CHI: in thep fat bellys .
+*CHI: bellys .
 *MOT: oh  Thomas .
 *MOT: youre just saying it to wind me up now arent you ?
 *CHI: yes .
@@ -1766,10 +1741,6 @@
 *CHI: bellys in thep jungle .
 *CHI: bellys in pajamas .
 *CHI: are 0
-*MOT: are coming down in>
-*CHI: are da da da@si>
-*MOT: bananas in pajamas>
-*CHI: in pajamas>
 *MOT: 0 .
 *CHI: are coming down in pairs
 *MOT: bananas 0
@@ -1784,13 +1755,12 @@
 *MOT: thats right !
 *MOT: dont throw it .
 *CHI: 0 .
-*MOT: come on .
 *MOT: pop it in the train please .
 *MOT: first carriage .
 *CHI: thank you  mister .
 *MOT: the first letter of your name is tl .
 *CHI: hm .
-*MOT: the last letter of your name is sl .
+*MOT: of your name is sl .
 *MOT: so if you can remember tl for Tesco and Thomas .
 *MOT: and the last letter is sl for snakes and sweets .
 *MOT: your favorite things .
@@ -1830,16 +1800,14 @@
 *MOT: well yes .
 *MOT: he could have the yellow one .
 *MOT: we cant take it now though because Im sure Christopher will be
-*MOT: it uh in fact Christophers back at school on Tuesday .
+*MOT: in fact Christophers back at school on Tuesday .
 *MOT: its a bank holiday Monday so the school wont be open .
 *CHI: ap thats mine balloon .
 *MOT: is it ?
-*MOT: which is your favorite balloon ?
+*MOT: your favorite balloon ?
 *CHI: ap the blue blue .
 *MOT: the blue one ?
 *MOT: whos on the blue balloon ?
-*MOT: its actually Milo .
-*CHI: little Bella .
 *MOT: well on the back it says “Im Milo” .
 *MOT: but whos whos on the front of the balloon  Thomas ?
 *CHI: um Im Im going home .
@@ -1848,7 +1816,6 @@
 *MOT: oh .
 *MOT: this is home  love .
 *MOT: oh isnt this really strange  Thomas ?
-*MOT: this morning>
 *CHI: mhm ?
 *MOT: we opened the curtains and the taxi driver who lives a few doors
 *CHI: yeah .
@@ -1863,7 +1830,7 @@
 *MOT: I was wondering that .
 *MOT: I did wonder this morning where his taxi was .
 *MOT: Im sure Ive seen his taxi today .
-*CHI: is really down here .
+*CHI: down here .
 *MOT: no .
 *MOT: Im sure Ive saw his taxi because after I saw him walking this
 *MOT: but um  oh dear .
@@ -1889,7 +1856,7 @@
 *MOT: theyre not going bye bye theyre just walking past arent they ?
 *MOT: going by .
 *CHI: bye bye
-*MOT: what a beautiful dog .
+*MOT: dog .
 *CHI: mhm .
 *MOT: thats a lovely dog isnt it ?
 *CHI: am Purdie .
@@ -1904,7 +1871,7 @@
 *MOT: shes really poorly .
 *MOT: she was in hospital all day yesterday wasnt she ?
 *CHI: yeah .
-*MOT: and we dont really know whats the matter with her but <she's>
+*MOT: and we dont really know whats the matter with her but
 *MOT: shes not eating .
 *MOT: get down !
 *CHI: oh .
@@ -1931,7 +1898,7 @@
 *MOT: are we going to go up for a big blath bath ?
 *MOT: big splash ?
 *CHI: uh  you turn the light off .
-*MOT: no I no the light has not been on  darling  today .
+*MOT: no the light has not been on  darling  today .
 *MOT: it has been a bright sunny day .
 *MOT: its just the sun has moved round now .
 *MOT: the suns going to bed .
@@ -1941,7 +1908,6 @@
 *MOT: goodbye .
 *CHI: then Teletubbies say helloq .
 *MOT: no .
-*CHI: that way .
 *MOT: oh they say goodbye dont they ?
 *MOT: and then one of them always pops back up again .
 *CHI: Tinky Winky ap Dipsy ap Lala ap Po .

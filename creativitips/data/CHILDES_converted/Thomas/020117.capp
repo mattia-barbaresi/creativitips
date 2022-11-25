@@ -5,11 +5,9 @@
 *MOT: Daddy got a cough ?
 *CHI: no .
 *MOT: oh .
-*MOT: I thought you were pretending to cough like that>
+*MOT: I thought you were pretending to cough
 *CHI: juice .
 *FAT: byebye .
-*MOT: byebye .
-*CHI: byebye .
 *CHI: see you Dadda .
 *MOT: heres some juice .
 *MOT: remember to wave to Daddy when he starts driving off wont you ?
@@ -42,12 +40,11 @@
 *CHI: 0 .
 *CHI: ap more juice .
 *MOT: youve got juice there .
-*CHI: more juice ap Bow juice .
+*CHI: ap Bow juice .
 *MOT: oh .
 *MOT: no .
 *MOT: Purdie doesnt want your juice  Thomas .
 *CHI: no Bow .
-*CHI: ap Bow juice>
 *MOT: no .
 *MOT: no .
 *MOT: Purdie has got her own food here .
@@ -144,8 +141,7 @@
 *MOT: this mug has teddybears on it .
 *MOT: and this one is Mummys mug .
 *MOT: it has got a pussycat .
-*MOT: you bought Mummy that mug for Mothers Day didnt you ?
-*CHI: a Bow Bow .
+*MOT: you bought Mummy that mug for Mothers Day ?
 *MOT: yes .
 *MOT: its a pussycat on it .
 *MOT: that was from you and Purdie for Mothers Day wasnt it ?
@@ -201,7 +197,7 @@
 *CHI: 0 .
 *MOT: yes thats not too hot .
 *MOT: I wouldnt worry about that Thomas .
-*CHI: no phh no phh .
+*CHI: no phh .
 *MOT: is that nice ?
 *MOT: is that making a noise ?
 *MOT: oh gosh it is isnt it ?
@@ -229,7 +225,7 @@
 *CHI: ap this ?
 *MOT: a teddybears on it .
 *MOT: look .
-*MOT: look at those bears .
+*MOT: bears .
 *MOT: teddybears picnic .
 *MOT: www .
 *INV: mhm .
@@ -282,7 +278,7 @@
 *MOT: I didnt think you did .
 *MOT: because it was a nice afternoon you were running around .
 *MOT: and what did you say when you saw all the pots had been moved off
-*MOT: the pots the flowerpots .
+*MOT: the flowerpots .
 *MOT: flower pots ?
 *MOT: is that what youre saying ?
 *MOT: and we went out last night didnt we ?
@@ -291,7 +287,6 @@
 *MOT: we are .
 *MOT: and we tried a Teletubby watering and gardening set with some
 *CHI: poc .
-*MOT: it shut .
 *MOT: this is marmite .
 *MOT: it shut about ten minutes before we got there .
 *MOT: and we got to Toys R Us and they didnt sell them .
@@ -383,8 +378,8 @@
 *MOT: you dont like Cornflakes with milk .
 *MOT: you like Rice Krispies when theyve got milk on them but you don't
 *CHI: no .
-*MOT: you like to eat them like crisps when you can hear them
-*CHI: blue crisps blue crisps .
+*MOT: to eat them like crisps when you can hear them
+*CHI: blue crisps .
 *MOT: more crisps .
 *CHI: blue .
 *MOT: blue crisps ?
@@ -434,7 +429,7 @@
 *MOT: ooh that makes a nice noise .
 *MOT: Granddad treated us to a takeaway last night didnt he ?
 *MOT: because Mummy and Daddy had been at work and Grandma and Granddad
-*MOT: and then after they had cleaned the ga eh cleaned the
+*MOT: and then after they had eh cleaned the
 *MOT: walking .
 *MOT: and its quite a long walk .
 *CHI: eh whats this ?
@@ -505,7 +500,7 @@
 *MOT: now weve not been into a chip shop Thomas but you keep saying it .
 *MOT: you tell everybody that Daddy works in a chip shop dont you ?
 *MOT: I dont think Daddys very pleased .
-*MOT: do you keep telling people that Daddy works in a chip shop ?
+*MOT: keep telling people that Daddy works in a chip shop ?
 *CHI: um .
 *CHI: chips .
 *CHI: Dadda ap phh chips .
@@ -533,7 +528,6 @@
 *MOT: wheres Thomas ?
 *MOT: always .
 *MOT: where is he ?
-*CHI: all done .
 *MOT: oh .
 *MOT: there he is .
 *MOT: there he is .
@@ -549,7 +543,7 @@
 *MOT: no .
 *MOT: its a nice bib  Thomas .
 *CHI: bib .
-*MOT: oh no now thats a naughty boy for you is it ?
+*MOT: oh no now thats you is it ?
 *CHI: bib .
 *MOT: come on .
 *MOT: lets put the bib back on .
@@ -563,7 +557,7 @@
 *MOT: if you dont want it Ill wear it because I dont wanna make a mess
 *CHI: baby bibs op there .
 *MOT: thats a nice bib .
-*MOT: ooh can I have am I allowed a grape now Im wearing a bib ?
+*MOT: am I allowed a grape now Im wearing a bib ?
 *MOT: mm .
 *MOT: thank you .
 *MOT: whats on Mummys bib ?
@@ -637,7 +631,7 @@
 *INV: is he green and yellow ?
 *CHI: blue .
 *INV: no hes not blue .
-*INV: hes hes green and he has yellow feet .
+*INV: hes green and he has yellow feet .
 *CHI: bat yellow and poc .
 *CHI: ap more .
 *INV: more .
@@ -654,7 +648,7 @@
 *INV: no its not red .
 *INV: its green and yellow .
 *INV: the green and yellow .
-*INV: can you remember what their name their names are ?
+*INV: can you remember what their names are ?
 *INV: thats an aggp and thats another one .
 *INV: they look funny dont they ?
 *CHI: ap more .
@@ -724,7 +718,7 @@
 *INV: oops .
 *CHI: oh dear dear Bow .
 *INV: gopt has gone .
-*INV: where has where has gopt gone ?
+*INV: where has gopt gone ?
 *INV: so we have two now .
 *INV: two of the same kind .
 *INV: maybe theyre brothers .
@@ -741,7 +735,6 @@
 *CHI: oh dear .
 *INV: oh dear .
 *CHI: eh .
-*INV: no they dont like to be eaten thank you very much>
 *CHI: nice .
 *INV: theyll eat your feet mummmummmummmummo .
 *INV: hello Thomas .
@@ -759,7 +752,7 @@
 *INV: I cant see any blue trucks .
 *CHI: beep beep nice .
 *CHI: nice .
-*INV: you like you think their feet are tasty ?
+*INV: you think their feet are tasty ?
 *INV: ah poo .
 *CHI: ah poo .
 *CHI: nice .
@@ -788,7 +781,7 @@
 *INV: oop .
 *INV: theyre both gone now .
 *CHI: where the boc ?
-*CHI: I see the boc .
+*CHI: the boc .
 *CHI: ah the boc .
 *INV: you wanna have the gopt back ?
 *INV: you wanna have gopt back ?
@@ -809,10 +802,9 @@
 *CHI: a poo where the boc ap there .
 *CHI: ap there .
 *MOT: the box .
-*CHI: poc waderep .
 *MOT: thats not our box is it ?
 *CHI: truck truck .
-*MOT: shall we do shall we do some Play Doh playing ?
+*MOT: shall we do some Play Doh playing ?
 *CHI: 0 .
 *MOT: well that wasnt nice was it ?
 *MOT: oh dear whats the matter ?
@@ -838,7 +830,7 @@
 *MOT: hm ?
 *MOT: you put yours on .
 *CHI: no .
-*MOT: or would you like anoth would you like one like Mummys ?
+*MOT: or would you like one like Mummys ?
 *MOT: do you not want one like Mummys ?
 *CHI: eh .
 *MOT: oh its a big bib .
@@ -954,7 +946,7 @@
 *MOT: we can make a pink football cant we ?
 *MOT: roll it in your hand like that .
 *MOT: thats it .
-*CHI: oh dear the football .
+*CHI: football .
 *MOT: yes .
 *CHI: Nin Nin .
 *MOT: bouncy .
@@ -995,7 +987,7 @@
 *CHI: ap more football please .
 *MOT: please .
 *MOT: we needta .
-*MOT: we can turn this how about making this into a carrot ?
+*MOT: how about making this into a carrot ?
 *MOT: there we are .
 *CHI: ap this ?
 *MOT: its a carrot .
@@ -1009,7 +1001,6 @@
 *CHI: ap this ?
 *MOT: carrots and peas .
 *MOT: just rolling very small green balls .
-*CHI: come on .
 *CHI: peas .
 *MOT: some peas .
 *MOT: there we are .
@@ -1160,7 +1151,7 @@
 *CHI: peas .
 *CHI: peas .
 *MOT: we did try didnt we ?
-*MOT: Dipsys hat much taller much taller without a brim .
+*MOT: Dipsys hat much taller without a brim .
 *MOT: thats more like Dipsys hat isnt it ?
 *CHI: oh .
 *MOT: youre stacking up colors ?
@@ -1188,7 +1179,7 @@
 *MOT: oh .
 *MOT: Tommy Lastname what are we going to do with you ?
 *CHI: aah no ap no .
-*MOT: I know I know .
+*MOT: I know .
 *CHI: Nin Nin .
 *MOT: mhm .
 *CHI: no .
@@ -1197,7 +1188,7 @@
 *CHI: oh oh .
 *MOT: no .
 *MOT: Thomas not in your mouth .
-*MOT: thats thats dirty .
+*MOT: thats dirty .
 *CHI: 0 .
 *CHI: 0 .
 *CHI: aah .
@@ -1215,11 +1206,9 @@
 *MOT: throw it to Mummy .
 *CHI: 0 .
 *MOT: there we are .
-*CHI: ap more>
 *MOT: we throw it up in the air .
 *MOT: catch it .
-*MOT: up in the air and catch it .
-*CHI: ap more>
+*MOT: up in the air .
 *MOT: ooh .
 *CHI: Nin Nin .
 *MOT: one two three ooh .
@@ -1285,7 +1274,6 @@
 *MOT: I know we have a blue one somewhere .
 *CHI: a blue .
 *MOT: wheres the blue ball Thomas ?
-*CHI: I know .
 *CHI: ah .
 *CHI: ah .
 *MOT: wheres the blue ball ?

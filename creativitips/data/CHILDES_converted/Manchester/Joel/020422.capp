@@ -32,13 +32,11 @@
 *MOT: why ?
 *MOT: what did I do ?
 *INV: www .
-*MOT: what about what about that ?
+*MOT: what about that ?
 *MOT: shall we read a book or something  do you think ?
 *CHI: oh .
 *MOT: oh yes .
 *CHI: oh yes .
-*MOT: what book ?
-*CHI: read Charlie Chalk .
 *CHI: Charlie Chalk .
 *MOT: Charlie Chalk .
 *MOT: Charlie Chalk .
@@ -248,8 +246,6 @@
 *CHI: Ill put it on .
 *CHI: Ill put it on .
 *MOT: oh .
-*MOT: you are very good .
-*INV: well done .
 *CHI: there .
 *INV: hes running .
 *MOT: whats he doing ?
@@ -257,8 +253,7 @@
 *CHI: oh .
 *CHI: stand him up .
 *INV: twist the leg round .
-*MOT: twist it round .
-*INV: and then hell stand up .
+*INV: stand up .
 *INV: no .
 *MOT: oh no .
 *MOT: the leg .
@@ -622,7 +617,7 @@
 *MOT: got a dicky leg .
 *MOT: gonna sing him um  Jingle Bells ?
 *CHI: no .
-*MOT: he likes he likes Christmas songs .
+*MOT: he likes Christmas songs .
 *CHI: hello .
 *MOT: go away .
 *MOT: you cant come out .
@@ -713,8 +708,6 @@
 *MOT: poorly ?
 *CHI: oh .
 *CHI: pull his leg along .
-*MOT: pull his leg long ?
-*INV: pull his leg along .
 *CHI: its over there  look .
 *CHI: 0are you alright ?
 *CHI: no .
@@ -897,7 +890,7 @@
 *INV: cock a doodle dooo .
 *INV: and thats a goose .
 *CHI: thats a goose .
-*CHI: got a got a rabbit .
+*CHI: got a rabbit .
 *INV: hes a rabbit .
 *CHI: look .
 *INV: yeah .
@@ -1257,7 +1250,7 @@
 *CHI: you do him .
 *MOT: want me to stand him up ?
 *CHI: yeah .
-*CHI: put your cup put your coffee on the floor this .
+*CHI: put your coffee on the floor this .
 *MOT: Ill just hold it thanks .
 *CHI: oh .
 *CHI: woofwoofo  calf .
@@ -1441,8 +1434,7 @@
 *CHI: got a hat on .
 *CHI: this dont fit me .
 *INV: no .
-*INV: willnt fit you .
-*MOT: willnt fit you  will it ?
+*MOT: will it ?
 *MOT: youre a big boy now  arent you ?
 *MOT: with your big boy pants .
 *CHI: big boy pants .
@@ -1501,13 +1493,10 @@
 *MOT: yeah .
 *MOT: its not very good your brush though  is it ?
 *MOT: we hafta use it because weve lost your comb .
-*MOT: hidden it somewhere .
-*CHI: its up there  look .
 *MOT: yeah .
 *MOT: I know where yours is .
 *INV: www .
-*MOT: do you want yours or Carolines ?
-*INV: do you want this one ?
+*MOT: do you want yours or ?
 *CHI: want mine .
 *MOT: you want yours ?
 *MOT: alright .
@@ -1530,7 +1519,7 @@
 *CHI: go away .
 *CHI: just wipe your bottom .
 *CHI: got dirty bottom .
-*CHI: got a youve got a dirty bottom .
+*CHI: youve got a dirty bottom .
 *MOT: has she got a dirty bottom ?
 *MOT: oh .
 *MOT: better give her a wipe then .

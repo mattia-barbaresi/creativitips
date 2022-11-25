@@ -47,7 +47,7 @@
 *CHI: go his dinner .
 *MOT: yeah .
 *MOT: well .
-*MOT: that was that was the other day .
+*MOT: that was the other day .
 *MOT: because youd already seen him twice .
 *MOT: we werent going to go and see him today .
 *INV: had he gone for his dinner the other day ?
@@ -172,7 +172,7 @@
 *CHI: going see Santa Claus .
 *MOT: here .
 *CHI: going .
-*MOT: will Santa will Santa give her a present ?
+*MOT: will Santa give her a present ?
 *CHI: yeah .
 *MOT: oh .
 *MOT: what do you think shell get ?
@@ -183,8 +183,6 @@
 *MOT: you did  didnt you ?
 *CHI: look .
 *MOT: yeah .
-*MOT: thats one .
-*CHI: got some books .
 *CHI: thats one  isnt it ?
 *MOT: animals .
 *MOT: www .
@@ -360,7 +358,6 @@
 *MOT: no .
 *CHI: my dolly .
 *INV: its my dolly .
-*MOT: its not .
 *MOT: its Carolines dolly .
 *CHI: Carolines .
 *CHI: its Carolines .
@@ -504,7 +501,6 @@
 *CHI: call the fire brigade .
 *MOT: well .
 *MOT: you wouldnt put any fires out if you lost your helmet  would you
-*CHI: helmet .
 *INV: oh dear .
 *CHI: oh .
 *CHI: helmet .
@@ -520,7 +516,6 @@
 *INV: jl for Joel .
 *INV: al ml el sl .
 *MOT: there .
-*INV: what about the sl .
 *MOT: you know where the sl goes dont you because an sl is like a
 *INV: whats that say ?
 *MOT: what ?
@@ -562,8 +557,6 @@
 *MOT: drop you off at work ?
 *CHI: oh .
 *CHI: put fires out .
-*INV: put the fire out .
-*MOT: put fires out .
 *MOT: no .
 *CHI: put fire out .
 *MOT: you need a big .
@@ -771,8 +764,7 @@
 *MOT: no .
 *MOT: not your .
 *MOT: not your mouth .
-*MOT: thats when you clean your teeth  isnt it ?
-*INV: your fingers .
+*MOT: isnt it ?
 *INV: like that .
 *INV: like that .
 *INV: stretch them out like that .
@@ -882,7 +874,6 @@
 *MOT: mhm .
 *MOT: dont know where that ones gone .
 *CHI: thats a good idea .
-*MOT: is that a good idea ?
 *MOT: dont know where that ones gone .
 *MOT: oh .
 *MOT: theres a phone box .

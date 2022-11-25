@@ -8,9 +8,9 @@
 *MOT: laughs .
 *CHI: I wanna do the doggiedog .
 *MOT: right then .
-*CHI: I wanna do the doggiedog SR]
+*CHI: I wanna do the doggie+dog
 *AMY: 0 .
-*CHI: I wanna do the doggiedog SR]
+*CHI: I wanna do the doggie+dog
 *MOT: find the baby doggie then .
 *CHI: I wanna do it again .
 *CHI: I found it .
@@ -20,7 +20,7 @@
 *MOT: wheres the sheep ?
 *CHI: there .
 *MOT: theyre baby goats .
-*CHI: theyre baby goats I]
+*CHI: theyre baby goats .
 *CHI: I got two .
 *MOT: okay .
 *CHI: chicken and pussycat .
@@ -40,16 +40,15 @@
 *AMY: 0 .
 *CHI: baby kittens .
 *MOT: baby what ?
-*CHI: baby kittens SR]
+*CHI: baby kittens .
 *MOT: baby kittens ?
-*CHI: baby kittens SR]
-*CHI: sings .
+*CHI: baby kittens .
 *AMY: 0 .
 *CHI: wee !
 *MOT: woohoo .
 *MOT: theres the hen .
 *MOT: theres the chick chick chickens .
-*CHI: theres the chick chick chickens I]
+*CHI: theres the chick chick chickens .
 *CHI: sings .
 *AMY: 0 .
 *CHI: quacko quacko quacko .
@@ -79,9 +78,9 @@
 *CHI: is this the geese ?
 *MOT: yes .
 *MOT: thats the goose .
-*CHI: goose I]
+*CHI: goose .
 *MOT: goose .
-*CHI: goose SR]
+*CHI: goose .
 *CHI: geese .
 *MOT: you say geese if therere two or three or four or five of them .
 *CHI: sings .
@@ -89,9 +88,9 @@
 *MOT: okay .
 *CHI: wheres moocow ?
 *CHI: little moocow .
-*CHI: little moocow SR]
+*CHI: little moocow .
 *MOT: www .
-*CHI: is it PI]
+*CHI: is it ?
 *MOT: go on then .
 *CHI: I cant .
 *MOT: yes .
@@ -123,14 +122,14 @@
 *CHI: I pass it to you ?
 *MOT: okay .
 *MOT: whatre we gonna play now ?
-*CHI: were gonna play er er er IN]
-*CHI: were gonna play IN]
+*CHI: were gonna
+*CHI: were gonna
 *MOT: were gonna play throwing things around  are we ?
 *CHI: yes .
 *CHI: oh .
 *CHI: horses tail .
 *MOT: pardon ?
-*CHI: horses tail SR]
+*CHI: horses tail .
 *MOT: horses tail .
 *AMY: 0 .
 *MOT: did you fall over ?
@@ -161,7 +160,7 @@
 *MOT: let me just change Amys nappie .
 *CHI: smelly smelly smelly .
 *MOT: it is  isnt it ?
-*CHI: smelly smelly smelly SR]
+*CHI: smelly smelly smelly .
 *MOT: right .
 *MOT: Ill go and get you some more clothes  Amy R .
 *CHI: why ?
@@ -171,13 +170,13 @@
 *MOT: and its only seven oclock .
 *CHI: sings .
 *CHI: so I better not cry  Amy .
-*CHI: or shes PI]
+*CHI: or shes .
 *CHI: woo !
 *CHI: sings .
 *CHI: little one .
-*CHI: little one SR]
-*CHI: little one SR]
-*CHI: little one SR]
+*CHI: little one .
+*CHI: little one .
+*CHI: little one .
 *MOT: wheres your socks gone ?
 *MOT: who took Amys socks off ?
 *CHI: I didnt .
@@ -206,7 +205,7 @@
 *MOT: theres a baby on the tellie ?
 *AMY: 0 .
 *MOT: www .
-*CHI: I want IN]
+*CHI: I want
 *MOT: whats the matter  Lara ?
 *CHI: I cant do it .
 *MOT: whats the matter ?
@@ -257,14 +256,14 @@
 *MOT: shall we ?
 *MOT: oh dear .
 *MOT: whats the matter ?
-*MOT: right IN]
+*MOT: right .
 *MOT: look  Amy .
 *MOT: snotty nosed Amy .
 *AMY: 0 .
 *MOT: all done .
 *MOT: look .
-*MOT: one two three four five R]
-*MOT: we seem to have lost PI]
+*MOT: one two three four five .
+*MOT: we seem to have lost .
 *MOT: oh .
 *MOT: bang your head .
 *MOT: you have that one  Amy .
@@ -281,18 +280,18 @@
 *MOT: oh .
 *MOT: thats popped out .
 *MOT: hello  sleepyhead .
-*CHI: hello  sleepyhead I]
+*CHI: hello  sleepyhead .
 *CHI: woo .
 *MOT: www .
 *CHI: woo .
 *GRD: www .
 *MOT: right .
 *MOT: come on then  you little madam .
-*CHI: madam PI]
+*CHI: madam .
 *MOT: pardon ?
-*CHI: madam Pi]
+*CHI: madam .
 *MOT: I cant hear you .
-*CHI: little madam PI]
+*CHI: little madam .
 *MOT: right .
 *MOT: whatever you say  dear .
 *CHI: mummy ?
@@ -347,7 +346,6 @@
 *GRD: why am I a beany beany beany ?
 *MOT: grandads not a beany beany beany .
 *CHI: sillybilly Billy Billy .
-*GRD: www .
 *MOT: pardon ?
 *MOT: Im not sitting on the floor .
 *MOT: Im sitting in a nice comfy chair .
@@ -398,10 +396,10 @@
 *GRD: www .
 *GRD: www .
 *MOT: oh .
-*MOT: youre getting youre getting gunge everywhere .
+*MOT: youre getting gunge everywhere .
 *MOT: look .
 *GRD: www .
-*MOT: youre getting your all sticky PI]
+*MOT: youre getting your all sticky .
 *MOT: are you gonna eat some more ?
 *MOT: are you gonna eat some more ?
 *MOT: Amy says no .
@@ -411,8 +409,8 @@
 *MOT: Amy .
 *MOT: hello .
 *MOT: hello .
-*CHI: hello I]
-*AMY: hello I]
+*CHI: hello .
+*AMY: hello .
 *CHI: Im Lara S R .
 *GRD: that was a sort of hello .
 *MOT: Lara S R .
@@ -426,12 +424,12 @@
 *GRD: with these adverts  Lara  you hafta guess what they say .
 *AMY: 0 .
 *MOT: Amy .
-*CHI: Amy I]
+*CHI: Amy .
 *MOT: Amy .
-*CHI: Amy SR]
+*CHI: Amy .
 *MOT: Amy .
 *MOT: Amy .
-*CHI: Amy SR]
+*CHI: Amy .
 *GRD: shes saying Im alright .
 *GRD: very happy playing here .
 *CHI: Amy and Laura .
@@ -439,7 +437,7 @@
 *MOT: Amy and Laura ?
 *CHI: yes .
 *MOT: wheres Laura ?
-*CHI: Amy and Laura SR]
+*CHI: Amy and Laura .
 *GRD: wheres Laura ?
 *CHI: pardon ?
 *MOT: Lauras a girl at nursery  isnt she ?
@@ -450,12 +448,12 @@
 *GRD: what are you eating ?
 *AMY: 0 .
 *MOT: noisy Amy .
-*CHI: noisy Amy I]
+*CHI: noisy Amy .
 *MOT: wanna get your hairbrush now ?
 *MOT: Ill put your hair in a bobble while while youre sitting on
 *AMY: 0 .
 *CHI: pardon ?
-*GRD: you got a whole Pi]
+*GRD: you got a whole .
 *GRD: you share with mummy when she comes back .
 *MOT: you better .
 *GRD: man says its going to be cloudy in the morning and cloudy at night
@@ -467,7 +465,7 @@
 *CHI: ow .
 *MOT: oh sorry sorry .
 *MOT: what shall we do tomorrow then ?
-*GRD: thunderstorm  I think PI]
+*GRD: thunderstorm  I think .
 *MOT: is it going to rain tomorrow ?
 *MOT: going to rain  Amy .
 *MOT: you know what we could do  Lara ?
@@ -492,14 +490,12 @@
 *GRD: have you got enough money  Lara ?
 *GRD: how much will it cost ?
 *MOT: nine ninety nine .
-*CHI: nine ninety nine I]
+*CHI: nine ninety nine .
 *GRD: nine ninety nine .
 *GRD: mhm .
 *GRD: thats a lot of money  isnt it ?
 *CHI: 0 .
 *MOT: what ?
-*MOT: whats the matter ?
-*GRD: oh thats pretty .
 *GRD: thats pretty .
 *MOT: oh sorry .
 *GRD: thats very pretty .
@@ -545,7 +541,7 @@
 *GRD: oops .
 *CHI: laughs .
 *GRD: www .
-*GRD: ready steady IN]
+*GRD: ready steady
 *GRD: wheres Lara gone ?
 *CHI: Im like mummy .
 *GRD: youre like mummy ?
@@ -564,15 +560,15 @@
 *GRD: yes .
 *GRD: lovely book .
 *CHI: look .
-*CHI: he that all by himself PI]
+*CHI: he that all by himself .
 *MOT: no .
-*MOT: you did I did that with you .
+*MOT: I did that with you .
 *GRD: www .
 *CHI: shall we do this one now ?
 *MOT: go on then .
 *GRD: www .
-*CHI: shall we do this one SR]
-*CHI: shall we do this one SR]
+*CHI: shall we do this one ?
+*CHI: shall we do this one ?
 *GRD: whatre you going to do ?
 *GRD: whatre you going to do with it ?
 *CHI: shall we color my book in ?
@@ -603,7 +599,7 @@
 *GRD: lucky Lara .
 *CHI: oh .
 *CHI: sticky hands .
-*GRD: youve got sticky IN]
+*GRD: youve got sticky .
 *GRD: oh .
 *GRD: wash your hands .
 *GRD: wipe your hands here before you do your book .
@@ -621,7 +617,7 @@
 *MOT: now .
 *MOT: come and sit here .
 *MOT: come here .
-*MOT: Im going to count to three and Im Im gonna  going to]
+*MOT: Im going to count to three and I'm
 *MOT: one .
 *CHI: 0 .
 *MOT: it doesnt hurt if I dont hafta chase you  does it ?
@@ -634,10 +630,10 @@
 *MOT: there you go .
 *CHI: thank you .
 *GRD: Lara .
-*GRD: can you pick your hairbrush up and put it in the IN]
+*GRD: can you pick your hairbrush up and put it in the +..?
 *CHI: can you do it ?
 *GRD: do what ?
-*CHI: can you do my PI]
+*CHI: can you do my ?
 *GRD: oh .
 *GRD: its stuck to you .
 *GRD: how do you want it ?

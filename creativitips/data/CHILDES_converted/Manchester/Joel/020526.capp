@@ -9,7 +9,7 @@
 *INV: oh .
 *CHI: sheep .
 *INV: a sheep .
-*INV: to go with the little baby the little lamb .
+*INV: to go with the little lamb .
 *CHI: need something more .
 *INV: is there something in there ?
 *INV: another lamb .
@@ -88,8 +88,6 @@
 *MOT: what what would you like next ?
 *CHI: please .
 *CHI: another moo .
-*MOT: another cow ?
-*INV: another cow .
 *INV: its the last cow .
 *CHI: no another one ?
 *MOT: theres no more now ?
@@ -105,7 +103,7 @@
 *CHI: this ones a goat .
 *MOT: no .
 *MOT: thats not a goat .
-*MOT: thats a a calf .
+*MOT: a calf .
 *INV: here are the goats .
 *CHI: thats not .
 *CHI: that ones not a goat .
@@ -144,7 +142,7 @@
 *INV: you want the other horse ?
 *MOT: you want that horse ?
 *MOT: that ones lying down as well  isnt he ?
-*CHI: its not its not very .
+*CHI: its not very .
 *MOT: its not very what ?
 *CHI: very .
 *CHI: not very .
@@ -153,8 +151,7 @@
 *CHI: because hes got waggly tail .
 *MOT: got a waggly tail ?
 *CHI: please .
-*MOT: which one would you like ?
-*INV: which one ?
+*MOT: would you like ?
 *CHI: a that one .
 *INV: the dog ?
 *CHI: yeah .
@@ -234,8 +231,7 @@
 *CHI: hes got in here .
 *MOT: youre not gonna do it  are you ?
 *CHI: your Daddy  look .
-*MOT: another Daddy .
-*INV: what does a pig say  Joel ?
+*INV: a pig say  Joel ?
 *CHI: baao .
 *MOT: no .
 *MOT: that was a sheep .
@@ -269,19 +265,16 @@
 *CHI: thirteen ninety nine .
 *MOT: is it thirteen ninety nine .
 *CHI: thirteen ninety nine .
-*CHI: there you go .
-*MOT: oh thank you .
+*CHI: there .
 *MOT: well .
 *MOT: you keep that then because youve paid for it now  havent you ?
 *CHI: paid for it .
-*INV: have you .
 *MOT: yeah .
-*MOT: thats yours now and youve paid for it .
+*MOT: yours now and youve paid for it .
 *MOT: well .
 *MOT: for a while .
 *CHI: paid for chicken ?
 *MOT: paid for chicken .
-*CHI: twenty pence .
 *MOT: here you are  look .
 *MOT: give you some money for the chicken .
 *MOT: and which ones that one like ?
@@ -299,8 +292,7 @@
 *CHI: thirteen ninety nine .
 *INV: well .
 *INV: youre sposta take that .
-*INV: you give me the money and you take the chicken .
-*MOT: because you just paid for it .
+*INV: you you take the chicken .
 *CHI: thirteen ninety nine .
 *MOT: oh .
 *MOT: what what Tv programs that one on ?
@@ -336,13 +328,12 @@
 *CHI: look .
 *INV: you rub it .
 *INV: and make a wish .
-*INV: can you remember the little girls name who does who
+*INV: can you remember the little girls name who
 *CHI: I dont know .
 *MOT: is it Harmony ?
 *CHI: Harmony .
 *MOT: thats right .
-*INV: thats a funny name .
-*MOT: and her sisters Melody ?
+*MOT: Melody ?
 *CHI: thats a funny name .
 *MOT: and her Mummy gave John Major a parking ticket .
 *CHI: yeah .
@@ -547,8 +538,6 @@
 *MOT: whats his name then ?
 *CHI: driver .
 *MOT: oh .
-*MOT: just the driver .
-*INV: just the driver .
 *MOT: its not like Ted the driver or
 *INV: no .
 *INV: hes just driver driver .
@@ -624,7 +613,7 @@
 *MOT: can anybody drive the train then ?
 *CHI: just drop you off .
 *MOT: is he being naughty ?
-*MOT: shouldnt really shouldnt really .
+*MOT: shouldnt really .
 *MOT: you hafta be a proper train driver  dont you to drive a train .
 *CHI: crash .
 *MOT: youd have lots of crashes if just any old person drove the train .
@@ -633,7 +622,7 @@
 *CHI: I got job to do .
 *CHI: got job to do .
 *CHI: look .
-*MOT: is he busy ?
+*MOT: busy ?
 *MOT: yes .
 *MOT: covered in pen  arent you ?
 *CHI: pen .
@@ -667,8 +656,6 @@
 *MOT: oh .
 *MOT: there you go  look .
 *CHI: where this bit ?
-*INV: well that hasta go at the front .
-*MOT: thats from the front .
 *INV: like that .
 *INV: dont fall out  Mr Man .
 *INV: Mr driver .
@@ -695,9 +682,6 @@
 *CHI: oh .
 *MOT: www .
 *CHI: thanks .
-*MOT: hes very polite that driver .
-*INV: hes lovely .
-*MOT: I hafta say .
 *CHI: oh .
 *CHI: got  jobs to do .
 *CHI: right .

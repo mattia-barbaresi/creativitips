@@ -60,7 +60,7 @@
 *MOT: Dipsy .
 *CHI: boo .
 *MOT: laughs .
-*MOT: the little lorrys driving off now .
+*MOT: the driving off now .
 *MOT: are they all ready ?
 *MOT: oh and Po was .
 *MOT: what are they doing now ?
@@ -186,7 +186,7 @@
 *CHI: yes .
 *CHI: and Dimitra too .
 *MOT: and Dimitra .
-*CHI: sit down the floor .
+*CHI: the floor .
 *MOT: Dimitra can come and we can all sit down cant we ?
 *CHI: yes .
 *CHI: of course we can .
@@ -220,7 +220,7 @@
 *MOT: this one .
 *CHI: big truck .
 *MOT: that one .
-*CHI: looking ap big truck .
+*CHI: big truck .
 *MOT: I think it needs to be turned round the other way doesnt it ?
 *MOT: thats right .
 *INV: Thomas  what do you do at the airport ?
@@ -288,7 +288,7 @@
 *MOT: and its in the loft .
 *CHI: its in the loft .
 *INV: ah right .
-*MOT: weve got weve got the little buggy havent we ?
+*MOT: weve got the little buggy havent we ?
 *MOT: the little pushchair that we still use occasionally .
 *CHI: yes .
 *MOT: but youre too big for the pram now aren't
@@ -315,8 +315,6 @@
 *CHI: I I show you .
 *INV: youll show me .
 *CHI: I 0have got my Coca Cola .
-*MOT: oh yes .
-*INV: youve got ?
 *MOT: yes .
 *MOT: no .
 *MOT: thats not McDonalds Coca Cola  Thomas .
@@ -376,7 +374,7 @@
 *MOT: but I dont really know where the policeman is .
 *MOT: hes like this but he has got a blue helmet .
 *MOT: the fireman has got a yellow one .
-*MOT: the hel the pilot has a green one and the policeman has a
+*MOT: the pilot has a green one and the policeman has a
 *CHI: uh uh not under here .
 *MOT: is it not under there ?
 *CHI: not under my bicycle .
@@ -402,16 +400,14 @@
 *CHI: not under the chair .
 *CHI: not under there .
 *INV: Thomas ?
-*MOT: not under the dustbin bag .
+*MOT: the dustbin bag .
 *MOT: not under the chair .
-*MOT: and not under the>
 *MOT: the little policeman .
 *INV: ah of course .
 *CHI: look .
 *INV: is that not him ?
 *MOT: no no .
-*MOT: he belongs to the .
-*INV: are you looking for the uh round one ?
+*INV: for the uh round one ?
 *MOT: the one with the blue helmet .
 *MOT: yes .
 *CHI: yes .
@@ -443,7 +439,7 @@
 *CHI: um it back now .
 *MOT: if I cant see him straight away I wont keep looking .
 *CHI: um your not get past now .
-*CHI: you in the youre in the field .
+*CHI: youre in the field .
 *MOT: Im in the field am I ?
 *CHI: yes .
 *MOT: right .
@@ -457,8 +453,7 @@
 *MOT: we dont know where the policeman is .
 *MOT: but being the policeman Im sure hell uh be able to find his own
 *INV: oh are you giving me a big big hug ?
-*INV: and a big kiss .
-*MOT: oh thats nice .
+*MOT: nice .
 *MOT: I thought you didnt like me .
 *MOT: ah you do really .
 *CHI: I like you .
@@ -474,8 +469,6 @@
 *CHI: I want you .
 *INV: what is he doing ?
 *CHI: stopping at traffic lights .
-*INV: ah of course .
-*MOT: oh right .
 *MOT: stopping at traffic lights .
 *INV: is he going to the airport too ?
 *CHI: yes .
@@ -638,7 +631,7 @@
 *CHI: and and chocolates .
 *MOT: no .
 *MOT: we dont .
-*MOT: we need milk bananas apples and fruit juice .
+*MOT: we need milk bananas apples and .
 *CHI: and got chocolates .
 *MOT: has he ?
 *CHI: yes .
@@ -734,7 +727,6 @@
 *MOT: what have I told you ?
 *CHI: uh dustbin bags .
 *MOT: theyre not dustbin bags .
-*MOT: theyre cushions .
 *CHI: yes .
 *CHI: it is .
 *MOT: no .
@@ -756,12 +748,11 @@
 *MOT: be gentle .
 *CHI: here you are .
 *INV: well .
-*MOT: as long as you put them back .
-*INV: Im not sure>
+*MOT: put them back .
 *MOT: yes .
 *MOT: Dimitras covered in smelly bags of rubbish .
-*MOT: thats not very nice .
-*CHI: smell like smelly rubbish .
+*MOT: thats not .
+*CHI: smelly rubbish .
 *CHI: smell like doggy poos .
 *CHI: um 0
 *CHI: a a wee wee now .
@@ -771,7 +762,7 @@
 *MOT: it says after the next program .
 *MOT: I can see Jess on the television .
 *CHI: look .
-*CHI: Bob the Builder is >
+*CHI: Bob the Builder
 *INV: oh .
 *MOT: you sound out of breath  Thomas .
 *MOT: is it because youve been dancing ?
@@ -785,7 +776,7 @@
 *INV: oh are you showing him ?
 *CHI: yes .
 *CHI: like your van .
-*CHI: more like more like my parcels .
+*CHI: more like my parcels .
 *CHI: like Postman Pats parcels .
 *MOT: like Postman Pats parcels .
 *CHI: yes .
@@ -886,7 +877,7 @@
 *CHI: beep beep .
 *INV: what are you bringing me again ?
 *CHI: uh uh putting in your van now .
-*MOT: Postman Pat in your in his van .
+*MOT: Postman Pat in his van .
 *INV: oh youre putting them in your van now .
 *CHI: yes .
 *MOT: is Dimitra Postman Pat ?
@@ -935,7 +926,7 @@
 *CHI: over here .
 *MOT: yes .
 *CHI: okay .
-*CHI: take it in my chin in my lor my lorry .
+*CHI: take it in my chin in my lorry .
 *MOT: are you going to take it in your chin ?
 *MOT: oh be careful .
 *MOT: so is the cake for Postman Pat ?
@@ -966,8 +957,7 @@
 *CHI: dropping a parcel like me .
 *MOT: dropping a parcel like me .
 *CHI: yes .
-*CHI: like you .
-*MOT: did you did you say dropping a parcel ?
+*MOT: did you say dropping a parcel ?
 *CHI: yes .
 *MOT: oh whos that  Thomas ?
 *CHI: Reverend Timms .
@@ -977,8 +967,7 @@
 *MOT: I think he has come from inside the church hasnt he ?
 *CHI: yes .
 *MOT: has Postman Pat got something for Reverend Timms ?
-*CHI: letter for you  Reverend Timms .
-*MOT: a letter .
+*CHI: letter  Reverend Timms .
 *MOT: is that what hes saying ?
 *MOT: a letter for you  Reverend Timms .
 *CHI: and a for you .
@@ -1027,14 +1016,14 @@
 *MOT: she has got glasses as well hasnt she ?
 *CHI: uh like Missus Goggins .
 *MOT: she looks like Missus Goggins .
-*MOT: was it was it Granny Dryden or was it Missus Goggins .
+*MOT: was it Granny Dryden or was it Missus Goggins .
 *CHI: Missus Goggins .
 *MOT: was it ?
 *INV: Thomas .
 *MOT: what did Granny Dryden .
 *CHI: go and take a parcel .
 *INV: yes .
-*CHI: its a its not my
+*CHI: its not my
 *CHI: its not my van .
 *CHI: its my little parcel .
 *MOT: its not your van .
@@ -1103,7 +1092,7 @@
 *CHI: in his sack .
 *CHI: in his sack .
 *INV: yes .
-*MOT: is he going to drive away now ?
+*MOT: going to drive away now ?
 *CHI: yes .
 *CHI: stop and see a yellow one .
 *CHI: whats that called ?
@@ -1117,7 +1106,7 @@
 *CHI: draw Pat .
 *MOT: oh somebody has done a painting of Postman Pat to give to him .
 *CHI: yes .
-*INV: oh is everybody giving them giving him presents because it's
+*INV: oh is everybody giving him presents because it's
 *MOT: they must be .
 *MOT: yes .
 *CHI: big big van .
@@ -1132,7 +1121,6 @@
 *MOT: lots of sausage rolls and chocolates in it .
 *CHI: yes .
 *CHI: lot lots of Smarties .
-*CHI: lots of>
 *MOT: lots of Smarties .
 *CHI: and Kit Kats .
 *MOT: and Kit Kats .
@@ -1145,7 +1133,6 @@
 *MOT: toys .
 *CHI: and sausage roll .
 *MOT: sausage roll .
-*CHI: a lot .
 *MOT: you usually get a balloon in your party bags dont you ?
 *CHI: um no letters .
 *MOT: theyre not any letters in that post box .
@@ -1242,7 +1229,7 @@
 *MOT: you tell us .
 *MOT: whos this ?
 *MOT: you tell me who they are .
-*CHI: Jake and Fizz and B and Bella .
+*CHI: Jake and Fizz and Bella .
 *MOT: Jake and Fizz and Bella .
 *MOT: and .
 *CHI: Milo .
@@ -1296,7 +1283,7 @@
 *MOT: how about ringing Isabel because Isabel likes the Tweenys ?
 *MOT: ooh Thomas  steady .
 *CHI: my Bella I jump around .
-*MOT: your jump youre Bella and youre jumping around .
+*MOT: youre Bella and youre jumping around .
 *MOT: why dont you ring Isabel and tell the Tweenys are on because she
 *MOT: and if you give her ring she might put it on her television .
 *MOT: have you bumped your nose  sweetheart ?
@@ -1420,7 +1407,7 @@
 *MOT: one was a girl .
 *MOT: and for some reason Thomas has called them both Aunty Frank .
 *INV: ah youve got .
-*MOT: and we dont know why do we ?
+*MOT: know why do we ?
 *CHI: yes .
 *MOT: are you going to describe them to Dimitra ?
 *MOT: tell her what theyre like .
@@ -1446,7 +1433,7 @@
 *MOT: hes looking at the wall .
 *CHI: yes .
 *INV: oh right .
-*INV: are you are we back watching the telly now ?
+*INV: are we back watching the telly now ?
 *MOT: there might be some fish actually in that water mightnt there ?
 *INV: yes .
 *INV: theyre looking at some water arent they ?
@@ -1540,7 +1527,7 @@
 *CHI: over here .
 *INV: and another one there .
 *MOT: would you like me to get them for you ?
-*CHI: Thomas the here .
+*CHI: here .
 *MOT: Ill get the others .
 *INV: ah right .
 *MOT: weve actually got quite a lot because my friend and York gave
@@ -1665,8 +1652,8 @@
 *INV: uh um .
 *CHI: um .
 *CHI: a fire yours .
-*INV: I havent brought so many this time .
-*MOT: can you take this to Dimitra please  Thomas ?
+*INV: I havent brought so many .
+*MOT: this to Dimitra please  Thomas ?
 *CHI: okay .
 *CHI: Dimitra  here you are .
 *INV: thank you .
@@ -1749,8 +1736,8 @@
 *CHI: okay .
 *CHI: bye  Bob .
 *INV: bye  Bob .
-*MOT: is he going to>
-*INV: what did you tell him ?
+*MOT: is he
+*INV: tell him ?
 *CHI: yes .
 *CHI: I broken off fridge .
 *INV: you told him that you broke the fridge .
@@ -1779,10 +1766,10 @@
 *INV: that box is for the ice cream .
 *CHI: box is for ice cream .
 *INV: yes .
-*CHI: wheres um uh wheres the Coca Cola
+*CHI: uh wheres the Coca Cola
 *INV: well there isnt a Coca Cola box .
 *CHI: no .
-*INV: because there is there is a bottle for the Coca Cola .
+*INV: because there is a bottle for the Coca Cola .
 *INV: we dont need anything else .
 *CHI: that .
 *INV: thats for

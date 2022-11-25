@@ -27,10 +27,10 @@
 *INV: are you naughty again .
 *MOT: oh youre being naughty again .
 *INV: are you not going ?
-*MOT: you little naughty rascal rascal rascal .
+*MOT: you little naughty rascal .
 *MOT: lets play a game .
 *MOT: now do you wanna do drawing or shop or little toys .
-*MOT: your little play mobile .
+*MOT: play mobile .
 *CHI: no no .
 *CHI: going play hide and seek .
 *MOT: yeah but you dont know how to play hide and seek .
@@ -142,7 +142,7 @@
 *MOT: do you want your pudding now ?
 *CHI: yeah .
 *MOT: heres your spoon .
-*MOT: this is this is chocolate icecream .
+*MOT: this is chocolate icecream .
 *MOT: does it look like chocolate icecream ?
 *CHI: yeah .
 *MOT: is that nice ?
@@ -156,7 +156,7 @@
 *MOT: you like it ?
 *MOT: shall we share ?
 *MOT: do you have a mouthful and I have a mouthful ?
-*CHI: Im a Im a baby .
+*CHI: Im a baby .
 *MOT: right .
 *MOT: www .
 *MOT: mm .
@@ -246,7 +246,7 @@
 *MOT: well shall we put it up here until we find out where its from ?
 *MOT: shall we ?
 *MOT: tell Anna what you played with Sophie .
-*MOT: what did you what did you play in ?
+*MOT: what did you play in ?
 *CHI: swimming pool .
 *MOT: swimming pool .
 *INV: swimming pool .
@@ -268,7 +268,7 @@
 *MOT: yeah .
 *MOT: what are we gonna have ?
 *CHI: picnic .
-*MOT: are we going to what are we going .
+*MOT: what are we going .
 *CHI: picnic .
 *MOT: were not gonna have a picnic .
 *MOT: were gonna have a party  arent we ?
@@ -295,7 +295,7 @@
 *CHI: when it my birthday .
 *MOT: when its your birthday .
 *MOT: and tell Anna whos coming to your birthday .
-*MOT: lets think lets sit down and think whos coming to your
+*MOT: lets sit down and think whos coming to your
 *CHI: me not wanna wear nappie .
 *MOT: yeah .
 *MOT: tell Anna whos coming to your birthday .
@@ -328,10 +328,10 @@
 *MOT: Ill put away these baby things .
 *MOT: lets put away these baby things and play with something else ,
 *CHI: no .
-*CHI: I want I wanna have my bath .
+*CHI: I wanna have my bath .
 *MOT: your bath .
 *MOT: bath .
-*CHI: I want I want let me go in that little bath .
+*CHI: let me go in that little bath .
 *MOT: in the little bath .
 *CHI: yeah .
 *MOT: say bath .
@@ -350,7 +350,7 @@
 *CHI: dont be silly  Mummy .
 *MOT: mhm .
 *CHI: taking off all my clothes .
-*MOT: well you hafta have do you have any water in that bath ?
+*MOT: well do you have any water in that bath ?
 *CHI: no .
 *MOT: well put some water in .
 *MOT: www .
@@ -385,7 +385,7 @@
 *MOT: wheres the bubbles ?
 *MOT: thats right .
 *MOT: theres the bubbles .
-*CHI: lots lots lots .
+*CHI: lots .
 *MOT: lots and lots .
 *MOT: well shake them up .
 *MOT: shake them up .
@@ -408,9 +408,9 @@
 *CHI: it lives in here .
 *MOT: yes .
 *MOT: is that where its sposta be ?
-*MOT: is that where that (i)s
+*MOT: that (i)s
 *CHI: yeah .
-*CHI: it it it live in there .
+*CHI: it live in there .
 *MOT: it lives in there ?
 *CHI: yeah .
 *MOT: right .
@@ -479,10 +479,10 @@
 *CHI: okay .
 *CHI: in that bed .
 *MOT: there you go .
-*CHI: that be my be a baby cot .
+*CHI: be a baby cot .
 *MOT: babys cot .
 *MOT: lets get your pajamas on first .
-*MOT: wheres your wheres your pajamas ?
+*MOT: wheres your pajamas ?
 *MOT: thesell be your pajamas .
 *MOT: remember to clean your teeth and brush your hair .
 *CHI: I clean my teeth .
@@ -644,7 +644,7 @@
 *MOT: yes .
 *CHI: this .
 *MOT: big mess .
-*MOT: where did we where did we see this today ?
+*MOT: where did we see this today ?
 *CHI: huh ?
 *MOT: where did we see this ?
 *CHI: a little one .
@@ -706,8 +706,7 @@
 *CHI: no .
 *CHI: you 0do not wanna .
 *MOT: merrily merrily merrily merrily .
-*MOT: life is but a dream .
-*CHI: a dream .
+*MOT: life is but .
 *MOT: you are a little toe rag  arent you ?
 *CHI: you not doing it anymore .
 *MOT: Ill do it again if you want me to .
@@ -728,11 +727,11 @@
 *CHI: um yeah .
 *MOT: will you ?
 *CHI: yeah .
-*CHI: when me when me grow up .
+*CHI: grow up .
 *MOT: are you gonna grow up ?
 *CHI: yeah .
 *MOT: what will you grow up into ?
-*CHI: in a little in a big girl .
+*CHI: in a big girl .
 *MOT: a big girl .
 *MOT: oh right .
 *MOT: how tall will you be ?
@@ -793,7 +792,7 @@
 *MOT: very nice .
 *INV: oh can I have some of the cake ?
 *INV: is it all for me ?
-*CHI: it it it Grandmas birthday today .
+*CHI: Grandmas birthday today .
 *INV: oh its my birthday ?
 *INV: oh .
 *CHI: bit bit of salt on .
@@ -821,7 +820,7 @@
 *CHI: and cup of tea too .
 *CHI: oh .
 *CHI: this not meant to be in here .
-*MOT: theyre all theyre all separated those .
+*MOT: theyre all separated those .
 *CHI: and this not meant to .
 *CHI: this one here .
 *MOT: that ones meant to be in here .
@@ -864,11 +863,9 @@
 *MOT: thats right .
 *MOT: yeah .
 *CHI: you .
-*CHI: what these do ?
 *MOT: www .
 *CHI: Mummy .
 *MOT: yes darling ?
-*CHI: what these do ?
 *CHI: oh I find it .
 *MOT: oh is that right .
 *MOT: youre right actually darling .
@@ -880,7 +877,7 @@
 *CHI: you like this ?
 *INV: mhm .
 *MOT: thats do you know what is that youre putting in ?
-*CHI: bit bit bit of salt .
+*CHI: bit of salt .
 *MOT: sugar .
 *CHI: sugar .
 *CHI: bit of sugar .
@@ -889,7 +886,7 @@
 *CHI: you want some tea ?
 *MOT: yeah .
 *MOT: www .
-*CHI: you want you want cup of tea  Mummy ?
+*CHI: you want cup of tea  Mummy ?
 *MOT: yeah .
 *MOT: Id love a cup of tea .
 *CHI: bit of sugar in tea .
@@ -900,7 +897,7 @@
 *CHI: a bit hot .
 *INV: a bit hot .
 *INV: I hafta be careful  do I ?
-*CHI: you like you like it hot .
+*CHI: you like it hot .
 *INV: I do like it hot yes .
 *INV: much better than cold .
 *CHI: yeah .
@@ -912,7 +909,7 @@
 *INV: okay .
 *INV: can I have a piece of cake as well ?
 *CHI: yeah .
-*INV: shall I just have shall I just have one piece ?
+*INV: shall I just have one piece ?
 *CHI: lots ones .
 *INV: are you making er Mummy a cup of tea now ?
 *CHI: yeah .
@@ -944,7 +941,7 @@
 *MOT: no .
 *MOT: lucky old Anna hey .
 *MOT: Ill have some salt on my tomatos .
-*MOT: because I quite I dont mind salt on my tomatos .
+*MOT: because I dont mind salt on my tomatos .
 *CHI: huh ?
 *CHI: on these tomatos .
 *MOT: er no .
@@ -959,7 +956,7 @@
 *MOT: well youre not a very .
 *MOT: Im not coming to your house again .
 *MOT: youre not a very good hostess .
-*CHI: tea fall tea fall out .
+*CHI: tea fall out .
 *MOT: did it ?
 *CHI: I am a nice one .
 *MOT: are you a nice one ?
@@ -1003,7 +1000,7 @@
 *MOT: thats a lot .
 *INV: oh thank you .
 *CHI: bl bl bl bl .
-*CHI: I saying bl bl bl to you .
+*CHI: I saying bl to you .
 *MOT: really ?
 *CHI: bl bl bl bl bl .
 *MOT: bl bl bl bl bl .
@@ -1028,7 +1025,7 @@
 *CHI: what ?
 *MOT: I didnt do it .
 *MOT: whatre you doing ?
-*CHI: taking them just taking them off and putting them back on .
+*CHI: just taking them off and putting them back on .
 *MOT: right .
 *MOT: is that good fun ?
 *CHI: yeah .
@@ -1046,11 +1043,11 @@
 *MOT: yes .
 *MOT: we didnt play with this last time .
 *CHI: what ?
-*MOT: do you wanna do you wanna play shop or something ?
+*MOT: do you wanna play shop or something ?
 *CHI: no .
 *MOT: okay .
 *CHI: you be a helper .
-*CHI: you be you be a keeper .
+*CHI: you be a keeper .
 *MOT: keeper ?
 *MOT: what keeper ?
 *CHI: you get all the food .
@@ -1063,8 +1060,8 @@
 *MOT: a shopkeeper .
 *MOT: shall I get the till out ?
 *CHI: yeah .
-*CHI: no no no .
-*CHI: going be going be a man without a shop .
+*CHI: no .
+*CHI: going be a man without a shop .
 *MOT: a man without a shop ?
 *CHI: yeah .
 *MOT: so you dont want the till .
@@ -1100,7 +1097,7 @@
 *MOT: right .
 *CHI: my Daddy come do some shopping .
 *MOT: oh really ?
-*MOT: does your little girl does she eat well ?
+*MOT: does she eat well ?
 *CHI: um bit bit not .
 *MOT: a bit not .
 *MOT: what does she .
@@ -1121,7 +1118,7 @@
 *CHI: yeah .
 *MOT: and then does she say she doesnt want anymore ?
 *CHI: and throw one on the floor .
-*MOT: she throws she throws it on the floor ?
+*MOT: she throws it on the floor ?
 *CHI: yeah .
 *CHI: sometimes a bit naughty doing that .
 *MOT: she is .
@@ -1143,7 +1140,7 @@
 *MOT: right .
 *MOT: does Mummy get cross ?
 *CHI: yeah .
-*MOT: and what what what does little baby say ?
+*MOT: and what does little baby say ?
 *CHI: I want in .
 *MOT: oh .
 *CHI: and and me let in .
@@ -1219,7 +1216,7 @@
 *CHI: I make her bed at home .
 *MOT: you wanna ?
 *MOT: right .
-*MOT: does she does she have fun ?
+*MOT: does she have fun ?
 *MOT: what does she like to do  Ruth ?
 *CHI: just play in boat and all her friends .
 *CHI: and yeah .
@@ -1255,9 +1252,9 @@
 *CHI: yeah .
 *MOT: right okay .
 *MOT: there .
-*MOT: is she does Ruth have a sleep ?
+*MOT: does Ruth have a sleep ?
 *CHI: mhm yeah .
-*CHI: I got got a bed for her in there .
+*CHI: got a bed for her in there .
 *MOT: have you ?
 *CHI: yeah .
 *MOT: right .
@@ -1271,7 +1268,7 @@
 *CHI: have it after tea .
 *MOT: after her tea .
 *MOT: right .
-*CHI: and and a pretend
+*CHI: a pretend
 *MOT: a pretend bottle ?
 *CHI: yeah .
 *MOT: whats in the pretend bottle ?
@@ -1297,7 +1294,7 @@
 *CHI: I want pepper .
 *CHI: want a bit of juice .
 *MOT: I tell you what .
-*CHI: want bit of want bit of water .
+*CHI: want bit of water .
 *MOT: oh right .
 *MOT: okay .
 *CHI: this water .
@@ -1318,7 +1315,7 @@
 *CHI: yeah .
 *MOT: and theres a big orange for you .
 *CHI: thank you .
-*CHI: little orange go in there and the big orange go with big [//]
+*CHI: little orange go in there and the big orange go
 *MOT: right .
 *CHI: and little orange go in with little grapes .
 *MOT: right .
@@ -1369,7 +1366,7 @@
 *MOT: egg .
 *CHI: egg .
 *MOT: you go over there and and Ill give you some eggs .
-*CHI: want that want that one .
+*CHI: want that one .
 *MOT: you want that ?
 *CHI: egg .
 *MOT: egg .
@@ -1381,14 +1378,14 @@
 *MOT: because theres a little one .
 *CHI: that another big one .
 *MOT: oh .
-*CHI: I not not break it .
+*CHI: not break it .
 *MOT: not break it .
 *MOT: right .
 *CHI: go that go in here .
 *MOT: right .
 *MOT: okay .
 *MOT: so what else do we need now ?
-*CHI: um need a big need a little orange .
+*CHI: um need a little orange .
 *MOT: oh a little orange .
 *MOT: no .
 *MOT: youve had all the oranges .
@@ -1446,7 +1443,7 @@
 *CHI: rest for later .
 *CHI: rest in there for later .
 *MOT: right .
-*MOT: will she will she get it if she eats up her tea ?
+*MOT: will she get it if she eats up her tea ?
 *CHI: yeah .
 *MOT: oh right .
 *CHI: you you have a little bit .
@@ -1489,7 +1486,7 @@
 *CHI: there .
 *MOT: oh there it is .
 *MOT: theres the catfood .
-*CHI: I got I got a cat .
+*CHI: I got a cat .
 *MOT: have you ?
 *MOT: have you got a nice cat ?
 *CHI: yeah .
@@ -1588,7 +1585,7 @@
 *MOT: theres money to shop with .
 *CHI: oh dear .
 *MOT: okay .
-*CHI: put them put them in here .
+*CHI: put them in here .
 *MOT: oh dont put your money in there .
 *MOT: you wanna hold your money .
 *MOT: right .
@@ -1601,7 +1598,7 @@
 *MOT: want more icecream .
 *MOT: want more icecream .
 *CHI: rest for later .
-*CHI: you have you have a bit my cake then .
+*CHI: you have a bit my cake then .
 *MOT: dont like it .
 *CHI: this on it .
 *CHI: rest rest for me .
@@ -1612,7 +1609,7 @@
 *CHI: that go on here .
 *MOT: no .
 *MOT: it doesnt .
-*MOT: no no no .
+*MOT: no .
 *MOT: that just goes beepo .
 *MOT: we dont weigh that because thats just a tin .
 *MOT: beepo .
@@ -1663,7 +1660,7 @@
 *MOT: is that everything  madam ?
 *CHI: yeah .
 *MOT: okay .
-*CHI: I want bit chips .
+*CHI: bit chips .
 *MOT: oh your dog food .
 *MOT: oh you want some chips as well .
 *MOT: your dog food .
@@ -1784,7 +1781,7 @@
 *MOT: Pete can be your doggy .
 *MOT: wheres Pete gone ?
 *MOT: hes not in here .
-*MOT: waddle waddle waddle .
+*MOT: waddle .
 *CHI: here my doggy .
 *MOT: heres your doggy .
 *INV: oh yes .
@@ -1819,7 +1816,7 @@
 *MOT: there .
 *CHI: rest for later .
 *MOT: right .
-*CHI: I better better wash my hands .
+*CHI: better wash my hands .
 *MOT: had you ?
 *CHI: you wash sink .
 *MOT: am I your sink ?
@@ -1862,7 +1859,7 @@
 *MOT: oh .
 *MOT: a funny place to lie .
 *CHI: huh ?
-*MOT: why dont why dont you put her on her bed for a sleep while
+*MOT: why dont you put her on her bed for a sleep while
 *CHI: no .
 *MOT: oh .
 *CHI: I put my spoon back in again .
@@ -1953,10 +1950,10 @@
 *MOT: well some people eat them cold .
 *CHI: what ?
 *MOT: put it on here .
-*MOT: this is this is the oven .
+*MOT: this is the oven .
 *CHI: want put it in there .
 *MOT: well you need a saucepan first .
-*MOT: get your get your saucepan .
+*MOT: get your saucepan .
 *MOT: get your saucepan .
 *MOT: this can be your saucepan .
 *MOT: put your baked beans in there first .
@@ -1981,7 +1978,7 @@
 *MOT: okay .
 *MOT: right .
 *MOT: put some in .
-*MOT: this is for this one Annas .
+*MOT: this one Annas .
 *CHI: no .
 *CHI: that for Mummy .
 *MOT: oh thats Mummy .
@@ -1996,7 +1993,7 @@
 *CHI: no .
 *CHI: no .
 *CHI: that one for Mum .
-*CHI: that one for for Daddy .
+*CHI: for Daddy .
 *MOT: thats for Daddy .
 *MOT: there you go .
 *MOT: does Ruth not get any ?

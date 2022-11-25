@@ -33,13 +33,13 @@
 *MOT: Lara .
 *MOT: give me that bottle .
 *MOT: that is Amys bottle .
-*MOT: weve taken Father Christmas has got yours .
+*MOT: Father Christmas has got yours .
 *MOT: thank you .
 *CHI: 0 .
 *MOT: youre not wandering round with a bottle .
 *CHI: 0can I take that off ?
 *MOT: I dont think it comes off .
-*CHI: it comes off PI]
+*CHI: it comes off .
 *MOT: it doesnt .
 *CHI: there .
 *CHI: 0 .
@@ -65,9 +65,9 @@
 *CHI: this .
 *MOT: uhhuh ?
 *MOT: theyre scissors .
-*CHI: scissors I]
+*CHI: scissors .
 *MOT: theyre forceps .
-*CHI: forceps PI]
+*CHI: forceps ?
 *MOT: ouch .
 *CHI: sorry .
 *MOT: oh .
@@ -75,34 +75,34 @@
 *CHI: 0 .
 *CHI: 0 .
 *CHI: Rosies poorly .
-*CHI: Rosies poorly SR]
-*CHI: Rosie SR]
-*CHI: Rosie SR]
+*CHI: Rosies poorly .
+*CHI: Rosie .
+*CHI: Rosie .
 *CHI: come on .
-*CHI: come on SR]
-*CHI: come on SR]
+*CHI: come on .
+*CHI: come on .
 *CHI: go there .
-*CHI: go there SR]
+*CHI: go there .
 *CHI: right .
 *CHI: thats it .
-*CHI: thats PI]
-*CHI: Im PI]
+*CHI: thats .
+*CHI: Im .
 *MOT: clever girl .
 *CHI: 0 .
 *MOT: what else are you gonna draw ?
 *CHI: Abi .
 *CHI: Abi draw .
-*CHI: Abi draw SR]
+*CHI: Abi draw .
 *MOT: Abis name .
 *MOT: starts with an Annie apple ?
 *AMY: 0 .
 *CHI: wheres Rosie ?
-*CHI: wheres Rosie SR]
+*CHI: wheres Rosie ?
 *MOT: shes underneath the blanket .
 *CHI: 0 .
 *MOT: what are you doing ?
 *CHI: 0 .
-*MOT: wheres Lara  Amy PI]
+*MOT: wheres Lara  Amy .
 *CHI: look !
 *MOT: hello .
 *MOT: youre behind me .
@@ -205,7 +205,7 @@
 *MOT: you lost that one at grandmas .
 *MOT: now .
 *MOT: youve lost this one here   havent you ?
-*MOT: did you take it IN]
+*MOT: did you take it .
 *MOT: oh .
 *MOT: found them .
 *MOT: right .
@@ -218,7 +218,7 @@
 *MOT: Play Doh ?
 *CHI: yeah !
 *MOT: table out .
-*MOT: Ill take you take the table .
+*MOT: you take the table .
 *MOT: thats it .
 *MOT: right .
 *MOT: here you are .
@@ -229,7 +229,7 @@
 *MOT: can I put the table on the mat ?
 *MOT: you move out the way then .
 *MOT: oh oops .
-*CHI: oh SR]
+*CHI: oh .
 *MOT: right .
 *MOT: theres that .
 *MOT: Im going to get Amys little wrist rattle .
@@ -238,7 +238,7 @@
 *MOT: push it all together ?
 *CHI: wheres another bit one ?
 *MOT: mhm ?
-*CHI: wheres another one SR]
+*CHI: wheres another one ?
 *MOT: another what ?
 *CHI: well .
 *CHI: wheres wheres another to go over there ?
@@ -253,11 +253,11 @@
 *MOT: thats enough .
 *MOT: I dont think you need much more than that .
 *MOT: squish it in ?
-*CHI: heres PI]
+*CHI: heres .
 *MOT: thank you .
 *MOT: right .
 *CHI: no .
-*CHI: I wanna make IN]
+*CHI: I wanna make
 *CHI: I wanna do it .
 *CHI: can you do it ?
 *MOT: yes .
@@ -268,7 +268,7 @@
 *MOT: hooray !
 *CHI: one for you .
 *MOT: thank you .
-*CHI: one for you SR]
+*CHI: one for you .
 *CHI: one for daddy .
 *CHI: wiggle wiggle wiggle .
 *MOT: oh .
@@ -276,13 +276,13 @@
 *MOT: there .
 *MOT: right .
 *MOT: do you want more worms or shall we do a different shape ?
-*CHI: different shape I]
+*CHI: different shape .
 *MOT: different shape .
 *MOT: star shape ?
 *CHI: yes .
 *MOT: pardon ?
-*CHI: yes SR]
-*CHI: are you are your hands very sticky ?
+*CHI: yes .
+*CHI: are your hands very sticky ?
 *MOT: yes they are .
 *MOT: its because Play Dohs very sticky  isnt it ?
 *CHI: my hands are very sticky .
@@ -328,10 +328,10 @@
 *MOT: right .
 *MOT: what shall we do now ?
 *MOT: square or circle ?
-*CHI: circle I]
+*CHI: circle .
 *MOT: circle .
-*CHI: square or circle I]
-*CHI: square or circle SR]
+*CHI: square or circle ?
+*CHI: square or circle ?
 *MOT: circle .
 *AMY: 0 .
 *MOT: going to pick Amy up because she seems a bit in trouble .
@@ -339,7 +339,7 @@
 *CHI: thats called Play Doh .
 *MOT: let her play with the Play Doh as well .
 *MOT: right .
-*CHI: wheres IN]
+*CHI: wheres .
 *CHI: no .
 *CHI: Im gonna some sausage like this .
 *MOT: okay .
@@ -357,17 +357,16 @@
 *CHI: heres that bit .
 *MOT: thank you .
 *CHI: which one ?
-*CHI: which one SR]
+*CHI: which one ?
 *MOT: er  the square .
 *CHI: I like star .
 *MOT: well .
 *MOT: weve done star .
 *MOT: 0 .
 *CHI: it wont come out .
-*MOT: it doesnt matter because what we can do is IN]
+*MOT: it doesnt matter because what we can do is
 *CHI: yes ?
-*MOT: is IN]
-*CHI: yes SR]
+*CHI: yes .
 *MOT: put Amy on the sofa .
 *MOT: give her this .
 *MOT: right .
@@ -379,11 +378,11 @@
 *CHI: I want it though .
 *MOT: what are we doing ?
 *MOT: the star ?
-*CHI: star star star star I]
+*CHI: star star star star .
 *CHI: what about this bit ?
 *MOT: okay .
 *MOT: I dont think we need that bit .
-*MOT: weve got two IN]
+*MOT: weve got two .
 *MOT: no .
 *MOT: well use that bit next time  shall we ?
 *MOT: pop it in there and well use it next time .
@@ -393,16 +392,16 @@
 *CHI: shall I make it bigger for you ?
 *MOT: yes please .
 *CHI: well .
-*CHI: this is be daddy's
+*CHI: be daddy's
 *MOT: okay .
 *MOT: are you ready ?
 *MOT: steady ?
 *MOT: woo !
 *MOT: all done .
-*CHI: do it do this one now ?
+*CHI: do this one now ?
 *MOT: okay .
 *MOT: hang on .
-*MOT: Ill just put all this bit all this stuff back .
+*MOT: Ill just put all this stuff back .
 *MOT: pop that in .
 *CHI: 0 .
 *MOT: bit more ?
@@ -439,7 +438,7 @@
 *DAD: theyre rattling around in my tummy .
 *DAD: is that why I rattle ?
 *DAD: www .
-*CHI: sitting there PI]
+*CHI: sitting there ?
 *DAD: you can sit next to me .
 *DAD: yes .
 *DAD: whatre we gonna play ?
@@ -490,7 +489,7 @@
 *DAD: because I forgot to make it disappear .
 *DAD: and there we are .
 *DAD: all gone .
-*DAD: Amy PI]
+*DAD: Amy .
 *DAD: under your chin .
 *DAD: look .
 *DAD: what were you doing with it under your chin ?
@@ -540,7 +539,7 @@
 *DAD: and one eye there .
 *DAD: a nose .
 *DAD: is he happy or sad ?
-*CHI: happy I]
+*CHI: happy .
 *DAD: okay .
 *DAD: big smiley mouth like that .
 *DAD: his ears go on here .
@@ -556,7 +555,7 @@
 *DAD: another hat ?
 *DAD: there we go .
 *DAD: right .
-*DAD: you can draw one on my PI]
+*DAD: you can draw one on my
 *DAD: his mouth .
 *DAD: his nose .
 *DAD: are you alright  sweetheart ?
@@ -613,7 +612,7 @@
 *DAD: there we go .
 *DAD: a bit of a wonky nose .
 *DAD: is he happy or sad this one ?
-*CHI: happy I]
+*CHI: happy .
 *DAD: happy .
 *DAD: I wouldnt be happy with a nose like that .
 *DAD: er .
@@ -651,7 +650,7 @@
 *DAD: hello  shorty .
 *DAD: oh no no no no .
 *DAD: now now now .
-*DAD: I dont think we should be IN]
+*DAD: I dont think we should be .
 *DAD: I think that ones is a one just for daddy .
 *MOT: use this one .
 *DAD: mummy find one .
@@ -670,7 +669,7 @@
 *MOT: I hope youre not drawing on my back .
 *CHI: 0 .
 *DAD: no .
-*DAD: dont draw on dont draw on people's
+*DAD: dont draw on people's
 *DAD: no .
 *DAD: you can draw on peoples fingers if they let you .
 *DAD: but not on peoples clothes .
@@ -684,8 +683,7 @@
 *DAD: doesnt matter  does it ?
 *DAD: drawing on your fingers ?
 *MOT: no .
-*MOT: www .
-*DAD: but the thing is if you draw on your fingers you know what
+*DAD: if you draw on your fingers you know what
 *DAD: youll hafta wash it all off .
 *DAD: hello .
 *DAD: hello .
@@ -699,7 +697,7 @@
 *DAD: do you know why ?
 *DAD: Amy cant stand up yet  can she ?
 *MOT: but she is trying .
-*DAD: we shall IN]
+*DAD: we shall .
 *DAD: ooh .
 *DAD: oh .
 *DAD: are we having a cuddle ?
@@ -722,12 +720,12 @@
 *DAD: oh .
 *DAD: look at Amy .
 *MOT: 0 .
-*CHI: shall we shall we bounce ?
+*CHI: shall we bounce ?
 *DAD: shall we bounce ?
 *DAD: we can bounce if you wanna .
 *CHI: shall shall we jump on the floor ?
 *CHI: come on .
-*CHI: come on SR]
+*CHI: come on .
 *DAD: 0 .
 *MOT: shall we what ?
 *MOT: jump on the floor ?
@@ -739,7 +737,7 @@
 *DAD: ready ?
 *DAD: one two three wee !
 *DAD: ready ?
-*DAD: one two IN]
+*DAD: one two .
 *DAD: hafta look in the mirror when you get up there .
 *DAD: one two three .
 *DAD: ooh .
@@ -755,7 +753,7 @@
 *DAD: four five six !
 *CHI: 0 .
 *CHI: I want some music .
-*DAD: oh well In]
+*DAD: oh well .
 *MOT: yes in a bit  Lara .
 *MOT: after the tapes off .
 *DAD: in a wee while .
@@ -779,7 +777,7 @@
 *CHI: I dont want my coat .
 *DAD: okay well .
 *DAD: put your jumper on  okay ?
-*DAD: and the IN]
+*DAD: and the
 *MOT: wherere your gloves  Lara ?
 *DAD: and then listen when you get out there youve youve got to be
 *DAD: okay ?
@@ -812,7 +810,7 @@
 *DAD: right .
 *DAD: lets lets bring them all over here .
 *DAD: there we go .
-*DAD: can you see one with Mrs IN]
+*DAD: can you see one with Mrs .
 *DAD: is that one ?
 *DAD: shall we try it ?
 *DAD: where does it go ?
@@ -820,7 +818,6 @@
 *DAD: you see .
 *DAD: where will it go ?
 *DAD: where shall I try it ?
-*DAD: over IN]
 *DAD: no not there .
 *MOT: www .
 *DAD: shes under Postman Pat .
@@ -848,12 +845,10 @@
 *DAD: can you find one of those with Katie and Po Pat standing behind her
 *CHI: cant find one .
 *MOT: well .
-*MOT: have a look harder .
-*DAD: have a look .
 *MOT: thank you .
 *MOT: thats right .
 *DAD: 0 .
-*DAD: thats IN]
+*DAD: thats .
 *CHI: Katie .
 *DAD: Katie .
 *DAD: okay .
@@ -872,14 +867,14 @@
 *DAD: whats the cat called ?
 *DAD: yes .
 *CHI: I dont know .
-*DAD: you do know what the cat IN]
+*DAD: you do know what the cat .
 *CHI: Jess !
 *DAD: thats right .
 *DAD: and whats he got with him .
-*DAD: hes playing with a IN]
+*DAD: hes playing with a +..?
 *CHI: dont know .
 *DAD: what is it ?
-*CHI: dont know SR]
+*CHI: dont know .
 *DAD: whats it look like ?
 *CHI: Jess .
 *DAD: yes .
@@ -910,7 +905,7 @@
 *MOT: what about that one ?
 *MOT: ball of wool ?
 *MOT: oh .
-*DAD: you are IN]
+*DAD: you are .
 *DAD: 0 .
 *DAD: hows that ?
 *DAD: right .
@@ -921,7 +916,7 @@
 *DAD: stick it in then .
 *CHI: wheres this go ?
 *DAD: where does he go ?
-*DAD: stick it IN]
+*DAD: stick it .
 *DAD: you know where it goes .
 *DAD: stick it in .
 *MOT: wheres this go ?
@@ -956,7 +951,6 @@
 *DAD: yes .
 *MOT: no .
 *MOT: you choose the wrong one .
-*DAD: thats IN]
 *DAD: is it that one ?
 *DAD: or is it that one ?
 *DAD: have a look .
@@ -971,7 +965,7 @@
 *DAD: oh .
 *MOT: 0 .
 *DAD: Ive been climbed on .
-*DAD: can I can I hold the squamsterf ?
+*DAD: can I hold the squamsterf ?
 *MOT: arent you gonna lay the table for me  Lara ?
 *DAD: come here  squamsterf .
 *CHI: no .
@@ -985,8 +979,8 @@
 *MOT: it didnt hurt that much .
 *MOT: are you going to get the knives and forks for me ?
 *DAD: no .
-*DAD: not the knives and forks .
-*MOT: do you want a knife or do you want a spoon and a fork .
+*DAD: not .
+*MOT: or do you want a spoon and a fork .
 *DAD: not the knives and forks .
 *CHI: can I have a fork and knife ?
 *MOT: why not ?
@@ -1009,7 +1003,7 @@
 *MOT: can you pull a chair up as well  Lara ?
 *MOT: thank you .
 *CHI: pardon ?
-*CHI: pardon SR]
+*CHI: pardon ?
 *DAD: can you pull a chair ?
 *CHI: no .
 *DAD: no ?
@@ -1037,9 +1031,8 @@
 *DAD: mum can sit next to us .
 *DAD: yes .
 *CHI: 0 .
-*DAD: www .
 *CHI: is it ready yet ?
-*CHI: is it ready SR]
+*CHI: is it ready ?
 *MOT: nearly .
 *MOT: five minutes .
 *DAD: oh .
@@ -1049,18 +1042,16 @@
 *MOT: oh .
 *DAD: you alright  Lara ?
 *CHI: Im just going bang my book on my leg .
-*MOT: www .
-*CHI: wee !
 *CHI: 0 .
 *CHI: wheres dad ?
-*CHI: wheres dad SR]
+*CHI: wheres dad ?
 *MOT: hes just taking Amy upstairs .
 *CHI: where ?
-*CHI: where SR]
+*CHI: where ?
 *MOT: into her cot .
 *CHI: is she whingy ?
 *MOT: is she what ?
-*CHI: is she whingy SR]
+*CHI: is she whingy ?
 *MOT: whingy ?
 *MOT: er .
 *MOT: no .
@@ -1109,26 +1100,26 @@
 *DAD: oy .
 *DAD: wheres my juice juice gone ?
 *DAD: 0 .
-*DAD: wheres my wheres my water gone ?
+*DAD: wheres my water gone ?
 *DAD: wheres it gone ?
 *DAD: Ive got none left .
 *DAD: wheres it gone ?
 *CHI: its gone .
 *DAD: wheres it gone .
-*CHI: its gone SR]
+*CHI: its gone .
 *DAD: but where ?
 *CHI: its not in your coke .
 *DAD: sorry ?
-*CHI: its not in your cup SR]
+*CHI: its not in your cup .
 *DAD: its not in my cup .
-*DAD: it must be in IN]
+*DAD: it must be in .
 *DAD: where is it ?
-*DAD: in Laras IN]
+*DAD: in Laras +..?
 *CHI: tummy .
 *DAD: yes .
 *DAD: 0 .
 *DAD: no .
-*DAD: dont do that with your IN]
+*DAD: dont do that with your .
 *DAD: no no .
 *DAD: Lara no .
 *DAD: because that scratches the table .
@@ -1144,7 +1135,7 @@
 *CHI: wheres my dinner ?
 *DAD: I dont think she heard you .
 *DAD: shout it again .
-*CHI: wheres my dinner SR]
+*CHI: wheres my dinner ?
 *MOT: 0 .
 *MOT: its coming .
 *DAD: www .
@@ -1155,7 +1146,7 @@
 *DAD: okay ?
 *CHI: grrro .
 *DAD: grrro .
-*DAD: whose what are you ?
+*DAD: what are you ?
 *DAD: are you a tiger ?
 *DAD: oh .
 *DAD: Im tired out  Lara .
@@ -1167,12 +1158,12 @@
 *DAD: I am .
 *CHI: no .
 *DAD: yes .
-*CHI: no SR]
+*CHI: no .
 *DAD: yes .
-*CHI: no SR]
+*CHI: no .
 *DAD: yes .
 *DAD: 0 .
-*CHI: no SR]
+*CHI: no .
 *DAD: yes .
 *DAD: can I go to bed ?
 *CHI: no .

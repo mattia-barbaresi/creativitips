@@ -16,7 +16,7 @@
 *MOT: what are you saying ?
 *CHI: ahphsso .
 *MOT: are you snoring ?
-*MOT: are you tired are you a tired boy ?
+*MOT: are you a tired boy ?
 *CHI: wash ap down now .
 *MOT: wash and down now .
 *MOT: thats a new one .
@@ -97,14 +97,14 @@
 *MOT: may I have it ?
 *MOT: mm .
 *MOT: thats nice .
-*MOT: would you like a bit more  Thomas would you like some more
+*MOT: would you like some more
 *MOT: oh steady now .
 *MOT: no .
 *MOT: its lemonade .
 *MOT: are all the bubbles going up your nose ?
 *CHI: ap more juice .
 *MOT: well have some more of this first .
-*CHI: no no no .
+*CHI: no .
 *MOT: no .
 *MOT: please have some more of that .
 *MOT: what about some bread ?
@@ -122,7 +122,7 @@
 *MOT: we havent got any pear  Thomas .
 *MOT: Im sorry .
 *CHI: choo choosf .
-*MOT: theres some yoghurt some
+*MOT: theres some
 *MOT: have some yoghurt .
 *MOT: oh that looks .
 *CHI: poc .
@@ -195,7 +195,7 @@
 *MOT: use both hands to hold the beaker  Thomas .
 *MOT: please .
 *MOT: just steady .
-*MOT: little sips little sips .
+*MOT: little sips .
 *MOT: oh no .
 *MOT: youve had a big gulp havent you ?
 *CHI: ap juice gone .
@@ -217,7 +217,7 @@
 *MOT: come on .
 *MOT: have some more yoghurt .
 *MOT: its nice .
-*CHI: no no no .
+*CHI: no .
 *MOT: dont throw it .
 *MOT: put it in there if you dont want it please .
 *CHI: mhm .
@@ -330,7 +330,7 @@
 *MOT: Mummys just going to rinse the apple under the tap .
 *MOT: I can hear the tap dripping .
 *CHI: oops a dearf .
-*MOT: drip drip drip .
+*MOT: drip .
 *MOT: there we are .
 *MOT: shall I put it in the fruitbowl for you ?
 *CHI: no .
@@ -343,7 +343,7 @@
 *MOT: youve put the apple in with the bread havent you ?
 *MOT: mhm .
 *MOT: youre trying a strawberry now .
-*MOT: does it taste good does the strawberry taste nice ?
+*MOT: does the strawberry taste nice ?
 *CHI: pear .
 *MOT: pear .
 *MOT: its an apple .
@@ -374,7 +374,7 @@
 *MOT: oh thank you  Thomas .
 *MOT: that was lovely .
 *MOT: oh no .
-*MOT: Mummys full Mummys tummy is really full .
+*MOT: Mummys tummy is really full .
 *MOT: you eat it .
 *MOT: that was lovely .
 *MOT: thank you .
@@ -390,7 +390,7 @@
 *MOT: Thomas !
 *MOT: what are you doing ?
 *MOT: dancing on the chair .
-*CHI: no no no .
+*CHI: no .
 *MOT: no .
 *MOT: youve absolutely had enough have you ?
 *MOT: youre not eating an awful lot of anything  are you ?
@@ -403,7 +403,7 @@
 *CHI: oh dear .
 *MOT: yes .
 *MOT: the chair fell over didnt it ?
-*MOT: just going to give it a wipe with the cloth a quick wipe
+*MOT: just going to give it a quick wipe
 *CHI: chair .
 *CHI: chair .
 *MOT: right .
@@ -421,7 +421,7 @@
 *MOT: yes .
 *CHI: men in choo choosf .
 *MOT: men in choo choosf .
-*MOT: is there a little man sitting in the cabin is the driver
+*MOT: is the driver
 *MOT: I was going to call it a cabin .
 *MOT: I cant think what its called .
 *CHI: men .
@@ -505,7 +505,7 @@
 *MOT: how many men are in the cab ?
 *CHI: two .
 *MOT: two .
-*MOT: I can only see one I can only see one man .
+*MOT: I can only see one man .
 *CHI: two men .
 *MOT: two men .
 *MOT: you can see two men .
@@ -529,7 +529,7 @@
 *MOT: good old Lego .
 *MOT: oh dear .
 *MOT: thats like Thomas The Tank Engine on the video .
-*MOT: Thomas The Tank Engine goes chuff chuff chuff chuff chuff>
+*MOT: Thomas The Tank Engine goes
 *MOT: and he has forgotten to take the carriages behind him .
 *MOT: and thats what has happened with your train .
 *MOT: the engine has gone racing ahead but the carriages have been left
@@ -548,7 +548,7 @@
 *CHI: oh dear .
 *MOT: he has gone again hasnt he ?
 *MOT: without the carriages .
-*MOT: silly Thomas silly Thomas The Tank Engine .
+*MOT: silly Thomas The Tank Engine .
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *MOT: what are you saying ?
@@ -611,10 +611,10 @@
 *MOT: are you saying Daddy chip shop ?
 *CHI: Dadda chip shop .
 *MOT: you tell everybody Daddy works in a chip shop and he doesnt does
-*CHI: no no no .
-*MOT: no no no no no no no no .
-*CHI: no no no no .
-*MOT: no no no no .
+*CHI: no .
+*MOT: no .
+*CHI: no .
+*MOT: no .
 *MOT: are you shaking your head ?
 *CHI: Nin Nin .
 *MOT: itll drop off .
@@ -639,7 +639,7 @@
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *MOT: are you shaking your head saying no ?
-*CHI: no no no .
+*CHI: no .
 *MOT: oh I see .
 *MOT: youre watching that are you ?
 *CHI: what this ?
@@ -648,7 +648,7 @@
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *MOT: are you shaking your head ?
-*MOT: itll drop off  Thomas your head will drop off .
+*MOT: your head will drop off .
 *MOT: and then where will we be ?
 *MOT: Thomas without a head .
 *CHI: 0 .
@@ -667,17 +667,12 @@
 *MOT: sucking your fingers now  Thomas .
 *MOT: you seem to have toys .
 *CHI: ap there .
-*CHI: ap there>
-*CHI: ap there>
-*CHI: ap there>
-*CHI: ap there .
 *CHI: a big truck ap dark .
 *MOT: well why dont we wipe your hands .
 *CHI: big truck .
 *CHI: Nin Nin .
 *CHI: ap there .
-*CHI: truck ap there .
-*MOT: shh shh shh shh .
+*MOT: shh .
 *CHI: 0 .
 *MOT: I suggest we give your hands a wipe and then you can get down and
 *CHI: see truck .
@@ -690,7 +685,7 @@
 *CHI: yellow .
 *MOT: did you now want those strawberries and peaches ?
 *CHI: no no .
-*MOT: no thank you no thank you .
+*MOT: no thank you .
 *MOT: Thomas  youre so busy shaking your head .
 *MOT: you sillybilly .
 *CHI: Nin Nin .
@@ -750,12 +745,11 @@
 *CHI: Nin Nin .
 *MOT: yes .
 *CHI: Nin Nin .
-*MOT: I dont know what youre saying .
+*MOT: what youre saying .
 *CHI: Nin Nin
 *MOT: but I think the gist is .
 *CHI: Nin Nin .
 *MOT: yes .
-*CHI: wash ap down .
 *CHI: wash ap down .
 *MOT: shh .
 *MOT: Im washing you .
@@ -771,8 +765,8 @@
 *MOT: I dont know .
 *MOT: its beyond me  Thomas .
 *CHI: Nin Nin .
-*MOT: lets put your slippers back on shall we lets put
-*MOT: your red slippers your red shoes .
+*MOT: lets put
+*MOT: your red shoes .
 *CHI: poc shoes .
 *MOT: poc shoes .
 *MOT: the red shoesc .
@@ -796,7 +790,7 @@
 *MOT: oh here he is ?
 *MOT: Ill give him a quick wipe as well .
 *CHI: baby wipes .
-*MOT: a quick wipe a quick wipe .
+*MOT: a quick wipe .
 *CHI: oh dear .
 *MOT: there we are .
 *MOT: do you wanna get down ?
@@ -813,7 +807,7 @@
 *MOT: down .
 *CHI: oh dear .
 *MOT: oh gosh weve forgotten to undo the straps .
-*CHI: oh dear dear dear .
+*CHI: oh dear .
 *MOT: oh we didnt get very far did we ?
 *MOT: right .
 *MOT: shall we try again ?
@@ -829,11 +823,11 @@
 *MOT: your shorts feel a little bit damp .
 *MOT: do your shorts feel wet  Thomas ?
 *MOT: its where Mummy has just wiped the yoghurt off the front with
-*MOT: are you helping Mummy tidy the cushions are you helping
+*MOT: are you helping
 *CHI: oh .
 *CHI: Nin Nin .
 *CHI: oh Bow Wow .
-*MOT: oh Bow Wow oh Bow Wow .
+*MOT: oh Bow Wow .
 *CHI: Nin Nin .
 *MOT: yes .
 *CHI: Nin Nin .
@@ -904,13 +898,13 @@
 *MOT: dont get too excited when you see her .
 *CHI: meow meow meow .
 *MOT: because she gets frightened doesnt she ?
-*CHI: puss puss puss .
+*CHI: puss .
 *MOT: puss puss .
 *MOT: www .
 *MOT: lets see if she eats that  Thomas ?
 *CHI: Bow food .
-*MOT: Bows food Purdies food .
-*CHI: no no no .
+*MOT: Purdies food .
+*CHI: no .
 *MOT: no .
 *MOT: she doesnt seem to wanna eat that does she ?
 *CHI: no .
@@ -922,7 +916,7 @@
 *MOT: Purdie has gone out .
 *MOT: when she comes in well feed her then .
 *CHI: mhm .
-*MOT: whats the doggy doing on the floor whats Bow Wow doing on
+*MOT: whats Bow Wow doing on
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *MOT: yes .
@@ -931,7 +925,7 @@
 *CHI: Bow Wow .
 *CHI: oh dear .
 *MOT: Bow Wow .
-*MOT: has she fallen over has the white toy dog fallen on the
+*MOT: has the white toy dog fallen on the
 *CHI: Nin Nin .
 *MOT: yes .
 *MOT: oh youve put her to bed have you ?
@@ -945,7 +939,7 @@
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *CHI: what this ?
-*MOT: thats Dobbin thats your rockinghorse Dobbin .
+*MOT: thats your rockinghorse Dobbin .
 *MOT: youve not played with Dobbin for a while have you ?
 *MOT: you useta bring Dobbin into the kitchen every evening when you
 *MOT: after evening meal .
@@ -983,7 +977,7 @@
 *MOT: what would you like me to sing ?
 *CHI: all done .
 *MOT: all done .
-*MOT: would you like Mummy to have a ride on Dobbin shall Mummy
+*MOT: shall Mummy
 *MOT: oh well Mummys too big for Dobbin isnt she ?
 *CHI: Nin Nin .
 *MOT: whats Mummy doing ?
@@ -995,11 +989,11 @@
 *CHI: poo .
 *MOT: oh dont tickle my feet .
 *MOT: Im going to fall off .
-*MOT: no no no .
+*MOT: no .
 *MOT: Im now  Thomas .
-*MOT: no no no no .
+*MOT: no .
 *MOT: dont tickle Mummys feet when shes sitting on a rocking+horse
-*MOT: oh now I hope it wont do that anymore I hope it wont do
+*MOT: oh now I hope it wont do
 *MOT: oh the doors open .
 *MOT: look whos coming in .
 *MOT: whos coming through the door ?
@@ -1028,7 +1022,7 @@
 *CHI: no .
 *MOT: you sillybilly .
 *CHI: 0 .
-*MOT: youre coughing is Thomas coughing ?
+*MOT: is Thomas coughing ?
 *CHI: oh yellow .
 *CHI: oh dear .
 *MOT: oh dear .
@@ -1061,7 +1055,7 @@
 *MOT: yes .
 *CHI: more .
 *MOT: more .
-*MOT: is she having another sleep is she having more sleep ?
+*MOT: is she having more sleep ?
 *CHI: night night .
 *MOT: night night  Dobbin .
 *CHI: Nin Nin .
@@ -1150,8 +1144,6 @@
 *CHI: juice done .
 *MOT: juice done .
 *MOT: have you drunk all your juice ?
-*MOT: show Mummy the glass .
-*CHI: see you .
 *CHI: see you  juice .
 *MOT: see you  juice .
 *MOT: no .
@@ -1179,7 +1171,6 @@
 *MOT: it sounds like youre saying Pos scooter .
 *CHI: Nin Nin .
 *CHI: Pos scooter
-*MOT: but .
 *MOT: Pos scooter .
 *MOT: are you moving your leg as if youre on Pos scooter ?
 *MOT: but you did say computer didnt you ?
@@ -1198,11 +1189,11 @@
 *MOT: the lawnmower makes a noise doesnt it ?
 *CHI: Nin Nin .
 *MOT: what sort of noise does it make ?
-*MOT: clickety click click .
+*MOT: click .
 *MOT: are you coming to sit next to Mummy now ?
-*MOT: hello  Tiny hello .
+*MOT: hello .
 *CHI: hello .
-*MOT: hello  Thomas hello  Thomas .
+*MOT: hello  Thomas .
 *MOT: when are you going to start saying Thomas ?
 *MOT: are you going to realize that youre called Thomas ?
 *MOT: aah .
@@ -1244,7 +1235,7 @@
 *MOT: you touch her nose and say beep beepo .
 *MOT: oh I bet she doesnt appreciate that really does she ?
 *CHI: beep beep  Bow .
-*MOT: beep beep  Bow beep beep  Bow .
+*MOT: beep beep  Bow .
 *CHI: bye .
 *CHI: see you .
 *MOT: byebye .
@@ -1272,7 +1263,6 @@
 *MOT: it only makes a clicking noise when you move it forwards doesn't
 *MOT: you can move it backwards and it moves in silence .
 *MOT: thats worth remembering .
-*MOT: are you going to put everything back into the watering can>
 *CHI: brush .
 *MOT: its a brush .
 *MOT: thats a rake  and a hoe .
@@ -1313,7 +1303,6 @@
 *CHI: ahphsso .
 *MOT: and having a liedown .
 *MOT: oh poor Thomas .
-*MOT: you sound very tired doesnt he very
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *MOT: yes .
@@ -1341,7 +1330,7 @@
 *CHI: two .
 *MOT: no .
 *MOT: there were two to start with and youve put two more on now .
-*MOT: how many cushions how many cushions  Thomas ?
+*MOT: how many cushions  Thomas ?
 *CHI: two .
 *MOT: two and two more .
 *CHI: two more .

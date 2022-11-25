@@ -133,7 +133,7 @@
 *MOT: good .
 *MOT: right .
 *MOT: what else ?
-*CHI: I done I ?
+*CHI: I ?
 *MOT: you have done him already .
 *MOT: yes .
 *MOT: shall I turn over ?
@@ -226,7 +226,7 @@
 *CHI: what color ?
 *CHI: not brown .
 *CHI: little bear one .
-*CHI: can you get can you get me another red color  mum ?
+*CHI: can you get me another red color  mum ?
 *MOT: I dont think youve got me another red one  Becky .
 *MOT: thats the only red one youve got .
 *CHI: here we are .
@@ -239,7 +239,7 @@
 *MOT: can you hear it ?
 *CHI: flap flap .
 *MOT: hafta let it out  willnt we ?
-*MOT: are you going to do the um do the water .
+*MOT: are you going to do the water .
 *MOT: what color do you think that should be ?
 *CHI: no .
 *MOT: have you got hiccups ?
@@ -272,7 +272,7 @@
 *MOT: do you want me to do that one ?
 *MOT: playing tennis .
 *CHI: I done all the books .
-*CHI: what are you what are you doing ?
+*CHI: what are you doing ?
 *MOT: nothing .
 *MOT: Im just tidying these up .
 *MOT: go on .
@@ -586,7 +586,7 @@
 *MOT: Becky .
 *CHI: what ?
 *MOT: hang on .
-*MOT: its not its not your go  is it ?
+*MOT: its not your go  is it ?
 *MOT: look what weve got here .
 *MOT: whatve we got ?
 *CHI: monkeys .
@@ -792,8 +792,6 @@
 *MOT: oh dear .
 *CHI: no .
 *CHI: no .
-*MOT: Im not sure thats a very good idea .
-*CHI: hes going with his clothes on  Mummy .
 *CHI: hes gonna have a bath when he get
 *MOT: oh .
 *MOT: I see .
@@ -896,7 +894,7 @@
 *MOT: motor motor racing or something .
 *CHI: I need a wee .
 *MOT: well .
-*MOT: the wee the potties here  isnt it ?
+*MOT: the potties here  isnt it ?
 *CHI: oh no .
 *MOT: whee !
 *MOT: oh .
@@ -918,7 +916,7 @@
 *CHI: what can I buy ?
 *MOT: um I dont know .
 *CHI: wanna sit down .
-*CHI: is this is this the ladys .
+*CHI: is this the ladys .
 *MOT: whoops .
 *CHI: and I got this .
 *CHI: all the shopping .
@@ -1271,7 +1269,7 @@
 *MOT: oh .
 *MOT: you bumped your nose on a tomato .
 *CHI: and heres another tomato .
-*CHI: and heres a heres another one .
+*CHI: and heres another one .
 *CHI: heres another one .
 *MOT: that .
 *MOT: oh .
@@ -1360,7 +1358,7 @@
 *CHI: he hasta to
 *CHI: there .
 *CHI: I want him in there as well .
-*MOT: shall we put him in a little make a little fence all the way
+*MOT: shall we make a little fence all the way
 *CHI: yeah .
 *CHI: no .
 *CHI: no no .
@@ -1416,8 +1414,7 @@
 *CHI: but I dont know where the other gate is .
 *CHI: where is the other gate ?
 *MOT: there isnt any more  Becky .
-*MOT: theres only four pieces of it .
-*INV: there isnt another one .
+*MOT: theres of it .
 *CHI: last week there were four other one .
 *MOT: no .
 *MOT: there only have been four pieces of gate  Becky .
@@ -1465,10 +1462,10 @@
 *CHI: oh no .
 *MOT: oh no .
 *CHI: gotta find another one .
-*CHI: where he can sit ?
+*CHI: where sit ?
 *CHI: he didnt for him .
 *CHI: um Mummy .
-*CHI: um can you find can you find them ?
+*CHI: um can you find them ?
 *CHI: this .
 *CHI: gonna sit on here .
 *CHI: Mum .

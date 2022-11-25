@@ -3,7 +3,7 @@
 *CHI: Nin Nin .
 *MOT: oh dear .
 *MOT: have you tipped all the bricks out of the truck ?
-*MOT: oh dear dear dear .
+*MOT: oh dear .
 *CHI: oh dear
 *CHI: oh dear
 *MOT: right .
@@ -123,7 +123,7 @@
 *CHI: what it ?
 *MOT: Im not really sure  darling .
 *MOT: what do you want it to be ?
-*MOT: shall it shall it be a house ?
+*MOT: shall it be a house ?
 *MOT: or shall it be something else ?
 *MOT: what .
 *CHI: a box .
@@ -313,7 +313,7 @@
 *MOT: oh youve found a green balloon now have you ?
 *MOT: with Dipsy on it .
 *CHI: ooh hat .
-*MOT: Dipsys hat ooh Dipsys hat .
+*MOT: ooh Dipsys hat .
 *MOT: you like playing with balloons dont you ?
 *CHI: Nin Nin .
 *MOT: oh youve lost it .
@@ -325,7 +325,7 @@
 *MOT: no .
 *MOT: she might .
 *MOT: ask her .
-*MOT: you see she did she did want a ride in the truck .
+*MOT: you see she did want a ride in the truck .
 *MOT: are you lying Po down and taking her for a ride ?
 *CHI: beep beep .
 *MOT: beep beep .
@@ -349,7 +349,7 @@
 *CHI: not .
 *MOT: oh are you going to put the empty Lego box on your head are you ?
 *MOT: oh you do look a silly billywp .
-*MOT: oh what a silly billywp what a silly billywp .
+*MOT: oh what a silly billywp .
 *CHI: blue truck .
 *MOT: could I have a kiss please ?
 *CHI: Po truck .
@@ -412,7 +412,7 @@
 *MOT: oops .
 *MOT: oh dear .
 *MOT: have you crashed into the wall ?
-*MOT: oh dear oh dear .
+*MOT: oh dear .
 *CHI: see you .
 *MOT: oh bye .
 *MOT: I better come and move Purdies food because its on the floor .
@@ -615,7 +615,6 @@
 *MOT: you mustnt touch it .
 *CHI: no juice .
 *MOT: turn the handle that way so that you cant touch it .
-*CHI: no juice>
 *CHI: no juice .
 *MOT: no .
 *MOT: its not juice .
@@ -658,10 +657,9 @@
 *MOT: look at this .
 *MOT: this is pasta .
 *CHI: ap this ?
-*MOT: those are boxes>
 *CHI: what this ?
 *MOT: oh dear .
-*MOT: the clip thats the clip of the bag of pasta .
+*MOT: thats the clip of the bag of pasta .
 *CHI: oops a dear .
 *CHI: ap this ?
 *MOT: pasta .
@@ -715,7 +713,7 @@
 *CHI: oh what this ?
 *CHI: bread .
 *MOT: no .
-*MOT: well put on the little top because that one boils things a
+*MOT: well put on because that one boils things a
 *MOT: oh can you hear that ?
 *MOT: thats the sound of the water boiling .
 *CHI: no .
@@ -774,7 +772,7 @@
 *MOT: isnt it nice ?
 *CHI: Nin Nin .
 *MOT: yes .
-*MOT: what would you like me to do what would you like me to do ?
+*MOT: what would you like me to do ?
 *MOT: do you want me to sit down with you ?
 *MOT: youre playing with your building bricks again are you ?
 *CHI: Po truck .
@@ -813,19 +811,17 @@
 *MOT: is it something that Mummy wants to go in the bin ?
 *CHI: Nin Nin .
 *MOT: yes .
-*CHI: in there .
 *CHI: see .
-*CHI: in there>
 *MOT: I better come and have a look hadnt I ?
 *MOT: right .
-*MOT: what have you put in the dustbin what have you put in the
+*MOT: what have you put in the
 *CHI: oh .
 *MOT: lets see .
 *MOT: oh yes .
 *MOT: thats alright .
 *MOT: thats just a piece of paper .
 *MOT: thats a good boy .
-*MOT: thats a clever boy thats a very clever boy .
+*MOT: thats a very clever boy .
 *MOT: Ill just hafta turn the heat up a little bit on the pasta
 *CHI: no no .
 *CHI: no no .
@@ -894,7 +890,7 @@
 *MOT: another one with flowers .
 *MOT: and that one has got a teddy and and a dog on it .
 *MOT: and there are two more with flowers .
-*MOT: dont pull them off dont pull them off .
+*MOT: dont pull them off .
 *MOT: just look at them .
 *CHI: balloon .
 *MOT: yes .
@@ -909,7 +905,7 @@
 *MOT: oh have you just set Dipsy off talking ?
 *MOT: is Dipsy talking ?
 *MOT: what was he saying ?
-*MOT: it sounded like again>
+*MOT: it sounded like
 *MOT: oh .
 *CHI: ap this ?
 *MOT: it looks to me that youre undoing the zip on the back of Dipsy .
@@ -948,7 +944,7 @@
 *MOT: Lala in the truck .
 *MOT: she doesnt look very comfortable  Thomas .
 *MOT: are you not going to lie her down nicely ?
-*MOT: thats better thats better isnt it ?
+*MOT: thats better isnt it ?
 *MOT: shell like that .
 *CHI: two Po .
 *MOT: two Pos .
@@ -1013,10 +1009,10 @@
 *MOT: the one that Mummy can remember .
 *CHI: 0 .
 *MOT: the P B Bear bedtime story .
-*MOT: do you think theyve gone to sleep now do you think the
+*MOT: do you think the
 *CHI: yes .
 *CHI: Lala .
-*MOT: has Lala gone to sleep has Lala gone to sleep  Thomas ?
+*MOT: has Lala gone to sleep  Thomas ?
 *MOT: the blanket has come away .
 *CHI: no no .
 *MOT: theyre not covered up now are they ?
@@ -1128,14 +1124,14 @@
 *CHI: no .
 *CHI: see you .
 *MOT: she had a bag on her bag and it was a Teletubby .
-*MOT: it was Tinky Winky it was a Tinky Winky on her back .
+*MOT: it was a Tinky Winky on her back .
 *MOT: shall we go and see if that pastas cooked ?
 *MOT: I think it is probably well cooked by now .
 *MOT: lets go and have a look .
 *MOT: oh the kitchens all steamed up  Thomas .
 *MOT: yes .
-*MOT: thats definitely cooked definitely cooked .
-*MOT: all done its all done .
+*MOT: thats definitely cooked .
+*MOT: its all done .
 *CHI: choo choo .
 *CHI: choo choo .
 *CHI: oh .
@@ -1196,7 +1192,7 @@
 *MOT: has Mummy got blue shoes on ?
 *CHI: oh poo .
 *MOT: my shoes do not smell .
-*CHI: this is Nin Nin shoes ap there .
+*CHI: Nin Nin shoes ap there .
 *MOT: are you putting my shoes on top of your shoes ?
 *CHI: Nin Nin shoe .
 *MOT: Nin Nin shoes .
@@ -1304,7 +1300,7 @@
 *MOT: whats under dl ?
 *MOT: whats that ?
 *CHI: woof woof .
-*MOT: a doggy a dog is under dl .
+*MOT: a dog is under dl .
 *MOT: and what about e ?
 *MOT: whats that ?
 *CHI: a elephant .
@@ -1312,7 +1308,7 @@
 *MOT: elephant begins with el .
 *MOT: and what about fl ?
 *MOT: and what is that ?
-*MOT: a fish a fish .
+*MOT: a fish .
 *MOT: and what about gl ?
 *MOT: now that looks like a parcel to me .
 *MOT: so I think that must be gl for gift .
@@ -1472,8 +1468,8 @@
 *MOT: I wore a bib didnt I ?
 *MOT: and whats yl ?
 *MOT: yl is for yo yo .
-*MOT: bouncing up and down up and down .
-*MOT: and finally we get to zl to zl .
+*MOT: bouncing up and down .
+*MOT: and finally we get to zl .
 *CHI: zip .
 *MOT: which is a zip .
 *MOT: you know what a zip is dont you .
@@ -1491,7 +1487,7 @@
 *CHI: no .
 *MOT: thats right .
 *MOT: pop it in this one .
-*MOT: al for al is for apple .
+*MOT: al is for apple .
 *MOT: bl is for banana .
 *MOT: thats next to al .
 *MOT: this pocket here .
@@ -1519,7 +1515,7 @@
 *CHI: nine .
 *CHI: six .
 *CHI: nine .
-*MOT: six nine six nine .
+*MOT: six nine .
 *MOT: oh .
 *MOT: right .
 *MOT: are you going to put the orange back in the yellow pocket please ?

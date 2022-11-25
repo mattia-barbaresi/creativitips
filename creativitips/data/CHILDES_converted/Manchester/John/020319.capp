@@ -10,7 +10,7 @@
 *CHI: red empty .
 *MOT: mhm .
 *MOT: it is empty .
-*MOT: do you wanna put your bricks these bricks in there ?
+*MOT: do you wanna put these bricks in there ?
 *CHI: bricks in there .
 *MOT: mhm .
 *CHI: oh .
@@ -48,12 +48,7 @@
 *CHI: oh .
 *CHI: a star .
 *MOT: some stars .
-*MOT: the stars in the bright sky .
-*CHI: the bright sky .
-*MOT: look down where he lay .
-*CHI: look down he lay .
-*MOT: the little lord Jesus .
-*CHI: the little lord Jesus .
+*MOT: the stars in .
 *MOT: asleep on the hay .
 *CHI: asleep .
 *MOT: very good .
@@ -111,7 +106,7 @@
 *MOT: www .
 *INV: thats a bit worrying  isnt it ?
 *CHI: yeah .
-*CHI: it a scary one in bedroom .
+*CHI: it a scary one .
 *CHI: scary see .
 *MOT: no no no  John .
 *MOT: Anna believes you .
@@ -209,7 +204,7 @@
 *MOT: no .
 *MOT: actually hes happy .
 *MOT: it says hes happy and hes smiling .
-*MOT: hes a hes a good dragon I think .
+*MOT: hes a good dragon I think .
 *CHI: um angry .
 *MOT: there might be somebody whos angry but the dragon is happy .
 *MOT: what can you see here ?
@@ -441,7 +436,7 @@
 *MOT: look .
 *MOT: this little boys throwing a stone making ripples .
 *MOT: and the ant jumping in to the water will make ripples .
-*MOT: this girl is making a sound like a flute across the top of [/]
+*MOT: this girl is making a sound like a flute across the
 *MOT: thats clever .
 *CHI: there .
 *MOT: and this little boys making some sound using a blade of grass .
@@ -767,8 +762,6 @@
 *CHI: cow .
 *MOT: like a cow .
 *CHI: Old Macdonald had a cow .
-*CHI: el il el il ol .
-*MOT: el il el il ol .
 *CHI: with a cow cow cow .
 *MOT: cow cow cow .
 *CHI: el il el il ol .
@@ -843,7 +836,7 @@
 *MOT: John .
 *MOT: hes quite excited to see you .
 *CHI: John ride a digger .
-*CHI: Old Macdonald had a had a
+*CHI: Old Macdonald had a
 *CHI: el il el il ol .
 *CHI: el il el il ol .
 *CHI: Donald had a farm .
@@ -902,7 +895,7 @@
 *MOT: ten chicks .
 *MOT: thats a lot .
 *MOT: for one hen .
-*CHI: cockerel is going to get hens .
+*CHI: hens .
 *MOT: mhm .
 *CHI: cockerel .
 *CHI: I got my hand .
@@ -1061,7 +1054,6 @@
 *CHI: right .
 *CHI: lets go .
 *MOT: Ive not heard that before .
-*CHI: I wet .
 *MOT: www .
 *MOT: wherere you going  John ?
 *CHI: going .

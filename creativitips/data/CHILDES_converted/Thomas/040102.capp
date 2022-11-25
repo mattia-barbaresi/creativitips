@@ -16,7 +16,6 @@
 *MOT: yes .
 *MOT: have you seen the tape ?
 *CHI: 0 .
-*MOT: have you seen the tape ?
 *CHI: 0 .
 *CHI: mhm .
 *MOT: dont start messing about .
@@ -58,43 +57,31 @@
 *MOT: no .
 *MOT: you play nicely or Im not playing with you .
 *CHI: 0 .
-*MOT: thats not nice .
-*CHI: it is a baddie>
 *MOT: no .
 *CHI: car .
-*MOT: dont break the toys like that .
+*MOT: dont like that .
 *CHI: laughs .
 *CHI: Ill kick you .
 *MOT: I didnt kick you but Im just telling you .
 *CHI: ow .
-*MOT: my leg .
-*MOT: Thomas  stop being such a wimp .
+*MOT: Thomas  wimp .
 *CHI: 0 .
 *MOT: I didnt even do anything to you .
 *CHI: you did .
 *MOT: no .
 *MOT: I just said “stop doing that” .
-*MOT: you dont play with toys >
 *CHI: 0 .
-*MOT: thats for >
-*CHI: then why .
-*CHI: did you give them to me to play with ?
 *MOT: 0 .
 *MOT: look .
-*MOT: you know if youre very rough with your toys youre not going
+*MOT: you know youre not going
 *CHI: 0 .
-*CHI: and you hit me on the leg .
 *CHI: you .
-*MOT: I went like that to stop you doing it .
+*MOT: I went like that to stop you .
 *CHI: 0 .
-*MOT: I didnt smack you .
 *CHI: 0 .
-*MOT: did I ?
 *CHI: 0 .
-*CHI: did hurt me though .
 *MOT: well .
 *CHI: 0 .
-*MOT: I dont think so  Thomas .
 *CHI: 0 .
 *CHI: 0 .
 *MOT: well .
@@ -124,11 +111,8 @@
 *MOT: Ive hurt your feelings ?
 *MOT: you upset me when you were very rough with that garage .
 *CHI: and you
-*CHI: you really upset me when you kicked me .
 *MOT: Thomas  I did not kick you .
-*CHI: hurt my leg .
 *CHI: you .
-*CHI: youre a >
 *MOT: were being watched .
 *CHI: I know .
 *MOT: somebodys watching you .
@@ -175,7 +159,7 @@
 *CHI: I know that .
 *CHI: and even these can .
 *CHI: can you see ?
-*CHI: they go they go through .
+*CHI: they go through .
 *MOT: cant really see from where I am .
 *CHI: look .
 *MOT: turn it round .
@@ -204,7 +188,7 @@
 *MOT: what do you think that van carries ?
 *CHI: Im not telling you .
 *MOT: youre not telling me ?
-*CHI: one up there it carries your favorite food to the
+*CHI: it carries your favorite food to the
 *MOT: carries my favorite food to the fair does it ?
 *CHI: yeah .
 *MOT: well .
@@ -224,7 +208,6 @@
 *CHI: no .
 *MOT: no .
 *MOT: Im going to have a look at it in a minute .
-*MOT: think its .
 *CHI: shall I tell you what it carries ?
 *MOT: yes .
 *CHI: candy floss .
@@ -237,7 +220,7 @@
 *CHI: could be .
 *CHI: could be at a party .
 *CHI: 0 .
-*CHI: that is its got um a helicopter sign on it .
+*CHI: its got um a helicopter sign on it .
 *MOT: lets have a little look .
 *MOT: oh .
 *MOT: guess what ?
@@ -260,14 +243,14 @@
 *CHI: just pretend it says ambulance .
 *MOT: ambulance .
 *MOT: I think it might be some sort of special  um .
-*CHI: just pretend it was a candy floss van .
+*CHI: it was a candy floss van .
 *MOT: yes .
 *MOT: it could be an ambulance for taking candy floss to the fair
 *CHI: nah .
 *MOT: or people are really dying to have some candy floss .
 *MOT: emergency vehicle comes along .
 *MOT: 0 .
-*CHI: just pretend I think I am um um I only carry uh k@l
+*CHI: um um I only carry uh k@l
 *MOT: kl andy floss .
 *MOT: what sort of sounds do you think the sirens would be ?
 *CHI: rerowo .
@@ -294,16 +277,9 @@
 *CHI: same song on here .
 *MOT: our um um our ice cream man plays teddy bears picnic .
 *MOT: so perhaps this sings if you go down to the fair today be sure of
-*MOT: if you go down to the fair today be sure to go in disguise>
-*MOT: for every bear that ever there was .
 *MOT: will gather there for certain because todays the day the candy
 *CHI: its not .
 *CHI: if you come down to the ambulances today youll see a strange
-*CHI: but beware then it will say candy floss today .
-*CHI: its a good day every day .
-*CHI: its a good day every day>
-*CHI: its a good day .
-*CHI: and the day>
 *MOT: 0 .
 *CHI: secret .
 *MOT: just be careful banging metal cars on the wooden floor  darling .
@@ -348,7 +324,6 @@
 *MOT: uh wheres the other bit then ?
 *CHI: just a straight re red piece .
 *MOT: a straight red piece .
-*CHI: it needs to go on here .
 *MOT: 0 .
 *CHI: it cant fit on its own because it needs little
 *MOT: a red piece .
@@ -411,8 +386,7 @@
 *CHI: hello  Mrs Lastname .
 *MOT: I tell you what .
 *MOT: Ill come up in the lift and you can fill me up with petrol .
-*MOT: now Im driving this little red .
-*CHI: you that>
+*MOT: now Im driving .
 *MOT: this oh .
 *MOT: it doesnt say what that is .
 *MOT: I wanted one of those matchbox toys so I could see  what it
@@ -431,7 +405,7 @@
 *MOT: no .
 *CHI: theyre building this .
 *MOT: but let me just .
-*CHI: this is nois this is a noisy building site .
+*CHI: this is a noisy building site .
 *CHI: bango .
 *CHI: bango .
 *CHI: bango .
@@ -444,8 +418,6 @@
 *CHI: theyll be in .
 *CHI: you looking for your car ?
 *MOT: I think one of my might have been up .
-*MOT: checked it >
-*CHI: this car .
 *MOT: oh .
 *MOT: let me have a look please .
 *MOT: thats good .
@@ -558,7 +530,6 @@
 *MOT: better ?
 *CHI: come to arrest Purdie Lastname .
 *CHI: come to arrest Purdie Lastname .
-*MOT: whats that ?
 *MOT: is that a book ?
 *MOT: book .
 *MOT: okay .
@@ -601,7 +572,7 @@
 *MOT: your birthday .
 *CHI: is it nearly third of April ?
 *MOT: no .
-*CHI: is it aft is it at Christmas ?
+*CHI: is it at Christmas ?
 *MOT: no .
 *MOT: its at easter .
 *MOT: well .
@@ -626,8 +597,6 @@
 *MOT: itll snap .
 *MOT: its a really nice garage .
 *MOT: its good quality but
-*MOT: you know that .
-*CHI: whys the>
 *MOT: oh .
 *MOT: no .
 *MOT: no .
@@ -649,7 +618,7 @@
 *MOT: yes  love .
 *CHI: play with them ?
 *MOT: I am playing with you  love .
-*MOT: well thats because a pussy cats just jumped on my knee .
+*MOT: a pussy cats just jumped on my knee .
 *CHI: can you work these things ?
 *MOT: yes .
 *MOT: let me just put Purdie in the chair then I can play with you a bit
@@ -795,7 +764,7 @@
 *CHI: down we come .
 *CHI: next along .
 *MOT: sorry ?
-*CHI: its on the next floor .
+*CHI: floor .
 *MOT: yes .
 *MOT: so could he get off there ?
 *MOT: he could get off at the next story couldnt he ?
@@ -859,17 +828,14 @@
 *CHI: 0 .
 *MOT: the euro super .
 *MOT: super duper .
-*CHI: just euro super .
-*MOT: super duper .
 *MOT: do you want me to put a little knot in it  Thomas .
 *CHI: no .
-*MOT: do you like it like that and then you can make it .
+*MOT: do you like it like that and then you can .
 *CHI: euro super .
 *MOT: super duper .
 *CHI: Euro star .
 *CHI: Euro star .
 *CHI: Euro .
-*MOT: Euro star .
 *MOT: how about being a Euro super star ?
 *CHI: Euro star .
 *CHI: Euro star .
@@ -884,7 +850,7 @@
 *MOT: lets see what weve got down here that needs washing .
 *CHI: what ?
 *CHI: look .
-*MOT: this red car actually .
+*MOT: car actually .
 *MOT: that looks a bit grubby .
 *CHI: and dubby .
 *MOT: a bit grubby and ?
@@ -903,7 +869,7 @@
 *MOT: find something a bit thicker .
 *MOT: Id imagine the taxis too thick .
 *MOT: dont you ?
-*MOT: do you think do you think the taxis too thick altogether to
+*MOT: do you think the taxis too thick altogether to
 *CHI: um .
 *CHI: ones coming through .
 *MOT: is it ?
@@ -986,7 +952,7 @@
 *MOT: um .
 *CHI: Mum  this one looks a bit dusty .
 *CHI: um .
-*MOT: it means the service engineer .
+*MOT: the service engineer .
 *MOT: the garage man can go underneath and repair the car .
 *MOT: have a look and see what the problem is .
 *MOT: oh .
@@ -1000,7 +966,6 @@
 *MOT: the taxis coming .
 *MOT: laughs .
 *MOT: it shunted the red car on its way as well .
-*MOT: hasnt he ?
 *CHI: that doesnt .
 *CHI: no .
 *CHI: that didnt need petrol .
@@ -1114,8 +1079,7 @@
 *MOT: and Nana Bilbey useta drive one of those many years ago .
 *MOT: and the color .
 *MOT: it was called citrus green .
-*MOT: or citrus yellow .
-*CHI: heres number one racing car .
+*CHI: racing car .
 *CHI: pchssto .
 *MOT: and it was a little Mr Bean Mini .
 *MOT: in fact you will have seen it .
@@ -1207,7 +1171,7 @@
 *CHI: yep .
 *CHI: 0 .
 *CHI: big saw .
-*MOT: its a its a big what  darling ?
+*MOT: its a big what  darling ?
 *MOT: saw ?
 *CHI: big saw .
 *MOT: big saw .
@@ -1229,7 +1193,7 @@
 *MOT: go on .
 *CHI: she said to me she wanted letting out .
 *MOT: did she ?
-*CHI: she did wanted let out that door .
+*CHI: she let out that door .
 *MOT: so you opened the door and she didnt wanna go ?
 *CHI: what a bad tab shes been today .
 *MOT: shes not a bad tab .
@@ -1281,16 +1245,15 @@
 *CHI: oh ho .
 *MOT: Purdie .
 *CHI: laughs .
-*CHI: this is when this is what she did when Nana and Grandad was
+*CHI: this is what she did when Nana and Grandad was
 *MOT: did she ?
 *CHI: yeah .
 *MOT: she kept wandering around not knowing whether she wanted .
-*CHI: she went c she went out .
+*CHI: she went out .
 *CHI: then when she just turned round she said meowq .
 *CHI: come in .
 *MOT: oh dear dear .
 *MOT: what a tabby .
-*CHI: what a tab >
 *MOT: thats why I shut the door  Darling .
 *MOT: because weve got to have it shut today .
 *MOT: havent we ?
@@ -1308,8 +1271,7 @@
 *CHI: oh  Purdie .
 *MOT: no .
 *CHI: 0 .
-*MOT: dont open .
-*CHI: she just she just wants us to be cold doesnt she ?
+*CHI: she just wants us to be cold doesnt she ?
 *MOT: why ?
 *CHI: because she keeps wanting us to open that door .
 *MOT: no .
@@ -1356,11 +1318,10 @@
 *MOT: right .
 *MOT: dont know what youre saying .
 *MOT: pick that up please  Thomas .
-*CHI: pick that up me .
+*CHI: me .
 *CHI: I said meq not you Mummy .
 *MOT: well pick it up  please .
 *CHI: 0 .
-*CHI: how do you .
 *CHI: because theyre theyre dusty .
 *CHI: and they need that .
 *MOT: whats  whats dusty ?
@@ -1385,7 +1346,6 @@
 *MOT: and when it is the orange light flickers on and off .
 *MOT: doesnt quite know what it wants to do .
 *MOT: and we have problems .
-*CHI: like Purdie ?
 *MOT: well .
 *MOT: yes .
 *MOT: yeah .
@@ -1399,7 +1359,6 @@
 *CHI: and definitely Dad .
 *MOT: definitely Daddy .
 *MOT: yeah .
-*CHI: bossy Daddy .
 *MOT: is he bossy ?
 *CHI: shall we call him bossy Dad ?
 *MOT: well .
@@ -1416,7 +1375,7 @@
 *MOT: thats right .
 *MOT: does it ?
 *MOT: oh .
-*MOT: it bl I see .
+*MOT: I see .
 *MOT: if the motorcyclist moves it blocks off that does it ?
 *MOT: it blocks off the ramp ?
 *CHI: no .
@@ -1491,7 +1450,7 @@
 *CHI: look .
 *CHI: here comes the truck and .
 *MOT: going up the big ramp .
-*CHI: its here so because the van might come down again
+*CHI: because the van might come down again
 *MOT: yes .
 *MOT: because its that slippery .
 *CHI: this might thing go down mightnt it Mum ?
@@ -1533,14 +1492,11 @@
 *MOT: calm down .
 *CHI: 0 .
 *CHI: Purdies with me .
-*CHI: Purdies with me .
-*CHI: and that>
 *MOT: I know that Purdies with you but shes sitting on my knee .
 *CHI: no .
 *CHI: but she is on the colors .
 *MOT: shes on the what ?
 *CHI: blue .
-*MOT: on the colors .
 *MOT: oh I see .
 *CHI: yellow .
 *MOT: oh right .
@@ -1567,7 +1523,6 @@
 *CHI: sorry .
 *MOT: well .
 *MOT: just be careful .
-*CHI: I wasnt .
 *MOT: come and say sorryq please .
 *CHI: sorry .
 *MOT: no .
@@ -1594,7 +1549,7 @@
 *MOT: its alright .
 *MOT: she knows now youre sorry .
 *MOT: doesnt she ?
-*MOT: can you see his just look at this bit of fur  Thomas .
+*MOT: just look at this bit of fur  Thomas .
 *CHI: kiss .
 *MOT: yeah .
 *MOT: thats right .
@@ -1617,13 +1572,13 @@
 *CHI: hes not holding on .
 *CHI: help .
 *CHI: hes not holding on .
-*MOT: hes not is he ?
+*MOT: is he ?
 *MOT: Im not surprised hes fallen off .
 *MOT: that was some sort of stunt that .
 *MOT: you see sometimes people doing that dont you ?
 *CHI: I dont .
 *MOT: raising money for charity and breaking records .
-*MOT: motorcyclists driving off the top of buildings and trying to
+*MOT: motorcyclists driving off buildings and trying to
 *CHI: broomo .
 *MOT: Thomas .
 *MOT: youre going to break some of these things .
@@ -1898,13 +1853,13 @@
 *CHI: blue car .
 *CHI: now under there .
 *MOT: yeah .
-*MOT: I hate to tell you this but your petrol pumps your petrol
+*MOT: I hate to tell you this but your petrol
 *MOT: wondered what that was .
 *MOT: it shocked me .
 *MOT: bib your horn on your car .
 *MOT: your police car .
 *MOT: are you alright  Puss ?
-*CHI: I think she didnt I think she said she didnt wanna learn .
+*CHI: I think she said she didnt wanna learn .
 *MOT: no .
 *CHI: I dont wanna learn .
 *CHI: give me the green one .
@@ -1944,7 +1899,6 @@
 *MOT: do you think shed wave ?
 *CHI: laughs .
 *MOT: laughs .
-*MOT: do you think shed wave at you ?
 *CHI: laughs .
 *CHI: oh .
 *MOT: what do you think shed do when you went past ?
@@ -1958,7 +1912,6 @@
 *MOT: you know .
 *MOT: little driving goggles .
 *CHI: laughs .
-*MOT: and gloves .
 *CHI: mhm .
 *MOT: do you think shed drive quickly or slowly ?
 *CHI: slow .
@@ -1987,7 +1940,7 @@
 *MOT: what are you tutting for ?
 *MOT: youre sposta be a nice pleasant shop assistant .
 *CHI: 0 .
-*MOT: or would you do you prefer working in a garage ?
+*MOT: or do you prefer working in a garage ?
 *MOT: where youre serving petrol and mending cars ?
 *MOT: do people hafta pay  Thomas ?
 *MOT: to park at the top of your car park ?
@@ -2003,7 +1956,7 @@
 *CHI: not another mouse .
 *CHI: meowo .
 *MOT: oh dear .
-*MOT: a bit of a lia hes a bit of a liability your motorcyclist
+*MOT: hes a bit of a liability your motorcyclist
 *CHI: yeah .
 *CHI: look what Ive found .
 *MOT: what have you found ?
@@ -2036,8 +1989,8 @@
 *MOT: youve got two pence ?
 *CHI: theres a rusty car .
 *MOT: where ?
-*CHI: put it put it in the place where it goes rusty .
-*MOT: in the rust in the scrap yard you mean ?
+*CHI: put it in the place where it goes rusty .
+*MOT: in the scrap yard you mean ?
 *CHI: yep .
 *MOT: is that where all the broken cars go ?
 *CHI: yep .
@@ -2057,8 +2010,6 @@
 *MOT: I was about to say medicine but hes closed the shop .
 *MOT: oh .
 *MOT: what a nuisance .
-*MOT: and I .
-*CHI: not yet .
 *MOT: such a headache .
 *MOT: I really need some medicine .
 *MOT: oh .
@@ -2077,7 +2028,7 @@
 *MOT: youll put the closed sign up so no other customers come in .
 *MOT: but please .
 *MOT: if you could get me a packet of aspirins or some uh paracetamols
-*CHI: um did you know Im a doc did you know this was
+*CHI: um did you know this was
 *MOT: no .
 *MOT: I thought it was the garage shop actually .
 *CHI: now the shops there .

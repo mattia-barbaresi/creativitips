@@ -6,7 +6,7 @@
 *CHI: babbles .
 *MOT: ready ready ?
 *CHI: h u .
-*MOT: big bite big bite !
+*MOT: big bite !
 *MOT: ahum !
 *MOT: pretendseating .
 *MOT: delicious uh ?
@@ -88,7 +88,7 @@
 *MOT: erh which reminds me .
 *CHI: huh .
 *MOT: huh !
-*MOT: we need to take you to take your vitamins .
+*MOT: you to take your vitamins .
 *MOT: where are they ?
 *MOT: where are they ?
 *MOT: gasps whos that ?
@@ -111,7 +111,7 @@
 *MOT: good lad  and another one .
 *MOT: your teeth a bit sore today as well ?
 *MOT: colds and teething !
-*MOT: its a tough life you for you .
+*MOT: its a tough life for you .
 *MOT: its a tough life .
 *MOT: what did we do with your vitamins though baby ?
 *MOT: is ma question .
@@ -131,8 +131,8 @@
 *MOT: bit more come on bit more breakfast .
 *MOT: Hakeem ?
 *MOT: gasps pretendsaeroplane .
-*MOT: good lad good lad .
-*MOT: Im trying to find my way back SNG]
+*MOT: good lad .
+*MOT: Im trying to find my way back
 *MOT: did I put them somewhere else do you think ?
 *CHI: babbles .
 *MOT: what do you think Hak  what do you think ?
@@ -153,9 +153,9 @@
 *MOT: Hakeem .
 *MOT: Hakeem .
 *MOT: clicksrhythm .
-*MOT: tickly toes tickly toes +"/.
-*MOT: round and round the garden like a teddy bear RHY]
-*MOT: gasps one step two step tickly under there RHY]
+*MOT: tickly toes +"/.
+*MOT: round and round the garden like a teddy bear !
+*MOT: gasps one step two step tickly under there !
 *MOT: what about this one +"/.
 *MOT: gasps this little piggy went to market  and this little
 *MOT: breathsgasps this little piggy had roast beef  and this
@@ -221,7 +221,7 @@
 *MOT: youre getting so big .
 *MOT: you are just the biggest .
 *MOT: of the big .
-*MOT: however  I still cant see what I did with my with
+*MOT: however  I still cant see what I did with
 *MOT: hm it is a mystery young man a mystery .
 *CHI: burp .
 *MOT: oh you burp ?
@@ -256,7 +256,7 @@
 *MOT: what ?
 *MOT: ussh .
 *CHI: cries .
-*MOT: youre alright youre alright .
+*MOT: youre alright .
 *MOT: youre alright arent you ?
 *CHI: whimpers .
 *MOT: youre alright .
@@ -339,7 +339,7 @@
 *REL: wail yeah it was alright was a little uncomfortable but .
 *CHI: squeaks .
 *MOT: say hiya .
-*REL: at least I dont have to wear it NAC]
+*REL: at least I dont have to wear it .
 *CHI: babbles .
 *CHI: babbleslaughs .
 *REL: imitatesbabbles .
@@ -358,14 +358,13 @@
 *MOT: imitatescough .
 *MOT: whats up ?
 *MOT: oh okay go .
-*MOT: catch him !
 *CHI: h ingoou .
 *MOT: h inyou .
 *MOT: oh .
-*MOT: catch the bottle of fizzy water NAC]
+*MOT: catch the bottle of fizzy water !
 *MOT: so for christmas Im gonna get you a bottle of fizzy
-*REL: a washing machine NAC]
-*MOT: some of your favorite toys NAC]
+*REL: a washing machine .
+*MOT: some of your favorite toys !
 *REL: sniff .
 *MOT: singingdo .
 *REL: yes well done sniff .
@@ -424,7 +423,7 @@
 *MOT: dont know are you trying to stand up ?
 *MOT: mm yeah I dont think thats stable enough is it darling ?
 *MOT: for you to stand up on  actually .
-*MOT: oh yeah try the bottle again try the bottle again .
+*MOT: oh yeah try the bottle again .
 *MOT: thats good .
 *CHI: byu .
 *MOT: yeah just a bit of determination .
@@ -436,7 +435,7 @@
 *MOT: got wee wheezy breath ?
 *MOT: you gonna help Mummy put the washing away ?
 *MOT: are you ?
-*MOT: think because I think we should fold that thing up .
+*MOT: because I think we should fold that thing up .
 *MOT: so that you stop standing up on it .
 *MOT: oh dear what now ?
 *MOT: what now whats this ?
@@ -462,7 +461,7 @@
 *MOT: some dancing footballers by the looks of things .
 *MOT: oh !
 *MOT: more stuff youre getting into .
-*MOT: more stuff more stuff more stuff .
+*MOT: more stuff .
 *MOT: whats that ?
 *MOT: is that a book ?
 *MOT: oh oh babblesdud .
@@ -497,7 +496,7 @@
 *MOT: where did it go can you find it ?
 *MOT: there it is well done !
 *MOT: there it is !
-*MOT: clever laddie clever laddie .
+*MOT: clever laddie .
 *MOT: whatre you gonna do with that now ?
 *MOT: hm .
 *MOT: what does the
@@ -505,7 +504,7 @@
 *MOT: what about ?
 *MOT: because if you crawl in it you might might bash into it .
 *MOT: might hurt your leg or something your hand .
-*MOT: yawns what else what else ?
+*MOT: yawns what else ?
 *MOT: hm .
 *MOT: you like trashing c ds today eh ?
 *MOT: whats this one is that a good one ?
@@ -577,7 +576,7 @@
 *MOT: come to Mama !
 *MOT: come to Mama !
 *CHI: squeaks .
-*MOT: yeah good boy good boy !
+*MOT: yeah good boy !
 *MOT: come to Mama !
 *MOT: good boy !
 *MOT: oh that the remains of your breakfast ?

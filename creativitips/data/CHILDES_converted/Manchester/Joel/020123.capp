@@ -32,8 +32,7 @@
 *MOT: Caroline cant sit on the floor  sweetheart .
 *MOT: its a bit
 *INV: Ill sit on the floor later  shall I ?
-*INV: when we get my toys out .
-*MOT: bit uncomfortable .
+*INV: when we get .
 *INV: certainly is .
 *INV: at this stage .
 *INV: certainly is .
@@ -332,8 +331,6 @@
 *MOT: I think so .
 *MOT: if they accept those bricks .
 *INV: mhm .
-*MOT: a lot more tasteful .
-*INV: these ones are different colors .
 *MOT: hafta buy you some concrete for your next birthday .
 *MOT: and then you can like pour it inside the house .
 *MOT: www .
@@ -448,8 +445,7 @@
 *INV: in about quarter of an hour .
 *INV: fifteen minutes .
 *MOT: what about you show Caroline your guitar .
-*MOT: youre very good on your guitar  arent you ?
-*INV: oh yeah .
+*MOT: youre very  arent you ?
 *MOT: can you see it ?
 *CHI: I know .
 *CHI: I know .
@@ -631,7 +627,7 @@
 *MOT: yeah .
 *MOT: but theyre theyre crayons .
 *MOT: you hafta crayon on the other side .
-*MOT: because thats for chalk on that side .
+*MOT: because thats on that side .
 *MOT: you hafta do chalk on that side and crayon on the other side .
 *CHI: oh .
 *MOT: well .
@@ -659,13 +655,9 @@
 *CHI: um  green one .
 *MOT: youve just got the green one .
 *CHI: other green one .
-*MOT: thats a green one .
-*INV: other green one .
 *CHI: another green one .
 *CHI: big one .
 *MOT: bit that big one ?
-*MOT: that one ?
-*CHI: green one .
 *MOT: tell you what .
 *CHI: tell you what .
 *CHI: tell you what .
@@ -715,8 +707,6 @@
 *MOT: not very nice ?
 *CHI: lorry .
 *CHI: Mr Dustbin Man ?
-*INV: not the dustbin .
-*MOT: is it Mr Dustbin man .
 *INV: not yet .
 *MOT: I dont think hell be here just yet .
 *MOT: youll know when he is because he makes a lot of noise .
@@ -872,7 +862,7 @@
 *MOT: are you going to make me a nice burger ?
 *CHI: there burger .
 *MOT: that thats the beefburger .
-*MOT: then you hafta put it on that on that cob .
+*MOT: then you hafta put it on that cob .
 *CHI: there .
 *CHI: there .
 *CHI: there .
@@ -977,7 +967,7 @@
 *MOT: was that were off to the zoo ?
 *CHI: again .
 *MOT: and what did Mr .
-*MOT: can you remember can you remember when we went
+*MOT: can you remember when we went
 *MOT: you were only tiny .
 *CHI: sing zoo .
 *MOT: what ?
@@ -995,8 +985,7 @@
 *MOT: Im not doing this very well  am I ?
 *MOT: not a very good zoo  is it ?
 *MOT: not like Twycross .
-*MOT: although I didnt really like it there .
-*CHI: a big one  Mummy .
+*MOT: although I .
 *MOT: www .
 *CHI: Mummy .
 *CHI: bigger one .
@@ -1016,7 +1005,7 @@
 *INV: are you hungry ?
 *CHI: my dinner .
 *MOT: is that your dinner ?
-*MOT: what you whats that ?
+*MOT: whats that ?
 *MOT: whatre you eating ?
 *CHI: um piccalilli .
 *MOT: piccalilli .
@@ -1076,8 +1065,6 @@
 *CHI: oh .
 *CHI: oh .
 *CHI: fall down .
-*INV: all fall down .
-*MOT: I dont think it fell down .
 *MOT: you ripped it to shreds .
 *CHI: oh .
 *MOT: no .
@@ -1185,7 +1172,7 @@
 *MOT: it is .
 *MOT: and you know what that is  dont you ?
 *CHI: cheese .
-*MOT: did you tell ca did you tell Caroline where did we go last
+*MOT: did you tell Caroline where did we go last
 *MOT: did we go to that big park ?
 *MOT: and you went on that train and the boat and all sorts .
 *MOT: arent you going to tell Caroline ?
@@ -1229,7 +1216,7 @@
 *CHI: yeah .
 *MOT: oh .
 *INV: www .
-*MOT: what did you what did you say about her clothes ?
+*MOT: what did you say about her clothes ?
 *CHI: oh .
 *MOT: has she got any clothes on ?
 *CHI: yeah .
@@ -1286,7 +1273,6 @@
 *CHI: I make it  Mummy .
 *MOT: are you ?
 *MOT: what shall we make now ?
-*MOT: we didnt tell Caroline [<]
 *CHI: that one .
 *MOT: you didnt tell Caroline about those .
 *MOT: hey .
@@ -1308,7 +1294,6 @@
 *MOT: it was just a day out .
 *INV: but you saw a peacock when you were on holiday  didnt <you
 *CHI: the baby one .
-*CHI: the baby one .
 *MOT: is that a baby one ?
 *CHI: yeah .
 *MOT: ah .
@@ -1321,7 +1306,6 @@
 *INV: the Mummy whale .
 *MOT: oh is he ?
 *MOT: www .
-*CHI: not Daddy .
 *MOT: www .
 *MOT: its not the Daddy .
 *MOT: its penguin .
@@ -1422,8 +1406,6 @@
 *CHI: yeah .
 *MOT: thats for the dolly .
 *CHI: it too small .
-*MOT: too small .
-*CHI: too small .
 *MOT: yeah .
 *MOT: too small .
 *MOT: because its for the dolly  isnt it ?
@@ -1462,7 +1444,7 @@
 *CHI: too small .
 *INV: www .
 *MOT: well .
-*MOT: we got you those trainers  hadnt we .
+*MOT: we got .
 *MOT: www .
 *CHI: all fall down .
 *CHI: fall down  Mummy .
@@ -1570,8 +1552,7 @@
 *CHI: girlie .
 *MOT: www .
 *CHI: no like that on .
-*MOT: you dont like that on ?
-*INV: take it off then .
+*MOT: you dont ?
 *MOT: oh .
 *CHI: that on as well .
 *MOT: you dont want that on either ?
@@ -1613,8 +1594,6 @@
 *MOT: yeah .
 *MOT: Mummys making a mess .
 *INV: oh dear .
-*INV: Mummys done fine  look .
-*CHI: that one .
 *CHI: curly .
 *MOT: curly ?
 *CHI: that on there .
@@ -1722,7 +1701,7 @@
 *MOT: oh .
 *MOT: oh .
 *MOT: www .
-*MOT: is that are they going to play together ?
+*MOT: are they going to play together ?
 *CHI: dolly .
 *CHI: going play together dolly .
 *CHI: sit down  dolly .

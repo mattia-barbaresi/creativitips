@@ -13,11 +13,10 @@
 *CHI: mhm .
 *CHI: yes .
 *CHI: turn the light off over there .
-*MOT: youd like me to>
 *MOT: youd like me to turn the light off over here ?
 *CHI: yeah .
 *MOT: can you see better ?
-*MOT: if that turn its turned off ?
+*MOT: if its turned off ?
 *MOT: you can see out of the window better can you ?
 *CHI: yeah .
 *CHI: thanks  Mum .
@@ -177,7 +176,6 @@
 *MOT: Mummys going into work Monday next week .
 *MOT: not Wednesday .
 *CHI: oh .
-*MOT: because it's>
 *MOT: not Wednesday .
 *MOT: no .
 *MOT: because its Christmas week .
@@ -190,7 +188,7 @@
 *MOT: so thats the last collection before Christmas .
 *CHI: yeah .
 *CHI: look .
-*CHI: a lady carrying a dog .
+*CHI: carrying a dog .
 *MOT: is she carrying a dog ?
 *MOT: I can see shes carrying something .
 *MOT: is that what she has got in her arms ?
@@ -229,7 +227,7 @@
 *CHI: show you .
 *MOT: youre going to show me ?
 *CHI: whee .
-*MOT: oh is that what Po does when she go do goes down the slide
+*MOT: oh is that what Po does when she goes down the slide
 *CHI: yes .
 *MOT: very nice .
 *CHI: got something now .
@@ -300,14 +298,13 @@
 *CHI: very nice .
 *MOT: very nice ?
 *CHI: mhm .
-*MOT: whats very nice ?
+*MOT: very nice ?
 *CHI: ap sky .
 *CHI: mhm .
 *MOT: the skys very nice ?
 *CHI: oops .
 *CHI: oh da light on .
 *CHI: helmet on .
-*MOT: did you>
 *CHI: silly .
 *MOT: had you not got your helmet on ?
 *CHI: not .
@@ -403,7 +400,7 @@
 *CHI: yes .
 *MOT: what else is on the tree ?
 *MOT: what can you see ?
-*CHI: whats ina whats that funny noise ?
+*CHI: whats that funny noise ?
 *MOT: do you think it might be the tape ?
 *CHI: yeah .
 *MOT: well the lights working .
@@ -504,8 +501,7 @@
 *CHI: oh .
 *MOT: no .
 *MOT: I dont think you can lie down without being seen .
-*CHI: Thomas gone>
-*MOT: be careful because there are little chairs going into the
+*MOT: going into the
 *CHI: Thomas gone ?
 *MOT: where has Thomas gone ?
 *MOT: I dont know .
@@ -522,12 +518,10 @@
 *CHI: Mummy go outside too dark .
 *MOT: no .
 *MOT: well this is why we needta go now before it gets too dark .
-*MOT: if its too dark>
-*CHI: too dark>
 *MOT: no .
 *MOT: if its too dark theres no point going .
 *MOT: but if we go now at least its light .
-*MOT: and its and its nice when its like this .
+*MOT: and its nice when its like this .
 *MOT: because people will start putting their Christmas tree lights on .
 *MOT: and they wont have their curtains drawn .
 *MOT: and we can see inside cant we ?
@@ -677,11 +671,11 @@
 *MOT: blue Wellingtons with Teletubby stickers on them .
 *CHI: and the back one .
 *CHI: the backs .
-*CHI: I no I no front .
+*CHI: I no front .
 *CHI: ap back one .
 *MOT: back one ?
 *MOT: oh I see .
-*MOT: youre hooking the rope the rope onto the back are you ?
+*MOT: youre hooking the rope onto the back are you ?
 *MOT: the back and the front .
 *CHI: turn the light on .
 *CHI: turn the switch on .
@@ -754,7 +748,7 @@
 *CHI: yes .
 *MOT: what does Old Macdonald have on his farm ?
 *CHI: hm .
-*CHI: me locked out .
+*CHI: out .
 *MOT: what does Old Macdonald have on his farm ?
 *CHI: ap snotsnotsc .
 *MOT: snotsnotsc ?
@@ -782,7 +776,7 @@
 *MOT: just what I need .
 *MOT: I would imagine Postman Pat is very very busy at this time of
 *MOT: lots .
-*CHI: like a <moo@o>
+*CHI: like a
 *CHI: mooo .
 *CHI: like a mooo cow .
 *MOT: like a mooo cow ?
@@ -846,7 +840,7 @@
 *MOT: I think .
 *MOT: the one where you just pressed the button on .
 *MOT: I think this is the book  Thomas .
-*MOT: with the postman uh Postman Pats story about Dorothy .
+*MOT: with the Postman Pats story about Dorothy .
 *MOT: shall we read it ?
 *CHI: yes .
 *MOT: are you comfortable ?
@@ -907,7 +901,7 @@
 *MOT: all the children walked to school .
 *MOT: Pat waits while they cross the road .
 *MOT: hello  Pat .
-*MOT: were going to have our faces painted at school today>
+*MOT: were going to have our faces painted
 *CHI: church .
 *MOT: says Lucy Selby .
 *MOT: thats a church .
@@ -921,10 +915,8 @@
 *MOT: yes .
 *MOT: thats right .
 *MOT: why does Granny Dryden have so many .
-*CHI: whats that whats that ?
-*CHI: whats that>
+*CHI: whats that ?
 *MOT: well you .
-*CHI: whats that>
 *MOT: well you know who they are .
 *MOT: you tell me who they are .
 *MOT: whos this ?
@@ -1065,8 +1057,6 @@
 *CHI: no no there .
 *CHI: put in there .
 *MOT: alright .
-*CHI: put it in the envelope .
-*MOT: well shall we put it in there .
 *MOT: oh  Tom .
 *MOT: look its a picture of a teddy bear with two parcels .
 *MOT: do you think theyre for Granny Dryden ?
@@ -1098,7 +1088,7 @@
 *MOT: I dont think .
 *CHI: no .
 *CHI: oh yes it is .
-*CHI: oh ap dont shut .
+*CHI: oh ap shut .
 *MOT: you mustnt break them .
 *CHI: no .
 *MOT: because these arent old ones are they ?
@@ -1118,7 +1108,7 @@
 *CHI: there .
 *MOT: youd like me to get you a bigger box ?
 *MOT: look heres a bigger box .
-*MOT: this is the box that we had some Christmas decorations in .
+*MOT: that we had some Christmas decorations in .
 *CHI: mhm .
 *MOT: there we are .
 *MOT: thats a nice big box isnt it ?
@@ -1171,9 +1161,8 @@
 *MOT: theyre in your sack now are they ?
 *CHI: not fit that one .
 *MOT: would you like them getting out ?
-*CHI: no no no .
+*CHI: no .
 *MOT: shall we take them out ?
-*CHI: no no>
 *CHI: take them
 *CHI: here we are  Dorothy .
 *MOT: oh here we are  Dorothy .
@@ -1247,7 +1236,7 @@
 *CHI: ap two numbers on it .
 *MOT: two numbers on it ?
 *MOT: yes .
-*MOT: it says it says half price toy sale .
+*MOT: it says half price toy sale .
 *MOT: so it has got two numbers .
 *MOT: because the half is written as a one and a two .
 *MOT: which is number one ?
@@ -1271,7 +1260,7 @@
 *MOT: oh I see .
 *MOT: craningc it .
 *MOT: youre hooking the end of your fishing rod onto the box .
-*MOT: and you say youre saying “youre craningc it” .
+*MOT: and youre saying “youre craningc it” .
 *CHI: craningc the box .
 *MOT: craningc the box .
 *MOT: youre going to either lift it up or pull it along arent you ?
@@ -1284,9 +1273,7 @@
 *CHI: ap cranec it .
 *CHI: my hold it .
 *CHI: ap my hold not fit that .
-*CHI: not fit .
-*MOT: shh shh shh .
-*CHI: not fit>
+*MOT: shh .
 *MOT: no no it doesnt fit .
 *MOT: the box is a little bit heavy really  darling .
 *MOT: it is .
@@ -1295,8 +1282,6 @@
 *MOT: because it isnt really a crane .
 *MOT: its a fishing rod .
 *CHI: not not a fishing rod .
-*MOT: is it not a fishing rod ?
-*CHI: ap crane it .
 *MOT: alright alright .
 *MOT: shh shh .
 *CHI: no it .
@@ -1306,7 +1291,7 @@
 *CHI: no no .
 *CHI: not on my knee .
 *CHI: no .
-*MOT: you dont want to sit on my knee .
+*MOT: to sit on my knee .
 *MOT: oh  darling .
 *MOT: youre free .
 *MOT: Thomas  listen  darling .
@@ -1335,8 +1320,6 @@
 *MOT: I think this is why .
 *CHI: not go down here .
 *MOT: alright .
-*MOT: shh shh shh .
-*CHI: no no no>
 *MOT: shh shh .
 *MOT: alright well go upstairs .
 *MOT: this is why youre getting terribly upset isnt it ?

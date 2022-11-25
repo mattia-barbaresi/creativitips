@@ -23,7 +23,7 @@
 *INV: laughs .
 *INV: do you like shops ?
 *MOT: I think that says shopq .
-*CHI: put the pap put the paper on the floor .
+*CHI: put the paper on the floor .
 *MOT: are you going to ?
 *CHI: wait .
 *CHI: thank you  Dimitra .
@@ -50,8 +50,6 @@
 *MOT: before we get too far why dont you say “thank you” .
 *MOT: to the ladys .
 *CHI: thank you  Mitra .
-*MOT: and Jeannine .
-*OBS: and Jeannine .
 *CHI: thank you  Jean .
 *MOT: how about a kiss ?
 *CHI: yes .
@@ -97,8 +95,6 @@
 *MOT: oh yes .
 *MOT: there are actually .
 *INV: Thomas  look .
-*MOT: but theyre in Spanish .
-*INV: you inside the shop .
 *INV: and then theres a post office .
 *CHI: yeah .
 *INV: and a shop and youve got a till .
@@ -119,8 +115,6 @@
 *OBS: maybe .
 *CHI: I need some pennys .
 *MOT: do you ?
-*MOT: well perhaps .
-*INV: I think they may be in here .
 *CHI: yes .
 *INV: I think they must be .
 *INV: ah ha .
@@ -130,7 +124,7 @@
 *INV: its too complicated for me .
 *MOT: laughs .
 *INV: I dont know how to work it .
-*INV: Thomas  I think is there a key ?
+*INV: Thomas  is there a key ?
 *CHI: no .
 *MOT: whats that ?
 *MOT: no .
@@ -155,7 +149,6 @@
 *INV: thank you .
 *CHI: hey hey .
 *INV: laughs .
-*MOT: hey hey are you ready to play ?
 *CHI: play a Thomas .
 *MOT: laughs .
 *INV: laughs .
@@ -194,7 +187,7 @@
 *INV: okay .
 *INV: so Ill be the customer .
 *CHI: you you be called ?
-*MOT: Ill be Ill be a customer .
+*MOT: Ill be a customer .
 *INV: we can all be customers .
 *CHI: yes .
 *CHI: sullybullyc .
@@ -202,7 +195,7 @@
 *INV: so  Thomas .
 *INV: if youre the shop keeper .
 *CHI: yeah .
-*INV: then you hafta show you hafta put the things in the shop .
+*INV: you hafta put the things in the shop .
 *INV: how does this open ?
 *INV: oh my God .
 *MOT: Ive lots of little packets and things for you  to be made up .
@@ -213,14 +206,13 @@
 *CHI: yeah .
 *INV: do you know what this is ?
 *CHI: yes .
-*MOT: I thought we had instructions in the plastic bag .
-*INV: its a closed sign yeah ?
+*MOT: I thought we had instructions .
 *MOT: www .
 *INV: where you hang to say that the shops closed .
-*CHI: its not its not closed now .
+*CHI: its not closed now .
 *INV: no .
-*INV: because you hafta put do you see ?
-*INV: wheres the you hafta make these .
+*INV: do you see ?
+*INV: you hafta make these .
 *INV: its coffee .
 *INV: you hafta fold them .
 *INV: Ill show you .
@@ -316,7 +308,7 @@
 *INV: theres sposta be a telephone .
 *MOT: oh .
 *MOT: it is .
-*CHI: wheres the wheres the key ?
+*CHI: wheres the key ?
 *INV: can you find the telephone ?
 *MOT: by Dimitras foot .
 *INV: by Dimitras foot theres a telephone .
@@ -341,7 +333,7 @@
 *MOT: laughs .
 *CHI: where ?
 *INV: Thomas  look .
-*INV: the key the key goes here  Thomas .
+*INV: the key goes here  Thomas .
 *MOT: it hangs up there on the hook .
 *MOT: oh .
 *MOT: I see .
@@ -377,7 +369,6 @@
 *INV: laughs .
 *OBS: laughs .
 *INV: what ?
-*MOT: that sounds fine .
 *INV: my money .
 *INV: give give Mummy some money from here .
 *OBS: laughs .
@@ -446,11 +437,11 @@
 *OBS: laughs .
 *INV: lovely .
 *INV: thats very good .
-*INV: very very extremely rich now .
+*INV: extremely rich now .
 *INV: nearly bought everything .
 *INV: okay .
 *INV: um Im not sure Ive got enough coins for this .
-*INV: how much how much are these peas ?
+*INV: how much are these peas ?
 *CHI: um just .
 *INV: how much ?
 *CHI: fifty pl .
@@ -600,24 +591,22 @@
 *OBS: could you keep it in your post office  please ?
 *CHI: of course I can .
 *OBS: great .
-*CHI: it needs it needs some stamps .
+*CHI: it needs some stamps .
 *OBS: yes .
 *OBS: um I do need a stamp for it .
 *OBS: can I have one  please ?
 *OBS: first class  please .
-*INV: I think that oh my God they are actually sticking .
+*INV: oh my God they are actually sticking .
 *MOT: yes .
 *OBS: can I have a first class stamp  please ?
 *CHI: um yeah .
 *CHI: here you are .
 *OBS: right .
-*OBS: would you would you like to put it on the
+*OBS: would you like to put it on the
 *MOT: you perhaps hafta have the letter weighed .
-*MOT: you can do that in the post office cant you ?
-*INV: oh yeah .
+*MOT: you in the post office cant you ?
 *OBS: yes .
-*OBS: would you like to weigh it first ?
-*INV: can you weigh it ?
+*OBS: would you like to weigh ?
 *OBS: um just make sure .
 *INV: put it on the scales .
 *CHI: yeah .
@@ -630,8 +619,6 @@
 *INV: ah .
 *OBS: how much um do I owe you for the stamp ?
 *CHI: um um thirty pl .
-*MOT: thirty pl ?
-*OBS: thirty pl ?
 *OBS: okay .
 *OBS: there you go .
 *CHI: thanks .
@@ -843,7 +830,7 @@
 *CHI: this way .
 *INV: yeah .
 *INV: thats it .
-*INV: so you can sell you can sell those .
+*INV: so you can sell those .
 *INV: and then youve got this .
 *INV: youve got sharp stamps .
 *CHI: and sweeties .
@@ -949,7 +936,7 @@
 *OBS: so um how many do I buy with my coin ?
 *CHI: um .
 *OBS: because um .
-*CHI: you buy you buy sausages and quavers .
+*CHI: you buy sausages and quavers .
 *MOT: sausages and quavers .
 *OBS: I was um more interested in the smarties actually .
 *OBS: do you think I can buy enough for um my friends ?
@@ -960,7 +947,7 @@
 *OBS: laughs .
 *MOT: did your friends come round yesterday ?
 *OBS: okay .
-*OBS: can I can I just have one then  for me ?
+*OBS: can I just have one then  for me ?
 *CHI: yes .
 *OBS: okay .
 *CHI: and two .
@@ -1129,14 +1116,11 @@
 *MOT: look at that .
 *CHI: Postman Pat Postman Pat Postman Pat and his black and white cat
 *MOT: laughs .
-*MOT: he picks up all the post bags in his van .
-*MOT: he picks up all the post bags in his tummy .
 *CHI: tummy .
 *MOT: not in his tummy .
 *MOT: in his van .
 *INV: laughs .
 *CHI: laughs .
-*MOT: everybody knows .
 *CHI: thats your letter .
 *MOT: is it ?
 *MOT: oh right .
@@ -1147,7 +1131,7 @@
 *CHI: please .
 *CHI: in there .
 *CHI: postman .
-*MOT: well  Ill put it in the first class box because its .
+*MOT: put it in the first class box because its .
 *CHI: Postman Pats here .
 *MOT: is he ?
 *MOT: again ?
@@ -1188,14 +1172,13 @@
 *OBS: right .
 *CHI: lots .
 *OBS: lots .
-*MOT: lots to choose from .
 *INV: I think Ill um .
 *MOT: the one with balloons is quite nice for a birthday .
 *OBS: yes .
 *OBS: I think thats thats the one that Im going to buy .
 *OBS: thank you .
 *OBS: can I have the rest ?
-*INV: how much oh .
+*INV: oh .
 *OBS: can I have an envelope with this  please ?
 *CHI: um that one .
 *OBS: oh .
@@ -1304,7 +1287,7 @@
 *OBS: did you get lots of presents  for your birthday ?
 *CHI: yeah .
 *OBS: yeah .
-*CHI: I need I need this .
+*CHI: I need this .
 *OBS: what do you need ?
 *CHI: this .
 *OBS: this .
@@ -1333,7 +1316,7 @@
 *INV: youre just playing with it .
 *MOT: dont stick the stamps otherwise itll spoil them wont it ?
 *CHI: on Mummys face .
-*MOT: no no no .
+*MOT: no .
 *MOT: you dont put it on Mummys face .
 *INV: oh no .
 *CHI: your face is sore .
@@ -1365,8 +1348,8 @@
 *MOT: its a nice shiny envelope .
 *MOT: look .
 *CHI: put it round your head .
-*MOT: no no no .
-*MOT: no no no .
+*MOT: no .
+*MOT: no .
 *MOT: no thank you .
 *MOT: no thank you .
 *MOT: no thank you .
@@ -1377,7 +1360,7 @@
 *MOT: well keep the Sellotape for wrapping up something nice .
 *CHI: I need that Sellotape  please .
 *OBS: okay .
-*MOT: no no no no .
+*MOT: no .
 *INV: Thomas ?
 *CHI: yeah .
 *INV: look  your shops broken .
@@ -1388,7 +1371,7 @@
 *MOT: laughs .
 *INV: when it fell over the shop doors broken .
 *CHI: yeah .
-*INV: will we will we Sellotape it back on ?
+*INV: will we Sellotape it back on ?
 *INV: Ill hold it .
 *INV: what do you think ?
 *MOT: Thomass usual response is “I know  a hammer” .
@@ -1421,7 +1404,6 @@
 *INV: he hasnt put the clothes sign down though has he ?
 *MOT: no  he hasnt .
 *MOT: and he has left all his money out .
-*OBS: are you crying ?
 *MOT: where has Thomas gone ?
 *MOT: do you think its a fish under the table ?
 *INV: ah .
@@ -1479,7 +1461,7 @@
 *MOT: well  I never refuse money  Thomas .
 *CHI: you want some money .
 *MOT: yes please .
-*CHI: the lorry has taken it away .
+*CHI: the lorry has .
 *MOT: whats in here  Thomas ?
 *CHI: um not anything .
 *MOT: oh .
@@ -1576,7 +1558,7 @@
 *OBS: but if we put the bus .
 *OBS: oops .
 *CHI: on .
-*CHI: no no no no .
+*CHI: no .
 *OBS: its seven .
 *CHI: I needta put the money in the post office .
 *CHI: sorry .
@@ -1695,8 +1677,7 @@
 *OBS: Id like to have a mixer like that .
 *MOT: yes .
 *CHI: my mixer .
-*OBS: its your mixer .
-*MOT: who bought you the mixer ?
+*MOT: the mixer ?
 *CHI: um Jo and Becky .
 *MOT: Jo and Becky bought the mixer didnt they ?
 *MOT: that was nice .
@@ -1723,7 +1704,7 @@
 *OBS: that one .
 *OBS: yeah .
 *OBS: this one .
-*CHI: its the its the newspaper lorry um it would say .
+*CHI: its the newspaper lorry um it would say .
 *OBS: you yeah .
 *OBS: you were holding this one that says Name on the front .
 *MOT: it carries newspapers off doesnt it ?
@@ -1741,7 +1722,7 @@
 *MOT: didnt she ?
 *CHI: yeah .
 *MOT: what happened to Isobel ?
-*CHI: whats this whats this for ?
+*CHI: whats this for ?
 *MOT: hanging your key up so you know where it is .
 *CHI: yeah .
 *MOT: like Daddy who never knows where his keys are .
@@ -1771,7 +1752,7 @@
 *MOT: yeah .
 *INV: ah .
 *OBS: I think you have a family laugh .
-*INV: does she do you leave it every week ?
+*INV: do you leave it every week ?
 *MOT: most weeks .
 *INV: oh .
 *INV: no way .

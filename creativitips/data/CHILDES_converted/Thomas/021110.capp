@@ -20,7 +20,6 @@
 *MOT: Im sorry .
 *CHI: I press this button 0 .
 *MOT: oh I thought you were a dustbin man .
-*INV: which button ?
 *CHI: this button .
 *INV: and what does this button do ?
 *CHI: 0 .
@@ -99,7 +98,7 @@
 *CHI: yes .
 *MOT: wheres he squashed ?
 *CHI: hes making .
-*CHI: hes making nice and comfy .
+*CHI: nice and comfy .
 *MOT: oh is he making himself nice and comfy ?
 *CHI: hes hes probably going making helmet nice and shiny .
 *MOT: hes probably going to make his helmet nice and shiny .
@@ -237,12 +236,12 @@
 *CHI: bye bye .
 *INV: bye bye .
 *INV: where are you going now ?
-*INV: are you are you blowing me a kiss .
+*INV: are you blowing me a kiss .
 *CHI: I need that sofa now asleep .
 *INV: is it over now ?
 *CHI: yes .
 *CHI: it is over .
-*INV: who are who are you telling that to ?
+*INV: who are you telling that to ?
 *CHI: Dimitra .
 *INV: oh to me .
 *INV: would you like to give me a ring on your mobile ?
@@ -253,8 +252,8 @@
 *CHI: nee nao .
 *INV: where are you going now ?
 *CHI: in bed .
-*INV: on the on the bed .
-*INV: are you whats happening on the bed ?
+*INV: on the bed .
+*INV: whats happening on the bed ?
 *CHI: nothing .
 *INV: nothing .
 *INV: right .
@@ -274,7 +273,7 @@
 *INV: oh just sit on it .
 *INV: yes .
 *INV: I think thats thats better .
-*INV: so what are you going to tell me about to talk to me about ?
+*INV: so what are you going to talk to me about ?
 *INV: you dont know .
 *INV: have you had a good week ?
 *CHI: I picking apple off .
@@ -304,7 +303,7 @@
 *CHI: uh uh my fire engine is broken .
 *INV: is it ?
 *CHI: yes .
-*CHI: I need a I need a snipperc .
+*CHI: I need a snipperc .
 *INV: a snipperc .
 *INV: do you need a hammer too ?
 *CHI: this is broken here .
@@ -314,7 +313,6 @@
 *INV: okay .
 *CHI: okay .
 *CHI: 0 .
-*INV: what are you saying .
 *CHI: feet off .
 *INV: okay .
 *INV: lets do that then .
@@ -506,7 +504,7 @@
 *CHI: sure .
 *INV: can I play with your green one ?
 *CHI: yes .
-*CHI: of course you of course you can .
+*CHI: of course you can .
 *INV: of course I can .
 *INV: thank you .
 *MOT: Thomas  I dont know .
@@ -623,7 +621,7 @@
 *CHI: Dimitra .
 *MOT: a nut and bolt .
 *CHI: Dimitra  this is a bolt .
-*CHI: this is a this is a screw .
+*CHI: this is a screw .
 *INV: oh right .
 *INV: okay .
 *INV: thats what it is .
@@ -632,7 +630,7 @@
 *INV: that big yellow thing .
 *CHI: the .
 *INV: oh uh Fireman Sam  I think youve dropped this black funny thing
-*CHI: Fireman Sam going and in a>
+*CHI: Fireman Sam going and
 *INV: would you like to bring this over here and play with it ?
 *CHI: what play with ?
 *INV: play with that there .
@@ -673,7 +671,6 @@
 *INV: yes .
 *INV: these are definitely yours .
 *CHI: yes .
-*CHI: it is .
 *CHI: I can take them off people .
 *INV: you can what .
 *CHI: take them off people .
@@ -884,7 +881,7 @@
 *INV: just a little while ago .
 *INV: I wonder where the little crocodile has gone .
 *INV: oh I really miss the little crocodile .
-*INV: he has forgotten his um his little black thing here .
+*INV: he has forgotten his little black thing here .
 *INV: hello  little crocodile .
 *CHI: the crocodiles out .
 *INV: where is the little crocodile ?
@@ -967,11 +964,11 @@
 *INV: are you going to put some on the postcard ?
 *CHI: this postcard .
 *CHI: it has not come on .
-*INV: would you are you going to put them in the postbox ?
+*INV: are you going to put them in the postbox ?
 *CHI: uh for your friend .
 *INV: yes .
 *INV: thank you .
-*INV: I did write quite a lot of letters to my to my friend .
+*INV: I did write quite a lot of letters to my friend .
 *INV: I miss her so much .
 *INV: I wrote to her many many letters .
 *INV: ah so many letters .
@@ -1067,7 +1064,7 @@
 *CHI: no .
 *INV: nothing .
 *CHI: no .
-*CHI: just some just some white letters .
+*CHI: just some white letters .
 *INV: who writes letters ?
 *CHI: white letters .
 *INV: white letters .
@@ -1137,11 +1134,11 @@
 *INV: I like this letter .
 *CHI: yes .
 *INV: its very colorful .
-*CHI: Im put in this postbox .
+*CHI: in this postbox .
 *INV: are you going to put them in this postbox ?
 *CHI: yes .
 *INV: um okay .
-*CHI: I post I post this in the postbox too .
+*CHI: I post this in the postbox too .
 *INV: are you sure about this ?
 *CHI: yes .
 *INV: but its not a letter .
@@ -1163,7 +1160,7 @@
 *INV: Im going to put it back now .
 *CHI: now .
 *INV: oh .
-*INV: I think Postman Pat has had has had a little accident there .
+*INV: I think Postman Pat has had a little accident there .
 *INV: is he stuck to his truck ?
 *CHI: yes .
 *CHI: he is .
@@ -1182,7 +1179,7 @@
 *INV: are they for my friend ?
 *CHI: yes .
 *INV: right .
-*INV: thank you very much for delivering for delivering all these
+*INV: thank you very much for delivering all these
 *CHI: yes .
 *INV: youre very kind  Postman Pat .
 *CHI: yes .
@@ -1269,14 +1266,14 @@
 *INV: oh no no .
 *MOT: no no .
 *INV: no .
-*INV: you wouldnt like me if I>
+*INV: you wouldnt like me
 *INV: yuck yuck .
 *MOT: no .
 *INV: I dont think this is so funny  Thomas .
 *CHI: youre Mummy camel .
 *INV: Im Mummy camel .
 *MOT: Thomas .
-*INV: are you are you baby camel ?
+*INV: are you baby camel ?
 *CHI: yes .
 *INV: you you wouldnt like me to spit on you like that .
 *MOT: no .

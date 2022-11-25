@@ -21,7 +21,6 @@
 *INV: the big one .
 *CHI: yes .
 *INV: hm .
-*MOT: I bet you>
 *CHI: no .
 *MOT: I bet you didnt really did you ?
 *CHI: yes .
@@ -42,7 +41,7 @@
 *MOT: its alright .
 *MOT: you can leave the table over there now  Thomas .
 *CHI: oops .
-*CHI: I want my bicycle .
+*CHI: my bicycle .
 *MOT: your bicycle .
 *CHI: yes .
 *MOT: oh I thought you said your fire engine .
@@ -129,7 +128,7 @@
 *INV: yes .
 *INV: would you like to
 *INV: would you like to put the horse there to come ?
-*CHI: its not its not fit .
+*CHI: its not fit .
 *INV: well yes .
 *INV: it does fit .
 *INV: it got a bit tangled up there .
@@ -151,7 +150,7 @@
 *CHI: you wait
 *MOT: wait .
 *CHI: yes .
-*INV: would you would you like to put somebody else in there to
+*INV: would you like to put somebody else in there to
 *CHI: yes .
 *CHI: a bit stuck .
 *INV: thats a bit stuck .
@@ -231,9 +230,9 @@
 *MOT: Dimitra would like a chocolate ball .
 *CHI: and you and me .
 *MOT: yes .
-*MOT: you sit down and Ill go and get them .
+*MOT: down and Ill go and get them .
 *INV: everybody .
-*INV: are we going to have a picnic ?
+*INV: a picnic ?
 *CHI: sit down  Dimitra .
 *INV: I am sitting down .
 *CHI: you sitting down on floor .
@@ -331,7 +330,7 @@
 *INV: we dont want that .
 *CHI: look .
 *MOT: laughs .
-*INV: I didnt I didnt say it as a suggestion .
+*INV: I didnt say it as a suggestion .
 *MOT: laughs .
 *MOT: you mean like that .
 *CHI: oh dear .
@@ -411,8 +410,7 @@
 *INV: pardon .
 *CHI: Thomas The Tank Engine .
 *MOT: the Thomas The Tank Engine man .
-*MOT: do you think its the train guard ?
-*INV: be careful  Thomas .
+*MOT: do you think its ?
 *INV: because that may fall apart .
 *MOT: do you think its a guard ?
 *CHI: yes .
@@ -554,7 +552,6 @@
 *MOT: youd like some money .
 *CHI: yes .
 *CHI: thank you .
-*CHI: come on .
 *MOT: just a minute because weve got some things in here that .
 *INV: are you going to go to the shops now ?
 *CHI: yes .
@@ -599,8 +596,8 @@
 *INV: and uh could I also have uh two apples please ?
 *CHI: yes please .
 *CHI: thanks .
-*CHI: I not I not got some of that one .
-*INV: uh I can see on here .
+*CHI: I not got some of that one .
+*INV: uh on here .
 *INV: on your shelves .
 *CHI: there you go .
 *CHI: just one now .
@@ -609,11 +606,10 @@
 *CHI: of course you can .
 *INV: thats a different method in your shop to offer your goods .
 *CHI: Ive got money for you .
-*INV: oh youre giving me money for buying>
-*MOT: that must be change .
+*INV: oh youre giving me money
 *MOT: that must be change .
 *INV: okay .
-*INV: so how much how much uh do the apples cost then ?
+*INV: so how much uh do the apples cost then ?
 *CHI: um Sainsburys .
 *MOT: Sainsburys .
 *INV: Sainsburys .
@@ -658,12 +654,12 @@
 *CHI: I put them in the box there .
 *INV: okay .
 *INV: yes .
-*INV: they come with do they come with the rest of them ?
+*INV: do they come with the rest of them ?
 *CHI: yes .
 *MOT: buy two get four free .
 *MOT: its great .
 *CHI: get four free .
-*INV: how much how much would that be then ?
+*INV: how much would that be then ?
 *CHI: um lots and lots .
 *INV: lots and lots .
 *INV: should I give you all my money then ?
@@ -680,7 +676,7 @@
 *CHI: golden chicken .
 *INV: oh no .
 *INV: youre .
-*INV: shall I can I have the eggs then ?
+*INV: can I have the eggs then ?
 *CHI: no .
 *INV: now that youve taken nearly all my money .
 *CHI: no .
@@ -719,8 +715,8 @@
 *CHI: hey hey .
 *CHI: I 0am not Thomas .
 *CHI: I 0am supermarket .
-*MOT: youre a supermarket .
-*CHI: where my where my money ?
+*MOT: youre .
+*CHI: where my money ?
 *MOT: well dear supermarket man  please do not put your money in your
 *MOT: you need a little till dont you ?
 *CHI: oh yes .
@@ -808,7 +804,7 @@
 *INV: oh it was not interesting across the road .
 *MOT: no .
 *MOT: you come back .
-*INV: so Ive come back .
+*INV: so Ive .
 *MOT: well you can help me because Thomas is helping me choose some fruit
 *MOT: my little boys called Thomas and he likes fruit .
 *CHI: my supermarket man .
@@ -838,7 +834,6 @@
 *MOT: do you think Thomas would like two pears ?
 *CHI: yes .
 *CHI: 0 Thomas .
-*MOT: and some yoghurts .
 *MOT: and what else does Thomas like to eat ?
 *CHI: uh sausage rolls .
 *MOT: sausage rolls .
@@ -1016,7 +1011,7 @@
 *MOT: well can we not just leave it there ?
 *CHI: no .
 *MOT: in case we need back up .
-*MOT: if its if its a big fire you might need another fire engine
+*MOT: if its a big fire you might need another fire engine
 *MOT: no .
 *CHI: no .
 *MOT: obviously not .
@@ -1227,7 +1222,6 @@
 *CHI: um .
 *INV: what have you made ?
 *CHI: I make a flower pot .
-*MOT: a flower>
 *CHI: climb up this ladder .
 *MOT: get down .
 *MOT: youll fall .
@@ -1431,7 +1425,7 @@
 *CHI: the ladders here .
 *CHI: that ladder get move .
 *CHI: you sit down there .
-*CHI: I sit I climb up there .
+*CHI: I climb up there .
 *CHI: you climb up .
 *MOT: oh Im not climbing up .
 *MOT: Ill sit with you .
@@ -1467,7 +1461,7 @@
 *MOT: bang it with your hammer .
 *CHI: yes .
 *CHI: your your ladders .
-*CHI: your ladders climbing up .
+*CHI: your ladders .
 *CHI: a lot of noises .
 *MOT: a lot of noises .
 *CHI: yes .
@@ -1482,7 +1476,6 @@
 *MOT: look .
 *CHI: 0 .
 *CHI: a thing 0has come out .
-*CHI: here it is .
 *CHI: its a money out .
 *MOT: Dimitra  look at this .
 *INV: ah .
@@ -1499,8 +1492,6 @@
 *MOT: I dont think its nice at all .
 *CHI: put it in the dustbin wagon .
 *INV: in which wagon ?
-*CHI: the dustbin wagon>
-*MOT: the dustbin wagon .
 *MOT: ah ah .
 *MOT: no no .
 *CHI: yes yes .
@@ -1520,7 +1511,6 @@
 *CHI: oh .
 *MOT: oh .
 *CHI: money down there floor .
-*CHI: money down>
 *MOT: is there money on the floor ?
 *CHI: yes .
 *MOT: well do you know where the little purse is and Ill start picking
@@ -1529,8 +1519,7 @@
 *CHI: I not see it .
 *MOT: well I cant see it .
 *INV: what are you looking for ?
-*MOT: a little purse .
-*CHI: a purse .
+*MOT: purse .
 *INV: a little purse .
 *MOT: its the tin that Thomas keeps his money in .
 *MOT: it doesnt matter .
@@ -1590,7 +1579,6 @@
 *CHI: a building site .
 *MOT: a building site .
 *CHI: yes .
-*MOT: more like a>
 *MOT: more like a bomb site in here isnt it ?
 *MOT: oh Thomas !
 *MOT: all this hasta be picked up you know .

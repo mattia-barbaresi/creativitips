@@ -4,8 +4,6 @@
 *CHI: look .
 *CHI: look .
 *MOT: oh look .
-*MOT: look at that .
-*CHI: not open it yet .
 *MOT: have you not ?
 *CHI: not yet .
 *CHI: that opened .
@@ -17,8 +15,6 @@
 *CHI: Purdie crying her dinner .
 *FAT: did you tell her to stay away ?
 *CHI: uh stop it too .
-*FAT: and stop it .
-*MOT: and stop it too .
 *CHI: hm .
 *CHI: stop  Purdie .
 *CHI: stop it .
@@ -178,7 +174,6 @@
 *MOT: how did you do it ?
 *MOT: what did you press ?
 *CHI: that .
-*MOT: oh that one .
 *MOT: oh lovely .
 *MOT: oh everythings green now .
 *CHI: no .
@@ -383,7 +378,7 @@
 *CHI: oh .
 *MOT: Daddy has got a wire .
 *MOT: are you going to shine your torch up the stairs so Daddy can see
-*MOT: go to the bottom of the the stair gate .
+*MOT: go to the stair gate .
 *MOT: can you see Daddy ?
 *CHI: yes .
 *CHI: hello  Purdie .
@@ -440,8 +435,7 @@
 *MOT: like yours .
 *MOT: thats right .
 *MOT: like mine .
-*MOT: when youve finished playing with your torch  Thomas .
-*CHI: that noise .
+*MOT: when youve finished playing with .
 *MOT: no .
 *MOT: well she made quite a lot of noise .
 *MOT: it was the motor on the choir girl wasnt it ?
@@ -455,7 +449,7 @@
 *MOT: you can see them with your torch cant you ?
 *MOT: and look .
 *MOT: weve got another candle here .
-*MOT: this is one like this is one like Holly has .
+*MOT: this is one like Holly has .
 *MOT: let me go and find some matches .
 *CHI: matches .
 *CHI: look .
@@ -545,7 +539,7 @@
 *CHI: its not working .
 *MOT: no .
 *MOT: its you .
-*MOT: you must you must give a really good blow .
+*MOT: you must give a really good blow .
 *CHI: 0 .
 *MOT: laughs .
 *MOT: dont get too close .
@@ -587,8 +581,7 @@
 *CHI: and ginger .
 *MOT: berries and ginger .
 *CHI: yes .
-*MOT: what do>
-*CHI: not gin got gingers .
+*CHI: got gingers .
 *MOT: Grandma and Grandad have got gingers .
 *CHI: yes .
 *MOT: oh you mean on the melon .
@@ -623,7 +616,6 @@
 *MOT: laughs .
 *MOT: I tell you what .
 *MOT: we havent got the lights on on the Christmas tree or the Welcome
-*CHI: oh no .
 *MOT: right .
 *MOT: shall we put them on ?
 *MOT: lets just  move the chair out of the way .
@@ -682,8 +674,6 @@
 *MOT: yes .
 *MOT: perhaps like the little candles we have on birthday cakes we could
 *MOT: then that would be a lovely lantern .
-*CHI: lovely lantern>
-*MOT: thats a>
 *MOT: a lovely lantern .
 *MOT: thats a a lovely lantern .
 *MOT: thats a little girl with a bow isnt it ?
@@ -771,7 +761,7 @@
 *MOT: and what did he do ?
 *MOT: he left
 *MOT: he filled the stocking didnt he ?
-*MOT: that we left at the in your bedroom .
+*MOT: that we left in your bedroom .
 *CHI: it has gone off .
 *MOT: and what else did he leave in your bed .
 *CHI: oh its on .
@@ -781,8 +771,7 @@
 *MOT: he left that in your bedroom .
 *CHI: a Tinky Winky .
 *MOT: a Tinky Winky .
-*MOT: and then when he came downstairs>
-*CHI: I found it .
+*MOT: and then when he
 *MOT: you found it .
 *MOT: oh thats it .
 *MOT: let me have a look .
@@ -964,7 +953,7 @@
 *MOT: it looks like Postman Pats van now doesnt it ?
 *MOT: Postman Pats vans red and the fire engines red .
 *MOT: I think it has got a little squeak that fire engine .
-*CHI: its woo its whistling .
+*CHI: its whistling .
 *MOT: its whistling .
 *CHI: its going backwards .
 *MOT: its going backwards .
@@ -1043,9 +1032,9 @@
 *CHI: bean bean bags .
 *MOT: bean bags or bin bags .
 *CHI: bean bags .
-*CHI: fall over the bean bag .
+*CHI: the bean bag .
 *MOT: no .
-*MOT: weve only got four cushions and a bin bag a bean bag .
+*MOT: weve only got four cushions and a bean bag .
 *CHI: theres another .
 *MOT: no .
 *MOT: weve got four .
@@ -1062,7 +1051,6 @@
 *MOT: two from each of the chairs .
 *MOT: that makes four .
 *MOT: one two three four cushions .
-*MOT: one two three four>
 *CHI: wheres there wheres there another .
 *MOT: there isnt another .
 *CHI: weve only got four .
@@ -1176,7 +1164,7 @@
 *MOT: that looks like part of the train track and the bridge .
 *CHI: look .
 *CHI: theres a train track there .
-*CHI: its the its the letters .
+*CHI: its the letters .
 *CHI: its the letters .
 *CHI: its letters .
 *CHI: wheres the letters ?
@@ -1230,7 +1218,6 @@
 *CHI: no more .
 *CHI: sausages .
 *MOT: itll be better when we get little boxes to keep all the things
-*CHI: whats that ?
 *MOT: it looks like a little bit of wrapping paper and cellotape
 *CHI: cellotape .
 *MOT: perhaps thats what the train set was wrapped in .
@@ -1576,7 +1563,7 @@
 *MOT: thats fine .
 *MOT: but weve got the light very low so that you can see your torch .
 *MOT: and the trouble is if we leave all these things on the floor
-*MOT: Ill leave Postman Pat in the fire in the fire engine .
+*MOT: Ill leave Postman Pat in the fire engine .
 *MOT: is that alright  Thomas ?
 *CHI: my Bella here .
 *CHI: be you box .

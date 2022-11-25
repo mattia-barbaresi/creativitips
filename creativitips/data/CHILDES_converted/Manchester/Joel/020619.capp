@@ -79,7 +79,7 @@
 *MOT: oh .
 *MOT: hurt his head .
 *MOT: whatre you gonna .
-*INV: hafta put a bandage round it .
+*INV: round it .
 *MOT: oh yeah .
 *CHI: wanna go to sleep  look .
 *MOT: oh .
@@ -628,7 +628,6 @@
 *MOT: do you like spiders ?
 *CHI: no .
 *INV: I like spiders .
-*MOT: thought you did .
 *MOT: youre usually poking and playing with them if you see them .
 *CHI: no .
 *CHI: I like ladybirds .
@@ -640,12 +639,11 @@
 *CHI: I dont know .
 *CHI: Im not sure .
 *INV: youre not sure .
-*MOT: weve not really read this one much  have we ?
 *INV: its a brooch .
 *INV: oh .
 *CHI: oh .
 *MOT: www .
-*CHI: good as good as new .
+*CHI: good as new .
 *MOT: good as new .
 *MOT: oh .
 *MOT: www .
@@ -749,7 +747,7 @@
 *MOT: yeah .
 *MOT: you put them back ?
 *CHI: yeah .
-*MOT: and what did what did Santa say ?
+*MOT: and what did Santa say ?
 *CHI: he said hello .
 *MOT: did he say anything about the slippers ?
 *CHI: yes .
@@ -868,7 +866,7 @@
 *MOT: thats a bit cheeky .
 *CHI: whee !
 *CHI: thats a good one .
-*CHI: and that and that one .
+*CHI: and that one .
 *CHI: whee .
 *INV: oh .
 *INV: thats good .
@@ -1080,7 +1078,6 @@
 *MOT: because they had a little farmyard  didnt they ?
 *CHI: there we are .
 *MOT: rather rather took to the pigs  didnt you ?
-*CHI: piggys lie .
 *CHI: oh .
 *CHI: cow .
 *CHI: a cow  look .
@@ -1152,7 +1149,7 @@
 *INV: a baby pig .
 *INV: shall we put him with his Mummy on my knee .
 *MOT: oh .
-*MOT: that means baby ones got a little a little squeak .
+*MOT: that means baby ones got a little squeak .
 *MOT: can you do a little squeak for me ?
 *CHI: squeak .
 *MOT: thats it .
@@ -1193,8 +1190,6 @@
 *MOT: you just lost something ?
 *MOT: whatve you lost ?
 *INV: pig .
-*CHI: I just lost something .
-*MOT: I dont think you have .
 *CHI: I lost the dog .
 *INV: the dog ?
 *MOT: oh .
@@ -1225,7 +1220,7 @@
 *CHI: Mummy rabbit .
 *MOT: oh .
 *MOT: its Mummy rabbit  is it ?
-*MOT: youre not youre not handy with names for things  are you ?
+*MOT: youre not handy with names for things  are you ?
 *CHI: theres another one .
 *INV: another what ?
 *CHI: another one .
@@ -1266,7 +1261,7 @@
 *CHI: they going to work .
 *INV: right .
 *MOT: theyre going to work ?
-*MOT: and what do they what do they do ?
+*MOT: and what do they do ?
 *CHI: crash and bumps .
 *CHI: ha !
 *CHI: crash bumps .
@@ -1277,8 +1272,6 @@
 *CHI: yeah .
 *CHI: oh .
 *CHI: a whale .
-*CHI: a whale .
-*INV: a whale .
 *MOT: come on .
 *CHI: whats that ?
 *CHI: oh .
@@ -1368,7 +1361,7 @@
 *CHI: put him in the back .
 *MOT: www .
 *CHI: hello .
-*CHI: we going  going to seaside .
+*CHI: going to seaside .
 *INV: going to the seaside ?
 *CHI: bye .
 *CHI: thank you .
@@ -1530,7 +1523,6 @@
 *MOT: were already there  arent we ?
 *CHI: no .
 *CHI: we .
-*MOT: arent you going to go on the fair .
 *CHI: no .
 *CHI: its not fair  is it ?
 *MOT: no .
@@ -1674,8 +1666,6 @@
 *CHI: yeah yeah .
 *CHI: we here now .
 *CHI: if Megs in .
-*INV: Megs in .
-*CHI: Megs in .
 *MOT: well .
 *MOT: I thought Meg .
 *MOT: weve been to Megs .
@@ -1734,7 +1724,7 @@
 *CHI: there you are .
 *INV: thank you .
 *MOT: nice and clean now ?
-*INV: have you have you rinsed it ?
+*INV: have you rinsed it ?
 *CHI: alright .
 *CHI: I rinsed it .
 *CHI: I must rinse it .
@@ -1753,7 +1743,7 @@
 *INV: yeah .
 *INV: and I want a cut .
 *INV: I want it cut and dyed red .
-*MOT: she cant go she cant go out like that  can she ?
+*MOT: she cant go out like that  can she ?
 *MOT: shed catch her death .
 *CHI: hey !
 *MOT: oh .

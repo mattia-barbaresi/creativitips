@@ -8,13 +8,11 @@
 *MOT: so have you been naughty to your Mum did you say ?
 *CHI: yes .
 *INV: 0 ?
-*MOT: you were a bit ?
-*CHI: I hit my Mummy .
+*CHI: my Mummy .
 *INV: you hit .
 *MOT: oh no you
 *INV: you hit your Mummy ?
-*MOT: no you>
-*INV: why did you hit your Mummy ?
+*INV: you hit your Mummy ?
 *CHI: because I just like to whee hao .
 *INV: 0 .
 *MOT: you didnt hit me  Thomas  but you were a bit silly
@@ -24,17 +22,14 @@
 *INV: ah .
 *INV: ah I bet you deserved it if she did .
 *CHI: go nee nao nee nao .
-*MOT: I didnt .
-*MOT: I didnt but I might now .
 *CHI: nee nao nee nao to me .
 *CHI: yeah .
 *INV: really ?
 *CHI: yeah .
 *CHI: because theres accident .
 *INV: so whats the problem ?
-*MOT: excuse me please  Thomas .
 *CHI: um being naughty .
-*INV: oh you oh youre being naughty ?
+*INV: oh youre being naughty ?
 *INV: thats the problem now ?
 *INV: I thought you had hurt yourself .
 *CHI: hm .
@@ -42,13 +37,12 @@
 *CHI: yes .
 *INV: yes you have .
 *INV: whereve you hurt yourself ?
-*CHI: uh just on that mattress fell .
+*CHI: uh mattress fell .
 *MOT: Thomas .
 *INV: ah .
-*CHI: lets have a lie down now .
+*CHI: now .
 *MOT: Jeannine  thats your tea .
 *INV: oh thanks .
-*CHI: poorly for a .
 *INV: okay .
 *CHI: Mummy  Im poorly .
 *INV: youre poorly ?
@@ -58,16 +52,14 @@
 *CHI: on there .
 *INV: let me have a look and see what I think .
 *INV: ooh .
-*MOT: oh dear .
-*INV: oh yes .
 *INV: we cant cant tend to you .
 *INV: thats disgusting .
 *INV: laughs .
-*CHI: now cut a leg off wont you ?
+*CHI: now cut a leg off ?
 *INV: okay .
 *INV: mhm .
-*INV: that smells fine to me .
-*MOT: I dont think well hafta cut the leg off  Thomas .
+*INV: that smells fine .
+*MOT: well hafta cut the leg off  Thomas .
 *MOT: no .
 *INV: where whereabouts does it hurt ?
 *CHI: just in there .
@@ -107,10 +99,8 @@
 *CHI: yes .
 *INV: oh well no sweets for you .
 *CHI: yes .
-*INV: Ill eat them all .
 *INV: you oh youre good now ?
 *CHI: 0 .
-*INV: oh what a surprise .
 *INV: come here .
 *INV: let me put your sock on .
 *INV: let me put your sock on .
@@ -118,9 +108,7 @@
 *INV: your wheres your fluffy chicken ?
 *CHI: there .
 *CHI: just there .
-*CHI: I see her there .
-*MOT: oh Purdie .
-*INV: oh Pur>
+*CHI: I see .
 *INV: oh fluffy kitten ?
 *MOT: I think he said .
 *INV: you think Purdies a chicken ?
@@ -138,14 +126,13 @@
 *CHI: laughs .
 *MOT: dont !
 *MOT: now youve been told about that .
-*INV: do you>
 *CHI: wheres the sweets then ?
 *MOT: no !
 *INV: do you know my dustbins are getting very .
 *MOT: oh .
 *INV: I wish somebody would come and empty them .
 *CHI: but here was a dustbin men .
-*INV: do you do you wanna show me how you do it again ?
+*INV: do you wanna show me how you do it again ?
 *CHI: what ap do at ?
 *INV: where where has my rubbish gone ?
 *CHI: I tip this in the big wagon .
@@ -163,23 +150,19 @@
 *MOT: no you havent .
 *INV: 0 .
 *INV: whats that ?
-*MOT: are you ?
-*CHI: its a bunny rabbit .
+*CHI: bunny rabbit .
 *INV: where did you get this from ?
 *CHI: dont know .
 *CHI: bye .
 *MOT: Thomas Thomas  off the chairs .
-*MOT: it was Mummys friend wasnt it ?
-*INV: what do you think  Thomas ?
+*MOT: wasnt it ?
 *CHI: Mummy ?
 *INV: laughs .
-*CHI: shut your eyes .
 *CHI: dont any noise .
 *MOT: okay .
-*CHI: ap show that I go you naughty ladys I say .
+*CHI: ap show that I go I say .
 *CHI: then I 0will be very cross .
 *CHI: you wake me up because I 0will be in bed .
-*MOT: oh right .
 *INV: ah .
 *MOT: are you tired ?
 *MOT: night night  Thomas .
@@ -190,20 +173,18 @@
 *MOT: excuse me !
 *MOT: you dont smack me !
 *MOT: Thomas  you do not smack .
-*MOT: you dont smack .
 *CHI: 0 .
 *MOT: its not funny .
 *INV: I wonder why he has just become naughty all of a sudden ?
-*INV: its since weve put the camera on .
+*INV: its since weve put .
 *CHI: Mummy nee nao to me .
 *CHI: then  I you say ap naughty .
 *CHI: you see .
 *MOT: no .
 *MOT: Im not playing with anyone thats naughty .
-*MOT: I think well just carry on and have a chat with Jeannine .
+*MOT: I think well just carry on and have a chat .
 *INV: yeah .
 *CHI: you go nee nao nee nao .
-*CHI: whats the problem .
 *INV: okay .
 *CHI: your say Im naughty .
 *INV: whats the problem ?
@@ -215,14 +196,14 @@
 *INV: do you think I like you being naughty ?
 *CHI: yeah .
 *CHI: no .
-*CHI: lets put it in the police car .
+*CHI: the police car .
 *INV: no .
 *CHI: yes .
 *INV: you want me to arrest you ?
 *CHI: yes .
 *INV: right .
 *INV: okay .
-*INV: Thomas Henry Lastname  I arrest you for being very very very
+*INV: Thomas Henry Lastname  I arrest you for being very
 *CHI: oh someones just getting your police hat .
 *INV: oh .
 *CHI: wont be long .
@@ -234,15 +215,14 @@
 *INV: okay .
 *MOT: oh laughs .
 *INV: hello  Jean  have you seen Thomas anywhere ?
-*MOT: uh Thomas who ?
+*MOT: uh ?
 *INV: um he has been a very bad boy .
 *INV: Tom Thomas Lastname of forty one Streetname Drive .
 *MOT: a bad boy ?
 *MOT: Thomas ?
 *INV: oh he has been very naughty .
 *MOT: no !
-*INV: and I .
-*MOT: Im sorry I dont believe it .
+*MOT: I dont believe it .
 *MOT: not Thomas Henry Lastname .
 *INV: let me have a look and see if I can see .
 *INV: oh there he is !
@@ -254,21 +234,19 @@
 *CHI: yes .
 *INV: no chocolate .
 *CHI: hm .
-*INV: ever again .
 *MOT: 0 .
 *INV: and jail  as well .
 *INV: youve gone to jail .
 *CHI: laughs .
 *INV: and that would make you .
 *INV: oop .
-*MOT: I think he would miss his Mummy dont you ?
-*CHI: I put>
+*MOT: I think he would miss his Mummy ?
 *CHI: Mummy  you you can be naughty .
 *INV: I can be naughty ?
 *INV: okay .
 *CHI: yeah .
 *CHI: I can be a policeman .
-*CHI: Im just ma I going to>
+*CHI: Im just ma I
 *INV: okay .
 *CHI: then I can see your say hello hello !
 *INV: laughs .
@@ -276,12 +254,10 @@
 *INV: what do you think Ive done to be naughty  Thomas ?
 *CHI: I dont know .
 *INV: what ?
-*CHI: this can be a police house .
 *CHI: this can be a police house
-*INV: I think I think eating too many sweets .
+*INV: I think eating too many sweets .
 *INV: thats what I do .
-*CHI: you can be a .
-*CHI: know what a sweet is ?
+*CHI: is ?
 *CHI: no more sweets and no more liquorice .
 *INV: 0 .
 *MOT: laughs .
@@ -292,10 +268,9 @@
 *CHI: say dont get anymore sweets  or no more liquorice !
 *MOT: and the policeman .
 *INV: really ?
-*INV: I dont like liquorice anyway .
 *MOT: dont you ?
 *MOT: no  Thomas  is never
-*CHI: here we go .
+*CHI: go .
 *MOT: in fact  Thomas is actually
 *MOT: oh  Thomas .
 *CHI: there !
@@ -323,28 +298,23 @@
 *CHI: get off !
 *CHI: get off !
 *CHI: 0 .
-*INV: there you go .
 *INV: look .
 *CHI: e bit me .
 *INV: theres my mobile phone .
-*INV: I dont even use it though .
-*MOT: he didnt bit you .
 *CHI: mhm .
 *CHI: see .
 *INV: oh youre good at that .
 *MOT: oh !
-*INV: is that>
 *CHI: laughs .
 *INV: let me call you on it then .
 *CHI: yes .
 *INV: hello  Thomas ?
 *INV: hello ?
 *CHI: hello policeman .
-*INV: policeman Lastname ?
 *CHI: em Im getting very in trouble because .
 *INV: oh !
 *CHI: I trying 0to get this bunny rabbit mask off my police car .
-*INV: I think do you think you probably need a fire engine to do
+*INV: do you think you probably need a fire engine to do
 *CHI: yes .
 *INV: okay .
 *INV: lets let me call the fire brigade .
@@ -367,7 +337,7 @@
 *CHI: hey !
 *CHI: oh not he bit me .
 *MOT: laughs .
-*INV: nee nao nee nao nee nao .
+*INV: nee nao .
 *INV: ambulance .
 *INV: oh look .
 *INV: hello .
@@ -392,7 +362,7 @@
 *INV: laughs .
 *CHI: oh it has come to eat me !
 *INV: it has come to bite you again .
-*INV: its frightening that isnt it ?
+*INV: its frightening that ?
 *CHI: it gonna eat me .
 *CHI: 0 .
 *CHI: oh no .
@@ -400,7 +370,7 @@
 *CHI: help help !
 *CHI: help !
 *INV: help ?
-*CHI: oh no it bit me again .
+*CHI: it bit me again .
 *INV: 0 whereve you been bitten this time ?
 *CHI: there .
 *INV: let me have a look .
@@ -414,25 +384,19 @@
 *CHI: now now .
 *CHI: I gonna take you away in police car .
 *INV: 0 .
-*MOT: I havent done anything .
+*MOT: done anything .
 *MOT: it was the rabbit !
 *MOT: the rabbit's
-*INV: do you believe her  Thomas ?
+*INV: believe her  Thomas ?
 *CHI: yes I do believe her .
 *MOT: yes .
 *INV: laughs .
-*MOT: because other>
-*CHI: so Im gonna put you in the rubbish bin .
+*CHI: gonna put you in the rubbish bin .
 *INV: she had the same clothes on as your Mum though  that rabbit .
 *CHI: I arrest you .
-*MOT: arrest you .
 *INV: 0 .
-*MOT: be careful .
-*INV: oh that makes sounds does it ?
+*INV: makes sounds does it ?
 *MOT: oh yes .
-*MOT: of course .
-*CHI: please have your telephone ?
-*MOT: its Thomass .
 *CHI: back .
 *INV: my telephone has gone back in my bag now because it hasta be
 *CHI: I need it because shoo my Mummy away .
@@ -448,13 +412,13 @@
 *CHI: where are you ?
 *CHI: no thats not yours .
 *CHI: thats mine !
-*INV: this is this is my mobile phone .
+*INV: this is my mobile phone .
 *INV: I carry it about like this .
 *CHI: oh yes .
 *MOT: come this side  love .
 *INV: hello ?
 *CHI: hello .
-*INV: oh Im just Im just ringing for a chat .
+*INV: oh Im just ringing for a chat .
 *MOT: ah .
 *CHI: there .
 *INV: oh can I not ring the policeman for a chat ?
@@ -467,10 +431,10 @@
 *INV: 0 do you know who it is thats naughty ?
 *CHI: no .
 *INV: youve no idea ?
-*INV: are you just were you just going to have a look about and
-*MOT: are you going on your skateboard did you say ?
+*INV: were you just going to have a look about and
+*MOT: on your skateboard did you say ?
 *CHI: yes .
-*INV: is that what policemen use these days ?
+*INV: what policemen use these days ?
 *CHI: yeah .
 *INV: skateboards ?
 *MOT: well in the story in the Tweenies hes called Skateboard Sarge
@@ -479,9 +443,8 @@
 *MOT: for stealing sweeties from the sweetie shop .
 *INV: this is good isnt it ?
 *MOT: well yes .
-*CHI: then go call for .
-*INV: except for>
-*MOT: no it should have batterys in it but weve taken them out .
+*CHI: then go .
+*MOT: no it should have batterys .
 *CHI: and you policeman
 *CHI: you call for policeman .
 *INV: call for a policeman ?
@@ -510,7 +473,6 @@
 *CHI: 0 .
 *CHI: find you !
 *INV: oh !
-*INV: I was trying to hide from you .
 *INV: wow .
 *MOT: oh be careful .
 *CHI: look after my torch  policemanladyc .
@@ -533,8 +495,6 @@
 *INV: I like good Thomas .
 *INV: hes so lovely and so sweet .
 *MOT: Ive got something to show Thomas .
-*CHI: you know what this one is ?
-*MOT: he doesnt know its here .
 *CHI: it a very very big snake .
 *MOT: 0 .
 *CHI: he like to eat Jean no .
@@ -564,7 +524,7 @@
 *INV: Thomas  look up .
 *INV: it could be a poisonous bite .
 *CHI: yeah .
-*INV: are you are you a poisonous snake ?
+*INV: are you a poisonous snake ?
 *CHI: yeah .
 *INV: 0 .
 *MOT: oh dear .
@@ -588,7 +548,7 @@
 *INV: but hisso .
 *INV: Im a snake too .
 *INV: hisso .
-*CHI: Im a little baby snake .
+*CHI: Im a little .
 *INV: 0 .
 *INV: and Im a big snake so I could eat you all up .
 *INV: if I like .
@@ -619,7 +579,6 @@
 *CHI: dont know .
 *CHI: Purdie or something .
 *INV: you .
-*MOT: Purdie or .
 *INV: and what are you called ?
 *CHI: Im lizard .
 *INV: 0 .
@@ -635,7 +594,7 @@
 *CHI: 0 huh .
 *INV: do you think hed get a shock ?
 *CHI: no .
-*CHI: this is a this is the snake .
+*CHI: this is the snake .
 *CHI: this is a big snake .
 *INV: do you think .
 *INV: okay .
@@ -682,8 +641,8 @@
 *INV: hisso .
 *CHI: yeah .
 *INV: oh !
-*INV: is he is he alive ?
-*CHI: yes he is because I went I go hisso to him .
+*INV: is he alive ?
+*CHI: yes he is because I go hisso to him .
 *INV: ah .
 *CHI: then I love him now .
 *INV: ah .
@@ -691,7 +650,7 @@
 *INV: is he your friend ?
 *CHI: yes .
 *INV: wheres my snake the friend ?
-*INV: my snake the friend  my friend the snake .
+*INV: my  my friend the snake .
 *MOT: laughs .
 *INV: ah .
 *INV: look the snake could pretend to be my hair couldnt it ?
@@ -705,7 +664,7 @@
 *MOT: youre being very rough today  Thomas .
 *MOT: Thomas  be careful .
 *INV: ah .
-*INV: is it because are you not friends with the snake ?
+*INV: are you not friends with the snake ?
 *CHI: no .
 *INV: why ?
 *CHI: because its not my friend .
@@ -734,9 +693,8 @@
 *MOT: oh .
 *INV: Auntie Lizard .
 *INV: laughs .
-*MOT: I think thats the one with sugar in .
-*CHI: hello  Auntie .
-*INV: oh thats mine I think .
+*MOT: I think thats with sugar in .
+*INV: mine I think .
 *INV: hello .
 *INV: where do you wanna go today ?
 *CHI: uh  lets go to park .
@@ -746,7 +704,7 @@
 *CHI: its that way through there .
 *INV: really ?
 *INV: oh oh Im getting a bit tired .
-*INV: can we go somewhere else ?
+*INV: go somewhere else ?
 *CHI: yeah .
 *INV: where ?
 *CHI: uh lets go to a police station .
@@ -769,8 +727,7 @@
 *INV: what what else can we do ?
 *CHI: 0 .
 *INV: can you think of anything else ?
-*CHI: lets go to a lorry>
-*INV: lets go>
+*CHI: lets go to a
 *INV: and where can we hide in there ?
 *CHI: in the dustbin wagon .
 *CHI: 0 .
@@ -796,23 +753,21 @@
 *MOT: snakes !
 *MOT: oh !
 *CHI: laughs .
-*CHI: hisso hiss@o>
 *MOT: be careful careful .
 *CHI: I gonna eat ya .
 *MOT: oh .
 *MOT: thats not nice .
-*MOT: thats the last time I ever empty your dustbin lorry .
+*MOT: thats the last time I ever .
 *INV: uncle snake .
 *CHI: 0 .
 *INV: well done .
 *INV: weve managed to scare the policeman and weve managed to scare
 *CHI: yes .
 *INV: who will we try and scare now ?
-*INV: do you think ?
 *CHI: um  Purdie .
 *INV: Purdie ?
 *MOT: Purdies outside .
-*INV: how can wheres Purdie ?
+*INV: wheres Purdie ?
 *CHI: through in the video .
 *INV: thats too far away .
 *INV: is there anywhere else ?
@@ -866,7 +821,6 @@
 *INV: laughs .
 *INV: where can we go now ?
 *CHI: uh  under that big chair .
-*MOT: oh no .
 *INV: hey .
 *MOT: 0 .
 *INV: come on .
@@ -880,9 +834,7 @@
 *CHI: hisso .
 *CHI: like to eat people for our tea .
 *MOT: do you ?
-*CHI: yum yum yum .
-*CHI: yum yum>
-*CHI: yum yum>
+*CHI: yum .
 *CHI: come on  lizard .
 *INV: uncle lizard  I need an ambulance .
 *INV: Ive been tied in a knot .
@@ -895,7 +847,6 @@
 *INV: I need an ambulance .
 *MOT: youre throwing your tail ?
 *CHI: there .
-*INV: tug hard .
 *MOT: oh right .
 *MOT: well that should do the trick .
 *INV: ah .
@@ -904,20 +855,18 @@
 *CHI: hey  uncle lizard .
 *INV: uncle lizard ?
 *CHI: yeah ?
-*INV: do you want me to teach you the Tweenies dance ?
+*INV: want me to teach you the Tweenies dance ?
 *CHI: yeah .
 *INV: okay .
 *INV: are you ready ?
 *INV: laughs .
-*INV: can you do it too ?
 *MOT: just be careful .
 *MOT: not too hard  Thomas .
 *MOT: it might hit you in the face or Jeannine .
 *INV: oh  you know what else could go wrong with the snakes is that
-*MOT: oh gosh .
 *INV: 0 .
 *INV: okay .
-*INV: Im just going to go this way and you go that way .
+*INV: Im just going to go this way .
 *CHI: 0 .
 *INV: oh .
 *INV: that looks quite frightening really doesnt it ?
@@ -925,7 +874,7 @@
 *INV: oh oh how can they get free from that ?
 *CHI: I dont know .
 *CHI: oh mighty .
-*CHI: ow ow ow .
+*CHI: ow .
 *INV: nee nao nee nao .
 *INV: hello ?
 *CHI: hello .
@@ -950,13 +899,13 @@
 *CHI: come here .
 *INV: 0 .
 *INV: laughs .
-*CHI: you can be you can get this .
+*CHI: you can get this .
 *CHI: I can
 *INV: look we could .
 *INV: I think that this would probably get very very eaten wont it
 *INV: look .
 *INV: 0 .
-*INV: can you see can you see ?
+*INV: can you see ?
 *INV: we could put it right down like that .
 *INV: 0 .
 *CHI: 0 lizard  lets find somewhere else .
@@ -968,12 +917,10 @@
 *CHI: can see some sharp teeth .
 *INV: 0 .
 *MOT: you see some sharp teeth ?
-*INV: what what>
 *CHI: hm ?
 *INV: tied up whilst you feed him ?
 *CHI: right .
 *INV: okay ?
-*INV: there you go .
 *MOT: Jeannine  I hate to mention this but theres something next
 *CHI: 0 .
 *INV: 0 oh !
@@ -1006,7 +953,6 @@
 *MOT: right .
 *MOT: that is very very naughty .
 *CHI: 0 .
-*CHI: come back>
 *MOT: dont you ever do that again .
 *MOT: I never wanna see you do that to Purdie .
 *CHI: 0 .
@@ -1016,7 +962,6 @@
 *INV: oh .
 *INV: look we can eat the crocodile though .
 *INV: I will .
-*CHI: I can>
 *INV: and now its tail .
 *INV: 0 .
 *INV: ah my dinner .
@@ -1042,9 +987,7 @@
 *INV: hes trying to get away .
 *CHI: help !
 *INV: Thomas nearly got eaten by a crocodile
-*MOT: oh gosh .
 *CHI: 0 .
-*MOT: wouldnt it be quiet if there wasnt ?
 *INV: so  uncle snake .
 *CHI: uncle snake  look .
 *INV: weve done very well havent we ?
@@ -1065,14 +1008,14 @@
 *INV: me as well ?
 *INV: okay .
 *CHI: yes .
-*INV: what time what time are you getting up  Thomas ?
+*INV: what time are you getting up  Thomas ?
 *CHI: um ten oclock .
 *INV: why ?
 *INV: what have you got to do at ten oclock ?
 *CHI: um snakes for a walk .
 *INV: oh the snakes are going for another walk ?
-*CHI: to eat people .
-*MOT: we saw on the Teletubbies this morning the snakes two snakes
+*CHI: people .
+*MOT: we saw on the Teletubbies this morning two snakes
 *INV: whats a flamingo ?
 *INV: do you know  Thomas ?
 *CHI: um st stop  Mummy .
@@ -1080,7 +1023,7 @@
 *CHI: lets lets go to work .
 *CHI: lets fight somebody shall we ?
 *INV: Ive not slept long enough yet though .
-*INV: can I have can I have five more minutes ?
+*INV: can I have five more minutes ?
 *INV: 0 .
 *CHI: right .
 *CHI: okay .
@@ -1088,14 +1031,11 @@
 *INV: 0 .
 *MOT: dingalingalinglingo .
 *MOT: good morning .
-*CHI: lets get a>
-*MOT: wakey wakeywp .
 *INV: morning  Ive very hungry today  uncle snake are you ?
 *CHI: yes .
 *INV: what can we eat this morning ?
 *INV: oh hang on .
-*INV: theres still a bit of crocodile tail .
-*MOT: dont look at me .
+*INV: theres still a bit of .
 *INV: mm .
 *INV: thats tasty wasnt it ?
 *CHI: yes it was .
@@ -1107,7 +1047,7 @@
 *INV: an elephant .
 *MOT: 0 .
 *CHI: laughs .
-*INV: will you uncle snake  will you catch me an
+*INV: uncle snake  will you catch me an
 *CHI: can course I will .
 *CHI: caught it .
 *CHI: there go .
@@ -1119,7 +1059,7 @@
 *INV: laughs .
 *INV: is that .
 *CHI: help !
-*INV: is that a snake ?
+*INV: a snake ?
 *CHI: gonna eat me .
 *CHI: gonna eat me .
 *CHI: help .
@@ -1139,7 +1079,7 @@
 *MOT: poppet .
 *CHI: ow .
 *INV: ow ?
-*INV: do you we definitely needta call the
+*INV: we definitely needta call the
 *CHI: oh .
 *MOT: oh gosh .
 *MOT: oh I saved you .
@@ -1160,23 +1100,19 @@
 *CHI: okay .
 *MOT: oh no follow me up here .
 *MOT: 0 .
-*INV: follow me follow me .
+*INV: follow me .
 *CHI: okay .
 *INV: you see if you climb to the top of here .
 *CHI: oh right .
 *INV: then you can slide down like this look .
 *INV: whoo ah .
 *CHI: 0 .
-*CHI: yes you can .
 *CHI: hisso snake !
 *CHI: its not
-*INV: okay  Jean .
 *CHI: open and then you go slide .
 *INV: whats that funny noise ?
-*MOT: I dont know .
-*CHI: ap that thats my big fire engine .
-*MOT: shall I show you what Ive got for us ?
-*INV: this your big fire engine ?
+*CHI: thats my big fire engine .
+*MOT: shall I show you ?
 *CHI: I show you .
 *CHI: watch .
 *MOT: come on then .
@@ -1185,11 +1121,9 @@
 *INV: 0 .
 *INV: wow !
 *INV: where did you get that from ?
-*CHI: just uh for Uncle David .
+*CHI: for Uncle David .
 *MOT: from Uncle David .
-*INV: was that for>
-*MOT: but the batterys have gone in it havent they ?
-*INV: oh thats a shame .
+*MOT: have gone in it havent they ?
 *CHI: watch e watch this man .
 *MOT: well its still working slowly .
 *INV: oh .
@@ -1216,7 +1150,7 @@
 *CHI: dont know .
 *MOT: where has that come from ?
 *CHI: dont know .
-*INV: Uncle Snake  lets go and have a look in the house .
+*INV: Uncle Snake  have a look in the house .
 *CHI: yes .
 *CHI: lets go inside because its raining .
 *MOT: lets go inside because its raining .
@@ -1225,7 +1159,7 @@
 *CHI: help !
 *CHI: its raining .
 *MOT: Jo promised to be here at ten oclock to deliver this and she
-*MOT: thats why were getting mixed up .
+*MOT: thats why were getting .
 *INV: ah .
 *INV: whos Jo ?
 *MOT: Beckys Mummy .
@@ -1234,22 +1168,18 @@
 *MOT: yes .
 *MOT: just for the video hasnt she ?
 *INV: wow .
-*INV: that was nice of her wasnt it ?
+*INV: that was nice of her ?
 *MOT: yes .
 *INV: have you seen this house before ?
 *MOT: no .
 *CHI: no .
 *MOT: I dont think you have .
-*CHI: what it does ?
-*MOT: its Beckys its Beckys so weve got to be careful .
+*MOT: its Beckys so weve got to be careful .
 *MOT: and there are four people living inside .
 *MOT: and one of the little flower tubs has gone missing .
 *INV: oh .
 *MOT: I think we can open it up though  Thomas .
 *MOT: look .
-*CHI: Mummy I>
-*INV: its funny>
-*CHI: oh yes .
 *MOT: yes .
 *CHI: hey .
 *INV: wow !
@@ -1271,11 +1201,11 @@
 *MOT: Polly .
 *INV: Polly ?
 *INV: does that look like a woman ?
-*INV: what could this could be Polly .
+*INV: this could be Polly .
 *INV: oh no .
 *INV: that doesnt look like a woman either .
 *MOT: no .
-*MOT: I think there are theres a lady and a baby by the look of
+*MOT: I think theres a lady and a baby by the look of
 *INV: okay .
 *INV: lets give them all names then .
 *INV: what will we call him ?
@@ -1317,19 +1247,14 @@
 *CHI: crasho .
 *MOT: no no .
 *INV: do you know what else can happen ?
-*INV: is you can be up here .
-*MOT: Thomas  you must be careful .
 *INV: you can be doing the Tweenies dance and then .
 *INV: oh !
 *INV: you can fall off the whole house .
 *MOT: I think that should be where the bedroom is .
 *MOT: do you wanna put the bedroom furniture here  Thomas ?
 *CHI: no .
-*MOT: the chest of drawers>
-*CHI: you know what you can do ?
 *CHI: go da .
-*MOT: Tom just>
-*MOT: listen just be gentle with it please .
+*MOT: listen just be .
 *CHI: and da .
 *CHI: 0 .
 *MOT: oh .
@@ -1344,13 +1269,10 @@
 *MOT: oh heck .
 *CHI: 0 .
 *MOT: gosh .
-*MOT: quick get the >
+*MOT: quick get
 *INV: oh Im so tired .
-*MOT: get them >
-*INV: I hope my husband sorted out the bedroom and the stairs .
+*INV: I hope my husband sorted out the bedroom .
 *MOT: quickly .
-*INV: Ill just go to>
-*MOT: get the two men to help .
 *MOT: quick quick .
 *MOT: quick .
 *MOT: theres a chest of drawers in the bathroom .
@@ -1369,7 +1291,7 @@
 *INV: that was a stroke of luck wasnt it ?
 *CHI: bedroom .
 *CHI: and that shouldve been downstairs .
-*MOT: that must have been why the sofa was still outside .
+*MOT: the sofa was still outside .
 *CHI: and the men disappeared outside in the rain .
 *MOT: whats outside in the rain  love ?
 *MOT: oh the mans outside in the rain ?
@@ -1379,10 +1301,8 @@
 *MOT: and then he can sit in one of the nice chairs downstairs cant he
 *CHI: there go .
 *MOT: and have a nice warm drink .
-*CHI: sit on this tea .
 *CHI: there .
 *CHI: thank you .
-*CHI: know what he can do ?
 *CHI: this go sit there .
 *CHI: then it 0 .
 *INV: oh .
@@ -1397,13 +1317,10 @@
 *MOT: laughs .
 *INV: thats not right is it ?
 *CHI: yeah .
-*MOT: just be careful with it  Thomas  please .
-*CHI: there go .
+*MOT: just be careful with it .
 *CHI: 0 .
 *INV: oh oh look .
 *INV: its time to pick up the baby .
-*INV: Im just gonna>
-*MOT: I hope the doggys .
 *INV: just gonna get dressed .
 *INV: Im just going over to my chest of drawers .
 *INV: oh !
@@ -1466,7 +1383,7 @@
 *CHI: at home  Mummy .
 *MOT: youre home ?
 *MOT: hello ?
-*CHI: please we make some please you have our dinner now ?
+*CHI: please you have our dinner now ?
 *MOT: yes .
 *MOT: whats in the fridge ?
 *MOT: have you seen ?
@@ -1477,7 +1394,7 @@
 *MOT: lots of things ?
 *MOT: oops  be careful .
 *CHI: look there .
-*MOT: move it that way a little bit .
+*MOT: that way a little bit .
 *MOT: thats it .
 *MOT: oh we can move it round like that .
 *MOT: hows that ?
@@ -1503,12 +1420,11 @@
 *MOT: I just thought Id let you know that one of your flower tubs .
 *CHI: oh .
 *MOT: is missing .
-*CHI: oh dear me .
 *MOT: bye bye .
 *CHI: bye .
 *CHI: lady said I lost my one my flower tub .
 *INV: oh do you want a .
-*INV: theres no point in us looking for them is there ?
+*INV: theres no point in us looking for them ?
 *CHI: 0 .
 *INV: I think theyll be probably stolen .
 *MOT: hello ?
@@ -1614,13 +1530,12 @@
 *MOT: quick ring for a plumber .
 *INV: how can we fix that ?
 *CHI: thats a magic bedroom .
-*CHI: thats a magic bathroom isnt it ?
+*CHI: thats a magic bathroom ?
 *INV: it it does itself ?
 *INV: 0 .
-*INV: thats great isnt it .
-*MOT: oh look !
+*INV: thats great .
 *MOT: theres a mirror .
-*MOT: in the above the wash basin .
+*MOT: above the wash basin .
 *MOT: can you see yourself ?
 *INV: I know that the husbands always looking in the mirror at himself .
 *INV: oh youre good looking .
@@ -1632,11 +1547,10 @@
 *INV: oh lovely .
 *MOT: he has got a yellow top on like Thomas .
 *INV: ah look .
-*CHI: lets go for a walk shall we ?
+*CHI: lets go for a walk ?
 *INV: okay .
 *CHI: little  dear .
-*CHI: shall we>
-*INV: will we will we take the dog for a walk too ?
+*INV: will we take the dog for a walk too ?
 *CHI: course can .
 *CHI: ap shut door .
 *CHI: now lets go .
@@ -1658,14 +1572,11 @@
 *INV: ah  the dog has got all dirty .
 *INV: well hafta put him in the bath .
 *CHI: there .
-*INV: oh no theres a kennel  look  Thomas .
+*INV: theres a kennel  look  Thomas .
 *MOT: a kennel ?
 *MOT: for the dog ?
 *MOT: gosh .
-*INV: in the .
-*MOT: oh wow .
 *INV: ah .
-*MOT: shall we>
 *CHI: wheres the kennel ?
 *INV: here .
 *CHI: oh yes .
@@ -1680,7 +1591,6 @@
 *MOT: its quite strange it being so open at the front isnt it ?
 *INV: oh yes .
 *INV: its the bedroom .
-*CHI: knock knock .
 *MOT: is it ?
 *MOT: ah .
 *INV: I think .
@@ -1701,10 +1611,8 @@
 *MOT: but youre knocking on the back door .
 *MOT: and actually the front doors wide open .
 *INV: ah .
-*MOT: you can just walk in .
 *INV: Thomas  come here .
 *INV: do you see .
-*MOT: lovely >
 *INV: do you see ?
 *INV: what are these pictures of here ?
 *INV: and what are these ?
@@ -1718,7 +1626,7 @@
 *MOT: oh .
 *CHI: it .
 *MOT: oh steady .
-*CHI: oh no wheres the door went ?
+*CHI: wheres the door went ?
 *MOT: dont be too rough with the doors  Thomas .
 *INV: so  Thomas  look these are toothbrushes .
 *CHI: yeah .
@@ -1735,7 +1643,7 @@
 *INV: oy .
 *INV: do you not like the big house anymore ?
 *CHI: no .
-*CHI: we going to open it next Friday (.)
+*CHI: we open it next Friday (.)
 *INV: laughs .
 *MOT: is there ?
 *CHI: yes .
@@ -1752,14 +1660,11 @@
 *CHI: I shut my big lorry .
 *MOT: its a big lorry now is it ?
 *CHI: yes .
-*INV: Ive got one for your Mum .
-*MOT: its a gorgeous house isnt it ?
-*MOT: oh wow .
-*INV: one for me and one for Thomas .
+*MOT: isnt it ?
 *MOT: thank you .
 *CHI: thank you .
-*MOT: thank you very much Jeannine .
-*CHI: there is a show now .
+*MOT: thank you very much .
+*CHI: a show now .
 *MOT: is there ?
 *CHI: today .
 *CHI: a big lorry .
@@ -1767,14 +1672,13 @@
 *CHI: uh  everybody show .
 *CHI: everybody drop the chocolate paper then is the winner .
 *INV: really ?
-*CHI: you a winner !
+*CHI: winner !
 *MOT: laughs .
 *INV: mm .
 *CHI: apples the winner .
 *MOT: would you like to share mine ?
 *CHI: no thanks .
-*MOT: excuse me .
-*INV: this is a lovely chocolate .
+*INV: chocolate .
 *INV: delicious .
 *CHI: oh .
 *INV: have you had one of these before ?
@@ -1786,7 +1690,6 @@
 *MOT: might hafta wipe your sticky hands before you play with Becky's
 *CHI: and theres something else inside .
 *INV: mhm .
-*MOT: oh really ?
 *MOT: what in here ?
 *CHI: mhm .
 *MOT: mm .
@@ -1798,8 +1701,6 @@
 *MOT: I am a mole and I love in a hole ?
 *INV: laughs .
 *CHI: mhm .
-*INV: did you have a mole in yours ?
-*MOT: do you remember that little mole ?
 *MOT: we had a little mole in ours last time .
 *INV: mm .
 *INV: its really nice chocolate actually .
@@ -1810,7 +1711,7 @@
 *INV: oh I always get boring things .
 *INV: laughs .
 *INV: every time .
-*CHI: whats in there ?
+*CHI: whats ?
 *MOT: oh !
 *INV: what is it ?
 *INV: oh !
@@ -1818,17 +1719,15 @@
 *MOT: 0 .
 *CHI: oh .
 *INV: a very strange looking hat on .
-*INV: oh look he moves his head like that .
+*INV: he moves his head like that .
 *INV: hello .
 *INV: hello young Thomas .
 *MOT: hm !
-*MOT: we could put him in the house .
-*INV: I think go in the house>
 *MOT: mhm .
 *CHI: oh .
 *INV: throw that in the bin .
 *CHI: oh no !
-*CHI: it has dropped on the road .
+*CHI: it has dropped .
 *INV: oh not already .
 *MOT: its nice chocolate .
 *MOT: very nice .
@@ -1891,7 +1790,7 @@
 *INV: theres always like a figure .
 *MOT: right .
 *INV: I think everyone likes the ones
-*CHI: I think I gonna get a chip shop .
+*CHI: I gonna get a chip shop .
 *INV: you might have a chip shop in yours .
 *MOT: 0 .
 *INV: you never know .
@@ -1907,13 +1806,9 @@
 *INV: lets see what youve got there .
 *MOT: a babys pram .
 *INV: oh !
-*INV: oh what .
 *CHI: laughs .
 *INV: youve got .
 *INV: theyre ridiculous .
-*MOT: oh what have you got ?
-*CHI: look at that funny man .
-*INV: another figure .
 *MOT: what have you got ?
 *MOT: a frog ?
 *CHI: no .
@@ -1922,11 +1817,11 @@
 *MOT: oh no its not a frog .
 *MOT: oh thats like the little mole isnt it ?
 *INV: what is it ?
-*INV: I think moles are part of this collection as well .
+*INV: I think moles are part of this collection .
 *MOT: yes I think it is .
 *MOT: Ill go and see if I can find the mole .
 *MOT: right Thomas
-*CHI: look at this  green dog .
+*CHI: look at this .
 *INV: ah .
 *MOT: lets have a look .
 *MOT: are you clean .
@@ -1937,11 +1832,9 @@
 *CHI: hey everybody come back .
 *INV: laughs .
 *INV: everybody come back .
-*CHI: you know you miss the show because it shuting up .
-*MOT: here we are .
+*CHI: you know you miss the show because .
 *INV: ah .
-*MOT: this must have been>
-*INV: Ive not really missed the show have I ?
+*INV: the show have I ?
 *CHI: yes .
 *CHI: you have .
 *INV: oh how awful .
@@ -1950,15 +1843,13 @@
 *MOT: Im getting mixed up .
 *INV: mm .
 *MOT: that was an easter present wasnt it ?
-*MOT: from the lady who bought you the rabbit mask .
-*INV: wow thats huge .
+*MOT: from the lady .
 *INV: whats in here ?
 *INV: oh !
 *INV: thats a funny looking animal .
 *INV: I wonder what that is .
-*CHI: you help me you help me .
+*CHI: you help me .
 *INV: will I help you do what ?
-*INV: close it ?
 *INV: there we go .
 *INV: all shut and closed .
 *CHI: thank you .
@@ -1967,15 +1858,14 @@
 *CHI: uh in a min .
 *CHI: oh no no I wont .
 *CHI: because you miss the show .
-*INV: oy poor Mum .
-*MOT: must have been a very quick show .
+*INV: oy .
+*MOT: a very quick show .
 *CHI: but was little show now you missed it .
 *CHI: little show .
 *INV: it it was an excellent show .
-*INV: oy you not going to do it for your Mum one more time ?
-*MOT: Im very sad .
+*INV: oy you not going to do it for your Mum ?
 *MOT: Im really sad .
-*CHI: and its and then he popped there  with his big wagon .
+*CHI: and then he popped there  with his big wagon .
 *MOT: did he ?
 *CHI: it was a snakes turn .
 *CHI: and after snakes turn then its the dog then its yours .
@@ -1990,11 +1880,10 @@
 *INV: is it a wagon ?
 *CHI: is a wagon .
 *CHI: know see a wagon have you  Jean ?
-*MOT: it could be a furniture removal van .
-*INV: Ive never seen a wagon like that .
+*MOT: it could be a .
 *INV: oh yeah .
-*MOT: delivering things like beds and chest of drawers and tables .
-*INV: or it could be a mobile home couldnt it ?
+*MOT: delivering things like beds and chest of drawers .
+*INV: home couldnt it ?
 *MOT: oh yeah .
 *INV: it would be great if you could just put a hand on top of your house
 *CHI: now  snake  its your turn .
@@ -2011,7 +1900,7 @@
 *CHI: it is my home !
 *MOT: laughs .
 *CHI: hurrah hurrah !
-*CHI: its my house its my house .
+*CHI: its my house .
 *CHI: 0 .
 *CHI: it has got some stairs for me to wee wee .
 *CHI: hao .
@@ -2030,10 +1919,9 @@
 *CHI: there .
 *CHI: oh garden !
 *CHI: I like to play garden .
-*MOT: you wanna play in the garden ?
+*MOT: play in the garden ?
 *CHI: um uh yes .
 *CHI: I say you cant get out  snake .
-*INV: oh no .
 *CHI: because its raining you can say .
 *CHI: going to .
 *CHI: please you go outside  Mum ?
@@ -2059,7 +1947,6 @@
 *CHI: okay .
 *CHI: alright .
 *MOT: woofo .
-*CHI: there go .
 *MOT: woofo .
 *MOT: the dogs a bit annoyed because its raining and he was left out .
 *MOT: oh typical .
@@ -2067,14 +1954,12 @@
 *MOT: wet paws .
 *MOT: oh the chair .
 *CHI: please 0can .
-*MOT: the dogs sitting on the chair .
 *CHI: please .
 *INV: yes .
 *INV: its sunny today .
 *INV: you can go out .
 *CHI: thank you .
 *INV: um  Id like it if you could find out auntie snake as well .
-*CHI: auntie snake >
 *INV: because she has been missing for quite some time .
 *MOT: there are two people at the door  Thomas .
 *CHI: excuse me I cant vad vad it  because I gotta get
@@ -2085,7 +1970,7 @@
 *CHI: better leave .
 *CHI: found her .
 *INV: oh excellent .
-*CHI: it was under the fire engine wheels .
+*CHI: it was under .
 *INV: 0 .
 *INV: always under the fire engine huh ?
 *MOT: have you seen this funny mans hair  Thomas ?
@@ -2096,13 +1981,12 @@
 *CHI: you can be snake .
 *INV: oh yes .
 *INV: of course .
-*MOT: youre not impressed with those toys are you ?
-*CHI: this >
+*MOT: are you ?
 *INV: no usually because you hafta .
 *INV: sometimes you get things that you hafta .
 *INV: well stickers and things you can put together .
 *INV: have you seen them before ?
-*CHI: lets go inside .
+*CHI: lets .
 *MOT: yes .
 *CHI: because its raining .
 *INV: I think theyre ridiculous .
@@ -2110,8 +1994,7 @@
 *CHI: help its raining .
 *INV: oh come on then .
 *MOT: theres a chair outside .
-*INV: lets get inside .
-*MOT: in fact theres quite a bit of furniture .
+*MOT: quite a bit of furniture .
 *MOT: and the poor baby has fallen off her pram .
 *MOT: shall I pick her up ?
 *CHI: course you can .
@@ -2119,7 +2002,6 @@
 *MOT: wah wah wah .
 *MOT: oops .
 *MOT: laughs .
-*MOT: thought it was on wheels .
 *CHI: whee .
 *MOT: its not .
 *MOT: wah wah wah .
@@ -2149,7 +2031,7 @@
 *CHI: because I gone do my exercises .
 *MOT: are you ?
 *CHI: yeah .
-*INV: do you wanna see my other trick ?
+*INV: wanna see my other trick ?
 *INV: look .
 *CHI: yeah .
 *MOT: oh gosh .
@@ -2175,12 +2057,10 @@
 *INV: and then becomes thin again .
 *INV: laughs .
 *INV: arent they ridiculous ?
-*CHI: Im going outside !
-*INV: I didnt realize they were hollow .
 *CHI: I want .
-*MOT: just watch that plastic chair  Thomas  because it might get
+*MOT: that plastic chair  Thomas  because it might get
 *CHI: 0 .
-*INV: look how fat his face has become .
+*INV: his face has become .
 *CHI: yeah ?
 *CHI: Mummy  Mummy it say cant  snake ,
 *INV: you cant go out  snake  because its raining .
@@ -2203,7 +2083,7 @@
 *INV: are you hiding ?
 *INV: come here .
 *CHI: I 0am .
-*INV: where I can get you on the video .
+*INV: get you on the video .
 *INV: there we go .
 *CHI: I 0am .
 *MOT: 0 !
@@ -2214,15 +2094,13 @@
 *CHI: no .
 *INV: I know .
 *INV: we should have the house over here with it really .
-*CHI: you can go out to play ?
-*INV: how long is there left>
 *CHI: today .
 *MOT: four .
 *CHI: you go out to play today ?
 *INV: today  you can go out to play .
 *CHI: thank you .
 *CHI: boingo .
-*INV: I want you to try and find uncle snake again .
+*INV: and find uncle snake again .
 *CHI: alright .
 *CHI: oh there he is there .
 *INV: oh there he is .

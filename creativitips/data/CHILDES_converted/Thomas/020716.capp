@@ -3,7 +3,6 @@
 *CHI: big red .
 *CHI: I love you .
 *MOT: oh .
-*CHI: love you>
 *MOT: you love me ?
 *CHI: yes .
 *MOT: oh  Thomas .
@@ -22,7 +21,7 @@
 *CHI: lot of fun
 *CHI: dance dance .
 *MOT: a lot of what ?
-*CHI: lot ap dance dance dance>
+*CHI: lot a@p
 *CHI: laughs .
 *CHI: kiss Mummys belly button .
 *CHI: ap my vest .
@@ -34,11 +33,9 @@
 *CHI: checking thep Mummy button .
 *MOT: checking Mummys button ?
 *CHI: red light .
-*CHI: green red ap red ap red .
-*MOT: oh no no no .
-*CHI: red red>
-*MOT: no no no .
-*CHI: little switch .
+*CHI: green red ap red .
+*MOT: oh .
+*MOT: no .
 *MOT: come and talk to me
 *MOT: tell me what happened at toddler group the other day .
 *MOT: with that little boy .
@@ -50,8 +47,6 @@
 *CHI: mhm .
 *MOT: oh dear .
 *MOT: what happened ?
-*CHI: red one silly on .
-*CHI: red one>
 *CHI: whats this ?
 *MOT: Thomas I cant tell a word youre saying .
 *CHI: 0 ap play for you .
@@ -63,8 +58,7 @@
 *CHI: oh yes .
 *INV: stuck in the mud .
 *MOT: no .
-*INV: for you .
-*MOT: you cant have that box yet  Thomas .
+*MOT: you cant  Thomas .
 *MOT: no .
 *CHI: Dimitra hold it .
 *MOT: no .
@@ -89,8 +83,7 @@
 *MOT: what have we done with it ?
 *CHI: oh missed it .
 *MOT: youve missed it ?
-*MOT: weve lost it .
-*CHI: oh not on there .
+*CHI: there .
 *MOT: is it not there ?
 *CHI: no .
 *MOT: oh dear  Thomas .
@@ -104,7 +97,7 @@
 *CHI: ap go home Jess .
 *CHI: wave Dimitra back .
 *CHI: Dimitra gone ap there .
-*CHI: big hand stop there a moment .
+*CHI: stop there a moment .
 *MOT: yes .
 *MOT: Dimitras not going anywhere .
 *MOT: dont worry .
@@ -187,7 +180,7 @@
 *CHI: 0 Dimitra .
 *MOT: it matches her eyes doesnt it ?
 *CHI: eyes .
-*MOT: is Jess a boy or a girl ?
+*MOT: a boy or a girl ?
 *MOT: Im not sure .
 *CHI: ap thep boy .
 *MOT: oh Jess is a boy .
@@ -218,7 +211,7 @@
 *MOT: I thought it was for me .
 *CHI: ap me .
 *CHI: um ap Thomas .
-*CHI: what in there ?
+*CHI: there ?
 *CHI: going there .
 *CHI: feel poorly .
 *CHI: ambulance .
@@ -255,7 +248,7 @@
 *MOT: is this what we do with Purdie ?
 *CHI: mhm .
 *CHI: kiss Mummy leg .
-*MOT: Purdies Jesss purring now isnt she ?
+*MOT: Jesss purring now isnt she ?
 *MOT: because shes happy .
 *MOT: purrpurro .
 *MOT: do pussy cats purr when theyre happy ?
@@ -265,7 +258,7 @@
 *CHI: yes .
 *MOT: I couldnt say that ?
 *CHI: bye .
-*MOT: de de de delivery round .
+*MOT: de delivery round .
 *MOT: laughs .
 *CHI: bye .
 *MOT: oh bye bye  darling .
@@ -281,16 +274,14 @@
 *CHI: big fish .
 *MOT: a big fish .
 *MOT: yes .
-*MOT: I think>
-*CHI: ap big nose .
-*MOT: theres more likely to be big fish there than an elephant .
+*CHI: nose .
+*MOT: theres more likely to be big fish there .
 *CHI: um letter elephant a moment .
 *MOT: there will be a letter for the elephant in a moment .
 *MOT: theres a letter for the envelope ?
 *MOT: I mean an envelope for the elephant .
 *CHI: oh yeah .
 *CHI: lick me .
-*MOT: I would>
 *CHI: minute .
 *CHI: lick me .
 *MOT: did he lick you ?
@@ -318,7 +309,7 @@
 *MOT: shall I pass it to them ?
 *CHI: oh yes .
 *MOT: whos it for ?
-*CHI: ap Dobbin .
+*CHI: ap .
 *MOT: is it for Dobbin ?
 *CHI: yes .
 *MOT: is that for bowwowc or Dobbin ?
@@ -329,7 +320,7 @@
 *CHI: that one .
 *MOT: oh that one with the hair on .
 *MOT: right .
-*MOT: have you seen the picture on there ?
+*MOT: seen the picture on there ?
 *CHI: hedgehog .
 *MOT: two hedgehogs .
 *MOT: and do you know what this is ?
@@ -380,7 +371,6 @@
 *CHI: oh .
 *MOT: like Bob The Builder ?
 *CHI: yes .
-*CHI: cutting ap big>
 *MOT: thats right .
 *MOT: itll hook in there wont it ?
 *CHI: no .
@@ -419,7 +409,6 @@
 *CHI: right .
 *CHI: thats it .
 *CHI: oh no .
-*CHI: the box .
 *CHI: get the big van .
 *CHI: thats it .
 *CHI: right .
@@ -439,7 +428,6 @@
 *MOT: you cant ?
 *CHI: no .
 *MOT: oh it might go under there  Thomas .
-*CHI: no no>
 *MOT: no ?
 *MOT: it might hook under there .
 *CHI: no .
@@ -454,12 +442,10 @@
 *CHI: Dimitra .
 *MOT: Postman Pat
 *CHI: Postman Pat
-*MOT: Postman Pat and his black and white cat .
-*CHI: stop talking .
+*MOT: Postman Pat and his .
 *MOT: oh stop talking .
 *MOT: alright .
 *MOT: fair enough .
-*CHI: Postman Pat>
 *CHI: et a cat .
 *CHI: early in the morning .
 *CHI: just day as awning .
@@ -494,7 +480,6 @@
 *CHI: early in the morning .
 *CHI: just day as dawning .
 *CHI: Postman Pat
-*MOT: what about>
 *CHI: et ap white cat .
 *CHI: finish ap Postman Pat in a minute .
 *MOT: youll finish Postman Pat in a minute will you ?
@@ -597,8 +582,8 @@
 *MOT: its burning hot ?
 *MOT: oh dont drink from the spout .
 *MOT: it that will burn .
-*MOT: why dont you put some teaspoons on the table ?
-*CHI: ap thep drink there .
+*MOT: why dont you put some ?
+*CHI: there .
 *CHI: ap thep drink .
 *MOT: is it tea or coffee  Thomas ?
 *CHI: ap et ap coffee .
@@ -743,10 +728,9 @@
 *CHI: like ap tea or coffee ?
 *INV: I would prefer tea please .
 *CHI: tea .
-*CHI: sit down ap drink ap my tree ap tea a moment .
+*CHI: sit down ap drink ap tea a moment .
 *MOT: right .
 *MOT: youre going to sit down and drink your tea a moment ?
-*CHI: oh yeah>
 *MOT: before you before you pour Dimitra hers ?
 *CHI: mhm .
 *MOT: oh right .
@@ -829,9 +813,8 @@
 *MOT: you cant use the dishwasher brush .
 *MOT: thats not nice .
 *CHI: Dimitra brush .
-*MOT: no no no .
-*MOT: thats the brush that we use to wash the pots with .
-*CHI: whats this ?
+*MOT: no .
+*MOT: thats the brush that we use to wash the .
 *MOT: thats not pleasant putting it through somebodys hair .
 *CHI: that one ?
 *CHI: that one .
@@ -896,10 +879,9 @@
 *MOT: do you think Purdies watching Jess ?
 *CHI: mhm .
 *MOT: Purdie might be a little bit jealous that Im looking <after
-*CHI: hello  Purdie .
 *CHI: elephant .
 *CHI: look  Purdie .
-*CHI: look Purdie sit .
+*CHI: look .
 *CHI: um the one raspberry there .
 *MOT: are you offering Purdie a raspberry ?
 *CHI: a big brown raspberry .
@@ -947,8 +929,7 @@
 *CHI: oops .
 *CHI: enjoyed it ?
 *MOT: I did enjoy it .
-*MOT: thank you very much .
-*CHI: enjoyed it  Dimitra ?
+*CHI: Dimitra ?
 *INV: yes I did .
 *INV: thank you .
 *CHI: enjoyed it .
@@ -1058,8 +1039,8 @@
 *INV: are there more reds than any other color ?
 *CHI: yes .
 *INV: yeah .
-*INV: weve got three reds .
-*CHI: look pink ap red Thomas The Tank Engine .
+*INV: weve got .
+*CHI: ap red Thomas The Tank Engine .
 *INV: mhm .
 *INV: there are quite a lot of yellows as well arent there ?
 *INV: what about Thomas The Tank Engine ?
@@ -1084,8 +1065,6 @@
 *CHI: Henry .
 *INV: ah thats what you mean .
 *INV: so maybe we can give a blue one to Thomas .
-*CHI: blue one>
-*INV: and this one .
 *CHI: here you are  Henry .
 *INV: yeah .
 *INV: yum yum yum .
@@ -1097,9 +1076,8 @@
 *INV: whos hiding ?
 *CHI: Thomas .
 *INV: Thomas hiding ?
-*CHI: run away run away .
+*CHI: run away .
 *INV: are you running away ?
-*CHI: run away>
 *INV: where is Thomas going ?
 *CHI: hiding there .
 *CHI: ap hiding ap big trees .
@@ -1160,7 +1138,7 @@
 *MOT: oh dear .
 *INV: thats the Ribena .
 *INV: oh Im so sorry .
-*INV: its becoming a bit of a tradition .
+*INV: of a tradition .
 *MOT: its alright .
 *CHI: fall down .
 *MOT: its alright .
@@ -1175,7 +1153,6 @@
 *INV: whats that ?
 *CHI: mess ap orange .
 *CHI: I think .
-*CHI: that one .
 *CHI: oh .
 *INV: is it not warm ?
 *CHI: change there .
@@ -1212,7 +1189,7 @@
 *INV: oh away from Gordons mouth .
 *INV: yeah .
 *INV: there it is .
-*CHI: run away run away .
+*CHI: run away .
 *CHI: run away .
 *CHI: away .
 *CHI: run away .
@@ -1257,7 +1234,6 @@
 *CHI: Dimitra change .
 *INV: ah .
 *CHI: yes .
-*INV: are you saying>
 *CHI: sore knee .
 *CHI: sore knee da this .
 *INV: what are you saying about Sonia ?
@@ -1322,8 +1298,6 @@
 *CHI: hiding .
 *INV: Thomas would you like me to show you my toys ?
 *CHI: yes please .
-*INV: yes please .
-*CHI: oh bump a@p>
 *INV: shall I have the green one ?
 *CHI: no .
 *CHI: ap touch it .
@@ -1418,7 +1392,7 @@
 *CHI: whats that ?
 *INV: its Ben .
 *INV: it says .
-*INV: do you know Ben ?
+*INV: know Ben ?
 *CHI: be know Ben .
 *INV: you know Ben ?
 *CHI: yeah Ben .
@@ -1438,7 +1412,6 @@
 *CHI: Thomas on ap track ta .
 *INV: Thomas look !
 *INV: there is a man climbing there !
-*CHI: climb train .
 *INV: climbing a ladder .
 *INV: did you say thats right ?
 *CHI: thats right .
@@ -1455,7 +1428,6 @@
 *CHI: 0 .
 *INV: oh do you remember him ?
 *CHI: man sit there .
-*CHI: have water .
 *INV: the man what ?
 *CHI: 0 thep water .
 *INV: are you putting him in the water ?
@@ -1473,12 +1445,12 @@
 *CHI: yes .
 *INV: do you remember him ?
 *INV: this man ?
-*CHI: fat controller nappie change .
+*CHI: fat controller .
 *INV: the fat controller ?
 *INV: is he going to have a nappie change too ?
 *CHI: yes .
 *CHI: putting on there .
-*INV: are you are you going to put him in the water too
+*INV: are you going to put him in the water too
 *CHI: yeah .
 *CHI: 0 .
 *INV: 0 .
@@ -1486,10 +1458,9 @@
 *INV: a big what ?
 *INV: pipe ?
 *CHI: kite .
-*INV: what is it ?
-*INV: a big kite .
+*INV: kite .
 *CHI: kite .
-*INV: whats what do you mean ?
+*INV: what do you mean ?
 *CHI: kite .
 *CHI: kite .
 *CHI: passenger .
@@ -1498,7 +1469,7 @@
 *INV: is that a passenger carriage ?
 *CHI: yeah .
 *CHI: fat controller do ?
-*INV: whats whats the fat controller doing ?
+*INV: whats the fat controller doing ?
 *INV: yeah .
 *INV: thats .
 *INV: oh hes in the water ?
@@ -1517,10 +1488,8 @@
 *INV: what about this one ?
 *CHI: no .
 *INV: what do you think this is ?
-*CHI: no no>
 *CHI: all out .
 *INV: all out ?
-*CHI: no no>
 *INV: do you want it empty ?
 *CHI: yes .
 *CHI: oh nobody in .
@@ -1536,16 +1505,13 @@
 *INV: oh we cant open the door can we ?
 *INV: no .
 *INV: we cant .
-*CHI: no no>
 *INV: look .
 *INV: theres more .
 *CHI: no .
 *INV: no ?
 *INV: you dont want anybody ?
-*CHI: run away run away .
+*CHI: run away .
 *INV: oh has everybody run away ?
-*CHI: another pipe .
-*CHI: run away>
 *CHI: ah .
 *INV: another pipe ?
 *INV: what have we got here ?
@@ -1579,7 +1545,7 @@
 *INV: its milk .
 *CHI: milk .
 *CHI: lamps off .
-*CHI: lamps lamps lamps .
+*CHI: lamps .
 *CHI: ladders .
 *INV: oh yeah .
 *INV: you remember the other day we were playing with those .
@@ -1637,7 +1603,7 @@
 *INV: is the fridge on fire ?
 *CHI: yes .
 *CHI: big fireman 0has come .
-*CHI: beebao beebao .
+*CHI: beebao .
 *CHI: get out 0of the house .
 *CHI: fireman ladder .
 *CHI: ladder .
@@ -1648,9 +1614,7 @@
 *CHI: oh yes .
 *INV: they met at the top .
 *CHI: what happening ?
-*CHI: run away run away .
-*CHI: run away>
-*CHI: run away>
+*CHI: run away .
 *INV: oh you cant close it with them in .
 *INV: oh maybe its because of the eggs .
 *INV: oh .
@@ -1671,7 +1635,7 @@
 *CHI: hiding ap there .
 *CHI: hiding big bears trees .
 *INV: hiding .
-*INV: with the big bear big bears in the trees ?
+*INV: with the big bears in the trees ?
 *INV: do you think hes going to find them ?
 *CHI: yes .
 *INV: oh .
@@ -1682,10 +1646,10 @@
 *INV: now they have very heavy heads .
 *CHI: ap throw it .
 *INV: you wanna throw it ?
-*INV: no no no .
+*INV: no .
 *INV: dont throw them .
 *INV: if that hits you in the head you will .
-*INV: no no no .
+*INV: no .
 *INV: dont throw .
 *INV: what ?
 *CHI: eggs eggs gone .
@@ -1709,7 +1673,7 @@
 *INV: youre hiding again .
 *INV: are you going to go in the fridge ?
 *CHI: oh too small for you .
-*INV: ah is for it ?
+*INV: for it ?
 *CHI: mhm .
 *INV: oh .
 *INV: too small for the fridge .
@@ -1741,7 +1705,7 @@
 *CHI: ap na hiding poo .
 *INV: youre hiding ?
 *CHI: yeah .
-*INV: do you do you wanna go on your potty ?
+*INV: do you wanna go on your potty ?
 *CHI: no hiding .
 *INV: no .
 *INV: you wanna hide ?
@@ -1753,7 +1717,6 @@
 *CHI: there .
 *INV: I can see you .
 *INV: laughs .
-*CHI: go in na there .
 *INV: are you going to burn the box ?
 *INV: I think youre going to break the box if you go in it .
 *INV: be very very gentle .
@@ -1780,5 +1743,4 @@
 *CHI: put it there .
 *CHI: 0 na one hole .
 *CHI: big big .
-*CHI: put it there>
 *CHI: throw in the bin binmen .

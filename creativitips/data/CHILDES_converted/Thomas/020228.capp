@@ -7,7 +7,7 @@
 *MOT: Thomas .
 *MOT: if youre planing to put that chair there and climb up for the
 *MOT: Thomas .
-*MOT: no no no no no .
+*MOT: no .
 *CHI: 0 .
 *CHI: no down .
 *MOT: and what exactly do you wanna do now ?
@@ -58,7 +58,7 @@
 *CHI: a choc chocf please .
 *CHI: ap choc chocsf .
 *CHI: a choc chocf please .
-*MOT: theyre not choc chocsf .
+*MOT: choc chocsf .
 *MOT: theyre little biscuits .
 *MOT: now you go  and pull the table out and sit at the table .
 *MOT: we dont climb on the chairs .
@@ -74,7 +74,7 @@
 *CHI: yes please .
 *MOT: and if you sit at that side we can keep an eye on what Pos doing
 *MOT: look .
-*CHI: oh Po Lala .
+*CHI: Lala .
 *MOT: Po and Lala thats right .
 *CHI: Po Lala .
 *CHI: Po Lala .
@@ -126,7 +126,7 @@
 *MOT: those two match those colors dont they ?
 *MOT: Grandma was worrying because I had told her this morning that I
 *CHI: hello .
-*MOT: and that we couldnt get out of the front door and we were
+*MOT: couldnt get out of the front door and we were
 *MOT: and I hadta unlock the back gate to let Dimitra in .
 *MOT: and Grandma was panicking that I had not remembered to lock the
 *MOT: because she said yesterday when you were running outside you kept
@@ -190,7 +190,7 @@
 *CHI: oh no biscuit .
 *MOT: do you think Po would like a biscuit ?
 *MOT: oh !
-*MOT: shes going oh Po has gone .
+*MOT: oh Po has gone .
 *CHI: Po all gone .
 *MOT: no shes not !
 *MOT: shes here !
@@ -219,7 +219,7 @@
 *CHI: no work .
 *MOT: no work .
 *MOT: no no .
-*MOT: Pos I told you Pos having a quiet day today .
+*MOT: I told you Pos having a quiet day today .
 *MOT: she cant talk on the television and look .
 *MOT: no shes not talking now either .
 *MOT: can you tell Po where that biscuit has gone ?
@@ -236,8 +236,7 @@
 *MOT: the seals are having something to eat as well look .
 *MOT: people on the boat are throwing fish at them .
 *CHI: chocf .
-*MOT: oh thats nice are you giving Dimitra a biscuit ?
-*INV: thank you .
+*MOT: are you giving Dimitra a biscuit ?
 *INV: the pink one .
 *CHI: whats this ?
 *MOT: its another yellow one .
@@ -323,7 +322,7 @@
 *MOT: its Noo Noo .
 *CHI: ap Noo Noo .
 *MOT: youre making a lot of noise sucking that biscuit arent you ?
-*MOT: oh I think youre going to give Lala a nice uh Dipsy a
+*MOT: oh I think youre going to give uh Dipsy a
 *MOT: can I have a kiss please ?
 *CHI: on ap .
 *MOT: oh thats lovely .
@@ -411,7 +410,7 @@
 *MOT: you do something where you jump up and sit down dont you ?
 *MOT: youve got a little sore patch under your nose because you ran into
 *CHI: hm ?
-*MOT: and had a nosebleed .
+*MOT: a nosebleed .
 *MOT: you were running very fast and not watching where you were going
 *MOT: and fell against the swing and bumped yourself .
 *CHI: 0 .
@@ -448,8 +447,6 @@
 *MOT: come here .
 *INV: oh .
 *INV: laughs .
-*MOT: come here and sit>
-*CHI: ap Beechyc .
 *MOT: oh .
 *MOT: oh look theyre back again .
 *MOT: I thought they had gone .
@@ -496,7 +493,6 @@
 *MOT: theyve all gone now .
 *MOT: thats it .
 *INV: what color is that ?
-*MOT: no more .
 *CHI: what is it ?
 *INV: oh .
 *CHI: oh dear .
@@ -544,10 +540,7 @@
 *CHI: ap the Po gone ?
 *MOT: Po has gone now .
 *MOT: Po has gone away>
-*CHI: Po Lala .
 *MOT: Po has gone but look who has come to see you .
-*CHI: where gone two trucks ?
-*CHI: where gone two trucks>
 *MOT: thats Daddys teddy .
 *MOT: this is Mummys very old but well loved teddy .
 *MOT: thats your teddy .
@@ -593,7 +586,6 @@
 *MOT: oh !
 *MOT: look at how many times he has had patches on his arms .
 *MOT: hes very very old .
-*CHI: more sore .
 *MOT: oh look .
 *MOT: whats this ?
 *CHI: thats the watch .
@@ -606,7 +598,7 @@
 *CHI: oh dear .
 *MOT: oh dear .
 *MOT: shall we take the rest of his clothes off ?
-*MOT: Mummy made these clothes for him when she was a little girl>
+*MOT: Mummy made these clothes for him when she was
 *MOT: so mustnt look too closely at the needlework because theyre a
 *CHI: ap sore .
 *MOT: yes .
@@ -630,7 +622,7 @@
 *MOT: can you see the fur on his back ?
 *MOT: oh poor old bear .
 *MOT: doesnt he look pathetic ?
-*CHI: no no no .
+*CHI: no .
 *MOT: oh !
 *MOT: and he has just been knocked over by a mixer truck .
 *CHI: truck bear ap trucks .
@@ -662,7 +654,7 @@
 *MOT: please .
 *MOT: sorry did Mummy forget to say pleaseq ?
 *MOT: Im terribly sorry .
-*CHI: broomo broomo broomo .
+*CHI: broomo .
 *MOT: shall I move the teddys and then we can put that on the table .
 *CHI: whats this ?
 *MOT: thats a pepper a red pepper .
@@ -684,7 +676,6 @@
 *MOT: the Teletubbies havent got him .
 *MOT: where has the man gone ?
 *CHI: no see .
-*INV: shes not Mummy .
 *MOT: wheres the man ?
 *MOT: oh no the man wasnt on her knee was he ?
 *MOT: do you know where the man is ?
@@ -713,7 +704,7 @@
 *INV: not here .
 *INV: not there .
 *MOT: I can see him .
-*MOT: youre holding him behind your head !
+*MOT: youre holding him !
 *INV: oh !
 *INV: and now Dimitra can see him !
 *MOT: oh !
@@ -750,7 +741,7 @@
 *CHI: yes please .
 *MOT: oh !
 *MOT: yes please .
-*MOT: please yes please hang him up .
+*MOT: please hang him up .
 *MOT: say Mummy keeps forgetting to say please today when
 *MOT: shes very rude .
 *CHI: ap more choc chocsf .
@@ -851,17 +842,16 @@
 *CHI: where 0has choc chocf gone ?
 *MOT: where has the choc chocf gone ?
 *MOT: its in there .
-*CHI: hm hm hm .
+*CHI: hm .
 *MOT: whats the matter ?
 *CHI: ap bear there .
 *CHI: ap bear there .
 *MOT: the bear ?
 *MOT: which bear ?
-*MOT: wheres bear ?
 *CHI: there .
 *CHI: ap there .
 *CHI: do steps .
-*CHI: down down down .
+*CHI: down .
 *MOT: is the bear coming down the steps ?
 *MOT: these are like steps arent they ?
 *MOT: one two three four five six steps .
@@ -968,8 +958,8 @@
 *MOT: that has come round quickly .
 *MOT: putting teddys pants on ?
 *MOT: those pants are made from a sleeve of one of Grandmas old carpets
-*MOT: this is Edward poo poochie>
-*MOT: thats his name Edward poo poochie>
+*MOT: this is Edward
+*MOT: thats his name Edward
 *MOT: oh thank you .
 *MOT: thats a good boy for sharing .
 *INV: do you like this biscuits ?
@@ -1026,7 +1016,6 @@
 *MOT: whos this lady ?
 *MOT: whats her name ?
 *CHI: ap the Beechyc .
-*INV: is that my name ?
 *MOT: hello Beechyc pleased to meet you .
 *INV: yes .
 *MOT: whats my name ?
@@ -1039,7 +1028,6 @@
 *MOT: and whos this ?
 *CHI: no baby .
 *MOT: no .
-*MOT: its not a>
 *CHI: Beechyc .
 *MOT: Dimitra .
 *CHI: mhm .
@@ -1096,13 +1084,12 @@
 *CHI: meow meow .
 *MOT: he has a cat hasnt he ?
 *MOT: Postman Pat and his black and white cat .
-*CHI: meow meow>
 *INV: you like cats dont you ?
 *CHI: meow meow .
 *CHI: meow meow .
 *MOT: no .
 *MOT: leave the television alone now  Thomas  please .
-*MOT: can you see yourself in it is that what youre doing ?
+*MOT: can you see yourself in what youre doing ?
 *INV: no .
 *MOT: talking to yourself ?
 *MOT: oh !
@@ -1176,11 +1163,11 @@
 *MOT: Mummys in a mess .
 *CHI: Nin Nin .
 *MOT: yes ?
-*CHI: no no no no no .
+*CHI: no .
 *CHI: Nin Nin .
 *MOT: yes ?
-*CHI: no no no Po .
-*MOT: no no no ?
+*CHI: no Po .
+*MOT: no ?
 *MOT: oh .
 *MOT: no no Po .
 *MOT: whatre you doing with Po ?
@@ -1189,12 +1176,11 @@
 *MOT: oh .
 *CHI: oh .
 *MOT: oh do you both wanna come and sit on Mummys knee ?
-*CHI: no no no no no no .
+*CHI: no .
 *MOT: lets just put your shoe on .
 *CHI: no .
 *MOT: no ?
 *CHI: the big Beechyc .
-*CHI: the man .
 *CHI: ap shoe .
 *INV: no .
 *INV: my shoe .
@@ -1255,7 +1241,6 @@
 *MOT: what have we said about throwing ?
 *CHI: no brush ap trees .
 *MOT: well no brushing the trees but what else was on that long list of
-*CHI: no brush a@p>
 *MOT: no .
 *MOT: we couldnt brush the trees but what else couldnt we do ?
 *CHI: no brush the cat .
@@ -1307,7 +1292,7 @@
 *MOT: theyre like your trucks arent they ?
 *MOT: thats a crane .
 *MOT: it lifts things high into the air .
-*MOT: it says k cranes can lift things high up into the air .
+*MOT: it says cranes can lift things high up into the air .
 *MOT: and the little boy is saying “I need these to move these bricks” .
 *MOT: up it goes .
 *MOT: whee .
@@ -1326,7 +1311,7 @@
 *MOT: is this a tractor ?
 *MOT: is that a tractor ?
 *CHI: see you bye tractor .
-*CHI: whats this ?
+*CHI: this ?
 *MOT: thats the dumper truck .
 *MOT: no .
 *MOT: tipper truck .
@@ -1364,7 +1349,7 @@
 *MOT: oh !
 *MOT: thats a refuse lorry .
 *MOT: a refuse lorry collects the rubbish .
-*CHI: broombroomo broomo .
+*CHI: broomo .
 *MOT: our refuse man comes on Monday doesnt he ?
 *CHI: ap big trucks .
 *MOT: with a big truck .
@@ -1403,8 +1388,7 @@
 *MOT: all these cars and lorrys have broken down .
 *MOT: so this breakdown trucks coming .
 *MOT: using a special to hook them on and tow them .
-*MOT: to them to the garage where they can be made better .
-*CHI: broombroomo .
+*MOT: to them to the garage .
 *MOT: broombroomo .
 *MOT: thats right .
 *CHI: whats this ?

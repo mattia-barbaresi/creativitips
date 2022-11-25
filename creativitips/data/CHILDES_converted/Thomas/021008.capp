@@ -39,7 +39,7 @@
 *INV: now .
 *MOT: he got one at Christmas .
 *CHI: ready steady go .
-*MOT: youve always had this one havent you ?
+*MOT: youve always had this one ?
 *MOT: this one youve always had .
 *MOT: and that one was a present with a tshirt from Uncle David at
 *INV: ah .
@@ -288,7 +288,7 @@
 *MOT: okay .
 *MOT: lovely .
 *INV: big snake .
-*MOT: um could I please could I please also have my Rice Krispies
+*MOT: um could I please also have my Rice Krispies
 *CHI: yes .
 *MOT: thats all that has troubled me>
 *CHI: sorry .
@@ -384,7 +384,7 @@
 *MOT: she said you can go and see it didnt she ?
 *CHI: yes .
 *MOT: ah you knew it had gone but you got quite a surprise when you
-*CHI: just  just dropped my bottle .
+*CHI: just dropped my bottle .
 *CHI: I 0have got some juice for you .
 *MOT: oh thank you .
 *MOT: oh Id forgotten Id come in for juice .
@@ -443,7 +443,7 @@
 *MOT: thank you so much .
 *MOT: oh and Ive just remembered .
 *MOT: Dimitra will be coming to do a tape .
-*CHI: get some get some chips .
+*CHI: get some chips .
 *MOT: oh Ill have some chips .
 *MOT: yes .
 *MOT: for the journey home .
@@ -546,7 +546,7 @@
 *CHI: yes .
 *CHI: okay .
 *MOT: what is it ?
-*CHI: thats a thats a funny thing .
+*CHI: thats a funny thing .
 *MOT: is it a funny thing ?
 *MOT: have I bought it ?
 *CHI: yes .
@@ -577,7 +577,7 @@
 *CHI: some biscuits over there .
 *MOT: some biscuits .
 *MOT: oh go on .
-*MOT: Ill have a box a packet of biscuits as well please while
+*MOT: Ill have a packet of biscuits as well please while
 *CHI: you 0have got some box of biscuits in your shopping bag .
 *MOT: oh have I ?
 *MOT: Ive got them in my shopping bag already have I ?
@@ -765,7 +765,7 @@
 *INV: are you Michael ?
 *CHI: yes .
 *MOT: laughs .
-*INV: is this how he how he walks ?
+*INV: is this how he walks ?
 *CHI: Dimitra  your cut your hair .
 *CHI: it has it has got
 *CHI: its bedtime .
@@ -874,7 +874,7 @@
 *CHI: laughs .
 *MOT: he doesnt normally walk like that does he ?
 *MOT: but he does when hes doing Thomass hair .
-*CHI: need your need your haircutting  Dimitra .
+*CHI: need your haircutting  Dimitra .
 *MOT: laughs .
 *CHI: laughs .
 *CHI: sit up properly .
@@ -1049,7 +1049,7 @@
 *INV: bashed where ?
 *CHI: in the road .
 *MOT: in the road .
-*CHI: and your and your helicopter bashed .
+*CHI: and your helicopter bashed .
 *INV: everythings bashed now .
 *INV: shall we build the house then ?
 *INV: make it a bit higher .
@@ -1151,8 +1151,6 @@
 *INV: a really big hug .
 *INV: I think shes crying .
 *INV: oh .
-*INV: Im hurt .
-*INV: would you like to kiss me better ?
 *CHI: ap something really wrong with
 *CHI: somethings wrong .
 *INV: somethings wrong .
@@ -1433,7 +1431,7 @@
 *CHI: no .
 *CHI: yes .
 *CHI: on the road .
-*CHI: I saw I saw a policeman .
+*CHI: I saw a policeman .
 *CHI: I just hurt my tummy on the road .
 *MOT: you just hurt your tummy on the road .
 *CHI: yes .
@@ -1483,7 +1481,7 @@
 *INV: to the airport .
 *CHI: yes .
 *INV: is it going anywhere else ?
-*CHI: it going the its going the wrong way .
+*CHI: its going the wrong way .
 *INV: its going to run away .
 *CHI: going the wrong way .
 *MOT: going the wrong way .
@@ -1516,7 +1514,7 @@
 *CHI: lie down on the floor .
 *CHI: that not sun shining on my ears and my eyes .
 *INV: no .
-*INV: if youre lying on the floor you cant you can the
+*INV: if youre lying on the floor you cant the
 *CHI: no .
 *INV: no .
 *INV: you needta stand up if you want some the sun to shine on you .
@@ -1538,7 +1536,7 @@
 *MOT: where ?
 *CHI: that big hole in the track behind .
 *INV: ah right .
-*INV: are you are you looking at the end of the track ?
+*INV: are you looking at the end of the track ?
 *MOT: yes .
 *MOT: oh dont touch that  darling .
 *MOT: oh no no .
@@ -1679,8 +1677,7 @@
 *MOT: no .
 *INV: theres nothing in the yellow bag .
 *CHI: nothing .
-*MOT: whats your doll called  Dimitra .
-*INV: nothing at all .
+*MOT: Dimitra .
 *INV: ah I dont know .
 *INV: what do you think her name is  Thomas ?
 *CHI: Aunty Jack .
@@ -1757,7 +1754,6 @@
 *CHI: where has it gone .
 *CHI: oh where ?
 *CHI: there .
-*MOT: oh where ?
 *MOT: is this yours or ours because we have one of those but I don't
 *INV: I think its mine .
 *MOT: you think its yours .

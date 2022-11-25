@@ -1,4 +1,4 @@
-*CHI: you see a big croc crocodile .
+*CHI: you see a big crocodile .
 *INV: you can ?
 *CHI: your see a crocodile .
 *INV: are you a little crocodile ?
@@ -18,8 +18,7 @@
 *CHI: crocodile bounced .
 *INV: bounced .
 *MOT: oh bounced .
-*MOT: bounced on the trampoline .
-*INV: Thomas  I cannot see you anymore .
+*INV: see you anymore .
 *CHI: no .
 *MOT: Ill go through that side .
 *MOT: www .
@@ -32,8 +31,6 @@
 *INV: I can see you .
 *INV: what are you doing down there ?
 *CHI: Purdie what Purdie crying for  Dimitra ?
-*MOT: she perhaps wants some food .
-*INV: uh I dont know .
 *MOT: Ill perhaps feed her .
 *MOT: right .
 *MOT: come on  Thomas  now because .
@@ -42,10 +39,10 @@
 *MOT: so weve got to have an early tea .
 *CHI: no .
 *MOT: well you might not wanna eat but I needta get a move on .
-*CHI: oh no no no .
+*CHI: oh no .
 *CHI: I 0do not like that .
 *MOT: what dont you like ?
-*CHI: Purdie about in my water .
+*CHI: Purdie .
 *CHI: I 0do not like her at all .
 *MOT: what dont you like at all ?
 *INV: she he says he doesnt like Purdie at all .
@@ -87,7 +84,6 @@
 *INV: its a very nice crocodile .
 *CHI: and its eating you all up .
 *INV: oh !
-*INV: is it going>
 *MOT: oh !
 *INV: I dont wanna be eaten all up .
 *INV: thank you very much .
@@ -116,8 +112,7 @@
 *CHI: nee nao .
 *CHI: nee nao .
 *CHI: phsso .
-*MOT: what are you doing  Thomas ?
-*INV: you know what ?
+*MOT: what ?
 *CHI: not anything .
 *INV: I think Im going to just run away .
 *INV: run away run away .
@@ -131,8 +126,7 @@
 *INV: yes I did didnt I ?
 *CHI: yes .
 *INV: I just hadta save myself from the crocodile .
-*INV: I just>
-*CHI: you sit in that chair  Dimitra .
+*CHI: in that chair  Dimitra .
 *INV: I am going to .
 *INV: just a second .
 *INV: I think Im going to sit just there for a second .
@@ -243,7 +237,7 @@
 *MOT: go and see Dimitra .
 *MOT: she has come to see you .
 *INV: yes .
-*INV: Im getting a bit lonely here without you .
+*INV: Im getting a bit lonely .
 *MOT: there Purdie has gone back out now .
 *MOT: come on little man .
 *CHI: 0 .
@@ -267,7 +261,6 @@
 *MOT: those seeds .
 *CHI: I 0do not needta .
 *MOT: oh dear .
-*CHI: I not anything>
 *MOT: well shall I bring them in so we can look at them ?
 *CHI: no .
 *MOT: theres a nice pot of sunflower seeds that we grew this morning .
@@ -286,7 +279,7 @@
 *CHI: I dustbin lorry wagon .
 *CHI: I need one .
 *MOT: no .
-*MOT: Grandma Bealby is going to buy you the post van for your birthday>
+*MOT: Grandma Bealby is going to buy you the post van
 *CHI: why ?
 *CHI: no .
 *CHI: lorry .
@@ -320,7 +313,7 @@
 *CHI: yes .
 *CHI: whats it mean  Dimitra ?
 *INV: it means that something is on .
-*INV: is this does this belong to the telephone ?
+*INV: does this belong to the telephone ?
 *CHI: no .
 *CHI: its for a sweet lorry .
 *INV: what is it ?
@@ -346,13 +339,12 @@
 *MOT: youre hiding ?
 *CHI: no .
 *CHI: I 0do .
-*CHI: no down here .
 *MOT: oh dont cry .
 *MOT: I just wanna give you a nice cuddle .
 *MOT: because you seem so upset .
 *MOT: oh your hands are cold .
 *CHI: 0 .
-*MOT: no no no .
+*MOT: no .
 *MOT: dont get upset .
 *MOT: oh youve got a bit of a runny nose .
 *CHI: I 0do not need the runny nose .
@@ -392,7 +384,7 @@
 *INV: I can see your hand .
 *CHI: no .
 *INV: no .
-*CHI: no thank you .
+*CHI: no .
 *CHI: Mummy .
 *MOT: I was going to just read these books .
 *INV: oh .
@@ -462,7 +454,6 @@
 *CHI: no .
 *MOT: and what were the animals ?
 *MOT: we had a cow a pig and a sheep .
-*MOT: and we>
 *CHI: and a snotsnotc .
 *MOT: and a snotsnotc you call them .
 *MOT: in this book we can see a cow and a sheep cant we ?
@@ -502,7 +493,7 @@
 *MOT: well read the end of the story then well wipe your nose .
 *MOT: Doug phoned for a tow truck .
 *MOT: what do you call a tow truck ?
-*CHI: a bike breakdown lorry .
+*CHI: a breakdown lorry .
 *MOT: a breakdown lorry .
 *MOT: yes .
 *MOT: Doug phoned for a tow truck .
@@ -527,7 +518,7 @@
 *MOT: lets all read the story .
 *MOT: yes .
 *CHI: yes .
-*MOT: dont press dont press down on her .
+*MOT: dont press down on her .
 *MOT: no .
 *MOT: come on .
 *MOT: theres room for us all .
@@ -555,14 +546,12 @@
 *MOT: you enjoying this story  Purdie ?
 *MOT: oh shes coming back again ?
 *CHI: laughs .
-*CHI: I love you I love you fat ears .
+*CHI: I love you fat ears .
 *MOT: you love her fat ears ?
 *MOT: oh shes sitting on you .
 *MOT: laughs .
 *MOT: I dont think Purdie has ever sat on you before has she ?
 *CHI: no .
-*MOT: isnt that lovely ?
-*CHI: I love>
 *MOT: oh isnt this lovely ?
 *MOT: do you think shes enjoying this story ?
 *CHI: I think so .
@@ -579,7 +568,7 @@
 *MOT: oh dear said Dig .
 *MOT: he began to rake up the fruit .
 *MOT: I have a better idea said Doug .
-*MOT: I still dont know which is Dig which is Doug .
+*MOT: I still dont know which is Doug .
 *MOT: which is Dig ?
 *CHI: there .
 *MOT: which is Doug ?
@@ -619,7 +608,7 @@
 *INV: is that what it says ?
 *CHI: yes it is .
 *MOT: Doug arrived with a digger .
-*MOT: bumpity bump bumpity bump went the fruit as the metal bucket
+*MOT: bumpity bump went the fruit as the metal bucket
 *MOT: “oh dear” said Dig .
 *MOT: the bucket isnt big enough to carry all of this fruit to
 *MOT: Doug stroked his chin .
@@ -636,10 +625,10 @@
 *MOT: whatever the job said Dig well get it done said Doug .
 *MOT: look .
 *MOT: a fruit shop .
-*INV: I think Purdie wants to have a look as well .
+*INV: wants to have a look as well .
 *MOT: yes .
 *MOT: have you enjoyed the story  Purdie ?
-*MOT: just be careful be careful .
+*MOT: just be careful .
 *CHI: hello  chicken .
 *MOT: is she a little chicken ?
 *CHI: yeah .
@@ -684,7 +673,7 @@
 *MOT: when youre not squealing or chasing her or being rough she loves
 *MOT: she likes to come and be part of the family .
 *MOT: whats that song we know about being nice to pussy cats .
-*CHI: I cant remember it .
+*CHI: I remember it .
 *CHI: I need a clue .
 *MOT: you cant remember it .
 *MOT: you need a clue .
@@ -715,13 +704,12 @@
 *MOT: thats right .
 *INV: oh .
 *MOT: Purdie lives there as well doesnt she ?
-*MOT: so Purdie when you go out if anybody asks you where you live>
-*CHI: I got idea .
+*MOT: so Purdie when you go out if anybody
 *MOT: what have you got ?
 *MOT: youve got an idea ?
 *MOT: is it a better idea than Dig  Doug and Daisy had ?
 *CHI: uh no .
-*CHI: its Mummy its Dimitras turn now .
+*CHI: its Dimitras turn now .
 *MOT: is it ?
 *MOT: its Dimitras turn .
 *MOT: well theres another book somewhere .
@@ -791,7 +779,6 @@
 *CHI: wha elephant .
 *INV: elephants .
 *INV: yes of course .
-*CHI: you go the>
 *CHI: I bring the pussy cat .
 *INV: in the jungle ?
 *INV: oh you want me to move away ?
@@ -809,8 +796,6 @@
 *INV: somebody has fallen down .
 *INV: I think thats Thomas .
 *CHI: yes it is .
-*CHI: jump up and down .
-*INV: it is Thomas ?
 *INV: are you jumping up and down ?
 *CHI: yeah .
 *CHI: 0 .
@@ -842,15 +827,14 @@
 *CHI: yes .
 *INV: right .
 *CHI: right .
-*CHI: I got>
-*INV: I think so to actually .
+*INV: so to actually .
 *CHI: I got ap idea .
 *INV: you have ?
 *CHI: yeah .
 *CHI: I cant see my yellow spanner .
 *INV: oh right .
 *INV: yes .
-*INV: do you I remember you were looking for the yellow spanner
+*INV: I remember you were looking for the yellow spanner
 *CHI: yeah .
 *INV: and we had only found the green spanner hadnt we ?
 *CHI: yeah .
@@ -860,7 +844,6 @@
 *INV: but we couldnt find it anywhere .
 *CHI: I wanted oh .
 *CHI: I wanted
-*INV: have you found>
 *INV: yes .
 *INV: you wanted it .
 *CHI: not got it .
@@ -872,11 +855,11 @@
 *MOT: no .
 *MOT: we still havent found the spanner have we ?
 *CHI: oh .
-*INV: where did the where do you think it is ?
+*INV: where do you think it is ?
 *CHI: in something .
 *INV: do you think the spanners hiding somewhere ?
 *CHI: yeah .
-*CHI: think it in Purd Purdie tummy .
+*CHI: think it in Purdie tummy .
 *INV: I think we needta do this .
 *INV: would you like to come and sit with me again ?
 *CHI: no .
@@ -934,7 +917,7 @@
 *INV: oh Purdies coming here again .
 *CHI: oh fireman Purdie .
 *INV: no !
-*INV: no no no  Thomas !
+*INV: no  Thomas !
 *INV: dont do that .
 *INV: I think that shes scared now .
 *INV: look .
@@ -943,7 +926,7 @@
 *INV: thats not nice .
 *MOT: Thomas !
 *INV: no no .
-*INV: thats not thats not nice at all .
+*INV: thats not nice at all .
 *MOT: whatever have you done ?
 *MOT: youve not been rough with Purdie have you ?
 *CHI: no .
@@ -965,7 +948,6 @@
 *CHI: go away .
 *MOT: do you want potty ?
 *CHI: you go away .
-*CHI: no no>
 *CHI: you go away .
 *MOT: well Im going to play with Dimitra .
 *INV: oh well I think Thomas doesnt wanna play with us anymore .
@@ -1003,9 +985,7 @@
 *CHI: yeah .
 *CHI: whats this ?
 *CHI: think .
-*INV: what do you which ?
-*CHI: that one .
-*INV: this one ?
+*INV: which ?
 *INV: thats a little straw .
 *CHI: what for ?
 *INV: um I dont know .
@@ -1036,7 +1016,7 @@
 *CHI: remember ?
 *INV: ah you asking me if I remember ?
 *CHI: do your remember ?
-*INV: I dont remember .
+*INV: remember .
 *INV: um .
 *MOT: I think he first of all said lets ring the fire brigade .
 *INV: oh right .
@@ -1045,13 +1025,12 @@
 *CHI: Mummy  ring the fire brigade .
 *MOT: Mummy ring the fire brigade ?
 *CHI: yeah .
-*CHI: seventy one .
 *CHI: a in my tummy .
 *CHI: your tummy .
 *CHI: 0 .
 *INV: what are you saying  Thomas ?
-*CHI: a snake a snake coming in and out and coming in a@p
-*MOT: a snake coming in our tummys ?
+*CHI: a snake coming in and out and coming in a@p
+*MOT: in our tummys ?
 *CHI: yes .
 *INV: I dont think so .
 *CHI: here comes .
@@ -1068,24 +1047,19 @@
 *CHI: I get down the back .
 *INV: oh right .
 *INV: I see what youre trying to do .
-*INV: you wanna jump behind my back dont you ?
-*MOT: oh be careful .
+*INV: you wanna jump ?
 *MOT: dont hurt Dimitra .
 *INV: what are you doing ?
 *CHI: I going a post lorry .
 *CHI: dododododoo .
 *INV: a what lorry ?
 *CHI: a post lorry .
-*INV: a post lorry ?
-*MOT: a post lorry ?
 *CHI: yes .
 *CHI: your .
 *CHI: 0 .
-*CHI: your tummys .
 *INV: hm .
 *CHI: 0 .
-*INV: so did you>
-*CHI: its a crocodile go spit .
+*CHI: crocodile go spit .
 *CHI: 0 .
 *MOT: no  Thomas .
 *MOT: you dont spit .
@@ -1094,9 +1068,7 @@
 *INV: why ?
 *CHI: 0 .
 *MOT: Thomas !
-*MOT: no more .
-*INV: you know I think you oughta turn the crocodile around because
-*MOT: he does .
+*INV: I think you oughta turn the crocodile around because
 *INV: what do you think ?
 *CHI: 0 .
 *INV: I cannot hear what you say .
@@ -1112,8 +1084,8 @@
 *CHI: uh ta smash these out .
 *INV: whats up ?
 *CHI: Purdies on fire .
-*MOT: Purdies on fire ?
-*INV: Purdies on fire .
+*MOT: Purdies ?
+*INV: fire .
 *CHI: again .
 *INV: I dont think so .
 *CHI: I get my hosepipe .
@@ -1129,15 +1101,11 @@
 *MOT: Purdies not on fire .
 *CHI: she is .
 *MOT: no .
-*INV: she saw you and she ran away didnt she ?
+*INV: she saw you and she ran away she ?
 *MOT: yeah .
-*MOT: shes running away now .
-*INV: shes running away from you .
-*INV: because you hit her really hard the other time now didnt you>
-*MOT: oh did you ?
+*INV: because you hit her really hard the other time
 *CHI: yeah .
 *MOT: thats not nice is it ?
-*INV: and now you're>
 *MOT: no .
 *CHI: no .
 *CHI: thats a rope .
@@ -1152,7 +1120,7 @@
 *CHI: no .
 *MOT: row row row your boat .
 *CHI: I 0am not doing that .
-*CHI: I pulling a I pulling a rope .
+*CHI: I pulling a rope .
 *MOT: youre pulling a rope ?
 *INV: like that .
 *MOT: well thats called a tug of war .
@@ -1166,7 +1134,7 @@
 *INV: oops .
 *MOT: be careful .
 *INV: there we go .
-*CHI: here you are  Purdie .
+*CHI: here you are .
 *INV: oops .
 *CHI: your hold this end .
 *MOT: no .
@@ -1187,7 +1155,7 @@
 *MOT: laughs .
 *INV: oh !
 *MOT: steady .
-*MOT: no no no .
+*MOT: no .
 *INV: ah youre just giving it to me arent you ?
 *CHI: I .
 *CHI: put it there .
@@ -1215,7 +1183,7 @@
 *MOT: do you think it looks like Purdies tummy to you ?
 *MOT: come on  puss .
 *MOT: oh shes very .
-*MOT: she wants lots of cuddles today doesnt she ?
+*MOT: she wants lots of cuddles today ?
 *INV: yeah .
 *CHI: your hold that end  Mummy .
 *MOT: Purdie and I will hold this end .
@@ -1244,7 +1212,7 @@
 *CHI: your hold that .
 *MOT: no up and down .
 *MOT: be careful with Purdie and that  Thomas  please .
-*INV: oh no no no .
+*INV: oh no .
 *MOT: gently .
 *INV: no no .
 *CHI: your hold .
@@ -1257,10 +1225,6 @@
 *INV: oops !
 *CHI: thats accident .
 *CHI: try again .
-*MOT: it was an accident .
-*INV: it was an accident .
-*MOT: try again .
-*INV: thats okay .
 *INV: okay .
 *INV: lets try again .
 *INV: one two there .
@@ -1275,17 +1239,17 @@
 *CHI: I up in the air .
 *MOT: no .
 *MOT: Daddy doesnt allow you to throw footballs up does he ?
-*MOT: no no no .
+*MOT: no .
 *CHI: I sit on your chair now  Dimitra .
 *INV: on my chair ?
 *INV: yes .
-*MOT: no no no .
+*MOT: no .
 *MOT: steady .
 *MOT: oh  Thomas Lastname !
 *MOT: I think you should put it down his jumper .
 *INV: oh !
-*INV: I think maybe thats a good idea .
-*MOT: thats a good idea isnt it ?
+*INV: I think maybe .
+*MOT: isnt it ?
 *MOT: like a little snake going down there .
 *INV: tickling !
 *INV: oh .
@@ -1311,12 +1275,9 @@
 *CHI: fill it snakes and spiders !
 *INV: oh my goodness me .
 *CHI: Mummys on fire .
-*MOT: Mummys on fire ?
-*CHI: no no no .
+*CHI: no .
 *CHI: youre a spider .
-*CHI: whoosh out now .
-*MOT: Im a spider ?
-*MOT: Thomas  no no no .
+*MOT: Thomas  no .
 *CHI: over Dimitra .
 *MOT: Thomas .
 *MOT: no throwing .
@@ -1345,15 +1306,14 @@
 *CHI: yeah .
 *INV: mm .
 *INV: very tasty indeed .
-*CHI: water everywhere water .
-*INV: listen to this .
+*CHI: water .
 *CHI: no .
 *CHI: please get it the fire brigade .
 *CHI: thats nice .
 *INV: yeah .
 *INV: very nice .
 *INV: oh no .
-*CHI: throw it I throw it you now .
+*CHI: I throw it you now .
 *CHI: oh its stuck .
 *CHI: silly sweetie .
 *CHI: hello .
@@ -1367,7 +1327,7 @@
 *MOT: oh itll do for what I wanna do .
 *CHI: hello  Purdie .
 *CHI: round Purdie .
-*CHI: Ip do I do it .
+*CHI: I do it .
 *CHI: I do it  Mummy .
 *CHI: 0 .
 *MOT: lets make a little archway for Purdie to go through .
@@ -1381,8 +1341,6 @@
 *CHI: course do .
 *MOT: course do ?
 *CHI: youre a scary lion  Purdie .
-*MOT: oh look at that .
-*CHI: youre a scary>
 *MOT: or she could have some new ears .
 *MOT: look .
 *CHI: laughs .
@@ -1429,18 +1387,14 @@
 *CHI: I do one this .
 *CHI: yeah .
 *CHI: and this one go .
-*CHI: oh dear .
 *INV: oh !
 *MOT: right .
 *MOT: thats it now .
 *MOT: no more throwing .
-*INV: no no .
-*MOT: no no .
 *MOT: youve been told no .
 *CHI: oh .
 *INV: thats thats that .
 *INV: I think I think Thomas is coming up with it .
-*CHI: look ap doing daisy .
 *CHI: hello  chicken .
 *CHI: go round ap see chicken today .
 *CHI: is Monday and Tuesday .
@@ -1470,7 +1424,7 @@
 *MOT: where do we go on Friday mornings ?
 *CHI: Tuesday and Monday .
 *MOT: no .
-*MOT: no no no .
+*MOT: no .
 *MOT: music time ?
 *CHI: no .
 *CHI: Mister Der Der Derc splash .
@@ -1493,11 +1447,10 @@
 *MOT: well could you believe this  Dimitra .
 *MOT: theres a story called whats that noise ?
 *INV: hm .
-*INV: was that>
-*MOT: and one of the nee nao .
+*MOT: nee nao .
 *MOT: and the lady reading the book said “does anybody know what makes
-*MOT: and nobody including Thomas Lastname answered .
-*CHI: ana fire engine .
+*MOT: and nobody including Thomas Lastname .
+*CHI: fire engine .
 *MOT: and Im quite sure you knew what a nee nao nee nao was .
 *CHI: a fire engine .
 *MOT: a fire engine .
@@ -1507,12 +1460,11 @@
 *CHI: no .
 *MOT: were you shy ?
 *CHI: yeah .
-*MOT: no no no .
+*MOT: no .
 *CHI: that boy in that yellow shop .
 *MOT: oh yes .
 *CHI: go .
-*INV: what about>
-*MOT: that was funny wasnt it ?
+*MOT: funny wasnt it ?
 *MOT: we went to a shop last night .
 *MOT: a shop weve passed many many times but never been in .
 *MOT: and we wanted some milk so we called in .
@@ -1533,13 +1485,13 @@
 *MOT: Thomas  Im going to do something to you in a moment if you don't
 *INV: was he an old boy ?
 *MOT: yes .
-*MOT: he was he was a big boy wasnt he ?
+*MOT: he was a big boy wasnt he ?
 *CHI: big older boy .
 *MOT: he was an older boy .
 *MOT: but he shouldnt have made those faces should he ?
 *CHI: no .
-*MOT: and youve talked about it a lot so I think it did upset you>
-*CHI: ap wipe that off .
+*MOT: and youve talked about it a lot so I think it did
+*CHI: that off .
 *MOT: you wiped it off didnt you ?
 *MOT: yes .
 *CHI: that not fair .
@@ -1572,7 +1524,7 @@
 *MOT: and if Daddy sees you there will be trouble wont there ?
 *MOT: because he has told you time and time again not to jump .
 *MOT: what will Daddy say ?
-*CHI: Thomas nice .
+*CHI: nice .
 *MOT: what would he say ?
 *CHI: nice .
 *CHI: laughs .
@@ -1587,14 +1539,10 @@
 *CHI: mhm .
 *MOT: I was telling Thomas today that its three years today since <Mummy
 *CHI: Mummy  I 0am .
-*CHI: jumping jumping .
 *INV: okay .
 *CHI: jump .
-*INV: just one>
 *INV: wait .
-*MOT: Mummy left work she ?
-*INV: just a second .
-*MOT: to look after her baby .
+*MOT: she ?
 *MOT: who was the baby ?
 *INV: okay .
 *CHI: having a scratch .
@@ -1602,12 +1550,9 @@
 *INV: okay .
 *INV: like this ?
 *INV: again ?
-*INV: and again .
 *INV: you want a big one ?
 *CHI: no .
 *CHI: little one .
-*MOT: little one .
-*INV: little ones .
 *INV: okay .
 *MOT: watch .
 *MOT: mhm .
@@ -1629,8 +1574,7 @@
 *MOT: what happened at Isabelles house ?
 *MOT: Isabelle was rough and she hurt her Mummy didnt she ?
 *CHI: yeah .
-*CHI: what for ?
-*MOT: and she got into trouble .
+*MOT: got into trouble .
 *CHI: what for ?
 *MOT: because she was being silly like youre being silly now and
 *MOT: and Sonia got hurt didnt she ?
@@ -1645,7 +1589,7 @@
 *MOT: what noise ?
 *CHI: it only a airplane din .
 *MOT: oh its an aeroplane .
-*MOT: oh I see I see .
+*MOT: oh I see .
 *MOT: because aeroplanes can sound quite noisy cant they ?
 *CHI: yeah .
 *MOT: wheres the pilot ?
@@ -1694,8 +1638,6 @@
 *MOT: youve got an idea ?
 *CHI: lots ap water in your hair ?
 *MOT: whats in my hair ?
-*MOT: I hope>
-*CHI: no water .
 *MOT: oh water .
 *MOT: I was going to say I hope there was nothing in my hair .
 *CHI: look down .
@@ -1707,7 +1649,7 @@
 *CHI: youre tickling me .
 *MOT: am I ?
 *CHI: yeah .
-*CHI: yout yout yout .
+*CHI: yout .
 *CHI: help  Mum .
 *CHI: help !
 *MOT: you shouting help ?
@@ -1725,8 +1667,6 @@
 *CHI: from butchers .
 *MOT: from the butchers .
 *CHI: and sausages .
-*MOT: and sausages .
-*INV: and sausages .
 *CHI: sausage my favorite .
 *MOT: is it ?
 *MOT: oh look .

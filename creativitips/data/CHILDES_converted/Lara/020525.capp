@@ -18,21 +18,21 @@
 *CHI: 0 .
 *MOT: do your drawing .
 *CHI: I did the drawing drawing .
-*CHI: do you wanna have a look at drawing PI]
+*CHI: do you wanna
 *MOT: come on then .
 *MOT: you show me .
 *MOT: you did the drawing .
 *MOT: oh brilliant .
 *MOT: are you going to do another one ?
-*CHI: I need IN]
-*MOT: youve got theres one in the fridge .
+*CHI: I need .
+*MOT: theres one in the fridge .
 *CHI: juice juicef .
 *CHI: I want juice juicef .
 *MOT: you want juice ?
 *MOT: come here .
 *CHI: want a apple .
 *MOT: pardon ?
-*CHI: want a apple SR]
+*CHI: want a
 *MOT: come here please .
 *MOT: youve got an apple ?
 *CHI: yes .
@@ -41,18 +41,18 @@
 *CHI: put it away .
 *MOT: put it in the fridge for later then .
 *MOT: because otherwise itll go funny .
-*CHI: is it will go red ?
+*CHI: go red ?
 *MOT: it will go brown .
 *MOT: put it in the fridge please .
 *CHI: 0 .
 *CHI: I want biscuit .
 *MOT: come here .
-*CHI: I want biscuit SR]
+*CHI: I want biscuit .
 *MOT: you want a biscuit ?
 *MOT: well .
 *MOT: what do you say ?
 *CHI: please I have ?
-*MOT: you want some do you want some milk as well ?
+*MOT: do you want some milk as well ?
 *MOT: in a cup ?
 *MOT: yes ?
 *MOT: alright .
@@ -61,7 +61,7 @@
 *CHI: I 0will bring her chair in .
 *CHI: let me bring her chair in for you ?
 *MOT: okay .
-*CHI: okay I]
+*CHI: okay .
 *MOT: just in the middle of the room .
 *MOT: thats it .
 *MOT: thatll do .
@@ -84,7 +84,7 @@
 *MOT: pick them up and put them in the box properly .
 *MOT: thank you .
 *MOT: right .
-*CHI: shall with this PI]
+*CHI: shall with this ?
 *MOT: pardon ?
 *CHI: I jump onto that .
 *MOT: er .
@@ -123,7 +123,7 @@
 *MOT: Christmas trees  look .
 *MOT: oh .
 *MOT: oh .
-*MOT: thats a bit IN]
+*MOT: thats a bit
 *CHI: wheres Winnie Pooh book gone ?
 *MOT: Winnie Pooh book ?
 *MOT: down here on the floor .
@@ -152,7 +152,7 @@
 *MOT: what ?
 *CHI: butterfly .
 *MOT: pardon ?
-*CHI: butterfly SR]
+*CHI: butterfly .
 *MOT: no .
 *MOT: its a grasshopper .
 *MOT: and that ?
@@ -160,12 +160,12 @@
 *MOT: pardon ?
 *CHI: froggy .
 *MOT: froggy .
-*MOT: today  Lara PI]
+*MOT: today  Lara ?
 *CHI: rabbit is sad .
 *MOT: why ?
 *CHI: because rabbits sad .
 *MOT: whys rabbit sad ?
-*CHI: no everybody there .
+*CHI: there .
 *CHI: scarywaryc .
 *MOT: yes .
 *MOT: no everybody there .
@@ -174,21 +174,21 @@
 *MOT: who does he see ?
 *CHI: Tigger .
 *MOT: Tigger .
-*MOT: and then where does Kanga go next IN]
+*MOT: and then where does Kanga go next .
 *MOT: where does Tigger go the next morning ?
 *CHI: 0 .
 *MOT: where does Tigger go ?
 *MOT: oh .
-*MOT: stop PI]
+*MOT: stop .
 *MOT: tell me where Tigger goes .
 *CHI: up the tree .
 *MOT: well .
 *MOT: he goes to Kanga and Roos house .
-*MOT: and him and Kanga him and Roo bounce up the tree don't
+*MOT: and him and Roo bounce up the tree don't
 *MOT: what happens ?
 *CHI: scarywaryc .
-*MOT: why is it scarywaryc PI]
-*MOT: because he got IN]
+*MOT: why is it scarywaryc ?
+*MOT: because he got +..?
 *MOT: stuck .
 *MOT: hes stuck up the tree .
 *MOT: now what does Christopher Robin do  to get them down ?
@@ -199,7 +199,7 @@
 *MOT: yes .
 *MOT: look .
 *MOT: he puts his coat out for them to jump down .
-*CHI: Christopher Robin PI]
+*CHI: Christopher Robin .
 *MOT: pardon ?
 *CHI: Christopher Robin sad .
 *MOT: no .
@@ -211,9 +211,9 @@
 *MOT: boingo .
 *CHI: more more .
 *MOT: thats the end .
-*CHI: more SR]
+*CHI: more .
 *MOT: thats the end .
-*MOT: more SR]
+*MOT: more .
 *MOT: more what ?
 *CHI: more story .
 *MOT: Im not reading it again .
@@ -244,9 +244,9 @@
 *CHI: you come here .
 *MOT: alright then .
 *CHI: oh .
-*CHI: oh SR]
-*CHI: oh SR]
-*CHI: oh SR]
+*CHI: oh .
+*CHI: oh .
+*CHI: oh .
 *MOT: whats on that carpet already ?
 *MOT: whats this on the carpet already ?
 *CHI: dont know .
@@ -259,7 +259,7 @@
 *MOT: okay .
 *CHI: theyre going to go here .
 *MOT: okay .
-*CHI: heres a baby PI]
+*CHI: heres a baby .
 *MOT: okay .
 *CHI: you want that baby ?
 *MOT: okay .
@@ -271,14 +271,14 @@
 *CHI: do that for me .
 *MOT: let me do mine first .
 *MOT: you can do yours anyway .
-*CHI: your baby wants to IN]
+*CHI: your baby wants to .
 *CHI: look .
 *CHI: that your babys crying .
 *MOT: is she ?
 *CHI: yes .
 *MOT: whys she crying ?
 *CHI: I want my bottle .
-*CHI: I want my bottle SR]
+*CHI: I want my bottle .
 *MOT: its not bottle time yet  baby .
 *MOT: shush .
 *MOT: I think she might be cold .
@@ -286,7 +286,7 @@
 *MOT: shall I put her clothes on ?
 *CHI: no .
 *MOT: I think we should put her clothes on .
-*CHI: no SR]
+*CHI: no .
 *MOT: why not ?
 *MOT: shell be cold .
 *MOT: youve got your clothes on .
@@ -302,7 +302,7 @@
 *MOT: tie it on ?
 *CHI: no .
 *CHI: that .
-*CHI: hide PI]
+*CHI: hide .
 *MOT: you wanna hide with it ?
 *MOT: okay .
 *CHI: you hide .
@@ -311,32 +311,32 @@
 *MOT: if I hide theyll be nobody to hide from .
 *MOT: nothing to hide from .
 *MOT: hello .
-*CHI: Im going do IN]
+*CHI: Im going do .
 *CHI: you come in and mop it up .
 *CHI: my bandana .
 *CHI: thats on my bandana .
-*CHI: thats on my bandana SR]
+*CHI: thats on my bandana .
 *MOT: pardon ?
 *CHI: its on my bandana .
 *CHI: you told me .
 *MOT: thats on your what ?
 *CHI: my bandana .
-*CHI: my bandana SR]
+*CHI: my bandana .
 *MOT: what do you mean ?
 *CHI: its on my bandana .
 *MOT: whats on your banana ?
-*CHI: this is my bandana SR]
+*CHI: this is my bandana .
 *MOT: bandana .
-*CHI: bandana SR]
+*CHI: bandana .
 *MOT: no .
-*MOT: you mean you mean its your bandana ?
+*MOT: you mean its your bandana ?
 *CHI: no .
-*CHI: its my PI]
-*CHI: coming PI]
-*CHI: coming PI]
+*CHI: its my .
+*CHI: coming .
+*CHI: coming .
 *MOT: hello .
 *CHI: 0 .
-*CHI: you my car PI]
+*CHI: you my car .
 *MOT: I am .
 *CHI: we 0are hiding from .
 *MOT: who are we hiding from ?
@@ -349,14 +349,14 @@
 *MOT: let me just blow my nose .
 *MOT: there .
 *MOT: hello .
-*CHI: we do mop it up .
+*CHI: we it up .
 *MOT: were mopping it up ?
 *MOT: well .
 *MOT: if you mop it up I cant come in .
 *MOT: oh .
 *CHI: do you wanna come in ?
 *MOT: okay .
-*CHI: do you wanna come in SR]
+*CHI: do you wanna come in ?
 *MOT: okay .
 *CHI: hide from daddy .
 *MOT: were hiding from daddy  are we ?
@@ -369,7 +369,7 @@
 *MOT: yes .
 *MOT: in the chimney .
 *MOT: yes .
-*CHI: is that PI]
+*CHI: is that ?
 *MOT: it can be .
 *MOT: yes .
 *CHI: 0 .
@@ -423,8 +423,8 @@
 *MOT: take it off her now please .
 *MOT: boo .
 *CHI: shall we hide ?
-*CHI: shall we hide SR]
-*CHI: hide SR]
+*CHI: shall we hide ?
+*CHI: hide ?
 *MOT: hello .
 *CHI: is Amy gonna hide ?
 *MOT: is Amy gonna hide ?
@@ -433,7 +433,7 @@
 *MOT: there .
 *CHI: alright ?
 *MOT: its all gone .
-*MOT: Lara PI]
+*MOT: Lara .
 *MOT: dont .
 *MOT: there .
 *MOT: oh .
@@ -465,6 +465,6 @@
 *CHI: you hide under it .
 *MOT: I dont know if its big enough .
 *MOT: oh .
-*CHI: you it PI]
+*CHI: you it .
 *CHI: and I wear it .
 *MOT: you wear it .

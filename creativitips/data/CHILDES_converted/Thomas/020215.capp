@@ -11,7 +11,6 @@
 *MOT: no trucks .
 *MOT: no its not a truck is it .
 *MOT: what is it ?
-*CHI: red car .
 *MOT: mhm .
 *MOT: a red car ?
 *CHI: mhm .
@@ -23,7 +22,6 @@
 *CHI: man .
 *MOT: is that a dolphin or a whale ?
 *MOT: that swims in the sea .
-*CHI: ap whale sea .
 *CHI: Nin Nin no man .
 *MOT: theres no man .
 *MOT: do you think theres a man in the box ?
@@ -46,7 +44,6 @@
 *MOT: whereve the choo choos gone ?
 *MOT: this blue piece at the front is missing on your train .
 *MOT: so if after weve gone home .
-*CHI: whats this ?
 *CHI: oh dear .
 *MOT: thats the driver isnt it ?
 *MOT: is that the train driver ?
@@ -59,7 +56,6 @@
 *CHI: in there .
 *MOT: we were teasing Grandma the other week werent we ?
 *MOT: because Grandma has got a poorly leg and she was going to the
-*CHI: go doctor .
 *CHI: oh dear leg .
 *CHI: oh .
 *MOT: poor Nanas leg .
@@ -133,7 +129,6 @@
 *CHI: all done satc .
 *MOT: all done satc ?
 *MOT: are you saying all done the green box ?
-*CHI: green box>
 *MOT: whats that ?
 *CHI: raps .
 *MOT: what is it ?
@@ -156,7 +151,7 @@
 *CHI: oops oh dear .
 *CHI: oops oh dear .
 *MOT: Mummys going to just get a cup of coffee  and sit over here .
-*MOT: theres your juice there if you want it .
+*MOT: your juice there if you want it .
 *MOT: Ill just sit down for a couple of minutes and watch you play .
 *MOT: oh youre going to drink as well ?
 *INV: www .
@@ -179,7 +174,6 @@
 *MOT: no one there ?
 *MOT: are you saying no one there ?
 *CHI: no no one there .
-*CHI: oh dear gone>
 *CHI: blue steps .
 *MOT: steps yes .
 *CHI: more steps .
@@ -195,12 +189,11 @@
 *MOT: oh thats beautiful .
 *MOT: it is Ascot week  Thomas .
 *MOT: unusual hats .
-*CHI: a whats that ?
+*CHI: a ?
 *MOT: thats a panda .
 *MOT: I think the panda belongs in the car .
 *MOT: Im not sure .
 *MOT: do you think panda could drive the car ?
-*CHI: isp all wet .
 *CHI: Nin Nin .
 *MOT: Thomas .
 *MOT: can you see the yellow helmet ?
@@ -211,8 +204,7 @@
 *CHI: yellow s hat ?
 *MOT: its like the policemans hat you were wearing on Tuesday but it's
 *MOT: we passed some gentlemen wearing yellow hats .
-*MOT: oh you were asleep you didnt see them  when we arrived .
-*CHI: Nin Nin .
+*MOT: oh you were asleep you didnt see them .
 *MOT: yes .
 *MOT: oops oh dear .
 *CHI: 0 .
@@ -334,7 +326,6 @@
 *MOT: did we come on the bus ?
 *CHI: beebaao beebaao beebaao .
 *MOT: we didnt come on the fire engine we came on the bus .
-*CHI: whats that .
 *MOT: and you were sitting on the bus telling everybody that there
 *CHI: Nin Nin .
 *CHI: ap blue bus .
@@ -360,8 +351,7 @@
 *MOT: no it isnt a strap .
 *MOT: “big boss” it says on the front .
 *CHI: blue bus .
-*MOT: yes thats naughty .
-*CHI: ap blue bus .
+*MOT: yes .
 *CHI: ap blue bus .
 *CHI: blue bus .
 *CHI: blue bus .
@@ -479,7 +469,6 @@
 *CHI: no .
 *MOT: oh Ill remember that .
 *CHI: mm .
-*CHI: yum yum .
 *MOT: thats another cake with chocolate on the top .
 *CHI: whats this ?
 *MOT: a cake .
@@ -500,7 +489,6 @@
 *CHI: night .
 *MOT: and Daddy has been out once to buy an icecream .
 *CHI: Dadda gone .
-*CHI: Dadda gone .
 *MOT: yes because I dont think you realize quite what it is yet .
 *CHI: Nin Nin .
 *MOT: you know how to eat one though dont you ?
@@ -514,7 +502,6 @@
 *MOT: usually  Thomas  when hes ringing his bell it means he (h)as
 *CHI: whats this ?
 *MOT: carrot .
-*CHI: Nin Nin Dadda .
 *MOT: are you going to put the fruit back in the basket  Thomas please
 *CHI: Nin Nin .
 *MOT: yes .
@@ -559,7 +546,6 @@
 *MOT: can you see some clothes belonging to the doll ?
 *MOT: some dress ?
 *MOT: on the floor in amongst all the bricks .
-*CHI: oh doll .
 *CHI: bye .
 *MOT: would you like to take the clothes to the doll ?
 *MOT: are you still tired ?
@@ -626,7 +612,6 @@
 *CHI: baby juice .
 *MOT: youre giving the baby some juice ?
 *MOT: do you think shed like  a cake ?
-*CHI: laughs .
 *MOT: now youre being silly now .
 *CHI: more .
 *CHI: all done .
@@ -751,7 +736,7 @@
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *MOT: what about seeing if all these men that work on the railway
-*CHI: choo choos juice .
+*CHI: juice .
 *MOT: yes .
 *CHI: I know what youve got two thirsty men there .
 *MOT: and another another thirsty person there look .
@@ -762,8 +747,7 @@
 *MOT: is it a bridge ?
 *CHI: bridge .
 *MOT: a bridge ?
-*CHI: choo choos .
-*MOT: you went over a bridge with Daddy yesterday didnt you ?
+*MOT: a bridge with Daddy yesterday didnt you ?
 *CHI: Dadda bridge .
 *MOT: Daddy bridge .
 *MOT: and theres a chimney on the bridge .
@@ -800,7 +784,6 @@
 *MOT: will the train go through there now ?
 *MOT: it will go along the top wont it ?
 *MOT: some trains go under tunnels  and some go over the top of
-*CHI: Nin Nin .
 *CHI: no in there .
 *MOT: no I dont think it will will it ?
 *MOT: it wont go through .
@@ -917,7 +900,7 @@
 *MOT: now no standing on chairs please .
 *MOT: they tip up  dont they ?
 *MOT: they tip up and also people dont wanna sit down where your dirty
-*CHI: a yellow one .
+*CHI: one .
 *CHI: a yellow one .
 *MOT: lets look at this .
 *MOT: look at the .
@@ -957,7 +940,6 @@
 *CHI: oh no .
 *MOT: you did .
 *MOT: I never had that at the wedding reception but you did .
-*CHI: poo cheese .
 *MOT: pardon ?
 *CHI: poo cheese .
 *MOT: cheese ?
@@ -1001,8 +983,7 @@
 *MOT: are they on the floor in amongst all these bricks ?
 *MOT: Thomas !
 *MOT: dont throw .
-*MOT: dont throw .
-*CHI: whats this ?
+*MOT: throw .
 *MOT: its a box .
 *MOT: its a lovely storage box actually for all the bricks .
 *CHI: whats this ?
@@ -1033,7 +1014,6 @@
 *MOT: no feet just sitting .
 *MOT: thats right .
 *MOT: these bricks are nice arent they Thomas ?
-*CHI: splish splash .
 *MOT: youve got a horse but we havent seen these .
 *MOT: yes I was doing that I was seeing if they will stack up but I don't
 *CHI: 0 .
@@ -1044,7 +1024,6 @@
 *MOT: the elephant and the tiger .
 *MOT: 0 .
 *MOT: and the monkey .
-*MOT: the monkey>
 *CHI: 0 .
 *CHI: oh dear me .
 *MOT: dear me ?

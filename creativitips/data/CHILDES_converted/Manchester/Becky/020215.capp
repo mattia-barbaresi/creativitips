@@ -43,8 +43,6 @@
 *CHI: theres the key .
 *CHI: key .
 *CHI: no work .
-*MOT: it doesnt work ?
-*INV: no work ?
 *MOT: yes it does .
 *CHI: yes it does .
 *MOT: go on .
@@ -577,7 +575,7 @@
 *CHI: sit up .
 *MOT: pardon ?
 *CHI: sit up .
-*MOT: you want her you want her to sit up  do you ?
+*MOT: you want her to sit up  do you ?
 *CHI: yeah .
 *MOT: all right .
 *MOT: well hafta take her out first .
@@ -853,8 +851,7 @@
 *CHI: I hold a hand .
 *MOT: theres another one you can put on as well  look .
 *MOT: thats bones .
-*CHI: that bones .
-*INV: should be another one as well .
+*INV: one as well .
 *CHI: more .
 *INV: one more I think .
 *CHI: more bones .
@@ -983,7 +980,6 @@
 *MOT: go on ?
 *MOT: go on what ?
 *CHI: go on .
-*CHI: hit me .
 *MOT: pardon ?
 *MOT: no .
 *CHI: piece .
@@ -1130,7 +1126,7 @@
 *CHI: chairs .
 *MOT: well .
 *MOT: I dont think the .
-*MOT: put the train the chairs on the back of the train then .
+*MOT: put the chairs on the back of the train then .
 *CHI: okay ?
 *MOT: put them in there .
 *CHI: no .
@@ -1389,8 +1385,6 @@
 *INV: yeah .
 *MOT: gently down the stream .
 *CHI: stream .
-*CHI: merrily merrily merrily merrily .
-*MOT: merrily merrily merrily merrily .
 *MOT: life is but a dream .
 *CHI: oh oh .
 *CHI: more .
@@ -1398,8 +1392,7 @@
 *MOT: sit up and well do the boat .
 *CHI: I sit please .
 *MOT: you dont wanna sit up ?
-*MOT: row row row the boat .
-*CHI: row row row .
+*MOT: the boat .
 *MOT: can you sing it ?
 *CHI: yeah .
 *MOT: can you sing it ?
@@ -1457,7 +1450,6 @@
 *MOT: are you okay ?
 *CHI: no .
 *MOT: no .
-*CHI: all fall down .
 *CHI: all fall down .
 *MOT: right .
 *MOT: sit here and let me put Minnie Mouse back in .

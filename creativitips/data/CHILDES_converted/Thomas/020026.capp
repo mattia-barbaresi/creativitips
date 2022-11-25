@@ -37,7 +37,6 @@
 *CHI: oops .
 *MOT: oops .
 *MOT: what have you got in this  Thomas ?
-*CHI: what there .
 *CHI: whats this ?
 *MOT: this is out of Mummys sewing basket .
 *MOT: its poppers .
@@ -75,8 +74,6 @@
 *CHI: oh .
 *MOT: no .
 *MOT: not in your mouth .
-*CHI: on there>
-*CHI: on there .
 *MOT: oops .
 *CHI: oops .
 *MOT: we dropped them on the floor didnt we ?
@@ -111,10 +108,10 @@
 *MOT: buttons .
 *MOT: one in the Teletubby moneybox .
 *MOT: and Ill put the other pink button in Mummys moneybox .
-*MOT: curtain rings might go in there as well .
+*MOT: curtain rings in there as well .
 *MOT: ahhah .
 *CHI: no .
-*MOT: its a bit too thick isnt it ?
+*MOT: too thick isnt it ?
 *MOT: that might go in this tin .
 *CHI: no .
 *MOT: would you like to take the lid off the tin ?
@@ -162,7 +159,7 @@
 *MOT: thats a wooden bead .
 *MOT: has Thomas got some buttons on his shirt ?
 *CHI: ap this ?
-*MOT: thats a bead thats a glass bead .
+*MOT: thats a glass bead .
 *MOT: have you got some buttons here ?
 *MOT: look .
 *MOT: Thomas has buttons on his shirt .
@@ -238,7 +235,6 @@
 *MOT: it doesnt rattle now does it ?
 *CHI: no .
 *MOT: no .
-*CHI: all done .
 *CHI: Nin Nin .
 *MOT: yes .
 *CHI: ap this ?
@@ -286,7 +282,6 @@
 *CHI: see you .
 *MOT: byebye .
 *INV: bye .
-*CHI: Nin Nin at the box .
 *INV: are you giving this to me ?
 *INV: thank you  Thomas .
 *INV: what shall I put in it ?
@@ -387,10 +382,9 @@
 *CHI: oh .
 *MOT: I think there might be .
 *CHI: yes .
-*MOT: and a slice a slice of melon .
+*MOT: a slice of melon .
 *CHI: this ?
 *MOT: that could go in the tin .
-*MOT: that tin is bigger than it looks .
 *CHI: ap banana gone .
 *MOT: where has the banana gone ?
 *MOT: I think it has gone in the tin .
@@ -479,7 +473,7 @@
 *MOT: shall we post them in here ?
 *MOT: through the slot at the back ?
 *MOT: no ?
-*MOT: put in the tin ?
+*MOT: put ?
 *MOT: youre going to count again as they go in ?
 *CHI: oops .
 *MOT: oops .
@@ -496,7 +490,7 @@
 *CHI: oh ah .
 *MOT: pardon you .
 *CHI: ap this ?
-*MOT: pardon you being a rude boy .
+*MOT: being a rude boy .
 *CHI: ap this
 *CHI: ap this ?
 *MOT: what do you say ?
@@ -633,7 +627,6 @@
 *MOT: ooh .
 *MOT: Thomas .
 *CHI: 0 .
-*MOT: now you doing that .
 *MOT: you hit yourself deliberately now .
 *MOT: sillybilly .
 *CHI: ap this ?
@@ -739,7 +732,6 @@
 *MOT: its going down .
 *MOT: popo .
 *MOT: whats that .
-*CHI: more bubble>
 *MOT: thats it .
 *MOT: you blow .
 *MOT: you blow .
@@ -747,7 +739,7 @@
 *MOT: but you dont get it on your nose .
 *MOT: no .
 *MOT: not on your &n
-*MOT: look at the bubbles .
+*MOT: bubbles .
 *MOT: look at all the colors .
 *MOT: trying to catch them ?
 *MOT: trying to catch the bubbles ?
@@ -796,7 +788,7 @@
 *MOT: youre going to try and catch them ?
 *CHI: ap bubbles .
 *MOT: bubbles .
-*MOT: I dont mean to blow them in your face but you kee you keep
+*MOT: I dont mean to blow them in your face but you keep
 *CHI: oh .
 *MOT: thats a lot of bubbles .
 *CHI: oh bubbles .
@@ -872,8 +864,6 @@
 *MOT: the washings blowing .
 *MOT: and the are blowing around .
 *MOT: come on .
-*MOT: come on .
-*CHI: see you .
 *CHI: 0 .
 *CHI: ap this ?
 *MOT: what else can we blow ?
@@ -914,7 +904,6 @@
 *MOT: just steady steady .
 *MOT: not too much .
 *MOT: youre taking too much .
-*MOT: youre taking too much .
 *CHI: juice .
 *MOT: yes .
 *MOT: just little sips .
@@ -926,7 +915,7 @@
 *CHI: oh juice .
 *MOT: you did the other day .
 *CHI: aah .
-*MOT: thats what you normally do when you have a drink isnt it
+*MOT: thats what you normally do isnt it
 *CHI: oh Bow .
 *MOT: its Purdie .
 *CHI: oh .
@@ -952,10 +941,10 @@
 *MOT: a blue straw ?
 *CHI: ap there .
 *MOT: this is blue and white stripy straw .
-*MOT: but theyve been on the floor a bit too often now .
+*MOT: but theyve been on the floor now .
 *MOT: steady .
 *MOT: oh .
-*MOT: youre sposta swallow it >
+*MOT: youre sposta
 *MOT: no .
 *MOT: it has all gone now .
 *MOT: no .
@@ -971,15 +960,12 @@
 *MOT: what do you say ?
 *CHI: please juice .
 *MOT: pardon ?
-*MOT: more juice ?
-*CHI: please juice>
 *MOT: I didnt hear that little word .
 *CHI: no .
 *MOT: Thomas .
 *MOT: what did you say ?
 *MOT: please juice .
-*MOT: it didnt sound very much like please to me .
-*CHI: more juice .
+*MOT: it didnt sound very much like .
 *CHI: ap more juice .
 *CHI: ap juice .
 *CHI: more juice .
@@ -989,7 +975,7 @@
 *MOT: take that .
 *MOT: and now sit down .
 *MOT: otherwise you wont wanna eat your lunch .
-*MOT: but its quite a warm morning so youre quite thirsty .
+*MOT: a warm morning so youre quite thirsty .
 *CHI: 0 .
 *CHI: a truck .
 *MOT: are we sitting comfortably ?
@@ -1034,7 +1020,7 @@
 *MOT: they they might like whats left .
 *MOT: its only a little droplet of water .
 *CHI: oh no .
-*MOT: well Im going to get I feel sorry for Po and Dipsy .
+*MOT: I feel sorry for Po and Dipsy .
 *MOT: Im going to get a cup and give them a drink .
 *MOT: poor Dipsy and poor Po .
 *MOT: havent had a drink have they ?
@@ -1055,9 +1041,8 @@
 *MOT: mind mind the wall .
 *MOT: no .
 *MOT: they dont want that one .
-*MOT: they would they would prefer this one .
+*MOT: they would prefer this one .
 *MOT: this beaker .
-*MOT: thats right .
 *MOT: thats right .
 *CHI: oops Hat oh dear .
 *MOT: oh dear dear .
@@ -1096,7 +1081,7 @@
 *MOT: did Dobbin enjoy his drink ?
 *CHI: no .
 *CHI: ap juice .
-*MOT: whos that on the cup ?
+*MOT: cup ?
 *CHI: ap more juice .
 *MOT: more juice ?
 *MOT: what do you say ?
@@ -1148,7 +1133,7 @@
 *MOT: oh its the lid .
 *MOT: it has fallen off the jug .
 *MOT: the farmer might like a drink .
-*MOT: because he has been busy working in the fields all day .
+*MOT: because he has been busy working in .
 *CHI: oh whats this ?
 *MOT: a teddy .
 *MOT: teddy has not had a drink since Christmas .
@@ -1254,7 +1239,7 @@
 *MOT: juice is all done ?
 *MOT: well .
 *MOT: I think that's
-*MOT: very full tummy youve got there .
+*MOT: youve got there .
 *MOT: theres a zip .
 *CHI: ap juice .
 *MOT: theres a zip on your coat isnt there ?
@@ -1265,13 +1250,13 @@
 *MOT: byebye .
 *MOT: putting your coat ?
 *MOT: are you going somewhere ?
-*MOT: I think youre too small for eh now .
+*MOT: I think youre now .
 *CHI: no .
 *CHI: see you .
 *MOT: oh byebye .
 *MOT: youve got your coat and your drink .
 *MOT: youre going are you ?
-*MOT: are you going through the door ?
+*MOT: through the door ?
 *CHI: mummc .
 *MOT: are you going in the car ?
 *MOT: right .
@@ -1318,7 +1303,6 @@
 *MOT: ah .
 *MOT: ah .
 *CHI: 0 .
-*CHI: blue bus .
 *CHI: 0 .
 *CHI: boo .
 *INV: boo .
@@ -1330,7 +1314,6 @@
 *MOT: have you found the keys ?
 *MOT: are you going to the door in the car ?
 *MOT: youre going to open the door ?
-*INV: and drive off in my car .
 *CHI: oh dear .
 *MOT: oh thats a car key .
 *MOT: how does Thomas drive ?
@@ -1341,15 +1324,12 @@
 *MOT: be careful because thats not the right key for the door .
 *MOT: what does Thomas do when hes driving the car ?
 *MOT: beep beep beep .
-*MOT: you drive>
-*CHI: oh dear .
 *MOT: you dropped the keys ?
 *MOT: pick them up please and give them back to Dimitra .
 *MOT: then she knows where they are .
 *INV: ah thank you .
 *MOT: Po hasnt got a coat to wear has she ?
 *CHI: oh oh no
-*MOT: shall we>
 *MOT: oh look .
 *MOT: Po could wear this .
 *CHI: ap this ?

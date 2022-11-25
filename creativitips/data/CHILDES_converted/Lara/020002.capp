@@ -8,11 +8,11 @@
 *MOT: mummys bin .
 *CHI: uhoh .
 *MOT: uhoh .
-*CHI: uhoh SR]
+*CHI: uhoh .
 *CHI: oh .
-*CHI: uhoh SR]
+*CHI: uhoh .
 *MOT: look .
-*MOT: put PI]
+*MOT: put .
 *MOT: right then .
 *CHI: mummy .
 *MOT: what ?
@@ -20,16 +20,16 @@
 *MOT: dont scream .
 *MOT: take Winnie Ther Pooh for a walk .
 *CHI: uhoh .
-*CHI: uhoh SR]
+*CHI: uhoh .
 *CHI: beepo beepo .
-*CHI: uhoh SR]
+*CHI: uhoh .
 *CHI: that bottle in there .
 *MOT: you want your bottle in there ?
 *CHI: toys .
 *MOT: get some toys out of your box and put them in then .
-*CHI: uhoh SR]
+*CHI: uhoh .
 *CHI: uh .
-*CHI: toys SR]
+*CHI: toys .
 *CHI: biscuit .
 *CHI: I sit down there .
 *MOT: do you wanna do the jigsaw ?
@@ -56,7 +56,7 @@
 *MOT: thats the house  is it ?
 *MOT: have you got the patience to do it ?
 *MOT: this is the question .
-*CHI: question I]
+*CHI: question .
 *MOT: it is .
 *MOT: the question .
 *MOT: right .
@@ -72,15 +72,14 @@
 *MOT: thats a boy on a bike .
 *MOT: yes .
 *MOT: put that together with that .
-*CHI: bike I]
+*CHI: bike .
 *MOT: yes .
 *MOT: this is Noddy .
-*CHI: Noddy I]
+*CHI: Noddy .
 *CHI: thats Noddy .
 *MOT: yes .
 *MOT: its Noddy .
-*MOT: um IN]
-*MOT: wheres the next here here here here .
+*MOT: here here here here .
 *MOT: oh .
 *MOT: like that ?
 *MOT: this bit .
@@ -123,16 +122,16 @@
 *MOT: you put the pussycat on .
 *MOT: thats it .
 *MOT: is that it ?
-*CHI: that PI]
+*CHI: that .
 *MOT: thats what ?
-*CHI: I PI]
+*CHI: I .
 *MOT: okay .
 *MOT: but whats that ?
 *CHI: no kitchen .
-*CHI: no kitchen SR]
+*CHI: no kitchen .
 *MOT: no .
 *MOT: youre not gonna go in the kitchen .
-*CHI: I kitchen PI]
+*CHI: I kitchen .
 *MOT: you put them on to go in the kitchen .
 *MOT: blow .
 *MOT: blow  Lara .
@@ -141,37 +140,37 @@
 *MOT: Lara .
 *MOT: big blow .
 *MOT: three .
-*MOT: one two three blow R]
+*MOT: one two three blow .
 *MOT: no .
 *MOT: youve gotta blow with the tissue .
 *MOT: and again .
 *MOT: blow .
 *MOT: thats it .
 *MOT: what happened to Noddy then ?
-*MOT: are we not IN]
+*MOT: are we not .
 *CHI: oh dear .
 *MOT: whats the matter ?
 *MOT: have you got bored of Noddy already ?
 *MOT: do you wanna do this one ?
 *CHI: I finished that  mummy .
-*MOT: have you you havent .
+*MOT: you havent .
 *MOT: youve only eaten two .
 *CHI: eaten it .
 *CHI: mummy eaten it .
 *MOT: no .
-*MOT: Lara PI]
+*MOT: Lara .
 *CHI: this one .
 *MOT: that in there .
 *MOT: now what ?
 *CHI: that policeman .
 *MOT: pardon ?
-*CHI: that policeman SR]
+*CHI: that policeman .
 *MOT: thats a policeman .
 *MOT: yes .
 *MOT: do you wanna do that one ?
 *CHI: mummy do it .
 *MOT: lazy .
-*CHI: whats that PI]
+*CHI: whats that .
 *MOT: thats a man .
 *MOT: whats that ?
 *MOT: a cat .
@@ -180,7 +179,7 @@
 *MOT: say sorry .
 *MOT: Lara .
 *MOT: say sorry .
-*CHI: sorry I]
+*CHI: sorry .
 *MOT: good girl .
 *MOT: you dont touch the fire .
 *MOT: okay ?
@@ -188,25 +187,25 @@
 *MOT: there .
 *MOT: mummys done it .
 *CHI: off .
-*CHI: off SR]
+*CHI: off .
 *MOT: take them off then .
 *MOT: look at these little toes .
-*MOT: can you sing IN]
+*MOT: can you sing .
 *CHI: that 0is Mr Muppety .
 *MOT: Mr Muppety ?
 *MOT: Noddy ?
-*CHI: Noddy I]
+*CHI: Noddy .
 *MOT: nl .
 *MOT: Noddy .
-*CHI: Noddy SR]
+*CHI: Noddy .
 *MOT: Noddy .
 *CHI: that 0is pussycat .
-*CHI: that 0is pussycat SR]
+*CHI: that 0is
 *CHI: uhoh .
 *MOT: Lara .
 *MOT: sing happy birthday .
 *MOT: can you sing happy birthday ?
-*CHI: wheres Po Pat PI]
+*CHI: wheres Po Pat .
 *MOT: no .
 *CHI: yes .
 *MOT: no .
@@ -224,7 +223,7 @@
 *CHI: mummy do it .
 *MOT: mummy .
 *MOT: come here then .
-*CHI: here PI]
+*CHI: here .
 *MOT: well .
 *MOT: we should get your table for your plasticine .
 *MOT: Lara .
@@ -237,10 +236,10 @@
 *CHI: mummy help .
 *MOT: no .
 *MOT: Im doing this one and then you can have this one .
-*CHI: mummy help SR]
+*CHI: mummy help .
 *MOT: thats all soft .
 *MOT: you have that one .
-*CHI: that I]
+*CHI: that .
 *CHI: whats that ?
 *MOT: thats whatever you want it to be .
 *CHI: this one .
@@ -250,8 +249,7 @@
 *CHI: there .
 *MOT: is that a chip ?
 *MOT: a very big chip .
-*MOT: um IN]
-*CHI: I get IN]
+*CHI: I get
 *MOT: oh Lara Lara Lara .
 *MOT: blow .
 *MOT: come here .
@@ -290,7 +288,7 @@
 *CHI: mummy throw like that .
 *MOT: okay .
 *MOT: well .
-*MOT: we want we wanna put the skittles up so we can throw at the
+*MOT: we wanna put the skittles up so we can throw at the
 *CHI: mummy throw with that .
 *MOT: no .
 *MOT: you hafta throw with the ball .
@@ -319,7 +317,7 @@
 *MOT: ready ?
 *MOT: yes .
 *MOT: well .
-*MOT: they dont I didnt get that one down .
+*MOT: I didnt get that one down .
 *MOT: ready ?
 *MOT: and that one .
 *MOT: hooray !
@@ -330,24 +328,24 @@
 *MOT: you put the Play Doh over there then .
 *MOT: wheres that green thing ?
 *CHI: I get it .
-*CHI: I get it SR]
+*CHI: I get it .
 *MOT: you wont know where it is .
 *MOT: count .
 *MOT: one .
-*CHI: I get it SR]
+*CHI: I get it .
 *CHI: ball .
 *MOT: oh .
 *CHI: put away .
 *MOT: put them away ?
 *MOT: arent you going to roll them over like this ?
 *CHI: put it away .
-*CHI: I put it IN]
+*CHI: I put it
 *CHI: that one there .
 *CHI: mummy put away .
 *MOT: dont you want them ?
 *CHI: yes .
 *MOT: do you want me to put them away ?
-*CHI: yes SR]
+*CHI: yes .
 *MOT: oh .
 *CHI: I do .
 *MOT: here you go then .
@@ -387,7 +385,7 @@
 *MOT: on your plate .
 *MOT: I dont want it .
 *MOT: off the table !
-*MOT: one two three R]
+*MOT: one two three .
 *MOT: good girl .
 *CHI: upstairs ?
 *MOT: whos upstairs ?
@@ -407,8 +405,8 @@
 *CHI: yes .
 *MOT: yes .
 *MOT: right ?
-*CHI: yes SR]
-*MOT: and I  am going to PI]
+*CHI: yes .
+*MOT: and I  am going to .
 *MOT: pardon you ?
 *CHI: pardon me .
 *MOT: good girl .
@@ -421,7 +419,7 @@
 *CHI: that 0is water .
 *MOT: yes .
 *MOT: hot water ?
-*CHI: yes I]
+*CHI: yes .
 *MOT: and we need this to put the jelly in .
 *MOT: whats this ?
 *MOT: can you open it ?
@@ -433,7 +431,7 @@
 *MOT: open it .
 *CHI: yes .
 *MOT: now .
-*MOT: what we do IN]
+*MOT: what we do
 *MOT: we cut it up .
 *MOT: blow .
 *MOT: good girl .
@@ -476,7 +474,7 @@
 *MOT: so you hafta be careful .
 *MOT: has it all dissolved ?
 *MOT: is it ready ?
-*CHI: yes I]
+*CHI: yes .
 *MOT: yes ?
 *CHI: 0 .
 *MOT: dont whinge at me please .
@@ -503,31 +501,31 @@
 *MOT: no .
 *MOT: now .
 *MOT: what we do  is put it in the fridge if theres room which there
-*MOT: I dont know how to IN]
+*MOT: I dont know how to .
 *MOT: help !
 *CHI: Lara some yoghurt .
-*CHI: Lara some yoghurt SR]
+*CHI: Lara some yoghurt .
 *MOT: no .
-*CHI: yoghurt SR]
+*CHI: yoghurt .
 *MOT: not for breakfast .
-*CHI: yoghurt SR]
-*CHI: yoghurt SR]
+*CHI: yoghurt .
+*CHI: yoghurt .
 *MOT: oy !
-*CHI: yoghurt SR]
-*CHI: yoghurt SR]
+*CHI: yoghurt .
+*CHI: yoghurt .
 *MOT: well .
 *MOT: what do you say ?
 *CHI: please .
 *MOT: right .
 *MOT: thank you .
-*CHI: yoghurt SR]
+*CHI: yoghurt .
 *MOT: yes .
 *MOT: alright .
-*MOT: let me put this in find somewhere in the fridge for this ,
+*MOT: let me put find somewhere in the fridge for this ,
 *CHI: hooray .
 *MOT: hooray .
 *MOT: there .
-*CHI: yoghurt SR]
+*CHI: yoghurt .
 *MOT: oh yes .
 *MOT: yoghurt .
 *CHI: I sit down there .
@@ -537,21 +535,21 @@
 *MOT: right .
 *MOT: mummy hold it .
 *MOT: you eat it .
-*CHI: I hold it SR]
+*CHI: I hold it .
 *MOT: clever girl .
 *MOT: its empty  isnt it ?
 *MOT: I think well hafta wash it up .
-*MOT: its now PI]
+*MOT: its now .
 *CHI: front room .
 *MOT: you wanna go in the front room ?
 *MOT: well .
 *MOT: finish your yoghurt first then well go in the front room .
 *CHI: that fall down .
 *MOT: well .
-*MOT: youve got IN]
+*MOT: youve got .
 *MOT: its very sore  isnt it ?
 *CHI: fall down .
-*CHI: that fall down SR]
+*CHI: that fall down .
 *MOT: did you ?
 *CHI: yes .
 *MOT: oh dear .

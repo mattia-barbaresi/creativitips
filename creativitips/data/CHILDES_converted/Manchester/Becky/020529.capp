@@ -103,8 +103,6 @@
 *INV: Caroline ?
 *CHI: whats this ?
 *MOT: its a bedside table  Becky .
-*CHI: its a bedside .
-*MOT: with a cloth .
 *MOT: and a lamp .
 *MOT: so you you needta go in the bedroom .
 *MOT: which is there .
@@ -392,7 +390,7 @@
 *MOT: hm ?
 *MOT: put these in the sand then .
 *CHI: put these the sand .
-*MOT: and see what else weve got .
+*MOT: and weve got .
 *MOT: do you know what this is ?
 *CHI: its a tree .
 *MOT: no .
@@ -418,7 +416,7 @@
 *CHI: um on there .
 *MOT: oh .
 *MOT: go on then .
-*MOT: that goes on the sand on the sand or in the sea  doesnt it
+*MOT: that goes on the sand or in the sea  doesnt it
 *CHI: oh .
 *CHI: on the
 *CHI: can I play another game ?
@@ -556,7 +554,6 @@
 *MOT: you try and put him in there .
 *CHI: has he got a cat ?
 *MOT: he has got a cat  hasnt he ?
-*MOT: and what .
 *CHI: yes .
 *MOT: oh .
 *MOT: whats that ?
@@ -610,7 +607,7 @@
 *CHI: whats was that ?
 *MOT: it was just me banging the box on the table .
 *MOT: put the pieces in the box first .
-*CHI: was it was it standing on the table ?
+*CHI: was it standing on the table ?
 *MOT: it was .
 *MOT: yes .
 *CHI: because why ?
@@ -638,8 +635,7 @@
 *MOT: yeah ?
 *CHI: um and one .
 *CHI: Caroline need one .
-*MOT: Caroline needs to play as well  does she ?
-*INV: I need one .
+*MOT: Caroline needs to  does she ?
 *CHI: Mummy play .
 *MOT: yes .
 *MOT: alright .
@@ -695,7 +691,6 @@
 *CHI: same .
 *INV: theyre the same .
 *INV: yeah .
-*MOT: it is .
 *MOT: isnt it ?
 *MOT: what is it  Becky ?
 *CHI: a hippo .
@@ -732,7 +727,6 @@
 *INV: okay .
 *CHI: you find another one .
 *INV: alright .
-*INV: Ill find another one .
 *MOT: yes .
 *MOT: you have another one .
 *CHI: I found one .
@@ -901,13 +895,13 @@
 *INV: theyre pliers .
 *MOT: no .
 *MOT: theyre pliers .
-*CHI: are they are they pliers ?
+*CHI: are they pliers ?
 *INV: yeah .
 *INV: they they should be in the bag not in the box  shouldnt they
 *CHI: yeah .
 *INV: I use them sometimes
 *CHI: are they .
-*INV: shall I put do you wanna put them in this bag for me ?
+*INV: do you wanna put them in this bag for me ?
 *CHI: yes .
 *INV: okay .
 *INV: thank you .
@@ -1101,7 +1095,7 @@
 *CHI: this is milk out of a cow .
 *INV: this is milk out of a cow ?
 *CHI: yeah .
-*CHI: this is this is milk .
+*CHI: this is milk .
 *CHI: this is cheese .
 *MOT: its what ?
 *CHI: this is .
@@ -1109,7 +1103,7 @@
 *CHI: yeah .
 *MOT: I thought you said feet .
 *CHI: cheese .
-*CHI: this is this is this is butter  look .
+*CHI: this is butter  look .
 *MOT: this is an orange .
 *MOT: www .
 *CHI: where put this ?
@@ -1167,16 +1161,16 @@
 *MOT: where does it go ?
 *CHI: yeah .
 *MOT: on the table .
-*CHI: like a like like a bit ?
+*CHI: like a bit ?
 *INV: thank you .
 *MOT: what is it ?
-*CHI: um like a like a bit ?
+*CHI: um like a bit ?
 *INV: www .
 *MOT: well .
 *MOT: what are they  Becky ?
 *CHI: those these are grapes .
 *MOT: oh .
-*CHI: and this is this is other one .
+*CHI: and this is other one .
 *INV: it is .
 *CHI: this is a full one  mum .
 *CHI: there is another .
@@ -1199,7 +1193,6 @@
 *MOT: do you know what that is ?
 *CHI: I dont know .
 *MOT: its aubergine .
-*MOT: thats what it is .
 *MOT: www .
 *CHI: these are the bananas .
 *CHI: these .
@@ -1317,7 +1310,7 @@
 *CHI: did you eat it all ?
 *MOT: yes .
 *MOT: thank you .
-*CHI: is it is it horrible ?
+*CHI: is it horrible ?
 *MOT: well .
 *MOT: yes .
 *MOT: it is a bit horrible .
@@ -1339,7 +1332,6 @@
 *MOT: no .
 *MOT: dont play with that .
 *MOT: Becky .
-*CHI: its got [>]
 *MOT: youll get your fingers stuck .
 *CHI: can I get this out ?
 *MOT: put it on top then .
@@ -1410,7 +1402,7 @@
 *MOT: some chips for her ?
 *CHI: do this ?
 *MOT: whore you looking for ?
-*CHI: Im just Im just looking around .
+*CHI: Im just looking around .
 *MOT: are you ?
 *CHI: yeah .
 *MOT: I see .
@@ -1511,7 +1503,6 @@
 *INV: www .
 *MOT: whats on your shopping list ?
 *MOT: Becky .
-*CHI: I dont know .
 *MOT: what do you needta buy ?
 *CHI: um .
 *MOT: you needta buy what ?

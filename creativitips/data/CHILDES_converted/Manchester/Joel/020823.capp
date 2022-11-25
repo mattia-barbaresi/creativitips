@@ -17,15 +17,13 @@
 *MOT: hes been around a while .
 *MOT: hes a Grandpa .
 *CHI: oh .
-*MOT: Mummy won Mummy won that .
+*MOT: Mummy won that .
 *CHI: oh no no .
 *CHI: I bumped my bottom .
 *MOT: hes bumped his bottom ?
 *MOT: oh dear .
 *CHI: my bottom  look .
 *CHI: I nearly lost my tail .
-*CHI: nearly lost my tail .
-*MOT: I wouldnt bite his tail .
 *CHI: lost my tail .
 *CHI: bite my tail .
 *MOT: oh .
@@ -64,7 +62,7 @@
 *CHI: oh oh .
 *CHI: quick .
 *CHI: my Mummys coming .
-*MOT: thats a bit of a thats a bit of a loud alarm call that was
+*MOT: thats a bit of a loud alarm call that was
 *CHI: oh .
 *CHI: glad to meet you I are .
 *CHI: come up .
@@ -92,8 +90,6 @@
 *MOT: well .
 *MOT: hes not gonna be very pleased now  is he ?
 *CHI: you are naughty .
-*INV: is he ?
-*MOT: why is he naughty ?
 *CHI: you go away  Grandpa Fox .
 *CHI: there .
 *CHI: you sit and do as youre told .
@@ -185,7 +181,7 @@
 *MOT: there .
 *MOT: thats the supermarket .
 *MOT: you hafta put the fire out .
-*CHI: thats the thats the supermarket .
+*CHI: thats the supermarket .
 *MOT: thats it .
 *MOT: look .
 *MOT: supermarket .
@@ -285,8 +281,6 @@
 *CHI: lot of people going on it .
 *MOT: and all the people going on it ?
 *MOT: you .
-*CHI: go supermarket .
-*MOT: the Emperors guard .
 *MOT: that would scare everybody  wouldnt it ?
 *MOT: if the old Emperors guard suddenly turn up to do the shopping .
 *CHI: can you .
@@ -414,8 +408,7 @@
 *CHI: I got my teddy .
 *CHI: in me tent .
 *MOT: yeah .
-*INV: why dont you just put teddy under the tent .
-*MOT: just put teddy under the tent .
+*INV: why dont you just put .
 *MOT: see if we can make it stand up like a tent .
 *MOT: I bet we cant .
 *MOT: because its a bit flippyfloppy .
@@ -525,9 +518,9 @@
 *MOT: but were all .
 *MOT: weve got loads here .
 *MOT: we dont need any more .
-*CHI: I said we I said we need this
+*CHI: I said we need this
 *INV: www .
-*CHI: we need a we need a black man  dont we ?
+*CHI: we need a black man  dont we ?
 *CHI: Mum .
 *CHI: we need him  dont we ?
 *MOT: who told you it was a black man ?
@@ -762,7 +755,7 @@
 *MOT: yes .
 *MOT: its gone everywhere  hasnt it ?
 *MOT: never mind .
-*CHI: that was that was my hat .
+*CHI: that was my hat .
 *MOT: um its my spaceship .
 *CHI: no .
 *CHI: that was my hat .
@@ -852,7 +845,7 @@
 *MOT: thats even smaller .
 *MOT: no .
 *INV: thats not big enough .
-*MOT: that ones which ones a bit bigger than that one ?
+*MOT: which ones a bit bigger than that one ?
 *INV: yeah .
 *MOT: now .
 *MOT: you want the next biggest .
@@ -886,8 +879,6 @@
 *INV: what you want .
 *INV: you want them all together really .
 *MOT: yeah .
-*MOT: so you can see .
-*INV: so you can tell which is the biggest .
 *MOT: right .
 *MOT: which ones the biggest out of these .
 *CHI: that one .
@@ -1235,8 +1226,6 @@
 *INV: thank you .
 *MOT: I havent got any different shapes because on Rosie the Roundabout
 *MOT: I know .
-*CHI: there you are .
-*MOT: thats one .
 *MOT: I only wanted one .
 *CHI: this one .
 *CHI: this one .
@@ -1387,7 +1376,7 @@
 *MOT: there .
 *MOT: there .
 *CHI: wheres the horsie ?
-*MOT: hes in hes in the um cab  look .
+*MOT: hes in the um cab  look .
 *CHI: oh .
 *CHI: I want him in here .
 *MOT: we havent got any more .
@@ -1538,7 +1527,6 @@
 *CHI: I a driver .
 *MOT: oh .
 *MOT: thats alright then .
-*MOT: I can talk to you .
 *CHI: I got my blue hat on  look .
 *MOT: you have got your blue hat on .
 *MOT: you look very smart  Mr driver .
@@ -1593,8 +1581,6 @@
 *CHI: I did it to me now .
 *MOT: sorry ?
 *CHI: I did it to me now .
-*MOT: you did it to you now ?
-*INV: you did it to you now .
 *MOT: oh .
 *MOT: well .
 *MOT: thats alright then  isnt it ?

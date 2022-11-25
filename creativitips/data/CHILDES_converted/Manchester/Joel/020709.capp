@@ -1,5 +1,5 @@
 *INV: are you going to let Mummy sit down .
-*MOT: are you going to show it shall we .
+*MOT: shall we .
 *MOT: you sit in the middle .
 *CHI: sorry .
 *CHI: oh no .
@@ -24,7 +24,7 @@
 *INV: do you ?
 *MOT: www .
 *CHI: this is baby  look .
-*CHI: look at this look at this baby .
+*CHI: look at this baby .
 *INV: oh .
 *INV: hello  baby .
 *INV: isnt that a lovely baby .
@@ -37,7 +37,7 @@
 *CHI: look .
 *CHI: look at those pigs .
 *MOT: are they pigs ?
-*MOT: I think theyre teddybears actually .
+*MOT: I think theyre actually .
 *INV: www .
 *MOT: oh .
 *MOT: look .
@@ -207,8 +207,6 @@
 *MOT: its his eyes and his expressions .
 *MOT: I feel so sorry for him .
 *CHI: I like Wallace .
-*MOT: you like Wallace ?
-*INV: you like Wallace ?
 *CHI: yeah .
 *MOT: well .
 *MOT: hes good as well .
@@ -232,7 +230,7 @@
 *CHI: get another one for me .
 *MOT: yeah .
 *MOT: its a different one that one  isnt it ?
-*MOT: that was that was the one with Preston in .
+*MOT: that was the one with Preston in .
 *CHI: the one with Preston in .
 *CHI: look .
 *CHI: this is exciting one .
@@ -353,8 +351,6 @@
 *CHI: I get some crisps .
 *CHI: I get some Space Raiders .
 *MOT: wow .
-*MOT: Space Raiders .
-*INV: Space Invaders .
 *MOT: www .
 *MOT: not that you ever eat them .
 *CHI: here .
@@ -711,7 +707,6 @@
 *MOT: Tommys the baby .
 *INV: the baby .
 *INV: I like Tommy .
-*CHI: Tommys the baby .
 *MOT: well .
 *MOT: Angelicas pretty evil  isnt she ?
 *MOT: youve got some Rug Rats in your magazine  havent you ?
@@ -1186,7 +1181,7 @@
 *INV: Ill have the chocolate .
 *INV: Im happy to have the chocolate .
 *INV: very happy .
-*CHI: do you want some do you want some pear ?
+*CHI: do you want some pear ?
 *MOT: um I think thats the top of the pineapple .
 *INV: Id rather have some chocolate .
 *MOT: theres the bottom of the pineapple .
@@ -1512,8 +1507,6 @@
 *CHI: yes .
 *CHI: I did .
 *MOT: well .
-*MOT: you didnt .
-*CHI: I throw it in the dustbin .
 *MOT: because you havent been abroad .
 *MOT: dont get nice melons here .
 *MOT: when we take you abroad when youre older
@@ -1583,8 +1576,6 @@
 *MOT: play .
 *MOT: oh .
 *CHI: Ive finished .
-*MOT: have you finished ?
-*INV: wheres that icecream .
 *CHI: no .
 *CHI: come here .
 *MOT: www .
@@ -1695,8 +1686,7 @@
 *CHI: ouch .
 *MOT: I think this ones just ouched slightly more than you .
 *INV: it doesnt matter .
-*INV: I can make another one .
-*CHI: whats happened ?
+*INV: I can .
 *MOT: I think hes gone to pieces .
 *CHI: stuck .
 *CHI: whats happened to him ?

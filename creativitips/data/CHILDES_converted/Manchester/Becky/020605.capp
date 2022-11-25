@@ -17,7 +17,7 @@
 *INV: no .
 *INV: oh well .
 *INV: Ill hafta remember .
-*CHI: I got got have one .
+*CHI: got have one .
 *MOT: pardon ?
 *CHI: I got have one .
 *CHI: now .
@@ -31,10 +31,6 @@
 *MOT: is that right  Becky ?
 *CHI: no .
 *CHI: thats not right .
-*MOT: put it back then .
-*CHI: thats mine .
-*CHI: thats mine .
-*MOT: thats the same .
 *MOT: no .
 *MOT: thats the same .
 *MOT: thats yours .
@@ -47,7 +43,7 @@
 *INV: because I cant remember what goes where .
 *INV: is that right ?
 *CHI: yeah .
-*MOT: is that right  Becky ?
+*MOT: right  Becky ?
 *CHI: mhm .
 *MOT: is it right ?
 *CHI: yeah .
@@ -94,8 +90,6 @@
 *MOT: no .
 *MOT: youve got one .
 *MOT: thats not right .
-*MOT: put it in there .
-*CHI: put in there .
 *MOT: there .
 *CHI: its mine there .
 *MOT: you have Carolines go because shes busy .
@@ -128,7 +122,6 @@
 *INV: I can have a go now .
 *CHI: no .
 *CHI: my turn now .
-*INV: alright then .
 *INV: well .
 *INV: lets have a go .
 *CHI: thats alright .
@@ -167,8 +160,7 @@
 *CHI: is that yours  Caroline ?
 *INV: no .
 *MOT: no .
-*INV: I I havent got  a new one yet .
-*MOT: Carolines got a nose already .
+*INV: I I havent got .
 *CHI: where ?
 *MOT: right .
 *MOT: its my go now then .
@@ -265,7 +257,7 @@
 *MOT: yeah .
 *CHI: here you are .
 *MOT: www .
-*CHI: did it did it .
+*CHI: did it .
 *CHI: because why did it frightened you ?
 *CHI: why did it frightened you ?
 *MOT: here you are .
@@ -277,7 +269,6 @@
 *MOT: oh .
 *MOT: here you are .
 *MOT: thats right .
-*MOT: well done  Becky .
 *CHI: last one .
 *MOT: Id better have the last one then .
 *MOT: seeing as Ive got piggys nose to find .
@@ -377,7 +368,7 @@
 *CHI: yes .
 *CHI: I do .
 *MOT: put this round your neck then .
-*CHI: I dont I dont want that on my ears .
+*CHI: I dont want that on my ears .
 *MOT: no no .
 *MOT: dont put it on your ears because that hurts a bit  doesnt it ?
 *INV: www .
@@ -425,14 +416,14 @@
 *INV: www .
 *CHI: yeah .
 *CHI: can I give you
-*CHI: can I give have can I give Caroline a spoon .
+*CHI: can I give Caroline a spoon .
 *MOT: you want a spoon  do you ?
 *CHI: yes .
 *CHI: I done a wee  mum .
 *MOT: oh right .
 *MOT: do a wee then .
 *MOT: go on then .
-*MOT: mind your mind your tabard .
+*MOT: mind your tabard .
 *CHI: whats Caroline doing ?
 *MOT: pardon ?
 *CHI: whats .
@@ -454,7 +445,7 @@
 *INV: drink up ?
 *MOT: okay .
 *MOT: dont ?
-*INV: dont you have to do it .
+*INV: to do it .
 *INV: in case I overdose .
 *CHI: I hafta do it .
 *CHI: horrible .
@@ -680,15 +671,13 @@
 *CHI: yes .
 *CHI: just keep it  nice and warm .
 *MOT: keeps it nice and warm  does it ?
-*MOT: shall I let me do that otherwise theyll all fall out .
+*MOT: let me do that otherwise theyll all fall out .
 *MOT: whoops .
 *MOT: trapped your finger .
 *MOT: are you alright ?
 *MOT: sorry about that .
 *CHI: go under there .
 *MOT: there you are .
-*CHI: they go under there .
-*MOT: thats right .
 *MOT: uhhum .
 *MOT: we should write your name on that  shouldnt we ?
 *MOT: because it says this doctors case belongs to doctor  Lastname .
@@ -704,10 +693,10 @@
 *CHI: Caroline .
 *INV: yeah .
 *INV: fuzzy felt .
-*CHI: shall we shall we .
+*CHI: shall we .
 *INV: yes .
 *INV: lets .
-*CHI: did you do did you do this eyes ?
+*CHI: did you do this eyes ?
 *MOT: come on then .
 *MOT: you make a face for us .
 *CHI: um did you do eye ?
@@ -743,14 +732,14 @@
 *MOT: Im sure it doesnt really matter which way round the little red
 *MOT: oh .
 *MOT: is that better ?
-*CHI: I need a I need a face .
+*CHI: I need a face .
 *MOT: go on .
 *MOT: a face ?
 *MOT: a mouth  you mean .
 *INV: just checking its recording .
 *MOT: www .
 *CHI: and a face .
-*CHI: do you do you have these ?
+*CHI: do you have these ?
 *MOT: no .
 *MOT: she doesnt have that .
 *INV: no .
@@ -759,7 +748,7 @@
 *INV: because I dont need them .
 *CHI: why ?
 *INV: because my eyesights okay .
-*CHI: do you need a do you need a nose ?
+*CHI: do you need a nose ?
 *INV: I do need a nose .
 *INV: yes .
 *CHI: make it bigger .
@@ -825,10 +814,9 @@
 *MOT: shall I make a picture of Becky ?
 *CHI: yes .
 *CHI: I like me .
-*CHI: I need a I need a
+*CHI: I need a
 *MOT: you need what ?
-*CHI: I need a .
-*MOT: you need some ears  dont you ?
+*MOT: some ears  dont you ?
 *CHI: yeah .
 *CHI: pink ears .
 *MOT: pink ears .
@@ -888,7 +876,6 @@
 *MOT: oh .
 *CHI: thats not right .
 *INV: no .
-*MOT: theres one .
 *MOT: now .
 *MOT: we need some .
 *MOT: youd better have a bow in your hair because youve got a bobble in
@@ -937,8 +924,7 @@
 *CHI: no .
 *CHI: no .
 *CHI: I need a .
-*CHI: I need a .
-*MOT: what about a big round red nose like a clown ?
+*MOT: round red nose like a clown ?
 *CHI: I need a pink one .
 *MOT: oh .
 *MOT: Im sorry .
@@ -1049,7 +1035,7 @@
 *CHI: sorry  cows .
 *CHI: they have some .
 *CHI: they theyre having .
-*CHI: they have some they have some Daddy ones .
+*CHI: they have some Daddy ones .
 *CHI: pretend .
 *CHI: the daddy ones .
 *CHI: oh .
@@ -1065,7 +1051,7 @@
 *CHI: because why ?
 *MOT: well .
 *MOT: you cant have a cow with a horse for a baby .
-*CHI: he just just waiting  Mum .
+*CHI: just waiting  Mum .
 *CHI: he just waiting .
 *CHI: are you waiting ?
 *CHI: no .
@@ -1076,7 +1062,7 @@
 *MOT: there you are .
 *CHI: do does the lamb stand up  Mum ?
 *MOT: um .
-*MOT: mind because youre looking youre knocking the horse over ,
+*MOT: mind because youre knocking the horse over ,
 *MOT: does the lamb stand up ?
 *CHI: yeah .
 *MOT: I dont know .
@@ -1108,7 +1094,7 @@
 *MOT: do lambs like apples ?
 *MOT: no .
 *MOT: I dont think they do .
-*CHI: we wait here  shall we shall we shall we ?
+*CHI: we wait here  shall we ?
 *INV: www .
 *CHI: shall we .
 *CHI: shall we .
@@ -1180,7 +1166,7 @@
 *CHI: we hafta wait .
 *CHI: we hafta wait .
 *CHI: how about a pig ?
-*CHI: I like I like piggys .
+*CHI: I like piggys .
 *CHI: thats Mum .
 *CHI: I like piggys .
 *INV: like piggys .

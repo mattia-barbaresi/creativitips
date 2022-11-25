@@ -32,8 +32,6 @@
 *CHI: hold on .
 *MOT: thats better .
 *CHI: oh .
-*CHI: a wibblyn one .
-*MOT: another yellow one .
 *MOT: wheres the other yellow one ?
 *MOT: oh .
 *MOT: its behind you .
@@ -103,7 +101,7 @@
 *MOT: come on then .
 *MOT: quick .
 *MOT: right .
-*MOT: which ones do now ?
+*MOT: do now ?
 *MOT: shall we do the red ones ?
 *MOT: wherere the red ones ?
 *CHI: here .
@@ -418,7 +416,7 @@
 *MOT: that would be a good thing .
 *MOT: I cant see a milkman though .
 *MOT: can you remember ?
-*MOT: where did where did the puppys on the video get the milk from
+*MOT: where did the puppys on the video get the milk from
 *MOT: can you remember ?
 *CHI: cows .
 *MOT: right .
@@ -563,7 +561,6 @@
 *MOT: tell you what .
 *MOT: this time .
 *MOT: you come on out .
-*MOT: you go hide
 *CHI: tiger .
 *MOT: well see if you can find the tiger .
 *CHI: right .
@@ -585,7 +582,7 @@
 *MOT: that was quick .
 *MOT: you didnt peak did you ?
 *MOT: where was he ?
-*CHI: in the in the tables .
+*CHI: in the tables .
 *MOT: under the table .
 *MOT: right .
 *MOT: this time its the sheeps turn .
@@ -595,8 +592,6 @@
 *INV: www .
 *CHI: cant get .
 *CHI: cant get this over .
-*CHI: one two three four five six seven eight nine ten .
-*MOT: one two three four five .
 *CHI: are you ready ?
 *MOT: yes .
 *INV: you Mums sposta .
@@ -620,8 +615,7 @@
 *MOT: oh .
 *MOT: where were they ?
 *CHI: in in the curtains .
-*INV: in the curtains .
-*MOT: in the curtains again .
+*MOT: again .
 *CHI: your your turn .
 *MOT: what ?
 *MOT: to hide ?
@@ -708,8 +702,7 @@
 *CHI: oh .
 *MOT: right .
 *MOT: are you gonna close your eyes while tiger hides ?
-*CHI: wheres the tiger ?
-*MOT: the little tiger .
+*CHI: wheres ?
 *CHI: tiger .
 *CHI: tiger go .
 *CHI: tiger .
@@ -744,7 +737,6 @@
 *CHI: here you go .
 *MOT: where was he ?
 *CHI: in curtains .
-*CHI: its my turn .
 *MOT: its your turn .
 *MOT: well .
 *MOT: what .
@@ -769,8 +761,6 @@
 *INV: four five six are you ready ?
 *MOT: is Anne hidden yet ?
 *MOT: whereve you hidden ?
-*MOT: we can still see you .
-*INV: wheres Anne .
 *INV: wheres Anne ?
 *CHI: oh .
 *CHI: oh .
@@ -804,7 +794,6 @@
 *CHI: play with the toys .
 *CHI: no .
 *MOT: in a little while well play with Carolines toys .
-*INV: five minutes .
 *MOT: what .
 *MOT: five minutes .
 *MOT: I tell you what .
@@ -821,8 +810,7 @@
 *MOT: shall we have a look at your sticker book ?
 *CHI: no .
 *INV: well .
-*INV: you cant play with those until youve played with your
-*MOT: not yet .
+*INV: you cant play with those played with your
 *MOT: lets have a look at this sticker book .
 *MOT: oh .
 *MOT: lets have a look .
@@ -833,7 +821,7 @@
 *MOT: whats he doing ?
 *CHI: having a his dinner .
 *MOT: oh now .
-*MOT: these toys those should have boots on .
+*MOT: those should have boots on .
 *MOT: shall we see if we can find their boots ?
 *CHI: oh .
 *CHI: these bits .
@@ -869,7 +857,7 @@
 *MOT: whats that cat carrying ?
 *MOT: whats he got in his hand ?
 *CHI: fish .
-*MOT: a fish isnt it .
+*MOT: a fish .
 *MOT: now .
 *CHI: do boots .
 *MOT: do those yellow boots shall we now ?
@@ -1095,7 +1083,7 @@
 *INV: are they ?
 *CHI: yeah .
 *INV: thats nice isnt it ?
-*MOT: who bought it for brought it for Mummy  Anne ?
+*MOT: who brought it for Mummy  Anne ?
 *MOT: no .
 *MOT: leave it because the marbles are too little for Anne .
 *CHI: I 0am just looking .
@@ -1148,7 +1136,7 @@
 *CHI: um having some tea .
 *MOT: we were having some tea were we ?
 *MOT: well .
-*MOT: it was too wet wasnt it ?
+*MOT: too wet wasnt it ?
 *CHI: yeah .
 *MOT: pouring with rain and cold .
 *MOT: we stayed here didnt we ?
@@ -1169,12 +1157,12 @@
 *CHI: Anne Annes room .
 *MOT: mhm .
 *MOT: where was it ?
-*CHI: in the in my room .
+*CHI: in my room .
 *MOT: yeah .
 *MOT: but where in your room ?
 *CHI: in in my cot .
 *MOT: pardon ?
-*CHI: in my under my cot .
+*CHI: under my cot .
 *MOT: under your cot wasnt it ?
 *MOT: yeah .
 *MOT: good job you remembered wasnt it ?
@@ -1185,7 +1173,7 @@
 *MOT: well done .
 *MOT: now .
 *MOT: Ill pop it away now then .
-*CHI: Anne wanna want play these .
+*CHI: Anne want play these .
 *MOT: yeah .
 *MOT: thats a good idea .
 *CHI: make a pattern ?
@@ -1198,7 +1186,7 @@
 *INV: www .
 *CHI: where does it go ?
 *MOT: oh .
-*MOT: you chooses where it goes .
+*MOT: you chooses where .
 *CHI: there .
 *MOT: over there ?
 *CHI: yes .
@@ -1514,7 +1502,7 @@
 *CHI: and Rolly .
 *MOT: Rolly .
 *MOT: Lucy and Rolly .
-*MOT: what did what did Pongo hafta do to Lucky ?
+*MOT: what did Pongo hafta do to Lucky ?
 *MOT: can you remember ?
 *MOT: when they were in the snow ?
 *CHI: bit cold .
@@ -1528,7 +1516,7 @@
 *MOT: what did Pongo do ?
 *CHI: dont wanna tell you .
 *CHI: wanna put the video on .
-*CHI: and Pongos Pi]
+*CHI: and Pongos .
 *MOT: no .
 *MOT: were not watching the video for a bit  Anne .
 *MOT: you watched it all morning .

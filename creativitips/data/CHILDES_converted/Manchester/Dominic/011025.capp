@@ -49,7 +49,7 @@
 *MOT: what ?
 *MOT: thats your lorry .
 *CHI: that ?
-*MOT: thats your thats the trailer bit of your lorry .
+*MOT: thats the trailer bit of your lorry .
 *CHI: black .
 *INV: black .
 *MOT: black ?
@@ -357,7 +357,6 @@
 *CHI: track .
 *MOT: I know its a track .
 *MOT: daddys better at building it than I am .
-*MOT: I always manage to do it wrong .
 *CHI: that .
 *MOT: what ?
 *CHI: oh .
@@ -471,7 +470,7 @@
 *CHI: down .
 *MOT: fall down .
 *MOT: yes .
-*MOT: I dont think Pi]
+*MOT: I dont think .
 *CHI: oh .
 *CHI: ow .
 *MOT: whoops .
@@ -576,7 +575,7 @@
 *MOT: oh .
 *MOT: now whatre you going to do with that ?
 *CHI: sit down .
-*MOT: youre gonna sit down ?
+*MOT: sit down ?
 *CHI: yeah .
 *MOT: why ?
 *MOT: why cant you sit down there ?
@@ -722,12 +721,12 @@
 *MOT: oh .
 *INV: oh .
 *MOT: Dominic .
-*MOT: if you if you had put some of these away wed have some
+*MOT: if you had put some of these away wed have some
 *CHI: space .
 *MOT: youve done a poo poo  havent you ?
 *CHI: no .
 *MOT: yes you have .
-*MOT: I can I can smell it .
+*MOT: I can smell it .
 *MOT: come here .
 *CHI: no .
 *MOT: weve got to go and get you a nappie .
@@ -1038,7 +1037,7 @@
 *MOT: Dominic .
 *MOT: put them on there .
 *MOT: not that you can put them on right I dont think .
-*MOT: is that your are you doing the shopping ?
+*MOT: are you doing the shopping ?
 *CHI: shopping .
 *MOT: shopping .
 *CHI: shopping .

@@ -4,7 +4,7 @@
 *CHI: flashing light .
 *CHI: ap .
 *MOT: flashing light ?
-*CHI: see um see dustbin man .
+*CHI: see dustbin man .
 *CHI: light .
 *CHI: I think .
 *MOT: you see a dustbin man light you think ?
@@ -116,10 +116,10 @@
 *CHI: bye .
 *MOT: bye bye .
 *MOT: yes .
-*MOT: on a rainy day a wet day they dont half get on with the job
+*MOT: on a wet day they dont half get on with the job
 *CHI: sit down now fire engine .
-*MOT: you want Mummy to sit down .
-*CHI: look in there  fire engine .
+*MOT: you want .
+*CHI: fire engine .
 *MOT: is that Purdie crying ?
 *CHI: shh .
 *CHI: shh .
@@ -128,7 +128,6 @@
 *MOT: and theyre off arent they ?
 *MOT: on a sunny day it takes them a lot longer .
 *CHI: stop it .
-*CHI: oh  Puss .
 *MOT: oh whats the matter with Purdie ?
 *MOT: no .
 *MOT: dont upset her .
@@ -145,7 +144,6 @@
 *MOT: you playing with your toys on the window ledge ?
 *CHI: ap see a Purdie .
 *MOT: yes .
-*CHI: Purdie man .
 *MOT: yes .
 *MOT: I think Purdie probably did see the dustbin men today .
 *CHI: ap dustbin men now .
@@ -160,8 +158,6 @@
 *CHI: stop it pushing me .
 *MOT: stop it pushing you ?
 *CHI: oh dear .
-*CHI: I put ap rubbish in .
-*MOT: I wasnt pushing you  Thomas .
 *MOT: I was just trying to stop you going out of the door .
 *MOT: because its raining .
 *MOT: its wet .
@@ -172,8 +168,6 @@
 *CHI: ap sit on my leg .
 *CHI: stop it pushing me .
 *CHI: stop it .
-*MOT: Thomas I'm>
-*CHI: not go in there .
 *CHI: no dirty .
 *CHI: lot of things .
 *MOT: what lot of things ?
@@ -190,15 +184,12 @@
 *CHI: yeah .
 *CHI: okay .
 *CHI: ap been ap walk .
-*MOT: youve been>
-*CHI: got my wellies .
 *MOT: youve been for a walk ?
 *MOT: youve got your wellies ?
 *CHI: yeah .
 *MOT: oh well youve still got your slippers on .
-*MOT: but were going to put your wellies on in a few minutes ,
+*MOT: but were going to in a few minutes ,
 *CHI: Pippin .
-*CHI: ap Pip .
 *MOT: I think .
 *MOT: I think it would be nice to get out for a walk .
 *MOT: even though its wet dont you ?
@@ -213,7 +204,7 @@
 *CHI: look .
 *CHI: whats that ?
 *MOT: thats what Mummy puts on the radiator to dry some clothes .
-*CHI: ap fire engine box .
+*CHI: ap .
 *CHI: fire engine .
 *CHI: think .
 *CHI: hello  Puss .
@@ -232,7 +223,6 @@
 *MOT: Thomas ?
 *CHI: yeah .
 *CHI: yes okay .
-*CHI: thanks  Mum .
 *CHI: look ap all these rubbish bags .
 *CHI: lot ap rubbish bags .
 *MOT: a lot of rubbish bags .
@@ -254,8 +244,8 @@
 *CHI: stop it .
 *MOT: why are you telling Purdie not to go that way ?
 *MOT: its too dirty ?
-*MOT: do you mean its too dirty because youve got all your>
-*CHI: too dirty now .
+*MOT: do you mean its too dirty
+*CHI: now .
 *CHI: yeah .
 *CHI: hello .
 *MOT: all your bags of rubbish .
@@ -285,10 +275,8 @@
 *CHI: lot ap rubbish bags .
 *MOT: a lot of rubbish bags .
 *CHI: mhm .
-*MOT: in a>
-*CHI: not that way .
 *MOT: in a moment  Thomas .
-*MOT: lets put your Wellingtons on .
+*MOT: lets put your .
 *CHI: no go on Purdie .
 *CHI: Purdie .
 *CHI: stop ap going that way .
@@ -303,8 +291,7 @@
 *CHI: bye bye  dustbin bags .
 *MOT: yes .
 *MOT: bye bye  dustbin bags .
-*CHI: oh not got my rubbish bags .
-*MOT: you can play Postman Pat>
+*CHI: oh .
 *CHI: oh no .
 *MOT: whats the matter ?
 *CHI: not got rubbish bags .
@@ -339,7 +326,6 @@
 *CHI: yes .
 *MOT: dont throw .
 *CHI: press the button .
-*CHI: two way one .
 *CHI: beepo .
 *MOT: youre pressing the button ?
 *CHI: yeah .
@@ -396,8 +382,7 @@
 *MOT: I thought you might .
 *MOT: there you are .
 *MOT: what do you say ?
-*MOT: what do you say ?
-*CHI: yes please .
+*MOT: what ?
 *MOT: yes please .
 *MOT: so Im going to pop the chocolate into that jug .
 *MOT: and well melt the chocolate .
@@ -418,7 +403,7 @@
 *CHI: little one .
 *MOT: oh I see youre holding that piece Ive just given while you eat
 *CHI: mhm .
-*MOT: thats okay .
+*MOT: okay .
 *MOT: it looks very dull outside isnt it ?
 *MOT: now .
 *MOT: look at it .
@@ -433,7 +418,7 @@
 *MOT: because its very very hot .
 *MOT: but look .
 *MOT: weve got a spoon with extra long handles .
-*MOT: so we can we can stir cant we ?
+*MOT: so we can stir cant we ?
 *CHI: hold it .
 *MOT: here .
 *MOT: you stir it .
@@ -451,12 +436,11 @@
 *MOT: theres a tray now with a pussy cat on it .
 *CHI: whats happening ?
 *MOT: whats happening ?
-*CHI: what happen it .
 *MOT: there we are .
 *MOT: well put that liner on the tray .
 *CHI: bit of fire .
 *CHI: a fire went on board .
-*CHI: fire on fire on board .
+*CHI: fire on board .
 *MOT: a fire on board ?
 *CHI: yeah .
 *CHI: ap sort it .
@@ -490,7 +474,7 @@
 *CHI: what has happened ?
 *MOT: its just a little mark on the paper .
 *CHI: lick it .
-*MOT: no no no .
+*MOT: no .
 *CHI: stop it .
 *MOT: dont lick it  Thomas .
 *MOT: not when were going to put food on it .
@@ -519,14 +503,12 @@
 *CHI: Mummy do it .
 *MOT: thats right .
 *MOT: Mummy do it .
-*CHI: ap fire ap fire gone .
+*CHI: ap fire gone .
 *CHI: where 0has Thomas gone ?
 *MOT: where has Thomas gone ?
 *MOT: youre playing with the piece of paper arent you ?
 *CHI: yeah .
 *CHI: hello  Mummy .
-*MOT: hello  Thomas .
-*CHI: hello  fire engine .
 *MOT: youll be able to stir this in minute .
 *MOT: because its nearly all melted .
 *MOT: and then you can see when we pour it into the moulds .
@@ -777,11 +759,9 @@
 *MOT: those plastic boxes that have mini Smarties in it .
 *CHI: lot ap boxes .
 *CHI: all gone .
-*CHI: little horses boxes .
+*CHI: boxes .
 *CHI: ap making shape .
 *MOT: making shapes ?
-*MOT: youre making shapes >
-*CHI: very hot shape .
 *MOT: very hot shapes ?
 *CHI: this one .
 *CHI: this ap cold .
@@ -791,8 +771,7 @@
 *MOT: be careful .
 *MOT: what was that ?
 *CHI: bango .
-*MOT: oh look there are horses there .
-*CHI: whats that ?
+*MOT: oh there .
 *CHI: bang it .
 *MOT: no .
 *MOT: dont bang it .
@@ -984,7 +963,6 @@
 *MOT: I think he might be .
 *MOT: no .
 *MOT: I think he must be in .
-*CHI: that way .
 *CHI: 0 .
 *MOT: yes !
 *MOT: there he is .
@@ -999,7 +977,7 @@
 *CHI: ap .
 *CHI: all done .
 *MOT: all done ?
-*CHI: lot ap a lot ap boxes .
+*CHI: a lot ap boxes .
 *MOT: there are a lot of boxes .
 *MOT: there are some more on the floor .
 *MOT: shall I lift these up as well .
@@ -1025,15 +1003,13 @@
 *MOT: Daddy Rod .
 *MOT: who else ?
 *CHI: Daddy Rod ap Isabelle .
-*CHI: run away run away .
-*MOT: Daddy Rod and Isabelle .
+*CHI: run away .
 *MOT: ah they wont go back in like that will they ?
 *CHI: no .
 *MOT: and youve got to put one inside of the other .
 *MOT: youve got to stack them up .
 *CHI: stack up .
 *CHI: ap Bertie ap bus gone ?
-*CHI: Bertie ap bus>
 *MOT: Bertie .
 *MOT: Bertie the bus ?
 *MOT: is he in your postbox ?
@@ -1211,7 +1187,7 @@
 *CHI: ap thep bus go in that shed .
 *MOT: the bus is going in that shed .
 *MOT: how many wheels has the car got ?
-*MOT: three cars three wheels .
+*MOT: three wheels .
 *MOT: I think it has got
 *CHI: one two three .
 *MOT: I think it has got four .
@@ -1300,7 +1276,7 @@
 *MOT: there isnt .
 *MOT: no .
 *MOT: the cakes not ready .
-*MOT: no no no .
+*MOT: no .
 *MOT: weve just made the chocolate to go on top of the cake tomorrow
 *MOT: dont dont tell her about it .
 *MOT: it has got to be a surprise .
@@ -1329,7 +1305,7 @@
 *MOT: look .
 *MOT: on Christmas Day our snowy friend sang just for Santa Claus .
 *MOT: and Santa loved his squeak so much he clapped without a pause .
-*MOT: no no no .
+*MOT: no .
 *MOT: one squeak when Mummy says “squeak or squeaky or squeaked” .
 *MOT: they say the snowman sings his songs in snowy lands the whole year
 *CHI: ap tree fall down .
@@ -1407,7 +1383,7 @@
 *MOT: I think Purdie wants some food .
 *MOT: shall I give her some food ?
 *CHI: a cake I think .
-*MOT: no if we cant give her cake yet  Thomas .
+*MOT: we cant give her cake yet  Thomas .
 *CHI: oh .
 *CHI: stop it .
 *CHI: what happening now ?
@@ -1488,7 +1464,7 @@
 *CHI: yellow fish now actually .
 *MOT: a yellow fish now actually ?
 *MOT: can you see the snowman has got a hat on hasnt he ?
-*MOT: a little bit like top em the fat controllers top hat .
+*MOT: a little bit like the fat controllers top hat .
 *MOT: and hes wearing a nice red and green stripy scarf isnt he ?
 *CHI: not ap digger go in there .
 *MOT: is he waving ?
@@ -1619,7 +1595,7 @@
 *MOT: who else would like a Smartie ?
 *CHI: elephant .
 *MOT: the elephant ?
-*MOT: you mean the elephant on your jumper ?
+*MOT: the elephant on your jumper ?
 *CHI: no .
 *CHI: have ap jelly sweet .
 *CHI: ap Bertie ap bus like a jelly sweet .

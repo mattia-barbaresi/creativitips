@@ -65,7 +65,6 @@
 *MOT: what did you draw ?
 *CHI: a face .
 *MOT: thats Mummys attempt at drawing a face .
-*CHI: a face .
 *INV: www .
 *INV: is it a face ?
 *INV: right .
@@ -104,7 +103,7 @@
 *CHI: raining .
 *INV: mhm .
 *MOT: show show Caroline Thomas on the next page ?
-*MOT: whats she got what does Thomas do ?
+*MOT: what does Thomas do ?
 *MOT: are you going to pull it ?
 *MOT: oh .
 *MOT: have you got it ?
@@ -380,7 +379,7 @@
 *MOT: whoops .
 *MOT: thats it .
 *MOT: and Thomas went on that one .
-*MOT: and whos on your on the card with Thomas ?
+*MOT: and whos on the card with Thomas ?
 *MOT: I think its lost its stick .
 *MOT: its not very sticky any more  is it ?
 *MOT: has it lost its sticky ?
@@ -743,8 +742,7 @@
 *MOT: going to show Caroline your new car ?
 *INV: oh my goodness .
 *MOT: what ?
-*INV: you what ?
-*MOT: I think youre through youre through with that one then .
+*MOT: I think youre through with that one then .
 *MOT: youre so pathetic in this .
 *MOT: www .
 *MOT: youre sposta push it and steer it and things .
@@ -788,7 +786,7 @@
 *CHI: and all .
 *MOT: and then are you .
 *MOT: so what what shop are you going to ?
-*MOT: where are you where are you .
+*MOT: where are you .
 *CHI: Mama Mamas .
 *MOT: Mamas shop ?
 *CHI: stuck .
@@ -832,7 +830,7 @@
 *MOT: you like pizza  dont you ?
 *CHI: like it .
 *MOT: like it .
-*MOT: oh whats that ?
+*MOT: oh ?
 *CHI: bananas .
 *MOT: bananas .
 *MOT: yeah .
@@ -841,7 +839,6 @@
 *MOT: whos that ?
 *CHI: dolly .
 *MOT: and whats her name ?
-*MOT: whats she called .
 *MOT: what ?
 *CHI: called .
 *INV: George ?
@@ -881,8 +878,6 @@
 *CHI: hat .
 *MOT: dont think thatll fit you .
 *CHI: Caroline .
-*MOT: I dont think .
-*INV: it willnt fit me either .
 *MOT: might fit the dolly .
 *MOT: wanna put it on the dollys head ?
 *MOT: like a teacosey now .
@@ -937,8 +932,6 @@
 *INV: pizzas ?
 *CHI: no .
 *CHI: bits and bobs .
-*INV: bits and bobs .
-*MOT: bits and bobs .
 *MOT: and I think thats everything so put those in there .
 *MOT: now then .
 *MOT: shall we have a look in the other box ?
@@ -962,7 +955,6 @@
 *CHI: that there .
 *MOT: that there .
 *CHI: elephant .
-*CHI: that there .
 *MOT: elephant .
 *MOT: elephant there .
 *CHI: whales .
@@ -1030,8 +1022,6 @@
 *CHI: Mummy .
 *CHI: sit  Mummy .
 *MOT: what do you want ?
-*MOT: some more bricks .
-*CHI: sit  Mummy .
 *CHI: I make it here .
 *INV: www .
 *MOT: youre just like your father  arent you ?
@@ -1048,8 +1038,6 @@
 *MOT: willnt it do it ?
 *MOT: www .
 *CHI: Mummy do it .
-*CHI: Mummy make it .
-*MOT: there we go .
 *MOT: what ?
 *CHI: I make it .
 *MOT: youre gonna make it ?
@@ -1138,7 +1126,6 @@
 *CHI: ah .
 *CHI: I want Mummy do it .
 *MOT: well what do you want me to do ?
-*MOT: want me to make you a car ?
 *CHI: Mummy there .
 *MOT: www .
 *MOT: do you want me to make you a car ?
@@ -1234,7 +1221,7 @@
 *MOT: are you making a wall ?
 *CHI: there  Mummy .
 *MOT: are you making a wall ?
-*CHI: making a making a wall .
+*CHI: making a wall .
 *INV: yeah .
 *MOT: good boy then .
 *INV: www .
@@ -1285,7 +1272,6 @@
 *INV: oh yes .
 *CHI: ladybird .
 *MOT: yes .
-*MOT: Aunty Meg made you that .
 *CHI: ladybird .
 *CHI: ladybird .
 *CHI: ladybird .
@@ -1316,7 +1302,6 @@
 *MOT: its a tatty book  isnt it ?
 *CHI: tatty book .
 *MOT: tatty book .
-*CHI: Mummy .
 *MOT: is that the Mummy ?
 *CHI: a Daddy .
 *MOT: and thats a Daddy .

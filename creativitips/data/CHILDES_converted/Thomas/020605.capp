@@ -1,5 +1,5 @@
 *MOT: Thomas .
-*CHI: big nip big nip .
+*CHI: big nip .
 *CHI: sa big nips .
 *CHI: big tummy ap big willie .
 *INV: big tummy and big willie ?
@@ -15,15 +15,13 @@
 *MOT: well I think we needta pull your trousers up  Thomas .
 *CHI: no .
 *MOT: come on .
-*CHI: talk ap Dimitra a moment>
-*MOT: well if you want to talk to Dimitra a moment you had better
+*CHI: talk ap Dimitra
+*MOT: to talk to Dimitra a moment you had better
 *INV: hello .
 *CHI: hello .
 *CHI: paya .
 *CHI: paya .
-*CHI: run away .
-*INV: whats that ?
-*MOT: run away run away .
+*MOT: run away .
 *MOT: you cant run away when your trousers are round your ankles .
 *MOT: come on .
 *CHI: ap Dimitra going backwards .
@@ -42,15 +40,12 @@
 *MOT: and we got some arm bands for you didnt we ?
 *MOT: and Granddad bought you a rubber ring .
 *MOT: and do you remember being in the pool ?
-*MOT: with those em>
 *CHI: yes .
 *MOT: boy .
 *CHI: mhm .
 *MOT: yes .
 *MOT: that was nice wasnt it ?
 *CHI: yes .
-*MOT: oh Thomas .
-*INV: Thomas .
 *MOT: come on .
 *CHI: run away .
 *MOT: theres no good running away in there because Ill still find you .
@@ -64,7 +59,7 @@
 *MOT: hes sitting with the Teletubbies .
 *CHI: 0 .
 *MOT: where is he ?
-*CHI: oh run away run away .
+*CHI: oh run away .
 *MOT: what are you doing ?
 *CHI: hiding .
 *MOT: youre hiding ?
@@ -193,7 +188,7 @@
 *CHI: 0 .
 *MOT: and what did you do when you were on holiday ?
 *CHI: Dimitra doing ?
-*MOT: you tell Dimitra what you and Granddad were looking at every
+*MOT: Dimitra what you and Granddad were looking at every
 *CHI: min ap ride helicopter .
 *MOT: yeah .
 *MOT: you had a ride in helicopter at the airport .
@@ -202,7 +197,6 @@
 *MOT: and the driver even let you sit on the dumper truck when it wasn't
 *CHI: yeah .
 *MOT: what was his name ?
-*CHI: called <&wh>
 *MOT: what was his name ?
 *CHI: digger man .
 *MOT: the digger man .
@@ -226,13 +220,13 @@
 *MOT: every morning .
 *MOT: you watched the dustbin lorry empty all the bins on the road .
 *MOT: and the road sweeper .
-*CHI: ap this it ap <&jimhind>
+*CHI: ap this it a@p
 *MOT: pardon ?
 *MOT: pardon ?
 *MOT: I dont know what youre saying .
 *MOT: what are you saying ?
 *CHI: jimhind there .
-*MOT: I dont know what youre saying .
+*MOT: I dont know what .
 *INV: hand ?
 *INV: are you talking about a hand ?
 *CHI: yeah .
@@ -242,7 +236,7 @@
 *CHI: Saturday 0and Sunday .
 *MOT: oh Saturday and Sunday .
 *MOT: you naming the days of the week ?
-*MOT: what have we got ?
+*MOT: got ?
 *MOT: weve got Monday .
 *CHI: Tuesday Friturday .
 *MOT: Monday Tuesday Saturday .
@@ -291,7 +285,7 @@
 *INV: hello .
 *MOT: what happens Tuesdays ?
 *CHI: bea .
-*MOT: no no no .
+*MOT: no .
 *CHI: Dimitra .
 *MOT: no .
 *MOT: Dimitra doesnt come on Tuesdays .
@@ -308,7 +302,7 @@
 *CHI: Saturday .
 *MOT: no .
 *MOT: Saturday .
-*MOT: what happens on Thursdays ?
+*MOT: Thursdays ?
 *CHI: Dimitra .
 *MOT: yes .
 *MOT: Dimitra comes .
@@ -344,11 +338,11 @@
 *CHI: ap Dimitra .
 *MOT: no .
 *MOT: Dimitra doesnt come on Sundays .
-*CHI: ap Saturday Sunday Dimitras .
+*CHI: Saturday Sunday Dimitras .
 *MOT: Saturday Sunday Dimitras ?
 *CHI: yeah .
 *CHI: bea .
-*MOT: what about Sunday ?
+*MOT: what ?
 *MOT: do you go the church creche with Isabelle ?
 *CHI: yes Daddy Rod .
 *MOT: and Daddy Rod .
@@ -401,20 +395,19 @@
 *MOT: whats that mean ?
 *CHI: paya .
 *CHI: paya .
-*INV: thats Spanish food .
+*INV: Spanish food .
 *MOT: oh yes .
 *INV: food !
 *MOT: yes .
 *MOT: but I youve not had any .
-*MOT: so I dont think thats what hes saying .
-*CHI: ap Spanish food>
+*MOT: so I dont think .
 *MOT: where did you go to ?
 *MOT: come on .
 *MOT: dont be jumping on top .
 *MOT: Thomas .
 *MOT: oh now youve have cut your mouth on my finger nail haven't
 *CHI: 0 .
-*MOT: well you fell on your mouth on my fingernail didnt you ?
+*MOT: well you fell on my fingernail didnt you ?
 *MOT: come on .
 *MOT: lets tell Dimitra .
 *MOT: where was the airport ?
@@ -476,13 +469,13 @@
 *CHI: 0 .
 *CHI: ap fall over .
 *MOT: you didnt fall over .
-*CHI: Jean fall over .
+*CHI: fall over .
 *CHI: hello .
 *MOT: youve got a cut on your lip now  Thomas .
 *CHI: eeh .
 *MOT: oh .
 *CHI: elephant there .
-*CHI: run away run away .
+*CHI: run away .
 *CHI: 0 .
 *MOT: come on .
 *MOT: youre being a monkey arent you ?
@@ -543,10 +536,9 @@
 *MOT: and what about a red saucer as well ?
 *CHI: no .
 *MOT: can she not have a red saucer ?
-*CHI: no no no .
+*CHI: no .
 *MOT: she could have a red saucer and a red spoon couldnt she ?
 *CHI: mhm .
-*CHI: oh dear .
 *CHI: spill it .
 *MOT: oh you spilt it ?
 *CHI: yeah .
@@ -561,7 +553,7 @@
 *CHI: here you are .
 *INV: thank you  Thomas .
 *INV: mm .
-*MOT: I think Postman Pat like might might like a cup of tea .
+*MOT: I think Postman Pat might like a cup of tea .
 *CHI: yeah .
 *CHI: go find a cup .
 *MOT: youve got to find a cup ?
@@ -605,7 +597,6 @@
 *CHI: drink Daddy ap Postman Pat tea .
 *MOT: you drank Postman Pats tea ?
 *CHI: yeah .
-*CHI: coming tummy .
 *CHI: here you are .
 *INV: oh thank you .
 *CHI: mhm .
@@ -618,7 +609,6 @@
 *MOT: hello .
 *MOT: are you tired ?
 *MOT: youve not had a sleep today have you ?
-*CHI: no no>
 *MOT: no .
 *MOT: if youre holding my hair thats a sign youre tired .
 *CHI: 0 .
@@ -652,8 +642,6 @@
 *MOT: www .
 *CHI: Mummy ap talk Sharon .
 *MOT: its not Sharon its David .
-*CHI: ap talk David .
-*MOT: just a second .
 *MOT: talk to David .
 *MOT: I Ive knocked the sound off .
 *MOT: do you want it back on ?
@@ -669,18 +657,16 @@
 *CHI: Nana 0and Granddad on it .
 *CHI: yes .
 *CHI: stop !
-*MOT: do you want do you want me to put the tape back on ?
+*MOT: do you want me to put the tape back on ?
 *INV: 0 .
-*CHI: ap on>
 *MOT: you hold the phone and talk to David .
 *CHI: hello  David .
 *CHI: yes ap thep brakes on .
 *CHI: going backwards .
 *CHI: going backwards .
 *CHI: hello .
-*INV: if this is on it shouldnt go off because this is recording
+*INV: if this is on it off because this is recording
 *CHI: yeah .
-*CHI: plane broomo .
 *CHI: ap brakes on .
 *CHI: going backwards .
 *CHI: Dimitra coming .
@@ -745,13 +731,12 @@
 *MOT: so youre going to hafta practise singing happy birthday to him .
 *CHI: no .
 *MOT: you are .
-*CHI: no no>
 *CHI: boo !
 *MOT: Thomas come here now .
 *MOT: come here .
 *MOT: please .
 *CHI: 0 .
-*CHI: Mummy make a drink .
+*CHI: make a drink .
 *MOT: make a drink ?
 *MOT: alright .
 *CHI: yeah .
@@ -766,7 +751,7 @@
 *MOT: there you are .
 *MOT: twist it off .
 *CHI: twist it off
-*MOT: whats the shape of the lid  Thomas ?
+*MOT: the shape of the lid  Thomas ?
 *MOT: is it round ?
 *MOT: a circle ?
 *CHI: yeah .
@@ -851,7 +836,7 @@
 *CHI: ap look Dimitra come .
 *CHI: Dimitra Daddy .
 *CHI: Daddy too .
-*MOT: hello  Daddy .
+*MOT: hello .
 *FAT: hello .
 *INV: hello .
 *MOT: where has Daddy been ?
@@ -902,7 +887,6 @@
 *MOT: do you remember at lunchtime ?
 *CHI: look .
 *MOT: no be careful .
-*CHI: show me .
 *MOT: show me ?
 *MOT: Ill show you .
 *MOT: just be careful .
@@ -949,15 +933,11 @@
 *CHI: yeah .
 *INV: oh wheres he going ?
 *CHI: John Lewis .
-*MOT: John Lewis .
-*INV: John Lewis ?
 *CHI: behind you .
 *INV: behind me .
 *CHI: going back again .
 *INV: going where ?
-*MOT: back again .
 *CHI: oh dear .
-*MOT: going back again .
 *CHI: oh dear .
 *INV: oh dear .
 *CHI: broken off .
@@ -985,7 +965,6 @@
 *CHI: think this goes there .
 *INV: and the horse goes in there .
 *CHI: horse go in there .
-*CHI: choo choo choo .
 *CHI: going backwards .
 *INV: its going backwards ?
 *CHI: oh .
@@ -997,9 +976,6 @@
 *INV: the light should face this way shouldnt it ?
 *CHI: yeah .
 *INV: yeah .
-*CHI: off it go .
-*CHI: think off it goes .
-*CHI: think off it go .
 *INV: what ?
 *INV: if .
 *INV: off it goes ?
@@ -1010,14 +986,13 @@
 *CHI: better now .
 *INV: its better now .
 *INV: yes .
-*CHI: off it go>
 *CHI: oh yeah .
 *INV: oh dear what happened ?
 *CHI: 0 .
 *INV: it cannot go ?
 *CHI: no .
 *INV: why ?
-*CHI: oh dear dear dear .
+*CHI: oh dear .
 *INV: what happened now ?
 *CHI: fell over again .
 *INV: what happened ?
@@ -1028,7 +1003,7 @@
 *INV: oh do you want Dimitra to fall over as well ?
 *CHI: 0 .
 *CHI: Thomas do it .
-*INV: Thomas is falling over ?
+*INV: over ?
 *CHI: ap dark .
 *CHI: ap dark .
 *MOT: its dark ?
@@ -1054,19 +1029,14 @@
 *INV: it has .
 *CHI: ap go back .
 *CHI: oh dear dear .
-*CHI: come and .
 *INV: oh dear dear what ?
-*CHI: come and>
 *INV: I dont understand .
 *INV: going .
-*CHI: come and>
 *INV: go and take ?
 *CHI: no .
 *CHI: laughs .
 *CHI: go and taken .
-*CHI: come and>
 *CHI: see .
-*CHI: come and>
 *INV: Thomas  I dont understand what you say .
 *CHI: eating more .
 *CHI: laughs .
@@ -1079,8 +1049,6 @@
 *MOT: no .
 *CHI: big knock .
 *CHI: oh ap bin bag lorry .
-*MOT: the bin>
-*CHI: for the bin .
 *MOT: thats for the bin is it ?
 *MOT: for the bin bag lorry .
 *CHI: yeah .
@@ -1109,7 +1077,6 @@
 *CHI: knock knock .
 *MOT: no .
 *CHI: ring ring .
-*CHI: two ring .
 *CHI: 0 .
 *INV: what have we got here ?
 *INV: Thomas .
@@ -1134,8 +1101,7 @@
 *INV: big toy .
 *INV: yes .
 *CHI: big high .
-*CHI: big high>
-*INV: oh big high up .
+*INV: up .
 *CHI: doing ?
 *CHI: oh .
 *CHI: laughs .
@@ -1176,7 +1142,7 @@
 *CHI: yeah .
 *INV: yes ?
 *INV: oh where
-*CHI: play ap football .
+*CHI: football .
 *INV: yes .
 *INV: what a good kick .
 *INV: oh .
@@ -1188,14 +1154,14 @@
 *CHI: rolling down .
 *INV: yes .
 *INV: and then its sposta go to the other .
-*INV: but I dont think I can make I can do it anymore .
+*INV: but I dont think I can do it anymore .
 *CHI: laughs .
 *INV: you can do it .
 *CHI: ap paya .
 *CHI: paya .
 *CHI: oh dear .
 *INV: so  Thomas .
-*INV: would you would you make me a cup of tea now .
+*INV: would you make me a cup of tea now .
 *CHI: no cup of tea now .
 *CHI: a big high .
 *INV: a big high .
@@ -1205,7 +1171,7 @@
 *CHI: a big high .
 *CHI: a big high now .
 *CHI: a big high .
-*INV: its is it high ?
+*INV: is it high ?
 *CHI: no .
 *INV: is it .
 *INV: no its not high ?
@@ -1230,7 +1196,7 @@
 *INV: its going up and everythings going in here .
 *INV: this one too .
 *INV: look !
-*INV: the ball fell in the>
+*INV: the ball fell
 *CHI: fall over .
 *INV: and another one .
 *INV: yes .
@@ -1253,7 +1219,6 @@
 *CHI: hm .
 *INV: put a helmet in ?
 *CHI: no .
-*CHI: footballs on there .
 *INV: yeah .
 *CHI: footballs on there .
 *INV: the football has gone there ?
@@ -1409,7 +1374,7 @@
 *MOT: what about quietly ?
 *MOT: Julian says gently and quietly doesnt he ?
 *MOT: for some toys .
-*INV: thats thats too loud .
+*INV: thats too loud .
 *INV: maybe we can do this one ?
 *CHI: whats this ?
 *INV: I dont think this is going to work .
@@ -1422,7 +1387,7 @@
 *INV: yeah .
 *INV: are they .
 *INV: oh whats happening ?
-*CHI: two ladder .
+*CHI: two .
 *INV: yes .
 *INV: the lion is in now .
 *MOT: is it going up the ladder ?
@@ -1461,7 +1426,7 @@
 *INV: I think these are bears .
 *MOT: mhm .
 *CHI: yeah .
-*INV: big brown big white bear .
+*INV: big white bear .
 *CHI: white .
 *INV: and what about these ones ?
 *CHI: those elephants .
@@ -1476,7 +1441,7 @@
 *INV: where are they sailing too ?
 *INV: are they going to go on a trip ?
 *CHI: no .
-*INV: maybe you can maybe they can travel up to Spain .
+*INV: maybe they can travel up to Spain .
 *INV: maybe you can take them where you went .
 *CHI: whats this ?
 *INV: I dont know .
@@ -1496,8 +1461,7 @@
 *CHI: no .
 *INV: no ?
 *CHI: in there .
-*INV: is this>
-*MOT: wheres the doll  Thomas .
+*MOT: doll  Thomas .
 *MOT: wheres the doll ?
 *CHI: ap doll in that one .
 *MOT: the doll goes on that one .
@@ -1550,14 +1514,13 @@
 *INV: are you banging your knee ?
 *CHI: yes .
 *INV: why ?
-*CHI: run away run away .
-*INV: run away run away .
+*CHI: run away .
+*INV: run away .
 *CHI: yeah .
 *INV: are you running away ?
 *CHI: yeah .
 *INV: is Thomas hiding ?
-*CHI: no too big .
-*CHI: too big>
+*CHI: no .
 *INV: are you too big ?
 *CHI: yeah .
 *INV: yeah .
@@ -1644,11 +1607,10 @@
 *INV: theyre not going in ?
 *CHI: no .
 *INV: oh .
-*CHI: oh be go .
-*CHI: oh &be>
+*CHI: go .
 *INV: off we go ?
 *CHI: yeah .
-*CHI: oh be goes .
+*CHI: goes .
 *INV: off they go .
 *CHI: bye bye .
 *INV: bye bye .
@@ -1658,8 +1620,6 @@
 *INV: yeah .
 *INV: what shall we do now ?
 *INV: are they going back in the pond ?
-*INV: are you>
-*CHI: ap yeah .
 *INV: yeah ?
 *INV: are you going to feed them ?
 *CHI: yeah .
@@ -1677,7 +1637,6 @@
 *MOT: no  darling .
 *MOT: theyre .
 *MOT: bread ducks .
-*INV: no maybe>
 *INV: we can pretend that we have .
 *INV: this is bread .
 *CHI: oh yeah .
@@ -1704,7 +1663,7 @@
 *CHI: minute .
 *CHI: red one .
 *INV: red one .
-*MOT: they could be doughnuts couldnt they ?
+*MOT: doughnuts couldnt they ?
 *INV: mhm .
 *MOT: or polo mints .
 *MOT: but you dont feed ducks polos do you ?
@@ -1741,7 +1700,7 @@
 *INV: is the green behind ?
 *CHI: yeah .
 *INV: do they have a name ?
-*CHI: called Cynthia .
+*CHI: called .
 *CHI: Daddy Rod .
 *INV: Daddy what ?
 *MOT: Daddy Rod .

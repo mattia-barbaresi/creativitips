@@ -3,7 +3,6 @@
 *CHI: 0 .
 *MOT: Po looks a bit confused .
 *MOT: 0 .
-*CHI: what what got under your robe PI]
 *MOT: pardon ?
 *CHI: what 0have you got under your robe ?
 *MOT: Ive got my nightdress like you .
@@ -23,7 +22,7 @@
 *CHI: cooker and pans .
 *MOT: okay .
 *MOT: theres the pans .
-*CHI: okay I]
+*CHI: okay .
 *CHI: oh .
 *CHI: Ive got two new ones in there .
 *CHI: pans .
@@ -32,10 +31,10 @@
 *MOT: thats for the washing up  isnt it ?
 *CHI: now .
 *CHI: this is very hot .
-*CHI: very hot SR]
+*CHI: very hot .
 *MOT: very hot .
-*CHI: very hot SR]
-*CHI: very hot SR]
+*CHI: very hot .
+*CHI: very hot .
 *CHI: cook it first .
 *MOT: cook it .
 *MOT: not cook it .
@@ -48,14 +47,13 @@
 *MOT: toast ?
 *CHI: and macaroni cheese .
 *MOT: youre making what ?
-*CHI: macaroni cheese SR]
+*CHI: macaroni cheese .
 *MOT: macaroni cheese ?
 *CHI: no .
 *CHI: macaroni cheese .
 *MOT: jeans ?
 *CHI: yes .
-*CHI: wheres the wheres the spoon ?
-*MOT: um IN]
+*CHI: wheres the spoon ?
 *CHI: no .
 *CHI: Im gonna wash up .
 *CHI: okay ?
@@ -67,7 +65,7 @@
 *MOT: what do you want ?
 *MOT: in your dinner ?
 *MOT: can you chop up a pepper ?
-*CHI: no I]
+*CHI: no .
 *CHI: we need a potato .
 *MOT: alright .
 *MOT: well .
@@ -84,7 +82,7 @@
 *MOT: um .
 *MOT: I dont know .
 *MOT: shall I have a look for you ?
-*CHI: there SR]
+*CHI: there .
 *MOT: have you found one ?
 *MOT: good girl .
 *CHI: this is my shop .
@@ -102,8 +100,6 @@
 *CHI: quick .
 *MOT: ooh .
 *CHI: hot .
-*MOT: how about these instead ?
-*CHI: no .
 *MOT: because youve got lots of potatoes  havent you ?
 *CHI: okay .
 *MOT: okay ?
@@ -125,7 +121,7 @@
 *MOT: there isnt any water in there at the moment  Lara .
 *MOT: youll hafta pretend .
 *MOT: you could wash the potatoes  look .
-*MOT: Im not having Im not putting any real water in it  Lara .
+*MOT: Im not putting any real water in it  Lara .
 *MOT: because its front room .
 *MOT: pshhhhc .
 *MOT: right .
@@ -136,7 +132,7 @@
 *CHI: please may I have some more shopping ?
 *MOT: yes .
 *MOT: what would you like now ?
-*MOT: let me just get Amy her teether PI]
+*MOT: let me just get Amy her teether .
 *MOT: ready ?
 *MOT: what would you like from the shop now ?
 *CHI: I need  cakes .
@@ -156,7 +152,7 @@
 *MOT: were not into fruit .
 *MOT: okay .
 *MOT: I think thats all the cakes Ive got .
-*MOT: thatll be one fifty five pounds nineteen .
+*MOT: thatll be five pounds nineteen .
 *CHI: I can pay you but Amys lying on my purse in my home .
 *MOT: thats because Amy lives at your home .
 *MOT: theres your purse .
@@ -188,9 +184,9 @@
 *CHI: 0I 0have got some paper .
 *MOT: you could write a shopping list  couldnt you ?
 *CHI: okay .
-*CHI: a shopping list I]
+*CHI: a shopping list .
 *MOT: here we go .
-*CHI: a shopping list SR]
+*CHI: a shopping list .
 *MOT: a shopping list .
 *MOT: right .
 *MOT: whatre you gonna write ?
@@ -210,7 +206,7 @@
 *MOT: write down onion .
 *MOT: Ive got two onions .
 *MOT: you could buy two onions .
-*CHI: Ive got two onions I]
+*CHI: Ive got two onions .
 *MOT: well hang on .
 *MOT: no .
 *MOT: you cant buy it yet .
@@ -258,7 +254,7 @@
 *CHI: thats what ?
 *CHI: Emily ?
 *MOT: thank you .
-*CHI: that Emily SR]
+*CHI: that Emily .
 *CHI: here you are  lady in the shop .
 *MOT: thank you .
 *MOT: www .
@@ -270,7 +266,7 @@
 *CHI: I dont like mushrooms .
 *MOT: oh .
 *MOT: garlic .
-*CHI: garlic I]
+*CHI: garlic ?
 *MOT: garlic .
 *MOT: you like garlic .
 *CHI: I dont like garlic .
@@ -282,23 +278,23 @@
 *MOT: pardon ?
 *CHI: um .
 *CHI: I went on a wet patch .
-*CHI: who did who did this ?
+*CHI: who did this ?
 *MOT: who did the wet patch ?
 *MOT: you ?
 *CHI: no .
 *CHI: I didnt .
 *MOT: mummy ?
 *MOT: was it mummy ?
-*CHI: was it mummy SR]
+*CHI: was it mummy ?
 *MOT: it was ?
 *CHI: oh dear .
-*CHI: oh dear SR]
-*CHI: oh dear SR]
+*CHI: oh dear .
+*CHI: oh dear .
 *CHI: whee .
 *CHI: lady in the shop .
 *MOT: yeah ?
 *MOT: what would you like now ?
-*CHI: is it is it getting light now ?
+*CHI: is it getting light now ?
 *MOT: yes .
 *MOT: thats why Im opening the curtains .
 *CHI: 0 .
@@ -309,7 +305,7 @@
 *CHI: you keep an eye on Abi  lady .
 *MOT: alright .
 *MOT: Ill keep an eye on Abi .
-*CHI: eye on Abi SR]
+*CHI: eye on Abi .
 *CHI: oh .
 *MOT: oh .
 *MOT: no post yet .
@@ -363,7 +359,7 @@
 *CHI: no .
 *CHI: 0I want Tinyc to come and play .
 *MOT: pardon ?
-*CHI: I want Tinyc to come and play SR]
+*CHI: I want Tinyc to come and play .
 *MOT: you want Tinyc to come and play ?
 *CHI: 0 .
 *MOT: there we are .
@@ -411,12 +407,12 @@
 *CHI: have you done that carrot ?
 *MOT: thank you .
 *CHI: cut it .
-*CHI: cut it SR]
-*CHI: cut it SR]
+*CHI: cut it .
+*CHI: cut it .
 *MOT: Im sorry .
 *MOT: well .
 *MOT: you do a mushroom then while Im cutting the carrot .
-*CHI: the carrot I]
+*CHI: the carrot .
 *MOT: now you wanna cut it .
 *MOT: oh .
 *MOT: whatve you done with the mushrooms ?
@@ -424,13 +420,11 @@
 *MOT: and the leek .
 *MOT: there .
 *MOT: put it in the bowl then .
-*CHI: there I]
+*CHI: there .
 *MOT: there .
 *MOT: are we done ?
 *MOT: are we done ?
 *MOT: put the timer on .
-*MOT: www .
-*CHI: um .
 *MOT: there .
 *MOT: are we gonna wash up the cutlery now ?
 *CHI: oy gonna have a drink now .
@@ -440,7 +434,7 @@
 *CHI: you put Amy her down .
 *CHI: I wanna pick her up .
 *MOT: pardon ?
-*CHI: pick her up SR]
+*CHI: pick her up .
 *MOT: you wanna pick her up ?
 *MOT: well .
 *MOT: shes a bit of a whingebagf .
@@ -462,7 +456,7 @@
 *MOT: dont you want any ?
 *CHI: I do .
 *MOT: oh .
-*MOT: some then PI]
+*MOT: some then ?
 *MOT: are you having the cake ?
 *CHI: I am .
 *MOT: right .
@@ -480,10 +474,9 @@
 *MOT: theres your spoon .
 *MOT: theres my spoon .
 *MOT: you ready ?
-*MOT: yum yum yum yum .
 *CHI: pour 0it .
-*CHI: pour 0it bowl SR]
-*CHI: pour 0it bowl SR]
+*CHI: pour 0it
+*CHI: pour 0it
 *MOT: pour in the bowl ?
 *MOT: yum yum yum yum .
 *CHI: mum ?
@@ -501,7 +494,7 @@
 *MOT: you eat some ?
 *MOT: youve eaten some now ?
 *CHI: no .
-*CHI: wheres the kitchen PI]
+*CHI: wheres the kitchen ?
 *CHI: its my birthday .
 *MOT: wow .
 *MOT: shall we sing happy birthday ?
@@ -542,8 +535,6 @@
 *CHI: this is yours .
 *MOT: thank you .
 *CHI: no .
-*CHI: that piece is yours .
-*MOT: thats Amys .
 *MOT: thank you .
 *CHI: hot .
 *MOT: yum yum yum .
@@ -551,7 +542,7 @@
 *MOT: that was yummy cake .
 *MOT: thank you .
 *CHI: oh .
-*CHI: yummy cake I]
+*CHI: yummy cake .
 *MOT: shall we wash up now ?
 *CHI: I let me have a rest .
 *MOT: let you have a rest .
@@ -566,13 +557,13 @@
 *MOT: bit of washing up liquid ?
 *MOT: hot water ?
 *CHI: hold on .
-*CHI: I wanna to do it .
+*CHI: I to do it .
 *MOT: you wanna do it ?
 *MOT: well .
 *MOT: when its done you put it in there  dont you  to drain on
 *MOT: are you cleaning the tap ?
 *CHI: yes .
-*CHI: do you wanna put PI]
+*CHI: do you wanna put .
 *MOT: okay .
 *CHI: this is too cold .
 *MOT: yes .
@@ -614,8 +605,7 @@
 *MOT: put them back in the fridge .
 *CHI: no .
 *MOT: please .
-*CHI: you put them back in the fridge .
-*MOT: no .
+*CHI: you put them back in the .
 *MOT: you do it .
 *MOT: Im doing other things .
 *CHI: you do the green one then .
@@ -625,18 +615,16 @@
 *MOT: no .
 *MOT: youre not having one more yoghurt  Lara .
 *MOT: you can have one after dinner .
-*CHI: one more I]
+*CHI: one more .
 *MOT: its not long until dinner .
-*MOT: you can have one after dinner .
-*CHI: please I IN]
 *CHI: please .
 *MOT: no .
-*CHI: please SR]
+*CHI: please .
 *MOT: no .
 *CHI: what 0are doing ?
 *MOT: trying to get all this playdough off the table .
-*CHI: I wanna IN]
-*CHI: playdough I]
+*CHI: I wanna .
+*CHI: playdough .
 *MOT: pardon ?
 *CHI: I wanna do it .
 *MOT: well .
@@ -646,8 +634,7 @@
 *MOT: go and get some paper or something .
 *MOT: get your crayons .
 *MOT: shall we draw Emma and Abi a picture to say thank you for your
-*MOT: for your books ?
-*CHI: not yet .
+*MOT: for ?
 *MOT: oh dear .
 *MOT: no .
 *MOT: thats a fork .
@@ -666,8 +653,6 @@
 *MOT: when youve  scrubbed it all up .
 *MOT: take it to the bin .
 *MOT: in the kitchen .
-*CHI: oh .
-*MOT: yes .
 *MOT: alright .
 *MOT: then .
 *MOT: drop it on the floor .
@@ -699,8 +684,6 @@
 *MOT: well .
 *MOT: that was silly .
 *CHI: 0 .
-*MOT: no .
-*MOT: come and sit here .
 *CHI: 0 .
 *MOT: 0 .
 *CHI: you have a glue after me .
@@ -708,7 +691,6 @@
 *CHI: I cant do it .
 *MOT: do you want me to take the lid off the glue ?
 *CHI: yeah .
-*MOT: yes IN]
 *CHI: yes please .
 *MOT: good girl .
 *CHI: can you do it in a minute ?
@@ -725,11 +707,11 @@
 *CHI: Ive done 0a drawing .
 *MOT: oh .
 *MOT: thats good .
-*CHI: thats what Jims picture .
+*CHI: Jims picture .
 *MOT: thats Jims picture .
 *MOT: shall I write Jim on it ?
 *MOT: okay .
-*MOT: who are you going to IN]
+*MOT: who are you going to .
 *CHI: Abi now .
 *MOT: Abi now .
 *MOT: right .
@@ -737,25 +719,25 @@
 *CHI: I need another pencil .
 *CHI: whats that ?
 *CHI: 0I need the orange .
-*CHI: I need this PI]
+*CHI: I need this .
 *MOT: okay .
-*CHI: can you see IN]
+*CHI: can you see .
 *CHI: whats that funny noise ?
 *MOT: that was just the door moving because of the wind .
 *MOT: because the windows open .
 *MOT: do you want me to get your stencils ?
 *MOT: yeah ?
 *MOT: okey dokey .
-*CHI: okey dokey I]
-*CHI: okey dokey SR]
-*CHI: okey dokey SR]
+*CHI: okey dokey .
+*CHI: okey dokey .
+*CHI: okey dokey .
 *CHI: okey dokeydoc .
 *CHI: 0 .
 *CHI: ah .
 *MOT: what ?
-*MOT: I think that ones IN]
+*MOT: I think that one's
 *MOT: ah .
-*MOT: I think that ones that needs to be thrown away  that one .
+*MOT: I think that needs to be thrown away  that one .
 *MOT: and this .
 *MOT: look .
 *MOT: theres a chalk in there .
@@ -773,8 +755,7 @@
 *MOT: pardon ?
 *CHI: next to that .
 *CHI: er .
-*CHI: the red one .
-*MOT: next to the red one .
+*CHI: the .
 *MOT: still think it needs throwing away  petal .
 *MOT: because its broken .
 *MOT: got a ruler so you can make straight lines .
@@ -803,7 +784,7 @@
 *MOT: like that ?
 *MOT: okay .
 *CHI: Ill hold it .
-*CHI: Ill hold it SR]
+*CHI: Ill hold it .
 *MOT: you hold it then .
 *CHI: there .
 *MOT: there .
@@ -815,14 +796,14 @@
 *MOT: listen .
 *CHI: what is it ?
 *MOT: pardon ?
-*CHI: what is it SR]
+*CHI: what is it ?
 *MOT: Sarah next door I think .
 *MOT: emptying her bin .
 *MOT: oh .
 *MOT: sorry .
 *CHI: seen a drawing on this one .
 *MOT: pardon ?
-*CHI: a drawing on this one SR]
+*CHI: a drawing on this one .
 *MOT: theres a drawing on that one and that one .
 *MOT: look .
 *MOT: and that one .
@@ -858,7 +839,7 @@
 *MOT: weve got some of your nappies there .
 *MOT: you dont use them any more  do you ?
 *MOT: theyre in the alcove .
-*CHI: in 0the alcove I]
+*CHI: in 0the
 *MOT: shall we keep them for when Amys a big girl ?
 *CHI: pardon ?
 *MOT: shall we keep those nappies for when Amys a big girl ?
@@ -875,10 +856,10 @@
 *MOT: there we go .
 *CHI: can you hold the paper for me ?
 *MOT: okay .
-*MOT: why dont we IN]
-*MOT: fold it and if you fold it IN]
+*MOT: why dont we
+*MOT: fold it and if you fold it
 *CHI: uhhuh ?
-*CHI: uhhuh SR]
+*CHI: uhhuh ?
 *MOT: then when you cut it it might make pretty patterns .
 *MOT: it might be a bit hard to cut up .
 *MOT: there .
@@ -908,7 +889,7 @@
 *MOT: look .
 *MOT: hello .
 *CHI: hello .
-*CHI: hes eat pencils .
+*CHI: pencils .
 *MOT: yum yum yum .
 *MOT: wheres my dinner gone ?
 *MOT: he says wheres my dinner gone ?
@@ -931,7 +912,7 @@
 *MOT: hang on then .
 *MOT: do you wanna fold it over again so we can see if we can make
 *CHI: no .
-*CHI: no SR]
+*CHI: no .
 *CHI: I think we will make Abi .
 *CHI: were gonna make Abi ?
 *MOT: okay .
@@ -941,9 +922,9 @@
 *MOT: please .
 *CHI: these are very sharp .
 *CHI: I cant cut .
-*CHI: these 0are very sharp SR]
+*CHI: these 0are
 *MOT: okay .
-*CHI: these 0are very sharp SR]
+*CHI: these 0are
 *MOT: are they ?
 *CHI: see ?
 *CHI: theyre sharp .
@@ -996,7 +977,7 @@
 *MOT: thatll do .
 *CHI: oh .
 *MOT: 0 .
-*MOT: shall we glue her onto some IN]
+*MOT: shall we glue her onto some .
 *MOT: shes got a pretty dress on like yours .
 *MOT: shall we glue her onto this plate ?
 *MOT: you pass me the glue then from the  floor .
@@ -1024,18 +1005,18 @@
 *CHI: look .
 *MOT: just need a bit more glue .
 *MOT: thats all .
-*CHI: bit more glue I]
+*CHI: bit more glue .
 *MOT: well .
 *MOT: no .
 *MOT: you dont hafta take her off .
-*MOT: you just IN]
+*MOT: you just .
 *MOT: look .
 *MOT: sort of pop the glue under there like that .
 *MOT: there .
 *MOT: do wanna put Lara on ?
 *MOT: theres Lara .
 *CHI: next to Abi ?
-*CHI: next to Abi SR]
+*CHI: next to Abi ?
 *MOT: uhhuh .
 *CHI: got some glue under Abi .
 *MOT: doesnt matter .
@@ -1052,7 +1033,7 @@
 *MOT: thats Lara .
 *MOT: she does not look like a spider .
 *MOT: looks like Lara .
-*CHI: is that Lara Lara got dress on ?
+*CHI: Lara got dress on ?
 *MOT: yes .
 *CHI: has Abi got dress on ?
 *MOT: mhm .
@@ -1060,7 +1041,6 @@
 *MOT: Abis a big girl .
 *MOT: sos Lara .
 *CHI: need more glue on .
-*MOT: where ?
 *MOT: under there ?
 *MOT: no .
 *MOT: you dont .
@@ -1076,7 +1056,7 @@
 *CHI: Abi and Lara .
 *MOT: shall we make  Humsah ?
 *CHI: no .
-*CHI: Abi and Lara again SR]
+*CHI: Abi and Lara again .
 *MOT: weve made Abi and Lara .
 *MOT: what about Emily .
 *CHI: Emily next to Abi .
@@ -1089,15 +1069,13 @@
 *MOT: what a surprise .
 *CHI: can you do it ?
 *MOT: what ?
-*CHI: you do glue .
-*MOT: youve done it .
 *CHI: yes .
 *MOT: youve done it .
 *CHI: Emilys gonna have lots and lots .
 *MOT: good .
 *CHI: just doing a little bit .
 *MOT: I thought she was going to have lots and lots ?
-*CHI: yes SR]
+*CHI: yes .
 *MOT: Emilys quite big  isnt she ?
 *MOT: so shell probably need lots and lots .
 *MOT: there we go .
@@ -1144,9 +1122,9 @@
 *MOT: remember she hasta lie down  Amy .
 *MOT: she doesnt stand up  does she ?
 *CHI: er .
-*CHI: er SR]
-*CHI: er SR]
-*CHI: er SR]
+*CHI: er .
+*CHI: er .
+*CHI: er .
 *CHI: and Cesca and and Phoebe ?
 *MOT: and Cesca and Phoebe ?
 *MOT: alright then .
@@ -1157,10 +1135,10 @@
 *MOT: uhhuh .
 *CHI: who 0are doing ?
 *MOT: Im doing Cesca .
-*CHI: think Ill put PI]
+*CHI: think Ill put .
 *CHI: isnt room for Cesca .
 *MOT: there is room for Cesca because shes only little too .
-*MOT: and shes got PI]
+*MOT: and shes got .
 *CHI: isnt isnt for Emilys sister .
 *MOT: isnt there ?
 *CHI: no .
@@ -1169,10 +1147,9 @@
 *MOT: I think there is .
 *MOT: can we put Phoebe there ?
 *MOT: shall I make Phoebe ?
-*CHI: is is this IN]
 *CHI: whats that ?
 *MOT: Abi .
-*CHI: whats that SR]
+*CHI: whats that ?
 *MOT: thats Emily .
 *CHI: wheres wheres Jim then ?
 *MOT: well .
@@ -1196,9 +1173,6 @@
 *MOT: who else do you like ?
 *MOT: gonna ?
 *CHI: no .
-*CHI: no SR]
-*CHI: I have not done it yet .
-*MOT: no ?
 *MOT: okay .
 *CHI: you hold it .
 *MOT: I know who you like .

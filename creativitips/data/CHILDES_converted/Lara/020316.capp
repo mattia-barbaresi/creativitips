@@ -22,7 +22,7 @@
 *MOT: coleslaw .
 *MOT: oh .
 *MOT: yummy yummy .
-*CHI: here you are SR]
+*CHI: here you are .
 *MOT: there you are Tiny .
 *MOT: what about Rosie ?
 *CHI: Rosies got this one .
@@ -35,7 +35,7 @@
 *MOT: youll put them in the fridge ?
 *CHI: yes .
 *MOT: for later ?
-*CHI: yes SR]
+*CHI: yes .
 *MOT: okay .
 *MOT: okay .
 *MOT: done it ?
@@ -50,7 +50,7 @@
 *MOT: are you alright ?
 *MOT: have you put all the cups and saucers in the fridge ?
 *CHI: yes .
-*MOT: do you want why dont we put them all in the box and then
+*MOT: why dont we put them all in the box and then
 *MOT: is that a good idea ?
 *CHI: yes .
 *MOT: oh sorry .
@@ -70,8 +70,8 @@
 *MOT: the box cant fit .
 *CHI: boxes cant fit .
 *MOT: pardon ?
-*CHI: boxes cant fit SR]
-*MOT: why dont you go to the take the box to the fridge and then
+*CHI: boxes cant fit .
+*MOT: why dont you take the box to the fridge and then
 *MOT: no .
 *MOT: I mean in the kitchen .
 *MOT: you could do that  couldnt you ?
@@ -81,8 +81,8 @@
 *CHI: Ive got birthday cake in here .
 *MOT: yes .
 *CHI: night night .
-*CHI: night night SR]
-*CHI: night night SR]
+*CHI: night night .
+*CHI: night night .
 *MOT: whos going to sleep ?
 *CHI: daddy .
 *MOT: daddy ?
@@ -102,25 +102,25 @@
 *CHI: night night .
 *MOT: night night  Rosie .
 *MOT: are you going to sing to her ?
-*MOT: sing Rockabye Baby R]
+*MOT: sing Rockabye Baby .
 *CHI: alright .
 *MOT: are they alright ?
 *MOT: do you want me to tighten them ?
 *MOT: okay .
 *MOT: take the birthday cake out .
-*MOT: baby toys PI]
+*MOT: baby toys .
 *CHI: right .
 *MOT: there .
 *MOT: move it now then .
 *CHI: wheres it gone ?
 *MOT: its in Rosies skirt !
-*CHI: got PI]
+*CHI: got .
 *MOT: have you ?
 *MOT: just shake Rosie about a bit and itll come out .
 *CHI: it 0is coming out !
 *MOT: good .
 *CHI: grandmas bringing a bigger one .
-*CHI: grandmas bringing a bigger one SR]
+*CHI: grandmas bringing a bigger one .
 *MOT: not a birthday cake .
 *MOT: grandmas bringing a big tambourine .
 *MOT: shes not bringing you a big birthday cake .
@@ -147,7 +147,7 @@
 *MOT: well .
 *MOT: Im gonna take them away then .
 *MOT: if you take them off mummys taking them away .
-*CHI: mummy take them away I]
+*CHI: mummy take them away .
 *MOT: well .
 *MOT: give them to me and Ill take them away .
 *CHI: there .
@@ -172,12 +172,12 @@
 *MOT: bless you .
 *MOT: oh .
 *CHI: you you sitting on .
-*CHI: you sitting on PI]
+*CHI: you sitting on .
 *MOT: Im not sitting on anything .
 *CHI: you move .
-*CHI: you move SR]
+*CHI: you move .
 *MOT: Im not sitting on anything .
-*CHI: you sitting on PI]
+*CHI: you sitting on .
 *MOT: well .
 *MOT: I am sitting on something now because you just put it there .
 *MOT: apple .
@@ -199,7 +199,7 @@
 *MOT: thank you .
 *MOT: ooh .
 *CHI: make a field .
-*MOT: yes but IN]
+*MOT: yes but .
 *MOT: yes .
 *MOT: okay .
 *MOT: make horsie field .
@@ -208,8 +208,8 @@
 *MOT: yes .
 *MOT: I thought it would slip off .
 *CHI: mummy go on it .
-*MOT: mummy cant because mummys too IN]
-*MOT: mummys too IN]
+*MOT: mummy cant because mummys too +..?
+*MOT: mummys too +..?
 *MOT: big .
 *CHI: no .
 *MOT: I am .
@@ -244,7 +244,7 @@
 *MOT: orange .
 *CHI: mummy have another apple ?
 *CHI: mummy go like this ?
-*CHI: mum SR]
+*CHI: mum ?
 *MOT: yes ?
 *MOT: oh .
 *MOT: where did that go ?
@@ -259,7 +259,7 @@
 *MOT: youve just got my orange though .
 *MOT: okay .
 *MOT: oh .
-*CHI: over there PI]
+*CHI: over there .
 *MOT: one over there .
 *MOT: yes .
 *CHI: right .
@@ -286,7 +286,7 @@
 *MOT: you want your jelly shoes ?
 *MOT: okay .
 *MOT: hang on .
-*CHI: I want my IN]
+*CHI: I want my
 *MOT: no .
 *MOT: okay .
 *MOT: what whats the matter ?
@@ -295,6 +295,6 @@
 *MOT: no .
 *CHI: want snack .
 *CHI: 0 .
-*CHI: want snack SR]
+*CHI: want snack .
 *MOT: dont throw it .
 *MOT: put it in the bin .

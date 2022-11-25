@@ -15,7 +15,7 @@
 *CHI: yes .
 *MOT: oh its to clean it  is it ?
 *CHI: I needta clean it .
-*CHI: neenawo neenawo neenawo .
+*CHI: neenawo .
 *CHI: I go and get the fireengine .
 *MOT: yeah look .
 *MOT: yeah look .
@@ -50,7 +50,7 @@
 *CHI: thats Percy the
 *CHI: thats Percy and Toby .
 *CHI: I need get them out .
-*CHI: thats whats that one ?
+*CHI: whats that one ?
 *CHI: what is that one ?
 *MOT: well hafta put it together to find out .
 *MOT: thats not right  is it ?
@@ -118,7 +118,7 @@
 *CHI: this is about Thomas .
 *CHI: about Thomas Tank .
 *CHI: and this is James .
-*CHI: I needta find find the Fat Controller .
+*CHI: I find the Fat Controller .
 *MOT: um I dont know .
 *MOT: Ive seen him somewhere .
 *MOT: I think hes in your box up there .
@@ -275,7 +275,7 @@
 *CHI: Toby .
 *CHI: Thomas .
 *CHI: James .
-*MOT: what number what numbers James ?
+*MOT: what numbers James ?
 *CHI: that is five James .
 *MOT: good boy .
 *MOT: thats right .
@@ -293,7 +293,7 @@
 *CHI: and Thomas and James .
 *CHI: can you do that ?
 *CHI: what is that ?
-*MOT: thats off your thats off your um train upstairs .
+*MOT: thats off your um train upstairs .
 *CHI: thats where the track goes .
 *MOT: thats right .
 *MOT: thats the track .
@@ -345,7 +345,7 @@
 *CHI: I cant find the pig .
 *CHI: I cant .
 *CHI: theres Spot .
-*MOT: thats Spots thats Spots Daddy .
+*MOT: thats Spots Daddy .
 *MOT: thats not Spot on the tractor .
 *CHI: thats Spots Daddy .
 *CHI: uhoh .
@@ -378,7 +378,6 @@
 *CHI: that babys Mummy .
 *MOT: well Mummy then .
 *MOT: can you find the babys Mummy ?
-*MOT: whats that that
 *CHI: thats Daddys Mummy .
 *CHI: thats Daddy .
 *MOT: oh youve found it .
@@ -592,7 +591,7 @@
 *CHI: goes up the sky .
 *CHI: brummo .
 *CHI: round .
-*CHI: round and round and round .
+*CHI: round .
 *MOT: do you want one of these ?
 *CHI: yes .
 *MOT: is that a yes ?
@@ -609,7 +608,7 @@
 *CHI: this is a rocket .
 *CHI: this is a rocket  Mummy .
 *MOT: a rocket .
-*CHI: this this this this this .
+*CHI: this .
 *MOT: did you make it ?
 *CHI: yes .
 *CHI: its go up the sky .
@@ -689,7 +688,7 @@
 *MOT: wheres Carl gone ?
 *MOT: oh there he is .
 *MOT: dont kick please .
-*CHI: I go that I did that pillow .
+*CHI: I did that pillow .
 *CHI: bump .
 *MOT: you need your hair brushing  Carl .
 *MOT: wheres your hairbrush ?
@@ -703,7 +702,7 @@
 *CHI: whee .
 *MOT: ow .
 *CHI: whee .
-*CHI: round and round and round and round and round and round and
+*CHI: round and
 *MOT: oh .
 *MOT: youll make Mummy dizzy .
 *CHI: the the helicopter .
@@ -747,7 +746,7 @@
 *CHI: yes .
 *MOT: no .
 *MOT: listen .
-*MOT: what do I said what do you wanna play with ?
+*MOT: I said what do you wanna play with ?
 *CHI: whats on that picture ?
 *CHI: whats that picture ?
 *MOT: what do you think that is then ?
@@ -764,7 +763,7 @@
 *CHI: wanna play ?
 *MOT: I wanna play yeah .
 *CHI: you wanna play ?
-*CHI: thats a thats a duck .
+*CHI: thats a duck .
 *MOT: mhm .
 *MOT: hes in the water .
 *CHI: plop .
@@ -828,7 +827,7 @@
 *CHI: no .
 *MOT: whos that here ?
 *MOT: that man .
-*CHI: thats the Fat thats the Fat Controller .
+*CHI: thats the Fat Controller .
 *CHI: but whos that ?
 *MOT: whos the man next to Thomas ?
 *CHI: thats the driver Thomas and thats Jamess driver .
@@ -942,8 +941,8 @@
 *CHI: uhoh .
 *CHI: the train go down .
 *CHI: the train crash down the hill .
-*CHI: train train train train train train .
-*CHI: train train train train train track .
+*CHI: train .
+*CHI: train track .
 *CHI: train track .
 *CHI: choochooo .
 *CHI: on the bridge .
@@ -1030,7 +1029,7 @@
 *CHI: come on .
 *CHI: pull .
 *CHI: pull .
-*CHI: pull pull pull .
+*CHI: pull .
 *CHI: come on train .
 *CHI: lets go down the line .
 *CHI: come on train .
@@ -1129,7 +1128,7 @@
 *MOT: well you make it .
 *MOT: you make the petrol station .
 *CHI: the cars .
-*CHI: the cars go under under the bridge .
+*CHI: under the bridge .
 *MOT: you make a petrol station  Carl .
 *CHI: I needta get the car .
 *CHI: oh look .
@@ -1158,7 +1157,7 @@
 *CHI: he run under the bridge .
 *CHI: he stop .
 *CHI: the train under the bridge .
-*CHI: the car train run under the petrol station .
+*CHI: the car train the petrol station .
 *CHI: glugglugglugo in the train .
 *CHI: thanks said the train .
 *CHI: I run under the bridge .
@@ -1272,7 +1271,7 @@
 *CHI: uhoh .
 *CHI: wheres the crane gone ?
 *MOT: I dont know .
-*MOT: it broke its broken .
+*MOT: its broken .
 *CHI: uhoh .
 *CHI: its broken the cars .
 *CHI: uhoh .
@@ -1286,7 +1285,7 @@
 *CHI: you cant go down the slide .
 *CHI: oh naughty Fat Controller said .
 *CHI: not anymore said the train .
-*CHI: I want go I want go to get the petrol crane .
+*CHI: I want go to get the petrol crane .
 *CHI: oh he get a bigger crane .
 *CHI: oh .
 *CHI: coming .
@@ -1370,10 +1369,10 @@
 *CHI: because they not have anymore .
 *CHI: they not have anymore .
 *MOT: I thought you liked it at Nana and Granddads .
-*CHI: no no no no no .
+*CHI: no .
 *MOT: you do .
 *CHI: I not .
-*CHI: Percys got the get the driver in there .
+*CHI: Percys get the driver in there .
 *CHI: they going to see in there .
 *MOT: didnt you go and see Nana Doris as well  Carl ?
 *CHI: no .
@@ -1451,20 +1450,20 @@
 *MOT: I can get that out .
 *CHI: clever Mummy .
 *CHI: I need dunk in the milk .
-*CHI: dunk dunk dunk dunk dunk dunk dunk .
-*CHI: dunk dunk dunk .
+*CHI: dunk .
+*CHI: dunk .
 *MOT: you want some milk for dunking ?
-*CHI: dunk dunk dunk .
+*CHI: dunk .
 *MOT: ugh .
-*CHI: yes yes yes yes please .
-*CHI: needta dunk dunk dunk dunk .
+*CHI: yes please .
+*CHI: needta dunk .
 *INV: you needta dunk your biscuits  do you ?
-*CHI: yes yes yes please .
+*CHI: yes please .
 *CHI: crash .
 *CHI: bump .
 *MOT: here we go .
 *CHI: bump .
-*CHI: yeah yeah yeah .
+*CHI: yeah .
 *MOT: right .
 *MOT: put it on there .
 *CHI: no .

@@ -1,8 +1,8 @@
 *MOT: mummys making a cup of tea .
-*CHI: mummy cup of tea I]
+*CHI: mummy cup of tea .
 *CHI: mummy toast .
 *MOT: mummys toast is still in the toaster .
-*CHI: mummy toast SR]
+*CHI: mummy toast .
 *MOT: still in the toaster .
 *CHI: yes .
 *MOT: hm ?
@@ -27,7 +27,7 @@
 *MOT: put that there ?
 *CHI: fall out .
 *MOT: pardon ?
-*CHI: fall out PI]
+*CHI: fall out .
 *MOT: fall out ?
 *CHI: yes .
 *MOT: what fell out .
@@ -40,41 +40,41 @@
 *MOT: mummys gonna get her own toast .
 *CHI: mummy have .
 *MOT: pardon ?
-*CHI: mummy SR]
-*CHI: mummy SR]
+*CHI: mummy .
+*CHI: mummy .
 *CHI: come here .
 *CHI: Lara juice juicef .
-*CHI: having juice juicef PI]
-*CHI: having juice juicef SR]
+*CHI: having juice juice@f
+*CHI: having juice juice@f
 *CHI: I 0am good girl .
-*CHI: mummy have juice juicef PI]
+*CHI: mummy have juice juice@f
 *MOT: pardon ?
 *MOT: whos coming to see you this afternoon ?
 *CHI: Emma Jim .
 *MOT: no .
-*MOT: Emma and IN]
+*MOT: Emma and
 *CHI: Abi .
 *MOT: yes .
 *MOT: are you going to let Abi play with your toys ?
 *CHI: no .
-*CHI: no SR]
+*CHI: no .
 *MOT: why not ?
 *MOT: are you going to let Abi play with your toys ?
-*CHI: no SR]
-*CHI: no SR]
+*CHI: no .
+*CHI: no .
 *MOT: please .
 *CHI: Lara play toys .
 *MOT: and Abi play toys .
-*CHI: no SR]
+*CHI: no .
 *MOT: Abi and Lara play with your toys .
-*CHI: no SR]
+*CHI: no .
 *MOT: yes .
-*CHI: no SR]
+*CHI: no .
 *MOT: Abi wont come then .
-*CHI: no SR]
+*CHI: no .
 *MOT: no .
 *CHI: no .
-*CHI: see Emily PI]
+*CHI: see Emily .
 *MOT: Emma ?
 *MOT: Emily ?
 *CHI: yes .
@@ -83,19 +83,19 @@
 *MOT: Abi wants to play with your toys .
 *CHI: no .
 *MOT: please .
-*CHI: no SR]
+*CHI: no .
 *MOT: are you gonna be a good girl ?
-*CHI: no SR]
+*CHI: no .
 *MOT: youre not ?
-*CHI: no SR]
+*CHI: no .
 *MOT: shall mummy ring Abi up and tell her not to come ?
 *CHI: yes .
 *MOT: you dont want Abi to come ?
-*CHI: yes SR]
+*CHI: yes .
 *MOT: you do want Abi to come ?
 *CHI: no .
 *MOT: you dont .
-*CHI: yes SR]
+*CHI: yes .
 *MOT: why not ?
 *CHI: Lara play toys .
 *MOT: yes .
@@ -103,42 +103,42 @@
 *CHI: no .
 *MOT: its a nice day .
 *MOT: you could play with Abi in the garden .
-*CHI: no SR]
+*CHI: no .
 *MOT: wanna play with Abi in the garden ?
 *CHI: mummy .
 *MOT: do you wanna play with Abi in the garden as well as mummy ?
 *CHI: yes .
 *MOT: and Emma ?
-*CHI: yes SR]
+*CHI: yes .
 *MOT: well .
 *MOT: in that case youve got to let Abi play with your toys .
 *CHI: no .
 *MOT: well .
 *MOT: then you cant play in the garden .
 *MOT: if you dont let Abi play with your toys mummyll sit you on the
-*CHI: no SR]
+*CHI: no .
 *MOT: mhm .
-*CHI: no SR]
+*CHI: no .
 *MOT: mhm .
-*CHI: no SR]
-*CHI: no SR]
+*CHI: no .
+*CHI: no .
 *MOT: well .
 *MOT: let Abi play with your toys .
-*CHI: no SR]
-*CHI: no SR]
+*CHI: no .
+*CHI: no .
 *MOT: yes yes yes yes .
-*CHI: no no no no no SR]
+*CHI: no no no no no .
 *MOT: mhm .
 *MOT: no .
 *MOT: Abi and Lara play with the toys .
-*CHI: no SR]
+*CHI: no .
 *MOT: yes .
-*CHI: no no no no no no SR]
+*CHI: no no no no no no .
 *MOT: yes .
-*CHI: no no no no SR]
+*CHI: no no no no .
 *MOT: yes yes yes yes .
 *MOT: yes yes yes yes yes .
-*CHI: no no no SR]
+*CHI: no no no .
 *MOT: pardon ?
 *MOT: no digger ?
 *CHI: yes .
@@ -146,11 +146,11 @@
 *CHI: hurt .
 *MOT: does it ?
 *MOT: shall we put some cream on it ?
-*CHI: yes SR]
+*CHI: yes .
 *MOT: okay .
 *MOT: after breakfast .
 *CHI: no .
-*CHI: no SR]
+*CHI: no .
 *CHI: scratch .
 *MOT: are you scratching it ?
 *CHI: mhm .
@@ -165,7 +165,7 @@
 *MOT: put it on the table .
 *CHI: eat dinner .
 *MOT: hm ?
-*CHI: eat dinner SR]
+*CHI: eat dinner .
 *MOT: yes .
 *MOT: you can eat your dinner without your bib because its only toast
 *MOT: and it doesnt really get dirty .
@@ -175,16 +175,16 @@
 *CHI: there .
 *CHI: fall down .
 *CHI: fall down .
-*CHI: baby PI]
-*CHI: baby SR]
+*CHI: baby .
+*CHI: baby .
 *MOT: a teddy .
 *MOT: aah .
 *CHI: nose .
 *MOT: mhm .
 *CHI: eyes .
-*CHI: nose SR]
-*CHI: nose SR]
-*CHI: eyes SR]
+*CHI: nose .
+*CHI: nose .
+*CHI: eyes .
 *MOT: nose eyes .
 *MOT: whats this ?
 *CHI: ear .
@@ -206,8 +206,8 @@
 *MOT: its like a clock .
 *CHI: there .
 *MOT: dont touch .
-*CHI: tick tock SR]
-*CHI: tick tock SR]
+*CHI: tick tock .
+*CHI: tick tock .
 *MOT: tick tock .
 *CHI: whats that ?
 *CHI: whats that ?
@@ -215,18 +215,18 @@
 *MOT: what did I say ?
 *MOT: dont touch .
 *CHI: that .
-*CHI: that SR]
-*CHI: that SR]
-*CHI: that SR]
+*CHI: that .
+*CHI: that .
+*CHI: that .
 *MOT: Lara .
 *MOT: do you wanna sit on the naughty chair ?
-*CHI: that SR]
+*CHI: that .
 *MOT: Lara .
-*CHI: that SR]
+*CHI: that .
 *MOT: stop it .
-*CHI: that SR]
+*CHI: that .
 *MOT: I said dont touch .
-*CHI: that SR]
+*CHI: that .
 *MOT: I said dont touch .
 *MOT: now stop it .
 *CHI: 0 .
@@ -236,36 +236,36 @@
 *CHI: mummy .
 *MOT: yes .
 *CHI: mummy play there .
-*CHI: mummy play there SR]
+*CHI: mummy play there .
 *MOT: mummy to play what ?
 *MOT: here ?
 *CHI: yes .
 *MOT: mummy play here ?
-*CHI: yes SR]
+*CHI: yes .
 *MOT: alright then .
 *CHI: mummy bring the table .
 *MOT: you want me to bring the table ?
 *CHI: yes .
 *CHI: bring in there .
 *MOT: pardon ?
-*CHI: in there SR]
+*CHI: in there .
 *MOT: in there ?
 *CHI: yes .
 *MOT: I put the table in there ?
-*CHI: yes SR]
+*CHI: yes .
 *CHI: look  mummy .
-*CHI: look  mummy SR]
+*CHI: look  mummy .
 *CHI: Lara .
 *MOT: oh .
-*CHI: Lara SR]
-*CHI: Lara SR]
+*CHI: Lara .
+*CHI: Lara .
 *CHI: that Laras .
-*CHI: that Laras SR]
+*CHI: that Laras .
 *MOT: thats mummys .
 *MOT: put it down  you little minx .
-*CHI: that Laras SR]
+*CHI: that Laras .
 *CHI: juice juicef .
-*CHI: juice juicef SR]
+*CHI: juice juice@f
 *MOT: well .
 *MOT: theyre a bit big  arent they ?
 *CHI: get through .
@@ -285,7 +285,7 @@
 *CHI: no .
 *CHI: mum move .
 *MOT: I didnt move .
-*CHI: mum move SR]
+*CHI: mum move .
 *CHI: hello .
 *MOT: hello .
 *CHI: field .
@@ -304,9 +304,9 @@
 *CHI: Lara .
 *CHI: hello .
 *MOT: hello .
-*CHI: hello SR]
-*CHI: hello SR]
-*CHI: hello SR]
+*CHI: hello .
+*CHI: hello .
+*CHI: hello .
 *CHI: bye bye  moo .
 *CHI: bye bye  moo .
 *MOT: wheres moo ?
@@ -326,7 +326,6 @@
 *MOT: shall mummy  pour them out then .
 *CHI: dinner .
 *CHI: dinner house .
-*CHI: dinner SR]
 *MOT: please can I have some dinner ?
 *CHI: yes .
 *MOT: where is it ?
@@ -335,8 +334,7 @@
 *MOT: thank you .
 *MOT: yum yum yum .
 *CHI: dinner .
-*CHI: dinner SR]
-*CHI: more dinner SR]
+*CHI: more dinner
 *MOT: can I have some more dinner ?
 *CHI: yes .
 *MOT: where is it ?
@@ -355,33 +353,29 @@
 *MOT: you threw it on the floor .
 *MOT: you pick it up .
 *CHI: Dadaw .
-*CHI: Dadaw SR]
+*CHI: Dadaw .
 *CHI: mummy .
 *MOT: and theres no grandparents round here to do your jobs for you .
 *MOT: you pick it up .
-*CHI: mummy PI]
-*CHI: mummy round there .
+*CHI: mummy .
+*CHI: mummy .
 *MOT: no .
 *MOT: Lara pick it up .
-*CHI: no I]
+*CHI: no .
 *MOT: well .
 *MOT: moos staying on the floor then .
-*CHI: moo I]
-*CHI: moo SR]
+*CHI: moo .
+*CHI: moo .
 *MOT: good girl .
 *CHI: dinner .
-*CHI: dinner SR]
-*CHI: dinner SR]
-*CHI: dinner SR]
 *MOT: what happened ?
-*CHI: dinner SR]
 *CHI: look .
 *CHI: all fall down .
 *MOT: it did .
 *MOT: yes .
 *CHI: mummy pick up .
 *CHI: mummy play animals .
-*CHI: mummy play animals SR]
+*CHI: mummy play animals .
 *MOT: Lara play it up .
 *CHI: mummy play .
 *MOT: I am playing animals .
@@ -394,11 +388,11 @@
 *MOT: thank you .
 *CHI: meowo .
 *MOT: meowo .
-*CHI: meowo SR]
+*CHI: meowo .
 *MOT: oh .
 *MOT: penguins underneath as well .
 *MOT: thats novel .
-*CHI: meowo SR]
+*CHI: meowo .
 *MOT: what do penguins do ?
 *CHI: hello .
 *MOT: hello .
@@ -407,39 +401,39 @@
 *MOT: are you being attacked by a penguin ?
 *CHI: hello .
 *MOT: hello .
-*CHI: hello SR]
+*CHI: hello .
 *MOT: hello .
 *MOT: oh .
 *CHI: more .
 *MOT: penguins being attacked by the cow now .
-*CHI: hello I]
+*CHI: hello .
 *MOT: hello .
 *CHI: there .
 *MOT: mhm .
-*CHI: moo PI]
+*CHI: moo .
 *MOT: can you get the animals dinner rl ?
 *CHI: yes .
 *MOT: from the floor ?
-*CHI: yes SR]
+*CHI: yes .
 *MOT: pick it up .
 *MOT: good girl .
 *MOT: mm .
 *MOT: yum yum .
 *MOT: no .
 *MOT: youll spill it .
-*CHI: no I]
+*CHI: no .
 *MOT: okay .
 *MOT: turn it on the table .
 *CHI: more table .
 *MOT: mhm .
-*CHI: more table SR]
+*CHI: more table .
 *CHI: I 0have done more table .
 *CHI: mummy sit down more table .
 *CHI: you sit more table .
 *MOT: more table ?
 *CHI: yes .
 *MOT: I dont think you know what youre talking about .
-*CHI: more table SR]
+*CHI: more table .
 *MOT: thats table .
 *CHI: thats more table .
 *MOT: you mean thats a table and thats more table ?
@@ -452,31 +446,31 @@
 *CHI: yes .
 *MOT: oy .
 *MOT: yum yum .
-*CHI: yum yum I]
+*CHI: yum yum .
 *CHI: dinner .
 *MOT: Ive finished now thank you .
 *CHI: more ?
-*CHI: more SR]
+*CHI: more ?
 *MOT: more please .
 *MOT: meany .
 *MOT: meany .
-*CHI: floor PI]
+*CHI: floor .
 *MOT: mhm .
 *CHI: Lara get .
 *MOT: Lara .
 *CHI: bye bye .
 *MOT: bye bye .
 *CHI: animals go away .
-*CHI: more PI]
-*CHI: bye bye SR]
-*CHI: bye bye SR]
+*CHI: more .
+*CHI: bye bye .
+*CHI: bye bye .
 *MOT: knock on the door .
 *MOT: can I come in ?
 *CHI: yes .
 *MOT: thank you .
 *CHI: more .
 *MOT: thank you .
-*CHI: more SR]
+*CHI: more .
 *MOT: can I come in ?
 *MOT: thank you .
 *MOT: can I come in ?
@@ -496,7 +490,7 @@
 *MOT: whats this ?
 *CHI: baby grr .
 *MOT: baby what ?
-*CHI: baby grr SR]
+*CHI: baby grr .
 *MOT: no .
 *MOT: what is it ?
 *CHI: baby baa .
@@ -508,17 +502,17 @@
 *MOT: Im the police .
 *MOT: can I come in ?
 *MOT: better not shut the door on the law .
-*CHI: more SR]
+*CHI: more .
 *MOT: Im a big elephant .
 *MOT: Im gonna tickle Lara .
-*MOT: Im PI]
+*MOT: Im .
 *MOT: ah !
 *MOT: I wanna tickle Lara .
 *CHI: this way .
 *MOT: no .
-*CHI: this way SR]
+*CHI: this way .
 *MOT: no .
-*CHI: this way SR]
+*CHI: this way .
 *MOT: no .
 *MOT: youll hafta give me a kiss first .
 *CHI: more .
@@ -536,10 +530,10 @@
 *CHI: more animal .
 *CHI: no mummy tissue .
 *MOT: it is mummys tissues .
-*CHI: no mummy tissue SR]
+*CHI: no mummy tissue .
 *MOT: youre a meany .
 *CHI: baa .
-*CHI: baa SR]
+*CHI: baa .
 *MOT: can I come in ?
 *CHI: yes .
 *MOT: well .
@@ -549,20 +543,20 @@
 *CHI: in there .
 *MOT: in there ?
 *CHI: no .
-*CHI: in there SR]
+*CHI: in there .
 *MOT: well .
 *MOT: where can he go ?
 *CHI: there .
 *CHI: bye bye .
 *CHI: more .
-*CHI: more SR]
+*CHI: more .
 *MOT: can I come in ?
 *CHI: yes .
 *MOT: open the door please .
 *CHI: more animal .
 *MOT: theres only the ducks left .
 *CHI: more .
-*CHI: more SR]
+*CHI: more .
 *MOT: do you wanna get that  cow off the floor ?
 *CHI: no .
 *MOT: all gone then .
@@ -576,12 +570,12 @@
 *MOT: hello .
 *CHI: peepboc  animals .
 *MOT: peepboc .
-*CHI: peepboc  animals SR]
+*CHI: peepboc  animals .
 *MOT: peepboc .
 *MOT: peepboc .
 *MOT: peepboc .
 *MOT: peepboc .
-*CHI: peepboc SR]
+*CHI: peepboc .
 *CHI: hello .
 *MOT: hello .
 *CHI: see .
@@ -591,10 +585,10 @@
 *MOT: no !
 *CHI: mummy get out .
 *MOT: you get them out then .
-*CHI: mummy get out SR]
+*CHI: mummy get out .
 *MOT: oh .
 *MOT: you get them out .
-*CHI: mummy get out SR]
+*CHI: mummy get out .
 *MOT: mummys having her cup of tea .
 *MOT: Lara get them out .
 *CHI: juice juicef .
@@ -611,7 +605,7 @@
 *MOT: you can play with them as well .
 *CHI: no .
 *MOT: youll go on the naughty chair .
-*CHI: no Abi baby PI]
+*CHI: no Abi baby .
 *MOT: Lara .
 *MOT: do you want Abi to come and play ?
 *CHI: no .
@@ -636,19 +630,19 @@
 *MOT: were going to let Abi play with your toys and youre not going to
 *CHI: no everybody play toys .
 *CHI: this one .
-*CHI: this one SR]
-*CHI: this one SR]
+*CHI: this one .
+*CHI: this one .
 *MOT: whats them ?
-*CHI: this one SR]
+*CHI: this one .
 *MOT: what are they ?
-*CHI: this one SR]
+*CHI: this one .
 *MOT: holes for the fences .
 *MOT: yes .
 *MOT: clever girl .
 *CHI: go round .
 *MOT: turn round .
 *CHI: yes .
-*CHI: yes SR]
+*CHI: yes .
 *MOT: okay .
 *MOT: good girl .
 *CHI: more ?
@@ -666,7 +660,7 @@
 *MOT: baby pig .
 *CHI: more .
 *MOT: oh no .
-*MOT: there doesnt we dont need that one .
+*MOT: we dont need that one .
 *MOT: thats a spare one .
 *MOT: oh .
 *MOT: it can go there if you want I suppose .
@@ -699,15 +693,15 @@
 *MOT: we have been playing animals .
 *CHI: mummy play animals .
 *MOT: Im not playing on my own .
-*CHI: mummy play animals SR]
+*CHI: mummy play animals .
 *MOT: yes .
 *MOT: when Laras finished eating her breakfast again .
 *MOT: anyway these animals are a bit boring .
 *CHI: yes .
 *MOT: they are  arent they ?
 *CHI: Lara boring .
-*MOT: do you wanna play some IN]
-*CHI: Lara boring SR]
+*MOT: do you wanna play some .
+*CHI: Lara boring .
 *MOT: no .
 *MOT: youre not boring .
 *MOT: the animals are boring .
@@ -716,7 +710,7 @@
 *CHI: yes .
 *MOT: okay .
 *MOT: shall we play with this jigsaw clock ?
-*CHI: yes SR]
+*CHI: yes .
 *MOT: come and sit here then .
 *MOT: come and sit next to mummy .
 *MOT: oh .
@@ -725,7 +719,7 @@
 *MOT: right .
 *MOT: shall we take them out ?
 *CHI: yes .
-*CHI: Lara PI]
+*CHI: Lara .
 *MOT: right then .
 *MOT: oh good girl .
 *MOT: yes .
@@ -775,26 +769,24 @@
 *CHI: more ?
 *MOT: more ?
 *CHI: thats more .
-*CHI: thats more SR]
+*CHI: thats more .
 *MOT: no .
 *MOT: theres three more .
 *MOT: oh dear .
 *CHI: oh dear .
-*CHI: fall down .
-*MOT: there we are .
-*CHI: there PI]
+*CHI: there .
 *MOT: that in there .
 *CHI: more .
 *MOT: more ?
 *MOT: thats it .
 *MOT: one more .
 *MOT: last one now .
-*CHI: last one I]
+*CHI: last one .
 *MOT: last one .
 *MOT: there .
 *MOT: and can you count them ?
-*MOT: one R]
-*CHI: two three four eight nine ten out R]
+*MOT: one .
+*CHI: two three four eight nine ten out .
 *MOT: what happened to five six and seven ?
 *CHI: yes .
 *MOT: what happened to five six and seven ?
@@ -804,19 +796,19 @@
 *MOT: careful .
 *MOT: that ones a boring one though .
 *MOT: this one goes down .
-*CHI: that I]
+*CHI: that .
 *MOT: thats boring .
 *MOT: that just goes squeak .
-*CHI: that SR]
+*CHI: that .
 *MOT: that one moves the hands .
 *MOT: oh .
 *MOT: oh .
 *CHI: mummy do .
-*CHI: mummy do SR]
-*CHI: mummy do SR]
-*CHI: mummy do SR]
+*CHI: mummy do .
+*CHI: mummy do .
+*CHI: mummy do .
 *MOT: whats the matter ?
-*MOT: two R]
+*MOT: two .
 *MOT: okay .
 *MOT: stand up .
 *MOT: lets lets pull your trousers up .
@@ -842,7 +834,7 @@
 *MOT: whats the matter ?
 *CHI: Lara do .
 *MOT: okay .
-*CHI: Lara SR]
+*CHI: Lara .
 *CHI: mummy do .
 *MOT: alright .
 *MOT: can I do one ?
@@ -855,94 +847,86 @@
 *CHI: no .
 *MOT: oh .
 *MOT: youre a meany .
-*CHI: Lara do SR]
-*CHI: Lara do SR]
+*CHI: Lara do .
+*CHI: Lara do .
 *MOT: you were gonna perfectly happy to let Abi do them
-*CHI: Lara do SR]
-*CHI: Lara do SR]
-*CHI: Lara do SR]
+*CHI: Lara do .
+*CHI: Lara do .
+*CHI: Lara do .
 *MOT: okay .
 *CHI: Abi do do .
 *CHI: no Abi .
-*CHI: no Abi PI]
+*CHI: no Abi .
 *CHI: that .
-*CHI: that SR]
+*CHI: that .
 *MOT: yes .
 *MOT: it squeaks .
 *CHI: whats that ?
 *MOT: that clicks .
-*CHI: that SR]
+*CHI: that .
 *MOT: and dings .
 *MOT: that squeaks .
 *MOT: oh .
 *CHI: no Abi play toys .
-*CHI: no Abi play toys SR]
 *MOT: Lara .
-*CHI: no Abi play toys SR]
 *MOT: yes .
 *CHI: no .
 *MOT: yes .
-*CHI: no Abi play toys SR]
 *MOT: yes .
-*CHI: no Abi play toys SR]
-*CHI: no Abi play toys SR]
 *MOT: youll sit on the naughty chair in a minute .
-*CHI: no Abi play toys SR]
 *MOT: Lara .
-*CHI: no Abi play toys SR]
 *MOT: stop it .
 *CHI: whats that ?
 *MOT: thats a number two .
 *CHI: do more .
-*CHI: that SR]
-*CHI: that SR]
+*CHI: that .
+*CHI: that .
 *MOT: thats a number eight .
-*CHI: that SR]
+*CHI: that .
 *MOT: thats a number two .
-*CHI: that SR]
+*CHI: that .
 *MOT: pop it in then .
 *CHI: no Abi play toys .
 *MOT: Lara .
 *MOT: will you stop it ?
 *CHI: no .
-*CHI: no SR]
-*CHI: no SR]
-*MOT: its not funny .
-*CHI: tick tock tick tock .
-*MOT: tick tock .
-*CHI: more .
-*CHI: more SR]
-*MOT: can you count them ?
-*CHI: six eight nine R]
-*MOT: no .
-*MOT: one R]
-*CHI: two R]
 *CHI: no .
-*MOT: one R]
-*CHI: two three four R]
-*MOT: five R]
-*CHI: six eight R]
-*CHI: no SR]
-*CHI: no SR]
+*CHI: no .
+*MOT: its not funny .
+*CHI: tick tock .
+*CHI: more .
+*CHI: more .
+*MOT: can you count them ?
+*CHI: six eight nine .
+*MOT: no .
+*MOT: one .
+*CHI: two .
+*CHI: no .
+*MOT: one .
+*CHI: two three four .
+*MOT: five .
+*CHI: six eight .
+*CHI: no .
+*CHI: no .
 *CHI: no five .
 *MOT: there is a five and its after four .
-*CHI: four four eight PI]
+*CHI: four four eight .
 *CHI: four eight nine ten .
-*CHI: four eight nine ten SR]
+*CHI: four eight nine ten .
 *CHI: mummy four eight .
-*CHI: four SR]
+*CHI: four .
 *MOT: oh .
 *CHI: no !
 *MOT: what do you say ?
-*CHI: no SR]
+*CHI: no .
 *MOT: what do you say ?
-*CHI: no SR]
-*CHI: no SR]
-*CHI: no SR]
-*CHI: no SR]
-*CHI: no SR]
-*CHI: no SR]
-*CHI: no SR]
+*CHI: no .
+*CHI: no .
+*CHI: no .
+*CHI: no .
+*CHI: no .
+*CHI: no .
+*CHI: no .
 *CHI: please .
 *MOT: good girl .
 *CHI: mine .
@@ -956,7 +940,7 @@
 *CHI: no mummys feet on .
 *MOT: well .
 *MOT: theyre off now .
-*CHI: mummy no mummy PI]
+*CHI: mummy no mummy .
 *MOT: pardon ?
 *CHI: oh .
 *CHI: all fall down .
@@ -964,7 +948,7 @@
 *MOT: yes .
 *CHI: baby .
 *MOT: yes .
-*CHI: do more PI]
+*CHI: do more .
 *CHI: take out .
 *MOT: can I have the elephant ?
 *CHI: yes .
@@ -1004,13 +988,13 @@
 *MOT: can I have my dinner please ?
 *CHI: yes .
 *MOT: can you get it for me please .
-*CHI: yes SR]
+*CHI: yes .
 *MOT: go on then .
 *CHI: baa .
 *MOT: Lara get it .
 *MOT: please .
 *MOT: please .
-*CHI: yes SR]
+*CHI: yes .
 *MOT: Lara get the dinner .
 *MOT: thank you .
 *MOT: thank you .
@@ -1048,7 +1032,7 @@
 *CHI: mummy play animals .
 *MOT: I am playing animals .
 *CHI: more .
-*CHI: more SR]
+*CHI: more .
 *MOT: well .
 *MOT: you on the floor .
 *MOT: so I cant play until my dinner comes back up  can I ?
@@ -1060,7 +1044,6 @@
 *MOT: oh no .
 *CHI: dinner .
 *MOT: what happened ?
-*CHI: dinner SR]
 *MOT: where is it ?
 *MOT: on the floor .
 *CHI: lost .
@@ -1070,12 +1053,12 @@
 *MOT: can you get it for me please ?
 *MOT: please ?
 *CHI: no .
-*CHI: no SR]
-*CHI: no SR]
+*CHI: no .
+*CHI: no .
 *MOT: no ?
-*CHI: no SR]
-*CHI: no SR]
-*CHI: no SR]
+*CHI: no .
+*CHI: no .
+*CHI: no .
 *MOT: oh .
 *CHI: diddyf .
 *MOT: diddyf please .
@@ -1083,5 +1066,5 @@
 *MOT: can I have it ?
 *CHI: no .
 *MOT: why not ?
-*CHI: no SR]
+*CHI: no .
 *MOT: yum yum .

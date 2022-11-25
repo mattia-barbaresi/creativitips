@@ -118,11 +118,10 @@
 *INV: it has gone .
 *INV: it has gone .
 *INV: we cant get it .
-*INV: where it where it fell .
+*INV: where it fell .
 *CHI: all fall down now .
 *INV: well  it has gone behind the telly .
 *INV: aah .
-*CHI: I see .
 *INV: ouch .
 *CHI: ouch .
 *INV: yeah .
@@ -134,7 +133,7 @@
 *INV: hm .
 *INV: chopping what ?
 *CHI: Thomas jump and hop .
-*CHI: hop hop hop .
+*CHI: hop .
 *INV: are you hoping ?
 *CHI: yeah .
 *CHI: oh dear .
@@ -179,7 +178,6 @@
 *CHI: laughs .
 *CHI: do that .
 *CHI: Dimitra do it .
-*INV: do it .
 *CHI: Dimitra do it .
 *CHI: oh .
 *CHI: thing gone .
@@ -203,7 +201,6 @@
 *CHI: 0 .
 *CHI: Dimitra .
 *CHI: 0 .
-*CHI: shut eyes .
 *CHI: laughs .
 *CHI: is stamping ap nose .
 *INV: what ?
@@ -223,7 +220,6 @@
 *INV: aah .
 *INV: nice .
 *INV: are you going to go behind ?
-*INV: Thomas .
 *INV: what are you looking for ?
 *CHI: sit on the toilet .
 *INV: are you going to sit on the toilet ?
@@ -231,7 +227,6 @@
 *INV: I thought Mummy didnt like that idea .
 *CHI: oh .
 *INV: she doesnt like you going behind there .
-*INV: maybe you can go>
 *INV: lets lets make that the toilet .
 *CHI: Dimitra do it .
 *CHI: Dimitra do it .
@@ -303,7 +298,7 @@
 *INV: hello  Thomas .
 *INV: bye .
 *INV: I dont know
-*CHI: Thomas gone .
+*CHI: gone .
 *INV: well yeah .
 *INV: I dont know where Thomas has gone .
 *CHI: hello .
@@ -323,7 +318,7 @@
 *CHI: big tummy big nips andp big willie .
 *CHI: big tummy .
 *INV: yeah .
-*INV: you told me I have a big tummy big willie big nips .
+*INV: you told me I have a big tummy big willie .
 *CHI: big back .
 *CHI: a big back .
 *INV: big back ?
@@ -372,7 +367,6 @@
 *CHI: B and B and Q .
 *INV: been to ?
 *CHI: laughs .
-*CHI: B and Q .
 *INV: aah B and Q .
 *INV: Mummy told me that you saw some fireworks on Friday .
 *INV: Thomas ?
@@ -403,7 +397,6 @@
 *INV: were they up in the sky ?
 *CHI: oh yes .
 *CHI: see them .
-*CHI: me Charlotte>
 *INV: what did you say ?
 *CHI: no play .
 *INV: are you playing ?
@@ -419,7 +412,7 @@
 *CHI: Dimitra .
 *INV: what about Dimitra ?
 *CHI: 0 .
-*CHI: I bite you .
+*CHI: you .
 *INV: you wanna bite me ?
 *INV: you bit me before didnt you ?
 *CHI: big digger .
@@ -440,8 +433,6 @@
 *CHI: Stock Stockport .
 *INV: to Stockport ?
 *CHI: yes .
-*INV: well it's>
-*CHI: John Lewis .
 *INV: pardon ?
 *CHI: John Lewis .
 *INV: I didnt understand .
@@ -482,7 +473,7 @@
 *CHI: mhm .
 *INV: well my car is purple isnt it ?
 *CHI: mhm .
-*CHI: Thomas The Tank Engine Henry I think .
+*CHI: Thomas The Tank Engine Henry .
 *INV: what about Thomas The Tank Engine ?
 *CHI: Henry .
 *INV: hes hungry ?
@@ -504,8 +495,8 @@
 *CHI: laughs .
 *CHI: all going .
 *INV: oh it has gone away .
-*CHI: run away run away run away .
-*INV: run away run away run away ?
+*CHI: run away .
+*INV: run away ?
 *CHI: laughs .
 *CHI: see you .
 *INV: see you .
@@ -526,7 +517,7 @@
 *CHI: not doing now .
 *CHI: no bin mens .
 *INV: yes .
-*INV: I dont I cant see them .
+*INV: I cant see them .
 *INV: they should be here any minute now .
 *INV: can you hear them ?
 *CHI: oh yeah .
@@ -563,7 +554,6 @@
 *INV: ow .
 *INV: sometimes you really hurt me .
 *CHI: laughs .
-*CHI: big nose .
 *INV: if you squeeze my nose like that its going to really get very big
 *CHI: come and sit down  Dimitra .
 *INV: you want me to sit down ?
@@ -652,7 +642,6 @@
 *INV: but I wanna sit down there .
 *INV: oh .
 *INV: whos that ?
-*CHI: whats that ?
 *CHI: oh .
 *CHI: poor Purdie .
 *INV: what happened to Purdie ?
@@ -673,8 +662,8 @@
 *CHI: no no .
 *INV: no .
 *CHI: Purdie .
-*CHI: Purdie Purdie Purdie .
-*INV: oh no no no .
+*CHI: Purdie .
+*INV: oh no .
 *INV: dont grab her by the tail .
 *CHI: Purdie .
 *INV: no .
@@ -698,12 +687,11 @@
 *CHI: hiding there .
 *INV: shes hiding behind there ?
 *CHI: yes .
-*CHI: behind the video .
 *CHI: I see her .
 *INV: can you see her ?
 *CHI: ah yes .
 *CHI: get out for you .
-*INV: are you going to get it get Purdie out ?
+*INV: are you going to get Purdie out ?
 *CHI: thanks a lot .
 *INV: she should she should be saying thanks a lot to you .
 *CHI: thanks a lot .
@@ -731,7 +719,7 @@
 *INV: is she going to go to the doctors ?
 *CHI: yes .
 *CHI: sore willie
-*CHI: going ap house in .
+*CHI: going ap .
 *INV: pardon ?
 *CHI: ap going um .
 *CHI: oh dear .
@@ -754,7 +742,7 @@
 *CHI: afraid .
 *CHI: yeah .
 *CHI: Dimitra do that .
-*INV: Dimitra want you want me to do that ?
+*INV: you want me to do that ?
 *CHI: yeah .
 *CHI: uh snip it .
 *INV: snip it ?
@@ -791,7 +779,6 @@
 *CHI: laughs .
 *INV: dont do that .
 *CHI: licking her paw .
-*INV: Thomas .
 *INV: thats not nice .
 *CHI: licking her paw ap moment .
 *INV: you what do you wanna do with her paw ?
@@ -806,10 +793,10 @@
 *INV: thank you .
 *INV: thank you doctor ?
 *CHI: mhm .
-*INV: were you were you Purdies doctor just now ?
+*INV: were you Purdies doctor just now ?
 *CHI: oh yeah .
 *INV: oh yeah .
-*INV: what did you do to make to make her feel better ?
+*INV: what did you do to make her feel better ?
 *CHI: eh kiss her moment .
 *INV: you kiss her a moment ?
 *CHI: yes please .
@@ -865,7 +852,6 @@
 *CHI: no .
 *CHI: oh dear .
 *INV: what happened ?
-*CHI: come back .
 *CHI: oh Purdie .
 *CHI: hurt .
 *INV: did she hurt you ?
@@ -965,7 +951,7 @@
 *CHI: maybe !
 *INV: what ?
 *CHI: maybe .
-*CHI: maybe maybe maybe .
+*CHI: maybe .
 *INV: maybe what ?
 *INV: are you going to play with me ?
 *CHI: play Thomas toys .
@@ -993,7 +979,7 @@
 *INV: I dont know .
 *INV: what about that one there ?
 *CHI: oh no .
-*CHI: no no no .
+*CHI: no .
 *INV: whos that ?
 *CHI: Thomas Thomas Tank Engine .
 *INV: mhm .
@@ -1023,7 +1009,7 @@
 *CHI: no see it at all now .
 *INV: you cant see it at all now ?
 *CHI: no .
-*CHI: could be upstairs .
+*CHI: upstairs .
 *INV: what are you looking for ?
 *CHI: not see it .
 *INV: what can you not see ?
@@ -1090,10 +1076,10 @@
 *INV: what happened there ?
 *INV: snip come ?
 *CHI: mhm .
-*INV: has your is that your nail ?
+*INV: is that your nail ?
 *INV: or is it a bit of skin ?
 *CHI: aah .
-*INV: we need eh some we need some scissors to cut it off .
+*INV: we need some scissors to cut it off .
 *INV: does it hurt ?
 *CHI: no .
 *CHI: oh no .
@@ -1121,8 +1107,8 @@
 *INV: throw it out again ?
 *CHI: yes .
 *INV: wow !
-*INV: that was a good shot .
-*CHI: Dimitra Dimitra do it .
+*INV: that was .
+*CHI: Dimitra do it .
 *INV: Dimitra do it ?
 *INV: you didnt see me ?
 *CHI: no .
@@ -1169,7 +1155,7 @@
 *INV: are you tired ?
 *CHI: yeah .
 *INV: are you seeing any dreams ?
-*CHI: oh no no no .
+*CHI: oh no .
 *INV: whats happening then ?
 *CHI: no snip snip .
 *CHI: no snip snip .
@@ -1193,7 +1179,7 @@
 *INV: are you sitting on your bike ?
 *INV: and then you said something about the bin men lorry ?
 *CHI: ugh .
-*CHI: rubbish rubbish rubbish .
+*CHI: rubbish .
 *INV: aah .
 *INV: youre the bin man now .
 *CHI: look .
@@ -1248,11 +1234,10 @@
 *CHI: nail come back .
 *INV: oh its .
 *CHI: nail .
-*INV: the nail ca it came back now ?
+*INV: it came back now ?
 *INV: the nail has come back ?
 *CHI: hey cheeky .
 *INV: hey cheeky .
-*CHI: come on .
 *CHI: Dimitra do it .
 *INV: what does ?
 *INV: ooh .
@@ -1273,7 +1258,7 @@
 *INV: eat the pussy cat ?
 *CHI: no .
 *CHI: eat .
-*CHI: eat the pussy and .
+*CHI: eat the .
 *INV: eyes .
 *INV: I got that .
 *CHI: eyes .
@@ -1383,7 +1368,7 @@
 *CHI: laughs .
 *INV: oops .
 *CHI: Dimitra do it .
-*CHI: Dimitra do Thomas do it .
+*CHI: Thomas do it .
 *INV: Thomas wants to do it ?
 *CHI: yes .
 *CHI: laughs .
@@ -1400,7 +1385,6 @@
 *CHI: hello .
 *CHI: hello .
 *CHI: hello .
-*CHI: fall over .
 *CHI: hello taxi .
 *INV: hello what ?
 *INV: I dont understand what that is .
@@ -1458,7 +1442,7 @@
 *INV: what are you doing ?
 *INV: are you marching on the table ?
 *CHI: yes .
-*INV: oh no no no .
+*INV: oh no .
 *INV: dont climb up there .
 *INV: dont climb up there .
 *CHI: yes .

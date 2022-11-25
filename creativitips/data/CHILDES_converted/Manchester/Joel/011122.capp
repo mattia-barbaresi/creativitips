@@ -49,7 +49,6 @@
 *MOT: I hope we havent left it on holiday .
 *CHI: one two .
 *CHI: one two .
-*CHI: one two .
 *INV: slipper .
 *MOT: oh .
 *MOT: youve only got one .
@@ -94,7 +93,7 @@
 *MOT: and what did you do ?
 *CHI: um  ladys .
 *MOT: played with the ladys ?
-*MOT: did you did you play with any of the toys ?
+*MOT: did you play with any of the toys ?
 *CHI: yes .
 *MOT: what sort of toys ?
 *CHI: oh .
@@ -131,8 +130,7 @@
 *CHI: theres two .
 *CHI: three .
 *CHI: four .
-*MOT: you useta count up to ten on holiday .
-*INV: one two three four ?
+*MOT: you useta count up to .
 *CHI: four .
 *CHI: three .
 *CHI: four .
@@ -164,7 +162,7 @@
 *MOT: and you youd only go on daddys shoulders after that ,
 *CHI: oh  look .
 *CHI: look .
-*MOT: and what did what did you see in the water ?
+*MOT: what did you see in the water ?
 *MOT: did you see some  fish ?
 *CHI: and some fish .
 *MOT: did you see a starfish ?
@@ -282,8 +280,7 @@
 *MOT: is it your trousers ?
 *INV: www .
 *CHI: daddys .
-*INV: daddys .
-*MOT: I think he said daddys trousers .
+*MOT: said daddys trousers .
 *INV: no .
 *INV: Joels trousers .
 *MOT: I dont think theyd fit daddy  would they ?
@@ -333,7 +330,7 @@
 *MOT: Rachel .
 *CHI: Rachel .
 *INV: Rachel .
-*MOT: and what about be there ?
+*MOT: be there ?
 *CHI: yes .
 *MOT: who else ?
 *MOT: are you having a think ?
@@ -346,7 +343,7 @@
 *CHI: Gregory .
 *INV: Gregory .
 *CHI: yeah .
-*INV: is he be there ?
+*INV: be there ?
 *MOT: you like Gregory  dont you ?
 *MOT: only other lad .
 *MOT: all the rest are girls  arent they ?
@@ -399,7 +396,7 @@
 *CHI: Josie car .
 *INV: www .
 *MOT: its not as good as the cars that are at grandma grandpas  is it
-*MOT: who are they who are in the cars at grandma and grandpas ?
+*MOT: who are in the cars at grandma and grandpas ?
 *CHI: grandma car .
 *MOT: yeah but have they got the monkey ?
 *MOT: Kevin ?
@@ -513,7 +510,6 @@
 *MOT: oh .
 *MOT: what can you hear ?
 *CHI: aeroplane .
-*CHI: two plane .
 *MOT: aeroplane .
 *MOT: two plane .
 *MOT: www .
@@ -544,8 +540,6 @@
 *MOT: thats your lot .
 *MOT: there isnt any more .
 *CHI: one two wheels .
-*INV: two wheels .
-*MOT: two wheels .
 *INV: yeah .
 *CHI: more wheels .
 *MOT: theres no more cars left  look .
@@ -581,8 +575,7 @@
 *CHI: oh .
 *CHI: steps .
 *CHI: Pingu on steps .
-*MOT: is Pingu on the steps ?
-*INV: he is .
+*MOT: on the steps ?
 *MOT: oh .
 *MOT: is baby going up the steps .
 *CHI: there they are .
@@ -643,7 +636,7 @@
 *CHI: park .
 *INV: the park ?
 *CHI: yes .
-*MOT: we went we went dancing .
+*MOT: we went dancing .
 *CHI: a dance .
 *MOT: yeah .
 *MOT: you we were having a dance .
@@ -805,7 +798,7 @@
 *CHI: hello .
 *MOT: hello .
 *MOT: did you tell her you love her ?
-*MOT: did you what did you say ?
+*MOT: what did you say ?
 *CHI: hello .
 *MOT: hello .
 *MOT: did you say love you grandma ?
@@ -841,7 +834,7 @@
 *INV: seat ?
 *CHI: yeah .
 *MOT: oh .
-*INV: youre sitting down in it .
+*INV: sitting down in it .
 *INV: yes .
 *CHI: one .
 *CHI: two .
@@ -1028,7 +1021,7 @@
 *MOT: does Joel like cake ?
 *CHI: no .
 *CHI: cake .
-*MOT: what do what do you have with your cake ?
+*MOT: what do you have with your cake ?
 *MOT: cake and
 *CHI: more cake .
 *MOT: yeah .
@@ -1045,7 +1038,6 @@
 *MOT: bananas .
 *MOT: I know because they only look little  dont they ?
 *MOT: www .
-*CHI: a pear .
 *MOT: thats a pear .
 *MOT: yeah .
 *CHI: go in there .
@@ -1055,7 +1047,6 @@
 *MOT: in there ?
 *CHI: Mummy .
 *MOT: thats sweetcorn .
-*CHI: I no like sweetcorn .
 *MOT: no .
 *MOT: you dont like sweetcorn  do you ?
 *INV: www .
@@ -1068,7 +1059,7 @@
 *CHI: sweetcorn .
 *CHI: no like sweetcorn .
 *INV: pea gone ?
-*MOT: you dont like you dont like peas ?
+*MOT: you dont like peas ?
 *MOT: oh whats that ?
 *MOT: oh sweetcorn .
 *MOT: yes thats what he was saying .
@@ -1126,7 +1117,6 @@
 *CHI: Mummy .
 *MOT: whats that ?
 *CHI: spider .
-*MOT: what is it ?
 *INV: pardon ?
 *CHI: spider .
 *INV: thats the dollys shoe .
@@ -1203,7 +1193,7 @@
 *MOT: oh .
 *MOT: smashing .
 *CHI: lady .
-*MOT: you cant get because youve got your shorts on you can't
+*MOT: because youve got your shorts on you can't
 *MOT: have you done ?
 *MOT: oh .
 *MOT: oh .
@@ -1271,7 +1261,7 @@
 *MOT: and what did we keep telling you on holiday ?
 *MOT: we kept going nearly there  didnt we ?
 *MOT: www .
-*MOT: and did and did you say
+*MOT: and did you say
 *MOT: kick everything out the way .
 *MOT: I didnt mean it .
 *MOT: what do you wanna do ?
@@ -1338,12 +1328,10 @@
 *INV: hair .
 *MOT: youre nicking my seat again  arent you ?
 *INV: oh .
-*INV: if I just lie down .
 *INV: ah .
 *MOT: hes getting squashed .
 *CHI: Mummy .
 *MOT: oh .
-*MOT: say quick rescue me .
 *CHI: squashed .
 *MOT: did she squash ?
 *MOT: did she squash ?
@@ -1422,8 +1410,6 @@
 *MOT: oh .
 *MOT: what was that ?
 *CHI: burglar on the floor .
-*MOT: burglar on the floor .
-*INV: burglar on floor .
 *CHI: yeah .
 *MOT: didnt you want him on the chair ?
 *INV: Im not leaving .
@@ -1459,7 +1445,6 @@
 *MOT: was it Schumacher ?
 *CHI: Schumacher .
 *INV: yeah .
-*MOT: oh Schumacher .
 *INV: good boy .
 *MOT: www .
 *MOT: and did you say Damon Hill ?
@@ -1470,7 +1455,7 @@
 *MOT: we dont particularly like him but its a good name .
 *MOT: so we wanted Damon to win  didnt we ?
 *MOT: mhm .
-*MOT: and were you who was in the football ?
+*MOT: and who was in the football ?
 *MOT: who scored the goal ?
 *CHI: goal .
 *MOT: yeah .
@@ -1491,10 +1476,10 @@
 *MOT: www .
 *MOT: we tried you with Cantona  didnt we ?
 *CHI: yeah .
-*INV: oh we dont wanna learn that word .
+*INV: oh we dont wanna learn .
 *CHI: Cantona .
 *MOT: www .
-*MOT: Erics god  isnt he ?
+*MOT: isnt he ?
 *MOT: yeah .
 *MOT: Daddys a Forest fan so we dont talk about that .
 *MOT: we dont .
@@ -1576,16 +1561,12 @@
 *MOT: Ellas got boobs ?
 *MOT: well I wouldnt know that  would I ?
 *MOT: shouldnt think so .
-*MOT: shes only about ten .
-*CHI: lady .
 *INV: yes .
 *INV: lady has too .
 *INV: shes only ten  is she this Ella .
 *MOT: yeah .
 *MOT: er  what have we told you ?
 *CHI: Joel boobs .
-*INV: and Joel has got a big fat tummy .
-*MOT: no Joel .
 *MOT: only ladys have boobs .
 *INV: but Joel has a big fat tummy .
 *MOT: whats that ?
@@ -1634,8 +1615,8 @@
 *MOT: Mummys not biting your toes .
 *MOT: no .
 *MOT: its not nice .
-*MOT: I dont think the lady wants to bite your toes .
-*INV: I dont wanna bite your toes either .
+*MOT: I dont think .
+*INV: either .
 *MOT: lets look at your feet .
 *MOT: theyre all grubby .
 *CHI: grubby .
@@ -1717,7 +1698,6 @@
 *MOT: al .
 *INV: or do we know that ?
 *CHI: al .
-*INV: al .
 *MOT: yeah .
 *MOT: www .
 *CHI: shape .

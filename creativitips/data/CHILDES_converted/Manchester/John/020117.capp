@@ -96,7 +96,7 @@
 *INV: soon .
 *MOT: John .
 *MOT: come and help me find the nurse .
-*MOT: you were you were very good at that yesterday .
+*MOT: you were very good at that yesterday .
 *MOT: where is the nurse ?
 *MOT: can you help me find it ?
 *MOT: where is the nurse ?
@@ -141,7 +141,7 @@
 *MOT: okay .
 *MOT: Ill put the clock here .
 *MOT: now its your go .
-*CHI: its its its a apple .
+*CHI: its a apple .
 *MOT: mhm .
 *CHI: its a red apple .
 *MOT: theyre lovely  arent they ?
@@ -284,8 +284,6 @@
 *MOT: no ?
 *MOT: oh .
 *MOT: who has a red car ?
-*CHI: thats .
-*MOT: you were telling me this morning  John .
 *MOT: whats that ?
 *MOT: the television ?
 *CHI: thank you .
@@ -370,7 +368,7 @@
 *CHI: a number .
 *MOT: just onto silvery bits .
 *MOT: the metals silvery .
-*MOT: woodll be will tend to be brown .
+*MOT: will tend to be brown .
 *MOT: thats good .
 *MOT: whatve we got left ?
 *MOT: whats that number ?
@@ -434,8 +432,7 @@
 *CHI: whats in there ?
 *INV: nothing .
 *CHI: open this .
-*INV: yeah we cant look in there yet .
-*MOT: it doesnt open  John .
+*INV: look in there yet .
 *MOT: come on .
 *MOT: John .
 *CHI: whats in there ?
@@ -809,7 +806,7 @@
 *MOT: mhm .
 *MOT: put this on the plate  John .
 *CHI: put it back .
-*CHI: piece of piece of bread .
+*CHI: piece of bread .
 *MOT: piece of bread ?
 *MOT: this one ?
 *MOT: no .
@@ -849,7 +846,7 @@
 *CHI: oh .
 *INV: no I cant do that .
 *CHI: clothes dolly .
-*INV: oh the clothes the dollys clothes .
+*INV: oh the dollys clothes .
 *MOT: are you gonna show Anna your dance that you did
 *MOT: you did a lovely dance .
 *CHI: where go ?

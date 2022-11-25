@@ -1,18 +1,14 @@
-*CHI: brush brush brush brush brush .
+*CHI: brush .
 *MOT: are you saying “brush brush” ?
 *MOT: are you talking to Noo Noo the vacuum cleaner ?
-*CHI: brush brush>
-*MOT: brush brush brush .
+*MOT: brush .
 *MOT: have you taken one of Noo Noos brushes off the back of the vacuum
-*CHI: brush brush brush brush>
 *CHI: Nin Nin .
 *MOT: are you brushing the floor ?
-*CHI: brush brush brush brush>
 *CHI: bye .
 *CHI: all done .
 *CHI: there .
 *CHI: 0 .
-*CHI: brush brush brush brush>
 *CHI: oh dear .
 *CHI: brush .
 *CHI: oh napnapf .
@@ -48,15 +44,15 @@
 *CHI: no .
 *MOT: is he under the car ?
 *CHI: no .
-*MOT: where is he where is he ?
+*MOT: where is he ?
 *MOT: ah !
 *MOT: there he is .
 *MOT: hes up your sleeve .
-*MOT: I thought you might know where he was I had an idea you knew
+*MOT: I had an idea you knew
 *CHI: choo choo .
 *CHI: what this ?
 *MOT: thats a car .
-*CHI: no no no ap choo choos .
+*CHI: no ap choo choos .
 *CHI: ap car .
 *MOT: no .
 *MOT: its a car but its in the same Lego range so it clips onto the
@@ -85,7 +81,7 @@
 *MOT: and then whos coming to see you ?
 *CHI: ap Nana Granddad .
 *MOT: Nana and Granddad .
-*MOT: are they coming to see you are Nana and Granddad coming ?
+*MOT: are Nana and Granddad coming ?
 *CHI: 0 .
 *MOT: well dress you in shorts this morning  Thomas .
 *MOT: but it looks like it might rain later on so Mummyll leave a pair
@@ -110,8 +106,8 @@
 *MOT: yes .
 *MOT: Noo Noos over there .
 *MOT: Noo Noo the vacuum cleaner .
-*CHI: brush brush brush .
-*MOT: brush brush brush .
+*CHI: brush .
+*MOT: brush .
 *MOT: yes .
 *MOT: Ive got to carry Noo Noo upstairs next time I go .
 *CHI: Nin Nin .
@@ -307,16 +303,14 @@
 *MOT: there we are .
 *MOT: do you think a bowl of Cornflakes would make it better ?
 *CHI: more .
-*MOT: would you like some yellow juice some orange juice ?
+*MOT: would you like some some orange juice ?
 *CHI: ap choo choos and the man .
 *CHI: ap choo choos .
 *MOT: I just needta wash my hands  Thomas .
-*CHI: and the man and the man the grapes .
+*CHI: and the man the grapes .
 *CHI: ap choo choos .
 *CHI: the choo choos .
 *MOT: what are you talking about ?
-*MOT: Mummy must>
-*CHI: what this ?
 *MOT: this is a box of Cornflakes .
 *CHI: a box .
 *MOT: a box of Cornflakes .
@@ -351,7 +345,7 @@
 *CHI: a truck .
 *MOT: pardon .
 *CHI: the man .
-*CHI: ap bang ap bang .
+*CHI: ap bang .
 *MOT: what  my darling ?
 *CHI: ap bang ap truck .
 *MOT: you sound like youre saying “bang ap bang ap trucks” .
@@ -365,7 +359,6 @@
 *MOT: choc chocf .
 *MOT: no .
 *MOT: we havent got any choc chocf .
-*CHI: choc chocf .
 *MOT: we havent got any choc chocf .
 *MOT: Im quite sure when I certain person comes to see you she might
 *MOT: who am I talking about ?
@@ -398,7 +391,6 @@
 *MOT: well hafta remember to tell Grandma and Granddad that theres some
 *MOT: theres some flapjack that weve made for them .
 *MOT: we made the biscuits  yesterday didnt we ?
-*CHI: what that ?
 *MOT: would you like some toast ?
 *CHI: choc chocf .
 *MOT: listen  Thomas .
@@ -454,7 +446,7 @@
 *MOT: shut the gate .
 *MOT: the stair gate .
 *MOT: and Mummy was standing in the kitchen talking to Grandma on the
-*MOT: so she hadta rush didnt she rush to the bottom of the
+*MOT: so she hadta rush to the bottom of the
 *MOT: it sounded like you were calling for Purdie then .
 *CHI: meow .
 *MOT: meow .
@@ -494,7 +486,7 @@
 *MOT: more pop .
 *MOT: yes .
 *MOT: the toast popped up .
-*MOT: did you snore then because you were saying good night to the iron>
+*MOT: did you snore then because you were saying good night to
 *MOT: Mummy needs to do some ironing in a minute .
 *CHI: pop .
 *MOT: pop .
@@ -520,7 +512,7 @@
 *MOT: well how about .
 *CHI: jam .
 *MOT: white bread with jam .
-*MOT: I butter one slice with Marmite spread one slice with
+*MOT: I spread one slice with
 *MOT: and then you can have half a piece with Marmite and half a piece
 *MOT: and Ill have the rest .
 *CHI: what this ?
@@ -539,7 +531,7 @@
 *CHI: ap more juice .
 *MOT: would you like some juice ?
 *MOT: there you are .
-*CHI: no no no no .
+*CHI: no .
 *MOT: no .
 *MOT: oh I though you wanted some more juice .
 *CHI: ap more pop .
@@ -549,7 +541,6 @@
 *CHI: nice jam .
 *MOT: nice jam .
 *CHI: what this ?
-*CHI: a plate>
 *CHI: ap Pooh Bear .
 *MOT: thats right .
 *MOT: underneath the toast theres a picture of Pooh Bear on the plate
@@ -630,7 +621,7 @@
 *MOT: bye bye .
 *MOT: and Daddys telling you to be a good boy .
 *MOT: www .
-*MOT: bye  Daddy bye  Daddy .
+*MOT: bye  Daddy .
 *CHI: bye  Dadda .
 *CHI: bye  Dadda .
 *MOT: when Daddy went to work this morning he said he knew he (h)ad
@@ -650,14 +641,14 @@
 *MOT: no juice .
 *MOT: no jam .
 *MOT: youve finished have you ?
-*MOT: how about an apple would Thomas like an apple ?
+*MOT: would Thomas like an apple ?
 *CHI: wash ap down .
 *MOT: wash and down .
 *MOT: well lets have an apple first shall we ?
 *MOT: Mummy has not finished her breakfast yet ?
 *CHI: 0 .
 *MOT: 0 .
-*MOT: are you sneezing is Thomas sneezing ?
+*MOT: is Thomas sneezing ?
 *CHI: 0 .
 *CHI: 0 .
 *MOT: 0 .
@@ -685,7 +676,7 @@
 *MOT: Nana and Granddad are here are they ?
 *CHI: Nana Granddad .
 *MOT: Nana and Granddad .
-*MOT: gosh theyre early this morning arent they theyre very
+*MOT: theyre very
 *MOT: the traffic must have been good on the motorway I think .
 *MOT: either that or they set off earlier .
 *CHI: Nana Granddad .
@@ -743,7 +734,7 @@
 *CHI: ap Nin Nin .
 *CHI: oh dear .
 *MOT: have you clipped the car to the train ?
-*MOT: would you like some fruit a little bit more fruit before you
+*MOT: would you like a little bit more fruit before you
 *CHI: no pears .
 *MOT: no .
 *MOT: I havent got any pears .
@@ -770,7 +761,7 @@
 *MOT: baby choo choos .
 *MOT: the train .
 *MOT: well I couldnt see it  Thomas .
-*MOT: youve put them down somewhere youve thrown it down and I
+*MOT: youve thrown it down and I
 *CHI: no see .
 *MOT: oh its here .
 *MOT: it had actually just rolled underneath the sofa .
@@ -783,10 +774,9 @@
 *MOT: youve clipped them both together havent you ?
 *CHI: choo choo .
 *CHI: 0 .
-*MOT: are you singing Thomas  singing ?
+*MOT: Thomas  singing ?
 *CHI: 0 .
 *CHI: oh stuck .
-*CHI: ap stuck .
 *MOT: what do you want  Thomas ?
 *CHI: a juice please .
 *CHI: a juice please .
@@ -808,7 +798,6 @@
 *CHI: no pears .
 *MOT: and strawberries .
 *CHI: Nin Nin .
-*CHI: watch this .
 *CHI: Nin Nin .
 *CHI: a man .
 *MOT: what are you doing ?
@@ -817,7 +806,7 @@
 *CHI: juice ap man .
 *CHI: nice man ap juice .
 *MOT: are you giving your train driver some juice ?
-*MOT: thats good boy for sharing isnt it youre a good boy for
+*MOT: youre a good boy for
 *MOT: can I put your fruit on the toast plate ?
 *MOT: is that okay ?
 *CHI: no .
@@ -836,7 +825,7 @@
 *CHI: not much .
 *MOT: not much .
 *MOT: mm .
-*MOT: are the strawberries nice  Thomas are the strawberries nice
+*MOT: are the strawberries nice
 *CHI: op .
 *CHI: what this ?
 *MOT: the cherries .
@@ -864,13 +853,13 @@
 *MOT: if shes feeling a bit delicate she goes upstairs doesnt she ?
 *MOT: so if Daddy has got any work to do on his computer later she'll
 *MOT: so you promise me youre not going to upset her tonight .
-*MOT: are you going to be a good boy are you going to be a good boy
+*MOT: are you going to be a good boy
 *CHI: docdocsc .
 *MOT: docdocsc .
 *MOT: yes .
 *MOT: Purdies going to the Doctor .
 *MOT: thats right .
-*MOT: Purdie has got a little Doctor a special Doctor that she
+*MOT: Purdie has got a special Doctor that she
 *MOT: youve still got some strawberries havent you ?
 *MOT: I think it might rain this morning .
 *CHI: Nin Nin .
@@ -956,7 +945,7 @@
 *MOT: its the fat controller .
 *MOT: hes called Sir Topham Hat .
 *MOT: the guards and the train driver all have .
-*CHI: no no no no .
+*CHI: no .
 *MOT: oh hes going backwards isnt he ?
 *MOT: the train driver and the guards all wear flat caps but the man in
 *CHI: 0 .
@@ -988,7 +977,7 @@
 *MOT: I think he has just realized he has forgotten to pick the
 *MOT: when you see a group of boys and girls and men and ladys you can
 *CHI: oh no .
-*CHI: no no no no train .
+*CHI: no train .
 *MOT: no train .
 *MOT: he has forgotten the carriage hasnt he ?
 *MOT: hes going to hafta go back .
@@ -1011,12 +1000,12 @@
 *MOT: yes .
 *MOT: would you like some more fruit ?
 *CHI: oh sore .
-*MOT: are you sore where are you sore  darling ?
-*MOT: oh whereabouts wheres Thomas sore ?
+*MOT: where are you sore  darling ?
+*MOT: wheres Thomas sore ?
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *MOT: yes .
-*CHI: no no no no no choo choos .
+*CHI: no choo choos .
 *CHI: night night  choo choos .
 *CHI: night night .
 *CHI: oh ap moon there .
@@ -1045,9 +1034,9 @@
 *MOT: has the juice fallen off the back of the train ?
 *CHI: Nin Nin .
 *MOT: oh dear .
-*CHI: bang bang bang .
-*MOT: bang bang bang .
-*MOT: no no no .
+*CHI: bang .
+*MOT: bang .
+*MOT: no .
 *CHI: choo choo .
 *CHI: oh .
 *CHI: choo choo choo choo choo choo .
@@ -1082,9 +1071,9 @@
 *MOT: be careful .
 *MOT: youre going to fall out of your chair .
 *CHI: I see you .
-*MOT: I see you I see you as well .
+*MOT: I see you as well .
 *CHI: aah I see you .
-*MOT: I see you I see you  Thomas .
+*MOT: I see you  Thomas .
 *CHI: I see Nin Nin .
 *CHI: see you  choo choos .
 *MOT: see you  choo choos .

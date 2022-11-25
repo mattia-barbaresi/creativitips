@@ -241,8 +241,7 @@
 *CHI: I cant see a police hat .
 *MOT: the police hats there because Ive just seen it .
 *MOT: theres a spare wheel .
-*MOT: not so >
-*CHI: Im the police just a police man .
+*CHI: just a police man .
 *INV: 0 .
 *MOT: oh  hello .
 *CHI: 0 .
@@ -269,13 +268,12 @@
 *MOT: a nice police man .
 *INV: with a Bob The Builder belt .
 *CHI: and  police belt .
-*INV: is that a police belt ?
+*INV: belt ?
 *INV: hm .
 *CHI: this is belt .
 *INV: ah .
 *INV: it looks lovely .
-*MOT: Ive quite enjoyed playing this .
-*CHI: were playing this .
+*MOT: playing this .
 *MOT: youre welcome  Jean .
 *CHI: youre Jean .
 *INV: sorry ?
@@ -297,7 +295,7 @@
 *CHI: Big Tears .
 *INV: Big Tears .
 *INV: laughs .
-*INV: does he does he cry a lot does he ?
+*INV: does he cry a lot does he ?
 *CHI: no .
 *MOT: Big Ears .
 *MOT: did you mean Big Ears ?
@@ -413,8 +411,6 @@
 *MOT: yes .
 *INV: where someone huffs and puffs ?
 *MOT: Ill huff and Ill puff and Ill puff and I will blow the house
-*INV: Ill puff and I will blow the house down .
-*CHI: Ill puff and I will blow the house down .
 *INV: oh .
 *CHI: crash .
 *INV: never mind .
@@ -487,13 +483,11 @@
 *INV: laughs .
 *INV: oh .
 *INV: Mr Policeman .
-*MOT: no no no no  Thomas .
+*MOT: no  Thomas .
 *MOT: youre being silly now .
 *INV: youre showing off arent you ?
 *INV: ah .
 *INV: oh  Thomas .
-*INV: are you eating everything .
-*MOT: oh thats not nice .
 *CHI: lets build another one .
 *INV: okay .
 *INV: lets build another one .
@@ -506,7 +500,7 @@
 *INV: Thomas .
 *CHI: laughs .
 *INV: here we go .
-*MOT: no no no no no .
+*MOT: no .
 *CHI: laughs .
 *MOT: that is not funny .
 *CHI: laughs .
@@ -539,24 +533,22 @@
 *INV: wow .
 *CHI: laughs .
 *INV: why does that fit on a head ?
-*INV: have you got have you got a lego hold on the top of your head
+*INV: have you got a lego hold on the top of your head
 *MOT: yes .
 *INV: oh  you have .
 *INV: youre a piece of lego .
 *INV: I didnt know that .
 *CHI: youre a pizza man .
 *INV: Im pizza man ?
-*MOT: your trousers are coming down love arent they ?
+*MOT: are coming down love arent they ?
 *CHI: pizza man .
 *MOT: would you like to if get back in his truck ?
-*MOT: you werent even a year old when you got this were you ?
+*MOT: you werent even a ?
 *MOT: there you are .
 *MOT: were getting there and see if you can build some bricks like you
 *MOT: you shouldnt really ride around in it because youre too big but
 *CHI: Jeannine  sit .
 *MOT: oh  this is how we useta be .
-*MOT: this is my little baby .
-*INV: thats lovely .
 *MOT: isnt he ?
 *CHI: yeah .
 *MOT: ah .
@@ -697,7 +689,7 @@
 *CHI: soon .
 *CHI: will come back soon .
 *MOT: will it ?
-*INV: have you got have you got an ambulance that doesnt make a
+*INV: have you got an ambulance that doesnt make a
 *MOT: no .
 *CHI: got a siren .
 *INV: oh .
@@ -727,8 +719,6 @@
 *INV: hes better now .
 *MOT: is he ?
 *MOT: wow .
-*MOT: straight back to work .
-*INV: thats is a amazing hospital .
 *CHI: theres another crash .
 *CHI: then the .
 *INV: wheres your Bob The Builder toy that Lorna gave you ?
@@ -990,7 +980,7 @@
 *INV: thats good but what about this side ?
 *CHI: there he has come out but his not coming now .
 *INV: okay .
-*INV: Thomas  see if you can see is this too slim ?
+*INV: Thomas  see is this too slim ?
 *INV: can you drive in here ?
 *INV: you hafta be very careful though  not to .
 *INV: oh .
@@ -1139,8 +1129,6 @@
 *MOT: row row row your boat with two jelly sweets in your mouth .
 *MOT: theres somebody eating a Cadburys Creme Egg .
 *INV: www .
-*MOT: chick chick chick chick chicken .
-*CHI: lay a little egg for me>
 *INV: Im not a chicken .
 *INV: I dont lay eggs .
 *INV: do you ?
@@ -1446,7 +1434,7 @@
 *MOT: oh  wow .
 *MOT: ah .
 *MOT: look at that .
-*INV: see  this is a very this is a very good post box
+*INV: see  this is a very good post box
 *CHI: yes .
 *INV: changes all sizes .
 *CHI: laughs .
@@ -1505,7 +1493,6 @@
 *MOT: do you know a song about wheels on a bus ?
 *MOT: we do .
 *MOT: lets sing that one .
-*CHI: wheels on the bus go .
 *MOT: come on  do the actions as well .
 *MOT: you know that .
 *MOT: 0 .
@@ -1603,7 +1590,7 @@
 *MOT: because Mummy wants to keep this and weve done something else .
 *MOT: whats the other picture that you did yesterday ?
 *MOT: was it yesterday .
-*INV: you are very good at drawing  Thomas arent you ?
+*INV: arent you ?
 *CHI: well youre welcome .
 *INV: laughs .
 *MOT: there you are .
@@ -1624,7 +1611,6 @@
 *MOT: youre not hiding it .
 *CHI: yes  I am .
 *CHI: 0 .
-*MOT: that is not a nice boy .
 *CHI: 0 .
 *CHI: 0 .
 *CHI: no .
@@ -1730,8 +1716,7 @@
 *INV: did you have a nice time at Elenas ?
 *CHI: no .
 *MOT: yes .
-*MOT: he did and he talked about Jeannine and Dimitra all the time
-*CHI: I hate you .
+*MOT: he did and he and Dimitra all the time
 *INV: ah .
 *INV: you were such a nice boy and we played with the cement mixer
 *MOT: yes .
@@ -1777,8 +1762,8 @@
 *INV: ah .
 *INV: you know .
 *MOT: isnt it quiet again ?
-*MOT: always quiet when Thomas isnt here .
-*INV: its always quiet .
+*MOT: always quiet when .
+*INV: quiet .
 *INV: but I do miss Thomas .
 *MOT: I do .
 *INV: hes such a lovely boy .
@@ -1849,7 +1834,6 @@
 *MOT: youve got bones in it ?
 *CHI: bones in my teeth .
 *MOT: bones .
-*INV: bones in your teeth .
 *CHI: 0 .
 *CHI: sorry .
 *INV: sorry .

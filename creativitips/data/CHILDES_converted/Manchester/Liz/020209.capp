@@ -71,8 +71,6 @@
 *MOT: oh its a nice green one that  isnt it ?
 *CHI: it light green .
 *MOT: light green oh .
-*CHI: done green .
-*MOT: that looks nice .
 *MOT: yeah .
 *CHI: I drawing .
 *MOT: yeah .
@@ -146,7 +144,7 @@
 *CHI: on my hand .
 *MOT: what is it ?
 *CHI: pen .
-*MOT: oh well it well wash it off later eh ?
+*MOT: well wash it off later eh ?
 *CHI: purple on it .
 *CHI: purple .
 *CHI: purple .
@@ -244,7 +242,7 @@
 *MOT: what love ?
 *CHI: whats this ?
 *CHI: Anna whats this ?
-*INV: its a green one  isnt it ?
+*INV: isnt it ?
 *CHI: Anna .
 *INV: a green one thats been chewed by the look of it .
 *CHI: Spot .
@@ -300,7 +298,7 @@
 *CHI: on bottle .
 *MOT: youre doing what love ?
 *CHI: on .
-*MOT: I dont I dont think itll go on your bottle .
+*MOT: I dont think itll go on your bottle .
 *CHI: go on this .
 *MOT: yeah thats right .
 *MOT: it goes on the pen  doesnt it ?
@@ -412,8 +410,6 @@
 *MOT: well its for drinking .
 *MOT: its not for spreading everywhere  is it ?
 *MOT: you know that .
-*MOT: Im trying to [>]
-*CHI: all gone .
 *MOT: Im trying to draw a teddy here .
 *CHI: I shake .
 *CHI: like this .
@@ -712,7 +708,7 @@
 *CHI: warm in here .
 *MOT: is it ?
 *CHI: its warm .
-*MOT: Im Im Im cold .
+*MOT: Im cold .
 *CHI: its .
 *CHI: warm .
 *MOT: Im cold I am .
@@ -726,7 +722,6 @@
 *MOT: put some across that way now ?
 *CHI: home now .
 *MOT: we are home love .
-*CHI: home now .
 *CHI: home now .
 *CHI: home now .
 *CHI: home now .
@@ -746,7 +741,7 @@
 *CHI: a green one .
 *CHI: green goes there .
 *MOT: yeah .
-*MOT: where can I where shall I put my yellow one ?
+*MOT: where shall I put my yellow one ?
 *CHI: yellow yellow there .
 *MOT: there ?
 *MOT: like that ?
@@ -756,7 +751,7 @@
 *CHI: put blue there .
 *MOT: yeah .
 *CHI: yellow .
-*MOT: yeah that looks good .
+*MOT: good .
 *MOT: what do you want ?
 *MOT: do you want another another green one ?
 *CHI: yeah .
@@ -867,7 +862,7 @@
 *MOT: its a hat now  is it ?
 *CHI: yeah .
 *MOT: I see .
-*CHI: hat in the in the bag .
+*CHI: hat in the bag .
 *CHI: hat in the bag .
 *MOT: yeah probably .
 *CHI: here it is .
@@ -883,8 +878,7 @@
 *MOT: yes it is a yellow hat .
 *CHI: mine .
 *CHI: I bump head .
-*INV: you did .
-*MOT: you did  didnt you ?
+*MOT: didnt you ?
 *MOT: give it a good rub .
 *MOT: thats it .
 *CHI: done .
@@ -1006,7 +1000,7 @@
 *MOT: a bit of fluff I think .
 *MOT: yeah its a bit of fluff .
 *CHI: again .
-*MOT: yummy yummy yummy yummy yummy .
+*MOT: yummy .
 *MOT: do you wanna do a toss ?
 *MOT: do a toss ?
 *CHI: no .
@@ -1128,7 +1122,7 @@
 *CHI: leaving .
 *MOT: soon .
 *MOT: leaving soon yeah .
-*CHI: I put these in the in the box .
+*CHI: I put these in the box .
 *CHI: Annas going .
 *CHI: I coming to get bricks .
 *MOT: pardon ?

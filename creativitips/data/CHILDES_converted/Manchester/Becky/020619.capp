@@ -9,11 +9,9 @@
 *INV: do you mean on the tape ?
 *MOT: oh right .
 *MOT: yes .
-*MOT: well later we hear you .
-*CHI: whats that ?
+*MOT: hear you .
 *MOT: not now .
 *CHI: is that ready ?
-*INV: is it ready .
 *MOT: it is .
 *MOT: yes .
 *CHI: did you hear me ?
@@ -200,7 +198,7 @@
 *MOT: dont fit very well  do they ?
 *CHI: keeps fall off .
 *CHI: there .
-*MOT: do you want this on ?
+*MOT: want this on ?
 *MOT: stand up then .
 *MOT: are you going to be Doctor Lastname ?
 *CHI: yeah .
@@ -237,7 +235,7 @@
 *MOT: am I okay ?
 *CHI: youre not okay .
 *MOT: Im not okay ?
-*CHI: what did what did you do with that ?
+*CHI: what did you do with that ?
 *MOT: what ?
 *CHI: that .
 *MOT: what ?
@@ -249,7 +247,7 @@
 *CHI: with that .
 *MOT: oh .
 *MOT: its upstairs .
-*CHI: can I can I have it ?
+*CHI: can I have it ?
 *MOT: no .
 *MOT: it doesnt work very well .
 *MOT: youre better off using your your papers and
@@ -307,7 +305,7 @@
 *CHI: yeah .
 *CHI: its not bit big .
 *CHI: is it very big today ?
-*INV: I think Mum might be a bit Mummy might be a bit big .
+*INV: I think Mummy might be a bit big .
 *INV: I dont know about the the thing being big .
 *MOT: shall we just have it like that because I dont wanna tear it .
 *CHI: no .
@@ -445,7 +443,7 @@
 *CHI: piece of papers .
 *MOT: that willnt fit on there  Becky .
 *MOT: they will though .
-*CHI: and I do you need these ?
+*CHI: do you need these ?
 *CHI: like a driver .
 *MOT: you want him to be like a driver ?
 *MOT: well .
@@ -487,7 +485,7 @@
 *CHI: for goodness sakes .
 *INV: www .
 *MOT: whoops .
-*MOT: what was all that about ?
+*MOT: all that about ?
 *CHI: for goodness sakes .
 *MOT: youre looking at yourself in the Tv arent you ?
 *CHI: goodness sakes .
@@ -608,7 +606,7 @@
 *MOT: you think what ?
 *CHI: I think go away a nurseryschool .
 *MOT: you think youre what ?
-*CHI: I think I think I get to nurseryschool .
+*CHI: I think I get to nurseryschool .
 *CHI: I think I get to nurseryschool .
 *MOT: you you get to nurseryschool ?
 *MOT: well .
@@ -634,7 +632,7 @@
 *MOT: I thought you werent feeling very well .
 *CHI: I wasnt feeling very well .
 *MOT: werent you ?
-*MOT: but youre feeling okay now  arent you ?
+*MOT: but youre feeling okay now ?
 *MOT: feeling okay now .
 *MOT: youre a monster  arent you ?
 *MOT: hm ?
@@ -673,9 +671,8 @@
 *MOT: poor Becky .
 *MOT: poor Becky .
 *MOT: Im gonna put you in a bag and shake you up .
-*MOT: shall we do that .
-*CHI: yeah .
 *MOT: shall we .
+*CHI: yeah .
 *CHI: yeah .
 *CHI: yeah .
 *MOT: shall we do that ?
@@ -700,7 +697,7 @@
 *MOT: oh .
 *CHI: Mum .
 *MOT: oh .
-*MOT: Im not Im not really .
+*MOT: Im not really .
 *CHI: no .
 *CHI: only pretending .
 *MOT: youre only pretending  are you ?
@@ -752,7 +749,6 @@
 *CHI: can you remember ?
 *MOT: its +"/.
 *MOT: but we cant remember any more .
-*MOT: do you think you can remember that ?
 *CHI: yeah .
 *CHI: come on  horsie .
 *INV: www .
@@ -823,8 +819,7 @@
 *CHI: he did .
 *MOT: can you remember what he did ?
 *CHI: did bitenn leg .
-*INV: he bit your leg  did he ?
-*MOT: to show her but okay .
+*INV: he bit ?
 *INV: oh dear .
 *INV: poor Becky .
 *INV: Ive seen it now .
@@ -957,7 +952,7 @@
 *MOT: can you see it ?
 *MOT: there it is .
 *CHI: oh .
-*CHI: and does it is it a berry ?
+*CHI: and is it a berry ?
 *CHI: and do you  like sauce  Mum ?
 *CHI: like sauce  Mum ?
 *MOT: I dont think that comes out  does it ?
@@ -1130,7 +1125,7 @@
 *CHI: and the .
 *CHI: got a horse .
 *CHI: and the goat is the same .
-*CHI: and the and another goat .
+*CHI: and another goat .
 *CHI: is that another goat  Mum ?
 *MOT: looks like it .
 *MOT: yes .
@@ -1148,7 +1143,7 @@
 *CHI: no .
 *CHI: did it  Mum ?
 *CHI: didnt fall down like me .
-*CHI: is he is he having sleep  Mum ?
+*CHI: is he having sleep  Mum ?
 *MOT: looks like it .
 *CHI: did it .
 *CHI: the piggy dont stay there .
@@ -1266,8 +1261,8 @@
 *CHI: does he dont fit on there ?
 *CHI: does he dont fit ?
 *INV: I dont know .
-*INV: he does sometimes stand up .
-*MOT: he used to stand up .
+*INV: he does sometimes .
+*MOT: to stand up .
 *MOT: Im sure he did .
 *MOT: I think his legs have been bent .
 *MOT: Ill bend them back again .
@@ -1296,7 +1291,7 @@
 *CHI: um I dont know .
 *MOT: oh .
 *MOT: www .
-*CHI: you miss you miss him .
+*CHI: you miss him .
 *CHI: oh .
 *CHI: oh .
 *CHI: you miss him .
@@ -1351,7 +1346,7 @@
 *MOT: do you want me to blow your nose ?
 *CHI: no .
 *CHI: um some more .
-*MOT: its not quite on right I dont I dont think .
+*MOT: its not quite on right I dont think .
 *CHI: goes like that ?
 *MOT: yeah .
 *MOT: thats better .
@@ -1385,7 +1380,7 @@
 *MOT: hes just there on top .
 *CHI: yes .
 *CHI: oh .
-*CHI: I see I see him .
+*CHI: I see him .
 *CHI: see him .
 *CHI: where does him go ?
 *CHI: because I got him .

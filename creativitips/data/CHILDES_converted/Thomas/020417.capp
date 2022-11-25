@@ -31,13 +31,12 @@
 *CHI: no .
 *CHI: oh .
 *CHI: oh dear .
-*CHI: whee whee whee oh dear .
+*CHI: whee oh dear .
 *CHI: hello .
-*CHI: whee whee whee ooh .
+*CHI: whee ooh .
 *MOT: because this is how you are after your sleep .
 *MOT: but you look a bit scruffy  Thomas .
 *MOT: come on .
-*CHI: s orange that .
 *CHI: a green s orange light .
 *MOT: green and orange lights .
 *MOT: yes .
@@ -62,9 +61,8 @@
 *CHI: 0 .
 *MOT: its you messing with the buttons .
 *MOT: thats what it is .
-*CHI: whee whee whee oh dear .
+*CHI: whee oh dear .
 *MOT: come on .
-*CHI: whee whee>
 *MOT: come on .
 *MOT: lets .
 *CHI: aah .
@@ -91,15 +89,12 @@
 *CHI: again again ouch .
 *MOT: not again again .
 *CHI: mhm .
-*CHI: oh see more>
-*CHI: whee whee whee home again .
+*CHI: whee home again .
 *CHI: laughs .
-*INV: whee whee whee over there ?
+*INV: whee over there ?
 *MOT: oh .
 *MOT: oh thats his Postman Pat book .
 *MOT: are you marching ?
-*CHI: whee whee .
-*CHI: whee whee>
 *CHI: ooh .
 *MOT: no .
 *MOT: Thomas .
@@ -141,8 +136,7 @@
 *CHI: yeah .
 *CHI: Thomas bang ap head .
 *MOT: Thomas bang a head .
-*MOT: dont say yeah say yes .
-*CHI: whee whee .
+*MOT: dont say .
 *CHI: oh dear .
 *CHI: ride a bike .
 *MOT: ride a bike .
@@ -183,9 +177,8 @@
 *CHI: ap down now .
 *CHI: ap down .
 *CHI: ap down now .
-*INV: I think you are teasing us .
-*MOT: all down now ?
-*CHI: ap round ap down .
+*INV: I think you are .
+*CHI: ap down .
 *MOT: oh I see .
 *MOT: when they go round theyre going down .
 *MOT: as they move round .
@@ -222,7 +215,6 @@
 *CHI: blackcurrant 0and toast .
 *MOT: blackcurrant and toast .
 *MOT: and did we have a biscuit as well because they were trying to use
-*CHI: all done .
 *MOT: and who was there ?
 *CHI: Ben 0and Charlotte .
 *MOT: Ben and Charlotte .
@@ -297,7 +289,6 @@
 *MOT: no .
 *MOT: Sonya and Isabel werent there this morning .
 *MOT: and they didnt cry yesterday even when they were .
-*MOT: oh yes .
 *MOT: Isabel cried yesterday didnt she ?
 *CHI: yeah .
 *MOT: yes .
@@ -334,7 +325,7 @@
 *CHI: bike .
 *CHI: ooh .
 *MOT: oh .
-*CHI: whee whee whee .
+*CHI: whee .
 *CHI: ooh .
 *INV: oh .
 *CHI: a heavy one .
@@ -368,7 +359,6 @@
 *INV: ouch .
 *MOT: ouch .
 *MOT: I think he enjoys hearing the ouch .
-*CHI: ouch ouch>
 *INV: ouch .
 *CHI: laughs .
 *CHI: ow bang ap head .
@@ -411,15 +401,13 @@
 *INV: is that the racing car ?
 *CHI: ap drive off now .
 *CHI: ap drive off .
-*MOT: oh drive off now .
 *INV: drive off .
 *MOT: yeah .
 *MOT: drive off now .
 *INV: wheres it going ?
 *INV: wheres this wheres he going ?
 *CHI: uh Stockport .
-*MOT: hes going to Stockport .
-*INV: to Stockport .
+*MOT: hes going .
 *INV: what is he going to do in Stockport ?
 *CHI: two Smarties .
 *MOT: going to buy some Smarties .
@@ -463,7 +451,7 @@
 *CHI: two money .
 *MOT: two pence and two money .
 *MOT: everythings two money .
-*CHI: all done money .
+*CHI: money .
 *INV: its .
 *MOT: I think its Mummys money really isnt it ?
 *CHI: no Mummys .
@@ -653,7 +641,7 @@
 *MOT: its shiningc now .
 *MOT: yes .
 *MOT: the moons not out .
-*CHI: all gone a moon .
+*CHI: a moon .
 *CHI: Pippin on .
 *MOT: no were not putting Pippin on now .
 *MOT: no .
@@ -685,7 +673,6 @@
 *CHI: yeah .
 *MOT: you werent were you ?
 *CHI: a wee wee sit on potty .
-*MOT: a wee wee .
 *CHI: sit on potty .
 *MOT: sit on the potty .
 *MOT: its a good job youve got a nappie on because you didnt tell me .
@@ -721,8 +708,7 @@
 *INV: the man round and round ?
 *CHI: no .
 *CHI: the people round and round .
-*MOT: the people round and round ?
-*INV: the people round .
+*MOT: the people ?
 *CHI: round and round now .
 *CHI: green one .
 *INV: green one .
@@ -774,8 +760,7 @@
 *CHI: big willie Thomas .
 *CHI: Thomas .
 *MOT: yes .
-*MOT: youve got a very big one .
-*CHI: Thomas .
+*MOT: youve got big one .
 *MOT: so you tell me .
 *MOT: I think its rude to tell Dimitra she has got a big tummy though
 *CHI: mhm .
@@ -802,10 +787,10 @@
 *CHI: shining .
 *MOT: shining bright ?
 *CHI: yeah .
-*MOT: it was a b it was a huge room and there was a big mirror
+*MOT: it was a huge room and there was a big mirror
 *MOT: lots of lights .
 *MOT: they were chandeliers werent they ?
-*CHI: a big a big ladders .
+*CHI: a big ladders .
 *MOT: big ladders .
 *MOT: yes there were ladders up to the s uh slide .
 *MOT: and you were going up the ladders werent you ?
@@ -831,7 +816,7 @@
 *MOT: and youve got orange juice here  somewhere .
 *MOT: uh .
 *MOT: where has the orange juice gone ?
-*CHI: uh ap done a poo .
+*CHI: uh .
 *MOT: go back and see Dimitra .
 *CHI: big noise .
 *MOT: right .
@@ -859,12 +844,11 @@
 *CHI: bin bag lorry .
 *MOT: oh bin bag lorry .
 *MOT: yes .
-*MOT: theres a picture refuse lorry in there .
-*INV: ah yeah yeah .
+*MOT: refuse lorry in there .
 *INV: thats true .
 *MOT: so Sue was blowing up a bed with a foot pump .
 *CHI: laughs .
-*MOT: Mummy Mummy offered to help but she couldnt because she
+*MOT: Mummy offered to help but she couldnt because she
 *CHI: big noise .
 *CHI: 0 .
 *MOT: and whats Sues pussy cat called ?
@@ -905,8 +889,8 @@
 *MOT: come and sit on Mummys knee and show Dimitra what we do .
 *CHI: laughs .
 *CHI: oh whee .
-*CHI: whee whee whee .
-*INV: did you help Sue blow the bed ?
+*CHI: whee .
+*INV: blow the bed ?
 *INV: blow blow ?
 *MOT: yes .
 *MOT: inflate the bed .
@@ -932,7 +916,7 @@
 *CHI: high low .
 *MOT: high low .
 *MOT: and does he say stop and go ?
-*CHI: stop s stop .
+*CHI: stop .
 *MOT: didnt we ?
 *CHI: yeah .
 *MOT: do you remember those bear books ?
@@ -974,7 +958,7 @@
 *MOT: and there was a loaf of bread with cheese and ham and cucumber that
 *MOT: not in your mouth  Thomas  please .
 *INV: off you go again .
-*CHI: whee whee whee ouch .
+*CHI: whee ouch .
 *MOT: no .
 *INV: that was ouch .
 *INV: but I can tell you .
@@ -1033,10 +1017,8 @@
 *CHI: Peggy poorly .
 *MOT: Peggy was poorly .
 *MOT: and the other day you were sitting jumping on the sofa and
-*CHI: ambulance come .
 *CHI: mhm .
 *MOT: and you then proceeded to jump up and down on the sofa because you
-*CHI: ambulance come>
 *CHI: ambulance .
 *MOT: and we had an awful job to stop you jumping because you thought if
 *CHI: ambulance come .
@@ -1136,7 +1118,7 @@
 *CHI: yeah .
 *CHI: ap smell it .
 *CHI: Dimitra smell it .
-*MOT: Dimitra smell it .
+*MOT: smell it .
 *MOT: mhm .
 *INV: yeah .
 *CHI: poo .
@@ -1209,7 +1191,7 @@
 *MOT: bite it ?
 *CHI: yeah .
 *MOT: I dont think you can bite bite the foam in the cushion can
-*CHI: ap down now .
+*CHI: now .
 *MOT: would you like Mummy to do the zip up ?
 *CHI: yes .
 *MOT: thank you .
@@ -1226,7 +1208,6 @@
 *MOT: there was a post box .
 *MOT: it was made of wood and painted red and it said on it post box .
 *INV: really .
-*INV: did you post anything .
 *MOT: and had a big slot where you could post things .
 *MOT: but there werent any letters so you posted some plates and a
 *MOT: yes .
@@ -1239,7 +1220,7 @@
 *MOT: if you press the man down the train drives off doesnt it ?
 *MOT: and up pops the man .
 *CHI: pops the man .
-*CHI: jump jump jump jump .
+*CHI: jump .
 *MOT: Thomas .
 *MOT: are we going to go to the supermarket this evening ?
 *CHI: yeah .
@@ -1290,7 +1271,7 @@
 *MOT: Gordons blue up .
 *MOT: I dont know .
 *CHI: what a mess ?
-*CHI: ap read book .
+*CHI: ap .
 *CHI: ooh oh dear .
 *INV: “what a mess” a what ?
 *CHI: the big read book .
@@ -1325,11 +1306,11 @@
 *CHI: yes .
 *MOT: you said last Wednesday you were taking Nana and Granddad to
 *MOT: oh is that the fishing rod ?
-*CHI: all done Granddad .
+*CHI: Granddad .
 *CHI: watch Pippin now ?
 *MOT: no we cant watch Pippin now  Thomas  because its not on .
 *MOT: Pippins on Thursday and Friday mornings for quarter of an hour .
-*CHI: bye bye bye bye .
+*CHI: bye bye .
 *MOT: no dont .
 *MOT: no .
 *MOT: let Mummy have a look at that please  Thomas .
@@ -1425,7 +1406,7 @@
 *MOT: sit up .
 *CHI: yeah .
 *MOT: I think shes sleeping upstairs with Daddy isnt she ?
-*CHI: Ill hang these back up again to dry because theyre still a
+*CHI: hang these back up again to dry because theyre still a
 *MOT: and look theres a teddy bear on that one .
 *CHI: big one .
 *CHI: big one .
@@ -1459,7 +1440,7 @@
 *MOT: thats right .
 *MOT: they might hafta go back in the garden shed  Thomas  because the
 *CHI: ap ap dark now .
-*MOT: its not dark but its cold .
+*MOT: not dark but its cold .
 *MOT: its not sunny like weve had .
 *CHI: Thomas open .
 *CHI: Thomas open .
@@ -1495,7 +1476,7 @@
 *INV: ooh .
 *INV: aah .
 *CHI: 0 .
-*INV: ow ow ow .
+*INV: ow .
 *MOT: did you bump your face ?
 *CHI: yeah .
 *MOT: its better now isnt it ?
@@ -1523,8 +1504,7 @@
 *CHI: laughs .
 *MOT: your toes .
 *MOT: have you seen these fancy socks  Dimitra ?
-*MOT: you got new socks as well didnt you ?
-*INV: very very nice .
+*MOT: you got ?
 *MOT: new socks on Sunday .
 *MOT: new pyjamas .
 *MOT: what else did you get ?
@@ -1545,8 +1525,8 @@
 *MOT: no .
 *INV: these are really nice shorts .
 *INV: oh .
-*INV: are you giving them to me ?
-*MOT: well they were before Mummy put the iron on them and burnt
+*INV: are ?
+*MOT: Mummy put the iron on them and burnt
 *INV: I dont think they will fit actually  Thomas .
 *INV: theyre probably going to look better on you .
 *CHI: no .
@@ -1602,7 +1582,6 @@
 *MOT: thats right .
 *CHI: Linda 0and
 *MOT: do you think theyll be cross ?
-*CHI: in the morning .
 *MOT: oh is that your in the morningq song ?
 *CHI: Linda 0and
 *MOT: yes they might be cross .
@@ -1630,15 +1609,12 @@
 *CHI: ow .
 *MOT: have you hurt your finger ?
 *CHI: this one ow ow .
-*CHI: bite bite bite bite .
-*CHI: bite bite >
+*CHI: bite .
 *MOT: bite ?
 *CHI: big box .
 *CHI: baby box coming .
 *INV: big big box coming ?
 *CHI: no baby .
-*CHI: baby box .
-*INV: oh baby box .
 *MOT: a baby box .
 *CHI: baby one .
 *MOT: yes .
@@ -1668,8 +1644,7 @@
 *MOT: Thomas .
 *MOT: shall we sing our song about shoes ?
 *CHI: on my foot a some .
-*CHI: ahchooo .
-*MOT: on my foot I have a shoe .
+*MOT: on my foot I .
 *MOT: on the other foot I have another shoe .
 *MOT: www .
 *CHI: bang a drum time ?
@@ -1704,7 +1679,7 @@
 *MOT: hell say I dont want cheeky boys in here .
 *CHI: be cheeky .
 *MOT: I dont want cheeky boys .
-*CHI: whee whee whee .
+*CHI: whee .
 *CHI: agh .
 *MOT: ooh you are a monster .
 *MOT: a lovable monster .
@@ -1741,7 +1716,7 @@
 *MOT: whats what  darling ?
 *CHI: white cooker .
 *MOT: the white cooker not computer .
-*CHI: not the white cooker .
+*CHI: white cooker .
 *MOT: the white cooker .
 *MOT: the white oven .
 *MOT: you dont touch it  Thomas .

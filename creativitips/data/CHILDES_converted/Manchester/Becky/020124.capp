@@ -210,7 +210,7 @@
 *CHI: um cup .
 *MOT: a cup .
 *MOT: are you going to color the cup in ?
-*MOT: shall I color shall I color the chair ?
+*MOT: shall I color the chair ?
 *CHI: yeah .
 *MOT: shall we have an orange chair ?
 *CHI: yeah .
@@ -292,7 +292,7 @@
 *CHI: that no work .
 *MOT: no .
 *MOT: that one doesnt work .
-*MOT: its not a color a proper color  is it ?
+*MOT: its not a proper color  is it ?
 *CHI: no .
 *MOT: get another color .
 *CHI: there .
@@ -335,8 +335,6 @@
 *CHI: garden clothes .
 *CHI: that work ?
 *MOT: huh ?
-*CHI: that work ?
-*MOT: that one works .
 *MOT: try it .
 *CHI: work .
 *CHI: no work .
@@ -360,7 +358,7 @@
 *MOT: whos this ?
 *CHI: elephant .
 *MOT: elephant .
-*CHI: going there P]
+*CHI: going there .
 *MOT: and what are these here ?
 *CHI: houses .
 *MOT: mhm .
@@ -465,7 +463,7 @@
 *CHI: pennys .
 *MOT: and look  shes got her shopping basket .
 *MOT: hasnt she ?
-*CHI: Daddy  pennys .
+*CHI: pennys .
 *MOT: pardon ?
 *MOT: Daddy brings pennys  does he ?
 *CHI: yeah .
@@ -478,8 +476,7 @@
 *MOT: try it .
 *MOT: try it here .
 *MOT: thats it .
-*MOT: youve only got to press on  havent you ?
-*CHI: thank you .
+*MOT: youve on  havent you ?
 *MOT: thats it .
 *CHI: ladybird .
 *MOT: a ladybird .
@@ -783,8 +780,7 @@
 *CHI: toys .
 *CHI: want that one .
 *MOT: toys .
-*MOT: well well just play with something else out of your toybox [>]
-*INV: youre not yet .
+*MOT: well well just
 *MOT: well just play with something out of here first .
 *MOT: shall we do a puzzle ?
 *CHI: yeah .
@@ -817,10 +813,9 @@
 *MOT: Becky .
 *MOT: you cant have those until youve done something else first .
 *MOT: Becky .
-*INV: Ill show them you in a little while  Becky .
+*INV: Ill show them a little while  Becky .
 *MOT: Becky .
 *MOT: Becky .
-*INV: play with .
 *MOT: tell me something else youd like to do then .
 *MOT: if you dont wanna do a puzzle .
 *MOT: do you wanna ride on your horsie ?
@@ -934,7 +929,7 @@
 *MOT: whoops .
 *CHI: sorry .
 *MOT: what do you want ?
-*MOT: well we willnt willnt get those out now I dont think .
+*MOT: well willnt get those out now I dont think .
 *MOT: theyll go all over the place  willnt they ?
 *CHI: toys .
 *MOT: do you wanna help me put these things back in the box first ?
@@ -944,8 +939,8 @@
 *CHI: in this one .
 *CHI: goes that one ?
 *CHI: yeah .
-*MOT: well we needta put these back first .
-*INV: you help Mummy put those back and then it will be about time
+*MOT: well we needta .
+*INV: put those back and then it will be about time
 *CHI: yeah .
 *MOT: shall we put these back first ?
 *MOT: whats this  Becky ?
@@ -994,7 +989,7 @@
 *MOT: I think thats a beefburger  Becky .
 *CHI: that ?
 *CHI: that ?
-*MOT: its a thats a courgette .
+*MOT: thats a courgette .
 *CHI: courgette .
 *CHI: that ?
 *MOT: I think thats celery .
@@ -1199,10 +1194,7 @@
 *MOT: shall we put him behind the wheel ?
 *CHI: shoes off .
 *MOT: put him behind the wheel ?
-*CHI: shoes off .
-*CHI: shoes off .
 *MOT: brummo .
-*CHI: shoes off .
 *CHI: there .
 *CHI: there .
 *MOT: huh ?
@@ -1410,7 +1402,7 @@
 *CHI: no .
 *MOT: hes eaten your nose .
 *CHI: no .
-*MOT: hes going to eat your hes going to cheeks next .
+*MOT: hes going to cheeks next .
 *CHI: no .
 *CHI: no .
 *MOT: hes going to eat your ears now .
@@ -1522,7 +1514,7 @@
 *CHI: yes .
 *CHI: yes .
 *MOT: I cant think of one other than those Ive said .
-*MOT: Im sure Im sure this is the one you mean  isnt it ?
+*MOT: Im sure this is the one you mean  isnt it ?
 *CHI: yeah .
 *MOT: yes ?
 *CHI: yes .
@@ -1554,7 +1546,7 @@
 *CHI: yeah .
 *MOT: does he ?
 *CHI: yeah .
-*MOT: whats whats he doing here ?
+*MOT: whats he doing here ?
 *MOT: whats this here ?
 *CHI: Sukie .
 *MOT: Sukie ?

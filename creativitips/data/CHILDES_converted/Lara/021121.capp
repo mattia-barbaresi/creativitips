@@ -12,10 +12,8 @@
 *AMY: 0 .
 *DAD: www .
 *DAD: time for tubby toast .
-*MOT: www .
-*CHI: time for tubby toast I]
 *CHI: Im not a Teletubby .
-*CHI: Im not a Teletubby SR]
+*CHI: Im not a Teletubby .
 *DAD: youre not a Teletubby ?
 *MOT: yes .
 *MOT: you are .
@@ -56,8 +54,7 @@
 *MOT: and you on there .
 *MOT: what what are you on ?
 *CHI: I dont know ?
-*MOT: youre on the climbing frame .
-*DAD: here you are  smelly .
+*MOT: youre .
 *DAD: there you are  smelly .
 *DAD: what do you say ?
 *CHI: thank you .
@@ -99,7 +96,7 @@
 *MOT: thank you .
 *MOT: whos that ?
 *CHI: daddy and Amy asleep .
-*MOT: daddy and IN]
+*MOT: daddy and +..?
 *CHI: theres you  daddy .
 *DAD: hooray .
 *CHI: look .
@@ -108,7 +105,7 @@
 *DAD: oh yes .
 *DAD: what am I doing ?
 *CHI: sleeping .
-*CHI: sleeping SR]
+*CHI: sleeping .
 *MOT: he is .
 *MOT: hes asleep .
 *DAD: theres a bit of a shocker .
@@ -117,7 +114,6 @@
 *DAD: www .
 *DAD: right .
 *DAD: Im off to the tip .
-*DAD: Ill be back in a little while .
 *DAD: can I have a kiss ?
 *DAD: Amy ?
 *DAD: say ta .
@@ -134,7 +130,7 @@
 *DAD: look .
 *DAD: whats this ?
 *DAD: ta .
-*MOT: do you want shall I get her a rusk as well ?
+*MOT: shall I get her a rusk as well ?
 *DAD: ta .
 *DAD: you can do if you wanna .
 *MOT: see if shell have it ?
@@ -167,17 +163,16 @@
 *CHI: just there .
 *MOT: I know .
 *MOT: well .
-*MOT: that ones that ones gone a bit funny .
+*MOT: that ones gone a bit funny .
 *MOT: so Im gonna throw that one away .
 *MOT: because its not a very good one that isnt .
-*CHI: because that says PI]
+*CHI: because that says .
 *MOT: that says March to April nineteen ninety seven .
 *MOT: right .
 *MOT: lets have a look at these .
 *CHI: ugho ugho .
 *CHI: go down the slide .
-*CHI: thats look like a slide now .
-*MOT: a little bit .
+*CHI: like a slide now .
 *AMY: 0 .
 *MOT: 0are you alright ?
 *CHI: look .
@@ -212,13 +207,11 @@
 *MOT: do you wanna go and have a look ?
 *CHI: yes .
 *MOT: oh  Amy .
-*MOT: I think you are ready for bed .
-*CHI: I do .
+*MOT: I think you are .
 *CHI: I do want have a look .
 *MOT: go on then .
-*MOT: sit on the stand on the chair .
+*MOT: stand on the chair .
 *MOT: or do you wanna go outside ?
-*CHI: I wanna go outside please .
 *AMY: 0 .
 *MOT: oh .
 *MOT: lets get you ready for bed .
@@ -261,7 +254,7 @@
 *CHI: are we just going to daddys work ?
 *MOT: no .
 *MOT: were not going to daddys work .
-*MOT: were just hes going to the tip .
+*MOT: hes going to the tip .
 *MOT: there we go  Amy .
 *MOT: all ready for bed .
 *MOT: get your bottle ?
@@ -269,11 +262,11 @@
 *MOT: bottle time for Amy .
 *MOT: bottle time for Amy .
 *CHI: mummy .
-*CHI: mummy SR]
+*CHI: mummy .
 *CHI: come and see .
 *MOT: I will when Ive got Amys bottle .
 *MOT: what time is it ?
-*CHI: what time is it I]
+*CHI: what time is it ?
 *MOT: five past five .
 *MOT: this is an early bottle  Amy .
 *CHI: is it half past five ?
@@ -295,7 +288,7 @@
 *MOT: let me just give Amy her bottle .
 *CHI: I want a cake now .
 *MOT: well yes .
-*MOT: but Im not you cant reach them yet .
+*MOT: but you cant reach them yet .
 *MOT: youll hafta wait .
 *CHI: where has the cakes gone ?
 *MOT: theyre up at the top there .
@@ -323,7 +316,7 @@
 *CHI: I wanna have that one .
 *MOT: thank you .
 *CHI: Ill have this one .
-*CHI: Ill have this one I]
+*CHI: Ill have this one .
 *MOT: er I think Im alright actually .
 *MOT: mhm .
 *MOT: yummy .
@@ -349,7 +342,7 @@
 *MOT: two and a half .
 *MOT: well sort of .
 *MOT: two and a lot .
-*CHI: two and a lot I]
+*CHI: two and a lot .
 *MOT: nearly three .
 *CHI: Im gonna sit in this little gap .
 *MOT: youre gonna sit in that little gap ?
@@ -362,30 +355,28 @@
 *MOT: do you want a poo ?
 *CHI: uhhuh .
 *MOT: yes ?
-*CHI: yes I]
+*CHI: yes .
 *MOT: do you ?
-*CHI: yes SR]
+*CHI: yes .
 *MOT: go on then .
-*MOT: do you wanna IN]
-*CHI: Ill step over PI]
+*MOT: do you wanna .
+*CHI: Ill step over .
 *MOT: no .
 *MOT: step round it .
 *MOT: do you want mummy to come ?
 *CHI: yes .
 *MOT: okay .
-*CHI: yes SR]
+*CHI: yes .
 *MOT: okay .
 *MOT: er .
 *CHI: mum .
-*CHI: mum SR]
-*CHI: mum SR]
+*CHI: mum .
+*CHI: mum .
 *MOT: come on then .
-*MOT: daddy pass us the photos and PI]
+*MOT: daddy pass us the photos and .
 *DAD: www .
 *MOT: right .
 *MOT: what have we looked at then ?
-*DAD: oh and a big cuddle for Amy .
-*DAD: no you cant play with those .
 *DAD: you cant play with those .
 *DAD: no .
 *DAD: no no no no .
@@ -399,7 +390,7 @@
 *MOT: look .
 *DAD: oh .
 *MOT: hee hee .
-*MOT: on your bed PI]
+*MOT: on your bed .
 *DAD: is it her old bed or her new bed  Mum ?
 *MOT: her old bed .
 *DAD: oh .
@@ -433,13 +424,9 @@
 *MOT: no .
 *MOT: this must be after Christmas because Amys got her little things on
 *MOT: and thats when we went to Grandads house .
-*MOT: and that was in January .
-*DAD: www .
 *MOT: so I think these photos must be January  nineteen ninety seven .
 *DAD: www .
 *MOT: there you go  Lara .
-*DAD: www .
-*MOT: lets have a look at these little ones .
 *MOT: oh look .
 *DAD: look  Caroline .
 *DAD: look .

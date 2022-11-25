@@ -27,7 +27,6 @@
 *CHI: beep beep .
 *CHI: beep beep trucks .
 *MOT: beep beep trucks .
-*MOT: thats what>
 *CHI: beepo .
 *MOT: weve heard you saying that havent we ?
 *MOT: beep beep .
@@ -232,7 +231,6 @@
 *CHI: uhoh .
 *MOT: its too exciting here with all those things isnt it ?
 *MOT: outside .
-*CHI: shut door .
 *CHI: oh .
 *CHI: where shut gone ?
 *CHI: where Nin Nin .
@@ -274,8 +272,7 @@
 *MOT: when Mummys putting you to bed at night she doesnt just throw you
 *CHI: Nin Nin .
 *CHI: Po there .
-*MOT: whatve you>
-*CHI: oh dear fluff .
+*CHI: fluff .
 *MOT: whatve you found ?
 *CHI: oh dear fluff .
 *MOT: oh is it a little bit of fluff ?
@@ -435,8 +432,7 @@
 *CHI: Nin Nin .
 *MOT: yes  darling ?
 *CHI: see trucks .
-*CHI: Nin Nin>
-*MOT: Mummys getting some water .
+*MOT: getting some water .
 *CHI: water .
 *MOT: water .
 *CHI: water .
@@ -451,7 +447,7 @@
 *CHI: brush ap trees .
 *CHI: brush ap trees .
 *CHI: trees .
-*MOT: youre sitting like a very good boy arent you ?
+*MOT: sitting like a very good boy arent you ?
 *MOT: Mummys just running the tap to get some water .
 *CHI: run ap taps .
 *CHI: water .
@@ -585,7 +581,7 @@
 *MOT: yes .
 *MOT: and what color are the ducks ?
 *CHI: yellow .
-*MOT: uh yellow ducks are yellow and what is the frog ?
+*MOT: ducks are yellow and what is the frog ?
 *CHI: blue .
 *MOT: no its not .
 *MOT: what colors the frog ?
@@ -673,7 +669,6 @@
 *MOT: reel .
 *CHI: Nin Nin .
 *MOT: Uncle David goes fishing a lot doesnt he ?
-*CHI: fish fish>
 *MOT: so shall we put the ducks
 *CHI: la la la .
 *MOT: Mummy put that in .
@@ -794,7 +789,7 @@
 *MOT: which finger did he bite ?
 *MOT: this little finger on my right .
 *MOT: one two three four five once I caught a fish alive .
-*MOT: six seven eight nine ten then I let it go again>
+*MOT: six seven eight nine ten then I let it
 *CHI: Nin Nin dotdotc .
 *MOT: Nin Nin dotdotc ?
 *MOT: have I got spots on my hand ?
@@ -836,7 +831,7 @@
 *MOT: because theyre wet arent they ?
 *CHI: truck fish .
 *CHI: Nin Nin .
-*CHI: truck fish no truck fish .
+*CHI: no truck fish .
 *MOT: no .
 *MOT: we dont really need the trucks do we ?
 *MOT: Thomas this is a hook .
@@ -867,7 +862,6 @@
 *MOT: good boy .
 *CHI: oh no .
 *CHI: uhoh .
-*MOT: thats it .
 *MOT: use the net .
 *MOT: uhoh .
 *MOT: use the net and put them straight into the basket down there .
@@ -886,7 +880,7 @@
 *CHI: yuck .
 *MOT: yuck .
 *MOT: what else do you think you might find in the duck pond ?
-*CHI: white whats that quack quack .
+*CHI: white quack quack .
 *MOT: its the white quack quack .
 *MOT: its a swan .
 *CHI: quack quack .
@@ -1028,7 +1022,6 @@
 *CHI: see you fish .
 *MOT: thats a fishing rod .
 *CHI: oh no .
-*CHI: no no .
 *MOT: all done .
 *MOT: theres no nothing in there anymore is there .
 *MOT: no .
@@ -1075,7 +1068,7 @@
 *MOT: no .
 *MOT: just put them in gently .
 *MOT: if I lower the basket .
-*MOT: dont dont drop them in .
+*MOT: dont drop them in .
 *MOT: put them in very gently .
 *CHI: oh no there .
 *CHI: uhoh .
@@ -1144,7 +1137,6 @@
 *MOT: with a big noise .
 *CHI: bye .
 *CHI: big truck ap big trucks .
-*CHI: ap big>
 *CHI: truck chair .
 *MOT: no .
 *MOT: dont sit in the truck .
@@ -1177,15 +1169,13 @@
 *MOT: oh have you put your juice in the truck ?
 *MOT: you had better get it out  Thomas .
 *MOT: because  when were looking for the beaker we wont know where
-*MOT: because we probably wont remember where you put it .
-*CHI: truck ap juice .
+*MOT: because we probably wont remember where .
 *MOT: yes .
 *MOT: especially if it has got milk in it .
 *MOT: because itll start going funny wont it ?
 *MOT: in the sun .
 *MOT: there we are .
-*MOT: weve nearly tidied up now .
-*CHI: where steps .
+*MOT: weve nearly tidied .
 *CHI: steps .
 *MOT: steps ?
 *MOT: youre standing on the basket and saying steps ?
@@ -1233,7 +1223,6 @@
 *MOT: listen .
 *MOT: theres an aeroplane .
 *CHI: hello .
-*MOT: can you see it ?
 *CHI: ap outside .
 *CHI: outside .
 *MOT: you can go outside later on  Thomas .
@@ -1303,7 +1292,7 @@
 *MOT: Daddy .
 *MOT: where has Daddy been ?
 *CHI: chip shop .
-*MOT: the chip shops ?
+*MOT: shops ?
 *MOT: no .
 *MOT: he has been to 0the doctors .
 *MOT: Daddy has been to the doctor .
@@ -1332,8 +1321,6 @@
 *CHI: ap brush ap trees .
 *CHI: Dadda .
 *CHI: brush ap trees .
-*DAD: have you been a good boy ?
-*MOT: brush the trees .
 *MOT: that means no he wasnt a good boy earlier on .
 *MOT: he was outside hitting the trees with a brush so he got into
 *DAD: do you see what Daddy has got for you ?
@@ -1354,7 +1341,6 @@
 *MOT: itll add to your collection of trucks wont it  Thomas ?
 *CHI: Nin Nin .
 *MOT: yes ?
-*CHI: bee bah .
 *MOT: oh what have you got ?
 *CHI: bee bah .
 *MOT: gosh thats lovely .
@@ -1375,7 +1361,7 @@
 *CHI: red .
 *DAD: red .
 *CHI: whats this ?
-*DAD: thats the fire engine .
+*DAD: the fire engine .
 *CHI: beebaho .
 *DAD: is that what the fire engine says ?
 *MOT: laughs .

@@ -214,8 +214,8 @@
 *MOT: no throwing .
 *MOT: give it to me please .
 *MOT: give it to me .
-*CHI: John this this one .
-*CHI: having having having a blue one .
+*CHI: this one .
+*CHI: having a blue one .
 *CHI: having a blue one .
 *MOT: mhm .
 *CHI: having a blue one .
@@ -862,10 +862,7 @@
 *MOT: sorry ?
 *CHI: oh hit me .
 *MOT: hit you ?
-*CHI: that John photo you .
-*CHI: that a photo you .
 *MOT: can you see ?
-*CHI: photo you .
 *MOT: its funny  John .
 *MOT: funny .
 *CHI: in there .
@@ -1082,9 +1079,9 @@
 *MOT: ah you are eating the table .
 *MOT: good .
 *MOT: whatre you eating  John ?
-*CHI: eating the eating the eating the hippo .
+*CHI: eating the hippo .
 *MOT: oh .
-*CHI: eating the eating the hippo .
+*CHI: eating the hippo .
 *MOT: you mean the hippo is eating .
 *MOT: the hippos on the table .
 *CHI: oh dear .

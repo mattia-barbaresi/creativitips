@@ -80,7 +80,7 @@
 *CHI: pear cheese .
 *MOT: pear cheese .
 *CHI: mhm .
-*MOT: does that taste good does it taste good ?
+*MOT: does it taste good ?
 *CHI: yum .
 *CHI: no .
 *MOT: no .
@@ -281,14 +281,13 @@
 *CHI: Nin Nin .
 *CHI: a big bus .
 *MOT: it was a big bus .
-*CHI: no no no .
+*CHI: no .
 *CHI: Nin Nin .
 *CHI: choo choosf .
 *MOT: whats happening ?
-*CHI: no no>
 *CHI: choo choosf .
 *CHI: choo choosf .
-*MOT: no no no .
+*MOT: no .
 *MOT: choo choosf .
 *MOT: whats happening ?
 *MOT: oh I see .
@@ -401,7 +400,7 @@
 *MOT: is that Percy ?
 *MOT: thats Thomas The Tank Engine .
 *MOT: he looks like he has broken down .
-*CHI: oh no no no .
+*CHI: oh no .
 *MOT: he has broken down hasnt he ?
 *CHI: no .
 *CHI: stop .
@@ -479,7 +478,7 @@
 *MOT: I think .
 *CHI: blue .
 *CHI: Nin Nin .
-*CHI: juice juice juice .
+*CHI: juice .
 *CHI: Nin Nin .
 *CHI: a big juice .
 *MOT: big juice .
@@ -493,17 +492,15 @@
 *CHI: a big juice ap there .
 *MOT: oh no .
 *MOT: you cant have big juice instead .
-*MOT: no no no no .
+*MOT: no .
 *MOT: is that what you think will happen if you hand all this back ?
 *CHI: a big juice ap .
 *MOT: laughs .
 *MOT: oh no .
 *CHI: a big juice .
 *CHI: big juice .
-*CHI: a big juice>
 *MOT: you cant have lemonade at breakfast  Thomas .
 *CHI: a big juice .
-*CHI: a big juice>
 *MOT: dont shout .
 *CHI: big juice .
 *MOT: big juice .
@@ -550,7 +547,7 @@
 *MOT: and there are blue and yellow flowers floating round .
 *MOT: and thats why you are saying blue choc chocf .
 *MOT: that was Dimitra on the phone just ringing to check that she was
-*CHI: blue blue blue blue .
+*CHI: blue .
 *CHI: blues .
 *CHI: Nin Nin .
 *CHI: yellow .
@@ -624,10 +621,7 @@
 *CHI: please .
 *MOT: that sounds better  doesnt it ?
 *CHI: blue juice .
-*CHI: wheres hatc .
-*CHI: wheres hat@c>
 *CHI: Nin Nin .
-*CHI: wheres hat@c>
 *MOT: your hat .
 *CHI: Nin Nin .
 *CHI: Nin Nin .
@@ -687,8 +681,7 @@
 *MOT: no .
 *MOT: dont roll the dustbin around  Thomas .
 *MOT: I know it has fallen on the floor .
-*CHI: ap this ?
-*MOT: but well just have to leave it where it is .
+*MOT: to leave it where it is .
 *MOT: this is the computer .
 *CHI: computer .
 *MOT: computer .
@@ -697,7 +690,7 @@
 *MOT: yes .
 *MOT: Daddy has a computer .
 *MOT: but Daddy has the luxury of having his set up on the stand all the
-*CHI: no no no .
+*CHI: no .
 *MOT: whereas Mummy because I have got to keep it away from prying
 *CHI: computer .
 *MOT: Mummy keeps hers in a case .
@@ -761,8 +754,8 @@
 *CHI: this .
 *MOT: are you walking around with the baby walker ?
 *MOT: its a long time since youve needed that isnt it ?
-*CHI: no no no .
-*MOT: no no no no .
+*CHI: no .
+*MOT: no .
 *MOT: you can usually manage to walk without that  Thomas .
 *MOT: now .
 *CHI: Nin Nin .
@@ -771,7 +764,7 @@
 *CHI: oh dear .
 *MOT: oh dear .
 *CHI: what this ?
-*MOT: oh be careful be careful .
+*MOT: oh be careful .
 *MOT: youll drop it .
 *CHI: Nin Nin .
 *CHI: and this ?
@@ -801,7 +794,7 @@
 *CHI: Nin Nin .
 *MOT: yes .
 *CHI: Nin Nin .
-*MOT: oops steady now steady .
+*MOT: oops steady .
 *CHI: Nin Nin .
 *CHI: ap this ?
 *CHI: trucks .
@@ -839,7 +832,7 @@
 *MOT: truck .
 *CHI: a big truck .
 *CHI: big trucks .
-*MOT: big trucks big trucks .
+*MOT: big trucks .
 *CHI: big trucks .
 *CHI: oh dear .
 *CHI: Nin Nin .
@@ -857,7 +850,7 @@
 *CHI: a big truck .
 *MOT: yes .
 *MOT: big trucks .
-*MOT: just be careful be careful .
+*MOT: just be careful .
 *MOT: are you getting Po out ?
 *MOT: are you going to give Po a big cuddle ?
 *MOT: what do you think you and Po are going to do today with Grandma and
@@ -920,7 +913,7 @@
 *MOT: and she straps to your back .
 *CHI: Nin Nin .
 *MOT: yes .
-*MOT: whats that called  Thomas whats this called ?
+*MOT: whats this called ?
 *CHI: ap this ?
 *CHI: oh wipes .
 *MOT: oh wipes .
@@ -945,7 +938,7 @@
 *MOT: I think well hafta see if we can get you a Tinky Winky sometime .
 *CHI: oh dear .
 *MOT: oh dear .
-*MOT: has Dipsy fallen out did Dipsy fall out ?
+*MOT: did Dipsy fall out ?
 *CHI: aah .
 *MOT: aah are you giving them all a big hug .
 *MOT: Teletubbies love each other very much dont they ?
@@ -976,12 +969,12 @@
 *CHI: Nin Nin .
 *MOT: yes .
 *CHI: what this ?
-*MOT: oh whats that what is it ?
+*MOT: oh what is it ?
 *MOT: have you just found that on the floor ?
 *MOT: to be honest it doesnt look very nice .
 *MOT: I dont know what it is but .
 *CHI: pea .
-*MOT: was it a pea do you think it was a pea ?
+*MOT: do you think it was a pea ?
 *CHI: pea .
 *MOT: I dont think weve eaten peas this week  Thomas .
 *MOT: it didnt really look like a pea to me .
@@ -996,9 +989,9 @@
 *MOT: no .
 *MOT: you cant go out now .
 *MOT: weve got to get you changed havent we ?
-*CHI: no no no .
-*CHI: oh no no no .
-*MOT: oh no no no .
+*CHI: no .
+*CHI: oh no .
+*MOT: oh no .
 *MOT: we cant go out can we ?
 *MOT: right .
 *MOT: I think we better start thinking about making a move  Thomas .
@@ -1012,8 +1005,6 @@
 *CHI: Nin Nin go to work .
 *MOT: yes .
 *MOT: poor Nin Nin has got to go out to work .
-*MOT: youll probably have lovely day >
-*CHI: oh  Nin Nin>
 *CHI: wipes ap Lala .
 *MOT: wipes ap Lala .
 *MOT: a packet of wipes in the back of Lala .
@@ -1026,7 +1017,7 @@
 *MOT: I dont know what youre saying to me ?
 *CHI: Nin Nin .
 *MOT: you want me to come with you .
-*MOT: just one moment just one moment please .
+*MOT: just one moment please .
 *MOT: oh oh .
 *CHI: oh dear .
 *CHI: Lala .
@@ -1100,7 +1091,7 @@
 *MOT: Purdies eyes are green .
 *MOT: most pussycats have green eyes .
 *CHI: hatc .
-*MOT: some white cats have>
+*MOT: some white
 *CHI: Nin Nin .
 *CHI: meow .
 *MOT: what does Purdie say ?
@@ -1131,7 +1122,7 @@
 *MOT: and then you can be a nice clean fresh boy for Grandma and Granddad
 *CHI: Nin Nin .
 *MOT: yes .
-*CHI: no no no .
+*CHI: no .
 *MOT: oh has Lala gone ?
 *MOT: shes on top of the highchair .
 *MOT: look .
@@ -1144,9 +1135,9 @@
 *CHI: Nin Nin .
 *MOT: oh Lala fits very nicely in there doesnt she ?
 *CHI: Lala .
-*MOT: is Lala going to have some breakfast do you think Lala would
+*MOT: do you think Lala would
 *CHI: Nin Nin .
-*MOT: excuse me excuse me .
+*MOT: excuse me .
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *MOT: whats Lala doing now ?
@@ -1172,7 +1163,7 @@
 *CHI: oh dear .
 *CHI: Lala .
 *CHI: Nin Nin .
-*MOT: youre very busy running round this morning .
+*MOT: youre very busy .
 *CHI: oh dear .
 *CHI: Lala .
 *MOT: oh Lala .
@@ -1235,14 +1226,14 @@
 *CHI: Lala .
 *CHI: what this ?
 *MOT: oh is Lala having a liedown ?
-*MOT: has Lala gone to bed has Lala gone to bed ?
+*MOT: has Lala gone to bed ?
 *CHI: oh .
 *MOT: what color is Lala ?
 *CHI: yellow .
 *MOT: yellow .
 *MOT: shes yellow isnt she ?
 *CHI: aah .
-*MOT: and what color is Po what color is Po ?
+*MOT: and what color is Po ?
 *CHI: wheres the Po ?
 *MOT: wheres the Po ?
 *CHI: Po and Hatc .
@@ -1271,7 +1262,7 @@
 *CHI: a big truck .
 *MOT: a big truck .
 *MOT: whats in the big truck ?
-*MOT: whats that whats that  Thomas ?
+*MOT: whats that  Thomas ?
 *MOT: is that your truck with the digger and the workmen sitting inside ?
 *CHI: big truck .
 *CHI: Nin Nin .
@@ -1299,7 +1290,6 @@
 *MOT: bring them here and let me have a look at them .
 *MOT: you cant have them on now though  Thomas .
 *MOT: because in a moment weve got to go and get you changed and then
-*CHI: ap choo choosf .
 *MOT: thats right .
 *MOT: theres a video there .
 *MOT: Thomas The Tank Engine and friends video .
@@ -1310,10 +1300,10 @@
 *MOT: oh you cant put the video on  Thomas .
 *MOT: no .
 *CHI: choo choosf .
-*MOT: I dont think so I dont think so .
+*MOT: I dont think so .
 *MOT: youve already had it on this morning .
 *MOT: youve been watching the trucks .
-*MOT: oh no no no no no no .
+*MOT: oh no .
 *MOT: no .
 *MOT: you cant put that in there .
 *MOT: oh no .
@@ -1323,7 +1313,7 @@
 *MOT: well I tell you what .
 *CHI: 0 .
 *MOT: alright .
-*MOT: in a moment  Thomas in a moment .
+*MOT: in a moment .
 *MOT: well put the video on in a moment but we must go and get you
 *CHI: new chair .
 *CHI: Nin Nin .
@@ -1339,7 +1329,7 @@
 *CHI: Nin Nin .
 *CHI: ap tea .
 *MOT: would you like some tea ?
-*MOT: well let me bring let me bring the cup to you .
+*MOT: well let me bring the cup to you .
 *MOT: and theres Bob The Builder .
 *MOT: shall we call him Bob The Builder ?
 *MOT: Bob hes called Bob .
@@ -1379,8 +1369,7 @@
 *MOT: well put that on a bit later .
 *MOT: when Grandma and Granddad come they like to watch Teletubbies
 *MOT: Granddad likes to watch Teletubbies when he comes .
-*CHI: where ap bus ?
-*MOT: Thomas be careful be careful be careful .
+*MOT: Thomas be careful .
 *CHI: Nin Nin .
 *MOT: yes .
 *CHI: a big chair .

@@ -131,7 +131,6 @@
 *MOT: its where you clean your teeth isnt it ?
 *MOT: whats that one ?
 *CHI: a sheeps .
-*CHI: baao .
 *MOT: yeah .
 *MOT: thats right .
 *MOT: a sheep says baao .
@@ -194,7 +193,6 @@
 *MOT: what do you do with it ?
 *CHI: in mouth .
 *MOT: mouth ?
-*INV: in mouth .
 *CHI: teeth .
 *CHI: more teeths .
 *MOT: more teeths .
@@ -222,7 +220,6 @@
 *CHI: I dropped it .
 *MOT: dropped it .
 *MOT: www .
-*CHI: what else .
 *MOT: what else ?
 *MOT: have I got to find something else new ?
 *CHI: yeah .
@@ -334,7 +331,6 @@
 *CHI: no .
 *MOT: no ?
 *MOT: you dont want any more juice ?
-*CHI: else there .
 *MOT: you want something else from there ?
 *CHI: yeah .
 *MOT: what do you want ?
@@ -627,9 +623,6 @@
 *MOT: do you know what they are ?
 *MOT: Anne  can you tell what they are ?
 *CHI: more blues .
-*MOT: more what ?
-*INV: more blues .
-*MOT: more blues .
 *CHI: ball .
 *MOT: ball .
 *INV: www .
@@ -657,7 +650,7 @@
 *MOT: babys .
 *CHI: eggs .
 *MOT: eggs .
-*CHI: is that pants ?
+*CHI: pants ?
 *MOT: is that pants ?
 *MOT: no .
 *MOT: I think it its a bit like a bib .
@@ -700,7 +693,7 @@
 *MOT: there we are .
 *CHI: pants for baby .
 *MOT: pants for baby ?
-*MOT: is it pants or a hat .
+*MOT: is it pants .
 *CHI: no .
 *MOT: well you dont put your hat on your feet .
 *MOT: where does your hat go ?
@@ -1047,7 +1040,7 @@
 *CHI: nose .
 *CHI: nose .
 *MOT: www .
-*MOT: is there more in the box ?
+*MOT: more in the box ?
 *CHI: tissues .
 *CHI: yeah .
 *MOT: one more then .
@@ -1243,7 +1236,7 @@
 *MOT: byebye animals .
 *MOT: byebye giraffe .
 *MOT: this is like the story .
-*MOT: you know the story where the where the .
+*MOT: you know the story where the .
 *MOT: pardon says the giraffe .
 *MOT: whats it like up there ?
 *MOT: pardon says the giraffe .
@@ -1251,9 +1244,9 @@
 *MOT: and he jumps on the tigers back .
 *MOT: and he says whats it like up there ?
 *MOT: pardon said the giraffe .
-*MOT: and he jumps on he jumps on the elephants back .
+*MOT: and he jumps on the elephants back .
 *MOT: pardon said the giraffe .
-*MOT: so he jumps on the elephant on the giraffes nose .
+*MOT: so he jumps on the giraffes nose .
 *MOT: he says whats it like up there .
 *MOT: and giraffe says very very nice but Im going to sneeze .
 *MOT: achoo .

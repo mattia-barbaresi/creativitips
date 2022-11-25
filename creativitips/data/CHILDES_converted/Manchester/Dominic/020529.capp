@@ -62,7 +62,7 @@
 *MOT: yes .
 *MOT: well .
 *MOT: wheres the sun then ?
-*CHI: I wanna see the see that lorry noisy .
+*CHI: see that lorry noisy .
 *MOT: whats what lorry ?
 *MOT: whatre you do .
 *CHI: whats that noise ?
@@ -92,7 +92,7 @@
 *MOT: oh .
 *MOT: that one .
 *MOT: oh .
-*CHI: another one another one go in  look .
+*CHI: another one go in  look .
 *MOT: mhm .
 *CHI: oh .
 *CHI: spilled it over .
@@ -140,7 +140,7 @@
 *MOT: oh .
 *MOT: I always end up fixing this .
 *MOT: dont I ?
-*CHI: another one another one come from bit car .
+*CHI: another one come from bit car .
 *MOT: I know its come from the car .
 *CHI: oh no .
 *MOT: hang on a minute .
@@ -314,7 +314,7 @@
 *MOT: Id buy me something very nice .
 *MOT: like a new dress .
 *INV: www .
-*CHI: you fix you fix that one .
+*CHI: you fix that one .
 *MOT: you fix that one what ?
 *CHI: please .
 *MOT: mhm .
@@ -465,7 +465,7 @@
 *CHI: cant do that one .
 *MOT: well no .
 *MOT: because youre not sposta push it under there .
-*CHI: I go I go and push it that way .
+*CHI: I go and push it that way .
 *MOT: alright then .
 *CHI: two truck here .
 *CHI: two truck going round .
@@ -554,13 +554,13 @@
 *MOT: alright then .
 *MOT: youve done it .
 *MOT: sort of .
-*CHI: you fix done it now .
+*CHI: done it now .
 *MOT: done it now .
 *MOT: youve done what now ?
 *MOT: just leave it .
 *MOT: you can play with the lorry without the door being on .
 *MOT: it doesnt matter .
-*CHI: whats that whats that noise ?
+*CHI: whats that noise ?
 *CHI: oh .
 *CHI: stop it  lorrys .
 *MOT: what noise ?
@@ -580,7 +580,7 @@
 *MOT: play with something else .
 *CHI: I dont wanna play something else .
 *MOT: ah .
-*CHI: wanna wanna wanna wanna fix my lorry first .
+*CHI: wanna fix my lorry first .
 *MOT: ah .
 *MOT: do you ?
 *CHI: yes .
@@ -644,7 +644,6 @@
 *MOT: there you go .
 *CHI: you fix that one .
 *INV: well .
-*INV: thats not broken .
 *MOT: that one doesnt need fixing .
 *CHI: you you play that one  Caroline .
 *MOT: fix what ?
@@ -696,7 +695,7 @@
 *CHI: oh no .
 *MOT: can can we have something else that she can eat ?
 *MOT: can we have something else that she can eat ?
-*CHI: can eat can eat hers .
+*CHI: hers .
 *MOT: which one can she have ?
 *MOT: can she .
 *MOT: lets have the yellow car please .
@@ -705,7 +704,7 @@
 *MOT: oh  Dominic .
 *MOT: thats not very nice  is it ?
 *CHI: oh Nina .
-*CHI: you eat you eat that one .
+*CHI: you eat that one .
 *CHI: you eat it .
 *CHI: I cant eat it .
 *MOT: I think he he thinks that you really do eat it  sweetheart .
@@ -756,7 +755,7 @@
 *CHI: this .
 *CHI: this .
 *CHI: that little steamroller fits .
-*CHI: fits in in that one .
+*CHI: in that one .
 *MOT: does it fit in that one ?
 *CHI: yeah .
 *CHI: does .
@@ -823,7 +822,7 @@
 *MOT: nothing else ?
 *CHI: yes .
 *MOT: watch your head .
-*CHI: you have you have this one  Nina .
+*CHI: you have this one  Nina .
 *MOT: thank you .
 *CHI: you dont want that one  Nina .
 *MOT: thats something else for you to play with .
@@ -890,7 +889,7 @@
 *MOT: no .
 *MOT: theres one two three four .
 *CHI: yes .
-*CHI: other one other one got two .
+*CHI: other one got two .
 *MOT: two what ?
 *CHI: look .
 *CHI: dolphins .
@@ -1012,7 +1011,7 @@
 *MOT: oh .
 *MOT: I see .
 *MOT: take it Ive got to put it on .
-*CHI: I want I wanna put it on .
+*CHI: I wanna put it on .
 *MOT: can I have the others please ?
 *MOT: oh .
 *MOT: dont bother .
@@ -1040,8 +1039,7 @@
 *MOT: ahhah .
 *MOT: no .
 *MOT: you let sister have it for a little while .
-*INV: youre playing with my toys [>]
-*CHI: put it in there .
+*CHI: in there .
 *INV: no .
 *INV: youre playing with my toys so Im playing with yours .
 *MOT: seems fair enough to me .
@@ -1051,7 +1049,6 @@
 *MOT: when we go out Ill buy you a sweetie if you let your sister play
 *MOT: yes ?
 *MOT: let your sister play with it else you get no sweetie .
-*MOT: there we go .
 *MOT: compromise .
 *MOT: yes .
 *MOT: I know its sister .
@@ -1558,8 +1555,7 @@
 *MOT: oh .
 *CHI: five six .
 *MOT: what happened to four ?
-*MOT: one two three four five six seven eight nine ten .
-*CHI: seven eight nine .
+*MOT: one two five six seven eight nine ten .
 *CHI: one six nine .
 *CHI: yum yum .
 *MOT: yum yum .
@@ -1572,7 +1568,7 @@
 *CHI: I dont .
 *MOT: you do .
 *CHI: I dont .
-*CHI: you do you do mess about chips .
+*CHI: you do mess about chips .
 *MOT: I dont .
 *MOT: I eat them if I want them .
 *CHI: bridge .
@@ -1684,7 +1680,7 @@
 *MOT: shall I help you ?
 *CHI: yes .
 *MOT: there we go .
-*CHI: I I I want it .
+*CHI: I want it .
 *MOT: well .
 *MOT: well .
 *MOT: you can have it .

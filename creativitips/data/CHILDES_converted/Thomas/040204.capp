@@ -42,7 +42,7 @@
 *INV: theres a good girl .
 *INV: am I a good girl ?
 *CHI: yep .
-*INV: I dont I dont needta be arrested do I ?
+*INV: I dont needta be arrested do I ?
 *CHI: no .
 *INV: what do police men do then  Thomas ?
 *CHI: help people and arrest burglars and robbers .
@@ -76,7 +76,7 @@
 *CHI: come on then .
 *INV: lets go look for them .
 *CHI: and 0if .
-*INV: will you come here come .
+*INV: will you come .
 *INV: come on then .
 *INV: lets go and try and find the mini discs .
 *INV: are they all here .
@@ -90,7 +90,7 @@
 *INV: lets take them back to the office to look for finger prints .
 *CHI: yes .
 *CHI: in the van chooo chooo .
-*CHI: ooh ooh ooh .
+*CHI: ooh .
 *INV: yes .
 *INV: I can see a finger print here .
 *INV: its from  a lady
@@ -131,7 +131,7 @@
 *INV: Ill pretend Im Jean and youve got to come and arrest me .
 *INV: okay ?
 *CHI: okay .
-*INV: oh ho ho oh ho ho .
+*INV: oh ho ho .
 *INV: oh theres some more mini discs .
 *INV: lets steal them .
 *INV: come on come and practise arresting me .
@@ -149,7 +149,7 @@
 *INV: oh thats not very nice .
 *INV: no .
 *INV: please .
-*INV: nn oh oh oh oh .
+*INV: nn oh .
 *CHI: oy oy .
 *CHI: thats my helmet .
 *INV: are you gonna gonna
@@ -172,7 +172,7 @@
 *INV: right  Mister policeman .
 *INV: why did you wanna become a police man ?
 *CHI: because I just am .
-*CHI: get me going you smelly old bang .
+*CHI: get me going you .
 *CHI: 0 .
 *CHI: get off you smelly old poop .
 *INV: is that how a policeman talks ?
@@ -190,7 +190,6 @@
 *INV: um Mr special police man ?
 *CHI: yep .
 *INV: what made you become a police man ?
-*CHI: um Mummy just made me .
 *INV: ah did she ?
 *CHI: yeah .
 *INV: then who bought you this outfit ?
@@ -206,7 +205,6 @@
 *INV: weve got to hide down here .
 *INV: because Jean Lastname is on the telephone  Thomas .
 *INV: you cant disturb her come on .
-*INV: youve got to hide down here .
 *INV: youve got to wait here for Jean .
 *CHI: yeah .
 *CHI: laughs .
@@ -266,7 +264,6 @@
 *INV: do wanna be Mr cone nose ?
 *CHI: laughs .
 *INV: who .
-*CHI: Im Mr cone nose .
 *INV: and I use my
 *CHI: nose to smell people .
 *INV: laughs .
@@ -287,7 +284,7 @@
 *INV: Im Mister Cone eyes .
 *INV: and I use my cones to
 *INV: see people .
-*CHI: I throw you these things .
+*CHI: I throw you .
 *INV: these are lovely cones .
 *CHI: I brought them from Africa .
 *INV: no you didnt .
@@ -314,8 +311,6 @@
 *INV: do you know any
 *INV: I said “do you know any policemen that are on telly” ?
 *CHI: no .
-*CHI: but Im going to .
-*INV: come on now turn it off .
 *INV: youre not allowed to use that sound .
 *INV: who else can I dress up as apart from Mr cone nose ?
 *CHI: no one .
@@ -324,11 +319,6 @@
 *CHI: 0 .
 *CHI: agh get that again I get that .
 *INV: behind the sofa .
-*INV: go and check before you arrest her .
-*CHI: be quick .
-*CHI: is she coming ?
-*INV: I think shes on the phone .
-*INV: here shes coming .
 *MOT: oh has Thomas gone out ?
 *INV: yeah hes gone yeah .
 *MOT: oh I thought it was looking quiet .
@@ -344,7 +334,6 @@
 *MOT: www .
 *MOT: its a pity hes gone really isnt it ?
 *MOT: because we could have had a nice play with Thomas this morning .
-*INV: arrest her .
 *MOT: did he have his police uniform on when he went ?
 *INV: yeah he did I think hes gone to arrest someone .
 *MOT: could have done yeah .
@@ -361,7 +350,6 @@
 *CHI: yes .
 *MOT: its too much noise  Thomas .
 *MOT: no .
-*CHI: get me .
 *MOT: no .
 *INV: hes not been pressing just been going pschoop .
 *MOT: oh thats alright .
@@ -411,11 +399,10 @@
 *MOT: its uh we bought that the other day .
 *MOT: its its a massager isnt it ?
 *MOT: for doing your shoulders and your back .
-*CHI: whats this .
 *CHI: 0 .
 *MOT: well  Thomas is going to sleep .
 *INV: do you put it on yourself do you ?
-*INV: where did you get it from ?
+*INV: where get it from ?
 *MOT: Mummy rubs it on your back doesnt she ?
 *INV: youre not sposta eat it .
 *CHI: should .
@@ -500,7 +487,7 @@
 *INV: 0 oh please .
 *CHI: I wont let .
 *INV: please .
-*CHI: I wont let you out .
+*CHI: I wont let .
 *INV: please .
 *INV: let me out of jail .
 *CHI: I wont .
@@ -529,10 +516,7 @@
 *INV: thats okay then .
 *CHI: and I wont let you come out .
 *INV: really ?
-*INV: but Im .
-*CHI: I will .
-*INV: Im really .
-*CHI: I will let you out at Christmas .
+*CHI: let you out at Christmas .
 *INV: oh .
 *INV: oh so I can get out at Christmas ?
 *CHI: yeah .
@@ -546,12 +530,12 @@
 *MOT: right .
 *MOT: can we remember that  Thomas ?
 *CHI: hm ?
-*INV: do you remember when my birthday is ?
+*INV: do you is ?
 *MOT: ninth .
 *MOT: were going to Jeannines birthday party .
 *INV: laughs .
 *CHI: right .
-*INV: are you going to come ?
+*INV: going to come ?
 *INV: 0 please let me out of jail .
 *CHI: right .
 *CHI: Im going to now .
@@ -566,13 +550,13 @@
 *INV: doing lessons oh god .
 *INV: hope not .
 *INV: laughs .
-*CHI: and you can you can have a ride in my police car .
+*CHI: and you can have a ride in my police car .
 *CHI: you can have a ride in my police car .
 *INV: I can come in now I can come in your police car ?
 *CHI: yeah .
 *INV: ah Im very lucky today arent I ?
 *CHI: thank you .
-*CHI: uh uh uh its a key .
+*CHI: uh its a key .
 *CHI: my keys .
 *CHI: my keys .
 *INV: wheres your whereve you parked your police car ?
@@ -609,7 +593,6 @@
 *CHI: or my helmet .
 *INV: oh whats happened here ?
 *MOT: dont rip that Thomas
-*CHI: or my jacket .
 *MOT: no .
 *INV: Thomas  whats happened there ?
 *INV: did you ?
@@ -618,12 +601,11 @@
 *INV: do you know what whats happened to him ?
 *MOT: do you not wanna be a police man anymore ?
 *INV: you dont wanna be a police man .
-*INV: oh look at that .
-*MOT: oh yes .
+*INV: oh that .
 *INV: laughs .
 *INV: oop .
 *INV: Thomas ?
-*CHI: Im not Im not talking .
+*CHI: Im not talking .
 *MOT: oh .
 *CHI: and I wont play with you .
 *INV: why what have I done ?
@@ -656,7 +638,6 @@
 *MOT: chouchkiekooi .
 *INV: and Mr cone hands .
 *CHI: 0 .
-*CHI: I can steal your cone .
 *INV: youre st .
 *INV: right .
 *INV: well if you steal my cone you know what happens to you dont you
@@ -665,7 +646,7 @@
 *MOT: no .
 *MOT: do do not throw please .
 *CHI: ha .
-*MOT: do not throw .
+*MOT: throw .
 *INV: oh Thomas  are you not happy all of a sudden ?
 *CHI: no .
 *INV: oh whats wrong .
@@ -698,7 +679,7 @@
 *INV: thats  oh I know what about if I do this ?
 *CHI: laughs .
 *INV: laughs .
-*INV: will I see a happy face will I see a happy face ?
+*INV: will I see a happy face ?
 *INV: 0 .
 *INV: thats mean face .
 *INV: isnt it ?
@@ -720,7 +701,7 @@
 *INV: one quite big one .
 *INV: laughs .
 *MOT: now carefully .
-*MOT: you might needta a bit more in d .
+*MOT: you might needta in d .
 *MOT: right .
 *MOT: drop it .
 *MOT: oops a daisy .
@@ -728,14 +709,13 @@
 *INV: laughs .
 *CHI: 0 .
 *MOT: no .
-*MOT: leave it leave it .
+*MOT: leave it .
 *MOT: laughs .
 *INV: oh you find .
 *MOT: oh .
 *MOT: careful .
 *MOT: be careful a little a tiny drop more .
 *CHI: okay one more taste .
-*MOT: thats good .
 *MOT: not as much as that .
 *INV: Thomas  whos on my cup ?
 *MOT: no .
@@ -807,10 +787,7 @@
 *INV: are they policeman boots down there ?
 *MOT: www .
 *INV: theyre lovely .
-*INV: whose are those .
-*MOT: my new .
-*INV: whose are those boots are they yours ?
-*MOT: my new Wellingtons arent they ?
+*INV: yours ?
 *MOT: Mummys new Wellingtons .
 *INV: www .
 *INV: laughs .
@@ -925,7 +902,6 @@
 *CHI: Jeannine .
 *MOT: Thomas  I dont .
 *INV: Thomas .
-*MOT: oh no .
 *MOT: I dont think you ever told Jeannine what happened at Didsbury
 *CHI: there .
 *MOT: at the festival what happened ?
@@ -949,13 +925,12 @@
 *MOT: they started shouting .
 *MOT: and a police man came along and said “whats going on here” ?
 *MOT: is he causing trouble ?
-*MOT: and the police ladies said yesq .
+*MOT: and the .
 *INV: laughs .
 *MOT: so he took his hand cuffs out and he arrested you .
 *MOT: and then the sergeant came .
 *INV: really ?
-*INV: you didnt tell me that .
-*MOT: and the sergeant was going to put you in jail .
+*MOT: you in jail .
 *MOT: but he said he wanted to come home with Mummy didnt you ?
 *CHI: 0 .
 *INV: you nearly got really put in jail .
@@ -969,7 +944,6 @@
 *CHI: 0 .
 *INV: right .
 *INV: Thomas .
-*MOT: did you tell Jeannine .
 *INV: he was sat right in front of the video as well .
 *INV: laughs .
 *INV: laughs .
@@ -1005,7 +979,6 @@
 *CHI: laughs .
 *INV: its not funny go on over you go .
 *CHI: laughs .
-*INV: come on .
 *CHI: no .
 *INV: oh hes wet all the screen .
 *MOT: oh  Thomas .
@@ -1022,7 +995,7 @@
 *INV: are you going to help me put the sticker on this ?
 *INV: come here I need your help .
 *INV: I want you to help put the sticker on .
-*INV: you take the tape Ill take the tape .
+*INV: Ill take the tape .
 *INV: what I want is one of these stickers put on here .
 *CHI: yeah .
 *INV: can you help me do that ?
@@ -1052,7 +1025,6 @@
 *INV: laughs .
 *CHI: laughs .
 *CHI: cooeeeo Ive come down now .
-*INV: oh right .
 *MOT: hold onto the bannister .
 *CHI: Ive got something to show you .
 *INV: really ?
@@ -1080,14 +1052,13 @@
 *CHI: Im going to eat you up .
 *INV: youre going to beat me up ?
 *INV: oh .
-*MOT: no I think it I think it was eat you up .
+*MOT: no I think it was eat you up .
 *MOT: not beat you up .
 *INV: are you going to eat me up ?
 *CHI: yeah .
 *INV: what do I taste of ?
 *CHI: lemon .
 *MOT: lemon .
-*INV: lemon oh lovely .
 *MOT: 0 .
 *MOT: everybody tastes of lemon today .
 *INV: oh e face monsters eating my chin .
@@ -1132,7 +1103,7 @@
 *INV: is it swim ?
 *CHI: no .
 *MOT: fish .
-*INV: is it fish ?
+*INV: fish ?
 *CHI: no .
 *CHI: its a life boat .
 *INV: a life boat .
@@ -1158,9 +1129,9 @@
 *MOT: and Thomas said “Mummy  look at this” .
 *MOT: and it cost fifty nine pence .
 *MOT: I bought it .
-*MOT: and he has played with it .
+*MOT: and he has played .
 *INV: wow .
-*MOT: and played with it and played with it .
+*MOT: and it and played with it .
 *CHI: excuse me .
 *CHI: then  you can be a police man .
 *CHI: and I can be face monster .
@@ -1205,7 +1176,6 @@
 *CHI: and den wooo .
 *CHI: it means caution .
 *INV: really ?
-*CHI: means danger .
 *INV: caution .
 *INV: wow caution wow .
 *CHI: no .
@@ -1247,7 +1217,6 @@
 *CHI: this is .
 *INV: oh .
 *CHI: and when those dinosaurs .
-*INV: thats really sweet .
 *CHI: there that rubbish near he is .
 *CHI: thats at the sand .
 *INV: www .
@@ -1258,9 +1227,8 @@
 *CHI: look .
 *CHI: its on the sand Milos .
 *INV: www .
-*CHI: Milos on the sand>
 *INV: www .
-*CHI: Milos on the sand .
+*CHI: Milos .
 *INV: www .
 *CHI: Fizz and Milos song
 *MOT: oh is that Fizz ?
@@ -1274,7 +1242,6 @@
 *MOT: www .
 *CHI: ooeeep .
 *CHI: oowoowoop .
-*INV: do you like eating chicken  Thomas ?
 *CHI: oowoowooo .
 *INV: Thomas  do you like eating chicken ?
 *CHI: ugh .
@@ -1295,37 +1262,33 @@
 *MOT: what .
 *CHI: dem they just hold on .
 *CHI: and then they swim .
-*CHI: and then they might jump up there .
+*CHI: and then jump up there .
 *CHI: and walk round and up the steps .
 *CHI: and down again to in there .
 *MOT: I see .
-*MOT: oh listen its somebody oh quick look across the window .
+*MOT: oh quick look across the window .
 *MOT: quick quick .
 *INV: www .
 *INV: www .
 *MOT: www .
-*CHI: who broke it .
 *CHI: what .
 *MOT: what was that ?
 *CHI: what ?
 *CHI: Mummy  what ?
 *INV: www .
 *MOT: www .
-*CHI: what is it ?
 *INV: www .
 *CHI: what was ?
 *MOT: www .
 *CHI: look .
 *CHI: look .
-*CHI: what is that lorry carrying ?
+*CHI: carrying ?
 *MOT: www .
 *INV: www .
 *INV: www .
 *CHI: excuse me  Mummy .
 *MOT: www .
-*CHI: excuse me>
 *INV: www .
-*CHI: excuse me>
 *INV: www .
 *CHI: excuse me  Mummy .
 *MOT: yes .
@@ -1351,9 +1314,7 @@
 *MOT: www .
 *CHI: thats a life boat and thats a life boat .
 *MOT: www .
-*CHI: two life boats .
 *MOT: www .
-*CHI: two life boats on rivers .
 *MOT: www .
 *CHI: woo .
 *INV: www .
@@ -1374,13 +1335,11 @@
 *MOT: or I would like Jeannine to be the leader .
 *MOT: or I would like Purdie to be the leader .
 *CHI: I wanna be the leader .
-*MOT: you wanna be the leader I thought you would .
-*INV: you wanna be Prime minister ?
+*MOT: you wanna be the leader .
 *CHI: look .
 *CHI: theres .
 *CHI: excuse me .
 *MOT: laughs .
-*CHI: vote for me .
 *CHI: that Jeannine .
 *CHI: thats a thats a life boat and thats a life boat .
 *MOT: yes .
@@ -1409,8 +1368,6 @@
 *CHI: woooo .
 *MOT: www .
 *INV: www .
-*MOT: he wanted the >
-*CHI: Im going to show you .
 *INV: uhhum .
 *CHI: well youd better do something I say .
 *MOT: youd better do something I say .
@@ -1425,7 +1382,6 @@
 *MOT: if its .
 *MOT: oh dont video my kitchen .
 *INV: laughs .
-*CHI: Jeannine .
 *CHI: um Jeannine .
 *MOT: come on then .
 *CHI: do you want this lid ?
@@ -1437,13 +1393,13 @@
 *MOT: can I just tell you that lorry
 *CHI: yeah .
 *MOT: had a man in it with a microphone .
-*MOT: and he was saying “hello vote for me vote for me” .
+*MOT: and he was saying “hello vote for me” .
 *MOT: choose me as your leader .
 *MOT: thats what he was doing .
 *INV: was that the conservative MP ?
 *MOT: yes .
 *MOT: so thats what hes doing you might see some other lorries today .
-*MOT: driving around saying “vote for me” .
+*MOT: “vote for me” .
 *MOT: people are voting for red blue or yellow today or green .
 *CHI: excuse me .
 *INV: laughs .
@@ -1479,7 +1435,7 @@
 *MOT: Thomas is growing a sun flower .
 *INV: oh wow .
 *MOT: there we are a sun flower .
-*INV: can you grow sun flowers here ?
+*INV: can here ?
 *CHI: let me out .
 *MOT: www .
 *INV: www .
@@ -1505,20 +1461,18 @@
 *MOT: oh  Thomas .
 *MOT: how are you going to go to the in those trousers ?
 *MOT: mess pot .
-*INV: oh look at you .
 *MOT: mucky .
 *CHI: no .
 *CHI: thats my lorry .
 *MOT: oh sorry .
 *INV: www .
-*CHI: excuse me to hear me say something youd better choose a
+*CHI: say something youd better choose a
 *MOT: www .
-*CHI: choose a leader choose a leader .
+*CHI: choose a leader .
 *MOT: I want Thomas for leader .
 *INV: Thomas Lastname please .
 *CHI: right .
 *INV: Thomas Lastname what are you going to do for the country ?
-*INV: as a leader ?
 *CHI: um .
 *MOT: hes going to arrest people .
 *INV: oh lovely .
@@ -1528,8 +1482,7 @@
 *CHI: and someone wants to  near the fire they can jump
 *MOT: laughs .
 *INV: really ?
-*MOT: well I think the country will be much better off for it .
-*INV: oh yes .
+*MOT: well I think the country will be much .
 *CHI: I can say help .
 *CHI: fire .
 *INV: vote for Thomas Lastname .
@@ -1541,7 +1494,6 @@
 *MOT: because if it drops down theres a gap there and your fingers might
 *MOT: if you hold it there and it falls down fingers will be crushed .
 *MOT: and theyll drop off .
-*CHI: but lets see .
 *MOT: no .
 *MOT: no .
 *MOT: no .
@@ -1560,9 +1512,7 @@
 *CHI: fire .
 *INV: and who jumps in there ?
 *CHI: 0 .
-*CHI: climb in it .
 *INV: this is a great new toy for him .
-*CHI: ready here .
 *MOT: ba bye .
 *CHI: bye .
 *INV: www .
@@ -1583,7 +1533,7 @@
 *INV: www .
 *CHI: um Im just telling Mummy Ive found some things .
 *CHI: just shut the lid (be)cause
-*MOT: I will I will .
+*MOT: I will .
 *MOT: you love it when its closed do you ?
 *CHI: bye .
 *MOT: bye .
@@ -1601,15 +1551,12 @@
 *CHI: look .
 *CHI: look .
 *INV: laughs .
-*CHI: theyre wet .
 *CHI: in my house .
 *INV: have you ?
 *INV: laughs .
 *MOT: no .
 *CHI: Mummy .
-*CHI: youve got >
 *MOT: www .
-*INV: oh yeah .
 *MOT: www .
 *MOT: www .
 *CHI: oy somebody .
@@ -1620,7 +1567,6 @@
 *CHI: sancue .
 *MOT: hello .
 *INV: www .
-*MOT: wheres Thomas ?
 *MOT: www .
 *CHI: Im Buzz Lightyear .
 *MOT: hello Buzz Lightyear .
@@ -1640,12 +1586,10 @@
 *MOT: 0 .
 *CHI: not him .
 *MOT: 0 .
-*INV: well play another game .
-*MOT: here comes the cat .
-*CHI: let me see what this is .
+*CHI: see what this is .
 *CHI: um bee bee Jeannine .
 *INV: laughs .
-*CHI: thats not called Jeannine .
+*CHI: Jeannine .
 *INV: has that come from me ?
 *CHI: yeah .
 *INV: I sent it to you ?
@@ -1716,7 +1660,6 @@
 *CHI: um  and .
 *INV: what does post what does Purdie wanna do with that ?
 *CHI: wants to do things with it .
-*CHI: oh Purdie open for it .
 *CHI: in de bag .
 *CHI: in my uh .
 *CHI: Im go .
@@ -1751,7 +1694,7 @@
 *CHI: Jeannine  you needta put the post through .
 *INV: okay .
 *INV: Im coming .
-*CHI: put it through the door .
+*CHI: put it .
 *INV: 0 .
 *INV: 0 .
 *INV: 0 .
@@ -1786,32 +1729,29 @@
 *CHI: I didnt want letter
 *CHI: thats yours I dont want this smelly old thing .
 *MOT: hey now now thatll do .
-*CHI: now now now .
+*CHI: now .
 *MOT: Thomas is the only one excited about junk mail .
 *CHI: yes .
-*INV: what is that then ?
 *MOT: www .
 *CHI: have a nice
 *INV: www .
 *CHI: have a wee wee puhc .
 *CHI: huh .
 *INV: www .
-*CHI: Ive got the right post for me .
+*CHI: Ive got the for me .
 *MOT: pardon ?
 *INV: www .
 *MOT: www .
 *INV: www .
-*CHI: Ive got the right post .
 *MOT: www .
-*INV: Thomas  youve never shown me this before .
+*INV: Thomas  youve .
 *MOT: www .
-*INV: Tom  youve never shown me this before .
+*INV: this before .
 *MOT: www .
 *MOT: its very nice you can buy lots of things to put in it .
 *CHI: and  its not for me .
-*CHI: or thats not for me .
-*INV: where did you get them from ?
-*MOT: I dont know dont know .
+*CHI: or thats not .
+*MOT: I dont know .
 *CHI: 0 .
 *MOT: www .
 *INV: ah .

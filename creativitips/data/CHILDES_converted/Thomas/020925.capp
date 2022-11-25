@@ -18,7 +18,7 @@
 *MOT: Tweenie clock whir whir stop .
 *CHI: whir whir stop .
 *MOT: are you going to tell Dimitra about yesterday when we went to
-*MOT: what did you find on Jill and Jill and Bethanys bed ?
+*MOT: what did you find on Jill and Bethanys bed ?
 *MOT: well Jills bed ?
 *CHI: Isabel not found anything .
 *CHI: eh .
@@ -73,7 +73,7 @@
 *CHI: no sound .
 *MOT: lets turn it off now .
 *CHI: no sound .
-*MOT: no theres nothing on that we want to watch .
+*MOT: no theres nothing on that we want .
 *CHI: no Winnie the Pooh .
 *MOT: Winnie the Pooh ?
 *MOT: alright .
@@ -133,7 +133,7 @@
 *MOT: who came last night for dinner ?
 *CHI: came back .
 *MOT: who came for dinner ?
-*CHI: no no no .
+*CHI: no .
 *CHI: no not no .
 *MOT: she did .
 *MOT: she was singing with you .
@@ -156,8 +156,7 @@
 *MOT: talk to Dimitra while Im gone .
 *MOT: Ive just realized what weve got upstairs .
 *CHI: hello Dimitra .
-*INV: hello Thomas .
-*CHI: just going upstairs .
+*CHI: upstairs .
 *INV: what have you got upstairs ?
 *CHI: uh I dont know .
 *INV: you dont know ?
@@ -179,7 +178,7 @@
 *MOT: no its not .
 *CHI: yes .
 *MOT: Mummy found this in the loft when she was clearing things out the
-*MOT: its what we were playing with after the year .
+*MOT: its what .
 *CHI: got Postman Pat .
 *MOT: yes .
 *MOT: its a postbox .
@@ -198,11 +197,11 @@
 *CHI: my Postman Pat .
 *MOT: do you think you put your clothes in that at night ready for
 *CHI: no .
-*CHI: uh I just my Postman Pat in a bit .
+*CHI: uh I just my Postman Pat in .
 *MOT: yes .
 *MOT: well shall we hang it up there .
 *MOT: like this .
-*MOT: it really goes to hang on the back of the door .
+*MOT: it really goes on the back of the door .
 *MOT: but &-uh
 *MOT: and it says +"/.
 *MOT: Postbox .
@@ -214,7 +213,6 @@
 *MOT: at all other times when dirty .
 *MOT: shall we get the letters ?
 *CHI: yeah .
-*CHI: all the post .
 *CHI: Postman Pat .
 *MOT: alright .
 *MOT: Ill bring the boxes .
@@ -225,7 +223,7 @@
 *MOT: needs a jolly good wash doesnt it ?
 *MOT: its a bit dirty .
 *CHI: not 0a bit dirty .
-*MOT: but its been in the loft for a long a long long time .
+*MOT: but its been in the loft for a long long time .
 *MOT: because its a long long time since Mummy was a student .
 *CHI: not .
 *MOT: but I thought that would be good at the back of your bedroom door .
@@ -285,7 +283,6 @@
 *CHI: yes .
 *CHI: postbag .
 *CHI: yeah .
-*CHI: all full>
 *CHI: uh nearly fall in the doggy poo .
 *CHI: laughs .
 *INV: nearly fall in the doggy poo ?
@@ -317,7 +314,6 @@
 *MOT: oh I dont think Dimitra wants you kissing her the way you're
 *MOT: oh this is quite nice .
 *CHI: yeah .
-*MOT: a little rock .
 *CHI: youre youre Jess .
 *MOT: am I Jess ?
 *MOT: oh well .
@@ -327,7 +323,6 @@
 *MOT: whos on the .
 *CHI: Postman Pats house .
 *MOT: whos on the settee .
-*CHI: all day .
 *MOT: oh like Jess sleeping ?
 *CHI: yeah .
 *MOT: only I think Jess is in your cot .
@@ -406,7 +401,6 @@
 *CHI: where ?
 *MOT: Rachels just putting him in the car .
 *CHI: oh .
-*CHI: I cant .
 *CHI: oh yeah .
 *MOT: can you see him now ?
 *CHI: mhm .
@@ -440,10 +434,8 @@
 *CHI: yeah .
 *MOT: he has heard a rumor that she has fallen in the postbox .
 *CHI: mhm .
-*CHI: uho like that .
 *MOT: hes very very upset .
 *CHI: yes .
-*CHI: uho like that>
 *CHI: uho .
 *CHI: go top bed .
 *CHI: Postman Pat wants to go top bed .
@@ -455,7 +447,7 @@
 *MOT: can I move these tickets or do I hafta keep them here ?
 *CHI: keep them on you .
 *MOT: right .
-*MOT: why why why do I needta keep the tickets on  Thomas ?
+*MOT: why do I needta keep the tickets on  Thomas ?
 *CHI: I dont know .
 *MOT: oh .
 *MOT: but I just do ?
@@ -523,7 +515,6 @@
 *MOT: you can certainly  darling .
 *MOT: yes .
 *CHI: bye Jess .
-*MOT: oh bye bye .
 *MOT: bye bye .
 *MOT: were going on holiday again  arent we ?
 *MOT: in June .
@@ -564,7 +555,7 @@
 *CHI: no .
 *MOT: she sat on your knee .
 *MOT: whos that  Thomas ?
-*MOT: whats on whats on the front of that card that youve got in
+*MOT: whats on the front of that card that youve got in
 *CHI: a little red card .
 *MOT: whats on it ?
 *CHI: big lampshade .
@@ -590,7 +581,7 @@
 *CHI: oh no .
 *MOT: dont you ?
 *CHI: more like Postman Pat today .
-*MOT: well yes it does look more like
+*MOT: it does look more like
 *MOT: but Im just saying you have a big sack like Santa .
 *MOT: oh .
 *CHI: magazine .
@@ -604,7 +595,7 @@
 *CHI: yes .
 *MOT: youre talking about the episode of Postman Pat when he arrives at
 *CHI: yes .
-*MOT: and Mrs Pottage had a had a magazine and he gave two letters
+*MOT: and Mrs Pottage had a magazine and he gave two letters
 *MOT: one each .
 *MOT: to the twins .
 *CHI: yes .
@@ -633,7 +624,7 @@
 *INV: great .
 *CHI: uh a letter .
 *CHI: Postman Pat ap letter postbox .
-*CHI: postbox postbox postbox .
+*CHI: postbox .
 *CHI: post letter let letter sacks .
 *CHI: fall down ap floor .
 *CHI: get more letters up .
@@ -642,8 +633,8 @@
 *MOT: and whose house do you think the postman will be visitting on
 *CHI: lots and lots .
 *CHI: my lot got lots of parcels .
-*MOT: oh but somebody we know has a birthday on Saturday .
-*CHI: I got letters and lots of parcels .
+*MOT: oh but somebody we know has a birthday .
+*CHI: letters and lots of parcels .
 *MOT: yes .
 *MOT: and who will he be taking lots of letters and parcels to ?
 *CHI: train .
@@ -684,7 +675,7 @@
 *MOT: well perhaps more will come on Monday .
 *CHI: yes .
 *MOT: I bet she got some
-*CHI: going in my van now .
+*CHI: my van now .
 *MOT: oh no .
 *MOT: come here  darling  please .
 *CHI: Im going in my van .
@@ -750,7 +741,7 @@
 *CHI: just a check .
 *CHI: uh may just one .
 *MOT: shall I just check ?
-*CHI: and a big one .
+*CHI: big one .
 *MOT: a big one ?
 *CHI: yeah .
 *MOT: well do you think thats for me ?
@@ -780,7 +771,6 @@
 *CHI: put it in my sack .
 *MOT: please could I post those ?
 *CHI: yes .
-*MOT: thank you .
 *CHI: okay .
 *MOT: oops a daisy .
 *MOT: airmail .
@@ -808,7 +798,6 @@
 *MOT: I dont think it was .
 *MOT: I think it was your Teletubbie plaything .
 *MOT: think you must have just touched it .
-*CHI: got to .
 *MOT: I dont know where it is but I think thats what the noise was .
 *CHI: I just see it .
 *MOT: oh is it there ?
@@ -831,7 +820,7 @@
 *CHI: yeah .
 *CHI: my vans very better .
 *MOT: your vans very better .
-*CHI: wanna go in it now .
+*CHI: go in it now .
 *MOT: you wanna go in it now ?
 *MOT: well shall we get this one out ?
 *MOT: how about getting this one out ?
@@ -944,7 +933,7 @@
 *MOT: you just jumped over the road ?
 *MOT: yes .
 *MOT: youd better be careful there .
-*CHI: bash his car on a my van .
+*CHI: my van .
 *CHI: laughs .
 *MOT: better be careful .
 *MOT: what do you do when we cross the road ?
@@ -978,7 +967,6 @@
 *INV: is that funny ?
 *CHI: yes .
 *CHI: laughs .
-*CHI: take this down .
 *CHI: Postman Pats very better .
 *MOT: hes very better .
 *MOT: well .
@@ -1015,9 +1003,8 @@
 *MOT: youre standing up in another postbox ?
 *CHI: mhm .
 *MOT: oh .
-*CHI: getting back over .
 *CHI: just stay there .
-*CHI: I just get some more strawberries later .
+*CHI: I just more strawberries later .
 *MOT: oh youre not having any more strawberries .
 *MOT: you cheeky monkey .
 *CHI: uh get uh get more later .
@@ -1090,9 +1077,7 @@
 *CHI: yes .
 *CHI: look the light on .
 *CHI: yeah .
-*CHI: look look look .
-*MOT: I cant see sat here .
-*CHI: Daddy Rod .
+*CHI: look .
 *MOT: Daddy Rod ?
 *MOT: oh I think thats Joseph .
 *MOT: thats Mary and Joseph and Baby Jesus .
@@ -1103,11 +1088,9 @@
 *MOT: does he look like Daddy Rod to you ?
 *MOT: more like Isabels Daddy does it ?
 *CHI: mhm .
-*MOT: well its Peterborough Cathedral Christmas crypt on it .
+*MOT: well its Peterborough Cathedral Christmas crypt .
 *MOT: I shall tell Rod .
 *CHI: stop it .
-*CHI: Postman Pat say .
-*MOT: does he ?
 *MOT: oh Postman Pat says stop it thats why ?
 *MOT: right .
 *MOT: okay .
@@ -1130,12 +1113,11 @@
 *CHI: no .
 *CHI: just my letters back .
 *CHI: laughs .
-*CHI: more like Daddy Rod s bash me .
+*CHI: more like Daddy Rod .
 *MOT: its more like Daddy Rod than what ?
-*CHI: s bash me>
 *MOT: bash me ?
 *CHI: yeah .
-*CHI: getting my roll over>
+*CHI: getting my
 *MOT: be careful .
 *MOT: whatre you getting ?
 *CHI: I I not getting anything ?
@@ -1157,13 +1139,12 @@
 *MOT: come here .
 *MOT: Dimitra cant stretch all that way and see .
 *CHI: no .
-*MOT: thats it .
+*MOT: it .
 *MOT: oh right .
 *MOT: there we are .
 *CHI: no .
 *MOT: its not fixed yet .
 *INV: its not what yet ?
-*CHI: its not .
 *MOT: its not fixededc ?
 *MOT: its not fixed you mean ?
 *CHI: yeah .
@@ -1176,7 +1157,7 @@
 *MOT: oh .
 *CHI: laughs .
 *MOT: I shall tip you up .
-*MOT: and I shall put my hand then I shall tickle tickle tickle .
+*MOT: and I shall put my hand then I shall tickle .
 *CHI: laughs .
 *MOT: have you brushed your teeth today ?
 *CHI: no .
@@ -1201,7 +1182,7 @@
 *INV: which tree ?
 *CHI: this tree .
 *MOT: what tree  darling ?
-*CHI: youre youre big tree .
+*CHI: big tree .
 *MOT: am I ?
 *CHI: here you are  big tree .
 *MOT: here you are  big tree .
@@ -1219,7 +1200,6 @@
 *MOT: no .
 *MOT: theres no water .
 *CHI: no elephant .
-*CHI: no water .
 *CHI: no .
 *CHI: whats this ?
 *MOT: whats what  sweetheart ?
@@ -1314,12 +1294,10 @@
 *CHI: jump up .
 *MOT: oh Thomas .
 *CHI: its a brick .
-*MOT: that excited .
 *MOT: its like a trampoline isnt it ?
 *CHI: its a brick .
 *MOT: is it a brick .
 *MOT: a big red brick .
-*MOT: have a look .
 *CHI: Im Bob the Builder .
 *MOT: youre Bob the Builder ?
 *MOT: youre bouncy Bob the Builder arent you ?
@@ -1414,7 +1392,7 @@
 *INV: and if you dont wanna play you dont play .
 *CHI: dont like that .
 *MOT: oh Thomas .
-*MOT: no no no .
+*MOT: no .
 *MOT: oh whos that ?
 *CHI: a dolly .
 *MOT: a dolly ?
@@ -1436,7 +1414,7 @@
 *CHI: ah ha .
 *CHI: build something .
 *INV: whey !
-*MOT: you wanna build something ?
+*MOT: you something ?
 *CHI: yeah .
 *CHI: a big house .
 *MOT: a big house ?
@@ -1472,7 +1450,7 @@
 *CHI: yes .
 *MOT: hello Bob .
 *CHI: hello .
-*MOT: whatre you building ?
+*MOT: you building ?
 *CHI: a big house .
 *MOT: are you ?
 *CHI: yeah .
@@ -1484,7 +1462,7 @@
 *MOT: hello Bob .
 *MOT: this could be Wendy couldnt it ?
 *CHI: mhm .
-*MOT: Bobs Bobs wife .
+*MOT: Bobs wife .
 *MOT: oh you like her dont you ?
 *CHI: mhm .
 *MOT: she looks like Bethany actually .
@@ -1602,12 +1580,10 @@
 *MOT: look .
 *MOT: Dimitras building a paddock .
 *CHI: paddock .
-*CHI: building a paddock on Saturday a morning .
 *MOT: building a paddock on Saturday morning ?
 *CHI: yes .
 *CHI: build Saturday a morning .
 *CHI: anybody .
-*CHI: on Saturday a morning>
 *MOT: youre singing +"/.
 *MOT: this is the way we .
 *INV: oops .
@@ -1617,7 +1593,7 @@
 *MOT: this is the way we build some ladders on a Saturday morning
 *CHI: morning .
 *INV: these came from up here .
-*CHI: is hold up here .
+*CHI: here .
 *CHI: stuck .
 *CHI: eh oh .
 *MOT: oh I didnt realize they belong to the Lego set .
@@ -1664,7 +1640,7 @@
 *CHI: mhm .
 *CHI: there .
 *CHI: let .
-*MOT: well hafta see if we can get some ladders wont we ?
+*MOT: hafta see if we can get some ladders wont we ?
 *MOT: for your Lego .
 *MOT: not a ladder .
 *MOT: some fencing I mean .
@@ -1750,11 +1726,11 @@
 *MOT: which box are you putting them in  Thomas ?
 *CHI: hm .
 *CHI: my my big one .
-*MOT: well Dimitra has brought a brought a nice green box .
+*MOT: well Dimitra has brought a nice green box .
 *CHI: yeah .
 *MOT: they would be nice in there really wouldnt they ?
 *CHI: no .
-*MOT: what sort of box  Thomas ?
+*MOT: what sort of box ?
 *INV: oh .
 *CHI: laughs .
 *MOT: what sort of box ?
@@ -1764,7 +1740,6 @@
 *CHI: this box .
 *MOT: oh yes .
 *MOT: thats fine .
-*CHI: like this .
 *CHI: this box .
 *CHI: da da da da dasi .
 *CHI: laughs .
@@ -1810,7 +1785,6 @@
 *MOT: well he has eaten something but
 *MOT: perhaps what it possibly was he often puts food hes eating in
 *MOT: so its very possibly a bit of biscuit or something .
-*INV: oh right .
 *MOT: I mean
 *MOT: anyway .
 *CHI: Bob the Builder got Smart Bob the Builder has got Smarties
@@ -1856,7 +1830,7 @@
 *MOT: thank you .
 *MOT: they look like colored Polos dont they ?
 *CHI: mhm .
-*MOT: I wonder if they still do Fruit Polos ?
+*MOT: if they still do Fruit Polos ?
 *MOT: they useta do them .
 *MOT: theyre like boiled sweets but they look like Polos .
 *MOT: not in your mouth  Thomas  please .
@@ -1931,7 +1905,7 @@
 *MOT: otherwise  there will be trouble wont there ?
 *CHI: yeah .
 *CHI: just move up a bit .
-*CHI: do you wanna sit on the back ?
+*CHI: wanna sit on the back ?
 *CHI: Bertie .
 *MOT: Bertie ?
 *CHI: mhm .
@@ -1963,7 +1937,7 @@
 *CHI: yes .
 *MOT: I hope not anyway .
 *INV: no .
-*MOT: she was working hard but not that hard .
+*MOT: working hard but not that hard .
 *INV: oh I had a computer .
 *CHI: yes .
 *INV: and I was uh playing with the computer .

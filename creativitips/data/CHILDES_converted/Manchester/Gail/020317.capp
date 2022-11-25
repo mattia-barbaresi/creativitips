@@ -144,7 +144,7 @@
 *MOT: how much is it ?
 *CHI: twenty p .
 *CHI: eating my biscuit .
-*MOT: what did where did we go for our lunch yesterday ?
+*MOT: where did we go for our lunch yesterday ?
 *MOT: where did we go ?
 *CHI: pizza cafe .
 *MOT: we didnt .
@@ -364,7 +364,7 @@
 *MOT: oh right .
 *MOT: whoops .
 *CHI: come .
-*CHI: wanna wanna come here ?
+*CHI: wanna come here ?
 *CHI: Mum .
 *CHI: come on  Mummy .
 *CHI: come .
@@ -386,7 +386,7 @@
 *CHI: its got here .
 *CHI: heres your bucket .
 *MOT: wheres your bucket ?
-*CHI: heres your heres your bucket .
+*CHI: heres your bucket .
 *MOT: oh .
 *MOT: thank you .
 *MOT: wheres yours then ?
@@ -398,7 +398,7 @@
 *CHI: make a sandcastle ?
 *CHI: wanna make a sandcastle ?
 *MOT: okay .
-*CHI: want want wanna wanna sit down ?
+*CHI: wanna sit down ?
 *CHI: in sand .
 *MOT: no .
 *MOT: I dont wanna get sand on my trousers .
@@ -448,8 +448,7 @@
 *CHI: wanna swim ?
 *CHI: Mummy .
 *MOT: oh .
-*MOT: youll hafta swim now .
-*CHI: wanna swim ?
+*MOT: youll .
 *MOT: youve tipped out  havent you ?
 *MOT: no .
 *MOT: dont eat that bit .
@@ -755,8 +754,6 @@
 *MOT: how many weekends have we been saying that for ?
 *MOT: hm ?
 *MOT: there .
-*MOT: look pretty .
-*CHI: going Christmas .
 *CHI: its going Christmas .
 *MOT: going to .
 *MOT: what do you mean ?
@@ -919,7 +916,7 @@
 *CHI: cat .
 *MOT: a cat ?
 *INV: oh .
-*CHI: Im going Im going to go beside it .
+*CHI: Im going to go beside it .
 *MOT: oh right .
 *CHI: beside it .
 *CHI: here .
@@ -928,7 +925,7 @@
 *CHI: yeah .
 *MOT: oh .
 *MOT: a tiny one .
-*CHI: wanna wanna your knee .
+*CHI: wanna your knee .
 *MOT: sit on my knee ?
 *MOT: oh right .
 *MOT: whats it called ?
@@ -1155,7 +1152,7 @@
 *CHI: want eat .
 *CHI: Caroline want eat it ?
 *CHI: Grannys want eat it .
-*CHI: its a its a Granny .
+*CHI: its a Granny .
 *CHI: its a Granny .
 *CHI: its Granny .
 *CHI: its the for Granny .
@@ -1193,7 +1190,7 @@
 *MOT: great .
 *MOT: oh dear .
 *MOT: its a tunnel that you bang your head on .
-*CHI: heres the heres the
+*CHI: heres the
 *CHI: for me .
 *CHI: for me .
 *MOT: pardon ?
@@ -1374,7 +1371,7 @@
 *MOT: what did you say when you picked that bottle up in the kitchen ?
 *MOT: do you remember ?
 *MOT: yesterday .
-*MOT: that bottle that Daddy drinks from drunk from .
+*MOT: that bottle that Daddy drunk from .
 *MOT: what did you say when you picked it up ?
 *MOT: can you remember ?
 *CHI: want it .

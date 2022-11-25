@@ -14,7 +14,6 @@
 *MOT: say see you soon .
 *DAD: see you later .
 *MOT: bye .
-*INV: see you .
 *MOT: oh .
 *MOT: wheres Daddy gone ?
 *CHI: to work .
@@ -42,7 +41,6 @@
 *MOT: is anybody there ?
 *CHI: no .
 *MOT: oh .
-*MOT: all right then .
 *MOT: right .
 *MOT: are we going to play ?
 *CHI: yeah .
@@ -67,8 +65,7 @@
 *MOT: Mummys dryer .
 *MOT: and you fell off  didnt you ?
 *INV: did you ?
-*MOT: and I wasnt looking .
-*INV: oh dear .
+*MOT: looking .
 *MOT: www .
 *CHI: look .
 *MOT: yeah .
@@ -162,7 +159,7 @@
 *MOT: and what did you do at the park ?
 *CHI: Bethany Bethany .
 *MOT: www .
-*MOT: what did who else went when we went with Bethany ?
+*MOT: who else went when we went with Bethany ?
 *INV: Bethany .
 *MOT: whispering .
 *MOT: we cant hear you .
@@ -227,7 +224,7 @@
 *CHI: right .
 *MOT: oh .
 *CHI: Pingu .
-*MOT: whats he doing ?
+*MOT: he doing ?
 *INV: Pingu .
 *CHI: teddy .
 *CHI: teddy .
@@ -639,7 +636,7 @@
 *MOT: here you are .
 *MOT: these are all worn out  arent they ?
 *MOT: I can hardly see them .
-*MOT: theyre not theyre not stickers  are they ?
+*MOT: theyre not stickers  are they ?
 *CHI: page .
 *MOT: turn the page .
 *MOT: oh .
@@ -752,7 +749,7 @@
 *CHI: Percy .
 *MOT: thats Percy .
 *MOT: well according to this youve got Thomas Joel Percy Toby .
-*MOT: well neither of those none of those are Toby  are they ?
+*MOT: well none of those are Toby  are they ?
 *MOT: Edward Gordon and Henry .
 *CHI: Toby .
 *MOT: Toby ?
@@ -775,8 +772,6 @@
 *INV: www .
 *CHI: mama likes .
 *CHI: mama likes .
-*INV: mama likes eggs ?
-*MOT: yeah mamas eggs .
 *INV: thats a tomato .
 *INV: a beef tomato .
 *INV: is it yummy ?
@@ -850,11 +845,9 @@
 *MOT: whats that ?
 *CHI: another .
 *INV: another .
-*MOT: what is it .
 *MOT: oh another ?
 *INV: www .
 *CHI: more .
-*MOT: oh yeah .
 *MOT: youve already got one .
 *CHI: more whale .
 *INV: more whale .
@@ -865,8 +858,6 @@
 *MOT: no .
 *INV: www .
 *CHI: no more whale .
-*INV: there arent any more whales .
-*MOT: no more whale .
 *INV: no more whale .
 *MOT: can you see
 *CHI: tiger .
@@ -998,7 +989,6 @@
 *INV: pardon ?
 *MOT: cant hear you .
 *MOT: youve got the box on your head .
-*CHI: I dont want it .
 *INV: you dont want it ?
 *MOT: oh .
 *INV: its a hat .
@@ -1015,7 +1005,6 @@
 *MOT: wheres Joel gone ?
 *MOT: oh .
 *MOT: there he is .
-*MOT: the what ?
 *CHI: look .
 *CHI: look .
 *CHI: tea .
@@ -1264,7 +1253,6 @@
 *MOT: more bricks .
 *MOT: dont you think weve got enough out ?
 *MOT: this room isnt big enough for all your bricks .
-*MOT: look at all these .
 *MOT: what what is it ?
 *CHI: more hats .
 *MOT: more hats .
@@ -1316,8 +1304,6 @@
 *CHI: yellow .
 *CHI: there he is .
 *CHI: dolly hat .
-*INV: dollys head ?
-*MOT: dolly hat .
 *INV: hat ?
 *CHI: yeah .
 *MOT: wanna put it on again ?
@@ -1375,8 +1361,6 @@
 *INV: oh toys .
 *MOT: um toys .
 *MOT: no .
-*MOT: theres no toys in there .
-*INV: no thats not toys .
 *MOT: thats ladys bag .
 *INV: whos there ?
 *INV: can you see what that is ?
@@ -1402,8 +1386,6 @@
 *INV: just tissues and keys .
 *INV: pardon ?
 *CHI: want toys .
-*MOT: no toys darling .
-*INV: there arent any toys .
 *INV: keys .
 *MOT: what do you say ?
 *CHI: ta .

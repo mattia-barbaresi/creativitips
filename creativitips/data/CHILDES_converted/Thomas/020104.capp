@@ -126,8 +126,6 @@
 *MOT: Kangaroo and Piglet and Winnie the Pooh .
 *CHI: Pooh nice .
 *MOT: Pooh Bear .
-*CHI: Pooh nice>
-*MOT: Pooh Bear .
 *MOT: yes .
 *MOT: Pooh Bears nice .
 *MOT: and Mummys slippers smell nice .
@@ -163,7 +161,6 @@
 *CHI: 0 .
 *MOT: oh you dont wanna go to bed  Thomas .
 *CHI: no .
-*CHI: I finish .
 *MOT: youre just having a quick lie down ?
 *CHI: no .
 *MOT: come on lets put that other slipper on .
@@ -196,8 +193,7 @@
 *MOT: its the clothes dryer .
 *MOT: because its raining outside and Mummy cant get the clothes dry
 *CHI: ap in there .
-*MOT: weve got to hang them up inside .
-*CHI: ap door .
+*MOT: weve got to hang them .
 *CHI: ap door .
 *MOT: the door .
 *CHI: ap door .
@@ -285,7 +281,6 @@
 *MOT: and then theyll dry wont they ?
 *CHI: ah .
 *CHI: hang them up there .
-*CHI: get off .
 *MOT: no .
 *MOT: theyre not steps  love .
 *CHI: steps .
@@ -474,7 +469,7 @@
 *MOT: youre lying on the floor again .
 *MOT: its not a good sign is it ?
 *CHI: no .
-*MOT: youve not been up very long .
+*MOT: not been up very long .
 *MOT: are you tired again ?
 *CHI: all done .
 *MOT: all done ?
@@ -496,7 +491,6 @@
 *MOT: Purdies asleep on the bathroom floor .
 *CHI: no .
 *CHI: Nin Nin .
-*CHI: Bow shh .
 *CHI: Nin Nin .
 *MOT: yes .
 *CHI: Nin Nin .
@@ -581,7 +575,7 @@
 *CHI: ap there .
 *MOT: youll do the splits and hurt yourself .
 *CHI: Nin Nin .
-*CHI: oh dear oh dear .
+*CHI: oh dear .
 *MOT: whoops .
 *CHI: stuck .
 *CHI: move .
@@ -618,7 +612,6 @@
 *MOT: and do you know who that is ?
 *CHI: Nin Nin chair .
 *MOT: you .
-*CHI: Nin Nin chair>
 *MOT: you cant be .
 *MOT: Nin Nin chair ?
 *MOT: you want me to sit down with you ?
@@ -909,7 +902,7 @@
 *MOT: seven colors .
 *CHI: whats this ?
 *MOT: and we havent used .
-*MOT: weve used several colors but we havent used the very dark>
+*MOT: weve used several colors but we havent used the
 *MOT: we havent used the black the white or the brown have we ?
 *MOT: theyre not the colors of the rainbows .
 *MOT: whats black and white and brown ?
@@ -966,7 +959,6 @@
 *MOT: swimming .
 *MOT: lets have a look at Thomass fingers .
 *CHI: done .
-*CHI: all done .
 *MOT: all done ?
 *MOT: where has Thomas gone now ?
 *MOT: are you hiding behind the chair ?
@@ -989,8 +981,7 @@
 *MOT: oh dear dear .
 *MOT: lets pick these pencils up because youve just trodden on one .
 *MOT: smashed on the floor .
-*MOT: lets pick the pencils up  Thomas  and put them back in the
-*CHI: Nin Nin .
+*MOT: lets pick the pencils up  Thomas  them back in the
 *MOT: please .
 *CHI: Nin Nin .
 *MOT: yes .
@@ -1067,7 +1058,7 @@
 *CHI: no .
 *CHI: oh dear dear .
 *CHI: laughs .
-*MOT: oh youve just fallen off your chair  Thomas .
+*MOT: just fallen off your chair  Thomas .
 *MOT: laughs .
 *CHI: no Nin Nin .
 *MOT: you do sound a lot brighter now dont you ?
@@ -1205,7 +1196,6 @@
 *CHI: ap this ?
 *MOT: thats a jar .
 *MOT: Mummy is just going to put it back on the window ledge .
-*CHI: over there .
 *MOT: no its too heavy  darling .
 *MOT: its full of peas and beans .
 *CHI: ap there .
@@ -1582,8 +1572,7 @@
 *CHI: Nin chair .
 *MOT: yes Ill sit on the chair .
 *CHI: uh .
-*CHI: oh Nin .
-*MOT: oh thats nice and comfortable .
+*MOT: nice and comfortable .
 *MOT: thank you Thomas .
 *MOT: are you going sit on the other chair with me ?
 *CHI: no .
@@ -1595,7 +1584,7 @@
 *CHI: weh .
 *MOT: its a table .
 *CHI: oh .
-*CHI: have a seat Nin Nin .
+*CHI: Nin Nin .
 *MOT: yes .
 *CHI: ooh bump .
 *CHI: jump .
@@ -1617,8 +1606,8 @@
 *CHI: laughs .
 *MOT: oh no .
 *MOT: that tickles .
-*MOT: just put slipper on her foot .
-*MOT: you dont no you dont hafta touch my foot .
+*MOT: slipper on her foot .
+*MOT: no you dont hafta touch my foot .
 *MOT: you can just leave the slipper there .
 *MOT: that tickled didnt it ?
 *CHI: no .

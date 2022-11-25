@@ -22,7 +22,7 @@
 *MOT: are you asleep ?
 *CHI: no .
 *MOT: oh hes a nice fireman .
-*MOT: oh are you sleeping after a very busy night ?
+*MOT: sleeping after a very busy night ?
 *MOT: were you putting out lots of fires ?
 *CHI: yes .
 *CHI: ap bonfires .
@@ -74,8 +74,6 @@
 *CHI: your see Fireman Sam today .
 *MOT: well theres no point me seeing I wonder if Ill see Fireman Sam
 *MOT: hes about to have his breakfast .
-*CHI: ap Fireman Sam today .
-*MOT: isnt he ?
 *CHI: no .
 *MOT: well I wonder if I will see Fireman Sam .
 *MOT: do you think I will ?
@@ -184,7 +182,7 @@
 *MOT: Daddy bought these didnt he ?
 *MOT: in the supermarket .
 *MOT: cereal and milk bars .
-*MOT: instead of putting cereal in your bowl and putting milk on>
+*MOT: instead of putting cereal in your bowl and
 *CHI: yeah .
 *MOT: theyre in a bar arent they ?
 *MOT: like a crunchy bar .
@@ -201,7 +199,7 @@
 *CHI: yeah .
 *CHI: Ip get it off .
 *MOT: look .
-*MOT: theres the little piece of cardboard it comes in  in the box>
+*MOT: theres the little piece of cardboard it comes in (.)
 *MOT: to stop them breaking .
 *MOT: it looks like a bridge .
 *CHI: yes .
@@ -286,7 +284,7 @@
 *MOT: hm .
 *MOT: now thats a funny thing to do .
 *CHI: Purdie .
-*MOT: oh hello  Purdie .
+*MOT: Purdie .
 *MOT: hello  puss .
 *MOT: you were pretending to be Purdie this morning werent you ?
 *MOT: or was it just a pussy cat ?
@@ -342,7 +340,7 @@
 *MOT: pardon ?
 *CHI: that one working now .
 *MOT: whats working now  Thomas ?
-*CHI: that other thing its working now .
+*CHI: that its working now .
 *MOT: whats working ?
 *CHI: that working there .
 *MOT: whats working ?
@@ -353,7 +351,7 @@
 *MOT: it was just a couple of petals missing .
 *MOT: oh shes sitting near the grass now .
 *MOT: can you see her ?
-*CHI: yeah ap Pur her furs blowing away .
+*CHI: yeah her furs blowing away .
 *MOT: mhm .
 *MOT: thats right .
 *MOT: her fur is blowing isnt it ?
@@ -364,7 +362,6 @@
 *CHI: that funny .
 *MOT: hm .
 *CHI: look .
-*CHI: making sa church .
 *CHI: hahahao .
 *MOT: hm .
 *MOT: you were talking about the cardboard from inside of the cereal
@@ -453,12 +450,11 @@
 *MOT: oh hes coming to sit on the mat now .
 *MOT: I think he has got a very smart blue collar on .
 *MOT: blue for a boy .
-*MOT: I notice>
 *CHI: sniffing my nappies .
 *MOT: is he sniffing your nappies ?
 *MOT: yes .
 *MOT: weve put a bag of rubbish outside of the door havent we ?
-*CHI: this this this Monday now .
+*CHI: this Monday now .
 *MOT: pardon ?
 *CHI: its Monday .
 *MOT: no .
@@ -484,7 +480,7 @@
 *MOT: oh but Felix has seen Purdie .
 *MOT: look at his ears .
 *MOT: look .
-*CHI: Purdie turn back look at Felix .
+*CHI: Purdie turn back Felix .
 *MOT: are you telling Purdie to turn back ?
 *MOT: look Felix ?
 *MOT: well Purdie has gone in the window in the lounge hasnt she ?
@@ -626,7 +622,7 @@
 *MOT: I think the ground is a little bit too wet today to play outside ,
 *CHI: its not too wet .
 *CHI: wash my hands now .
-*CHI: in my Wellington go outside .
+*CHI: in my Wellington .
 *MOT: no .
 *MOT: no .
 *MOT: you cant put your wellies on now .
@@ -695,7 +691,6 @@
 *MOT: no .
 *MOT: not now .
 *MOT: what do you think youll be doing with Nana and Granddad ?
-*CHI: no no>
 *CHI: Ip play my sand pit now please .
 *CHI: please oh  Mummy !
 *CHI: please !
@@ -711,7 +706,6 @@
 *CHI: get outside .
 *MOT: alright .
 *MOT: perhaps we'll
-*CHI: play ap sand pit .
 *MOT: well I dont think youll play with the sand pit  Thomas .
 *MOT: no .
 *CHI: I think so .
@@ -728,8 +722,7 @@
 *CHI: get down now .
 *MOT: well you might have finished your breakfast but Mummy has not
 *MOT: and I dont think youve had enough really .
-*MOT: youve just>
-*CHI: I need ap I need ap nappie change downstairs .
+*CHI: I need ap nappie change downstairs .
 *MOT: mhm .
 *MOT: yes .
 *MOT: we can get you changed downstairs .
@@ -758,8 +751,7 @@
 *MOT: I didnt see him go .
 *MOT: hes not on the ledge anymore .
 *CHI: no .
-*CHI: Purdie  where are you ?
-*MOT: oh  Thomas .
+*CHI: where are you ?
 *MOT: be careful .
 *MOT: you must be more careful with your drink .
 *MOT: you going to sip some ?
@@ -811,23 +803,23 @@
 *CHI: yeah .
 *MOT: okay .
 *MOT: thats the blue jumper with a picture of an elephant on the front
-*CHI: and tail on on on the back .
+*CHI: and tail on the back .
 *MOT: it has a tail on the back .
 *MOT: youre quite right .
 *MOT: yes .
 *MOT: its the picture of an elephants face and ears and trunk and front
 *MOT: and the back of the jumper its elephants bottom and its back
-*MOT: it goes swish swish swish .
+*MOT: it goes swish .
 *CHI: bout his trunk ?
 *CHI: no .
 *MOT: yes .
 *MOT: he has a trunk on the front and some eyes hasnt he ?
-*CHI: I think I think I nick somebody .
+*CHI: I think I nick somebody .
 *MOT: you think youve nicked somebody ?
 *CHI: yeah .
 *MOT: what do you mean by that ?
 *MOT: what do you mean I think Ive nicked somebody ?
-*CHI: I being croc uh a crocodile bite something
+*CHI: I being a crocodile bite something
 *MOT: oh !
 *MOT: youre a crocodile biting something all up ?
 *MOT: goodness me .
@@ -847,23 +839,21 @@
 *MOT: you like making noise though dont you ?
 *CHI: yeah .
 *CHI: wake Purdie up and Daddy .
-*MOT: work pay wake Purdie up and Daddy .
+*MOT: wake Purdie up and Daddy .
 *MOT: yes .
 *MOT: I think it probably would .
 *CHI: hello  Mummy .
-*CHI: nothings nothings wrong .
+*CHI: nothings wrong .
 *MOT: nothings wrong .
 *MOT: that usually means there is .
 *MOT: Ive just seen you put your juice on the floor .
 *MOT: and whats Daddys coat doing on the floor ?
-*CHI: Thomas broke it .
 *MOT: did you pull it off the coat rack ?
 *CHI: yeah .
 *MOT: why ?
 *MOT: right .
-*MOT: if youre not going to eat this banana  I think well put it>
+*MOT: if youre not going to eat this banana (.)
 *MOT: look .
-*CHI: need ap do it>
 *MOT: yes .
 *MOT: you put it in there .
 *MOT: thats right .
@@ -911,15 +901,13 @@
 *MOT: youve been very very good using your potty recently haven't
 *CHI: yeah .
 *MOT: but were still not quite there .
-*CHI: I need ap need ap toothbrush .
+*CHI: I need ap toothbrush .
 *MOT: whoops a daisy .
 *MOT: Im just moving the daffodils off the table .
-*CHI: want ap do thep need ap toothbrush now .
+*CHI: need ap toothbrush now .
 *MOT: you want your toothbrush ?
 *CHI: yes .
 *CHI: and my paste .
-*MOT: toothbrush and your toothpaste .
-*CHI: I need ap hold the paste .
 *MOT: do you ?
 *MOT: just a minute .
 *MOT: right .
@@ -961,7 +949,7 @@
 *MOT: shes going to work .
 *MOT: look .
 *MOT: shes reversing .
-*CHI: thats blue thats blue .
+*CHI: thats blue .
 *MOT: yes .
 *MOT: lot of cars outside today .
 *CHI: lot lots ofp car .
@@ -1019,26 +1007,22 @@
 *CHI: your put it away .
 *CHI: toothpaste away .
 *MOT: lets brush your teeth .
-*CHI: no no>
 *MOT: you like having your teeth brushed .
 *MOT: whats the matter ?
 *CHI: 0 .
 *CHI: ouch ouch hurt .
 *MOT: Thomas  you always have your teeth brushed after .
-*CHI: no no>
 *MOT: well do you wanna put some paste onto the brush ?
 *CHI: 0 .
 *MOT: come on .
 *MOT: Ill hold the brush and you put some paste on .
 *MOT: squeeze it from the bottom .
-*CHI: no no>
 *MOT: come on .
 *MOT: this should be a .
 *CHI: 0 .
 *MOT: we have your teeth brushed every day .
 *MOT: whats the problem ?
 *MOT: youre laughing now arent you ?
-*CHI: no no>
 *MOT: well perhaps well get you dressed and then well do your teeth .
 *MOT: yes ?
 *CHI: 0 .
@@ -1065,7 +1049,6 @@
 *MOT: well brush them later .
 *CHI: now now .
 *MOT: whats the problem ?
-*CHI: Mummy  not a problem .
 *MOT: is there not a problem ?
 *CHI: no !
 *MOT: but youre so upset this morning .
@@ -1084,9 +1067,8 @@
 *MOT: you can look at the back .
 *CHI: oh no .
 *CHI: no see
-*CHI: no no no  Mummy  no .
+*CHI: no  Mummy  no .
 *MOT: what can you see ?
-*CHI: no no>
 *MOT: what are the buttons .
 *MOT: look .
 *MOT: even the buttons have elephants on them  darling .
@@ -1097,7 +1079,7 @@
 *MOT: you dont know ?
 *CHI: no .
 *MOT: I think theyre blue .
-*CHI: not theyre not theyre not .
+*CHI: not theyre not .
 *CHI: 0 .
 *MOT: Thomas .
 *MOT: listen to me .
@@ -1151,8 +1133,8 @@
 *MOT: are you alright ?
 *CHI: yeah .
 *MOT: are your feet cold ?
-*CHI: no no no .
-*MOT: your toes look blue .
+*CHI: no .
+*MOT: your .
 *MOT: your toes look a very strange color .
 *MOT: where are you going ?
 *CHI: not anywhere .
@@ -1168,8 +1150,6 @@
 *MOT: no .
 *MOT: Felix doesnt does he ?
 *CHI: no .
-*MOT: well you>
-*CHI: not anybody .
 *MOT: well you shouldnt really should you ?
 *MOT: now .
 *CHI: no .
@@ -1325,7 +1305,7 @@
 *CHI: I need my talcum powder now .
 *CHI: need now .
 *MOT: you need your bottle of powder now ?
-*MOT: I dont know whether wed really call that a pow uh a
+*MOT: I dont know whether wed really call that a
 *MOT: its more of a container isnt it ?
 *CHI: bottle container .
 *MOT: I suppose it is a bottle really .
@@ -1371,16 +1351,12 @@
 *CHI: once caught fish alive .
 *CHI: hm .
 *MOT: one two three four five .
-*MOT: once I caught a fish alive>
-*CHI: fish alive .
-*MOT: six seven eight nine ten>
-*CHI: seven eight nine ten .
+*MOT: once I caught a
 *MOT: then I let him go again .
 *MOT: why did you let him go ?
 *MOT: because he bit my finger so .
 *MOT: which finger did he bite ?
-*MOT: this little finger on the right>
-*CHI: the right .
+*MOT: this little finger on
 *MOT: which is your right ?
 *CHI: that one .
 *MOT: yes .
@@ -1420,9 +1396,8 @@
 *CHI: no thanks .
 *MOT: Thomas  does your mouth hurt ?
 *CHI: no .
-*MOT: because youre not .
-*CHI: I not .
-*MOT: ah but you never refuse to have your teeth brushed .
+*MOT: because .
+*MOT: ah but you never refuse .
 *CHI: I need ap needta play on my wellies on play
 *MOT: well you cant go outside with dirty teeth .
 *MOT: what if you meet somebody outside you wanna kiss ?
@@ -1458,7 +1433,6 @@
 *CHI: ah .
 *MOT: just a minute .
 *CHI: big hug
-*MOT: you wanna hug me ?
 *MOT: ah .
 *CHI: big hug  Missus Pottidge .
 *MOT: you feeling happier now ?
@@ -1501,7 +1475,7 @@
 *MOT: whats big ?
 *CHI: that steps .
 *MOT: do you know what thats called ?
-*MOT: do you do you know what thats called ?
+*MOT: do you know what thats called ?
 *CHI: yeah .
 *MOT: those .
 *CHI: yeah .
@@ -1516,7 +1490,7 @@
 *MOT: excuse you .
 *MOT: I will excuse you .
 *MOT: that was a rude noise wasnt it ?
-*CHI: thats my pardon thats my bottom .
+*CHI: thats my bottom .
 *MOT: was it your bottom making that noise ?
 *CHI: yes .
 *MOT: oh dear .
@@ -1528,7 +1502,7 @@
 *MOT: now that would have been easier if you had done that before
 *MOT: thats much better .
 *MOT: lets do the top ones .
-*MOT: brush brush brush .
+*MOT: brush .
 *MOT: I think we needta put a little bit of cream on the corner of your
 *MOT: shall we brush again ?
 *MOT: and then well rinse .

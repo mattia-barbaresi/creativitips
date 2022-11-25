@@ -3,7 +3,7 @@
 *CHI: jumping .
 *CHI: James .
 *CHI: jumping James .
-*CHI: jump jump jump .
+*CHI: jump .
 *CHI: jumped .
 *MOT: right .
 *MOT: are you coming to sit next to me ?
@@ -68,8 +68,6 @@
 *CHI: hickory up row mouse run up a clock .
 *MOT: the mouse run up the clock ?
 *MOT: the little bears running up the clock isnt he ?
-*CHI: oh no .
-*MOT: can you see him ?
 *CHI: ap open open it .
 *MOT: yes .
 *CHI: open it .
@@ -85,8 +83,6 @@
 *MOT: and theres his slipper .
 *MOT: and hes going downstairs .
 *MOT: so its eight oclock on the clock .
-*CHI: come on sit>
-*MOT: ah look .
 *MOT: look .
 *MOT: its nine oclock .
 *MOT: what will he do ?
@@ -121,7 +117,6 @@
 *MOT: whats the matter ?
 *MOT: whats the matter ?
 *MOT: oh youre just not a well boy this week are you ?
-*CHI: not happy .
 *MOT: youre not happy ?
 *CHI: no .
 *MOT: I know youre not happy .
@@ -159,7 +154,6 @@
 *MOT: can you see it ?
 *MOT: is he there with the counting beads ?
 *CHI: counting beads .
-*CHI: Pee Wee Bears .
 *MOT: little bears there with Pee Wee Bear ?
 *MOT: so look .
 *MOT: from nine oclock he spent ten oclock .
@@ -229,7 +223,6 @@
 *CHI: mhm .
 *CHI: not go in the pot .
 *MOT: now hes playing between three oclock and four oclock .
-*CHI: oh yeah .
 *CHI: four .
 *MOT: and suddenly it gets to
 *MOT: what comes after four ?
@@ -278,7 +271,6 @@
 *MOT: its seven oclock .
 *MOT: what will he do ?
 *MOT: can you see whos in his bedroom  Thomas ?
-*CHI: Pee Wee Bear>
 *MOT: whos in Pee Wee Bears bedroom ?
 *CHI: fireman .
 *CHI: Noddy .
@@ -301,7 +293,7 @@
 *CHI: ap blue .
 *MOT: thats a train .
 *MOT: yes .
-*CHI: a blue one .
+*CHI: one .
 *MOT: yes .
 *MOT: and theres the Noddy car again .
 *CHI: ap blue there .
@@ -390,7 +382,7 @@
 *MOT: what will he do ?
 *MOT: what happens at seven oclock  Thomas ?
 *CHI: forty one .
-*CHI: um na see ap see ap blue .
+*CHI: um na see ap blue .
 *MOT: see a blue ?
 *MOT: he was looking at the moon ?
 *CHI: yeah .
@@ -419,16 +411,14 @@
 *MOT: shh .
 *MOT: hey hey dont snatch .
 *CHI: no .
-*CHI: it mine .
-*CHI: it mine  Mummy .
 *CHI: its mine .
-*MOT: its mine its mine ?
+*MOT: its mine ?
 *MOT: its not yours actually .
 *CHI: yes it is .
 *MOT: shall we have a look at all these clocks in this book ?
 *CHI: no rappit .
 *MOT: what do you want ?
-*CHI: ap rap ap rap ap rap .
+*CHI: ap rap .
 *MOT: Thomas  youve got to be careful with this clock .
 *MOT: look its .
 *MOT: look .
@@ -457,7 +447,7 @@
 *CHI: no .
 *MOT: youre very out of sorts arent you ?
 *CHI: no .
-*MOT: shh shh shh .
+*MOT: shh .
 *MOT: you are  sweetheart .
 *MOT: come on .
 *MOT: lets have a look at these clocks .
@@ -475,7 +465,7 @@
 *MOT: do you remember that ?
 *CHI: yeah .
 *MOT: and how did it go ?
-*MOT: tick tock tick tock didnt it ?
+*MOT: tick tock didnt it ?
 *CHI: little rubbish .
 *MOT: and can you see  this clock thats saying its nine oclock .
 *MOT: thats called an alarm clock .
@@ -628,8 +618,7 @@
 *CHI: thanks .
 *MOT: this is a little tin that Grandma had some mints in .
 *CHI: two more thanks .
-*MOT: when weve cleared the table>
-*CHI: no more .
+*MOT: when we've
 *CHI: no more now .
 *MOT: no more now .
 *MOT: right .
@@ -641,8 +630,7 @@
 *MOT: and did you watch the men bring the clean bags  Thomas ?
 *MOT: for next week ?
 *CHI: yeah .
-*MOT: and how many men were there working yesterday ?
-*CHI: one two three>
+*MOT: and how many men were there ?
 *MOT: three men ?
 *CHI: yeah .
 *MOT: does that include the driver ?
@@ -665,8 +653,7 @@
 *CHI: oh .
 *MOT: oh where are they going now ?
 *CHI: ap going in thep back .
-*CHI: ap dirty van .
-*MOT: are they actually>
+*CHI: ap .
 *MOT: where are they going  Thomas ?
 *CHI: ap down there .
 *MOT: down there ?
@@ -697,8 +684,6 @@
 *CHI: yuck .
 *MOT: what do you mean its dirty ?
 *MOT: well if youre playing with bin bags they will be dirty .
-*MOT: theyre not>
-*MOT: theyre not>
 *CHI: not stop .
 *CHI: sit down .
 *MOT: you telling me to sit down ?
@@ -870,13 +855,11 @@
 *MOT: no .
 *MOT: if were looking at these  we look together  and we look at
 *CHI: no not need that .
-*CHI: no no>
 *CHI: a big truck driver now .
 *MOT: youre a big truck driver now are you ?
 *CHI: yeah .
 *CHI: no boxes .
 *MOT: no boxes ?
-*CHI: near my road .
 *CHI: yes .
 *MOT: no .
 *MOT: you cant have these  Thomas .
@@ -921,7 +904,7 @@
 *CHI: bricks .
 *MOT: bricks ?
 *CHI: no .
-*CHI: have a have a boy my boxes .
+*CHI: have a boy my boxes .
 *MOT: some boxes ?
 *CHI: yes .
 *MOT: right .
@@ -929,7 +912,7 @@
 *MOT: what sort of .
 *MOT: are you the fireman ?
 *CHI: yeah .
-*MOT: or are you the truck driver ?
+*MOT: you the truck driver ?
 *CHI: a fireman .
 *MOT: a fireman .
 *MOT: well firemen dont really carry things in the back do they ?
@@ -947,14 +930,13 @@
 *CHI: 0 not need that .
 *CHI: no .
 *MOT: look .
-*MOT: look you>
 *CHI: no fireman now .
 *MOT: no .
 *MOT: but Thomas the fireman can look at this because .
 *MOT: listen .
 *MOT: all these little houses that were going to put in the advent
 *CHI: no .
-*MOT: if theres a fire  the firemans going to hafta put the &ho>
+*MOT: if theres a fire  the firemans going to hafta put
 *CHI: no .
 *CHI: not ap need that .
 *CHI: mine .
@@ -966,9 +948,8 @@
 *MOT: well I dont think thats very nice  Thomas .
 *MOT: its not nice throwing those things is it ?
 *CHI: mine up .
-*CHI: putting ap fire again .
 *MOT: what would you like to put on the back of your fire engine Thomas
-*CHI: lot a lot a big boxes .
+*CHI: lot a big boxes .
 *MOT: a lot of big boxes ?
 *CHI: yeah .
 *MOT: well shall we go to the cupboard and get some big boxes for you ?
@@ -988,7 +969,7 @@
 *MOT: do you feel tired ?
 *CHI: no .
 *MOT: what do you feel like doing ?
-*CHI: here are something .
+*CHI: something .
 *CHI: here you are  Mummy .
 *MOT: lets go and get some boxes .
 *CHI: oh Po fall down .
@@ -1001,7 +982,6 @@
 *MOT: are these the sort of boxes youd like ?
 *CHI: yes .
 *CHI: yes ap da fine
-*MOT: and that one ?
 *CHI: no .
 *CHI: not need that .
 *CHI: ap bot one .
@@ -1064,7 +1044,6 @@
 *CHI: no .
 *CHI: no need big boxes .
 *MOT: you dont really needta take them all at once though do you ?
-*CHI: no no>
 *CHI: the baby boxes .
 *MOT: well have you got baby boxes  Thomas ?
 *MOT: oh no .
@@ -1078,7 +1057,6 @@
 *CHI: no .
 *MOT: you enjoyed looking at this the other day didnt you ?
 *CHI: no .
-*CHI: no no>
 *CHI: not need that .
 *MOT: look .
 *MOT: were putting them there .
@@ -1087,7 +1065,6 @@
 *CHI: no .
 *CHI: do something else .
 *CHI: yellow boxes there .
-*CHI: oh no .
 *MOT: oh  Thomas .
 *MOT: come on .
 *MOT: weve got to stop this .
@@ -1095,12 +1072,8 @@
 *MOT: come on .
 *MOT: lets have a break .
 *MOT: this is not doing you any good
-*CHI: another one .
-*MOT: shh shh shh .
-*CHI: ap chocolate ball there .
-*CHI: ap chocolate ball there>
+*MOT: shh .
 *MOT: what are you telling me ?
-*CHI: chocolate ball>
 *MOT: a chocolate ball ?
 *CHI: yeah .
 *MOT: you can see a chocolate ball ?
@@ -1114,17 +1087,12 @@
 *CHI: no .
 *CHI: no .
 *CHI: no .
-*CHI: no want it .
-*CHI: want a chocolate ball .
 *MOT: no .
 *MOT: come on  Thomas .
 *MOT: lets have a break .
 *CHI: 0 .
 *MOT: lets have a break .
-*CHI: Mummy Mummy Mummy .
-*CHI: not need that .
-*CHI: 0 drawer .
-*CHI: ap thep boxes .
+*CHI: Mummy .
 *MOT: right .
 *MOT: are we going to the cupboard to get some pasta ?
 *CHI: oh .
@@ -1141,7 +1109,6 @@
 *MOT: and you can put it in the pan .
 *CHI: ho ho .
 *MOT: ho ho .
-*CHI: ho ho ho ho ho ho ho ho>
 *CHI: oh dear dear .
 *CHI: not see .
 *MOT: lets find a pan .
@@ -1171,13 +1138,11 @@
 *MOT: you going to have some pasta for tea ?
 *CHI: pasta .
 *CHI: yes .
-*MOT: you jumping ?
 *CHI: Mummy jump .
 *MOT: oh Mummy cant jump .
 *CHI: yeah .
-*MOT: jump jump jump .
-*MOT: thats a>
-*CHI: ap very loudly .
+*MOT: jump .
+*CHI: loudly .
 *MOT: very loudly ?
 *CHI: yeah .
 *MOT: oh everything you do is very loud .
@@ -1195,7 +1160,7 @@
 *MOT: one two oops oh dear !
 *MOT: one two and oops oh dear !
 *MOT: youre jumping very high .
-*MOT: what else is on this .
+*MOT: what else is .
 *CHI: one two three .
 *CHI: ja tomato sauce .
 *MOT: one two three what ?
@@ -1217,7 +1182,7 @@
 *MOT: can you hear it ?
 *MOT: can you hear ?
 *MOT: now lets tip some of this dry pasta .
-*CHI: oh dear oh dear .
+*CHI: oh dear .
 *CHI: ap drop one .
 *MOT: youve dropped one ?
 *MOT: now you give the pasta to Mummy and Ill put it in the pan .
@@ -1240,15 +1205,12 @@
 *MOT: Ill give you that .
 *MOT: dont you ?
 *CHI: tomato seeds .
-*CHI: tomato seeds>
 *MOT: tomato seeds ?
 *CHI: yes .
 *CHI: margarine margarine .
 *MOT: sounds like youre saying margarine now .
 *MOT: and its a job to tell what you are saying .
 *CHI: tomato seeds .
-*CHI: tomato seeds>
-*CHI: tomato seeds>
 *CHI: hold my hand .
 *MOT: hold your hand ?
 *CHI: yes .
@@ -1380,8 +1342,6 @@
 *CHI: yes .
 *CHI: go aeroplane .
 *CHI: go Harold helicopter .
-*CHI: Harold helicopter .
-*CHI: Harold helicopter>
 *MOT: you singing the Harold helicopter song are you ?
 *CHI: Harold .
 *MOT: Harold the helicopter .
@@ -1437,9 +1397,8 @@
 *CHI: 0 .
 *MOT: its a fizzy drink .
 *MOT: you call it black juice .
-*MOT: when we go>
 *CHI: blackcurrant juice .
-*MOT: and have cola .
+*MOT: cola .
 *MOT: no .
 *MOT: not blackcurrant juice .
 *MOT: you call it black juice .
@@ -1451,7 +1410,7 @@
 *MOT: and what are you doing ?
 *MOT: clearing out all the cupboards ?
 *CHI: no .
-*MOT: are you are you going to sit inside it ?
+*MOT: are you going to sit inside it ?
 *CHI: yeah .
 *CHI: minute .
 *MOT: in a minute .
@@ -1462,7 +1421,6 @@
 *MOT: youve got very red cheeks  Thomas .
 *MOT: are they sore ?
 *CHI: no .
-*CHI: going big drawer .
 *MOT: its quite windy when we went out this morning wasnt it ?
 *MOT: did you do some handprints today ?
 *CHI: no .
@@ -1550,8 +1508,8 @@
 *CHI: look at all these boxes .
 *MOT: are you looking at all these boxes ?
 *CHI: yes .
-*CHI: bouncy bouncy bouncy bounce .
-*MOT: bouncy bouncy bouncy bouncy ?
+*CHI: bouncy bounce .
+*MOT: bouncy ?
 *MOT: what are you now ?
 *MOT: Tigger ?
 *CHI: bye bye .
@@ -1592,9 +1550,8 @@
 *MOT: its a bit too full I think for Mummy to get in .
 *MOT: dont you ?
 *CHI: go ap my my boxes .
-*CHI: not that carriage .
+*CHI: not .
 *CHI: me my move my boxes .
-*CHI: not that carriage>
 *CHI: what happening ?
 *MOT: its the pasta cooking .
 *MOT: I think its probably boiling over .
@@ -1609,12 +1566,12 @@
 *MOT: whats the matter with the boxes ?
 *CHI: sorry  Mummy .
 *CHI: ap going ap passenger .
-*MOT: oh I I cant pretend Im a passenger  darling .
+*MOT: oh I cant pretend Im a passenger  darling .
 *MOT: I cant get into that cupboard .
 *MOT: Im terribly sorry .
 *CHI: sorry  Mum .
 *CHI: sorry about that .
-*MOT: youre sorry youre sorry about that ?
+*MOT: youre sorry about that ?
 *CHI: ap na train .
 *CHI: ap Thomas ap driver .
 *MOT: Thomas is the driver ?
@@ -1692,7 +1649,6 @@
 *MOT: so well leave that to cool .
 *MOT: and thats what you can have for tea .
 *CHI: look all these boxes .
-*MOT: well put>
 *MOT: look at these boxes .
 *MOT: yes .
 *MOT: well well put some sauce with the pasta .
@@ -1706,7 +1662,7 @@
 *MOT: this little box ?
 *CHI: somebody there .
 *MOT: is somebody there ?
-*MOT: has it got something inside ?
+*MOT: got something inside ?
 *CHI: yeah .
 *MOT: what do you think it is ?
 *CHI: uh chocolate ball .
@@ -1718,7 +1674,7 @@
 *MOT: and Im sticking them onto the advent village .
 *CHI: no .
 *CHI: finished .
-*CHI: ap jump ap jump .
+*CHI: ap jump .
 *CHI: bouncy bounce .
 *CHI: bouncy bounce .
 *CHI: up here .

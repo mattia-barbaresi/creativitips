@@ -1,6 +1,5 @@
 *CHI: Nin Nin .
 *CHI: wodarc .
-*CHI: ap this .
 *CHI: snip snipo .
 *CHI: Nin Nin .
 *CHI: snip snipo .
@@ -10,7 +9,7 @@
 *CHI: men .
 *CHI: see you  men .
 *CHI: men ap job .
-*MOT: the men are you watching the men cleaning the windows ?
+*MOT: are you watching the men cleaning the windows ?
 *CHI: oh .
 *MOT: were you watching the men cleaning the windows ?
 *MOT: the man put a ladder up to window didnt he ?
@@ -30,11 +29,9 @@
 *MOT: lets just pop some new trousers on .
 *CHI: ap Sue gone .
 *CHI: ap Sue .
-*CHI: ap Sue >
 *MOT: Sue ?
 *CHI: juice .
 *MOT: who ?
-*CHI: Sue gone .
 *CHI: no .
 *CHI: no .
 *MOT: is that what you said to the windowcleaner ?
@@ -71,8 +68,6 @@
 *MOT: thats Purdie .
 *MOT: now leave Purdie .
 *CHI: ah .
-*MOT: and then>
-*CHI: aw Bow .
 *MOT: even in the middle of the night when you woke up you wanted Po
 *MOT: yes .
 *MOT: thats right .
@@ -270,7 +265,7 @@
 *MOT: men ?
 *MOT: its just one person .
 *MOT: its a man .
-*MOT: when it when its one man its man .
+*MOT: when its one man its man .
 *MOT: when its two men its men .
 *MOT: if you see what I mean .
 *CHI: yellow .
@@ -340,7 +335,6 @@
 *MOT: she talks about you all the time and what did you do today when you
 *MOT: you ran and hugged her and gave her a kiss .
 *CHI: eh .
-*MOT: be careful .
 *CHI: juice .
 *CHI: juice .
 *MOT: juice ?
@@ -482,8 +476,7 @@
 *MOT: youll probably say “hello Nana have got you any chocolate in your
 *CHI: no .
 *MOT: no .
-*MOT: but I don't>
-*CHI: N Nana ap bag choc chocf .
+*CHI: ap bag choc chocf .
 *MOT: yes .
 *MOT: I thought you might say that .
 *MOT: bringing your shoes and socks to Mummy .
@@ -514,7 +507,6 @@
 *MOT: bubble ?
 *MOT: right .
 *MOT: lets put this foot into this sock .
-*CHI: no shoes .
 *MOT: yes .
 *MOT: thats the wrong shoe for that foot .
 *MOT: I think weve got to put it on the other one .
@@ -524,7 +516,7 @@
 *MOT: more shoes .
 *MOT: yes .
 *MOT: thats right .
-*MOT: yeah thats the f thats the shoe for this foot .
+*MOT: yeah thats the shoe for this foot .
 *MOT: there you are .
 *MOT: pop your foot inside .
 *CHI: ooh .
@@ -557,7 +549,7 @@
 *CHI: shoe .
 *MOT: youre going to fall in a minute .
 *CHI: no .
-*MOT: youll fall with a big bump .
+*MOT: youll fall big bump .
 *CHI: a bump .
 *MOT: a bump .
 *CHI: all done .
@@ -572,12 +564,10 @@
 *MOT: look .
 *CHI: heh football .
 *MOT: football .
-*CHI: ap this ?
 *MOT: its a football .
 *CHI: Nin Nin .
 *MOT: oh be careful throwing .
 *CHI: Nin Nin football .
-*MOT: be careful>
 *MOT: what happened yesterday when you throw football ?
 *CHI: Bows food .
 *MOT: Bows food .
@@ -649,7 +639,7 @@
 *MOT: thats it .
 *MOT: I think Mummyll hold on to that now .
 *MOT: thank you .
-*MOT: can you remember story time this morning ?
+*MOT: can you remember this morning ?
 *CHI: no .
 *MOT: you cant remember it ?
 *MOT: do you not remember the story about the big blue balloon .
@@ -731,7 +721,6 @@
 *CHI: ap this ?
 *CHI: ap this ?
 *MOT: thats Dobbin .
-*CHI: where bowc .
 *CHI: 0 .
 *MOT: is that the white dog ?
 *CHI: bowc white .
@@ -806,7 +795,6 @@
 *MOT: a ride on a tractor .
 *MOT: and some bicycles .
 *MOT: and you went to house .
-*MOT: all these ones are friends .
 *MOT: you saw your friends .
 *MOT: most of your friends are little girls arent they ?
 *CHI: no .
@@ -888,7 +876,6 @@
 *CHI: truck .
 *MOT: the the truck ?
 *MOT: wheres the truck ?
-*CHI: down there .
 *MOT: no .
 *MOT: thats a picture of all the mummys and all the children who went on
 *MOT: you show Mummy where Thomas is on the picture .
@@ -986,7 +973,6 @@
 *MOT: look  Thomas .
 *MOT: these flowers .
 *CHI: eh ap this ?
-*CHI: noo .
 *MOT: no .
 *CHI: ap this ?
 *MOT: be gentle .
@@ -1011,8 +997,6 @@
 *CHI: ap this ?
 *MOT: theyre flowers .
 *MOT: petals .
-*CHI: and more .
-*MOT: and more .
 *MOT: these are flowers .
 *MOT: and what color are the flowers ?
 *CHI: poc .
@@ -1049,7 +1033,7 @@
 *CHI: ap there .
 *MOT: its a strong smell .
 *CHI: ap there .
-*MOT: Thomas look  you can look at them from here cant you ?
+*MOT: you can look at them from here cant you ?
 *CHI: no .
 *MOT: can you see some other flowers outside ?
 *CHI: Nin Nin .
@@ -1131,11 +1115,11 @@
 *MOT: flowers .
 *MOT: theyre white flowers .
 *MOT: theyre white flowers and they have a little centre dont they ?
-*MOT: look at these are the petals .
+*MOT: these are the petals .
 *MOT: can you see these white ?
 *CHI: peas .
 *MOT: yes .
-*MOT: thats the centre looks like a pea but its yellow .
+*MOT: the centre looks like a pea but its yellow .
 *MOT: but these are called petals .
 *CHI: no .
 *MOT: theyre called daisys .
@@ -1158,8 +1142,6 @@
 *MOT: youre blowing them because the other day when we went for a walk
 *MOT: and they werent the dandelions with the yellow leafs were they ?
 *MOT: they were the white .
-*MOT: dandelion clocks .
-*CHI: ap do .
 *CHI: ap there .
 *MOT: what did we do ?
 *MOT: we blew them and the petals came off .
@@ -1266,7 +1248,7 @@
 *CHI: 0 .
 *MOT: can you see how these daisy petals .
 *CHI: oh dear .
-*CHI: aw oh dear .
+*CHI: aw .
 *MOT: yes pretty flowers arent they ?
 *MOT: buttercups and daisys .
 *MOT: Im sure we know but I cant think of it .
@@ -1486,9 +1468,7 @@
 *CHI: a football .
 *MOT: a football ?
 *MOT: well start cleaning up but if you blow these outside where these
-*CHI: ap move .
 *CHI: ap move
-*MOT: no move .
 *MOT: and what Mummy has got on her tshirt ?
 *CHI: poc .
 *MOT: its a pink tshirt but whats here ?
@@ -1506,9 +1486,7 @@
 *CHI: poc .
 *MOT: yes .
 *CHI: blue .
-*MOT: red flowers .
 *CHI: poc .
-*MOT: green flowers .
 *CHI: yellow .
 *MOT: yellow flowers .
 *MOT: and what about the rug ?
@@ -1526,8 +1504,6 @@
 *MOT: hey .
 *MOT: dont bite .
 *CHI: all done .
-*CHI: nono .
-*MOT: all done .
 *CHI: no .
 *MOT: all done .
 *CHI: all done .
@@ -1561,14 +1537,13 @@
 *MOT: wodarc .
 *MOT: will you come with me ?
 *MOT: come on .
-*MOT: lets go and put them again .
+*MOT: lets them again .
 *CHI: eh .
 *MOT: oh dear  Thomas .
 *MOT: you tipped the eggcup with the buttercups and daisys into the
 *CHI: no .
 *MOT: I thought you had .
-*MOT: at least at least theyre nice and clean when Grandma
-*CHI: ap there .
+*MOT: at least theyre nice and clean when Grandma
 *CHI: Nin Nin .
 *MOT: Ill just give them a rinse .
 *MOT: put some fresh water  in the cup .
@@ -1577,15 +1552,13 @@
 *MOT: yes Thomas .
 *CHI: ap there no .
 *MOT: there we are .
-*MOT: has Po >
-*CHI: onp brush .
 *MOT: yes brush .
 *MOT: thats right .
 *MOT: you put them there .
 *MOT: on the window ledge so Grandma can see them when she comes .
 *CHI: ap there .
 *CHI: blue wodere .
-*MOT: Mummys purse on a chair .
+*MOT: Mummys purse .
 *MOT: there you are .
 *MOT: you sit and a jug and Ill pour drink of milk .
 *MOT: how does that sound ?
@@ -1643,14 +1616,13 @@
 *MOT: she shouldnt do this should she ?
 *CHI: bus .
 *MOT: bus wodarc ?
-*MOT: you got the Wheels on the bus book ?
+*MOT: the Wheels on the bus book ?
 *MOT: well lets at that later shall we ?
 *MOT: have you drunk your milk now ?
 *MOT: you drink your milk first and then well have a look at that .
 *MOT: thats right .
 *MOT: down you get .
 *CHI: juice .
-*MOT: there you are .
 *MOT: theres the bus book .
 *MOT: there .
 *CHI: eh .
@@ -1752,7 +1724,6 @@
 *CHI: help help .
 *MOT: help help ?
 *MOT: is that what hes saying ?
-*CHI: see you .
 *CHI: Nin Nin chair .
 *MOT: Nin Nin chair .
 *MOT: well Mummy bring a cup of tea .

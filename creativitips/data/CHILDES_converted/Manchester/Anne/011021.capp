@@ -77,7 +77,6 @@
 *MOT: youll see it in a minute .
 *MOT: itll go up in the air I think .
 *MOT: thats very full .
-*CHI: just look it .
 *MOT: yes .
 *MOT: Ill just hold you so you dont fall .
 *INV: www .
@@ -108,15 +107,14 @@
 *CHI: in sky .
 *MOT: hm ?
 *CHI: in sky .
-*INV: you want it to go in the sky ?
-*MOT: you want it to go in the sky ?
+*INV: you want it to go ?
+*MOT: to go in the sky ?
 *MOT: well its gone onto the lorry and then the mans going to drive the
 *MOT: can you see any birds in the sky ?
 *CHI: no .
 *MOT: no ?
 *CHI: the lorry .
 *MOT: lorry .
-*INV: the sky .
 *MOT: www .
 *CHI: the sky .
 *MOT: oh the phone .
@@ -631,7 +629,7 @@
 *MOT: lets see if we can find the Early Learning Centre catalogue .
 *MOT: now .
 *MOT: its gone  Anne .
-*MOT: theres not theres nothing very interesting .
+*MOT: theres nothing very interesting .
 *MOT: lets have a look in this one .
 *MOT: this is like grandmas  Anne .
 *MOT: shall we see if we can find the prams ?
@@ -678,7 +676,6 @@
 *MOT: and that ones got some juice .
 *CHI: whats that ?
 *MOT: um  I think thats the babys bottle .
-*CHI: oh funny you .
 *MOT: funny you ?
 *CHI: oh boys .
 *MOT: boys ?
@@ -717,8 +714,6 @@
 *MOT: in toilet .
 *MOT: all right then .
 *INV: clever girl .
-*INV: quick mummie .
-*CHI: oh looking .
 *CHI: want babys again .
 *CHI: where 0have babys gone ?
 *CHI: where 0have babys gone ?
@@ -811,7 +806,7 @@
 *CHI: in .
 *MOT: pardon ?
 *CHI: in .
-*MOT: is the is she in ?
+*MOT: is she in ?
 *MOT: I dont know .
 *MOT: cant see her can you ?
 *CHI: where baby .
@@ -1269,8 +1264,7 @@
 *MOT: oh what happened ?
 *CHI: oh .
 *CHI: yummy .
-*MOT: I think theres some cheese here  Anne  look .
-*CHI: cheese here .
+*MOT: I think theres some cheese here .
 *CHI: cheese .
 *MOT: mhm .
 *CHI: I bite it ?
@@ -1724,8 +1718,6 @@
 *CHI: leave baby .
 *MOT: pardon ?
 *CHI: leave home .
-*MOT: leave baby .
-*INV: leave baby .
 *MOT: leave home .
 *MOT: oh .
 *MOT: crash .

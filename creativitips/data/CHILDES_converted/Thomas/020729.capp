@@ -7,7 +7,7 @@
 *CHI: yes .
 *MOT: oh .
 *CHI: 0 policeman .
-*MOT: youre a are you a policeman ?
+*MOT: are you a policeman ?
 *CHI: yes .
 *CHI: yummy .
 *CHI: having chips .
@@ -57,13 +57,12 @@
 *MOT: she has gone now .
 *MOT: all done now .
 *MOT: and Dimitras coming tomorrow isnt she ?
-*CHI: hello  cheeky .
 *MOT: did you like that prawn cracker ?
 *CHI: yes .
 *CHI: yummy yummy .
 *MOT: yummy yummy .
 *MOT: there you are .
-*MOT: theres some more .
+*MOT: theres .
 *CHI: Thomas not chips .
 *CHI: not like chips .
 *MOT: you do .
@@ -225,14 +224,11 @@
 *MOT: a hat .
 *MOT: so does a prawn cracker look like a hat ?
 *MOT: Im sure chips aren't
-*CHI: hello  hat .
 *MOT: hello  hat .
 *MOT: are you saying hello to the hat ?
 *CHI: where has the piece gone ?
 *MOT: do you know why little piece has gone because you have .
-*CHI: ap food tummy .
 *MOT: eaten it .
-*CHI: big food>
 *MOT: what did you say ?
 *CHI: a big willie .
 *MOT: no .
@@ -324,7 +320,6 @@
 *CHI: 0 .
 *MOT: oh Thomas  excuse you .
 *MOT: what do you say ?
-*CHI: farty thanks .
 *MOT: no .
 *MOT: what do you say ?
 *CHI: farty .
@@ -512,7 +507,7 @@
 *MOT: and everybody hasta stop .
 *MOT: and when he says go you bang the drum and its either quickly
 *MOT: and then
-*MOT: watch your watch your eyes with the fork  poppet .
+*MOT: watch your eyes with the fork  poppet .
 *MOT: dont put the fork in your eye .
 *MOT: and then sometimes when youre banging he says
 *MOT: or when youve stopped banging he says go .
@@ -547,7 +542,7 @@
 *MOT: would you like to drink it ?
 *CHI: yes .
 *CHI: ap sweep it .
-*MOT: drink it back please .
+*MOT: drink .
 *CHI: shop .
 *CHI: sweep fork fork .
 *MOT: youre sweeping up some crumbs with the fork are you ?
@@ -557,8 +552,7 @@
 *MOT: no .
 *MOT: you eat it  Thomas .
 *MOT: Ive got plenty here thank you .
-*MOT: Ive eaten more today than I normally eat at lunchtime .
-*CHI: oh dear .
+*MOT: Ive eaten more today than I normally lunchtime .
 *CHI: drop it .
 *MOT: did you drop it ?
 *CHI: yes .
@@ -571,7 +565,6 @@
 *MOT: if the lid comes off the juice will 0 everywhere
 *CHI: not everywhere .
 *MOT: it will go everywhere .
-*CHI: not go everywhere .
 *MOT: dont get upset .
 *MOT: Im only telling you .
 *CHI: no .
@@ -926,7 +919,7 @@
 *CHI: ap tip it up for you .
 *MOT: pardon .
 *CHI: tipped it up .
-*CHI: lot of pass lot of passengers .
+*CHI: lot of passengers .
 *MOT: little passengers .
 *CHI: little .
 *MOT: there are lots of passengers .
@@ -1171,7 +1164,7 @@
 *MOT: Po .
 *MOT: go .
 *CHI: go .
-*MOT: but I dont know the song that you were singing about &-uh
+*MOT: but I dont know the song that you were &-uh
 *CHI: all done now .
 *MOT: all done .
 *CHI: peeling .
@@ -1267,7 +1260,7 @@
 *MOT: what a funny noise .
 *MOT: do you know what the noise is ?
 *MOT: its the windmill outside on the patio table .
-*MOT: the piece the pole sticking out of the patio table that the
+*MOT: the pole sticking out of the patio table that the
 *MOT: weve put some windmills .
 *CHI: swing swing .
 *MOT: we put some windmills in the pole .

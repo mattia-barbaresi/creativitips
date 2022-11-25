@@ -94,7 +94,7 @@
 *CHI: that window .
 *CHI: that door .
 *CHI: that window .
-*CHI: that that that window .
+*CHI: that window .
 *MOT: thats a window .
 *MOT: clever boy .
 *CHI: paint .
@@ -189,13 +189,13 @@
 *MOT: Mummy wet them for you first .
 *MOT: are you going to paint Mummy a picture ?
 *CHI: all right .
-*MOT: are you going to are you going to paint a picture ?
+*MOT: are you going to paint a picture ?
 *MOT: Carl .
 *MOT: whatre you going to paint a picture of ?
 *MOT: all right you do it then .
 *MOT: you do it .
 *MOT: see Carl .
-*MOT: look who Mummys put in the in the in the garden .
+*MOT: look who Mummys put in the garden .
 *MOT: goes in there .
 *MOT: Carl put them in .
 *MOT: Carl .
@@ -213,7 +213,7 @@
 *MOT: there you are Gordon drink .
 *MOT: its not a drink .
 *CHI: juice .
-*MOT: are you give are you giving the paints a drink ?
+*MOT: are you giving the paints a drink ?
 *CHI: there juice is a drink .
 *CHI: juice .
 *MOT: you do that so that you can paint with them .
@@ -316,7 +316,7 @@
 *MOT: thats right .
 *MOT: you go and see Bertthe horse .
 *CHI: the horse .
-*MOT: what does what does he do ?
+*MOT: what does he do ?
 *MOT: what does Bertthe horse do ?
 *CHI: neigho .
 *MOT: ah hes a noisy horse  isnt he ?
@@ -339,8 +339,7 @@
 *MOT: there you go .
 *MOT: Mummy just move this out of the way while you eat the toast .
 *CHI: no want paint .
-*MOT: well dont worry Im not putting them away .
-*CHI: paint .
+*MOT: well dont worry putting them away .
 *MOT: Im just putting them there .
 *CHI: on here .
 *MOT: I thought you wanted to eat some toast .
@@ -442,7 +441,7 @@
 *CHI: door .
 *CHI: door .
 *MOT: thats the door .
-*MOT: look this is Carls this is Carls room .
+*MOT: look this is Carls room .
 *MOT: thats Carls curtains .
 *CHI: oh window .
 *MOT: look theres somebody in the window .
@@ -860,7 +859,7 @@
 *CHI: nice .
 *MOT: are you going to go shopping for Mummy ?
 *CHI: no .
-*CHI: that that that cat .
+*CHI: that cat .
 *MOT: yeah its a cat .
 *MOT: thats the cats dinner .
 *CHI: cat eat din dins .
@@ -1031,11 +1030,11 @@
 *INV: whats that ?
 *CHI: that that cake .
 *INV: thats cake yeah .
-*CHI: that that that .
+*CHI: that .
 *CHI: that biscuits .
 *INV: and thats biscuits  is it ?
-*CHI: that that that lemon .
-*CHI: that that that cat .
+*CHI: that lemon .
+*CHI: that cat .
 *CHI: that cat .
 *INV: thats a cat ?
 *INV: is that the cats din dins ?
@@ -1086,7 +1085,7 @@
 *MOT: oh thank you .
 *MOT: Mummys very thirsty .
 *MOT: Carl .
-*MOT: are you going to feed are you going to feed the doggy ?
+*MOT: are you going to feed the doggy ?
 *MOT: that wasnt quite what I had in mind but
 *CHI: doggy had a drink .
 *MOT: oh hes had a drink  has he ?
@@ -1181,7 +1180,6 @@
 *CHI: where baby ?
 *MOT: oh wheres the baby ?
 *CHI: that that penguin .
-*MOT: I dont know .
 *MOT: and thats the penguin .
 *CHI: that fish .
 *CHI: that Daddy fish .
@@ -1204,7 +1202,7 @@
 *CHI: that din dins .
 *CHI: din dins .
 *CHI: where din dins ?
-*MOT: put some out on the plate for the for the cat .
+*MOT: put some out on the plate for the cat .
 *MOT: Carl .
 *CHI: whoops .
 *MOT: Carl .
@@ -1245,7 +1243,7 @@
 *MOT: you wanna paint ?
 *CHI: I want .
 *MOT: well lets put these back first .
-*MOT: you put those back in that in the basket .
+*MOT: you put those back in the basket .
 *MOT: whats that Carl ?
 *CHI: whats that ?
 *CHI: whats that ?

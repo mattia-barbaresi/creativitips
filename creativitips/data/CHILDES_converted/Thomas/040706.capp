@@ -41,7 +41,6 @@
 *MOT: I think .
 *CHI: do you like scary things ?
 *CHI: this is scary .
-*MOT: oh yes .
 *MOT: hes hes a bit frightened of Snow white .
 *INV: are you frightened of Snow white or are you frightened of the queen
 *CHI: frightened of the queen .
@@ -55,21 +54,17 @@
 *INV: really ?
 *INV: and whos poisoned the apple ?
 *CHI: yes .
-*INV: the witch .
 *CHI: true .
 *INV: the witch queen ?
 *CHI: yep .
 *INV: and what happens when Snow white eats the apple ?
-*CHI: she didnt she
 *MOT: yes .
 *MOT: well .
 *MOT: the thing is .
-*MOT: he got a bit frightened .
-*MOT: so we didnt actually get to the end of the film Im afraid .
-*CHI: look at this .
+*MOT: so we didnt actually get to the end of the film .
 *MOT: uh .
 *CHI: 0 .
-*INV: this isnt this looks a bit thin to be videos .
+*INV: this looks a bit thin to be videos .
 *INV: this a video ?
 *CHI: yes .
 *INV: or is it a d v d ?
@@ -131,9 +126,9 @@
 *INV: and Doc .
 *INV: do you wanna come and see if we can work out whos who ?
 *CHI: let me just
-*INV: which one do you think Sleepy is ?
-*CHI: let me just do a little song .
-*CHI: to give me some of the um tunes off um some of
+*INV: which one Sleepy is ?
+*CHI: do a little song .
+*CHI: to give of the um tunes off um some of
 *CHI: the birds on my new video .
 *INV: whats the words for that song ?
 *CHI: forgot .
@@ -232,8 +227,7 @@
 *CHI: racing cars ?
 *INV: ooh .
 *INV: no .
-*INV: thats too fast for me .
-*CHI: oh yeah .
+*INV: thats too fast .
 *INV: what else can we play ?
 *INV: have you got anything to show me youve done at school ?
 *CHI: no .
@@ -245,7 +239,6 @@
 *INV: have you got a black board ?
 *CHI: yeah .
 *CHI: everything .
-*INV: and what does ?
 *CHI: yeah .
 *INV: yeah ?
 *CHI: and juice .
@@ -278,8 +271,7 @@
 *INV: 0 .
 *INV: will we pretend theres a fire ?
 *INV: do you wanna get your fire engines out ?
-*INV: and we can play at fire and you can come here .
-*CHI: if you got I
+*INV: and we can play at fire and you can .
 *CHI: got themself
 *INV: ooh .
 *INV: lovely .
@@ -334,7 +326,7 @@
 *INV: hello .
 *INV: Im on fire .
 *INV: help me .
-*INV: and so what else what else do we need if youre a fireman ?
+*INV: and so what else do we need if youre a fireman ?
 *INV: what else do firemen have ?
 *CHI: I need a uniform .
 *INV: a uniform ?
@@ -347,7 +339,7 @@
 *INV: 0 .
 *CHI: can we pretend ?
 *CHI: I just had .
-*INV: youve had about how many do you think youve had ?
+*INV: how many do you think youve had ?
 *CHI: five .
 *INV: I think youve had ten .
 *CHI: its because Ive hidden them .
@@ -374,8 +366,8 @@
 *INV: come in and see if I can remember their names .
 *CHI: no .
 *CHI: you guess .
-*CHI: because Im not telling you .
-*INV: is that Josh ?
+*CHI: because Im not .
+*INV: Josh ?
 *INV: Joshua .
 *CHI: yeah .
 *INV: is that
@@ -401,7 +393,6 @@
 *INV: from your party .
 *CHI: Mummy ?
 *MOT: have you seen this ?
-*CHI: are you going>
 *MOT: we got that yesterday .
 *INV: aah .
 *CHI: know what Im having ?
@@ -415,7 +406,6 @@
 *INV: are you ?
 *INV: thats good .
 *INV: and youre gonna help me ?
-*INV: this is>
 *INV: Tiara ?
 *CHI: Kira .
 *INV: Kira .
@@ -434,15 +424,14 @@
 *MOT: Mari .
 *INV: Mari .
 *CHI: yes .
-*INV: are these which of these have gone to your school ?
+*INV: which of these have gone to your school ?
 *CHI: um .
 *INV: Kiras .
 *CHI: I might not see some of them .
 *INV: what is his name ?
 *CHI: forgot .
 *CHI: whats his name ?
-*CHI: I know it .
-*INV: is his name Rah ?
+*INV: Rah ?
 *CHI: there .
 *INV: forgotten everyones name .
 *INV: bet youve not forgot her name .
@@ -460,16 +449,13 @@
 *INV: whos nicest ?
 *CHI: Mrs Fire Extinguisher .
 *INV: hello  Mrs Fire Extinguisher .
-*INV: do you teach do you teach Thomass lesson ?
+*INV: do you teach Thomass lesson ?
 *CHI: yes .
 *CHI: I do .
 *CHI: I teach you him to poke me in the eye .
 *INV: no .
-*INV: you dont .
 *CHI: laughs .
-*INV: you didnt hafta learn that .
 *CHI: laughs .
-*INV: horrible lesson .
 *CHI: laughs .
 *INV: do you prefer school or nursery ?
 *INV: which is your favorite ?
@@ -504,8 +490,7 @@
 *INV: so whos your favorite in the class ?
 *INV: whos your friend ?
 *CHI: Anthony Banthony .
-*INV: Anthonys your best friend is he ?
-*MOT: there you are  Thomas .
+*INV: Anthonys your best friend ?
 *CHI: oops .
 *MOT: what do you say ?
 *CHI: thank you .
@@ -552,7 +537,7 @@
 *CHI: right .
 *INV: how do you get it ?
 *INV: its a very difficult job .
-*CHI: you just get shall I get a box for that ?
+*CHI: shall I get a box for that ?
 *INV: will you promise me not to make a mess ?
 *CHI: you get a mess .
 *CHI: um Ill tidy up .
@@ -601,7 +586,6 @@
 *CHI: no .
 *INV: bring quite .
 *INV: bring quite a few out .
-*INV: over here .
 *CHI: dont .
 *CHI: go near the fire because you dont unhook them .
 *INV: okay .
@@ -624,13 +608,11 @@
 *INV: no .
 *INV: we cant take them all out .
 *INV: come on .
-*INV: lets play>
 *CHI: no .
 *CHI: just some .
 *INV: I thought we were gonna play with the trucks ?
 *INV: come on .
-*INV: you can show me all the trucks .
-*CHI: yeah we are .
+*INV: you can show .
 *CHI: and theres snakes .
 *CHI: dont take these out .
 *INV: okay .
@@ -643,8 +625,7 @@
 *INV: lets empty them all out .
 *INV: and move the settee back .
 *INV: are you coming ?
-*CHI: Ill go put this on .
-*INV: coming to play ?
+*CHI: put this on .
 *CHI: there .
 *INV: are you coming to play ?
 *CHI: yeah .
@@ -821,7 +802,6 @@
 *INV: are you gonna ?
 *CHI: 0 .
 *INV: ooh .
-*INV: rock a bye Thomas in the tree top .
 *INV: 0 .
 *CHI: ew .
 *INV: ah .
@@ -916,15 +896,14 @@
 *INV: this is great .
 *INV: which way do you think its gonna land ?
 *INV: green or orange ?
-*INV: come here .
-*CHI: Im not looking .
+*CHI: looking .
 *INV: what you looking for ?
 *CHI: Im looking
 *INV: trucks .
 *INV: 0 .
 *INV: 0 .
-*CHI: theyre only rubber .
-*INV: Thomas  come come and save me .
+*CHI: theyre .
+*INV: come and save me .
 *CHI: theyre only rubber .
 *INV: police .
 *INV: come on .
@@ -936,8 +915,6 @@
 *INV: 0 .
 *CHI: no .
 *CHI: but theyre only rubber .
-*INV: I dont believe you .
-*CHI: theyre only rubber>
 *INV: Im gonna test by sending racing car over .
 *INV: 0 .
 *CHI: know what ?
@@ -984,8 +961,7 @@
 *INV: www .
 *MOT: www .
 *INV: laughs .
-*CHI: heres the funny one .
-*INV: havent you ?
+*CHI: funny one .
 *INV: what do you call that ?
 *CHI: I dont know what its called .
 *CHI: its a dinosaur .
@@ -1011,17 +987,15 @@
 *MOT: its there .
 *MOT: I can see them .
 *CHI: look .
-*CHI: thats why were having lots of toys out .
+*CHI: were having lots of toys out .
 *INV: crocodile .
 *MOT: I see .
 *CHI: here comes Dipsy .
-*INV: come on then .
 *CHI: 0 .
 *INV: I think thats too many now .
 *INV: are we gonna make
 *INV: Ive not come round here to just watch you put the toys onto the
 *INV: come on .
-*CHI: have you seen ?
 *INV: right .
 *CHI: did you see flying ?
 *INV: come on .
@@ -1101,7 +1075,6 @@
 *INV: whilst Im sleeping .
 *INV: whats the snake doing ?
 *INV: 0 .
-*CHI: a snakes gone up your arm .
 *INV: 0 .
 *INV: 0 .
 *CHI: look .
@@ -1218,7 +1191,7 @@
 *INV: ah .
 *INV: hes played lovely today havent you ?
 *INV: hes a very .
-*CHI: I hope youre not going now .
+*CHI: not going now .
 *INV: 0 .
 *INV: no .
 *CHI: because I havent finished playing .
@@ -1229,7 +1202,6 @@
 *MOT: what hes done at school ?
 *MOT: what hes had for lunch .
 *MOT: he can never ever remember .
-*INV: can you remember today ?
 *CHI: laughs .
 *CHI: ha .
 *MOT: what ?
@@ -1237,7 +1209,6 @@
 *CHI: youve got a snake on you .
 *MOT: oh .
 *MOT: dont .
-*MOT: take it off now please  Tom .
 *CHI: laughs .
 *MOT: shes a bit frightened .
 *CHI: 0 .
@@ -1296,8 +1267,7 @@
 *INV: Anthony ?
 *MOT: oh .
 *MOT: no .
-*MOT: Anthonys not at that school is he ?
-*INV: oh right .
+*MOT: Anthonys not at that school ?
 *INV: Joshua ?
 *CHI: no .
 *CHI: but  Mummy .
@@ -1307,14 +1277,12 @@
 *MOT: Thomas has a girlfriend called Jessica in year one .
 *MOT: shes not even in reception .
 *INV: laughs .
-*MOT: shes a lovely girl .
 *MOT: and shes met through through lunches .
 *INV: have you got a girlfriend whos older than you ?
 *MOT: yes .
 *INV: wow .
 *CHI: Mummy .
 *MOT: yes ?
-*CHI: you know .
 *CHI: theres a truck in school .
 *CHI: with a face .
 *CHI: I give you his name .
@@ -1333,11 +1301,8 @@
 *CHI: no .
 *CHI: I give him some oil .
 *MOT: oil ?
-*INV: you gave him .
 *INV: ah .
 *INV: thats not good .
-*CHI: wheres my drink ?
-*INV: what did you give him to drink ?
 *CHI: wheres my drink ?
 *CHI: ah .
 *MOT: brought Jeannines drink .
@@ -1345,7 +1310,7 @@
 *INV: www .
 *MOT: www .
 *MOT: www .
-*MOT: lets have a look and see whats um what have you been
+*MOT: lets have a look and see what have you been
 *INV: oh .
 *MOT: Purdie would like .
 *CHI: what have you been doing today ?
@@ -1368,11 +1333,9 @@
 *INV: ah .
 *INV: ah .
 *CHI: dont .
-*MOT: we have we have this a lot .
+*MOT: we have this a lot .
 *INV: is this your new game is it ?
 *INV: what happens if .
-*CHI: is this>
-*INV: your Mummy says .
 *CHI: your new game ?
 *INV: oh .
 *CHI: laughs .
@@ -1381,7 +1344,6 @@
 *MOT: we had .
 *CHI: Thomas is a cheeky boy .
 *CHI: laughs .
-*MOT: guess what he wants ?
 *MOT: go on .
 *MOT: show Jeannine what the books called .
 *MOT: shell love this .
@@ -1461,14 +1423,12 @@
 *MOT: right .
 *MOT: go and wash your hands .
 *CHI: oh .
-*CHI: had a wee>
 *CHI: just wanted to come up here .
 *CHI: hey .
 *CHI: 0 .
 *INV: whys he crying ?
 *CHI: 0 .
 *CHI: 0 .
-*CHI: I thought youd left me  Mummy .
 *CHI: 0 .
 *CHI: 0 .
 *CHI: Jeannine ?
@@ -1494,22 +1454,17 @@
 *INV: come on then .
 *INV: you come and show me then .
 *MOT: were always a little bit tired and a little bit upset when we come
-*INV: come here .
-*MOT: were very .
 *CHI: anyway .
 *CHI: dont be scared because theres no scary bit .
 *INV: oh .
 *INV: thats good .
-*INV: the queens not on it is she ?
-*MOT: theres little bits Im frightened by .
 *MOT: Snow white werent you ?
 *CHI: no .
 *CHI: theres a queen in here .
 *INV: 0 .
 *INV: theres a queen in here .
 *CHI: yeah .
-*CHI: but its not scary .
-*INV: youre not frightened of the queen really .
+*INV: of the queen really .
 *INV: are you ?
 *CHI: Im not um frightened in this queen .
 *INV: good .
@@ -1517,7 +1472,7 @@
 *CHI: hes just meowing .
 *CHI: very loud  Purdie .
 *INV: you get homework every night  Thomas ?
-*CHI: but I just can I just do something ?
+*CHI: but can I just do something ?
 *INV: are you gonna tidy away are you ?
 *CHI: no .
 *INV: thats not like you .
@@ -1535,10 +1490,8 @@
 *INV: Nemo .
 *CHI: really ?
 *INV: Nemo .
-*MOT: oh very good .
 *INV: laughs .
 *MOT: laughs .
-*CHI: I do remember .
 *INV: you do remember ?
 *CHI: remember when um one time you said “he gets your milk” .
 *INV: thats right .
@@ -1547,7 +1500,7 @@
 *INV: the milkman delivers my milk and who drinks it ?
 *INV: do you think Jeannine or Nemo ?
 *CHI: you know what ?
-*CHI: I think I think Nemo .
+*CHI: I think Nemo .
 *CHI: puts his claw through it .
 *INV: I think youre right .
 *CHI: and he goes .
@@ -1572,12 +1525,7 @@
 *MOT: what did we have the other day outside ?
 *MOT: she didnt eat it but
 *CHI: a mouse .
-*MOT: a mouse .
 *INV: 0 .
-*MOT: we had a mouse .
-*MOT: and we were having lunch .
-*MOT: and I thought it was a little bird .
-*CHI: and you know what ?
 *CHI: I know what .
 *CHI: you want him to go eat cat food .
 *INV: mhm .
@@ -1586,7 +1534,6 @@
 *INV: urgh .
 *INV: mousie chips ?
 *CHI: laughs .
-*INV: thats what Nemo eats .
 *CHI: laughs .
 *CHI: yeah .
 *MOT: mousie jelly .
@@ -1620,7 +1567,7 @@
 *CHI: laughs .
 *INV: is this your video then ?
 *MOT: weve got harvest festival at school havent we next week ?
-*CHI: its funny because letters look come on .
+*CHI: because letters look come on .
 *MOT: Thomas .
 *INV: oh .
 *INV: its Halloween soon .
@@ -1664,7 +1611,6 @@
 *MOT: part of its a cartoon and then theyre all proper proper
 *MOT: and then also its a um road safety video .
 *INV: wow .
-*MOT: isnt it .
 *CHI: its a road safety .
 *INV: road safety video .
 *CHI: theres the queen .
@@ -1769,11 +1715,9 @@
 *CHI: steady Eddie .
 *INV: are you gonna read me this story then ?
 *INV: come on .
-*INV: we were nearly there werent we ?
-*CHI: I dont think I wanna read .
 *INV: you just were .
 *INV: you cant read me half a story can you ?
-*CHI: dont wanna read it .
+*CHI: it .
 *INV: I wasnt saying read it .
 *INV: I was just asking you who Biff was .
 *INV: thats all .
@@ -1825,7 +1769,6 @@
 *INV: did you ?
 *INV: will you be good .
 *INV: you gonna be good and let me watch the rest of the
-*CHI: Mummy which>
 *CHI: change it up .
 *INV: we cant have it turned up .
 *INV: no problem .
@@ -1833,15 +1776,14 @@
 *CHI: does it turn up ?
 *INV: oh .
 *INV: you cant turn it up .
-*INV: is that loud as it goes ?
-*CHI: but I cant hear it .
+*INV: as it goes ?
+*CHI: cant hear it .
 *INV: this is the loudest it goes .
 *CHI: do it .
 *CHI: which button does it ?
 *CHI: make it loud .
 *MOT: Ill do it .
 *CHI: which one ?
-*MOT: I can do it .
 *CHI: Im asking which button .
 *CHI: make it loud .
 *INV: that one with the cross .
@@ -1865,17 +1807,13 @@
 *INV: Im going home .
 *MOT: he hurt you ?
 *CHI: aah .
-*MOT: so you dont stand on me do you ?
 *CHI: ow .
-*MOT: did it hurt  Jeannine ?
+*MOT: Jeannine ?
 *INV: huh ?
 *INV: you dont stand on me do you .
-*CHI: stood on you .
 *INV: hm ?
 *MOT: say sorryq  Thomas .
-*CHI: Im sorry  Jeannine .
-*INV: okay then .
-*INV: dont do it again .
+*CHI: Im .
 *CHI: Jeannine .
 *MOT: dont do it again .
 *MOT: dont do it again .
@@ -1915,7 +1853,6 @@
 *CHI: yeah .
 *CHI: laughs .
 *INV: have I got big eyes ?
-*INV: have they got>
 *CHI: yeah .
 *CHI: meow .
 *CHI: meow .
@@ -1947,8 +1884,6 @@
 *MOT: there was somebody there as Buzz lightyear .
 *INV: oh .
 *INV: really ?
-*MOT: so it is a good job he didnt go .
-*INV: how funny .
 *CHI: Sam .
 *MOT: Sam .
 *MOT: but I did think another time he could go in Buzz lightyear .
@@ -1958,20 +1893,17 @@
 *MOT: youve been told .
 *CHI: Im gonna fall down Jeannine .
 *INV: do you always jump on people ?
-*INV: or do you just jump on me ?
-*CHI: I pulled you  Jeannine .
+*INV: or do ?
 *INV: do you always jump on people or do you just jump on me ?
 *CHI: I just jump on Jeannine .
 *INV: just jump on Jeannine .
 *MOT: Thomas looked great as a fireman .
-*MOT: “thank you”>
 *INV: aah .
 *CHI: look at this .
 *CHI: look .
 *CHI: hes sinking .
 *INV: oh .
 *INV: is he stuck ?
-*CHI: hes sinking .
 *INV: aah .
 *INV: do you know what you call the thing that .
 *INV: what happens if a truck gets stuck ?
@@ -1995,11 +1927,10 @@
 *INV: do you ?
 *CHI: yeah .
 *INV: would you like to be steady Eddie or would you like to be
-*CHI: Jeannine  I give you .
 *CHI: I could be the train .
 *CHI: and you could see me .
 *INV: would you prefer to be steady Eddie or Loretta lorry ?
-*CHI: I could be Im going to be that truck .
+*CHI: Im going to be that truck .
 *CHI: that truck .
 *INV: that truck .
 *INV: oop .
@@ -2090,7 +2021,7 @@
 *MOT: yes .
 *MOT: and as they flew into the air .
 *MOT: we waved them off at Manchester airport .
-*CHI: be quiet because Jeannine cant hear .
+*CHI: because Jeannine cant hear .
 *MOT: the plane went in the air and Thomas shouted “goodbye  Nana and
 *MOT: and as the plane disappeared out of view he shouted .
 *CHI: Nana  have you left me any midget gems ?
@@ -2099,8 +2030,6 @@
 *INV: does Nana give you the midget gems ?
 *MOT: yes .
 *CHI: yeah .
-*INV: does he ?
-*CHI: and you know what I found ?
 *CHI: near the fire engine place ?
 *CHI: one day ?
 *CHI: um .
@@ -2118,14 +2047,12 @@
 *MOT: www .
 *MOT: no .
 *MOT: Nana useta go to Marks and Spencers once a week and buy a packet
-*INV: ooh lovely .
 *MOT: then she would always save a few for Thomas .
 *INV: why ?
 *INV: does she eat midget gems herself ?
 *MOT: no .
 *INV: laughs .
 *MOT: because a packet full last Nana and Grandad a whole week ,
-*CHI: know what that truck said ?
 *CHI: make sure the waters nice and hot .
 *INV: really ?
 *INV: why does he wanna make sure its hot ?
@@ -2193,8 +2120,7 @@
 *INV: oh .
 *INV: hes still after it .
 *MOT: a little bit later .
-*MOT: got to have >
-*CHI: Mum  please .
+*MOT: got to
 *CHI: please .
 *CHI: please .
 *CHI: can I have one ?

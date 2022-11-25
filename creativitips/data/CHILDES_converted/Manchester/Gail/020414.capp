@@ -5,8 +5,6 @@
 *MOT: flowers on a necklace  isnt it ?
 *CHI: its a necklace .
 *CHI: whats this ?
-*MOT: has Caroline .
-*CHI: whats this ?
 *MOT: thats a bracelet .
 *MOT: do you know where mummie got that one from ?
 *CHI: yeah .
@@ -90,7 +88,6 @@
 *MOT: mhm .
 *MOT: could be .
 *CHI: whats this ?
-*MOT: whats that ?
 *MOT: what is it ?
 *CHI: theres your earrings .
 *MOT: do they look nice ?
@@ -284,8 +281,7 @@
 *CHI: mummies going work soon .
 *INV: I know .
 *CHI: Caroline .
-*INV: I know .
-*MOT: I am going to work soon .
+*MOT: going to work soon .
 *MOT: whos going to look after you ?
 *CHI: need these down .
 *MOT: whos looking after you ?
@@ -491,7 +487,7 @@
 *MOT: thats my euphemism for something much worse .
 *CHI: sharp .
 *MOT: sharp .
-*MOT: what did what did you say when I was going I cant believe
+*MOT: what did you say when I was going I cant believe
 *MOT: what did you say ?
 *MOT: Im driving you
 *CHI: mad .
@@ -548,7 +544,7 @@
 *INV: mhm .
 *MOT: a very big toyshop .
 *CHI: and Gail
-*CHI: I wanna go wanna go a little toyshop .
+*CHI: wanna go a little toyshop .
 *MOT: do you ?
 *MOT: right .
 *CHI: not the big toyshop .
@@ -579,7 +575,7 @@
 *MOT: Mothercare World .
 *CHI: Mothercare World .
 *CHI: oh .
-*CHI: I cut my I cut my nail .
+*CHI: I cut my nail .
 *MOT: did you ?
 *MOT: I did your nails this morning  didnt I ?
 *MOT: with the clippers .
@@ -630,24 +626,19 @@
 *CHI: wanna read it .
 *MOT: okay .
 *MOT: whoops .
-*MOT: is that an elephant over there ?
 *MOT: no .
 *MOT: its a
 *CHI: a zebra .
-*MOT: is that an elephant over there ?
 *MOT: no .
 *MOT: its a
 *CHI: tiger .
 *CHI: roaro .
-*MOT: is that an elephant there ?
 *CHI: no .
 *CHI: its a hippo .
-*MOT: is that an elephant there ?
 *MOT: is it ?
 *CHI: no .
 *CHI: its a lion .
 *CHI: roaro .
-*MOT: is that an elephant over there ?
 *CHI: yes .
 *MOT: hooray .
 *MOT: its a elephant .
@@ -888,7 +879,7 @@
 *MOT: oh right .
 *CHI: this .
 *MOT: there .
-*CHI: its got her dress on .
+*CHI: her dress on .
 *MOT: which one ?
 *CHI: this one .
 *MOT: the red one ?
@@ -922,7 +913,7 @@
 *MOT: www .
 *CHI: wheres it gone  Mummy ?
 *MOT: wheres what gone ?
-*CHI: wheres the wheres the baby ?
+*CHI: wheres the baby ?
 *CHI: wheres our dolly ?
 *MOT: well .
 *MOT: have a look for it .
@@ -1158,7 +1149,7 @@
 *MOT: cheese .
 *MOT: one called cheese ?
 *CHI: no .
-*CHI: this is one this is Uncle John .
+*CHI: this is Uncle John .
 *MOT: its Uncle John ?
 *MOT: what did you say ?
 *CHI: this ones sorted out for you .
@@ -1345,7 +1336,7 @@
 *MOT: what are those ?
 *MOT: grapes .
 *MOT: mini grapes .
-*CHI: these are there are grapes .
+*CHI: there are grapes .
 *MOT: those are grapes .
 *MOT: one are bigger than the others .
 *CHI: you want have these ones ?

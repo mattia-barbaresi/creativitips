@@ -10,8 +10,7 @@
 *MOT: Thomas .
 *INV: no .
 *MOT: no throwing .
-*INV: Thomas  dont throw .
-*CHI: I make all your poorly .
+*CHI: all your poorly .
 *CHI: I make all your sick .
 *INV: thats a lovely dance  Thomas .
 *CHI: yes .
@@ -36,8 +35,6 @@
 *INV: its not .
 *INV: ah  Thomas  thats it .
 *INV: Im not playing anymore .
-*INV: not unless you can>
-*CHI: bout this ?
 *INV: no !
 *INV: is there anything real ?
 *CHI: um no .
@@ -59,20 +56,17 @@
 *CHI: no .
 *INV: what can I eat then ?
 *CHI: um  I think nothing .
-*CHI: look this da da dasi .
+*CHI: da da dasi .
 *INV: thats lovely  Thomas .
 *INV: what you doing ?
 *INV: a dance ?
 *CHI: yeah .
 *CHI: like this .
-*CHI: da da dasi .
-*INV: oh where did you learn that dance ?
 *CHI: I .
 *INV: right .
 *INV: well well put these back in the basket now and Im going to take
 *INV: because they theyre not real .
-*CHI: no put em on the floor .
-*INV: are they ?
+*CHI: on the floor .
 *INV: where is your shop anyway ?
 *CHI: top on the stairs .
 *INV: what your shops upstairs ?
@@ -83,8 +77,7 @@
 *INV: mhm .
 *CHI: yeah .
 *INV: oh right .
-*CHI: Mummy  come down .
-*INV: all these in your shop>
+*CHI: Mummy .
 *CHI: this is a shop .
 *CHI: yes .
 *CHI: yes it is .
@@ -99,7 +92,7 @@
 *INV: put it on the floor .
 *CHI: yes .
 *INV: okay .
-*INV: are you well you set the shop up while I put all these in
+*INV: well you set the shop up while I put all these in
 *CHI: okay .
 *INV: ah thank you  Thomas .
 *INV: do you wanna be the shopkeeper or the customer ?
@@ -112,7 +105,7 @@
 *CHI: no .
 *INV: no ?
 *CHI: oh no money !
-*INV: have you have you been robbed ?
+*INV: have you been robbed ?
 *CHI: yes .
 *INV: oh was it Bob the Builder ?
 *CHI: no .
@@ -132,7 +125,6 @@
 *INV: right .
 *INV: well set this up .
 *INV: and wheres the telephone ?
-*INV: has it gone missing .
 *INV: oh hang on .
 *INV: oh .
 *CHI: theres more money .
@@ -146,7 +138,6 @@
 *CHI: oh I hafta put it in here .
 *CHI: uh something 0has happened there .
 *INV: what what has happened there ?
-*CHI: a big accident .
 *INV: oh its not an accident .
 *INV: does this go here ?
 *CHI: yes .
@@ -198,10 +189,10 @@
 *INV: arent you bossy you ?
 *INV: hey ?
 *INV: do I work for you in the shop ?
-*INV: am I youre my boss ?
+*INV: youre my boss ?
 *INV: right .
 *CHI: I just man .
-*INV: are you are you the customer and the shop person ?
+*INV: are you the customer and the shop person ?
 *CHI: yeah .
 *INV: thats not fair is it ?
 *INV: right .
@@ -279,8 +270,6 @@
 *INV: oh .
 *INV: thats not very good is it ?
 *CHI: no .
-*INV: thats not very good .
-*CHI: ap just ap money go .
 *INV: oh the money goes in .
 *INV: oh right .
 *INV: we had better do that then .
@@ -288,7 +277,7 @@
 *CHI: that .
 *CHI: ap one .
 *INV: Thomas  what are you doing ?
-*INV: thats not youre not a very good customer are you ?
+*INV: youre not a very good customer are you ?
 *INV: youve got your hands in the till .
 *CHI: stop it .
 *INV: I tell you what would be best if we had sweeties .
@@ -393,7 +382,7 @@
 *INV: hello  Thomas ?
 *CHI: hello .
 *INV: hello .
-*INV: is uh is the shop open ?
+*INV: is the shop open ?
 *CHI: yeah .
 *INV: is it ?
 *INV: okay .
@@ -421,13 +410,13 @@
 *INV: what am I going to eat then ?
 *CHI: uh nothing .
 *INV: oh no .
-*INV: no no no .
+*INV: no .
 *INV: its okay .
 *INV: Ive got something .
 *INV: spaghetti .
 *INV: brilliant .
 *INV: Ill eat that please .
-*INV: is that is that there ?
+*INV: is that there ?
 *INV: is it ?
 *INV: or have they gone ?
 *CHI: its empty .
@@ -443,8 +432,6 @@
 *INV: all the foods empty .
 *INV: okay .
 *INV: so  I tell you what I do want .
-*CHI: need ap all the money please .
-*INV: what Ill do is Ill post a letter .
 *INV: you want all my money now ?
 *CHI: yeah .
 *INV: you you sell me empty food .
@@ -458,11 +445,10 @@
 *INV: do you sell those ?
 *CHI: yeah .
 *CHI: your post that in the post .
-*INV: no no no .
+*INV: no .
 *INV: I hafta write it first .
-*INV: because its for its for my cousins birthday .
+*INV: because its for my cousins birthday .
 *CHI: no .
-*INV: but I need a>
 *INV: no pen ?
 *INV: Im sure you must have a pen .
 *INV: but then whos that going to get sent to ?
@@ -479,14 +465,10 @@
 *INV: right .
 *INV: oh  Thomas .
 *INV: look at all this mess now .
-*CHI: here you are>
-*INV: why did you>
 *INV: okay .
 *INV: whats this ?
 *CHI: thats a pear .
 *CHI: its ap red poc .
-*CHI: its apple .
-*INV: a red>
 *INV: is it an apple ?
 *CHI: yeah .
 *INV: do you like apples ?
@@ -495,7 +477,7 @@
 *INV: theyre lovely .
 *INV: what else can I have ?
 *INV: I tell you what .
-*INV: Ill go and get the basket and you can you can give me things
+*INV: Ill go and get the basket and you can give me things
 *CHI: oh !
 *INV: Thomas !
 *INV: Thomas Thomas  dont throw things at me .
@@ -523,7 +505,7 @@
 *INV: yeah ?
 *CHI: want some money .
 *INV: Ive got the money .
-*CHI: I need some in here .
+*CHI: I need some .
 *INV: no to get home .
 *INV: I needta buy myself some chocolate at the shop .
 *CHI: no chocolate .
@@ -626,7 +608,7 @@
 *INV: have you got any pears and apples ?
 *INV: for me to buy ?
 *CHI: no .
-*INV: is that is that what you do with that ?
+*INV: is that what you do with that ?
 *INV: huh ?
 *INV: you scan it using your mouth ?
 *CHI: yeah .
@@ -637,7 +619,6 @@
 *INV: hm ?
 *CHI: you a silly woman .
 *INV: why am I a silly woman ?
-*INV: youre a .
 *INV: right .
 *INV: oh  Thomas  youre a very naughty boy .
 *INV: I think .
@@ -661,7 +642,7 @@
 *INV: hm ?
 *CHI: yeah .
 *INV: you think you can ?
-*INV: oh I knew I knew you couldnt  young man .
+*INV: oh I knew you couldnt  young man .
 *INV: Ill go and get it .
 *CHI: oh .
 *CHI: it .
@@ -679,7 +660,6 @@
 *INV: Cornflakes on the head ?
 *INV: for hair ?
 *INV: what you like ?
-*INV: Im going to tie this>
 *CHI: laughs .
 *INV: hey .
 *CHI: hey .
@@ -714,7 +694,7 @@
 *CHI: on your nose .
 *INV: thats ridiculous .
 *INV: hm .
-*CHI: money go on your on your cheek .
+*CHI: money go on your cheek .
 *CHI: there .
 *CHI: 0 .
 *INV: money on your cheek ?
@@ -728,7 +708,6 @@
 *INV: what about this ?
 *CHI: yes .
 *CHI: and falled down again .
-*INV: whats that ?
 *CHI: on your
 *INV: you cant do money on your nose .
 *INV: oh you be careful .
@@ -737,7 +716,7 @@
 *CHI: um .
 *INV: huh ?
 *CHI: I cant .
-*INV: can you do can you do that ?
+*INV: can you do that ?
 *INV: on your nose ?
 *CHI: and slipping down again .
 *INV: and you can get it cant you ?
@@ -750,7 +729,7 @@
 *INV: you got a little bit too excited now havent you ?
 *CHI: no .
 *INV: little bit too excited .
-*INV: well hafta Ill hafta go and get your Mummy .
+*INV: Ill hafta go and get your Mummy .
 *INV: and tell her youre being too excitable .
 *INV: and um Ill hafta shut the shop .
 *INV: and me and Dimitra will hafta go home .
@@ -807,7 +786,7 @@
 *INV: have you seen it ?
 *CHI: no .
 *INV: have you seen the letter ?
-*INV: wheres you know I had a letter before ?
+*INV: you know I had a letter before ?
 *INV: Ive lost my letter .
 *CHI: si gone .
 *INV: is that it ?
@@ -859,7 +838,6 @@
 *INV: oh when theyre transcribing youre going to give them a headache .
 *INV: sorry Lorna  Cathy  Nicola whoever .
 *CHI: brumbrumo .
-*INV: where you going ?
 *INV: oh right  Thomas  that is it .
 *INV: that is it .
 *INV: do you hear ?
@@ -907,15 +885,12 @@
 *CHI: got .
 *CHI: this .
 *CHI: I 0am Bob the Builder now .
-*CHI: watch this .
 *INV: wow .
-*CHI: I Bob the Builder fixed it .
-*INV: oh my goodness .
 *INV: wow .
 *INV: you made this ?
 *CHI: Bob the Builder has fixed it .
 *INV: wow .
-*INV: were you Bob the Builder were you Bob the Builder and you
+*INV: were you Bob the Builder and you
 *CHI: yes .
 *INV: what how was this broken ?
 *INV: where was it broken ?
@@ -952,7 +927,6 @@
 *CHI: fall down there .
 *INV: where where has he ?
 *INV: this is Humpty Dumpty .
-*CHI: no no>
 *CHI: this is no no .
 *CHI: I need need this .
 *INV: is this a broken one ?
@@ -973,14 +947,13 @@
 *INV: you be careful you dont actually break it .
 *INV: I think thats enough now isnt it ?
 *INV: um  I tell you what .
-*INV: Ill ring Ill ring you and ask you to come and fix it .
+*INV: Ill ring you and ask you to come and fix it .
 *INV: yeah ?
 *CHI: no .
 *CHI: its not ready fix it yet .
 *INV: its not ready for fixing yet ?
 *INV: its very broken .
 *INV: look at this .
-*CHI: no no>
 *INV: Thomas  Humptys going to fall right through isnt he ?
 *INV: hm ?
 *INV: hes not going to be able to sit on there very easily .
@@ -1000,8 +973,6 @@
 *INV: oh this ones easy to come off .
 *INV: look .
 *INV: oh easy .
-*CHI: I break this off .
-*INV: okay this is the last one .
 *INV: not these .
 *INV: please .
 *INV: please .
@@ -1089,7 +1060,7 @@
 *CHI: yeah .
 *INV: oh .
 *INV: hows Wendy  Bob ?
-*INV: is she is she okay ?
+*INV: is she okay ?
 *CHI: yes .
 *CHI: ap upstairs .
 *INV: oh shes upstairs is she ?
@@ -1108,7 +1079,7 @@
 *INV: oh dont dont empty them out .
 *INV: lets look for your hammer .
 *INV: yeah ?
-*INV: thats much thats a much cleverer way to do it .
+*INV: thats a much cleverer way to do it .
 *CHI: that one .
 *INV: there you go .
 *CHI: Bob the Builder .
@@ -1217,8 +1188,7 @@
 *INV: shall I bring bring her out ?
 *INV: look at Purdie .
 *CHI: Purdie  stop it .
-*CHI: tunnel >
-*INV: what about this dolly here ?
+*INV: dolly here ?
 *CHI: this .
 *INV: maybe she can sit like this ?
 *INV: oh look !
@@ -1236,7 +1206,7 @@
 *INV: maybe maybe we needta look after it then ?
 *CHI: your look after her .
 *INV: are you not a doctor as well ?
-*CHI: I Bob I ap builder .
+*CHI: I ap builder .
 *INV: youre just a builder .
 *CHI: mhm .
 *INV: ah well I happen to have some medical skills so
@@ -1269,7 +1239,6 @@
 *INV: gosh .
 *INV: youre making too much noise Bob the Builder .
 *CHI: no I 0am .
-*INV: too much noise .
 *INV: yes you are .
 *CHI: no .
 *CHI: I 0am a builder not a Bob .
@@ -1290,10 +1259,8 @@
 *INV: you know .
 *CHI: you say gosh .
 *INV: gosh .
-*INV: I said>
-*CHI: stopped hammering>
 *INV: good .
-*CHI: you say your say mother love this .
+*CHI: your say mother love this .
 *INV: what do I say ?
 *CHI: you say mother love this .
 *INV: I love this ?
@@ -1317,7 +1284,6 @@
 *CHI: I need ap do it .
 *INV: you needta do it ?
 *INV: okay .
-*CHI: take this off .
 *INV: now you needta unscrew this little black thing
 *INV: right .
 *INV: like this .
@@ -1335,7 +1301,7 @@
 *CHI: this one ?
 *INV: that one .
 *INV: right .
-*INV: you can you can try and see if you can screw it back on .
+*INV: you can try and see if you can screw it back on .
 *INV: right ?
 *CHI: yeah .
 *INV: would you like to have a look and see ?
@@ -1363,7 +1329,7 @@
 *INV: ah you want yourself .
 *INV: oh .
 *CHI: yes .
-*INV: so am I how am I sposta call you  Thomas ?
+*INV: how am I sposta call you  Thomas ?
 *CHI: I need a hammer please .
 *INV: okay .
 *INV: there you go .
@@ -1473,7 +1439,6 @@
 *INV: are you a bus driver now ?
 *CHI: yes .
 *INV: yes .
-*CHI: no no>
 *INV: and people are getting in and out ?
 *CHI: yes .
 *INV: yes .
@@ -1505,7 +1470,7 @@
 *CHI: your your wanna get in the back ?
 *INV: okay .
 *INV: Im getting in the back .
-*INV: and you can you tell me when its Manchester ?
+*INV: can you tell me when its Manchester ?
 *CHI: um  have lots of trains .
 *INV: yeah .
 *INV: okay .
@@ -1518,13 +1483,12 @@
 *INV: do you want me to actually get in there ?
 *CHI: yeah .
 *INV: do you think its going to fit ?
-*INV: I think its the box for the driver
+*INV: the box for the driver
 *CHI: I ap box .
 *CHI: um train driver .
 *CHI: I 0am train driver .
 *INV: youre a train driver ?
-*INV: oh right .
-*CHI: your wish you gotten on this train .
+*CHI: you gotten on this train .
 *INV: pardon ?
 *CHI: your wish you got on this train .
 *INV: I wish .
@@ -1545,8 +1509,6 @@
 *INV: are we getting out of the train now ?
 *CHI: yes .
 *CHI: in airplane .
-*INV: now and>
-*CHI: this one .
 *INV: and were going to get into an aeroplane ?
 *INV: oh !
 *INV: thats very exciting  Thomas .
@@ -1559,7 +1521,6 @@
 *CHI: wanna go in this one ?
 *INV: in here ?
 *CHI: in .
-*CHI: your say>
 *INV: whats my name ?
 *CHI: your say whats my name .
 *INV: I dont know what your name is .
@@ -1602,7 +1563,7 @@
 *CHI: whee !
 *INV: wow .
 *CHI: 0 .
-*CHI: this is thats ap sand .
+*CHI: thats ap sand .
 *INV: thats the sand there ?
 *CHI: yeah .
 *INV: can you see the sea underneath ?
@@ -1711,9 +1672,9 @@
 *INV: and he seems to be doing a very good job .
 *MOT: good .
 *INV: are you not ?
-*CHI: no I Bob I fireman .
+*CHI: no I fireman .
 *INV: youre a fireman ?
-*INV: oh oh Im sure that Bob the Builders going to come sure &-uh>
+*INV: oh oh Im sure that Bob the Builders going to come
 *CHI: what firemans here ?
 *INV: the firemans here ?
 *INV: do you think the fireman can fix it ?
@@ -1724,8 +1685,7 @@
 *INV: we had em  a few accidents here .
 *INV: this uh poor dolly .
 *CHI: yeah .
-*INV: was trapped under the goods but its okay .
-*MOT: oh dear .
+*INV: was trapped under the goods .
 *INV: was it Fireman Sam that came to her rescue ?
 *MOT: good .
 *MOT: thank you .
@@ -1795,12 +1755,11 @@
 *CHI: that ap helmet .
 *INV: okay .
 *INV: so thats my helmet .
-*MOT: and there should be there are plenty of tools next to you .
+*MOT: and there are plenty of tools next to you .
 *INV: oops .
 *CHI: here you are .
 *INV: I cant get any from wh can I ?
-*CHI: you be you be Wendy .
-*MOT: Ill be Wendy .
+*CHI: you be Wendy .
 *CHI: I 0will .
 *MOT: right .
 *MOT: well Wendy just answers the phone and plays with the computer
@@ -1861,7 +1820,6 @@
 *INV: hammer ?
 *INV: youre holding the hammer there .
 *INV: shall we put it there ?
-*CHI: I need>
 *INV: okay .
 *INV: you need it ?
 *INV: okay .
@@ -1889,7 +1847,7 @@
 *CHI: being naughty  Mummy .
 *MOT: oh Im sorry .
 *MOT: Ill go back upstairs .
-*CHI: ap ner pass Dimitra pass it to Dimitra please .
+*CHI: ap pass it to Dimitra please .
 *MOT: alright .
 *MOT: here you are  Dimitra .
 *INV: right .
@@ -1926,7 +1884,7 @@
 *INV: and see if shes going to be feeling any better soon .
 *INV: okay ?
 *CHI: I put her on on that cushion .
-*INV: on that on the cushion ?
+*INV: on the cushion ?
 *INV: alright .
 *INV: yeah .
 *INV: its youre going to do it .
@@ -1949,12 +1907,12 @@
 *INV: chucchucchuco .
 *CHI: chucchucchuco hop that .
 *INV: pardon ?
-*CHI: hop hop hop ap butcher shop .
+*CHI: hop ap butcher shop .
 *CHI: say longer .
 *CHI: my do my mother say come down your jonderc .
 *INV: oh thats a nice song .
 *INV: where did you learn this song ?
-*CHI: hop hop hop the ap butcher shop .
+*CHI: hop the ap butcher shop .
 *INV: no .
 *INV: where where ?
 *INV: did you learn it at your um music lesson ?
@@ -2007,7 +1965,7 @@
 *CHI: I need those off .
 *INV: uh  what which bits do you want off ?
 *CHI: these ones .
-*INV: Im afraid these are of the frame .
+*INV: Im afraid of the frame .
 *INV: you cannot take them off .
 *INV: theyre stuck there .
 *INV: hey .

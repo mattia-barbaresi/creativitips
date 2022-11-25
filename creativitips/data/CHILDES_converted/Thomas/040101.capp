@@ -1,6 +1,5 @@
 *MOT: right .
 *MOT: your lunch is ready  love .
-*CHI: are you>
 *CHI: listening to you .
 *MOT: she might be .
 *CHI: 0 .
@@ -44,8 +43,8 @@
 *MOT: is that bread nice ?
 *CHI: Ive not even tried it .
 *MOT: pardon ?
-*CHI: Ive not even had a bite of it .
-*MOT: have you not had a bite of it ?
+*CHI: Ive not even had a bite .
+*MOT: not had a bite of it ?
 *MOT: whats the matter ?
 *MOT: youre a bit quiet today .
 *MOT: whats the matter ?
@@ -69,7 +68,7 @@
 *MOT: yeah we could do that .
 *CHI: you could be a train too .
 *MOT: could I ?
-*CHI: I will be the Ill be the goods train .
+*CHI: Ill be the goods train .
 *MOT: right .
 *CHI: and you be um the  uh .
 *CHI: I know what you could be .
@@ -78,16 +77,16 @@
 *CHI: boss trains black .
 *CHI: because  them boss trains can be bumped on but .
 *CHI: when the boss trains are bumped .
-*CHI: and then um the bus trai boss trains .
+*CHI: and then um the boss trains .
 *CHI: boshc bashed .
 *CHI: the boss and the bosses boshc them back .
 *CHI: but I dont bash you do I ?
 *MOT: no .
 *MOT: that sounds a bit rough to me .
-*CHI: but then they bash you then .
+*CHI: but then they then .
 *CHI: then you bash them back .
 *MOT: hm .
-*MOT: that doesnt sound very pleasant .
+*MOT: that doesnt sound .
 *CHI: 0 .
 *MOT: right .
 *MOT: come on eat some lunch .
@@ -126,7 +125,7 @@
 *CHI: mhm .
 *MOT: what sort of fruit ?
 *CHI: strawberries banana .
-*CHI: even had dra carry drinks .
+*CHI: even carry drinks .
 *CHI: theyre banana apple and
 *CHI: hundreds and hundreds of fruit .
 *CHI: and 0we have coke to drink .
@@ -147,13 +146,11 @@
 *CHI: for the next delivery .
 *MOT: it sounds like you need an awful lot of trucks .
 *MOT: for the next delivery if youre going to deliver .
-*MOT: all those things .
-*CHI: will you .
+*MOT: all .
 *CHI: I need
-*CHI: you know eh this ex this goods train ?
+*CHI: you know this goods train ?
 *CHI: its that long it needs the express train .
 *CHI: carriage .
-*MOT: to pull it ?
 *MOT: does it ?
 *MOT: to pull it ?
 *CHI: mhm .
@@ -177,7 +174,7 @@
 *CHI: you can just hook onto me .
 *MOT: oh right .
 *CHI: Im a lifts train .
-*CHI: and I give people a lift .
+*CHI: give people a lift .
 *MOT: is there such a thing as a lifts train ?
 *CHI: Im pretending there is .
 *MOT: oh I see youre pretending .
@@ -210,7 +207,7 @@
 *MOT: from that book ?
 *CHI: mhm .
 *CHI: first the tank engines broken down then .
-*CHI: lots of strange things come along past him .
+*CHI: lots of strange things past him .
 *CHI: there he is .
 *CHI: this train stops  beside him .
 *CHI: and then  broken down trains
@@ -276,7 +273,7 @@
 *MOT: well you can ask away .
 *MOT: youre not getting any .
 *CHI: laughs .
-*MOT: I shall later on I shall have a cup of tea .
+*MOT: later on I shall have a cup of tea .
 *MOT: perhaps around three oclock .
 *MOT: I shall have a cup of tea .
 *MOT: and I shall sit and have something nice .
@@ -309,8 +306,7 @@
 *CHI: dont usually have it when its cold do I ?
 *MOT: well at night time youve always had warm milk .
 *CHI: oh no .
-*CHI: oh no >
-*MOT: but I just thought if youre being served milk .
+*MOT: thought if youre being served milk .
 *MOT: for snack time in the middle of the morning .
 *MOT: they wont heat it up for you will they ?
 *MOT: do you get it cold ?
@@ -386,10 +382,8 @@
 *MOT: well if you tip the packet up .
 *MOT: there will be crumbs .
 *CHI: 0 .
-*MOT: bread crumbs .
 *MOT: jump jump .
 *MOT: well Im full up now  Thomas .
-*CHI: full of stuff .
 *MOT: hey ?
 *CHI: laughs .
 *CHI: lets get the railway trains out .
@@ -422,7 +416,7 @@
 *CHI: youre not my Mum .
 *MOT: you .
 *CHI: weeo .
-*MOT: just settle down .
+*MOT: down .
 *MOT: just brush all the crumbs off you .
 *MOT: right .
 *MOT: shall I go and find that Thomas  tank book .
@@ -440,7 +434,7 @@
 *CHI: paho .
 *MOT: dont .
 *MOT: right .
-*MOT: Ill go and get the Tom>
+*MOT: Ill go and get
 *CHI: teeth feel like theyre going to fall out .
 *MOT: do they ?
 *MOT: why what sweets ?
@@ -472,7 +466,7 @@
 *MOT: seriously .
 *MOT: whats happened to it ?
 *MOT: it was always in your bedroom .
-*CHI: Mum Ive chan Ive made a mess on your plate .
+*CHI: Mum Ive made a mess on your plate .
 *MOT: oh  Thomas .
 *CHI: laughs .
 *CHI: look at mine .
@@ -490,7 +484,7 @@
 *CHI: I think he put it back in the  bin .
 *MOT: it wasnt in the bin .
 *MOT: it was on your bedside cabinet .
-*MOT: there are lots of books there .
+*MOT: lots of books there .
 *CHI: 0 .
 *MOT: but not the Thomas The Tank Engine one .
 *CHI: I said  “wheres that Thomas The Tank Engine book” ?
@@ -545,7 +539,7 @@
 *MOT: just hold on .
 *MOT: let me take a microphone .
 *CHI: theyre just this much .
-*MOT: let me carry this with us .
+*MOT: let me .
 *CHI: laughs .
 *CHI: there might be this much .
 *MOT: okay .
@@ -554,7 +548,6 @@
 *CHI: its much
 *MOT: this this much big ?
 *MOT: 0 .
-*CHI: this much .
 *CHI: its this much
 *MOT: this much big ?
 *MOT: right .
@@ -576,8 +569,8 @@
 *CHI: where did your tank go ?
 *MOT: right .
 *MOT: come on .
-*MOT: off the bed .
-*CHI: how do you do this ?
+*MOT: off .
+*CHI: do this ?
 *MOT: Im not quite sure .
 *CHI: it doesnt work .
 *MOT: no .
@@ -592,7 +585,7 @@
 *MOT: well look at those in two minutes .
 *MOT: lets go back down .
 *CHI: 0 .
-*CHI: Ill just go ahead .
+*CHI: Ill just .
 *CHI: whos tipped that upside down ?
 *MOT: well I dont think its blue tacked on very well is it ?
 *CHI: ha thats why
@@ -622,14 +615,11 @@
 *MOT: very very strange .
 *CHI: and I love that book .
 *MOT: well I do as well .
-*MOT: and we always>
-*CHI: Im going>
 *MOT: no .
 *MOT: youre not going to stamp .
 *MOT: no .
 *MOT: because Linda and Brian wont appreciate .
 *MOT: you stamping down the stairs .
-*CHI: how do you ?
 *MOT: theyll hear it wont they ?
 *CHI: might not be there .
 *MOT: no .
@@ -643,9 +633,7 @@
 *CHI: yes lets get playing .
 *MOT: okay .
 *CHI: laughs .
-*CHI: youre always doing that .
-*MOT: well of course>
-*CHI: can I here>
+*CHI: youre always .
 *MOT: you can do yeah .
 *CHI: laughs .
 *CHI: think itll be good ?
@@ -654,9 +642,9 @@
 *MOT: right .
 *MOT: just turned it up a little bit while I'm
 *MOT: we tipped all the  stuff out  for the .
-*MOT: otherwise its too noisy isnt it ?
+*MOT: otherwise its too noisy ?
 *CHI: laughs .
-*CHI: go bang clatter .
+*CHI: go .
 *MOT: Thomas .
 *CHI: I wonder if theres any phone calls .
 *MOT: well its not going to ring if its not .
@@ -668,15 +656,14 @@
 *MOT: are we happy with where its set up ?
 *CHI: yep .
 *MOT: right .
-*CHI: you know that fire engine .
-*CHI: these buses have forgot fire engine .
+*CHI: that fire engine .
+*CHI: these buses fire engine .
 *MOT: right .
 *MOT: no .
 *MOT: Ill be a fire engine .
 *MOT: thats fine .
 *MOT: its a proper fire engine .
 *MOT: that belongs to the Thomas the tank engine set isnt it ?
-*CHI: I think>
 *MOT: now theres only one problem .
 *CHI: laughs .
 *MOT: Ive lost it .
@@ -691,7 +678,6 @@
 *MOT: oh thats a little train .
 *MOT: no .
 *MOT: but we had it a few minutes ago didnt we ?
-*CHI: no idea>
 *MOT: no .
 *MOT: I dont think its in the kitchen .
 *MOT: I dont know where it is .
@@ -706,7 +692,7 @@
 *MOT: oh I see .
 *CHI: um o youre lucky .
 *CHI: because all this is the broken .
-*CHI: and Ive only got a ch .
+*CHI: and Ive only got .
 *CHI: 0 .
 *CHI: you are lucky arent you ?
 *MOT: you mean Im lucky because I can drive on the road ?
@@ -751,13 +737,13 @@
 *MOT: and then one day I went into Mothercare .
 *MOT: and I saw that and I bought it .
 *MOT: and you played for hours with it .
-*MOT: wheres the bus wheres the bus ?
 *MOT: wheres the bus ?
-*MOT: thats all you useta say .
-*CHI: when I lost it did you go “wheres the bus” ?
+*MOT: wheres the bus ?
+*MOT: thats all you .
+*CHI: did you go “wheres the bus” ?
 *MOT: even when you knew where it was .
 *MOT: you useta go round saying .
-*MOT: wheres the bus wheres the bus ?
+*MOT: wheres the bus ?
 *MOT: and one day Aunty Val and Jo came to visit .
 *MOT: and they were both sitting on the settee .
 *MOT: I dont think Aunty Val had children at the time .
@@ -769,7 +755,7 @@
 *CHI: laughs .
 *MOT: and you useta do things like this .
 *MOT: youd put it there and youd say .
-*MOT: wheres the bus wheres the bus .
+*MOT: wheres the bus .
 *MOT: laughs .
 *CHI: is it like this ?
 *CHI: wheres the bus ?
@@ -801,8 +787,7 @@
 *MOT: and you were doing exactly the same thing in Sues car .
 *MOT: bus bus .
 *MOT: you were screaming and she was laughing .
-*MOT: wheres the bus wheres the bus .
-*CHI: guess who play .
+*MOT: wheres the bus .
 *CHI: get playing with that bus .
 *MOT: I will .
 *MOT: Ill send that big fire engine but I dont know where it is .
@@ -810,7 +795,7 @@
 *CHI: 0 .
 *MOT: neenaho neenaho .
 *CHI: I know what .
-*CHI: could you you know those black twirl things on buses ?
+*CHI: you know those black twirl things on buses ?
 *MOT: the black twirly things on buses ?
 *MOT: what are they ?
 *CHI: they go round and round a little point .
@@ -873,8 +858,7 @@
 *CHI: um dat .
 *MOT: right .
 *MOT: Ill park alongside the grape carriage .
-*MOT: and Ill fill it full of grapes .
-*CHI: and you can .
+*MOT: and .
 *CHI: my train because its a very old goods train .
 *MOT: is it ?
 *MOT: no .
@@ -901,7 +885,7 @@
 *MOT: Thomas .
 *MOT: that your little flag ?
 *CHI: yeah .
-*MOT: is that the guards flag ?
+*MOT: the guards flag ?
 *MOT: to wave the train off .
 *CHI: yeah .
 *MOT: I see .
@@ -951,7 +935,7 @@
 *MOT: ah but my bus is full of grapes .
 *CHI: pwocho .
 *MOT: right .
-*MOT: anyway the bus now is going>
+*MOT: anyway the bus
 *CHI: big .
 *MOT: a big bomb ?
 *MOT: looks like a big orange balloon .
@@ -1001,7 +985,7 @@
 *CHI: laughs .
 *MOT: its a little kaleidoscope .
 *MOT: because usually kaleidoscopes have beads and .
-*MOT: thing in things in that make patterns .
+*MOT: things in that make patterns .
 *MOT: you dont you ?
 *CHI: yeah .
 *MOT: but that one doesnt have anything in .
@@ -1012,24 +996,21 @@
 *MOT: thats me .
 *MOT: its clear so when you point it at something and turn it round .
 *MOT: you just get lots of pictures .
-*CHI: Im here .
-*MOT: with that .
-*CHI: do you like the box ?
+*CHI: the box ?
 *MOT: lots of boxes .
 *MOT: you could do could do lots of Bertie buses .
 *CHI: laughs .
 *CHI: this is play
 *MOT: how many ?
 *CHI: hundred squillionc .
-*MOT: a hundred squillionc ?
-*CHI: a hundred squillionc trains .
+*CHI: trains .
 *MOT: oh Im tired after my lunch now .
 *MOT: 0 .
 *CHI: catch .
 *CHI: laughs .
 *MOT: laughs .
 *MOT: I lifted up my jumper to rub my tummy as you threw that .
-*MOT: and it landed in my trousers .
+*MOT: landed in my trousers .
 *CHI: laughs .
 *CHI: laughs .
 *MOT: oh Ive got lots of little Thomases .
@@ -1063,7 +1044,7 @@
 *MOT: gosh .
 *MOT: good or gosh .
 *CHI: see how many
-*CHI: racing car tracks you can see .
+*CHI: racing car tracks see .
 *MOT: yeah .
 *MOT: yes thats weird .
 *MOT: the train track looks really big .
@@ -1079,7 +1060,6 @@
 *MOT: laughs .
 *MOT: no .
 *CHI: laughs .
-*MOT: you are rude .
 *CHI: 0 .
 *MOT: you rude boy .
 *CHI: uh um Jessica Dand says .
@@ -1089,27 +1069,22 @@
 *CHI: laughs .
 *MOT: she actually introduces you as being a bit rude ?
 *MOT: come and meet my friend Thomas but hes a bit rude ?
-*CHI: can I have>
 *MOT: 0 .
-*CHI: to there .
 *MOT: no .
 *MOT: no .
 *MOT: no .
 *MOT: no .
-*CHI: I will .
 *MOT: no .
 *CHI: laughs .
 *MOT: right .
 *MOT: come on .
 *MOT: because this fruitll have gone off .
 *MOT: before we get it to the market if we dont go quick .
-*CHI: my fruit doesnt because its got a little fridge .
+*CHI: my fruit doesnt because its got fridge .
 *CHI: 0 .
 *MOT: you have an answer for everything dont you ?
 *CHI: laughs .
 *MOT: right .
-*MOT: why have they a little fridge ?
-*CHI: in these trucks theyve got .
 *CHI: fridges .
 *MOT: have they ?
 *CHI: yeah .
@@ -1144,8 +1119,6 @@
 *MOT: which friend did Jessica say that to ?
 *MOT: no .
 *MOT: dont .
-*CHI: battling you .
-*MOT: battling Ill remember that .
 *MOT: which friend did Jessica say that to ?
 *CHI: Brown Bart .
 *MOT: Brown Bart ?
@@ -1154,7 +1127,6 @@
 *MOT: youre calling her Brown Bart are you ?
 *CHI: they bought a buyer .
 *CHI: puchooo .
-*MOT: I think Brown>
 *MOT: an old teddy dont you ?
 *CHI: laughs .
 *MOT: your teddys called Fred .
@@ -1169,7 +1141,7 @@
 *CHI: you are brown .
 *CHI: 0 .
 *CHI: ooh .
-*MOT: your eyes look really puffy today .
+*MOT: look really puffy today .
 *CHI: 0 .
 *CHI: thats why Im do nothing .
 *CHI: whats over there ?
@@ -1177,12 +1149,11 @@
 *CHI: laughs .
 *MOT: ooh  Tom  dont that hurts .
 *CHI: laughs .
-*MOT: what would Miss Ashworth say ?
+*MOT: say ?
 *CHI: 0 .
 *MOT: right .
 *MOT: come on .
 *MOT: are we going to do this train track or not ?
-*MOT: are we going to play with it ?
 *CHI: yes .
 *MOT: little mess pot .
 *CHI: 0 .
@@ -1195,8 +1166,6 @@
 *MOT: go on  train driver .
 *MOT: go and get your tra .
 *MOT: wheres my fire engine ?
-*CHI: I know over there .
-*MOT: over there ?
 *CHI: uhoh ooh .
 *MOT: now .
 *CHI: there is the fire engine .
@@ -1215,7 +1184,7 @@
 *CHI: that make grapes .
 *CHI: poopo .
 *MOT: Bertie got there quicker .
-*CHI: I dont mind .
+*CHI: mind .
 *CHI: poopo .
 *MOT: right .
 *MOT: can I be the market man ?
@@ -1255,7 +1224,7 @@
 *CHI: we were .
 *MOT: and we looked down .
 *MOT: and do you remember there was a  sort of track .
-*MOT: a ro almost like a road .
+*MOT: almost like a road .
 *MOT: a dirt track that didnt seem to lead anywhere .
 *MOT: and there were traffic lights stati proper train lights .
 *MOT: do you remember ?
@@ -1263,21 +1232,20 @@
 *MOT: wasnt that funny ?
 *CHI: maybe that should be where  all the trains that .
 *CHI: too um rusty and they bash them there .
-*CHI: could be .
 *MOT: do you think so ?
 *MOT: but why would they want traffic lights there ?
 *CHI: because then they say “danger danger” .
 *MOT: think it was just a warning ?
 *MOT: or do you think the traffic lights .
-*MOT: were rusty the train lights were rusty ?
+*MOT: the train lights were rusty ?
 *MOT: so if theyre putting all the broken train there .
 *MOT: they must have thought .
 *MOT: oh the poor old lights arent working anymore .
 *MOT: well put them down there .
-*CHI: yeah I think so .
+*CHI: yeah .
 *MOT: hm .
 *CHI: when um .
-*CHI: just pretend I am Percy um .
+*CHI: just pretend um .
 *MOT: Thomas is going to do a loud hoot when hes here .
 *MOT: right .
 *CHI: poopo .
@@ -1297,7 +1265,6 @@
 *MOT: what about the train driver and the fireman and the guard help ?
 *CHI: okay .
 *MOT: surely there must be some little men on there .
-*CHI: come on .
 *MOT: helping to unload fruit .
 *MOT: oh dear .
 *MOT: weve had an accident Berties crashed .
@@ -1307,17 +1274,15 @@
 *MOT: 0 .
 *CHI: 0 .
 *MOT: well Bertie the bus has just tipped up .
-*MOT: I bet its that heavy bunch of grapes .
+*MOT: its that heavy bunch of grapes .
 *CHI: um .
 *MOT: I bet theyve fallen over .
-*CHI: and then>
 *CHI: um when by magic another bus came .
 *MOT: oh right .
 *CHI: come on  Mum .
 *CHI: come here and help me on the road .
 *CHI: everybody that you want is here helping you .
 *MOT: oops .
-*CHI: Ive put>
 *CHI: Ive put this in .
 *CHI: the old dump pile .
 *MOT: right .
@@ -1331,7 +1296,6 @@
 *CHI: two more .
 *CHI: is that got some more .
 *CHI: in .
-*MOT: is there ?
 *CHI: yes .
 *CHI: I see what you have in your hand horses .
 *MOT: theres a couple of horses on the line .
@@ -1366,7 +1330,7 @@
 *MOT: what .
 *MOT: well no .
 *MOT: hes alright .
-*MOT: hes just its excitement .
+*MOT: its excitement .
 *MOT: of seeing all that fruit .
 *MOT: oh .
 *MOT: there we are .
@@ -1386,10 +1350,9 @@
 *CHI: Im the bus driver .
 *CHI: I could be  um what you unpack .
 *CHI: couldnt I ?
-*CHI: rest the funnel .
+*CHI: funnel .
 *MOT: this it the train but with the noise .
 *MOT: its got all bits of red on it .
-*MOT: was it>
 *CHI: look .
 *MOT: was it all red at one point ?
 *CHI: the there could be the red opener .
@@ -1402,22 +1365,21 @@
 *MOT: do you think it does need batteries ?
 *CHI: mhm .
 *CHI: Mum ?
-*MOT: yes  my love .
+*MOT: yes .
 *CHI: you drive this train .
 *CHI: and you  um be the horse .
 *CHI: and you be the bus driver .
-*CHI: and Im the>
 *MOT: what ?
 *MOT: Ive got to be the train driver the bus driver and the horse ?
 *CHI: yep .
 *MOT: now tell me again what you want me to be .
-*CHI: youre the bus driver and the train driver .
+*CHI: youre the bus driver driver .
 *MOT: ow .
 *MOT: right .
 *MOT: laughs .
 *CHI: and Im your cat .
 *MOT: laughs .
-*CHI: and Im called  Bluey .
+*CHI: called  Bluey .
 *MOT: Bluey ?
 *MOT: because we useta have a budgie called Bluey .
 *MOT: because he had blue feathers .
@@ -1465,11 +1427,10 @@
 *MOT: look .
 *MOT: this looks like a nice piece of yellow cheese .
 *CHI: yeah .
-*CHI: but if you turn it upside down its a house .
-*MOT: there you are  puss .
+*CHI: down its a house .
 *MOT: well if you turn it upside down its a house .
 *MOT: but I wasnt going to I was going to keep it this way up .
-*MOT: and just look at the plain yellow side .
+*MOT: at the plain yellow side .
 *CHI: okay .
 *MOT: and pretend its a piece of cheese .
 *MOT: there you are  puss .
@@ -1503,7 +1464,7 @@
 *CHI: what ?
 *MOT: to drive the train .
 *CHI: laughs .
-*MOT: would you like to do that  Bluey ?
+*MOT: to do that  Bluey ?
 *CHI: meowo Id like to drive a bus .
 *MOT: actually youd be better being the guard .
 *MOT: calling being called Bluey .
@@ -1522,13 +1483,12 @@
 *CHI: 0 .
 *CHI: laughs .
 *CHI: its time you were the train driver .
-*CHI: one two .
 *MOT: 0 .
 *CHI: 0 .
 *MOT: right .
 *CHI: 0 .
 *MOT: thats a real whistle isnt it ?
-*CHI: you are just preten you ?
+*CHI: you ?
 *MOT: I was dreaming .
 *CHI: and .
 *MOT: oh .
@@ -1577,7 +1537,7 @@
 *CHI: no .
 *CHI: but  but you the fathers gone out .
 *MOT: whos gone out ?
-*MOT: the farmer or the father ?
+*MOT: the farmer father ?
 *CHI: yeah .
 *CHI: father .
 *MOT: the father ?
@@ -1604,20 +1564,15 @@
 *MOT: look .
 *MOT: theres a truck load of bananas there .
 *CHI: mm .
-*MOT: that little>
 *MOT: that little green carriage has bananas in .
 *CHI: yum .
 *MOT: right .
-*CHI: and that other green one .
 *MOT: oh not that green one thats got plums .
 *CHI: 0 .
-*MOT: the other green one .
 *CHI: I love plums too .
 *MOT: you like plums ?
 *MOT: right .
-*CHI: I really like them .
-*MOT: youre not>
-*MOT: look I dont .
+*CHI: like them .
 *CHI: laughs .
 *CHI: they taste yucky actually .
 *MOT: I thought they would .
@@ -1654,15 +1609,12 @@
 *CHI: owo .
 *MOT: whats that mean a caution sign ?
 *CHI: owo .
-*MOT: no  Thomas .
 *MOT: talk properly otherwise were not playing .
 *CHI: Im a cat .
 *MOT: no .
 *MOT: youre not .
 *MOT: Purdies a cat .
 *CHI: meow .
-*MOT: youre a little boy whos sposta be playing .
-*CHI: meow no .
 *CHI: Im pretending Im a cat .
 *MOT: are you .
 *CHI: 0 .
@@ -1673,7 +1625,7 @@
 *MOT: but then Im playing on my own and Ill get bored .
 *MOT: and lonely .
 *CHI: the cat could be right beside you .
-*CHI: the train could the cat could be .
+*CHI: the cat could be .
 *CHI: next to the driver .
 *MOT: are you the station cat ?
 *CHI: yeah .
@@ -1687,7 +1639,6 @@
 *MOT: theres a certain noise and a certain smell about underground .
 *MOT: and when you look on the tracks when there are no trains .
 *MOT: you see little mice running .
-*MOT: and go round .
 *MOT: Ive never actually seen them on the platforms .
 *MOT: theyre just along the rails .
 *MOT: no .
@@ -1705,8 +1656,7 @@
 *CHI: the bus um  is outside waiting .
 *CHI: but um for Thomas though arent you ?
 *MOT: yes .
-*CHI: you needta drive to the end of there .
-*MOT: well Ill just>
+*CHI: you needta drive to the .
 *MOT: yes .
 *MOT: okay .
 *MOT: well shall we just move the track there a little bit ?
@@ -1739,7 +1689,7 @@
 *MOT: hows that ?
 *CHI: you can rerun .
 *MOT: oh bother .
-*CHI: you try that with another  if there is any .
+*CHI: you with another  if there is any .
 *MOT: uh I dont think there is .
 *MOT: I was just
 *CHI: looking for this .
@@ -1757,8 +1707,7 @@
 *CHI: there .
 *CHI: I must get going .
 *MOT: thats the problem really .
-*MOT: because the engines dropped off .
-*CHI: oh no .
+*MOT: because the .
 *CHI: I cant have this there .
 *CHI: poopo .
 *MOT: ooh  Tom  youre loud .
@@ -1772,9 +1721,8 @@
 *CHI: boring boring .
 *MOT: oh no .
 *MOT: not boring but just disappointing .
-*MOT: that it wasnt quite as I thought .
+*MOT: that .
 *CHI: yes .
-*MOT: not boring is it ?
 *CHI: 0 .
 *CHI: 0 .
 *MOT: you see yes youve done the same as me .
@@ -1793,24 +1741,23 @@
 *MOT: right .
 *MOT: a little bus depot .
 *CHI: I will just I will just come this way .
-*MOT: I think its quite .
 *MOT: okay .
-*MOT: gosh its a long train that  Thomas .
+*MOT: gosh its a long train .
 *CHI: boomo .
-*CHI: Im just turning Im just going to take .
+*CHI: Im just going to take .
 *CHI: some of my carriages and go .
 *MOT: right .
 *CHI: oh push all the carriages back .
 *CHI: my carriages come back .
 *CHI: see how many Im pushing ?
 *MOT: one two three four five six seven eight nine .
-*CHI: Im pull Im pulling .
+*CHI: Im pulling .
 *MOT: youre pushing now .
 *MOT: pushing and pulling .
 *MOT: as you go through a door and you do that what are you doing ?
 *CHI: pushing .
 *MOT: pushing .
-*MOT: if you get the handle and you do that what are you doing ?
+*MOT: if you get the handle and you do that what ?
 *CHI: push .
 *CHI: pulling .
 *MOT: pulling .
@@ -1819,7 +1766,7 @@
 *MOT: is that right ?
 *CHI: yeah .
 *MOT: pulling and pushing .
-*CHI: shall I get my m my engine train in a minute ?
+*CHI: shall I get my engine train in a minute ?
 *MOT: yes you could do yes .
 *CHI: train can across that .
 *CHI: poopo .
@@ -1866,13 +1813,13 @@
 *CHI: I just made it a bit rude .
 *MOT: a bit rude ?
 *MOT: what do you mean ?
-*CHI: you just made it shall I show you how to make it rude ?
+*CHI: shall I show you how to make it rude ?
 *MOT: no .
 *CHI: 0 .
 *MOT: Thomas .
 *CHI: poo .
 *MOT: thats not the telephone thats you .
-*MOT: youre a very rude boy .
+*MOT: very rude boy .
 *CHI: look .
 *MOT: oh thats like
 *MOT: laughs .
@@ -1899,7 +1846,6 @@
 *MOT: you know the metal .
 *CHI: ow .
 *MOT: 0 .
-*CHI: cold is .
 *MOT: theyre not that cold .
 *CHI: laughs .
 *MOT: can you see an xl on the word taxi ?
@@ -1908,12 +1854,12 @@
 *MOT: yes tl al .
 *MOT: xl il .
 *MOT: taxi .
-*MOT: if the orange lights lit up and it says taxiq .
+*MOT: if the orange lights lit up .
 *CHI: 0 .
 *MOT: then it means that the taxi driver hasnt any passengers .
 *MOT: and hes waiting to be picked up .
 *CHI: 0 .
-*MOT: postman fat Pat van fat  Pat  ran .
+*MOT: postman fat  Pat  ran .
 *MOT: laughs .
 *MOT: postman Pat van .
 *CHI: laughs .
@@ -1925,8 +1871,7 @@
 *CHI: 0 .
 *MOT: so if you see a taxi with an orange light saying taxiq .
 *MOT: driving along with no passengers .
-*MOT: it means “ taxis free”>
-*CHI: I know why the there .
+*MOT: it means
 *CHI: wooo .
 *MOT: oh youve found an army tank .
 *MOT: where ?
@@ -1985,7 +1930,6 @@
 *MOT: thats a very ?
 *CHI: wooo .
 *MOT: lets have a little play .
-*CHI: boomo baboomo .
 *CHI: bamoomo .
 *MOT: goodness me .
 *MOT: thats very nice .
@@ -2001,7 +1945,7 @@
 *MOT: is Terence the tractor a a Thomas the tank .
 *MOT: engine character ?
 *CHI: yeah .
-*MOT: and do you remember they said he said he had .
+*MOT: and do you remember he said he had .
 *MOT: caterpillar  wheels ?
 *CHI: trails .
 *MOT: hm .
@@ -2016,7 +1960,7 @@
 *MOT: are you driving it on my head now ?
 *CHI: stop for a little bite opening .
 *CHI: laughs .
-*MOT: a biter funny for my earring ?
+*MOT: a for my earring ?
 *CHI: laughs .
 *MOT: I bet you just the earring .
 *CHI: laughs .
@@ -2028,7 +1972,7 @@
 *CHI: if I burst first bit  its going to be cool .
 *MOT: cool ?
 *MOT: laughs .
-*MOT: listen to you .
+*MOT: you .
 *CHI: boomo wooo .
 *CHI: good one .
 *MOT: lets have a look .
@@ -2037,14 +1981,13 @@
 *MOT: say something other than boom .
 *CHI: boomo .
 *MOT: no  Thomas .
-*MOT: thats a very nice>
+*MOT: thats a
 *CHI: boomo .
 *MOT: thats the lookout tower .
 *MOT: you see the little man .
 *MOT: climbs in there and that goes up .
 *MOT: and he can look out of his window .
 *MOT: and see if theres anybody naughty before he goes pocho .
-*MOT: and hes gone .
 *CHI: and did he even shoot people that nice ?
 *MOT: well .
 *CHI: did he even shoot police ?
@@ -2072,7 +2015,7 @@
 *MOT: we havent got much of this fruit delivered young man .
 *MOT: no .
 *CHI: laughs .
-*MOT: dont put it down my jumper  mess pot .
+*MOT: dont .
 *CHI: 0 .
 *CHI: put it down the back .
 *MOT: no .
@@ -2086,7 +2029,7 @@
 *CHI: laughs .
 *MOT: no .
 *MOT: no .
-*MOT: because youre going to break my necklace .
+*MOT: because youre .
 *CHI: 0 .
 *MOT: no .
 *MOT: thats silly .
@@ -2095,16 +2038,15 @@
 *CHI: cheese .
 *MOT: no .
 *MOT: dont youre hurting me .
-*CHI: its not there .
 *CHI: laughs .
-*MOT: I know but when you hit my back .
+*MOT: but when you hit my back .
 *MOT: that hurt that wasnt nice .
 *CHI: try and get the .
 *CHI: thrown it on the back of you .
-*CHI: all I can feel is the big .
+*CHI: all .
 *CHI: laughs .
 *MOT: you can feel what ?
-*CHI: my botty your botty .
+*CHI: your botty .
 *MOT: my botty ?
 *MOT: I dont think so .
 *CHI: laughs .
@@ -2131,12 +2073,12 @@
 *MOT: Thomas .
 *CHI: just threw it .
 *MOT: right .
-*MOT: I need a taxi now please .
+*MOT: a taxi now please .
 *MOT: to take me to the hospital .
 *MOT: because Ive had an army tank down my back .
 *CHI: oh the is down there .
-*CHI: havent got an illness .
-*MOT: Im a little bit nervous Ill take a taxi please .
+*CHI: havent got .
+*MOT: Ill take a taxi please .
 *MOT: unless the trains going .
 *CHI: uh nope .
 *MOT: Ill have a taxi then please .
@@ -2148,11 +2090,9 @@
 *CHI: but the trains are .
 *MOT: oh right .
 *CHI: theres .
-*MOT: for a taxi>
 *MOT: thank you .
 *CHI: right .
 *CHI: the trains coming now .
-*MOT: is it ?
 *CHI: it might be late .
 *CHI: ah .
 *MOT: what have you done now ?

@@ -20,7 +20,7 @@
 *MOT: there you are .
 *MOT: now you can do it if you wanna .
 *CHI: oh dear .
-*MOT: no no no no .
+*MOT: no .
 *CHI: what Mummy doing now ?
 *MOT: Mummys doing what you didnt manage to do .
 *MOT: right .
@@ -92,7 +92,7 @@
 *INV: mm .
 *MOT: there we are .
 *CHI: aah .
-*MOT: shall we shall we all have a napkin ?
+*MOT: shall we all have a napkin ?
 *INV: hm .
 *MOT: now .
 *MOT: whos on that ?
@@ -121,17 +121,16 @@
 *INV: on the floor ?
 *CHI: mhm .
 *MOT: now be very very careful with that  Thomas .
-*CHI: oh dear .
-*MOT: be careful you dont tip it over .
-*MOT: steady steady steady .
+*MOT: you dont tip it over .
+*MOT: steady .
 *MOT: oops .
 *MOT: steady .
 *MOT: shall Mummy drink some first ?
 *CHI: mhm .
 *CHI: juice .
 *INV: is that new ?
-*INV: is that new for Thomas ?
-*MOT: Gran Grandad brought you that didnt he ?
+*INV: is that new for ?
+*MOT: Grandad brought you that didnt he ?
 *CHI: mhm mhm .
 *CHI: Grandad .
 *MOT: and what have you been doing at Grandma and Grandads house ?
@@ -275,7 +274,7 @@
 *CHI: no cry .
 *MOT: you didnt cry did you ?
 *MOT: you were very very brave .
-*CHI: next next next morning no cry .
+*CHI: next morning no cry .
 *MOT: you didnt cry the next morning ?
 *CHI: mhm mhm .
 *CHI: ap Brian crying .
@@ -317,7 +316,7 @@
 *MOT: ooh wow !
 *MOT: is that nice ?
 *CHI: yes .
-*MOT: and who grew those in his who grew those in his greenhouse ?
+*MOT: and who grew those in his greenhouse ?
 *CHI: Grandma Grandad .
 *MOT: Grandad .
 *MOT: did you pick them ?
@@ -351,7 +350,7 @@
 *CHI: paper paper boy .
 *MOT: paper boy .
 *MOT: and where have we been this morning  Thomas ?
-*CHI: hm hm hm .
+*CHI: hm .
 *CHI: bangadrumtimec .
 *MOT: yes .
 *INV: mhm .
@@ -410,12 +409,11 @@
 *CHI: all done now .
 *MOT: all done now .
 *MOT: would you like some more ?
-*MOT: weve got weve got plenty more in another packet haven't
+*MOT: weve got plenty more in another packet haven't
 *INV: do you like drinking  from that glass ?
 *INV: is it a glass ?
 *MOT: yeah .
-*MOT: but its made of plastic .
-*INV: its not a beaker ?
+*MOT: but its .
 *MOT: yeah .
 *MOT: a beaker I would say .
 *INV: beaker .
@@ -449,7 +447,6 @@
 *CHI: yes .
 *CHI: um a bowl .
 *CHI: here you are .
-*CHI: in there .
 *MOT: well what Ill do  Thomas  Im just going to cut them in half
 *MOT: theres one more there .
 *MOT: they havent got seeds in them so we dont we
@@ -530,7 +527,7 @@
 *MOT: yes .
 *MOT: these are big ones .
 *CHI: oh .
-*CHI: doing something now .
+*CHI: now .
 *INV: what are you doing now ?
 *MOT: youre being silly arent you ?
 *MOT: yes .
@@ -573,7 +570,6 @@
 *MOT: she was asleep wasnt she ?
 *MOT: in her pram .
 *MOT: shes only a baby though compared to you  Thomas .
-*CHI: inside the bin bags .
 *CHI: church .
 *MOT: yes .
 *MOT: thats right .
@@ -586,8 +582,7 @@
 *MOT: youre okay .
 *MOT: right .
 *MOT: well Ill it anyway and then Thomas may like it .
-*MOT: he might like some pita bread .
-*CHI: Thomas eat it .
+*MOT: he might like some .
 *MOT: you might eat it .
 *MOT: yes .
 *MOT: there .
@@ -608,7 +603,6 @@
 *CHI: mhm mhm .
 *INV: I thought you had said lolly .
 *MOT: mhm .
-*CHI: fall down>
 *MOT: what fell down ?
 *MOT: the bricks ?
 *CHI: no .
@@ -639,7 +633,7 @@
 *MOT: no .
 *MOT: no you cant get down yet because were still eating .
 *CHI: ap down .
-*CHI: what Dimitra doing ?
+*CHI: what ?
 *CHI: Dimitra doing now ?
 *CHI: Dimitra doing ?
 *MOT: Dimitras checking the camera .
@@ -682,8 +676,6 @@
 *INV: oh no .
 *MOT: what have you done ?
 *INV: if you wanna drink the orange juice the best thing to do is to keep
-*MOT: Thomas  no .
-*MOT: thats dirty .
 *INV: drink .
 *INV: yeah .
 *INV: maybe it its too late now to drink .
@@ -760,7 +752,7 @@
 *MOT: you have a saucer .
 *MOT: there we are .
 *MOT: would you like to try some cake ?
-*CHI: no no no .
+*CHI: no .
 *MOT: there you are .
 *MOT: do you not wanna eat that ?
 *CHI: 0 .
@@ -834,7 +826,7 @@
 *MOT: right .
 *MOT: are we going to save some for Daddy now ?
 *INV: whats this “mhm mhm” ?
-*CHI: mhm mhm mhm .
+*CHI: mhm .
 *MOT: thats enough now .
 *MOT: I think well save some for Daddy .
 *CHI: mhm .
@@ -908,7 +900,7 @@
 *MOT: what about the next verse ?
 *MOT: thank you said the master thank you said the dame and thank you
 *CHI: 0 .
-*CHI: little boy did that .
+*CHI: little boy .
 *CHI: yes .
 *MOT: what about Row Row Row The Boat ?
 *MOT: you can sing that .
@@ -962,13 +954,12 @@
 *MOT: what have we said about throwing ?
 *MOT: what have we said about throwing ?
 *CHI: cheeky .
-*CHI: big truck .
 *MOT: what did Daddy say ?
 *CHI: mixer round and round .
 *MOT: yes .
 *MOT: mixer round and round .
 *MOT: what did Daddy say about throwing ?
-*CHI: a green mixer round and round .
+*CHI: mixer round and round .
 *INV: youre avoiding the subject .
 *CHI: subject .
 *INV: the subject .
@@ -976,7 +967,7 @@
 *CHI: hello !
 *CHI: big nipsc .
 *CHI: big tummy big nipsc .
-*CHI: Dimitra a big a big tummy .
+*CHI: Dimitra a big tummy .
 *INV: aah .
 *INV: yes .
 *INV: actually I do have a big tummy after this big lunch .
@@ -1050,7 +1041,7 @@
 *CHI: no .
 *CHI: meow .
 *CHI: meow meow .
-*CHI: Purdie Purdie Purdie .
+*CHI: Purdie .
 *CHI: 0 .
 *MOT: she doesnt like it .
 *CHI: down .
@@ -1065,17 +1056,16 @@
 *MOT: thats one with a back on it .
 *MOT: but the other one hasnt a back .
 *CHI: big back on it .
-*INV: a back on it ?
 *CHI: no back .
 *INV: what do you mean ?
 *MOT: this one hasnt got a back on it .
-*MOT: this is just this is just the cab isnt it ?
+*MOT: this is just the cab isnt it ?
 *CHI: yes .
 *CHI: a big wheel .
 *MOT: thats just the cab without .
 *INV: aah .
 *INV: its purple .
-*CHI: got a got a big wheel that one .
+*CHI: got a big wheel that one .
 *MOT: that one has got big wheels .
 *INV: yes .
 *MOT: yes .
@@ -1133,15 +1123,12 @@
 *MOT: is it thrown away ?
 *CHI: ap back .
 *CHI: agh .
-*INV: are you going to bite me ?
-*MOT: dont you bite .
+*INV: are you going ?
 *INV: I dont want you to bite me .
 *MOT: no .
 *MOT: dont you bite .
 *INV: I dont want you to bite me  Thomas .
 *MOT: if you bite Dimitra she will not be happy .
-*INV: I will bite you back .
-*CHI: not happy .
 *MOT: Dimitra not happy .
 *CHI: happy .
 *MOT: not happy .
@@ -1188,7 +1175,7 @@
 *MOT: looks more like a tent than a bridge doesnt it ?
 *MOT: there we are .
 *MOT: through the tunnel .
-*MOT: and back in .
+*MOT: and .
 *MOT: we saw a train today go over the tunnel didnt we ?
 *MOT: over the bridge .
 *CHI: mhm .
@@ -1302,8 +1289,7 @@
 *MOT: can drink that later .
 *INV: wheres the car ?
 *CHI: hm .
-*CHI: on here .
-*MOT: where is where is the car ?
+*MOT: where is the car ?
 *MOT: oh its under the table .
 *INV: turn it this way  Thomas .
 *CHI: the man on it .
@@ -1472,10 +1458,8 @@
 *CHI: oh dear .
 *MOT: oh dear dear .
 *MOT: he keeps bumping his head  Jake .
-*CHI: no sit up .
 *CHI: oh dear .
 *MOT: youre tired arent you ?
-*CHI: no sit up>
 *MOT: no sit up ?
 *MOT: just tell tell that you bumped your head .
 *CHI: ooh .
@@ -1498,8 +1482,7 @@
 *CHI: ap bump .
 *CHI: ooh .
 *MOT: tell .
-*MOT: who else are you going to talk to on the phone ?
-*INV: like that ?
+*MOT: who else are you going on the phone ?
 *CHI: oh dear .
 *CHI: ooh .
 *MOT: who else are you going to talk to ?
@@ -1519,10 +1502,8 @@
 *MOT: and tell them what youre doing ?
 *CHI: Blackpool and lights .
 *MOT: Blackpool and the lights ?
-*CHI: ap more train>
 *CHI: yes .
 *CHI: ap yes .
-*CHI: a train .
 *CHI: red bus and green bus .
 *CHI: yes .
 *CHI: a green bus .
@@ -1530,7 +1511,7 @@
 *MOT: ring Daddy now at work .
 *MOT: and tell Daddy youve been to bangadrumtimec .
 *MOT: and tell him what youve been doing .
-*MOT: no no no .
+*MOT: no .
 *INV: oh .
 *CHI: laughs .
 *CHI: Daddy .
@@ -1547,8 +1528,7 @@
 *MOT: Thomas is very tired .
 *MOT: he has had a busy morning and he has bumped his head and he
 *MOT: uh yes .
-*MOT: hes feeling very sleepy but I think hed like a word with
-*CHI: oh dear .
+*MOT: very sleepy but I think hed like a word with
 *MOT: here he is .
 *CHI: bump his head .
 *CHI: bump his head  Daddy .
@@ -1557,12 +1537,11 @@
 *INV: aah .
 *CHI: oh .
 *MOT: oh therell be trouble wont there ?
-*MOT: you talk to Daddy in there .
+*MOT: you talk to Daddy .
 *CHI: ambulance comes .
 *MOT: oh the ambulance wont come if youve done something on your own .
 *MOT: the ambulance comes when its a genuine accident .
-*MOT: not for silly boys who do things theyve been told not to .
-*CHI: oh dear .
+*MOT: not for who do things theyve been told not to .
 *CHI: Daddy bump his head .
 *CHI: forty two .
 *MOT: forty two ?

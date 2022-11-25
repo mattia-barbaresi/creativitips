@@ -13,7 +13,7 @@
 *CHI: thep .
 *INV: yeah .
 *INV: its an aggt .
-*INV: can you say aggt .
+*INV: aggt .
 *CHI: aggt .
 *INV: aggt !
 *INV: yeah .
@@ -34,7 +34,6 @@
 *INV: they have yellow feet .
 *MOT: and green hands dont they ?
 *CHI: yes .
-*CHI: this ones .
 *INV: so  now this is a gopt .
 *CHI: gopt .
 *INV: yes .
@@ -105,7 +104,6 @@
 *CHI: Dimitras .
 *MOT: Dimitras .
 *INV: yes .
-*INV: thats mine .
 *CHI: no more .
 *INV: yes .
 *INV: um the money arent there ?
@@ -117,7 +115,6 @@
 *INV: three .
 *INV: I think there are more than three .
 *CHI: mhm .
-*INV: so we>
 *INV: how many do we have here ?
 *CHI: all gone .
 *INV: laughs .
@@ -160,7 +157,6 @@
 *CHI: Julian .
 *INV: whats that ?
 *CHI: Julian .
-*MOT: oh Julian .
 *CHI: one two .
 *MOT: you talking about Julian Sonia and Isabelle ?
 *MOT: its something to do with music group .
@@ -216,8 +212,7 @@
 *INV: what do we have in the bike ?
 *INV: that thats a dapt .
 *INV: thats a gopt .
-*CHI: two gopst .
-*INV: and thats an aggt .
+*INV: an aggt .
 *INV: two gopst .
 *INV: and what else do we have ?
 *CHI: hm .
@@ -227,8 +222,7 @@
 *INV: yes .
 *CHI: oh dear .
 *CHI: no toys !
-*CHI: all gone .
-*INV: no toys there .
+*INV: there .
 *INV: where are all the toys ?
 *CHI: whats this  Dimitra ?
 *INV: thats a plastic cover .
@@ -239,7 +233,7 @@
 *INV: more .
 *INV: two .
 *INV: three .
-*CHI: whats this now  Mummy ?
+*CHI: whats this ?
 *INV: thats a battery .
 *INV: so shall I show you ?
 *INV: how where these plastic covers go ?
@@ -254,7 +248,7 @@
 *CHI: ap done again .
 *INV: a done again .
 *CHI: oh .
-*INV: oh you cant would you like to pop it off ?
+*INV: would you like to pop it off ?
 *CHI: all done .
 *INV: like that .
 *INV: you press it hard  like that .
@@ -268,13 +262,11 @@
 *CHI: here it is .
 *INV: look at me .
 *INV: yeah .
-*INV: hold it up .
-*CHI: one ap Thomas .
 *INV: pop !
 *INV: one .
 *INV: yeah .
 *INV: Thomas has one and Dimitra has one .
-*INV: hold it hold the battery like I do .
+*INV: hold the battery like I do .
 *INV: Thomas .
 *INV: yeah !
 *INV: oops .
@@ -324,7 +316,6 @@
 *CHI: oh got here ?
 *INV: uh Dimitra has many things there that she should have put away a
 *CHI: telephone .
-*INV: how many>
 *INV: telephone ?
 *CHI: yes .
 *INV: yes ?
@@ -332,13 +323,11 @@
 *INV: and buttons you can press .
 *CHI: hello !
 *CHI: yeah .
-*MOT: youre going .
 *INV: who who are you going to talk to ?
 *CHI: Linda 0and Brian .
 *MOT: Linda and Brian .
 *MOT: you talk to Linda and Brian .
 *CHI: hello Linda 0and Brian .
-*INV: hello  Thomas .
 *CHI: hello Linda 0and Brian .
 *MOT: tell them what youre doing .
 *CHI: Dimitra coming .
@@ -416,14 +405,13 @@
 *INV: thank you .
 *INV: are you going to give any to our friends ?
 *CHI: friends .
-*INV: weve got>
 *INV: yeah .
 *INV: weve got our friends here .
 *CHI: friends .
 *CHI: red dapt .
 *CHI: here you are  dapt .
 *INV: yeah .
-*INV: these are the this is an aggt .
+*INV: this is an aggt .
 *CHI: yes .
 *INV: yes .
 *INV: so these are the
@@ -451,9 +439,7 @@
 *CHI: yes .
 *CHI: here you are  Dimitra .
 *INV: oh thank you .
-*CHI: one ap Brian .
 *MOT: one for Brian ?
-*CHI: one ap Brian>
 *CHI: here you are  Brian .
 *INV: youre putting it on the telephone ?
 *CHI: here da Brian .
@@ -472,7 +458,7 @@
 *CHI: postman book .
 *INV: Paddington Bear ?
 *MOT: postman book .
-*MOT: here you are  postman book .
+*MOT: postman book .
 *INV: oh .
 *CHI: oops oh dear .
 *CHI: thats Dimitras .
@@ -486,7 +472,6 @@
 *INV: mm .
 *INV: very nice .
 *MOT: now youve got your
-*CHI: blackcurrant on ap there .
 *MOT: yes .
 *MOT: youve got your drink behind you .
 *CHI: mhm .
@@ -524,14 +509,13 @@
 *CHI: yes .
 *INV: oh .
 *INV: oh .
-*INV: theres another one .
+*INV: another one .
 *INV: there .
 *CHI: laughs .
 *INV: whats that ?
 *CHI: the beads .
 *INV: theyre making a noise .
 *CHI: beads .
-*CHI: up a minute .
 *INV: up a minute ?
 *INV: and shake about .
 *INV: shake them about and make a big noise .
@@ -577,7 +561,6 @@
 *INV: we didnt put them all in your box .
 *INV: your empty box .
 *CHI: empty box .
-*INV: shall I>
 *CHI: no .
 *INV: night night .
 *INV: no ?
@@ -640,7 +623,6 @@
 *INV: would you would you like to come back ?
 *INV: and phone somebody ?
 *CHI: hm .
-*MOT: go make>
 *MOT: oh thats nice .
 *MOT: go and make a phonecall  Thomas .
 *CHI: yes .
@@ -674,7 +656,6 @@
 *INV: oh dear .
 *CHI: oh dear .
 *INV: oh dear .
-*CHI: all done .
 *INV: all done .
 *CHI: 0 .
 *CHI: laughs .
@@ -713,16 +694,15 @@
 *INV: yes .
 *CHI: jump .
 *INV: and youre jumping ?
-*INV: are you>
-*INV: thats another new thats a different noise .
+*INV: thats a different noise .
 *INV: oh nice .
-*CHI: dig dig dig .
+*CHI: dig .
 *INV: oh are you going to dig ?
 *CHI: yeah .
 *INV: mhm .
 *INV: will you be driving a digger ?
 *CHI: yeah .
-*INV: when you dig dig dig ?
+*INV: when you dig ?
 *CHI: yes .
 *CHI: ap thep bus 0 .
 *CHI: thep bus .
@@ -758,14 +738,13 @@
 *INV: its not going ?
 *CHI: no .
 *CHI: dig ap dig .
-*CHI: dig dig dig .
+*CHI: dig .
 *CHI: here it is .
 *CHI: oh toys .
 *INV: toys .
 *CHI: all done .
 *INV: do you remember what they are ?
-*INV: theyre all different arent they ?
-*CHI: no go>
+*INV: theyre all ?
 *CHI: no go .
 *INV: its not going .
 *INV: no .
@@ -786,8 +765,7 @@
 *CHI: no more .
 *INV: no more .
 *CHI: oh oh dear .
-*CHI: ap goings .
-*INV: theyre all there now .
+*INV: now .
 *INV: is it going now ?
 *CHI: yes .
 *INV: well then its not broken anymore is it ?
@@ -806,9 +784,9 @@
 *CHI: no go .
 *MOT: are you saying “no go” or “no do” ?
 *CHI: no dig .
-*CHI: no dig dig dig .
+*CHI: no dig .
 *MOT: not dig it .
-*MOT: no dig dig dig .
+*MOT: no dig .
 *MOT: but before were you saying “no do” or “no go” .
 *CHI: no go .
 *CHI: no wheels round and round .
@@ -820,7 +798,6 @@
 *CHI: no wheels .
 *CHI: no .
 *MOT: oh the going around .
-*INV: the wheels>
 *INV: oh right .
 *CHI: going .
 *CHI: yeah .
@@ -865,7 +842,7 @@
 *INV: you knocked the aggt over .
 *INV: thats the gopt .
 *CHI: oh dear .
-*CHI: ap gopt down .
+*CHI: ap .
 *INV: oh no .
 *CHI: Mummy ap stuck .
 *MOT: is it stuck ?
@@ -880,8 +857,7 @@
 *CHI: oh broken .
 *INV: this was broken ?
 *CHI: yeah .
-*MOT: oh a few of these are broken>
-*INV: oh yes it has .
+*MOT: oh a few of
 *MOT: these were second hand .
 *MOT: and the fire engine .
 *MOT: has something happened to the fire engine ?
@@ -903,12 +879,10 @@
 *MOT: this is your jigsaw isnt it ?
 *CHI: oh da ride thep bus .
 *CHI: yeah .
-*MOT: got all these different vehicles and they each have a number
-*MOT: and the number written tells us how they>
-*CHI: bangadrumtimec .
+*MOT: different vehicles and they each have a number
+*MOT: and the number written
 *MOT: oh its not .
 *MOT: its an elderly lady knitting .
-*MOT: its knitting needles .
 *CHI: bangadrumtimec .
 *MOT: and the number on there tells you how many people are in the car .
 *MOT: so that one says two .
@@ -959,14 +933,12 @@
 *CHI: whats this  Mummy .
 *MOT: I dont think you needta tell me what a a bus is .
 *MOT: thats a fire engine .
-*CHI: drive off>
-*MOT: Ill just put that up >
 *CHI: drive off .
 *MOT: is it going to drive off ?
 *CHI: two 0 ladders on .
 *CHI: ladders .
 *MOT: letters ?
-*CHI: no no no .
+*CHI: no .
 *CHI: ladders .
 *CHI: ladders .
 *CHI: ladders .
@@ -1005,8 +977,7 @@
 *MOT: a bit smaller than a mini bus but larger than a car .
 *MOT: number seven .
 *MOT: look at that .
-*MOT: you must be very important to ride in one of these .
-*CHI: a bee bah .
+*MOT: you must be very important .
 *CHI: bee bah .
 *MOT: a bee bah ?
 *CHI: yeah .
@@ -1038,8 +1009,7 @@
 *MOT: whats number ten ?
 *CHI: green bus .
 *MOT: a green bus .
-*MOT: oh that funny enough>
-*CHI: bee bah too .
+*MOT: oh that
 *MOT: the green bus is going backwards .
 *MOT: the bee bah too ?
 *MOT: look at all those .
@@ -1071,7 +1041,7 @@
 *MOT: its his yellow helmet .
 *CHI: whats this ?
 *MOT: its the firemans face .
-*CHI: big ladders ap high off .
+*CHI: big ladders ap .
 *MOT: yes .
 *MOT: thats right .
 *MOT: he has got ladders on the back hasnt he ?
@@ -1103,7 +1073,7 @@
 *MOT: Im sure there are green buss .
 *CHI: no orange .
 *MOT: oh there are those with stripes .
-*MOT: the white ones with blue and white uh sorry blue and
+*MOT: the white ones with blue and
 *CHI: yeah .
 *MOT: what color buss do we get most of the time ?
 *CHI: blue .
@@ -1233,20 +1203,17 @@
 *INV: oh .
 *MOT: the trains here  Thomas .
 *MOT: looks like some of its missing .
-*MOT: find some more bits>
-*CHI: no carriage .
 *MOT: no carriage ?
 *CHI: no .
 *MOT: no carriage ?
 *MOT: I think it might be in the box over here .
 *MOT: here we are .
-*INV: I dont think its you should put these in your mouth ,
+*INV: I dont think you should put these in your mouth ,
 *INV: dont know .
 *INV: where has it gone ?
 *CHI: no .
 *CHI: no carriage .
-*CHI: no carriage>
-*MOT: no the carriage is here  darling .
+*MOT: is here  darling .
 *MOT: it was another piece that the Mummy was looking for .
 *CHI: yes .
 *MOT: theres the carriage .
@@ -1387,12 +1354,10 @@
 *CHI: sun .
 *CHI: no red .
 *CHI: no driver .
-*CHI: no driver>
-*INV: theres no driver there ?
+*INV: driver there ?
 *CHI: no .
 *INV: where is the driver ?
 *CHI: where this door ?
-*CHI: no no .
 *INV: theres no door either ?
 *INV: oh there is a door .
 *INV: here it is .
@@ -1409,8 +1374,6 @@
 *CHI: 0 thep bash !
 *INV: theyre going to bash ?
 *CHI: yeah .
-*MOT: say yes .
-*INV: oh that's>
 *CHI: rubbish .
 *CHI: rubbish .
 *MOT: rubbish .
@@ -1710,8 +1673,6 @@
 *MOT: or sometimes we have tablets and put them in the machine .
 *MOT: and then what happens ?
 *CHI: press thep button !
-*CHI: na minute .
-*MOT: thats right .
 *MOT: you press the button .
 *MOT: and then we wait a minute and then what happens ?
 *CHI: phsso .

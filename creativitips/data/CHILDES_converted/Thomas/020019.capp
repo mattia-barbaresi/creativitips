@@ -45,8 +45,8 @@
 *CHI: mess .
 *MOT: yes .
 *MOT: it does look a mess .
-*CHI: where the mess .
-*MOT: she got her hair wet in the shower .
+*CHI: where .
+*MOT: in the shower .
 *CHI: oh shower .
 *MOT: shower .
 *MOT: and then somebody came to see us .
@@ -86,7 +86,7 @@
 *MOT: when I dress you upstairs I know exactly in one place .
 *MOT: but youre giddy this morning arent you ?
 *MOT: youve got to put slippers on as well rather than shoes because you
-*MOT: and Ive not had time not had time to clean your shoes
+*MOT: not had time to clean your shoes
 *MOT: lets have a look .
 *MOT: stand up .
 *CHI: e ah e .
@@ -109,7 +109,7 @@
 *MOT: one slipper .
 *MOT: two slippers .
 *MOT: right .
-*MOT: Mummys going upstairs for her hair brushing up because her
+*MOT: Mummys going upstairs for because her
 *INV: what are you doing ?
 *CHI: oop .
 *MOT: right .
@@ -168,7 +168,7 @@
 *MOT: everyone hide .
 *MOT: no Tiny Pig .
 *MOT: not behind your scarf .
-*MOT: whos behind the sofa ?
+*MOT: whos behind ?
 *CHI: Nin Nin .
 *MOT: whos behind the sofa ?
 *MOT: whos behind the sofa ?
@@ -189,7 +189,7 @@
 *MOT: it is .
 *MOT: its Big Pig .
 *CHI: 0 .
-*MOT: is it is it too big ?
+*MOT: is it too big ?
 *CHI: 0 .
 *MOT: oh Thomas .
 *MOT: now .
@@ -202,7 +202,7 @@
 *MOT: thats not a nice boy is it ?
 *MOT: its eleven oclock .
 *MOT: its time for your drink .
-*MOT: how about Mummy goes and gets you some milk and then you can
+*MOT: Mummy goes and gets you some milk and then you can
 *CHI: oops oh dear .
 *MOT: yes ?
 *MOT: would you like a drink ?
@@ -220,7 +220,7 @@
 *INV: juice .
 *INV: are you going to put some juice there ?
 *INV: oh theres some juice already .
-*INV: do you like juice ?
+*INV: juice ?
 *CHI: nice .
 *CHI: nice .
 *INV: nice heh ?
@@ -317,7 +317,6 @@
 *CHI: oh .
 *CHI: ap stuck .
 *MOT: we helped Wiggly Feet Pig find Tiny Pig .
-*CHI: all gone .
 *MOT: yes .
 *MOT: we needta stick that back on dont we ?
 *MOT: no not in your mouth .
@@ -340,8 +339,7 @@
 *CHI: beep beep .
 *MOT: is that what he said as he went past ?
 *MOT: beep beep .
-*MOT: he didnt stop today did he ?
-*CHI: all gone .
+*MOT: he didnt stop today ?
 *MOT: yes .
 *MOT: he has gone .
 *MOT: he came here this morning .
@@ -413,7 +411,7 @@
 *MOT: Sue is at work .
 *INV: where does she live ?
 *MOT: one Sue lives next door  that way .
-*MOT: with the three dogs the three big dogs .
+*MOT: with the three big dogs .
 *MOT: and then Sue another Sue lives over the road but she has a cat
 *INV: oops .
 *CHI: ooh .
@@ -425,15 +423,13 @@
 *MOT: and when the postman comes three dogs from that house and one dog
 *CHI: oh .
 *MOT: is that Dobbin ?
-*MOT: you want a ride on Dobbin ?
-*INV: Dobbins coming out .
 *MOT: did you spill some milk then ?
 *MOT: I thought I saw some milk .
 *CHI: no .
 *MOT: no .
 *MOT: now .
 *MOT: while youre having a ride on Dobbin Mummys going to mend your
-*MOT: want me to sing ?
+*MOT: sing ?
 *MOT: too busy watching arent you ?
 *MOT: nearly all your books have Sellotape on them  Thomas .
 *MOT: because were a bit hopeless arent we ?
@@ -543,8 +539,6 @@
 *INV: www .
 *CHI: no .
 *CHI: oh no .
-*MOT: he stopped .
-*INV: oh no .
 *MOT: hes tired .
 *MOT: hes tired now .
 *CHI: oh wow .
@@ -588,10 +582,9 @@
 *CHI: oh .
 *MOT: driving the tractor .
 *MOT: whats he doing ?
-*MOT: driving the tractor ?
-*CHI: beep beep .
+*MOT: tractor ?
 *MOT: oh look .
-*MOT: well take the well put the trailer down .
+*MOT: well put the trailer down .
 *CHI: yo .
 *MOT: something squeaked now .
 *MOT: what squeaked ?
@@ -631,7 +624,7 @@
 *MOT: there we are .
 *MOT: are you driving the tractor ?
 *MOT: what have you got on the back ?
-*MOT: wanna tell me what that is .
+*MOT: what that is .
 *CHI: wooo .
 *MOT: have you seen inside the tractor cab  Thomas ?
 *MOT: look .
@@ -705,10 +698,10 @@
 *MOT: yes .
 *MOT: its falling off isnt it ?
 *MOT: there we are .
-*MOT: lets put the horse would you like to put the horse in the
+*MOT: would you like to put the horse in the
 *MOT: thats right .
 *MOT: it isnt a trailer .
-*MOT: its a  I dont know what its called .
+*MOT: I dont know what its called .
 *CHI: ap this ?
 *MOT: a coach .
 *MOT: thats the the rider .
@@ -727,8 +720,7 @@
 *MOT: there we are .
 *MOT: the trains ready .
 *MOT: the trains pulling the horse .
-*MOT: whats it saying as its going along ?
-*CHI: a whoosh .
+*MOT: as its going along ?
 *MOT: beep beep .
 *MOT: beep beep .
 *CHI: oh dear .
@@ -742,7 +734,7 @@
 *MOT: oh somebodys at the door .
 *CHI: hush .
 *MOT: somebodys at the door .
-*INV: somebodys at the door .
+*INV: at the door .
 *CHI: hush .
 *MOT: www .
 *INV: whats going on ?
@@ -774,11 +766,10 @@
 *INV: see you  truck .
 *MOT: well it has driven off .
 *MOT: the man has driven off .
-*MOT: but the other mans staying .
+*MOT: but the staying .
 *CHI: see you  truck .
 *MOT: yes .
-*MOT: I think were going to have a look at the back  Thomas .
-*CHI: a blue truck .
+*MOT: I think .
 *INV: a blue truck .
 *CHI: all gone .
 *INV: all gone .
@@ -925,8 +916,6 @@
 *MOT: see the trees grow very very tra tall .
 *CHI: no .
 *MOT: and its nice because it means we cant see into anybodys house .
-*CHI: oops stuck woosh>
-*MOT: but sometimes they grow a little bit too tall light .
 *MOT: oh dear .
 *MOT: right .
 *MOT: are you going to ride Dobbin and Mummyll sing to you ?
@@ -938,7 +927,6 @@
 *MOT: two traffic cones .
 *CHI: two .
 *MOT: two .
-*CHI: ap more .
 *MOT: thats right .
 *MOT: you put them in there .
 *CHI: oh .
@@ -991,13 +979,11 @@
 *CHI: bus .
 *MOT: all done .
 *CHI: 0 .
-*MOT: no throwing .
 *INV: opa .
 *MOT: poor pussycat .
 *MOT: do you think the pussycat might like a ride in the trailer ?
 *MOT: or perhaps in the carriage of the train ?
 *MOT: what happened to blue truck that came in this morning ?
-*CHI: ap gone ?
 *MOT: it has gone hasnt it ?
 *MOT: two men arrived in a blue truck .
 *MOT: and one has driven off and the other ones in the garden cutting
@@ -1030,8 +1016,6 @@
 *MOT: look .
 *MOT: whats he doing ?
 *MOT: is he cutting down the trees ?
-*CHI: oh wow .
-*MOT: chop chop chop .
 *MOT: chop chop chop .
 *MOT: hes sawing .
 *MOT: seesaw .
@@ -1072,8 +1056,6 @@
 *CHI: oh .
 *CHI: oh .
 *MOT: weve watched those trees grow havent we ?
-*MOT: over the year .
-*CHI: oh dear dear>
 *MOT: the trees .
 *MOT: right .
 *MOT: shall we have a look at this now ?
@@ -1131,13 +1113,13 @@
 *MOT: wheres the bridge ?
 *MOT: trains go over the bridge .
 *CHI: here .
-*MOT: thats theres the bridge and its made of bricks .
+*MOT: theres the bridge and its made of bricks .
 *MOT: all the bricks are stacked up .
 *MOT: and there are tunnels and some of the trains like Thomas go on the
 *MOT: now .
 *MOT: look .
 *MOT: James goes over the bridge .
-*MOT: hes on top of the tun the bridge .
+*MOT: hes on top the bridge .
 *MOT: Thomas is under the bridge going through a tunnel and James is on
 *CHI: a bus .
 *MOT: and theres the bus .
@@ -1233,7 +1215,7 @@
 *MOT: is he better now ?
 *MOT: is Dobbin feeling better ?
 *MOT: are you looking after him ?
-*MOT: when you have a po a fall Mummy gives you a cuddle and a
+*MOT: when you have a fall Mummy gives you a cuddle and a
 *MOT: are you feeling better ?
 *MOT: are you feeling better ?
 *CHI: choc chocf ap peas .

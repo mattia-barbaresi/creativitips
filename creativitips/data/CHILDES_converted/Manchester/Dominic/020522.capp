@@ -130,8 +130,6 @@
 *INV: yes .
 *INV: like Mummys got on her tshirt .
 *MOT: yes .
-*MOT: that Mummy got from Daddy .
-*CHI: Mummy got Royal .
 *CHI: Mummy got Royal Mail .
 *MOT: thats right .
 *MOT: hey .
@@ -323,7 +321,7 @@
 *MOT: thank you .
 *CHI: Toby got any any passengers on .
 *CHI: oh .
-*CHI: Edward got Edward got passengers on .
+*CHI: Edward got passengers on .
 *MOT: has he ?
 *CHI: yeah .
 *MOT: oh .
@@ -580,7 +578,7 @@
 *MOT: be careful you dont put your garage on top of Pooh Bear .
 *CHI: that other Pooh Bear .
 *MOT: oh dear .
-*CHI: I got I got two Pooh Bears .
+*CHI: I got two Pooh Bears .
 *MOT: you have .
 *MOT: yes .
 *CHI: got two Pooh Bears .
@@ -674,7 +672,7 @@
 *MOT: theres some paper .
 *CHI: oh thank you .
 *MOT: I suppose you want something to draw with it .
-*CHI: want some want some chalk .
+*CHI: want some chalk .
 *MOT: oh .
 *MOT: there you go .
 *MOT: theres a bit .
@@ -688,7 +686,6 @@
 *CHI: thank you .
 *CHI: thank you .
 *INV: right .
-*MOT: shall we put it here .
 *INV: put it over there .
 *MOT: put it here .
 *MOT: well move the garage a bit .
@@ -895,7 +892,7 @@
 *MOT: there .
 *MOT: youve got some blue in here .
 *MOT: thats the only reason why you play with this blackboard .
-*MOT: so you can you can get the chalk dust off .
+*MOT: so you can get the chalk dust off .
 *CHI: dont want that one .
 *MOT: whoops .
 *CHI: that .
@@ -1129,7 +1126,7 @@
 *MOT: called a lamb .
 *CHI: yeah .
 *MOT: yes .
-*CHI: that called that called called baby sheep .
+*CHI: called baby sheep .
 *MOT: right .
 *CHI: thank you .
 *CHI: two chickens .
@@ -1353,7 +1350,7 @@
 *CHI: you you go get them .
 *MOT: theres only ever four  Dominic .
 *CHI: go get them .
-*MOT: I willnt I cant get them because there isnt any more .
+*MOT: I cant get them because there isnt any more .
 *CHI: I want other eggs .
 *MOT: there isnt any more .
 *CHI: where other eggs .
@@ -1412,7 +1409,7 @@
 *MOT: yeah .
 *MOT: Mummy Daddy eat it .
 *MOT: we havent had it for ages though .
-*CHI: I do eat I do eat it .
+*CHI: I do eat it .
 *MOT: I dont see how because weve not had it for ages .
 *MOT: oh .
 *MOT: mm .
@@ -1437,7 +1434,7 @@
 *MOT: could be .
 *MOT: yes .
 *INV: could be .
-*CHI: could be could be orangejuice .
+*CHI: could be orangejuice .
 *INV: mhm .
 *CHI: could be orangejuice .
 *CHI: I think .
@@ -1496,7 +1493,7 @@
 *CHI: I I ate them .
 *MOT: mhm .
 *MOT: I ate them .
-*CHI: I ate I did .
+*CHI: I did .
 *MOT: I did .
 *CHI: I did .
 *MOT: I did .
@@ -1584,7 +1581,7 @@
 *MOT: no .
 *MOT: right .
 *MOT: okay .
-*CHI: build tower build tower in box .
+*CHI: build tower in box .
 *MOT: okay .
 *MOT: oh .
 *INV: www .

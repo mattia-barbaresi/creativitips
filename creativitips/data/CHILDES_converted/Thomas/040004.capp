@@ -25,10 +25,9 @@
 *INV: tooto tooto .
 *CHI: whooo whooo .
 *CHI: 0 .
-*INV: what do you think this could be ?
-*MOT: can I join in ?
+*INV: what do you think ?
 *CHI: why not ?
-*MOT: Im not dressed for elegantly riding this train .
+*MOT: Im not dressed for elegantly .
 *INV: laughs .
 *INV: I know what this is .
 *INV: this could be where the steam comes out .
@@ -47,7 +46,7 @@
 *CHI: whooo .
 *INV: and Ill sit here and Ill go .
 *INV: ooh Im waiting for the train .
-*INV: its been a very long .
+*INV: its been a .
 *INV: oh here it comes .
 *INV: hello Mr Train Driver .
 *CHI: what can I do for you ?
@@ -76,7 +75,7 @@
 *INV: will I waiting on that platform again ?
 *INV: okay .
 *CHI: whooo .
-*INV: are you going to sing the Thomas The Tank Engine theme for me
+*INV: sing the Thomas The Tank Engine theme for me
 *INV: 0 .
 *MOT: 0 .
 *INV: are you gonna ring the bell ?
@@ -87,9 +86,9 @@
 *CHI: Manchester again .
 *INV: are you ?
 *INV: whereabouts in Manchester ?
-*CHI: uh round the bend round the bend round
-*INV: can I get off at the round the bend round the bend round the
-*INV: where you taking wheres that lady going on the end ?
+*CHI: uh round the bend round
+*INV: can I get off at the round the bend round the
+*INV: wheres that lady going on the end ?
 *INV: shes been on the train for weeks .
 *INV: laughs .
 *CHI: dingo .
@@ -117,7 +116,7 @@
 *INV: oh look theres lots of
 *CHI: 0 .
 *INV: oh I love going on the trains .
-*INV: you can see lots of things out the window .
+*INV: you can see lots of things .
 *CHI: 0 .
 *INV: look what I can see today .
 *CHI: whooo whooo .
@@ -140,7 +139,6 @@
 *CHI: 0 .
 *CHI: elephants eat banana skin .
 *INV: do they ?
-*INV: look at that face .
 *CHI: I could be a banana .
 *INV: I think this looks a bit like a banana as well .
 *CHI: I could be an elephant  Jeannine .
@@ -164,7 +162,7 @@
 *INV: and what does the trunk do ?
 *INV: oh .
 *CHI: squirt water out .
-*INV: I can see I can see an elephant on there can you ?
+*INV: I can see an elephant on there can you ?
 *MOT: whats your name  elephant ?
 *CHI: Elephant the Elephant .
 *INV: www .
@@ -178,7 +176,7 @@
 *INV: we could use elephants to put fires out couldnt we ?
 *INV: laughs .
 *MOT: laughs .
-*INV: is that your did you bring that out of bed with you ?
+*INV: did you bring that out of bed with you ?
 *MOT: no it was there when we came .
 *INV: www .
 *MOT: www .
@@ -189,7 +187,6 @@
 *INV: anyway .
 *CHI: you can be 0an elephant too .
 *INV: these are great actually arent they ?
-*CHI: you can be>
 *MOT: www .
 *INV: 0 .
 *INV: you know what noise an elephant makes ?
@@ -247,7 +244,6 @@
 *CHI: nothing .
 *INV: we know theyre doing something .
 *CHI: yes .
-*INV: dont we ?
 *INV: what were they doing ?
 *CHI: pinching your hair .
 *INV: they were pinching my hair .
@@ -282,13 +278,12 @@
 *CHI: uh uh .
 *CHI: 0 .
 *INV: what have you done with my
-*INV: is that the was that the elephant doing that ?
-*INV: Ill tell you Ill tell you what we can do .
+*INV: was that the elephant doing that ?
+*INV: Ill tell you what we can do .
 *CHI: what ?
-*INV: we can .
 *INV: we can play at fishing .
 *INV: look Ill make this into a fish like this .
-*CHI: I could them .
+*CHI: them .
 *INV: look this could be my fishing rod .
 *CHI: yeah .
 *CHI: I could be a cat .
@@ -332,7 +327,7 @@
 *CHI: Chocolate .
 *INV: why why are you called Chocolate ?
 *CHI: because Im a chocolate .
-*INV: does your youre not called Opal Fruit .
+*INV: youre not called Opal Fruit .
 *CHI: no .
 *INV: oh .
 *INV: 0 .
@@ -373,7 +368,7 @@
 *INV: lets fix it .
 *INV: Bob The Builder .
 *INV: there you go .
-*INV: this looks like how do you think we should do this one ?
+*INV: how do you think we should do this one ?
 *INV: careful .
 *INV: there you go .
 *INV: bang it again and screw it in .
@@ -392,7 +387,7 @@
 *INV: oh no  Im Bob .
 *INV: youre Wendy .
 *INV: just put it in .
-*CHI: Im not Im not .
+*CHI: Im not .
 *INV: there we go .
 *CHI: Im the cat remember .
 *INV: ah youre the cat .
@@ -414,7 +409,7 @@
 *INV: can you do that ?
 *CHI: cats cant do anything yet .
 *CHI: cats just go meowo .
-*INV: they do they dont they say something else .
+*INV: they dont they say something else .
 *INV: can you do that ?
 *INV: ah .
 *INV: Im just going to gonna take my little cat here and
@@ -445,11 +440,10 @@
 *INV: okay well sing Postman Pat but put Thomas The Tank Engine in .
 *INV: you ready ?
 *CHI: yeah .
-*INV: um early in the morning .
+*INV: um .
 *CHI: as the day is trains .
 *INV: laughs .
 *CHI: laughs .
-*INV: Thomas thinks hes a very happy train .
 *CHI: cat .
 *INV: oh its getting too confusing for me now .
 *INV: laughs .
@@ -464,7 +458,7 @@
 *INV: sticking the word train in everywhere it was quite good really
 *INV: are you being driver then  Mr Cat ?
 *CHI: meowo .
-*INV: can cats can cats drive trains ?
+*INV: can cats drive trains ?
 *CHI: no .
 *CHI: cant they  Mum ?
 *MOT: well Purdie cant .
@@ -486,7 +480,6 @@
 *INV: oh yeah .
 *MOT: somebody I was talking to said that at her little boys nursery the
 *MOT: and Penny was blamed for drawing a picture with crayons on the
-*INV: oh Penny .
 *MOT: said theyve got a very clever Penny .
 *INV: youve got a very clever clown  look .
 *INV: you know what the clown can do with the hulahoop .
@@ -529,7 +522,6 @@
 *CHI: laughs .
 *INV: laughs .
 *MOT: Thomas what songs do you know about fish ?
-*INV: one two three four five>
 *CHI: once I caught a shark .
 *INV: trust you to have caught a shark .
 *CHI: 0 .
@@ -557,16 +549,15 @@
 *CHI: ha .
 *MOT: uh dont throw .
 *MOT: why dont you collect them in your lorry and deliver them ?
-*INV: you could be a fish you could be a fish delivery man
+*INV: you could be a fish delivery man
 *MOT: fishmonger yes .
-*CHI: excuse me and make it smaller like this .
-*INV: excuse me .
+*CHI: excuse me and smaller like this .
 *INV: oh sorry was that fish too big ?
 *CHI: Ill show you .
 *CHI: you might squeeze into the little bit .
 *CHI: if you squeeze it like that .
 *CHI: see ?
-*INV: fine now what well what well hafta do is well hafta fold
+*INV: fine now what well hafta do is well hafta fold
 *INV: laughs .
 *INV: put it in there .
 *INV: there we go .
@@ -580,7 +571,7 @@
 *INV: how how does a fish become a fish finger ?
 *CHI: um you make it with a fish .
 *MOT: what do you do ?
-*INV: its just as well its got a how does a fish become a fish
+*INV: how does a fish become a fish
 *INV: has the fish got a finger ?
 *CHI: no .
 *INV: has Thomas got a finger ?
@@ -589,7 +580,7 @@
 *CHI: um cos .
 *INV: has this fish got a finger ?
 *CHI: no .
-*INV: but do you do you eat fish fingers ?
+*INV: but do you eat fish fingers ?
 *CHI: yeah .
 *INV: laughs .
 *INV: its very confusing isnt it ?
@@ -611,7 +602,7 @@
 *MOT: it smells very fishy .
 *INV: does it ?
 *INV: oh no .
-*INV: your poor your poor Mums been sat on that train for ages and
+*INV: your poor Mums been sat on that train for ages and
 *INV: do you wanna make that into a steering wheel and take your Mum
 *CHI: no but this could be the .
 *CHI: you could be in on that platform .
@@ -626,11 +617,9 @@
 *CHI: your one .
 *INV: oh Im there sorry .
 *INV: laughs .
-*INV: silly me .
 *MOT: there one of your passengers has collapsed on the box .
 *INV: oh .
 *INV: Mr Clown .
-*INV: what happened ?
 *CHI: laughs .
 *INV: oh he said the train drivers been driving very fast .
 *INV: and he fell off .
@@ -642,8 +631,7 @@
 *MOT: laughs .
 *CHI: Jeannine 0do 0you know what you are ?
 *CHI: a smelly pants .
-*INV: oh I knew that was coming .
-*MOT: oh Thomas no .
+*INV: was coming .
 *CHI: laughs .
 *MOT: its like Little Bo Peeps crook .
 *INV: laughs .
@@ -651,7 +639,7 @@
 *CHI: look whos here .
 *INV: oh Mr Clown I think hes being a clown dont you ?
 *CHI: a clown is .
-*INV: look that looks more like a chimney .
+*INV: look that looks .
 *MOT: Thomas dont throw .
 *INV: there you go .
 *CHI: them there now arent you ?
@@ -664,7 +652,6 @@
 *INV: I think he's
 *MOT: laughs .
 *INV: oh oh there he is oh .
-*INV: he just flew out the window .
 *CHI: well excuse me when I go dingo dingo say “at last” okay ?
 *INV: oh of course .
 *CHI: chooo hooo hooo dingo dingo .
@@ -679,7 +666,6 @@
 *INV: yeah cos policewoman .
 *CHI: Mr Clown .
 *INV: keep an eye on that clown cos .
-*MOT: Ill try .
 *MOT: ooh oh oh come here .
 *MOT: come here .
 *INV: Seargeant Lastname we must warn you .
@@ -699,7 +685,7 @@
 *INV: come on then .
 *INV: www .
 *INV: come on .
-*INV: lets get Thomas the trains going without us .
+*INV: Thomas the trains going without us .
 *INV: its a runaway train .
 *CHI: it wont cos I havent pulled the lever to get it 0to
 *CHI: oh look we needta get these on first .
@@ -728,7 +714,7 @@
 *INV: you shouldnt have any trouble with it now .
 *CHI: I can be the policeman as well .
 *INV: you can be the
-*INV: do you think look at his pink handcuffs theyre ridiculous .
+*INV: look at his pink handcuffs theyre ridiculous .
 *MOT: hello .
 *CHI: hello .
 *MOT: is that the policeman ?
@@ -739,30 +725,25 @@
 *CHI: I 0have
 *CHI: the police lady sit him and he .
 *CHI: with .
-*MOT: because of another problem  Police Officer .
+*MOT: another problem  Police Officer .
 *CHI: yep .
 *MOT: the train drivers gone missing as well .
 *INV: 0 .
-*INV: the runaway train went down the track and blew whoo .
 *INV: whoo .
 *INV: quickly how we gonna Thomas how we gonna
 *INV: Im gonna run after it and see .
 *CHI: Im gonna
 *INV: 0 .
-*INV: oh  can you grab can you grab ?
+*INV: oh  can you grab ?
 *MOT: oh youve got it .
 *INV: youve got him .
 *INV: well done .
-*INV: but theres still no one driving the train  Thomas .
-*MOT: well done .
+*INV: still no one driving the train  Thomas .
 *INV: quickly .
-*MOT: could you manage to drive ?
-*INV: could you manage ?
-*CHI: you could drive it  Jeannine .
-*INV: okay  Ill drive .
+*MOT: to drive ?
+*CHI: you could drive .
+*INV: drive .
 *CHI: I mean Mummy .
-*MOT: oh you want me to drive it do you ?
-*INV: oh you want Mummy to drive it .
 *INV: 0 .
 *INV: but no look whos driving now .
 *INV: oh .
@@ -779,14 +760,13 @@
 *MOT: boopo boopo .
 *INV: laughs .
 *CHI: the track  Mum .
-*INV: look at your Mummy using a track as a steering wheel .
+*INV: Mummy using a track as a steering wheel .
 *MOT: boopo boopo .
 *INV: laughs .
 *MOT: boopo boopo .
 *INV: its a good steering wheel though isnt it ?
 *CHI: yeah .
 *MOT: 0 .
-*INV: does anyone know whats happening now ?
 *CHI: my guests yesterday .
 *MOT: what .
 *CHI: train express yesterday .
@@ -794,7 +774,6 @@
 *MOT: can you pull them down on the floor  Thomas ?
 *CHI: like this ?
 *INV: ooh .
-*CHI: you over here >
 *CHI: you over here that Ive found .
 *CHI: miceywiceyc .
 *MOT: you found a mouse ?
@@ -817,15 +796,15 @@
 *MOT: would anybody like to get on the train ?
 *INV: yeah the dog said “woofo woofo” .
 *INV: ooh the dog said that hes hurt his leg and would like to go to the
-*INV: do you think does the train go to the vet ?
+*INV: does the train go to the vet ?
 *CHI: just pretend this was the vet .
 *INV: you know this .
-*CHI: I did I could be the vet .
+*CHI: I could be the vet .
 *MOT: Mr Fletcher .
 *INV: whats whats wrong with him ?
 *INV: let let me just listen .
 *INV: oh he was saying that he was playing with some superglue and he
-*CHI: and I could be I could be a cat as well .
+*CHI: and I could be a cat as well .
 *CHI: and I could go to the vet .
 *INV: ooh you are a cat as well arent you ?
 *INV: and its good because weve got some fish at the vets as well .
@@ -853,10 +832,9 @@
 *MOT: all aboard .
 *CHI: all on .
 *INV: right .
-*MOT: diddly dum diddly dum .
 *MOT: diddly dum .
 *MOT: diddly dum .
-*INV: this ones escaped from jail though .
+*MOT: diddly dum .
 *CHI: oh .
 *MOT: booo booo .
 *CHI: hey .
@@ -895,7 +873,7 @@
 *CHI: yep .
 *INV: okay Ill see what I can do .
 *MOT: its a wonder Mummy hasnt got bruises on her legs .
-*MOT: tell Jeannine what Daddy bought Mummy the other day .
+*MOT: tell Jeannine what .
 *INV: 0 .
 *CHI: scooter .
 *MOT: a scooter .
@@ -904,7 +882,7 @@
 *MOT: a scooter .
 *MOT: he said “this is your easter present” .
 *INV: youre joking .
-*MOT: he gave me an easter egg and a scooter .
+*MOT: me an easter egg and a scooter .
 *INV: does your Mum go on the scooter ?
 *MOT: yes but so far Daddys been on it every day with Thomas .
 *MOT: Thomas rides his bike and Daddy goes along on the scooter .
@@ -926,10 +904,7 @@
 *CHI: no .
 *INV: do you know any songs about cats ?
 *INV: are there any songs about cats ?
-*MOT: pussy cat pussy cat where have you been ?
-*INV: pussy cat where have you been ?
 *CHI: no .
-*MOT: Ive been to London to visit the queen .
 *CHI: stop that  Mum .
 *CHI: this cats trying to get comfortable .
 *MOT: is it ?
@@ -962,10 +937,9 @@
 *INV: no  okay .
 *INV: laughs .
 *CHI: I want a sleeping book .
-*INV: okay this is this is my shop .
+*INV: okay this is my shop .
 *MOT: I wouldnt mind buying some books .
 *INV: and um these are the books that I sell .
-*CHI: dingo the ding bell Jeannine .
 *MOT: Ill try .
 *MOT: wheres the doorbell ?
 *MOT: over here is it ?
@@ -978,15 +952,11 @@
 *MOT: oh yes .
 *MOT: I do .
 *MOT: yes .
-*MOT: just a minute .
-*INV: oh thats good .
 *INV: do you wanna go and find one then ?
 *CHI: yeah .
 *MOT: here puss .
 *CHI: meowo .
 *MOT: come on puss  lets go to the bookshop .
-*INV: oh hello .
-*MOT: this >
 *INV: look at these lovely books .
 *INV: would you like one ?
 *MOT: I think theres a Postman Pat book .
@@ -1002,10 +972,8 @@
 *INV: would you like them ?
 *CHI: but meowo .
 *INV: meowo no ?
-*INV: but then theres your theres a picture of your Mum on there
+*INV: theres a picture of your Mum on there
 *CHI: no .
-*INV: thats not you .
-*CHI: thats my cat .
 *INV: this is a mum cat .
 *INV: 0 .
 *CHI: meowo .
@@ -1033,7 +1001,7 @@
 *CHI: no I dont wanna .
 *CHI: dont want .
 *INV: but Thomas  its a present .
-*MOT: theres lots of pussycats in this one .
+*MOT: pussycats in this one .
 *MOT: look this is suitable for a cat .
 *MOT: whos that ?
 *MOT: hissso .
@@ -1059,11 +1027,11 @@
 *CHI: yeah .
 *MOT: half a Jess .
 *MOT: laughs .
-*INV: do you wanna have a go at making the other half of him ?
+*INV: the other half of him ?
 *INV: do you want me to get you a pen ?
 *MOT: theres a lot of things about Jess in here .
 *CHI: laughs .
-*INV: the cat do cats like mice ?
+*INV: do cats like mice ?
 *INV: 0 .
 *MOT: look  Thomas .
 *MOT: Postman Pat and his friends have each lost their hat .
@@ -1107,7 +1075,7 @@
 *CHI: lock him up .
 *MOT: lock him him up .
 *CHI: put him in my secret hiding place .
-*INV: is it I thought that was jail there .
+*INV: I thought that was jail there .
 *CHI: yeah .
 *CHI: would you say “here pussy pussy” .
 *INV: here pussy pussy .
@@ -1183,7 +1151,6 @@
 *CHI: I didnt save any for the mice .
 *INV: oh clever clever cat .
 *INV: theres a pen .
-*CHI: I dont want it .
 *INV: you dont want it ?
 *CHI: no .
 *INV: I thought you were gonna write the address first so
@@ -1231,7 +1198,7 @@
 *MOT: this is very nice and slidyn for mouse .
 *INV: www .
 *MOT: www .
-*INV: hello are you have you come to fix the last
+*INV: hello have you come to fix the last
 *CHI: yep .
 *INV: okay .
 *MOT: play on the train tracks .
@@ -1242,9 +1209,9 @@
 *MOT: havent we ?
 *INV: probably only got about fifteen minutes .
 *INV: let me go and have a quick look .
-*INV: so you see what you wanna play with .
-*INV: you have a think about it whilst I nip out .
-*MOT: shall we go on the train track ?
+*INV: see what you wanna play with .
+*INV: you have a think about it nip out .
+*MOT: train track ?
 *MOT: Thomas  do you know how to build the train track ?
 *CHI: no .
 *CHI: I wanna go down .
@@ -1254,14 +1221,12 @@
 *MOT: Tom  you cannot go with Apple .
 *MOT: Tom  come here .
 *INV: hey .
-*INV: did you think of something>
-*INV: weve got weve got twenty minutes .
+*INV: weve got twenty minutes .
 *CHI: look what Ive got for you .
 *INV: www .
 *INV: weve got twenty minutes so were going to fix this first .
 *INV: do you want
-*INV: this is where>
-*MOT: right you do that and Ill start building the train track .
+*MOT: and Ill start building the train track .
 *INV: okay .
 *MOT: you build that okay ?
 *CHI: oh I want a hammer .
@@ -1270,8 +1235,7 @@
 *MOT: be careful .
 *CHI: cut them into little pieces .
 *MOT: oh yes .
-*MOT: I made some little envelopes quite a long time ago .
-*INV: ah did you ?
+*MOT: I made some little envelopes quite a .
 *MOT: probably .
 *MOT: theyve probably gone now .
 *INV: do you want me to go and find them ?
@@ -1279,7 +1243,7 @@
 *INV: will you wait here and Ill find them ?
 *CHI: I will .
 *CHI: I wont .
-*INV: do you think do you think if I go and find them that you
+*INV: do you think if I go and find them that you
 *CHI: excuse me .
 *CHI: um  Mummy .
 *CHI: I thought I hand them in .
@@ -1302,7 +1266,6 @@
 *CHI: 0I dont need it any more .
 *INV: oh thats okay .
 *CHI: 0 .
-*INV: early in the morning as the day is dawning .
 *CHI: hello Mrs Bobbins .
 *MOT: Mrs Bobbins .
 *INV: hello .
@@ -1359,7 +1322,7 @@
 *MOT: oh dear .
 *INV: was that me ?
 *MOT: definitely .
-*CHI: is that me is that Apples number ?
+*CHI: is that Apples number ?
 *MOT: if it says Mrs Lastname oh Mr Lastname it must be for Daddy .
 *INV: oh its your Dad .
 *INV: why didnt I get any  Thomas ?
@@ -1368,8 +1331,6 @@
 *CHI: youre sposta read the letter .
 *INV: your Mum loves that track doesnt she ?
 *INV: shes always playing with it .
-*CHI: you can keep them .
-*INV: want me to help you  Thomas ?
 *MOT: Ive not played for a long time and I thought .
 *MOT: it keeps me quiet doesnt it ?
 *INV: laughs .
@@ -1426,8 +1387,7 @@
 *MOT: is Postman Pat going to answer the door ?
 *CHI: oops .
 *MOT: oh dear .
-*INV: hello  Ive come to deliver a drink .
-*MOT: oh  look .
+*INV: hello  Ive come to deliver .
 *INV: www .
 *MOT: www .
 *INV: www .
@@ -1435,7 +1395,6 @@
 *CHI: uh .
 *CHI: 0I had a saucer of milk .
 *MOT: youve just had a saucer of milk havent you ?
-*MOT: Im trying to build .
 *INV: how are we doing ?
 *INV: oh you know what you need you need Thomas to help you .
 *MOT: well ooh thats nice .
@@ -1450,10 +1409,10 @@
 *INV: and the train was gone .
 *CHI: burglars around .
 *INV: do you think it was a burglar ?
-*INV: do you think there was if there was a burglar here they'd
+*INV: if there was a burglar here they'd
 *CHI: oh .
 *CHI: look at this cupboard we had here .
-*INV: theres not you cant get in that cupboard .
+*INV: you cant get in that cupboard .
 *INV: does it open that cupboard ?
 *INV: oh it does .
 *INV: is it locked ?
@@ -1471,7 +1430,7 @@
 *CHI: every time I post it in when I get down on the floor they keep
 *INV: do you know why ?
 *INV: let me look .
-*INV: ooh its because someones ooh careful .
+*INV: ooh careful .
 *INV: youre okay  sweetheart ?
 *CHI: yeah .
 *INV: its because someones stolen the bottom of the post box .
@@ -1482,9 +1441,6 @@
 *INV: that you just post a letter .
 *INV: and .
 *MOT: I dont think there was ever a bottom to the postbox .
-*MOT: train >
-*CHI: this ones for you .
-*INV: I think this ones for me .
 *MOT: dont they ?
 *INV: is it for me ?
 *CHI: dont know .
@@ -1532,8 +1488,7 @@
 *CHI: yeah .
 *INV: oh its a ticket to the train track .
 *INV: lucky us  huh ?
-*INV: it means .
-*CHI: it says for only one person” .
+*CHI: for only one person” .
 *INV: is that what it says ?
 *INV: how many people do you needta build a train track ?
 *CHI: three .
@@ -1552,7 +1507,7 @@
 *INV: theres the platform .
 *INV: and there's
 *MOT: I think it slots in there .
-*MOT: thats the one Ill give this a little where do they belong
+*MOT: where do they belong
 *MOT: they go on the shop somewhere dont they ?
 *MOT: ooh behind the flower tubs thats where they go .
 *MOT: the other way round so we can read the words Poppy Street .
@@ -1567,7 +1522,7 @@
 *INV: www .
 *INV: www .
 *CHI: Mummy .
-*MOT: well I havent because its sposta look .
+*MOT: look .
 *MOT: weve got a dead end here .
 *MOT: I dont know how to &-uh
 *CHI: well lets move this way .
@@ -1624,7 +1579,7 @@
 *INV: do you know when this trains got to stop when it if its like
 *INV: stop or go ?
 *CHI: stop .
-*INV: because theres another theres another train passing here .
+*INV: because theres another train passing here .
 *CHI: just a carriage .
 *INV: stop .
 *INV: okay you can go now .
@@ -1633,7 +1588,7 @@
 *INV: whooo whooo just in time .
 *INV: are you taking them on holiday to the tree ?
 *CHI: on the track .
-*INV: uhoh uhoh .
+*INV: uhoh .
 *INV: its the end of the track for you  Mr Driver .
 *CHI: bird .
 *INV: www .
@@ -1648,8 +1603,6 @@
 *INV: this is their home isnt it ?
 *INV: were gonna go home and have fish and chips for tea .
 *MOT: thats nice .
-*INV: I know I quite fancy fish and chips for tea .
-*CHI: whoo whooo .
 *INV: all that talk of fish and chips .
 *MOT: yes .
 *INV: laughs .
@@ -1710,7 +1663,7 @@
 *MOT: the table here  please .
 *CHI: uh .
 *MOT: dont go out there .
-*MOT: Apple doesnt Thomas  come back .
+*MOT: Thomas  come back .
 *MOT: www .
 *CHI: oh no .
 *INV: where do you think these go  Thomas ?
@@ -1748,7 +1701,7 @@
 *MOT: you fell inside ?
 *INV: Fireman Sam gone to sleepyf ?
 *INV: 0 .
-*INV: ding ding ding ding ding ding dingo .
+*INV: dingo .
 *INV: fire on the track .
 *CHI: mhm .
 *INV: oh  poor fireman .
@@ -1790,12 +1743,9 @@
 *INV: hello .
 *CHI: laughs .
 *INV: ooh .
-*INV: he sounds very alive to me .
+*INV: he sounds very alive .
 *CHI: laughs .
-*INV: what do you think  Jean ?
-*MOT: he does doesnt he ?
-*INV: what do you think ?
-*MOT: I think hes quite alive .
+*MOT: alive .
 *CHI: laughs .
 *INV: I think hes a cheeky monkey thats what he is .
 *INV: weve only got three minutes left so we can put this away .
@@ -1813,8 +1763,7 @@
 *INV: Thomas Tomato Head .
 *CHI: and this .
 *INV: Thomas Tomato Head .
-*INV: hes got a head like a tomato .
-*MOT: is that all we had two trains and a mobile phone ?
+*MOT: mobile phone ?
 *CHI: pardon ?
 *MOT: two trains and a mobile phone is that what we brought ?
 *CHI: yep .
@@ -1824,8 +1773,6 @@
 *MOT: try and put them in boxes .
 *MOT: theres a very big load in here .
 *MOT: you could .
-*INV: dum dum dum dum .
-*CHI: yum yum yum yum .
 *INV: right  Thomas Tomato Head .
 *CHI: yum .
 *INV: youre for it this time .
@@ -1844,27 +1791,25 @@
 *INV: have I got a red face ?
 *CHI: yeah .
 *INV: I havent got a red face .
-*CHI: tomato your face >
-*INV: ooh ooh ooh ooh ooh .
-*INV: ooh ooh ooh .
+*INV: ooh .
+*INV: ooh .
 *MOT: little mouse  are you sure you put the mouse over here with the
 *CHI: no we wont .
 *CHI: hm .
-*INV: are you are you trying to stand on me like Im a train
+*INV: are you trying to stand on me like Im a train
 *CHI: yeah .
 *MOT: well your feet are stuck to the floor now so you cant .
-*CHI: I am .
 *CHI: laughs .
 *INV: I dont know where Thomas has gone .
 *MOT: I dont .
 *INV: oh well it was nice to see him anyway .
-*INV: oh there he is  got you .
+*INV: oh there he is .
 *INV: got you .
 *CHI: put it in the bed .
 *CHI: okay .
 *MOT: right  what about putting these other chairs around the table ?
 *CHI: you sit there .
-*INV: oh look doesnt it look it looks just like when we first
+*INV: oh look it looks just like when we first
 *CHI: yeah .
 *INV: youve done a good job .
 *MOT: very good job .

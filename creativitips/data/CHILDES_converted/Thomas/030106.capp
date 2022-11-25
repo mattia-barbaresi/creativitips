@@ -92,7 +92,6 @@
 *MOT: no .
 *INV: Thomas  its giving me a headache .
 *CHI: no .
-*CHI: Purdie giving>
 *CHI: giving Purdie headache .
 *INV: I know .
 *INV: nobody likes
@@ -124,7 +123,7 @@
 *MOT: that was Uncle Frank .
 *INV: uh ow .
 *MOT: oh Im confused now .
-*MOT: I think the fire engine was Uncle Frank was Mavis .
+*MOT: I think the fire engine was Mavis .
 *INV: is Mavis Aunty Franks wife ?
 *MOT: no .
 *MOT: Mavis is just a friend isnt she ?
@@ -206,7 +205,6 @@
 *INV: laughs .
 *MOT: laughs .
 *MOT: I think they
-*CHI: look what I found .
 *CHI: honey nut loop .
 *MOT: oh a honey nut loop .
 *INV: whats that ?
@@ -254,7 +252,7 @@
 *CHI: yeah .
 *MOT: and over the weekend one or two big lorrys stay for the weekend (.)
 *MOT: and a few weeks ago there was a yellow Schweppes Drinks lorry .
-*MOT: and this weekend theres been a Sch uh a
+*MOT: and this weekend theres been uh a
 *MOT: we went to see it on Sunday .
 *MOT: who came with us ?
 *CHI: dont know .
@@ -325,7 +323,7 @@
 *MOT: gas .
 *MOT: Ocean Gas .
 *CHI: Ocean Gas
-*MOT: like a like a petrol tanker isnt it ?
+*MOT: like a petrol tanker isnt it ?
 *INV: theyre a bit like trains arent they ?
 *CHI: yes .
 *MOT: oh they are arent they ?
@@ -336,8 +334,6 @@
 *CHI: a jelly crocodile .
 *CHI: a big jelly crocodile .
 *MOT: and a big jelly crocodile .
-*INV: on the track .
-*MOT: we set off .
 *MOT: oh no .
 *MOT: at the sweetie shop .
 *MOT: we set off in the morning for a quick walk to buy some milk and we
@@ -371,7 +367,7 @@
 *CHI: he go hammer .
 *MOT: thats my foot .
 *INV: he hammers Mummys shoe does he ?
-*INV: Thomas  Im going to send the police car round to arrest you
+*INV: Thomas  Im going to send the police car you
 *MOT: help .
 *INV: arrest you for hitting Mums feet .
 *CHI: theres a fire engine coming .
@@ -449,12 +445,12 @@
 *MOT: whats her Mummy called ?
 *INV: he knows doesnt he ?
 *CHI: dont know .
-*MOT: and whats her whats her Mummy called ?
+*MOT: and whats her Mummy called ?
 *CHI: Missus Thomas .
 *MOT: Missus Thomas .
 *MOT: its Jo .
-*CHI: its a man .
-*MOT: and Jos and Jos expecting a baby isnt she ?
+*CHI: man .
+*MOT: and Jos expecting a baby isnt she ?
 *MOT: in a few weeks .
 *CHI: dont need a belt .
 *MOT: well no .
@@ -535,7 +531,7 @@
 *INV: itll crash wont it ?
 *MOT: well Isabel bought you this for Christmas .
 *MOT: and this is the same thing .
-*MOT: a yellow car a orange car on one side and green on the other
+*MOT: a orange car on one side and green on the other
 *INV: oh .
 *INV: thats lovely isnt it ?
 *MOT: um Isabel bought you that didnt she ?
@@ -543,8 +539,8 @@
 *MOT: yes .
 *MOT: and you won this police car at Isabels party for doing a nice
 *MOT: of a snowman .
-*MOT: the best drawing .
-*INV: thats lovely as well .
+*MOT: the .
+*INV: as well .
 *MOT: lots of things .
 *MOT: this is just one of our many car boxes isnt it ?
 *INV: really ?
@@ -568,7 +564,7 @@
 *INV: does she not play with dolls and .
 *MOT: oh yes .
 *INV: she likes those as well .
-*INV: do they do they still play Barbie and Ken and Cindy and all
+*INV: do they still play Barbie and Ken and Cindy and all
 *MOT: um .
 *MOT: yes .
 *MOT: I dont think Isabel has those yet .
@@ -594,7 +590,6 @@
 *MOT: Thomas  be careful .
 *INV: so youve had quite a lot to eat today  Thomas .
 *INV: really .
-*MOT: he has .
 *MOT: and youve got to have tea before you go out because youre a tired
 *MOT: and I think youll be falling asleep in the car .
 *MOT: so well give you your tea before go out in the car .
@@ -648,7 +643,7 @@
 *CHI: Mummy  you help .
 *MOT: oh .
 *INV: your Mummys very good at it isnt she ?
-*INV: but will we show will we show her that we can do it too ?
+*INV: but will we show her that we can do it too ?
 *INV: try and build one like hers .
 *CHI: there you are .
 *MOT: oh Ive got to help I think .
@@ -701,7 +696,7 @@
 *MOT: I was trying to get that through there but
 *MOT: will that go through there ?
 *CHI: no .
-*CHI: that train that Didsbury Station got two lot big tracks .
+*CHI: that Didsbury Station got two lot big tracks .
 *MOT: Didsbury Station .
 *MOT: its its uh Burnage Station I think isnt it ?
 *CHI: I call it Didsbury Station .
@@ -793,13 +788,11 @@
 *MOT: a cab .
 *MOT: yes .
 *CHI: horse on the line .
-*INV: a horse on the line .
 *CHI: 0 .
 *INV: quickly .
 *INV: send the police .
 *CHI: nee nao nee nao .
 *CHI: train fallen on the road .
-*MOT: oh thats lovely .
 *INV: ah .
 *CHI: nee na@o
 *INV: we needta get the ambulance as well dont we ?
@@ -828,7 +821,7 @@
 *INV: oh no .
 *CHI: quick .
 *CHI: look .
-*INV: wheres that wheres that from ?
+*INV: wheres that from ?
 *CHI: its here .
 *MOT: oh is that from the police car ?
 *INV: oh its not broken is it ?
@@ -877,7 +870,6 @@
 *INV: everybody keeps crashing .
 *MOT: no .
 *MOT: I cant tell
-*CHI: all done .
 *CHI: look at that pink flower over there .
 *INV: is that real flower ?
 *MOT: yes .
@@ -899,7 +891,7 @@
 *INV: and wheres it going to take it to ?
 *INV: will we build a the little towns here ?
 *CHI: yeah .
-*INV: this is where this is where Jeannine lives .
+*INV: this is where Jeannine lives .
 *MOT: shame we could have done a better one .
 *CHI: oh dear .
 *INV: oh dear .
@@ -931,15 +923,14 @@
 *MOT: very possibly .
 *CHI: someones crossing the line .
 *INV: somebodys crossing the line .
-*INV: and what train
 *CHI: oh gosh .
 *INV: Thomas  be careful because look .
 *INV: heres someone crossing the line .
 *INV: and what would happen ?
 *CHI: 0 .
 *MOT: oh dear .
-*INV: thats not very you didnt pay much attention to that sign
-*CHI: this is this is  the ambulance train .
+*INV: you didnt pay much attention to that sign
+*CHI: this is  the ambulance train .
 *INV: oh I think I can see another accident about to happen .
 *INV: oh .
 *MOT: oops a daisy .
@@ -963,7 +954,6 @@
 *MOT: do you remember the story we heard the other day about the giant ?
 *CHI: yes .
 *MOT: what was it ?
-*CHI: dont know .
 *MOT: Jack And The Beanstalk .
 *CHI: giant all over the floor .
 *MOT: giant all over the floor .
@@ -982,13 +972,12 @@
 *CHI: then you say go .
 *INV: it means go ?
 *MOT: it must mean no something because theres a big cross through it .
-*INV: maybe it means watch out theres a bridge .
-*MOT: no crossing the line or something .
+*INV: maybe it means .
+*MOT: or something .
 *INV: yes .
-*INV: and so .
 *MOT: look .
 *MOT: weve nearly done this now .
-*INV: it does encourage you to buy to buy another box doesnt it
+*INV: it does encourage you to buy another box doesnt it
 *MOT: perhaps thats what it is .
 *MOT: yes .
 *INV: Thomas  this is a lovely forest with lots of animals and trees .
@@ -1026,7 +1015,7 @@
 *CHI: oops .
 *CHI: wont be a minute .
 *MOT: are you still playing with the track ?
-*INV: that doesnt that doesnt go on the track does it ?
+*INV: that doesnt go on the track does it ?
 *MOT: oh no .
 *INV: its far too big .
 *MOT: yes .
@@ -1075,7 +1064,7 @@
 *CHI: yes .
 *INV: have you been .
 *MOT: you love the slide dont you ?
-*INV: have you been have you been on a roundabout as well ?
+*INV: have you been on a roundabout as well ?
 *CHI: yes .
 *INV: and who were you playing with today ?
 *CHI: um just Charlotte .
@@ -1175,7 +1164,7 @@
 *INV: Jeannine .
 *INV: me .
 *INV: I thought I was an ambulance .
-*INV: Im a so Im an ambulance .
+*INV: so Im an ambulance .
 *INV: a silly woman .
 *INV: a wonerc and a Mister .
 *INV: is that right  Thomas ?
@@ -1183,7 +1172,7 @@
 *INV: and a police car .
 *INV: wow Im very lucky arent I ?
 *INV: Im everything .
-*CHI: Jeannine is a silly woman .
+*CHI: a silly woman .
 *MOT: Thomas  please .
 *MOT: get your feet off .
 *MOT: Thomas  off the chairs .
@@ -1217,7 +1206,6 @@
 *CHI: I got a
 *CHI: I got a
 *CHI: I got a play .
-*CHI: I got>
 *INV: these are quite like mine arent they  Thomas ?
 *INV: well .
 *INV: what do you think ?
@@ -1227,7 +1215,7 @@
 *CHI: Im making  a train track .
 *INV: youre making a train track now .
 *CHI: yes .
-*INV: do you think do you think the shoe will fit me ?
+*INV: do you think the shoe will fit me ?
 *CHI: laughs .
 *MOT: what does Purdie think ?
 *MOT: what do you think  Purdie ?
@@ -1392,7 +1380,7 @@
 *CHI: good bye .
 *MOT: hello  Puss .
 *INV: oh youve gone again .
-*INV: oh I wish I wish the snake would come out .
+*INV: oh I wish the snake would come out .
 *MOT: oh the snake or the crocodile .
 *INV: the big snake .
 *INV: wheres the big snake Thomas sometimes pretends he is ?
@@ -1510,8 +1498,7 @@
 *CHI: goodbye .
 *MOT: see you tomorrow .
 *CHI: see you morrowc .
-*CHI: then the and then the other snake .
-*CHI: see you morrow@c>
+*CHI: and then the other snake .
 *MOT: see you tomorrow .
 *MOT: oh dear .
 *MOT: oh Purdie  what a noise .
@@ -1570,7 +1557,7 @@
 *CHI: and then .
 *INV: I think I need an ambulance again .
 *CHI: 0 .
-*CHI: Im a fireman your area .
+*CHI: Im a fireman .
 *MOT: oh right .
 *INV: whats that ?
 *CHI: its a telephone .
@@ -1584,7 +1571,7 @@
 *INV: Id like to report a bitten finger by a crocodile .
 *CHI: yeah .
 *INV: okay .
-*INV: is it is it possible to send an ambulance for my finger that
+*INV: is it possible to send an ambulance for my finger that
 *CHI: yes .
 *INV: okay .
 *INV: thank you .
@@ -1611,7 +1598,7 @@
 *INV: hello .
 *INV: is that the ambulance ?
 *CHI: no .
-*CHI: its the its the fire engine man .
+*CHI: its the fire engine man .
 *INV: oh fire engine man  theres a crocodile on the loose and it (h)as
 *INV: and it has bitten Jeannine .
 *CHI: yes .
@@ -1661,7 +1648,7 @@
 *INV: ow .
 *INV: Jean  quick .
 *INV: do something .
-*INV: dont be dont be scared .
+*INV: dont be scared .
 *CHI: laughs .
 *INV: I think you should come and save me  Thomas .
 *INV: from the crocodile .
@@ -1813,8 +1800,8 @@
 *MOT: Im wearing a skirt .
 *CHI: look .
 *MOT: what do you mean  Thomas ?
-*CHI: its of its of a skirt .
-*MOT: its of a skirt .
+*CHI: its of a skirt .
+*MOT: a skirt .
 *MOT: it is a skirt .
 *MOT: are you wearing a skirt ?
 *CHI: no .

@@ -18,7 +18,7 @@
 *MOT: oh dear .
 *MOT: do you want a tissue ?
 *CHI: yeah .
-*MOT: are you sneezy sneezing ?
+*MOT: sneezy sneezing ?
 *MOT: right .
 *MOT: what shall we play with then ?
 *MOT: gonna find me something to play with ?
@@ -305,8 +305,6 @@
 *INV: hm ?
 *INV: has it lost its squeak ?
 *CHI: daddy .
-*MOT: wheres his squeak gone ?
-*INV: are you squeaking instead .
 *MOT: did squeak go down there ?
 *CHI: yeah .
 *MOT: oh .
@@ -720,7 +718,7 @@
 *MOT: more shoes .
 *INV: mm .
 *MOT: oh .
-*MOT: I think wed better wipe your nose if youre gonna  going to]
+*MOT: I think wed better wipe your nose if youre gonna
 *INV: is that nice pear ?
 *MOT: get it .
 *MOT: www .
@@ -793,8 +791,6 @@
 *MOT: oh .
 *MOT: do you know what that is ?
 *CHI: whale .
-*MOT: a whale .
-*INV: a whale .
 *MOT: yeah .
 *MOT: oh .
 *CHI: oh .
@@ -1064,7 +1060,7 @@
 *MOT: wanna use your hammer ?
 *MOT: if it works .
 *CHI: yeah .
-*MOT: I dont know if the batterys .
+*MOT: know if the batterys .
 *CHI: lady .
 *CHI: lady .
 *MOT: are you going to hammer ?
@@ -1121,7 +1117,7 @@
 *INV: hello .
 *MOT: what do you wanna do now ?
 *CHI: car .
-*MOT: what do you wanna do in the car ?
+*MOT: what do you wanna do car ?
 *CHI: car .
 *CHI: yeah .
 *MOT: and where do you wanna go ?

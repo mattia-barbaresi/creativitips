@@ -68,13 +68,10 @@
 *MOT: oh yes .
 *CHI: no .
 *CHI: 0 .
-*MOT: come on .
 *CHI: 0 .
-*MOT: dont be silly .
 *CHI: 0 .
 *MOT: listen .
 *CHI: 0 .
-*MOT: if we get your hands wiped>
 *CHI: 0 .
 *CHI: no .
 *MOT: darling  dont get distressed .
@@ -132,7 +129,6 @@
 *CHI: 0 .
 *CHI: big lorry .
 *CHI: shh .
-*CHI: big lorry .
 *MOT: big lorry .
 *MOT: why are you whispering again  Thomas ?
 *CHI: look pussy cat Purdie .
@@ -191,7 +187,7 @@
 *CHI: get a lid .
 *MOT: the door was stuck was it ?
 *CHI: yes .
-*CHI: go and get a lid .
+*CHI: get a lid .
 *MOT: get a lid .
 *MOT: are you talking about when the fireman smothered the pan with a
 *MOT: or you could put the pan lid on just block the flames .
@@ -201,7 +197,7 @@
 *MOT: you were talking about .
 *CHI: big fire engine .
 *CHI: Purdie up .
-*CHI: help me get Purdie out please .
+*CHI: get Purdie out please .
 *MOT: get Purdie out please .
 *MOT: well weve talked before about if pussycats get stuck up trees
 *CHI: thank you .
@@ -211,7 +207,6 @@
 *MOT: tad much indeed .
 *MOT: is that what youre saying to the fireman ?
 *CHI: hm .
-*CHI: stuck in>
 *CHI: a Purdie stuck ap tree .
 *MOT: oh Iss stuck in the tree .
 *CHI: thanks .
@@ -242,7 +237,6 @@
 *MOT: shh shh .
 *MOT: youre going from one extreme to another .
 *MOT: a few moments ago I asked you not to whisper and now you're
-*MOT: whats this silly billy@wp>
 *MOT: alright  Thomas .
 *MOT: yes .
 *MOT: we know what a fire engine says thank you .
@@ -288,12 +282,11 @@
 *MOT: wrong .
 *CHI: no .
 *MOT: listen .
-*MOT: if you realized that when we get dressed quickly>
-*CHI: no realize now .
+*MOT: if you realized that when we get
 *MOT: no realize now .
 *MOT: listen  sweetheart .
 *MOT: when we do things quickly
-*MOT: when we get dressed quickly we can go on to do other things .
+*MOT: when we get we can go on to do other things .
 *CHI: 0 .
 *CHI: no .
 *MOT: yes .
@@ -301,7 +294,6 @@
 *MOT: like Bob The Builder says +"/.
 *MOT: yes we can .
 *MOT: oh yes .
-*MOT: youre very whingy today and I dont know why .
 *CHI: 0 .
 *MOT: there has been no music lesson this morning .
 *CHI: 0 .
@@ -335,7 +327,7 @@
 *CHI: lid the wipes .
 *CHI: yes .
 *CHI: yes please .
-*CHI: sort it out for you .
+*CHI: sort it out .
 *CHI: tad much indeed .
 *MOT: sort it out for you .
 *MOT: tad much indeed .
@@ -382,7 +374,7 @@
 *CHI: Mummy  a fire engine alarm .
 *MOT: a fire engine alarm .
 *MOT: no .
-*MOT: its just its either an alarm on a house or an alarm on a
+*MOT: its either an alarm on a house or an alarm on a
 *MOT: but we can hear it cant we ?
 *CHI: hm .
 *CHI: not see it .
@@ -410,7 +402,7 @@
 *CHI: see .
 *CHI: never see big .
 *MOT: are you telling me you didnt see the red bus properly because
-*CHI: upstairs see ap ap see red bus came .
+*CHI: upstairs ap see red bus came .
 *MOT: oh I see .
 *MOT: well sometimes when youre upstairs looking out of your bedroom
 *MOT: going .
@@ -428,7 +420,7 @@
 *CHI: not see it .
 *MOT: no .
 *MOT: he has gone now .
-*MOT: youll see him Itll be Monday now before you see him
+*MOT: Itll be Monday now before you see him
 *CHI: another alarm .
 *MOT: another alarm .
 *MOT: I think its the same alarm .
@@ -523,16 +515,14 @@
 *MOT: and on there .
 *CHI: two rainbow .
 *MOT: two rainbows .
-*MOT: and on there theres something>
-*CHI: big baby rainbow .
+*MOT: and on there
 *CHI: a big rainbow .
 *MOT: a baby rainbow and a big rainbow .
 *MOT: so every page has a picture with something on it starting with that
 *MOT: like the first one has an elephant under a letter el and the last
 *MOT: so what can we see ?
 *CHI: baby not inside the box .
-*CHI: big rainbow there .
-*CHI: big rainbow there>
+*CHI: big .
 *CHI: baby one .
 *MOT: just let me let Purdie out of the door because I think she wants to
 *MOT: oh I can hear the alarm more clearly now .
@@ -597,10 +587,9 @@
 *CHI: lelec piece
 *MOT: 0 .
 *MOT: oh excuse me .
-*MOT: shall we put it back to>
+*MOT: shall we put it
 *CHI: 0 .
-*MOT: oh youre sneezing now .
-*CHI: whats this ?
+*MOT: oh youre .
 *CHI: whats this ?
 *MOT: that looks to me a little bit like a lizard .
 *MOT: you sneezed after I sneezed .
@@ -650,7 +639,6 @@
 *MOT: orange snake and a green snake .
 *MOT: well I think the orange snake is a caterpillar because it begins
 *MOT: and I think
-*CHI: eyes come off .
 *MOT: and I think what youre calling the green snake is actually a
 *MOT: that begins with ll and thats on this page .
 *CHI: whats this ?
@@ -671,7 +659,7 @@
 *MOT: well you know what that is .
 *CHI: whats this ?
 *MOT: and you know what that is .
-*MOT: if youre just going to point to everything and say whats this>
+*MOT: if youre just going to point to everything and say
 *CHI: whats this ?
 *CHI: a rainbow .
 *MOT: a rainbow .
@@ -681,8 +669,7 @@
 *MOT: thats an iguana .
 *CHI: whats this ?
 *MOT: iguana .
-*MOT: thats a jolly hard word for you to learn isnt it ?
-*CHI: whats this>
+*MOT: thats a jolly hard word for you to learn ?
 *MOT: oh what do you think that is  Thomas ?
 *MOT: youve been talking about those earlier today .
 *CHI: eyes 0have come off elephants .
@@ -783,7 +770,7 @@
 *MOT: youve actually pointed to the letter al and said apple and there
 *CHI: no .
 *MOT: al is for apple .
-*CHI: the apple over there .
+*CHI: the apple .
 *MOT: I cant see a picture of an apple on that page can you ?
 *CHI: oh yes .
 *CHI: two apples .
@@ -855,7 +842,7 @@
 *CHI: 0 .
 *MOT: ah she wouldnt be very pleased if she could see that would
 *CHI: 0 stop .
-*MOT: your little wooden trains are here  with the bridge .
+*MOT: your little wooden trains are here .
 *CHI: no no .
 *MOT: alright  Thomas .
 *MOT: dont get ratty .
@@ -868,8 +855,7 @@
 *MOT: hows that ?
 *MOT: thats a sturdy tunnel .
 *MOT: thats a nice tunnel .
-*MOT: now wheres the bus going to ?
-*CHI: oh no .
+*MOT: now wheres the bus ?
 *CHI: 0 .
 *CHI: oh no
 *CHI: the train not go .
@@ -892,8 +878,8 @@
 *CHI: wash it .
 *CHI: hide .
 *MOT: the bus is going under the tunnel .
-*CHI: train hiding the tunnel .
-*MOT: but the train the train can go over the bridge cant it ?
+*CHI: train tunnel .
+*MOT: the train can go over the bridge cant it ?
 *CHI: Thomas The Tankenginebridgec .
 *MOT: Thomas The Tankenginebridgec .
 *MOT: is this what you call the Thomas The Tankenginebridgec ?
@@ -901,7 +887,7 @@
 *CHI: no .
 *CHI: not working .
 *CHI: 0 .
-*MOT: why have you just thrown that over the air in the air ?
+*MOT: why have you just thrown that in the air ?
 *MOT: Thomas  youve just picked that wooden bridge up and thrown it in
 *CHI: no .
 *MOT: you have .
@@ -915,7 +901,6 @@
 *MOT: listen .
 *MOT: if Purdie had been walking through the door and you had thrown
 *CHI: 0 .
-*MOT: it would have hurt Purdie .
 *CHI: 0 .
 *MOT: and then you would have been really sorry wouldnt you ?
 *MOT: you wouldnt have been sorry .
@@ -926,11 +911,9 @@
 *MOT: you want a wipe .
 *CHI: 0 .
 *CHI: 0 .
-*MOT: you want a wipe .
 *MOT: you want Mummy to wipe your tears .
 *CHI: yes .
 *CHI: 0 .
-*MOT: what do you say ?
 *CHI: no .
 *MOT: there we are .
 *MOT: wipe the tears .
@@ -943,7 +926,6 @@
 *MOT: shall we have a little break ?
 *CHI: no .
 *CHI: 0 .
-*MOT: do you want a little break  Thomas .
 *CHI: oh yes .
 *CHI: bridge .
 *MOT: whats happening now ?
@@ -990,7 +972,6 @@
 *MOT: one named Peter .
 *MOT: whats the other one called ?
 *CHI: no .
-*CHI: no Paul .
 *MOT: no Paul .
 *MOT: no Paul .
 *MOT: alright .
@@ -1014,7 +995,6 @@
 *CHI: here .
 *MOT: oh there .
 *MOT: I thought that was a cow  Thomas .
-*MOT: what does>
 *CHI: no .
 *CHI: a baalambc .
 *MOT: is it a baalambc ?
@@ -1142,7 +1122,6 @@
 *CHI: no .
 *MOT: no .
 *CHI: no .
-*CHI: put it away .
 *MOT: you wanna put it away .
 *MOT: fine .
 *MOT: shall we put it back in this nice box ?
@@ -1165,10 +1144,7 @@
 *CHI: 0 .
 *CHI: the ears 0have .
 *CHI: the ears 0have
-*CHI: come off>
 *CHI: the ears 0have
-*CHI: Mummy do it .
-*CHI: Mummy do it>
 *MOT: I thought you wanted to help putting it back in the box .
 *CHI: no .
 *MOT: but I thought we had agreed  Thomas .
@@ -1238,7 +1214,6 @@
 *CHI: drop one .
 *MOT: it doesnt matter .
 *MOT: there are plenty more .
-*CHI: big one there .
 *CHI: piece of wood .
 *MOT: yes .
 *MOT: a piece of wood .
@@ -1286,9 +1261,8 @@
 *MOT: youre trying to make a crane with the coathangers .
 *MOT: there we are .
 *MOT: look at that .
-*MOT: oh this looks .
 *CHI: crane .
-*MOT: this looks like something they useta make on Blue Peter when
+*MOT: they useta make on Blue Peter when
 *CHI: crane .
 *MOT: an Advent Calender .
 *MOT: oh look at that .
@@ -1297,20 +1271,16 @@
 *MOT: it looks like the mobile that hangs in your bedroom .
 *MOT: do you remember when you were a baby you had the mobile over your
 *CHI: yes .
-*MOT: well weve still weve still go the mobile in the
+*MOT: weve still go the mobile in the
 *MOT: weve just moved it .
 *CHI: oh no .
 *MOT: oh have they all fallen over ?
 *CHI: yes .
-*CHI: Mummy do it .
-*CHI: Mummy do it>
 *MOT: give me the coathangers .
 *CHI: 0 .
 *MOT: look .
 *MOT: its like fishing isnt it ?
 *CHI: no .
-*CHI: Mummy do it .
-*CHI: Mummy do it .
 *MOT: Mummy do it .
 *MOT: you want me do to what I did before .
 *CHI: yes .
@@ -1320,18 +1290,15 @@
 *MOT: were just putting two brown plastic coathangers on to it .
 *CHI: 0 .
 *MOT: and were holding it up with a brown coathanger .
-*CHI: Thomas do it .
 *MOT: look .
 *MOT: weve got a white coathanger .
 *MOT: shall we hang that from there ?
 *CHI: no .
 *CHI: 0 .
-*MOT: Thomas  what is the matter .
 *CHI: it fall .
 *MOT: it hasnt fallen over .
 *MOT: we put it down .
 *MOT: we can do it again .
-*CHI: oh no .
 *MOT: there you are .
 *MOT: now you put a coathanger there .
 *MOT: its like fishing .
@@ -1339,12 +1306,11 @@
 *MOT: its this bit we hook on .
 *MOT: its that bit there that we hook on .
 *CHI: 0 .
-*MOT: and you hook that bit .
+*MOT: and you hook .
 *MOT: no .
 *MOT: this bit needs to go through there .
 *MOT: this side .
 *MOT: youre half laughing and half crying arent you ?
-*CHI: no do it .
 *MOT: no .
 *MOT: you can do it .
 *MOT: look .
@@ -1353,14 +1319,9 @@
 *MOT: another one .
 *MOT: well should we do the wooden one ?
 *MOT: shall we do .
-*CHI: Mummy do it .
 *MOT: shall we do that with the wooden one ?
-*CHI: Mummy do>
-*CHI: fall over .
-*MOT: its all over .
 *MOT: I think its time for a little break  Thomas .
 *CHI: no .
-*CHI: fall over .
 *MOT: its alright .
 *MOT: it doesnt matter .
 *MOT: lets have a drink of milk .

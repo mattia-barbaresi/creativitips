@@ -26,13 +26,10 @@
 *INV: www .
 *CHI: look .
 *MOT: look .
-*MOT: who is it ?
 *CHI: look .
 *CHI: look .
 *INV: what is it ?
 *CHI: Tots tv .
-*MOT: what is it ?
-*INV: is that Tots tiny ?
 *INV: no .
 *MOT: what who is it ?
 *MOT: who is it ?
@@ -404,8 +401,6 @@
 *INV: there was a yes in there .
 *CHI: no .
 *CHI: out of breath .
-*MOT: out of breath .
-*INV: out of breath .
 *INV: are you ?
 *INV: get your breath back for a minute .
 *MOT: thats a bit dramatic .
@@ -506,7 +501,7 @@
 *MOT: bruises .
 *MOT: thats because you climb down steps .
 *MOT: because you willnt step  will you ?
-*INV: when you walk down the climb down the step .
+*INV: when you climb down the step .
 *MOT: www .
 *MOT: bump .
 *MOT: is that very tiring ?
@@ -603,8 +598,7 @@
 *CHI: come out .
 *CHI: a in there .
 *MOT: oh .
-*MOT: did it come out of there ?
-*INV: in there .
+*MOT: did it come ?
 *CHI: look .
 *MOT: look ?
 *MOT: you wanna look ?
@@ -649,8 +643,7 @@
 *CHI: I win .
 *CHI: a big one .
 *CHI: a little one .
-*MOT: a big one and a little one .
-*INV: little one and a big one .
+*MOT: a .
 *CHI: big big one and little one .
 *MOT: oh .
 *MOT: was that a big one or was that a little one ?
@@ -696,8 +689,6 @@
 *MOT: www .
 *CHI: rabbit .
 *CHI: ready .
-*MOT: oh is that where the rabbit goes ?
-*INV: birdy in a cage ?
 *MOT: www .
 *INV: is it a rabbit in a cage or a birdy in a cage ?
 *CHI: no .
@@ -788,7 +779,7 @@
 *MOT: youre squeezing .
 *MOT: thats good .
 *MOT: because you usually go and hide behind the curtain  dont you ?
-*MOT: it might it might have been just a wee wee .
+*MOT: it might have been just a wee wee .
 *MOT: still no nearer the pottie  are we ?
 *MOT: www .
 *CHI: go on the floor .
@@ -861,7 +852,7 @@
 *MOT: thats Kirsten .
 *MOT: do you love Kirsten ?
 *CHI: yeah .
-*MOT: gonna  give her a big kiss ?
+*MOT: give her a big kiss ?
 *CHI: yeah .
 *MOT: ah .
 *MOT: oh .
@@ -969,8 +960,6 @@
 *MOT: do you like cake and custard ?
 *CHI: mhm .
 *CHI: see you .
-*MOT: see you .
-*INV: see you .
 *MOT: do you like cake and custard best ?
 *CHI: put these back .
 *MOT: you put them back ?
@@ -1055,7 +1044,7 @@
 *MOT: whos that ?
 *MOT: www .
 *CHI: want watch teddybears .
-*MOT: can we can we put it on in a bit ?
+*MOT: can we put it on in a bit ?
 *CHI: want it .
 *INV: how about in ten minutes ?
 *INV: you can have it in ten minutes time .
@@ -1072,11 +1061,9 @@
 *MOT: what did she say ?
 *MOT: oh .
 *MOT: is that what she said ?
-*MOT: and did she ask did she say  hello  darling ?
+*MOT: did she say  hello  darling ?
 *MOT: because thats what Mama Doris says  isnt it ?
 *CHI: um  byebye  darling .
-*MOT: byebye  darling .
-*MOT: byebye  darling .
 *MOT: and did she give you a big kiss down the phone ?
 *CHI: yeah .
 *MOT: did she go
@@ -1397,8 +1384,6 @@
 *MOT: yeah .
 *MOT: I bet Grandmas taped it for you .
 *MOT: she usually does  doesnt she ?
-*CHI: book .
-*MOT: and then you sit and watch it for three hours .
 *CHI: book .
 *MOT: www .
 *CHI: book .

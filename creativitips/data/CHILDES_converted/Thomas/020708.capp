@@ -82,15 +82,13 @@
 *MOT: well go on the bus .
 *CHI: eat it .
 *CHI: Mummy eat .
-*MOT: shall we do that ?
-*CHI: Mummy eat it .
 *MOT: what are you eating ?
 *MOT: crisps ?
 *CHI: yeah .
 *CHI: Mummy eat it .
 *MOT: Mummy eat it ?
 *CHI: eat it .
-*MOT: big bears eat it .
+*MOT: eat it .
 *MOT: well Im just slicing some bread to make a sandwich .
 *MOT: I think Ill do some coffee for myself while the kettles hot .
 *MOT: well we could go on the bus  Thomas  into Didsbury .
@@ -117,10 +115,9 @@
 *CHI: no .
 *MOT: mhm .
 *MOT: you understand these things dont you  Thomas ?
-*CHI: oh no no no .
+*CHI: oh no .
 *MOT: well take it from me  sweetheart .
 *MOT: its not easy to spread .
-*CHI: oh no no>
 *MOT: not easy .
 *CHI: not easy .
 *CHI: no .
@@ -129,7 +126,7 @@
 *MOT: theres no point holding it  darling  because its going back in
 *MOT: as soon as Ive put it on the bread .
 *MOT: you like your crisps dont you  Thomas ?
-*CHI: no no no .
+*CHI: no .
 *MOT: theres a lady Mummy works with and we have lunch together on
 *MOT: and she always has a bag of crisps with her sandwiches .
 *MOT: always always .
@@ -204,8 +201,6 @@
 *CHI: no steps .
 *MOT: would you like a breadstick as well ?
 *MOT: there you are .
-*MOT: a breadstick .
-*CHI: two steps .
 *MOT: two steps .
 *CHI: ap no .
 *MOT: youre fascinated with making steps from bits of cheese  Thomas .
@@ -235,7 +230,7 @@
 *CHI: a piece of wood .
 *MOT: a piece of wood .
 *MOT: youre pretending the cheese is like a piece of wood ?
-*CHI: build with wood .
+*CHI: wood .
 *CHI: out .
 *CHI: 0 .
 *CHI: big dumper truck .
@@ -296,7 +291,6 @@
 *MOT: lunch  Thomas ?
 *CHI: no .
 *MOT: because when were out you cant start telling me  that you're
-*CHI: not hungry .
 *MOT: is it this very small dumper truck you want ?
 *CHI: yeah .
 *MOT: hows that ?
@@ -319,8 +313,7 @@
 *CHI: yeah .
 *CHI: be a wash .
 *CHI: carrots .
-*CHI: make ap rows .
-*MOT: I dont know where the window cleaner has gone to <Thomas>
+*MOT: I dont know where the window cleaner has gone to ,
 *MOT: because he rang the bell asking for us to open the gate at the back
 *MOT: he has disappeared .
 *CHI: disappeared .
@@ -345,7 +338,6 @@
 *MOT: is that nice ?
 *CHI: make ap rows .
 *CHI: make ap rows .
-*CHI: make ap rows .
 *MOT: oh it sounds like the man might be here now .
 *CHI: make .
 *CHI: make ap rows .
@@ -357,7 +349,7 @@
 *MOT: thats in the back of the dumper truck .
 *MOT: youre pretending the cheese is carrots .
 *CHI: make a row of carrots .
-*CHI: pat pat pat pat .
+*CHI: pat .
 *MOT: Aunty Mabels carrots ?
 *MOT: like on the program ?
 *CHI: mhm .
@@ -449,8 +441,7 @@
 *CHI: mhm .
 *MOT: mind you .
 *MOT: they maybe feel quite warm because theyre moving around .
-*MOT: if you hafta move around if you hafta move your arms as
-*MOT: little bit>
+*MOT: if you hafta move your arms as
 *CHI: more .
 *CHI: more carrot .
 *MOT: more carrot ?
@@ -490,7 +481,6 @@
 *MOT: yeah thanks .
 *MOT: right .
 *MOT: thanks .
-*CHI: tea one .
 *MOT: are we going to make some some tea ?
 *MOT: going to make some tea for the window cleaners ?
 *CHI: yeah .
@@ -518,7 +508,7 @@
 *MOT: and usually we put sugar in after the teas made but we haven't
 *MOT: so well put it in with the milk .
 *CHI: mhm .
-*MOT: and well stir up stir the sugar into the milk .
+*MOT: and well stir the sugar into the milk .
 *MOT: and then when we add the tea well give it another stir .
 *MOT: think well just stop the tape because the sound of the kettle .
 *CHI: gone now .
@@ -534,7 +524,6 @@
 *MOT: well hafta leave it a few minutes to brew .
 *MOT: you want the digger ?
 *MOT: Im sorry  sweetheart .
-*CHI: round and round .
 *MOT: there you are .
 *MOT: the digger .
 *MOT: the big digger .
@@ -645,7 +634,6 @@
 *CHI: big green chair .
 *MOT: dont stare  Thomas .
 *MOT: dont stare .
-*CHI: two heads .
 *MOT: are we going to go on a bus ?
 *CHI: no .
 *MOT: no ?
@@ -670,8 +658,8 @@
 *CHI: heard him .
 *MOT: you heard him .
 *MOT: what did he say ?
-*CHI: again again again .
-*MOT: he said again again again ?
+*CHI: again .
+*MOT: he said again ?
 *MOT: is that what he said ?
 *CHI: 0 .
 *MOT: thats a funny noise .
@@ -692,7 +680,7 @@
 *CHI: ow ow !
 *MOT: oh dear dear .
 *MOT: no .
-*MOT: no banging no banging .
+*MOT: no banging .
 *CHI: ap bump bottom .
 *MOT: I bet he bumped his bottom .
 *MOT: is it sore now ?
@@ -708,7 +696,7 @@
 *CHI: digs .
 *MOT: Doug .
 *MOT: Douglas the digger man .
-*CHI: Doug not dig .
+*CHI: Doug .
 *MOT: do you like the name Douglas ?
 *CHI: no Douglas .
 *CHI: no .
@@ -799,9 +787,8 @@
 *CHI: yeah .
 *MOT: it says a cockerel crows .
 *MOT: cockadoodledooo .
-*MOT: so  shall we put the cockerel>
+*MOT: so  shall we put
 *CHI: look .
-*CHI: a baalambc .
 *MOT: mhm .
 *MOT: the cockerel there ?
 *MOT: and the baalambc ?
@@ -908,7 +895,6 @@
 *CHI: yeah .
 *CHI: laughs .
 *MOT: because its a piggywigwigf .
-*CHI: I know .
 *CHI: no .
 *CHI: no there .
 *MOT: well do you want me to put the pieces into the tractor ?
@@ -1010,7 +996,7 @@
 *CHI: no .
 *CHI: push ap finger out there .
 *MOT: thats right .
-*MOT: you put it in push your finger to push it out .
+*MOT: you push your finger to push it out .
 *CHI: oh no .
 *MOT: well are we going to put the animals into the trailer ?
 *CHI: yeah .
@@ -1020,7 +1006,7 @@
 *CHI: no .
 *MOT: is that not what you wanna do ?
 *CHI: no no .
-*MOT: Im sorry Im sorry .
+*MOT: Im sorry .
 *CHI: no do .
 *MOT: you wanna do the jigsaw again ?
 *CHI: yes .
@@ -1055,7 +1041,7 @@
 *CHI: no Stacy the cow no .
 *MOT: no ?
 *MOT: well Clarabel the cow ?
-*CHI: no Clarabel the cow .
+*CHI: no .
 *MOT: no .
 *MOT: whos missing .
 *MOT: no no .
@@ -1063,7 +1049,7 @@
 *MOT: the farmer .
 *CHI: ooh .
 *MOT: where has the farmer gone ?
-*CHI: no ap this ap this one .
+*CHI: no ap this one .
 *MOT: he has gone missing .
 *MOT: oh hes there  Thomas .
 *MOT: look .
@@ -1076,8 +1062,7 @@
 *MOT: and what does the farmer pick ?
 *MOT: a wife ?
 *CHI: wife .
-*MOT: and the wife>
-*CHI: ee ay ee ay Old MacDonald farm .
+*CHI: ee ay Old MacDonald farm .
 *MOT: Old MacDonald has a farm .
 *MOT: and heres a book about pigs .
 *MOT: its called +"/.
@@ -1112,7 +1097,7 @@
 *MOT: aah .
 *MOT: whos that ?
 *CHI: raining .
-*MOT: well hes in the he doesnt like getting clean .
+*MOT: well he doesnt like getting clean .
 *MOT: this pig .
 *MOT: hes called scruffy pig .
 *MOT: hes dirty isnt he ?
@@ -1180,7 +1165,6 @@
 *CHI: snotsnotc .
 *CHI: laughs .
 *MOT: hes not called a snotsnotc  Thomas .
-*MOT: not snotsnotc .
 *CHI: snotsnotc .
 *MOT: no .
 *MOT: youre thinking of his nose and its called a snout .
@@ -1290,7 +1274,6 @@
 *CHI: no .
 *MOT: is he under the cushion ?
 *CHI: no .
-*MOT: is he>
 *CHI: football .
 *MOT: theres a football under the cushion .
 *MOT: yes .
@@ -1312,7 +1295,7 @@
 *MOT: thats right .
 *MOT: but where is tiny pig ?
 *MOT: wheres tiny pig ?
-*MOT: wheres tiny pig ?
+*MOT: wheres ?
 *CHI: here .
 *MOT: there .
 *MOT: and now its tiny pigs turn .
@@ -1320,7 +1303,7 @@
 *MOT: everyone hide +".
 *MOT: what on earth is the matter with you  Purdie ?
 *CHI: not worry .
-*CHI: Purdie ap carry .
+*CHI: Purdie .
 *MOT: are you telling her not to worry ?
 *CHI: not worry .
 *MOT: not worry  Purdie .
@@ -1357,8 +1340,7 @@
 *MOT: no thats silly .
 *CHI: no silly no .
 *CHI: nice snotsnotc .
-*MOT: lots of different animals have different noses .
-*CHI: two snotsnotc .
+*MOT: lots of different animals have .
 *MOT: Purdie has a nose and dogs have noses .
 *MOT: but weve been talking about elephants who have trunks for their
 *MOT: and pigs have snouts .
@@ -1376,8 +1358,6 @@
 *CHI: under the bed again .
 *CHI: oh dear .
 *CHI: under the bed .
-*MOT: under the gate ?
-*CHI: under the board .
 *CHI: laughs .
 *CHI: under the board .
 *CHI: under the board

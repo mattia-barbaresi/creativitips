@@ -125,7 +125,7 @@
 *CHI: no .
 *MOT: youre a bit little  arent you ?
 *CHI: yeah .
-*CHI: me skip me skip skip too .
+*CHI: skip too .
 *MOT: youd like to skip ?
 *CHI: yeah .
 *MOT: would you ?
@@ -166,7 +166,7 @@
 *MOT: at Grandmas house .
 *CHI: yeah .
 *MOT: yeah .
-*CHI: at my house my house .
+*CHI: at my house .
 *CHI: my house .
 *CHI: my house .
 *MOT: your house .
@@ -182,7 +182,7 @@
 *MOT: not Annas garden .
 *CHI: no .
 *CHI: Anna not got one .
-*MOT: well I dont know whether Ive never been to Annas house .
+*MOT: well Ive never been to Annas house .
 *MOT: I dont know whether Anna has a garden or not .
 *CHI: at Daves .
 *MOT: Daves .
@@ -217,7 +217,7 @@
 *MOT: and then whose house did we go to ?
 *CHI: mine .
 *CHI: no .
-*MOT: where we looked at we saw the hens .
+*MOT: where we saw the hens .
 *MOT: where did we see the hens ?
 *MOT: whose house was that ?
 *CHI: Sallys .
@@ -245,7 +245,7 @@
 *MOT: yeah .
 *CHI: yeah .
 *MOT: and what did she do to them ?
-*MOT: did you did you help feed the hens ?
+*MOT: did you help feed the hens ?
 *CHI: yeah .
 *MOT: what did you do ?
 *CHI: threw on muck .
@@ -260,7 +260,7 @@
 *MOT: tea .
 *MOT: yeah .
 *MOT: it was like seed  wasnt it ?
-*MOT: it was some kind of it was food for the hens .
+*MOT: it was food for the hens .
 *CHI: yeah .
 *MOT: and you threw it on the muck  didnt you ?
 *CHI: why ?
@@ -398,7 +398,7 @@
 *CHI: yeah .
 *MOT: well you do it Daddy then  if Daddy likes it .
 *MOT: because Mummy doesnt like it .
-*CHI: when Daddy home .
+*CHI: home .
 *MOT: you want do it to Daddy when he comes home ?
 *CHI: yeah .
 *MOT: okay .
@@ -446,7 +446,7 @@
 *CHI: yeah .
 *MOT: thats right .
 *MOT: because you like Pete  dont you ?
-*MOT: is Pete your your dog .
+*MOT: your dog .
 *CHI: yeah .
 *MOT: hes probably the only dog youll ever have .
 *CHI: yeah .
@@ -517,7 +517,7 @@
 *MOT: the road wants muck ?
 *CHI: yeah .
 *MOT: no .
-*MOT: you dont have muck on roads because it would just it
+*MOT: you dont have muck on roads because it
 *CHI: why ?
 *MOT: you want tarmac on .
 *MOT: is it tarmac on roads ?
@@ -534,7 +534,7 @@
 *CHI: me jump on Mummy .
 *MOT: youre gonna jump on me ?
 *CHI: yeah .
-*MOT: oh youre too youre too big and too heavy .
+*MOT: oh youre too big and too heavy .
 *CHI: no .
 *MOT: are you not ?
 *MOT: no ?
@@ -549,7 +549,7 @@
 *MOT: mirror .
 *MOT: thats right .
 *MOT: thats right .
-*MOT: oh oh oh oh oh oh .
+*MOT: oh .
 *CHI: Sophie got a mirror .
 *MOT: has she ?
 *MOT: thats right .
@@ -688,7 +688,7 @@
 *MOT: lets go and play with some of your things .
 *MOT: do you wanna do any of your puzzles ?
 *CHI: no .
-*MOT: lets do well Ruth .
+*MOT: well Ruth .
 *MOT: do you wanna do your er your letters ?
 *MOT: come on then .
 *MOT: Im going to play with your letters .
@@ -818,7 +818,7 @@
 *MOT: good .
 *CHI: no .
 *CHI: my not want baby tiger .
-*CHI: no no no no .
+*CHI: no .
 *CHI: not that .
 *CHI: baby say ?
 *MOT: hes fighting you .
@@ -960,7 +960,7 @@
 *CHI: he brick .
 *MOT: is he ?
 *CHI: put it there .
-*MOT: did he did he take away one of your bricks ?
+*MOT: did he take away one of your bricks ?
 *CHI: yeah .
 *CHI: taking away more .
 *MOT: is he ?
@@ -989,7 +989,7 @@
 *CHI: yeah .
 *CHI: one more my brick .
 *CHI: two my brick .
-*CHI: me take putting them in there
+*CHI: putting them in there
 *CHI: Mama .
 *MOT: made a noise  didnt it ?
 *CHI: huh ?
@@ -1083,7 +1083,7 @@
 *MOT: tiger doesnt have his cot anymore .
 *CHI: why ?
 *MOT: because all the bricks are in his cot .
-*MOT: maybe hell sit oh its not very comfy on top of the bricks
+*MOT: oh its not very comfy on top of the bricks
 *CHI: why ?
 *MOT: er not comfy .
 *CHI: me take the brick out now .
@@ -1148,7 +1148,7 @@
 *MOT: I want green .
 *CHI: um me find green .
 *MOT: thank you .
-*CHI: me have have yellow .
+*CHI: have yellow .
 *MOT: you have yellow .
 *MOT: do you like yellow ?
 *CHI: yeah .
@@ -1169,8 +1169,6 @@
 *CHI: yeah !
 *MOT: yeah .
 *CHI: there baby .
-*MOT: there she is .
-*INV: there she is .
 *CHI: me get .
 *CHI: Anna the baby again .
 *MOT: she did .
@@ -1293,7 +1291,7 @@
 *CHI: dont put a baby in .
 *MOT: I wont  darling .
 *MOT: shes not in there anyway .
-*CHI: I putting another baby brick putting another baby
+*CHI: I putting another baby
 *MOT: right .
 *MOT: oh on the house ?
 *CHI: yeah .
@@ -1398,7 +1396,7 @@
 *CHI: oh that down there ?
 *MOT: yeah .
 *MOT: thatll go there .
-*CHI: oh that go on that go on top .
+*CHI: oh that go on top .
 *MOT: okay .
 *CHI: me looking for another one .
 *MOT: Im looking for another one .
@@ -1443,7 +1441,7 @@
 *MOT: yes .
 *MOT: and everything else has gone as well .
 *MOT: this is because Ruth Lastname  you never put things back where
-*MOT: wheres all are they in your little house ?
+*MOT: are they in your little house ?
 *CHI: yeah .
 *CHI: me go see .
 *CHI: no .
@@ -1465,8 +1463,8 @@
 *CHI: there stethoscope .
 *MOT: thats right .
 *CHI: wear that one .
-*MOT: you want youd like me to wear this one  would you ?
-*CHI: me wear me too .
+*MOT: youd like me to wear this one  would you ?
+*CHI: me too .
 *CHI: be two doctor .
 *MOT: have we got two doctors now ?
 *CHI: yeah .
@@ -1475,7 +1473,7 @@
 *CHI: there .
 *MOT: oh Annas babys sick .
 *CHI: yeah .
-*CHI: and my sick .
+*CHI: sick .
 *MOT: Mos sick ?
 *CHI: yeah .
 *MOT: oh dear .
@@ -1504,7 +1502,7 @@
 *MOT: now what are all your doctors things doing down here hey ?
 *MOT: in this corner .
 *MOT: there you go .
-*CHI: oh make that baby make that baby better .
+*CHI: oh make that baby better .
 *MOT: oh whats wrong with this baby ?
 *CHI: got sick .
 *MOT: she what ?
@@ -1525,7 +1523,7 @@
 *MOT: in her tummy .
 *CHI: yeah .
 *MOT: ah .
-*CHI: getting getting getting out .
+*CHI: getting out .
 *MOT: its getting out ?
 *CHI: yeah .
 *MOT: through wheres it getting out ?
@@ -1609,9 +1607,9 @@
 *CHI: here you are .
 *INV: oh Im having Mo as well .
 *INV: okay .
-*CHI: Anna got two .
+*CHI: two .
 *MOT: two two what ?
-*CHI: that got got two baby .
+*CHI: got two baby .
 *MOT: oh dear .
 *MOT: shes got very busy .
 *MOT: shell get very tired  wont she looking after two
@@ -1628,7 +1626,7 @@
 *MOT: thats right .
 *MOT: do you not want it on ?
 *CHI: yeah .
-*CHI: no no no .
+*CHI: no .
 *MOT: right .
 *CHI: me only playing that .
 *MOT: oh youre only playing with it .
@@ -1682,7 +1680,7 @@
 *MOT: no .
 *MOT: its not time to go to bed .
 *CHI: yeah .
-*CHI: that time go time go a bed .
+*CHI: that time go a bed .
 *MOT: it says on Mummys watch .
 *MOT: it says it is half past four .
 *CHI: why ?
@@ -1924,7 +1922,7 @@
 *MOT: she can go in the house like this .
 *CHI: why ?
 *MOT: because shes got somewhere to sit now  hasnt she ?
-*MOT: well our house is not our house has got walls .
+*MOT: well our house has got walls .
 *MOT: there  look .
 *MOT: see .
 *MOT: now youve got a space for her .
@@ -1974,7 +1972,7 @@
 *MOT: yeah .
 *CHI: for the Dutch baby .
 *MOT: www .
-*CHI: get it getting that baby out .
+*CHI: getting that baby out .
 *CHI: brick not want me take it wall away .
 *MOT: right .
 *CHI: yeah .

@@ -1,5 +1,5 @@
 *CHI: what ap running for Dimitra ?
-*CHI: hop hop hop .
+*CHI: hop .
 *CHI: I 0will .
 *INV: uh you run too ?
 *CHI: yes I am !
@@ -8,13 +8,11 @@
 *CHI: big hug .
 *INV: big hug .
 *INV: oh I like big hugs .
-*CHI: no ap youre youre finished .
+*CHI: no ap youre finished .
 *INV: Im what ?
 *CHI: all finished .
 *INV: all finished ?
 *INV: the hug ?
-*CHI: hop hop>
-*CHI: hop hop>
 *INV: oh wheres my drink ?
 *CHI: there !
 *INV: there ?
@@ -34,7 +32,7 @@
 *CHI: putting on my drink on the fireguard .
 *INV: oh putting your drinks on the fireguard .
 *INV: I think Mummy told me that uh youre not to put anything on the
-*INV: because the all everything falls through .
+*INV: because everything falls through .
 *CHI: mhm .
 *INV: mhm .
 *CHI: yes .
@@ -57,7 +55,7 @@
 *INV: me too ?
 *CHI: yes .
 *INV: I dont think so  Thomas .
-*INV: whats whats this ?
+*INV: whats this ?
 *INV: whats this ?
 *CHI: oh Ben 0and Charlottes ?
 *INV: its Ben and Charlottes ?
@@ -72,7 +70,7 @@
 *INV: you dont know ?
 *INV: what have you been doing ?
 *CHI: I 0do not know .
-*CHI: ap be be shoe shop .
+*CHI: be shoe shop .
 *INV: oh you went to the shoe shop ?
 *CHI: yes I 0am shoe shop man now .
 *INV: youre a shoe shop man now ?
@@ -90,12 +88,12 @@
 *CHI: Mummy where 0are my shoes ?
 *INV: I think Mummys asleep .
 *INV: Thomas .
-*INV: you can show me something you can tell me about something
+*INV: you can tell me about something
 *CHI: Mummy not asleep .
 *INV: yes .
 *INV: Mummy went to sleep .
 *CHI: oh .
-*CHI: where my my shoes ?
+*CHI: my shoes ?
 *MOT: your shoes ?
 *CHI: yes .
 *MOT: why do you want your shoes ?
@@ -111,25 +109,24 @@
 *MOT: to the recycling place .
 *CHI: yes .
 *MOT: at Tesco .
-*CHI: hiding place .
-*MOT: and when we got there there was a big notice saying they
+*MOT: there was a big notice saying they
 *MOT: so we brought them home .
 *CHI: ap where has it gone now ?
 *MOT: well it has gone to the shop .
 *MOT: so we did it together didnt we ?
 *MOT: we sorted them into pairs .
 *CHI: yes .
-*MOT: and put them into bags and you>
-*CHI: ap Purdie up there  Dimitra .
+*MOT: and put them into bags
+*CHI: up there  Dimitra .
 *INV: 0 .
 *MOT: yes .
 *MOT: Purdie has come down .
 *INV: oh .
-*MOT: and you were pretending to be the shoe shop man werent you
+*MOT: were pretending to be the shoe shop man werent you
 *CHI: em ap Purdie not going upstairs .
 *INV: are you telling Purdie not to go downstairs .
 *MOT: would you like me too
-*CHI: hop hop hop .
+*CHI: hop .
 *MOT: Thomas  dont jump on the sofa .
 *MOT: youll fall .
 *MOT: get down please .
@@ -141,9 +138,8 @@
 *CHI: yes .
 *CHI: yes I do .
 *CHI: ap shoe shop .
-*CHI: jump jump jump .
+*CHI: jump .
 *CHI: look I 0am jumping on the chair .
-*INV: what are you>
 *CHI: jumping on the settee .
 *INV: are you jumping on the settee ?
 *CHI: yes .
@@ -151,7 +147,7 @@
 *CHI: jump chairs brilliant .
 *INV: thats brilliant ?
 *CHI: yes .
-*CHI: jump jump jump jumpy .
+*CHI: jump jumpy .
 *INV: hm .
 *INV: what are we going to do with the shoes ?
 *CHI: I 0do .
@@ -193,7 +189,7 @@
 *CHI: yes .
 *INV: okay .
 *CHI: thanks .
-*INV: there you go .
+*INV: go .
 *CHI: thanks .
 *CHI: throw the money down 0on floor .
 *INV: oops .
@@ -228,14 +224,14 @@
 *CHI: I pull Purdie tail .
 *INV: dont pull Purdies tail .
 *INV: thats not nice .
-*INV: no no no  Thomas .
+*INV: no  Thomas .
 *CHI: ah !
 *CHI: laughs .
 *CHI: go ah !
 *CHI: do it again .
 *INV: youre making so much noise  Thomas .
 *INV: Thomas .
-*INV: no no no .
+*INV: no .
 *INV: no .
 *INV: leave Purdie alone .
 *INV: leave Purdie alone .
@@ -249,8 +245,8 @@
 *INV: because youre not treating her right .
 *CHI: big .
 *INV: right .
-*INV: shall we see shall we have a look in my toys then ?
-*CHI: yes yes yes .
+*INV: shall we have a look in my toys then ?
+*CHI: yes .
 *CHI: this toys .
 *INV: up .
 *INV: hup .
@@ -329,7 +325,7 @@
 *CHI: no .
 *INV: no .
 *INV: why why not ?
-*CHI: not no Purdie live in Black Blackpool .
+*CHI: not no Purdie live in Blackpool .
 *CHI: ap live in Blackpool .
 *INV: what about Purdie in Blackpool ?
 *CHI: water everywhere .
@@ -344,7 +340,7 @@
 *INV: its better this way .
 *CHI: yeah .
 *INV: yes .
-*INV: we dont like too much we dont like it to make too much
+*INV: we dont like it to make too much
 *CHI: no .
 *CHI: no noise .
 *INV: no noise .
@@ -355,7 +351,7 @@
 *CHI: not make a noise .
 *INV: and this one .
 *CHI: yes .
-*INV: or maybe or maybe this one .
+*INV: or maybe this one .
 *INV: and then this one .
 *CHI: ap train tickets .
 *INV: train tickets ?
@@ -378,7 +374,7 @@
 *INV: I think she may get upset .
 *CHI: yeah .
 *CHI: you 0are
-*INV: no no no .
+*INV: no .
 *CHI: no you 0are bit noisy .
 *CHI: where tickets from ?
 *INV: buy tickets from
@@ -394,7 +390,7 @@
 *INV: thats a good idea .
 *CHI: heres yours .
 *INV: look .
-*INV: there are there are more train tracks here .
+*INV: there are more train tracks here .
 *INV: Thomas .
 *INV: would you like to try this green one ?
 *CHI: not yet .
@@ -405,11 +401,11 @@
 *INV: yes .
 *INV: squash it .
 *INV: like .
-*INV: push it push it hard .
+*INV: push it hard .
 *INV: yeah .
 *INV: like this .
 *INV: hm .
-*INV: does it not does it not fit very well ?
+*INV: does it not fit very well ?
 *CHI: no .
 *INV: no .
 *INV: its going to be a bit of a bumpy ride for the train isnt it ?
@@ -459,11 +455,10 @@
 *INV: another one .
 *CHI: another one .
 *INV: thats a big one .
-*CHI: thats a big one>
-*INV: maybe you can take that purple one off and you can put that
+*INV: take that purple one off and you can put that
 *CHI: no .
 *INV: okay .
-*CHI: no I not need this .
+*CHI: not need this .
 *INV: no ?
 *CHI: no .
 *INV: oh theres a here too .
@@ -479,7 +474,7 @@
 *CHI: I 0do not need tickets .
 *INV: you dont need tickets .
 *INV: I think you do .
-*CHI: I I just little .
+*CHI: just little .
 *CHI: my big people .
 *CHI: my more people .
 *CHI: wa Daddys a big people .
@@ -493,7 +488,7 @@
 *CHI: no .
 *INV: no ?
 *INV: why ?
-*CHI: I not not need one .
+*CHI: not need one .
 *INV: you dont need one ?
 *INV: is that because youre a little person ?
 *CHI: yes .
@@ -512,7 +507,6 @@
 *INV: shall we have a tree ?
 *CHI: yes .
 *INV: alright .
-*CHI: I want a .
 *INV: and a traffic sign .
 *INV: well there are some traffic signs here .
 *CHI: somebody stop .
@@ -561,7 +555,7 @@
 *INV: oops .
 *CHI: put in somewhere .
 *CHI: put in
-*INV: put it somewhere ?
+*INV: somewhere ?
 *INV: well you can put it here  Thomas .
 *INV: or you could put it here .
 *CHI: I 0do .
@@ -643,7 +637,6 @@
 *INV: it doesnt wanna go in does it ?
 *CHI: no not .
 *INV: silly gate .
-*CHI: oh yes .
 *CHI: oh my God .
 *CHI: no yet .
 *CHI: not this way .
@@ -674,7 +667,7 @@
 *INV: more like a funny queen ?
 *INV: did you dance like a funny queen are you saying ?
 *CHI: yes .
-*CHI: Mummy you Mummys a funny queen .
+*CHI: Mummys a funny queen .
 *INV: Mummy ?
 *CHI: Mummy  youre a funny queen  Mummy .
 *INV: are you telling Mummy that now ?
@@ -707,7 +700,7 @@
 *CHI: yes .
 *INV: that trains hurt ?
 *CHI: yes .
-*INV: is there are there any people in it ?
+*INV: are there any people in it ?
 *CHI: yeah .
 *INV: oh !
 *INV: are they hurt ?
@@ -737,7 +730,7 @@
 *INV: but youre making much much bigger noises .
 *CHI: yes yes I am .
 *INV: yes you are ?
-*INV: oh no no no .
+*INV: oh no .
 *INV: look .
 *INV: Im going to take them away if youre making so much noises .
 *INV: so many .
@@ -750,7 +743,7 @@
 *CHI: yes .
 *INV: that is not nice .
 *INV: Im not happy .
-*INV: oh no no no .
+*INV: oh no .
 *INV: be careful though .
 *INV: like .
 *INV: I dont mind the pillows .
@@ -789,8 +782,8 @@
 *CHI: yes .
 *CHI: put your balloon in your home .
 *INV: what my own ?
-*CHI: your balloon your balloon in your home .
-*INV: oh you want me to put the balloon in my in my
+*CHI: your balloon in your home .
+*INV: oh you want me to put the balloon in my
 *CHI: yes .
 *INV: oh can I take it home with me youre saying ?
 *CHI: 0 .
@@ -927,7 +920,7 @@
 *INV: big elephant would you like to be my friend ?
 *INV: oh no !
 *INV: hes biting me .
-*CHI: be a good elephant .
+*CHI: elephant .
 *INV: are you going to be a good elephant now ?
 *CHI: yes .
 *CHI: elephant eating .
@@ -960,7 +953,7 @@
 *CHI: yeah .
 *INV: yes .
 *INV: ah .
-*INV: dont eat me dont eat me please big elephant !
+*INV: dont eat me please big elephant !
 *INV: please big elephant be gentle with me .
 *INV: oh .
 *INV: where are you going ?
@@ -985,9 +978,7 @@
 *INV: Thomas  come here .
 *INV: please .
 *CHI: big elephant going .
-*CHI: ap kiss Dimitra .
-*CHI: big elephant kissing Dimitra .
-*INV: are you coming to me now ?
+*CHI: Dimitra .
 *INV: pardon ?
 *CHI: elephant kissing Dimitra .
 *INV: youre chasing me ?
@@ -1006,7 +997,7 @@
 *INV: can I tickle  Thomas ?
 *CHI: yeah .
 *INV: yes .
-*INV: tickle tickle tickle .
+*INV: tickle .
 *INV: are you ticklish ?
 *CHI: no I 0am not .
 *CHI: my big elephant .
@@ -1018,7 +1009,7 @@
 *INV: this elephants drinking water ?
 *CHI: hold this .
 *INV: okay .
-*INV: Im holding that .
+*INV: that .
 *INV: okay .
 *INV: oh .
 *INV: can you drink any ?
@@ -1030,7 +1021,7 @@
 *INV: you drank this water all over the place ?
 *INV: ah !
 *INV: oh yes .
-*INV: and now you can spray it all out through your tongue &-uh>
+*INV: and now you can spray it all out
 *CHI: big elephant gone ?
 *INV: I dont know .
 *CHI: ap Mummy ap find him .
@@ -1042,8 +1033,7 @@
 *INV: oh !
 *INV: I can see something .
 *CHI: big elephant .
-*INV: thats a big elephant .
-*CHI: I big bear .
+*INV: thats .
 *INV: are you a big bear now ?
 *CHI: yeah .
 *INV: are you a friendly big bear ?
@@ -1119,7 +1109,7 @@
 *CHI: now sa red .
 *INV: and  yeah .
 *INV: now we can see red .
-*CHI: wheres sa big bear going in the bed .
+*CHI: sa big bear going in the bed .
 *INV: alright .
 *INV: night night  big bear .
 *INV: it was very nice to see you .
@@ -1190,10 +1180,9 @@
 *INV: there we go .
 *CHI: yes .
 *CHI: ap his torch .
-*INV: what are you going what are you going to do with the torch ?
+*INV: what are you going to do with the torch ?
 *CHI: want top put it in my home .
 *CHI: bed .
-*INV: put it>
 *INV: put it in your bed ?
 *CHI: yes .
 *CHI: put it in the loft .
@@ -1204,7 +1193,7 @@
 *INV: why are you going to need it in some way ?
 *CHI: yes .
 *CHI: lot ap Coca Cola bottles .
-*INV: lot of Cola Cola bottles ?
+*INV: lot of Cola bottles ?
 *CHI: Coca Cola bottles .
 *INV: youve at the loft ?
 *CHI: yeah .
@@ -1303,10 +1292,10 @@
 *INV: you know  it it really hurt her too when you were pulling
 *INV: she was very much in pain .
 *CHI: I 0am very sorry  Purdie .
-*INV: oh Im sure shes very shes very sorry too now .
+*INV: oh Im sure shes very sorry too now .
 *CHI: I 0am
 *INV: ah .
-*CHI: I not I not like bit my finger  Purdie .
+*CHI: I not like bit my finger  Purdie .
 *CHI: I 0do not like it .
 *CHI: Purdie  stay away .
 *INV: okay .
@@ -1386,8 +1375,6 @@
 *MOT: well Purdies tail is probably very sore  Thomas  as well .
 *CHI: yeah me too .
 *CHI: wheres ap my church .
-*CHI: wheres &sa>
-*INV: its under your foot .
 *INV: there .
 *INV: under your leg .
 *INV: it was .
@@ -1426,8 +1413,6 @@
 *INV: would you like some more water ?
 *INV: there you are  big bear .
 *CHI: like kiss Mummy .
-*CHI: like kiss .
-*MOT: are you>
 *MOT: are you having fun ?
 *CHI: yes .
 *CHI: yes I know .
@@ -1435,12 +1420,10 @@
 *CHI: go upstairs make more noises .
 *MOT: alright .
 *MOT: yes .
-*MOT: Ill go and do that .
-*CHI: youre a bit>
+*MOT: Ill go .
 *MOT: I know .
 *MOT: Im terribly sorry  darling .
-*MOT: Ive been working on things .
-*CHI: sorry  Mummy .
+*MOT: Ive been working .
 *INV: what about some honey ?
 *CHI: ap Winnie ap Pooh likes honey .
 *INV: I know .
@@ -1474,9 +1457,8 @@
 *CHI: big bear .
 *INV: big bear ?
 *INV: oh no .
-*CHI: run away run away .
+*CHI: run away .
 *INV: run away .
-*CHI: run away>
 *CHI: hiding .
 *CHI: I 0am hiding under there .
 *CHI: big bear coming .
@@ -1487,7 +1469,7 @@
 *INV: like this ?
 *CHI: yes .
 *INV: is it safe now ?
-*CHI: its its too noisy .
+*CHI: its too noisy .
 *INV: its too noisy ?
 *CHI: ap hiding from it .
 *CHI: another big bear coming .
@@ -1504,7 +1486,6 @@
 *INV: oh no !
 *CHI: 0 .
 *CHI: another big bear coming
-*INV: oh no !
 *INV: oh no .
 *CHI: hey .
 *CHI: lots of big bears .
@@ -1536,8 +1517,6 @@
 *CHI: Im hiding under the table .
 *INV: youre going to hide under the table ?
 *CHI: yes .
-*INV: well that>
-*CHI: hide under>
 *INV: I think thats a safe place .
 *CHI: big bear go in the sitting room .
 *INV: oh no .
@@ -1562,8 +1541,6 @@
 *INV: Im hiding from you then .
 *INV: but youre a nice big bear .
 *INV: I remember you .
-*CHI: ap hiding .
-*INV: you were>
 *INV: you were a very nice big bear .
 *CHI: my another big bear coming .
 *INV: Im not afraid anymore .
@@ -1597,27 +1574,22 @@
 *CHI: lots .
 *INV: lots and lots and lots .
 *CHI: lots ap the big bears coming now .
-*CHI: la la .
 *INV: are you singing now ?
 *CHI: a big bear coming .
-*CHI: sing la la la .
-*CHI: la la .
+*CHI: sing la .
 *CHI: ap funny mood .
 *INV: pardon ?
-*CHI: funny mood funny mood .
+*CHI: funny mood .
 *INV: what are you saying ?
 *INV: youre a funny what ?
 *CHI: funny mood .
 *INV: funny mood ?
-*CHI: la la .
 *CHI: oh .
-*CHI: la la>
 *CHI: big sausages there .
 *INV: oops .
 *INV: whos that ?
 *CHI: Puss in Boots .
 *INV: Puss in Boots .
-*CHI: la la>
 *CHI: climb a board .
 *CHI: miss a crocodile thep board .
 *CHI: ap just standing there .
@@ -1625,7 +1597,7 @@
 *INV: I dont understand any of what youre saying .
 *CHI: 0 .
 *INV: oops .
-*INV: no no no  Thomas .
+*INV: no  Thomas .
 *INV: leave it .
 *CHI: na youre bringing for ?
 *CHI: what your bringing ?

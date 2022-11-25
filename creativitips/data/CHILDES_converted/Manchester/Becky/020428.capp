@@ -68,10 +68,10 @@
 *INV: yes .
 *MOT: mhm .
 *CHI: you come back .
-*CHI: I need I need a I need I need those .
+*CHI: I need those .
 *MOT: you need what ?
 *CHI: I need a christmas tree there .
-*CHI: I needta I need draw christmas tree .
+*CHI: I need draw christmas tree .
 *MOT: you wanna draw a christmas tree ?
 *CHI: mhm .
 *MOT: well .
@@ -179,7 +179,7 @@
 *MOT: which shop was he in ?
 *CHI: I dont know .
 *MOT: think .
-*CHI: in the in the
+*CHI: in the
 *CHI: I dont know .
 *MOT: he was in Sainsburys  wasnt he ?
 *CHI: Sainsburys .
@@ -199,8 +199,7 @@
 *CHI: I dont know .
 *MOT: yes .
 *MOT: you do .
-*MOT: what does he have on his chin .
-*CHI: a beard .
+*MOT: what does he .
 *MOT: a beard .
 *CHI: yes .
 *CHI: I do .
@@ -228,10 +227,9 @@
 *CHI: oh .
 *INV: hello .
 *INV: whatre you doing under the table ?
-*CHI: I just I just do  things .
-*CHI: do things .
-*MOT: youre just doing things  are you ?
-*CHI: I just I .
+*CHI: I just do  things .
+*MOT: youre just  are you ?
+*CHI: I .
 *CHI: I just throwing snowman .
 *INV: youre just throwing snowman ?
 *CHI: you .
@@ -339,7 +337,7 @@
 *CHI: mhm .
 *MOT: where are you going ?
 *CHI: this .
-*CHI: I just um I just go .
+*CHI: um I just go .
 *CHI: um Nana and Grandpa .
 *MOT: youre going to see Nana and Grandpa ?
 *CHI: mhm .
@@ -558,7 +556,7 @@
 *MOT: look .
 *MOT: we had a little girl and a little boy and then we had sort of that
 *CHI: thats that one .
-*CHI: thats a thats baby .
+*CHI: thats baby .
 *MOT: thats the baby  is it ?
 *MOT: oh .
 *MOT: Im sorry .
@@ -674,7 +672,7 @@
 *MOT: you dont know ?
 *MOT: what what are we playing  Becky ?
 *CHI: we playing Snap .
-*MOT: so what do we say when we say when we see two Poppys ?
+*MOT: so what do we say when we see two Poppys ?
 *CHI: dont Know .
 *MOT: we say Snap .
 *CHI: Snap .
@@ -698,7 +696,7 @@
 *CHI: is it the same ?
 *MOT: no .
 *CHI: is it .
-*CHI: is it um it um is it Charlie Chalk ?
+*CHI: is it Charlie Chalk ?
 *MOT: no .
 *MOT: well .
 *MOT: that is but that isnt .
@@ -734,7 +732,7 @@
 *CHI: can you do it ?
 *CHI: down  Sukie .
 *CHI: Sukie .
-*CHI: I doing doing Snap .
+*CHI: doing Snap .
 *CHI: thats the same ?
 *MOT: no .
 *CHI: find two .
@@ -777,7 +775,7 @@
 *MOT: www .
 *MOT: come on then .
 *MOT: lets play something else .
-*MOT: shall I put the stack the cards together for you ?
+*MOT: shall I stack the cards together for you ?
 *MOT: put them all the right way round .
 *MOT: because theyre the wrong way  arent they ?
 *CHI: no .
@@ -815,7 +813,7 @@
 *CHI: mhm .
 *MOT: when was this ?
 *CHI: um me .
-*CHI: in the in the bed .
+*CHI: in the bed .
 *MOT: when you were in bed you were shouting me ?
 *CHI: mhm .
 *MOT: I dont think you were .
@@ -827,7 +825,7 @@
 *MOT: and you put it in again  didnt you ?
 *CHI: mhm .
 *MOT: and then Daddy hadta put it off again .
-*MOT: told me all about it  Becky Pi]
+*MOT: told me all about it  Becky .
 *CHI: and I I went to bed .
 *MOT: you went to bed .
 *MOT: mhm .
@@ -866,7 +864,7 @@
 *CHI: this one .
 *MOT: no .
 *MOT: that one willnt work in there .
-*CHI: lets do lets do drawing .
+*CHI: lets do drawing .
 *CHI: oh look .
 *CHI: I found .
 *MOT: oh .
@@ -912,7 +910,7 @@
 *MOT: are you going to tell me who everybody is ?
 *CHI: these out .
 *CHI: no .
-*MOT: can we shall we stand them up ?
+*MOT: shall we stand them up ?
 *MOT: shall we stand them up so I can see the properly ?
 *CHI: they big .
 *MOT: theyre big  are they ?
@@ -926,7 +924,7 @@
 *CHI: this is baabaasheep .
 *MOT: is it ?
 *CHI: mhm .
-*MOT: a very funny looking rabbit  Becky .
+*MOT: funny looking rabbit  Becky .
 *MOT: did you see this rabbit ?
 *CHI: yeah .
 *MOT: got lipstick on .
@@ -951,8 +949,7 @@
 *MOT: oh .
 *MOT: thats a better doggie  isnt it than that other one ?
 *MOT: hm ?
-*CHI: whats that .
-*MOT: thats a sheepdog .
+*MOT: a sheepdog .
 *CHI: sheepdog .
 *CHI: wait for me .
 *CHI: wait for me .
@@ -1154,7 +1151,7 @@
 *CHI: no .
 *MOT: oh sorry .
 *MOT: do you like the small ones best then  Becky ?
-*MOT: are these the ones that the nicest ones here ?
+*MOT: are these the nicest ones here ?
 *CHI: yes .
 *MOT: are they ?
 *MOT: dont you like the big animals ?
@@ -1368,7 +1365,7 @@
 *CHI: hello .
 *CHI: that rocket .
 *CHI: and they open
-*CHI: and that and that cowboy .
+*CHI: and that cowboy .
 *MOT: do you want me to do that button for you ?
 *MOT: shall I do it ?
 *CHI: no .
@@ -1384,14 +1381,14 @@
 *MOT: its very funny  isnt it  Becky ?
 *CHI: mhm .
 *CHI: who made these ?
-*MOT: are you sure you dont you willnt let me do that button ,
+*MOT: are you sure you willnt let me do that button ,
 *MOT: Im itching to fasten the button ?
 *CHI: mhm .
 *CHI: no .
 *INV: www .
-*CHI: I hear it I hear birds .
+*CHI: I hear birds .
 *INV: mhm .
-*MOT: theyre in the garden .
+*MOT: in the garden .
 *MOT: what are they doing ?
 *CHI: dont know .
 *MOT: singing  arent they ?
@@ -1441,7 +1438,7 @@
 *MOT: youre playing with the cows while I put the dress on  are you ?
 *MOT: I see .
 *CHI: oh .
-*CHI: wheres my  wheres my horse ?
+*CHI: wheres my horse ?
 *CHI: oh .
 *CHI: gone .
 *CHI: oh dear .
@@ -1560,7 +1557,7 @@
 *MOT: whos that ?
 *INV: thats lovely .
 *MOT: www .
-*CHI: is that is that lid .
+*CHI: is that lid .
 *MOT: pardon ?
 *MOT: is that a lid ?
 *INV: its here .

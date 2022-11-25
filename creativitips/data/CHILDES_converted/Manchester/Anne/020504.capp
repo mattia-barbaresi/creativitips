@@ -117,7 +117,6 @@
 *MOT: a fish in a fishbowl .
 *CHI: there .
 *MOT: do you know what this is  Anne ?
-*CHI: I dont know .
 *MOT: no .
 *MOT: I didnt think youd know what that was .
 *MOT: its called an iron .
@@ -482,14 +481,14 @@
 *MOT: oh .
 *MOT: youre Mary as well as an angel are you ?
 *CHI: oh .
-*CHI: where my my scarf ?
+*CHI: my scarf ?
 *MOT: wheres your what ?
 *CHI: where my scarf ?
 *MOT: wheres your scarf ?
 *MOT: oh .
 *MOT: we could use one of Caitlins .
 *MOT: find one of Caitlins blankets .
-*MOT: we can use that as a little um a scarf for Mary .
+*MOT: we can use that as um a scarf for Mary .
 *CHI: oh .
 *CHI: I want a big one of these .
 *MOT: thats it .
@@ -540,7 +539,7 @@
 *CHI: yeah .
 *MOT: is that a good idea .
 *INV: I was gonna be a sheep actually but I can be the
-*MOT: the sheep the sheep ?
+*MOT: the sheep ?
 *CHI: no .
 *MOT: the shepherd .
 *CHI: king .
@@ -579,7 +578,7 @@
 *MOT: a baby is born .
 *CHI: no .
 *CHI: not .
-*MOT: and his name is and his name is Jesus .
+*MOT: and his name is Jesus .
 *CHI: it isnt .
 *MOT: isnt that right ?
 *CHI: no .
@@ -629,8 +628,6 @@
 *MOT: the shepherds coming as well .
 *MOT: shepherds have got to follow the star .
 *MOT: or is it the kings who follow the star .
-*MOT: think they both do dont they ?
-*INV: think they all do .
 *MOT: gonna follow that star .
 *MOT: oh look .
 *MOT: theres baby Jesus .
@@ -688,7 +685,7 @@
 *MOT: tell me about this page first .
 *CHI: one one day .
 *CHI: one day .
-*CHI: Mary and Joseph had this had this little boy in there .
+*CHI: Mary and Joseph had this little boy in there .
 *CHI: and the baby baby Jesus is born .
 *CHI: bornedn .
 *CHI: and all the kings .
@@ -883,7 +880,7 @@
 *CHI: kiss .
 *MOT: is is he a nice duck ?
 *MOT: nice duck now .
-*CHI: need his need his Mummy .
+*CHI: need his Mummy .
 *CHI: hello  Mummy .
 *CHI: hello .
 *CHI: you 0are a good girl .
@@ -992,7 +989,7 @@
 *MOT: what ?
 *MOT: this bit ?
 *MOT: this bit ?
-*MOT: thats where the thats where the cow makes its milk .
+*MOT: thats where the cow makes its milk .
 *MOT: thats where the baby cows drink the milk from their Mummy .
 *CHI: wheres the baby ones ?
 *CHI: where baby ones ?
@@ -1073,8 +1070,7 @@
 *MOT: oh yeah .
 *MOT: there you are .
 *MOT: thatll hafta be Mummy .
-*MOT: dont need her yet though do we ?
-*CHI: oh yeah .
+*MOT: her yet though do we ?
 *MOT: what does Gos go and see first ?
 *MOT: he sees a green long leg .
 *MOT: what does he say ?
@@ -1155,8 +1151,6 @@
 *CHI: hes in the water .
 *CHI: one two three four five six eleven twelve fourteen .
 *MOT: thats right .
-*MOT: one two three four five six .
-*CHI: one two three four five six eleven twelve fourteen .
 *MOT: you go too quickly .
 *MOT: what other animals did we find in here ?
 *MOT: do you remember finding some other animals ?
@@ -1272,7 +1266,7 @@
 *CHI: on that .
 *CHI: over there .
 *MOT: on this ?
-*MOT: we could do we could do a table and chairs and things .
+*MOT: we could do a table and chairs and things .
 *MOT: do the Pooh Bears story .
 *MOT: remember ?
 *CHI: on that .
@@ -1375,8 +1369,6 @@
 *CHI: blue .
 *CHI: yellow .
 *MOT: good girl .
-*CHI: not yellow .
-*MOT: thats right .
 *CHI: oh .
 *CHI: look .
 *CHI: eye be on here .
@@ -1426,7 +1418,7 @@
 *MOT: Annes not got any white bricks in her Duplo have you ?
 *MOT: perhaps they only come with the zoo  Anne .
 *CHI: Anne got some coming .
-*CHI: not got some whites some in my>
+*CHI: not got some whites some
 *INV: no .
 *CHI: I havent .
 *INV: no .
@@ -1527,8 +1519,7 @@
 *MOT: www .
 *CHI: when its done it .
 *CHI: havent done yet .
-*CHI: havent done .
-*MOT: it hasnt done yet .
+*MOT: yet .
 *MOT: no .
 *CHI: it havent done yet .
 *CHI: I havent done it it yet .

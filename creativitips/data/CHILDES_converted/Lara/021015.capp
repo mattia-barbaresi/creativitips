@@ -29,13 +29,13 @@
 *CHI: yours are not ready .
 *MOT: no .
 *MOT: yours are not ready either .
-*CHI: yours are not ready either i]
+*CHI: yours are not ready either .
 *MOT: careful .
 *MOT: move out the way please .
-*MOT: its awfully hot PI]
-*CHI: its awfully hot I]
+*MOT: its awfully hot .
+*CHI: its awfully hot .
 *CHI: Im making it .
-*MOT: youre making it  are you PI]
+*MOT: youre making it  are you ?
 *CHI: yes .
 *MOT: go on then .
 *CHI: let me have sharp knife .
@@ -55,7 +55,7 @@
 *CHI: I want a drink .
 *MOT: I beg your pardon ?
 *CHI: I want a drink .
-*CHI: I want a drink SR]
+*CHI: I want a drink .
 *CHI: please ?
 *CHI: I have ?
 *MOT: pardon ?
@@ -69,10 +69,10 @@
 *CHI: sings .
 *CHI: she will choke .
 *MOT: dont think so .
-*CHI: just get IN]
+*CHI: just get
 *CHI: in the garden !
-*CHI: my mummy and daddy are PI]
-*CHI: baby  hasta IN]
+*CHI: my mummy and daddy are .
+*CHI: baby hasta
 *CHI: is it burning ?
 *MOT: no .
 *MOT: chips are cooking .
@@ -80,9 +80,9 @@
 *CHI: I want a pencil .
 *MOT: beg your pardon ?
 *CHI: I want a pencil please .
-*CHI: I have IN]
+*CHI: I have .
 *CHI: Mummy .
-*CHI: please may I IN]
+*CHI: please may I
 *MOT: youre not writing in that book .
 *CHI: I dont wanna .
 *MOT: wherere you gonna write ?
@@ -102,20 +102,20 @@
 *CHI: Winnie Ther Pooh .
 *CHI: sticker book .
 *CHI: Winnie Ther Pooh sticker book .
-*CHI: Winnie Ther Pooh sticker book SR]
-*CHI: Winnie Ther Pooh sticker book SR]
+*CHI: Winnie Ther Pooh sticker book .
+*CHI: Winnie Ther Pooh sticker book .
 *MOT: go on then .
 *MOT: look  Amy .
 *MOT: go on then .
 *MOT: what are you doing  Lara ?
-*CHI: Im all PI]
+*CHI: Im all .
 *MOT: well put them all on the pages then .
-*CHI: pages I]
-*CHI: all SR]
+*CHI: pages .
+*CHI: all .
 *CHI: he in the rain .
 *CHI: hes in the rain .
 *CHI: shes in the rain .
-*CHI: shes in the rain SR]
+*CHI: shes in the rain .
 *CHI: Ive done her upside down .
 *MOT: okay .
 *CHI: I 0have done them the right way .
@@ -125,7 +125,7 @@
 *MOT: why not ?
 *CHI: all on my own .
 *CHI: can you help me ?
-*CHI: can you help me SR]
+*CHI: can you help me ?
 *MOT: come over here .
 *MOT: well .
 *MOT: lets get some chairs .
@@ -138,29 +138,29 @@
 *MOT: Ill get you a breadstick .
 *CHI: I want a breadstick .
 *MOT: no .
-*MOT: youre having your own PI]
-*CHI: I want a breadstick after PI]
+*MOT: youre having your own .
+*CHI: I want a breadstick after .
 *MOT: after dinner maybe .
 *CHI: with with dinner .
 *MOT: no .
 *MOT: after dinner .
-*CHI: with dinner SR]
+*CHI: with dinner .
 *CHI: I want a breadstick with dinner .
-*CHI: with dinner SR]
+*CHI: with dinner .
 *MOT: no .
 *MOT: after dinner .
 *CHI: no .
 *MOT: yes .
 *CHI: with dinner .
-*CHI: with dinner SR]
+*CHI: with dinner .
 *MOT: no .
-*MOT: because otherwise you wont I know you .
+*MOT: because I know you .
 *MOT: you wont eat your dinner .
 *CHI: but I will .
 *MOT: whats that ?
 *CHI: umbrella .
 *MOT: sing sing singing in the rain then .
-*CHI: singing in the rain I]
+*CHI: singing in the rain .
 *MOT: sings .
 *CHI: whee .
 *CHI: what are you waiting for ?
@@ -181,16 +181,15 @@
 *MOT: no .
 *MOT: after dinner .
 *MOT: yes .
-*CHI: I I wanna eat IN]
 *MOT: after dinner .
 *CHI: here .
-*MOT: yes but after IN]
+*MOT: yes but after
 *CHI: I wanna put them here .
 *MOT: no .
-*CHI: no I]
+*CHI: no .
 *CHI: I wanna put them there .
 *MOT: no .
-*CHI: no SR]
+*CHI: no .
 *MOT: Lara .
 *MOT: touch them and you wont be having dinner sweeties or anything .
 *CHI: I I wont touch them .
@@ -200,13 +199,13 @@
 *CHI: I wanna put them there .
 *MOT: no .
 *CHI: yes .
-*CHI: yes SR]
+*CHI: yes .
 *MOT: no .
-*CHI: yes SR]
+*CHI: yes .
 *MOT: no .
-*CHI: yes SR]
-*CHI: yes SR]
-*CHI: I want Im saying yes .
+*CHI: yes .
+*CHI: yes .
+*CHI: Im saying yes .
 *CHI: this is the wobbly chair .
 *MOT: this is even more wobbly  this one .
 *MOT: youll hafta put up with that one .
@@ -215,7 +214,7 @@
 *MOT: oh no .
 *MOT: this isnt the wibbly one .
 *MOT: thats the wibbly one .
-*MOT: because you were sposta sit on  you were sposta sit on
+*MOT: because  you were sposta sit on
 *MOT: oh .
 *MOT: we are in a paddy .
 *MOT: oh .
@@ -254,7 +253,7 @@
 *MOT: I think shes tired from all that fresh air .
 *CHI: let me have a look at it .
 *MOT: whats wrong with this one ?
-*CHI: I want another PI]
+*CHI: I want another .
 *MOT: alright then .
 *CHI: I want another chair too .
 *MOT: oh for goodness sake .
@@ -270,23 +269,23 @@
 *MOT: yes .
 *CHI: shes getting her feet on  look .
 *CHI: sings .
-*CHI: this is PI]
+*CHI: this is .
 *CHI: sings .
 *CHI: daddy .
-*CHI: daddy SR]
-*CHI: daddy SR]
+*CHI: daddy .
+*CHI: daddy .
 *CHI: I want daddy .
 *MOT: daddys at work .
 *CHI: I want him .
 *MOT: oh my goodness .
-*MOT: youre just gonna hafta be IN]
+*MOT: youre just gonna
 *MOT: right .
 *MOT: which chair are you sitting on at the table ?
 *CHI: that one .
 *MOT: this one ?
 *CHI: this one .
 *CHI: she wants to have her mummy .
-*CHI: she wants to have her mummy SR]
+*CHI: she wants to have her mummy .
 *CHI: her mummy and daddy .
 *MOT: I know .
 *CHI: sings .
@@ -309,7 +308,7 @@
 *CHI: Im fine .
 *CHI: no .
 *CHI: shush .
-*CHI: I want cut it up .
+*CHI: cut it up .
 *CHI: can I have a bigger knife ?
 *MOT: no .
 *MOT: not really .
@@ -333,7 +332,7 @@
 *MOT: no .
 *MOT: you just eat it .
 *CHI: I I want some ketchup .
-*CHI: I want some ketchup SR]
+*CHI: I want some ketchup .
 *MOT: youll hafta wait .
 *CHI: no .
 *CHI: I want get some ketchup .
@@ -348,7 +347,7 @@
 *MOT: is that what ?
 *CHI: take that off for me please ?
 *CHI: yum yum yum .
-*CHI: eat this all up PI]
+*CHI: eat this all up .
 *MOT: hurry up  Lara .
 *MOT: its bath time for Amy .
 *MOT: whos getting all a bit ratty .
@@ -357,13 +356,12 @@
 *MOT: oh .
 *CHI: ratty .
 *MOT: oh dear .
-*MOT: as soon as that tape goes on you IN]
+*MOT: as soon as that tape goes on you .
 *MOT: yours are what ?
 *CHI: four .
 *MOT: how many toes have you got ?
-*CHI: one two three four IN]
-*MOT: four five .
-*CHI: five .
+*CHI: one two three four .
+*MOT: four .
 *MOT: Amys got one two three four five .
 *MOT: yes .
 *MOT: he did .
@@ -380,17 +378,17 @@
 *MOT: when youve finished your dinner you can give her one .
 *CHI: pardon ?
 *MOT: when youve finished your dinner you can give her a cuddle .
-*CHI: finished I]
+*CHI: finished .
 *MOT: have you ?
 *CHI: come on then .
 *MOT: oh .
 *MOT: thats lovely  isnt it ?
 *MOT: right then .
-*MOT: you havent is it bathtime ?
+*MOT: is it bathtime ?
 *CHI: no .
 *MOT: why not ?
 *CHI: I want a breadstick .
-*MOT: oh I think Amys eaten them all .
+*MOT: oh Amys eaten them all .
 *MOT: have some smarties instead .
 *CHI: I want smarties .
 *CHI: I want more .
@@ -439,8 +437,8 @@
 *MOT: were not opening that one .
 *MOT: have one of these .
 *MOT: look .
-*MOT: Beatrix Potter characters PI]
-*CHI: I can PI]
+*MOT: Beatrix Potter characters .
+*CHI: I can .
 *MOT: oh  Amy .
 *MOT: bottle time .
 *MOT: quickly  Lara .
@@ -454,15 +452,15 @@
 *MOT: alright then .
 *CHI: shall I open it ?
 *MOT: just one .
-*CHI: one I]
+*CHI: one .
 *CHI: I like a one of those .
-*CHI: I like a IN]
+*CHI: I like a
 *CHI: put them all back again  shall we ?
 *MOT: pardon ?
-*CHI: put them all back again I]
+*CHI: put them all back again .
 *MOT: I cant hear you  Lara ?
 *CHI: put them all back 0 .
-*CHI: put them all back again SR]
+*CHI: put them all back again .
 *MOT: put them all back again ?
 *MOT: yes please .
 *MOT: and then thats it .
@@ -487,17 +485,17 @@
 *CHI: dont open them .
 *MOT: dont open them then .
 *MOT: have a look at them .
-*CHI: look I]
+*CHI: look .
 *MOT: who is it ?
 *CHI: Pete Rabbit .
 *MOT: Peter Rabbit .
-*CHI: Pete Rabbit SR]
+*CHI: Pete Rabbit .
 *CHI: I like a square one .
 *MOT: square one ?
 *CHI: yes .
 *MOT: there arent any square ones .
 *MOT: theyre all characters .
-*CHI: I like a square one SR]
+*CHI: I like a square one .
 *MOT: lets have a look .
 *MOT: well .
 *MOT: theyre all square .
@@ -509,7 +507,7 @@
 *MOT: lets have a look .
 *MOT: oh yes .
 *CHI: one morning dad was sitting .
-*MOT: one morning IN]
+*MOT: one morning .
 *CHI: pardon ?
 *MOT: one morning daddy was sitting where ?
 *CHI: in his black .
@@ -518,7 +516,7 @@
 *MOT: what does that mean ?
 *CHI: I want daddy .
 *MOT: daddys at work .
-*CHI: I want daddy SR]
+*CHI: I want daddy .
 *MOT: careful .
 *MOT: youll squash them if you do that .
 *MOT: Lara .
@@ -533,7 +531,7 @@
 *MOT: I think thats well Ill get you an orange
 *CHI: I want a banana .
 *MOT: pardon ?
-*CHI: banana Sr]
+*CHI: banana .
 *MOT: you want a banana ?
 *CHI: yes .
 *MOT: go on then .
@@ -553,7 +551,7 @@
 *CHI: can you open it ?
 *MOT: yes .
 *MOT: please ?
-*CHI: please I]
+*CHI: please .
 *MOT: sit down then .
 *MOT: is that nice ?
 *CHI: yes .
@@ -583,12 +581,11 @@
 *MOT: yes .
 *MOT: you can have a drink when Ive fed Amy .
 *MOT: whats the matter ?
-*CHI: I want Im going to get IN]
 *CHI: I want some milk .
 *MOT: well .
 *MOT: can you reach the cup ?
 *CHI: no .
-*MOT: no so IN]
+*MOT: no so
 *MOT: leave it there please .
 *MOT: Ill get you some in a minute .
 *CHI: I want some apple juice .
@@ -609,10 +606,10 @@
 *MOT: good .
 *MOT: mind the orange apple juice .
 *MOT: right .
-*MOT: I think I mean in the washingup bowl .
+*MOT: I mean in the washingup bowl .
 *MOT: theres your Peter Rabbit cup there that you had milk in before .
 *MOT: okay ?
-*MOT: has it got milk IN]
+*MOT: has it got milk
 *MOT: oh !
 *MOT: oops .
 *MOT: get the teatowel and wipe that up please .
@@ -621,7 +618,7 @@
 *MOT: you be really careful .
 *CHI: why ?
 *MOT: in case you spill it .
-*MOT: dont do it try doing it the other way .
+*MOT: try doing it the other way .
 *MOT: holding it like that .
 *MOT: thats it .
 *MOT: dont miss the cup !
@@ -651,7 +648,7 @@
 *MOT: oh my goodness .
 *MOT: Lara .
 *MOT: youll never manage water .
-*MOT: leave it and IN]
+*MOT: leave it and
 *MOT: just drink it how it is .
 *MOT: I dont think you can reach the tap  can you ?
 *MOT: can you ?
@@ -664,7 +661,7 @@
 *CHI: can you do it ?
 *MOT: in a minute .
 *MOT: just drink it like that .
-*MOT: dont forget dont forget about this banana .
+*MOT: dont forget about this banana .
 *MOT: dont you want it .
 *MOT: well .
 *MOT: come and have two more bites of it please .
@@ -678,7 +675,7 @@
 *MOT: good girl .
 *CHI: some that .
 *MOT: what ?
-*CHI: some that SR]
+*CHI: some that .
 *MOT: some what ?
 *CHI: that .
 *MOT: whats that ?
@@ -700,8 +697,7 @@
 *CHI: three .
 *MOT: thats mummys .
 *MOT: leave it alone .
-*MOT: why dont you get some toys ?
-*CHI: four .
+*MOT: why dont you get ?
 *MOT: Polly Pocket .
 *CHI: pardon ?
 *MOT: wheres Polly Pocket ?
@@ -712,14 +708,14 @@
 *MOT: why not ?
 *CHI: er .
 *CHI: I cant believe it .
-*CHI: I cant believe it SR]
+*CHI: I cant believe
 *MOT: have you found it ?
 *MOT: have you found it  Lara ?
 *CHI: no .
 *CHI: cant find it .
 *MOT: oh no .
 *MOT: where is it ?
-*CHI: cant find it SR]
+*CHI: cant find it .
 *MOT: oh come on  Amy .
 *MOT: lets find it for her .
 *MOT: whats this ?
@@ -728,7 +724,7 @@
 *MOT: Amys fast asleep anyway .
 *MOT: look .
 *MOT: laughs .
-*MOT: she didnt wake up once in that whole IN]
+*MOT: she didnt wake up once in that whole .
 *MOT: look .
 *MOT: look  Lara .
 *MOT: Lara look .
@@ -761,7 +757,7 @@
 *MOT: go and get your tissue .
 *CHI: cant .
 *MOT: why not ?
-*CHI: because  I IN]
+*CHI: because I
 *MOT: well .
 *MOT: Im gonna take this away until you go and get your
 *MOT: go and get a tissue please .
@@ -774,7 +770,7 @@
 *MOT: go on .
 *CHI: 0 .
 *MOT: look .
-*MOT: youve got youve got a chocolaty mouth .
+*MOT: youve got a chocolaty mouth .
 *MOT: go and get a tissue and wipe your mouth .
 *CHI: 0 .
 *MOT: go on .
@@ -820,7 +816,7 @@
 *CHI: can can you make mummy get some breakfast ?
 *MOT: pardon ?
 *MOT: can I make mummy do what ?
-*CHI: breakfast SR]
+*CHI: breakfast .
 *MOT: have breakfast ?
 *CHI: yes .
 *MOT: come on .
@@ -833,13 +829,13 @@
 *MOT: heres your breakfast .
 *MOT: cant see  Lara .
 *MOT: your heads in the way .
-*CHI: cant see I]
+*CHI: cant see .
 *CHI: what about this little baby ?
 *MOT: wheres he going to sit ?
 *CHI: her .
 *MOT: wheres she going to sit ?
-*CHI: her SR]
-*CHI: he I]
+*CHI: her .
+*CHI: he .
 *MOT: is it a girl or a boy baby ?
 *CHI: its a girl .
 *CHI: thats a girl .
@@ -853,7 +849,7 @@
 *MOT: to see if the tapes working .
 *MOT: do you wanna do it ?
 *CHI: yes .
-*CHI: is it do is it doing ?
+*CHI: is it doing ?
 *MOT: yes .
 *CHI: it hurts .
 *MOT: alright then .
@@ -890,7 +886,7 @@
 *MOT: why do you want a stick ?
 *CHI: because we need it 0to go on there .
 *CHI: for a baby .
-*CHI: do you wanna play with roundabout or the swing or the IN]
+*CHI: do you wanna play with roundabout or the swing or the
 *MOT: seesaw ?
 *MOT: can I play with the seesaw ?
 *MOT: can I have the two children ?
@@ -902,7 +898,7 @@
 *MOT: well .
 *MOT: let me play with the swing then and you just need one child .
 *MOT: swing swing swing .
-*CHI: swing I]
+*CHI: swing .
 *CHI: do you want 0the baby go on roundabout ?
 *MOT: oh thats thats a good idea .
 *MOT: round you go  baby .
@@ -912,17 +908,17 @@
 *CHI: and Ill have your baby .
 *MOT: look .
 *MOT: theyre going round .
-*CHI: I wanna IN]
+*CHI: I wanna
 *CHI: do you want the baby ?
 *MOT: okay .
 *CHI: and the mummy .
 *CHI: I go first .
 *CHI: no .
-*CHI: I go first SR]
+*CHI: I go first .
 *CHI: wheres mummy ?
 *MOT: dont know .
 *MOT: shes here .
-*CHI: I want I wanna go on the swing  mummy .
+*CHI: I wanna go on the swing  mummy .
 *MOT: alright then .
 *MOT: go on the swing .
 *CHI: the slide .
@@ -936,7 +932,7 @@
 *MOT: there you go .
 *CHI: and do the other one up ?
 *MOT: there you go .
-*CHI: and do the other one up SR]
+*CHI: and do the other one up .
 *MOT: there you go .
 *MOT: you havent got any shoelaces left now to do up .
 *CHI: laughs .
@@ -953,10 +949,7 @@
 *MOT: that was mean .
 *MOT: put the little baby in bed then with his teddybear .
 *CHI: wheres the little babes ?
-*CHI: wheres the little babes SR]
-*CHI: wheres the little babes SR]
 *MOT: I dont know what you mean ?
-*CHI: wheres the little babes SR]
 *MOT: what little babes ?
 *CHI: there .
 *MOT: theyre there .
@@ -981,7 +974,6 @@
 *MOT: thats something you can do together .
 *CHI: whats the slide ?
 *MOT: theres the slide .
-*CHI: can do can you put IN]
 *MOT: where ?
 *MOT: oh .
 *CHI: no .
@@ -990,13 +982,13 @@
 *CHI: hes there now .
 *MOT: well .
 *MOT: seesaw .
-*CHI: seesaw I]
+*CHI: seesaw .
 *CHI: we need somebody to go in the middle .
 *MOT: well .
 *MOT: whos gonna go in the middle ?
 *CHI: teddybear .
 *MOT: okay .
-*CHI: he PI]
+*CHI: he .
 *MOT: oh dear .
 *MOT: Im just gonna get a drink .
 *MOT: do you want another drink ?
@@ -1008,12 +1000,12 @@
 *MOT: go on then .
 *CHI: in the kitchen  shall I ?
 *MOT: yes .
-*MOT: we dont then we can wipe it up easily .
+*MOT: then we can wipe it up easily .
 *MOT: phone .
 *MOT: other mummy ?
 *MOT: you only get one mummy Im afraid .
 *MOT: people only get one mummy .
-*MOT: lets make these bottles before IN]
+*MOT: lets make these bottles before
 *CHI: wheres the nursery ?
 *MOT: what nursery ?
 *CHI: wheres the nursery there ?
@@ -1021,7 +1013,7 @@
 *CHI: no .
 *CHI: is that the babys room ?
 *MOT: pardon ?
-*CHI: is that the babys room SR]
+*CHI: is that the babys room ?
 *MOT: yes .
 *MOT: the nurserys the babys room .
 *MOT: is that okay ?
@@ -1036,18 +1028,18 @@
 *CHI: I want my mummy .
 *MOT: whos saying that now then ?
 *CHI: baby .
-*CHI: I want my mummy SR]
-*CHI: mummy SR]
+*CHI: I want my mummy .
+*CHI: mummy .
 *MOT: mummys coming  baby .
-*CHI: I want my mummy SR]
+*CHI: I want my mummy .
 *MOT: mummys coming .
-*CHI: I want my mummy SR]
-*CHI: I want my mummy SR]
+*CHI: I want my mummy .
+*CHI: I want my mummy .
 *CHI: I want my mummy .
 *MOT: well .
 *MOT: your mummys there .
 *CHI: no .
-*CHI: I dont PI]
+*CHI: I dont .
 *MOT: Im not your mummy .
 *MOT: Im Laras mummy .
 *CHI: no .
@@ -1087,31 +1079,29 @@
 *MOT: one of them wanna play on the bike .
 *CHI: who wants to play on the bike ?
 *MOT: pardon ?
-*CHI: who wants to play on the bike SR]
+*CHI: who wants to play on the bike ?
 *MOT: who does wanna play on the bike ?
 *CHI: I no .
 *CHI: you choose .
-*CHI: you choose SR]
-*MOT: er .
-*MOT: the little boy .
 *CHI: you choose .
+*MOT: er .
 *CHI: the little boy .
 *MOT: Im just going to get a drink of apple juice  Lara .
-*CHI: I want a drink of apple IN]
+*CHI: I want a drink of apple
 *MOT: youve got a drink of apple juice .
 *CHI: where ?
 *MOT: on here look .
 *CHI: I dont like that .
 *MOT: do you want some water in it ?
 *CHI: yes .
-*CHI: I dont like IN]
-*CHI: I dont like that SR]
+*CHI: I dont like
+*CHI: I dont like that .
 *MOT: what ?
 *MOT: oh right .
 *MOT: thats a bit of chocolate .
 *MOT: there .
 *MOT: its gone .
-*MOT: actually Ill have some orange juice and you can have IN]
+*MOT: actually Ill have some orange juice and you can have .
 *MOT: whats whats going on ?
 *MOT: did you spill it ?
 *CHI: no .
@@ -1121,7 +1111,7 @@
 *CHI: sings .
 *CHI: hes fallened over .
 *MOT: whos fallen over ?
-*CHI: hes fallened over SR]
+*CHI: hes fallened
 *MOT: who ?
 *CHI: look .
 *CHI: boy .
@@ -1133,7 +1123,7 @@
 *CHI: eating some tea .
 *MOT: hell hafta cry out mummy mummy .
 *MOT: so she knows that hes fallen over .
-*CHI: he wants hes going to walk there .
+*CHI: hes going to walk there .
 *MOT: hello .
 *MOT: whats the matter ?
 *CHI: Ive got a poorly head .
@@ -1141,7 +1131,7 @@
 *MOT: let me go and get the plaster .
 *CHI: no .
 *MOT: why not ?
-*CHI: no SR]
+*CHI: no .
 *CHI: its gone now .
 *MOT: oh good .
 *MOT: Ill go and make tea then .
@@ -1170,7 +1160,7 @@
 *MOT: theyve had lunch .
 *CHI: tea .
 *MOT: tea .
-*CHI: tea SR]
+*CHI: tea .
 *MOT: is that all mummys do ?
 *MOT: youve got a bike on your head .
 *CHI: dont want a bike on my head .
@@ -1194,7 +1184,7 @@
 *CHI: why ?
 *MOT: I dont know .
 *CHI: she hasta sit there .
-*MOT: she can sit on the sofa on the armchair  cant she ?
+*MOT: she can sit on the armchair  cant she ?
 *MOT: and have hers and the baby can sit there like Amy does when we have
 *MOT: yes ?
 *CHI: they wanna go to nursery now .
@@ -1212,7 +1202,7 @@
 *MOT: shes going up as well .
 *MOT: babyll hafta have a bath in a minute because theres not room in
 *CHI: is she going to wash them ?
-*CHI: is she going to wash them SR]
+*CHI: is she going to wash them ?
 *MOT: yes .
 *CHI: why ?
 *MOT: because theyre dirty .
@@ -1225,23 +1215,21 @@
 *MOT: you do have one .
 *MOT: youve got two buckets and one sort of spade thing  havent you ?
 *MOT: and some rakes .
-*MOT: have you got IN]
+*MOT: have you got .
 *CHI: whats that funny noise ?
 *MOT: its Sarah .
 *MOT: next door .
-*CHI: in dining room ?
-*MOT: isnt it ?
 *MOT: yes .
 *MOT: dont know what shes doing .
 *CHI: oh whats that ?
 *CHI: get out .
-*CHI: you watch the PI]
+*CHI: you watch the .
 *MOT: I know what shes doing .
 *MOT: shes coming round .
 *MOT: is she ?
 *MOT: yes .
 *MOT: no .
-*CHI: yes I]
+*CHI: yes .
 *MOT: I think she must be next door .
 *MOT: no .
 *MOT: shes going up the stairs .
@@ -1259,7 +1247,7 @@
 *CHI: shes clean now .
 *MOT: good .
 *MOT: out you come .
-*CHI: mummys go to dry PI]
+*CHI: mummys go to dry .
 *MOT: okay .
 *MOT: dry dry dry .
 *CHI: not the little girl .
@@ -1268,15 +1256,13 @@
 *MOT: dry dry dry dry .
 *CHI: no no .
 *CHI: little baby .
-*MOT: they both need oh the baby needs to be dried ?
+*MOT: oh the baby needs to be dried ?
 *MOT: dry dry dry dry .
-*CHI: the baby the baby wants to go for a walk .
-*MOT: babies cant walk .
-*CHI: no .
-*CHI: mummy better PI]
+*CHI: the baby wants to go for a walk .
+*MOT: babies cant .
+*CHI: mummy better .
 *MOT: wherere they going ?
-*CHI: theyre going to IN]
-*MOT: its bedtime .
+*CHI: theyre going
 *MOT: theyve had a bath .
 *MOT: come on  everybody .
 *MOT: into bed .
@@ -1286,7 +1272,7 @@
 *MOT: mums going upstairs to paint the new bedroom .
 *CHI: hes getting out of bed .
 *CHI: hes getting out of bed .
-*CHI: because hes had sleep now PI]
+*CHI: because hes had sleep now .
 *MOT: get back into bed .
 *MOT: blow .
 *MOT: good girl .
@@ -1302,7 +1288,7 @@
 *MOT: its morning time wake up .
 *CHI: the baby hasta go to bed .
 *MOT: why ?
-*CHI: because shes er hes er only a baby .
+*CHI: because hes er only a baby .
 *MOT: well .
 *MOT: Amy wakes up when we wake up  doesnt she ?
 *MOT: doesnt she ?
@@ -1335,7 +1321,7 @@
 *MOT: what do you think ?
 *CHI: think they 0are on the sofa .
 *CHI: the little girl .
-*CHI: he wants IN]
+*CHI: he wants .
 *CHI: do you wanna go on the swing or or on the slide or the
 *MOT: well .
 *MOT: I wanna see play on the slide .
@@ -1357,10 +1343,10 @@
 *MOT: he says .
 *MOT: move out the way .
 *MOT: whee .
-*CHI: move out the way I]
+*CHI: move out the way .
 *CHI: whee .
 *MOT: move out the way .
-*CHI: move out the way SR]
+*CHI: move out the way .
 *CHI: whee .
 *MOT: oops .
 *CHI: laughs .
@@ -1374,22 +1360,22 @@
 *MOT: laughs .
 *MOT: whee .
 *CHI: laughs .
-*CHI: move out the way I]
-*CHI: oh theres nobody in the way I]
+*CHI: move out the way .
+*CHI: oh theres nobody in the way .
 *MOT: whee .
 *CHI: laughs .
 *MOT: move out the way .
 *MOT: oh theres nobody in the way .
 *MOT: whee .
-*CHI: move out the way I]
-*CHI: oh theres nobody in the way I]
+*CHI: move out the way .
+*CHI: oh theres nobody in the way .
 *CHI: whee .
 *MOT: whee .
 *CHI: laughs .
 *CHI: whee .
 *CHI: do they wanna go on the seesaw ?
 *MOT: yes please .
-*CHI: yes please I]
+*CHI: yes please .
 *MOT: oh .
 *CHI: laughs .
 *MOT: oh no no no .
@@ -1397,7 +1383,7 @@
 *MOT: seesaw .
 *CHI: who wants to go on the roundabout or the swing ?
 *MOT: sings .
-*CHI: who wants to go on the roundabout or the swing SR]
+*CHI: who wants to go on the roundabout or the swing ?
 *MOT: the swing please .
 *MOT: and the little boys gonna go on the roundabout .
 *MOT: oh .
@@ -1444,46 +1430,43 @@
 *MOT: pardon me .
 *CHI: laughs .
 *MOT: I think youre getting tired .
-*CHI: pardon me SR]
+*CHI: pardon me .
 *MOT: pardon me .
 *CHI: laughs .
 *MOT: is that funny ?
 *MOT: I think the trees getting in the way .
-*MOT: lets move it IN]
-*CHI: pardon me SR]
 *MOT: pardon me .
 *CHI: laughs .
 *MOT: dont try and do it .
-*CHI: pardon me SR]
+*CHI: pardon me .
 *MOT: pardon me .
 *CHI: laughs .
-*CHI: pardon me SR]
+*CHI: pardon me .
 *MOT: pardon me .
 *MOT: is it funny ?
 *CHI: yes .
 *MOT: round and round .
-*CHI: pardon me SR]
-*CHI: pardon me SR]
-*CHI: pardon me SR]
-*CHI: pardon me SR]
+*CHI: pardon me .
+*CHI: pardon me
+*CHI: pardon me .
+*CHI: pardon me .
 *MOT: youre mad .
 *CHI: you are mad .
-*CHI: pardon me SR]
+*CHI: pardon me .
 *MOT: Lara .
 *MOT: stop it .
 *MOT: stop it .
-*MOT: shall we cut your fringe PI]
+*MOT: shall we cut your fringe ?
 *CHI: pardon ?
 *MOT: I dont know whos got the scissors .
 *MOT: shall we cut your fringe ?
 *CHI: no .
 *MOT: why not ?
-*CHI: want you to cut my nails PI]
+*CHI: want you to cut my nails .
 *MOT: your nails ?
 *MOT: I dont know .
 *MOT: hang on a minute then .
 *CHI: 0are they going to be very sharp ones ?
-*MOT: cant IN]
 *CHI: are they going to be very sharp ones ?
 *MOT: sharp what ?
 *CHI: sharp scissors ?
@@ -1515,11 +1498,11 @@
 *MOT: is that okay ?
 *CHI: pardon me .
 *MOT: shh .
-*MOT: Ill go itll go skewifn if youre not careful .
+*MOT: itll go skewifn if youre not careful .
 *MOT: oh it has gone .
 *MOT: close your eyes .
 *MOT: yeh well .
-*MOT: just leave your eyes closed and then you wont get IN]
+*MOT: just leave your eyes closed and then you wont get
 *CHI: 0 .
 *CHI: hair .
 *MOT: I know .
@@ -1557,7 +1540,7 @@
 *MOT: Im not finished .
 *MOT: right .
 *MOT: lets get you a drink then .
-*MOT: oh you are a little IN]
+*MOT: oh you are a little
 *MOT: you are a one .
 *MOT: honestly .
 *MOT: here you are .
@@ -1611,7 +1594,7 @@
 *MOT: what is it ?
 *CHI: the boiler I think .
 *MOT: where ?
-*CHI: the boiler SR]
+*CHI: the boiler .
 *MOT: a boiler ?
 *MOT: no .
 *MOT: thats a clock up there .
@@ -1621,7 +1604,7 @@
 *MOT: thats a clock .
 *CHI: I think it is .
 *MOT: it is .
-*CHI: think it is SR]
+*CHI: think it is .
 *MOT: shall I do the other hand ?
 *MOT: which one shall I start with ?
 *MOT: thumb ?
@@ -1679,7 +1662,7 @@
 *CHI: yes .
 *MOT: whats the matter ?
 *MOT: hang on .
-*CHI: want IN]
+*CHI: want .
 *MOT: youve got a hair .
 *CHI: where ?
 *MOT: in your eye .
@@ -1694,7 +1677,7 @@
 *CHI: no .
 *MOT: or shall we read Pingu ?
 *MOT: I think its probably time to read the story .
-*CHI: probably play with PI]
+*CHI: probably play with .
 *CHI: can I write something down ?
 *MOT: okay .
 *CHI: with the other pen ?
@@ -1705,7 +1688,7 @@
 *MOT: not over my writing .
 *MOT: use this page .
 *MOT: whatre you drawing ?
-*CHI: drawing IN]
+*CHI: drawing .
 *CHI: can you write my name ?
 *MOT: yes .
 *MOT: Lucy Lamplady .
@@ -1718,7 +1701,7 @@
 *MOT: that looks more like a Munchin Mike .
 *CHI: thats your hair .
 *MOT: is it ?
-*CHI: is this think its a bit like Munchin Mike .
+*CHI: think its a bit like Munchin Mike .
 *MOT: laughs .
 *CHI: like it to be Munchin Mike ?
 *MOT: yes .
@@ -1768,7 +1751,7 @@
 *MOT: youve got this pen .
 *MOT: right .
 *MOT: lean on Pingu .
-*MOT: then you IN]
+*MOT: then you
 *CHI: drawing a funny face .
 *MOT: okay .
 *CHI: color in his face .
@@ -1795,9 +1778,9 @@
 *MOT: babe ?
 *MOT: babe ?
 *CHI: laughs .
-*CHI: little baby circle SR]
-*CHI: little baby circle SR]
-*CHI: little baby circle SR]
+*CHI: little baby circle .
+*CHI: little baby circle .
+*CHI: little baby circle .
 *CHI: is that nice ?
 *MOT: thats brilliant .
 *MOT: well done .
@@ -1806,12 +1789,12 @@
 *CHI: I cant draw a tree .
 *CHI: can you ?
 *MOT: yes .
-*MOT: you nearly IN]
+*MOT: you nearly .
 *MOT: yes .
 *MOT: yes .
 *MOT: thats brilliant .
 *MOT: you just need another line down .
-*MOT: and then youve got all the youve done it basically .
+*MOT: and then youve done it basically .
 *MOT: there .
 *MOT: you did it .
 *MOT: I just hadta draw another line down .
@@ -1830,7 +1813,7 @@
 *MOT: shall we write your name in it ?
 *MOT: no .
 *MOT: mummy hasta do it .
-*MOT: you hafta write IN]
+*MOT: you hafta write .
 *MOT: Ill help you then .
 *MOT: we hafta write it very well .
 *MOT: ll  Lara ?
@@ -1841,7 +1824,7 @@
 *MOT: but youre not allowed to write anything else .
 *MOT: do you wanna read it ?
 *CHI: write my name on the back .
-*CHI: can you can you write my name ?
+*CHI: can you write my name ?
 *MOT: oh .
 *CHI: you 0have the hole .
 *MOT: Im sorry .
@@ -1855,13 +1838,13 @@
 *MOT: not if were reading .
 *CHI: I needta write some .
 *MOT: well quickly then .
-*MOT: if it because its story time  isnt it ?
-*MOT: do you want do you want some milk  Lara ?
+*MOT: because its story time  isnt it ?
+*MOT: do you want some milk  Lara ?
 *MOT: Lara ?
 *MOT: do you want some milk ?
 *CHI: yes .
 *MOT: pardon ?
-*CHI: yes SR]
+*CHI: yes .
 *CHI: I need that blue pen .
 *MOT: no .
 *MOT: you dont .
@@ -1872,13 +1855,12 @@
 *MOT: no .
 *MOT: why dont you leave it for him ?
 *MOT: and he can er read it when he gets back tonight .
-*CHI: read this ?
-*MOT: after youve gone to bed .
+*MOT: gone to bed .
 *MOT: yes .
 *MOT: is it a letter for him ?
 *CHI: yes .
 *CHI: its a letter .
-*CHI: its a letter SR]
+*CHI: its a letter .
 *MOT: well .
 *MOT: put it on the table and he can have it when he gets home .
 *CHI: no .
@@ -1888,144 +1870,144 @@
 *MOT: okay .
 *MOT: lets have this story then .
 *CHI: and Im going to read it .
-*MOT: lets read do you wanna sit on my lap .
+*MOT: do you wanna sit on my lap .
 *CHI: yes .
 *MOT: I havent read this yet .
-*MOT: Pingu and the Kite R]
+*MOT: Pingu and the Kite .
 *CHI: is that my name ?
 *MOT: thats your name .
 *DAD: yes .
 *MOT: the wind was blowing hard at the south pole so Pingu and Pinga
-*MOT: isnt it pretty R]
-*MOT: said Pingu R]
-*MOT: make it fly higher R]
-*MOT: said Pinga R]
-*MOT: Pingu ran backwards and let out some string R]
+*MOT: isnt it pretty ?
+*MOT: said Pingu .
+*MOT: make it fly higher .
+*MOT: said Pinga .
+*MOT: Pingu ran backwards and let out some string .
 *MOT: unfortunately just as a big gush of wind came along he tripped up
-*MOT: oh no R]
-*MOT: the kite R]
-*MOT: the kite came crashing down and fell on top of the igloo R]
-*MOT: how am I gonna get the kite down R]
-*MOT: said Pingu R]
-*MOT: perhaps if you pull the string it will slide down R]
-*MOT: said Pinga R]
-*MOT: Pingu pulled on the string but the kite wouldnt come down R]
-*MOT: pull harder R]
-*MOT: said Pinga R]
-*MOT: Pingu pulled so hard the string fell off R]
-*MOT: but the kite was still stuck on top of the igloo R]
-*MOT: Pingu glared at Pinga R]
-*MOT: now what am I going to do R]
-*MOT: we could go and ask mum and dad to help us R]
-*MOT: said Pinga R]
-*MOT: you go and ask them R]
-*MOT: said Pingu R]
-*MOT: mum  mum R]
-*MOT: said Pingu R]
+*MOT: oh no !
+*MOT: the kite .
+*MOT: the kite came crashing down and fell on top of the igloo .
+*MOT: how am I gonna
+*MOT: said Pingu .
+*MOT: perhaps if you pull the string it will slide down .
+*MOT: said Pinga .
+*MOT: Pingu pulled on the string but the kite wouldnt come down .
+*MOT: pull harder .
+*MOT: said Pinga .
+*MOT: Pingu pulled so hard the string fell off .
+*MOT: but the kite was still stuck on top of the igloo .
+*MOT: Pingu glared at Pinga .
+*MOT: now what am I going to do ?
+*MOT: we could go and ask mum and dad to help us .
+*MOT: said Pinga .
+*MOT: you go and ask them .
+*MOT: said Pingu .
+*MOT: mum  mum .
+*MOT: said Pingu .
 *MOT: the kites stuck on top of the igloo and we cant reach it .
-*MOT: can you get it down R]
-*MOT: Im busy reading the newspaper R]
-*MOT: said mum R]
-*MOT: go and ask dad R]
+*MOT: can you get it down ?
+*MOT: Im busy reading the newspaper .
+*MOT: said mum .
+*MOT: go and ask dad .
 *MOT: mum cant help .
-*MOT: dad  can you get the kite off the roof for us please R]
-*MOT: Im busy ironing R]
-*MOT: said dad R]
-*MOT: youll hafta wait until Im finished R]
+*MOT: dad  can you get the kite off the roof for us please ?
+*MOT: Im busy ironing .
+*MOT: said dad .
+*MOT: youll hafta wait until Im finished .
 *MOT: Pinga went outside to tell Pingu that they would hafta wait for
 *MOT: just as she came out of the door Pingu threw a large snowball to
 *MOT: it missed the kite and landed right on Pingas head and knocked her
 *MOT: ouch .
-*MOT: said Pinga R]
-*MOT: its cold R]
-*MOT: Pingu came rushing over straight away R]
-*MOT: Im sorry R]
-*MOT: I was trying to hit the kite R]
-*MOT: thats alright R]
-*MOT: said Pinga R]
+*MOT: said Pinga .
+*MOT: its cold .
+*MOT: Pingu came rushing over straight away .
+*MOT: Im sorry .
+*MOT: I was trying to hit the kite .
+*MOT: thats alright .
+*MOT: said Pinga .
 *MOT: mum and dad are too busy to help us so youd better try again .
-*MOT: Pingu gathered up enough snow to make a really big snowball R]
-*MOT: and threw it as hard as he could at the kite R]
+*MOT: Pingu gathered up enough snow to make a really big snowball .
+*MOT: and threw it as hard as he could at the kite .
 *MOT: the kite came slithering down off the roof and landed with a large
-*MOT: the two little penguins ran over to see what had happened R]
-*MOT: it was lying in pieces in the snow R]
-*MOT: oh dear R]
-*MOT: said Pingu R]
-*MOT: mum and dad will hafta help us now R]
-*MOT: we cant possibly fix it on our own R]
-*MOT: Pingu went inside to tell mum and dad what had happened R]
-*MOT: mum please come and help R]
-*MOT: its broken R]
-*MOT: no R]
-*MOT: said mum R]
-*MOT: I wanna read the paper R]
-*MOT: wait until Ive finished R]
-*MOT: Pingu didnt wanna wait so he asked dad R]
-*MOT: dad R]
-*MOT: come and help us fix the kite R]
-*MOT: youll hafta wait until Ive finished this ironing R]
-*MOT: said dad R]
-*MOT: Ive got a lot to do R]
-*MOT: thanks for nothing R]
-*MOT: said Pingu rudely R]
-*MOT: and he stormed out R]
-*MOT: dont talk to your parents like that R]
-*MOT: said dad R]
+*MOT: the two little penguins ran over to see what had happened .
+*MOT: it was lying in pieces in the snow .
+*MOT: oh dear .
+*MOT: said Pingu .
+*MOT: mum and dad will hafta help us now .
+*MOT: we cant possibly fix it on our own .
+*MOT: Pingu went inside to tell mum and dad what had happened .
+*MOT: mum please come and help .
+*MOT: its broken .
+*MOT: no .
+*MOT: said mum .
+*MOT: I wanna read the paper .
+*MOT: wait until Ive finished .
+*MOT: Pingu didnt wanna wait so he asked dad .
+*MOT: dad ?
+*MOT: come and help us fix the kite .
+*MOT: youll hafta wait until Ive finished this ironing .
+*MOT: said dad .
+*MOT: Ive got a lot to do .
+*MOT: thanks for nothing .
+*MOT: said Pingu rudely .
+*MOT: and he stormed out .
+*MOT: dont talk to your parents like that .
+*MOT: said dad .
 *CHI: laughs .
-*MOT: but Pingu had already slammed the door R]
-*MOT: theyre too busy to help us R]
-*MOT: said Pingu R]
-*MOT: what shall we do now R]
-*MOT: lets go and ask grandpa R]
-*MOT: said Pinga R]
-*MOT: hes never too busy R]
-*MOT: what a good idea R]
-*MOT: said Pingu R]
-*MOT: jump on the sledge R]
-*MOT: and they set off for grandpas house R]
-*MOT: it was very quiet as they sledged through the village R]
-*MOT: everyone was inside having lunch R]
-*MOT: they went past the postoffice R]
-*MOT: but the post master wasnt there R]
-*MOT: the shutters were closed R]
-*MOT: Pingu and Pinga carried on past all the houses R]
-*MOT: even the woman at the fish store was eating was out [/]
-*MOT: she had a little notice on her door saying PI]
-*MOT: back soon R]
+*MOT: but Pingu had already slammed the door .
+*MOT: theyre too busy to help us .
+*MOT: said Pingu .
+*MOT: what shall we do now ?
+*MOT: lets go and ask grandpa .
+*MOT: said Pinga .
+*MOT: hes never too busy .
+*MOT: what a good idea .
+*MOT: said Pingu .
+*MOT: jump on the sledge .
+*MOT: and they set off for grandpas house .
+*MOT: it was very quiet as they sledged through the village .
+*MOT: everyone was inside having lunch .
+*MOT: they went past the postoffice .
+*MOT: but the post master wasnt there .
+*MOT: the shutters were closed .
+*MOT: Pingu and Pinga carried on past all the houses .
+*MOT: even the woman at the fish store
+*MOT: she had a little notice on her door saying .
+*MOT: back soon .
 *MOT: when Pingu and Pinga arrived at grandpas house it seemed very
-*MOT: what if hes not in R]
-*MOT: said Pinga R]
-*MOT: of course hell be in R]
-*MOT: said Pingu R]
-*MOT: grandpa R]
-*MOT: weve come to see you R]
-*MOT: he shouted R]
-*MOT: the door opened and out came grandpa R]
-*MOT: hello R]
-*MOT: said grandpa R]
-*MOT: what a lovely surprise R]
-*MOT: I didnt know you were coming R]
-*MOT: can you help us make a new kite R]
-*MOT: said Pingu R]
-*MOT: please R]
-*MOT: added Pinga R]
-*MOT: our old ones broke R]
-*MOT: of course R]
-*MOT: said grandpa R]
-*MOT: lets go inside the tool shed R]
+*MOT: what if hes not in ?
+*MOT: said Pinga .
+*MOT: of course hell be in .
+*MOT: said Pingu .
+*MOT: grandpa .
+*MOT: weve come to see you .
+*MOT: he shouted .
+*MOT: the door opened and out came grandpa .
+*MOT: hello .
+*MOT: said grandpa .
+*MOT: what a lovely surprise .
+*MOT: I didnt know you were coming .
+*MOT: can you help us make a new kite ?
+*MOT: said Pingu .
+*MOT: please .
+*MOT: added Pinga .
+*MOT: our old ones broke .
+*MOT: of course .
+*MOT: said grandpa .
+*MOT: lets go inside the tool shed .
 *CHI: wheres the tool shed ?
 *MOT: here .
 *MOT: theres the tool shed .
 *MOT: look .
-*MOT: soon all three penguins were hard at work R]
+*MOT: soon all three penguins were hard at work .
 *MOT: grandpa grandpa found some wood and Pingu held it while he
-*MOT: Pingu took the piece of wood and placed them in a cross R]
-*MOT: now nail the pieces together very carefully R]
+*MOT: Pingu took the piece of wood and placed them in a cross .
+*MOT: now nail the pieces together very carefully .
 *MOT: said grandpa .
-*MOT: make sure your flippers are out of the way R]
+*MOT: make sure your flippers are out of the way .
 *MOT: Pinga was painting the material that grandpa had given her to make
 *MOT: look at all the paint hes got everywhere .
-*MOT: she painted a lovely smiley face R]
-*MOT: thats right R]
-*MOT: said grandpa R]
-*MOT: thatll look wonderful flying in the sky R]
+*MOT: she painted a lovely smiley face .
+*MOT: thats right .
+*MOT: said grandpa .
+*MOT: thatll look wonderful flying in the sky .

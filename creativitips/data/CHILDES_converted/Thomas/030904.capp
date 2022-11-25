@@ -2,12 +2,11 @@
 *INV: is it loud ?
 *MOT: it is on that .
 *CHI: let me hear .
-*CHI: let me hear .
 *INV: okay  ready  steady  go .
 *CHI: ready steady go .
 *INV: what you showing me on your bike  Thomas ?
 *CHI: oh .
-*INV: Ill just put these lights on .
+*INV: put these lights on .
 *INV: its a bit dark in there .
 *CHI: oh .
 *INV: what are you showing me ?
@@ -17,14 +16,14 @@
 *INV: can I ?
 *CHI: yeah .
 *CHI: uh when you wanna stop .
-*INV: do you think Im a bit small for it ?
+*INV: do you think bit small for it ?
 *CHI: you might be not .
 *CHI: but when you uh  wanna stop  might bash this some
 *CHI: oh .
 *INV: what happens if somethings in your way ?
 *INV: what happens if youre riding along and theres a cat in front of
 *CHI: this is very loud and and guess what ?
-*CHI: you can scare cats and dogs .
+*CHI: scare cats and dogs .
 *MOT: oh .
 *INV: very good .
 *INV: thats lovely .
@@ -55,7 +54,7 @@
 *INV: I needta do that to you dont I ?
 *CHI: he sticky doos .
 *CHI: hm .
-*INV: when did you get this bike ?
+*INV: when did you get ?
 *CHI: 0 .
 *INV: I know really .
 *CHI: at Christmas .
@@ -85,13 +84,13 @@
 *MOT: one of the microphones doesnt seem to be &-uh
 *CHI: working .
 *MOT: picking up any .
-*INV: I thought it was very loud .
+*INV: I thought it loud .
 *MOT: noise .
 *MOT: it was when I first turned it on  but &-uh
 *INV: have I got long hair or short hair ?
 *CHI: long .
 *INV: long hair .
-*INV: has Tom has Thomas got long hair or short hair ?
+*INV: has Thomas got long hair or short hair ?
 *CHI: short hair .
 *INV: and Jean ?
 *INV: your Mum ?
@@ -106,12 +105,11 @@
 *INV: oh .
 *INV: youre not going to mess up your Mums lovely hair are you ?
 *INV: oh .
-*CHI: ap that short .
+*CHI: short .
 *CHI: its long .
 *MOT: lets have a picture of you two showing your hair .
 *INV: oh .
-*INV: are you going to show my hair ?
-*MOT: you show>
+*INV: are you going to show ?
 *MOT: thats right .
 *MOT: show your hair .
 *INV: oh look .
@@ -122,10 +120,10 @@
 *INV: do you think we should swap hairs for a day ?
 *CHI: yeah .
 *CHI: laughs .
-*MOT: right  have one now without the hair over your eyes .
+*MOT: right  have one now over your eyes .
 *INV: ah .
 *INV: come here .
-*INV: look at the camera and smile .
+*INV: and smile .
 *MOT: oh no  Thomas  no .
 *CHI: laughs .
 *INV: sit on my knee .
@@ -139,13 +137,9 @@
 *INV: having lots of fun when youre not really .
 *INV: were only tickling you arent we ?
 *MOT: there we are .
-*INV: so what have you done at nursery today anyway ?
+*INV: nursery today anyway ?
 *CHI: nothing  Mummy .
-*MOT: he can never remember  Jeannine  what he does .
-*CHI: you are Mummy .
-*INV: oh are you still>
-*CHI: you are>
-*INV: are you>
+*MOT: he can never remember  Jeannine .
 *INV: are you still doing that ?
 *INV: I cant remember ?
 *INV: I bet you
@@ -154,15 +148,12 @@
 *CHI: no .
 *CHI: I did this .
 *CHI: 0 .
-*INV: did you>
 *CHI: 0 .
-*INV: I bet you played rough and tumble didnt you ?
+*INV: I bet you played rough and tumble ?
 *CHI: no .
-*INV: were you ?
 *CHI: yeah .
 *INV: 0 .
 *INV: Misses Plattford ?
-*CHI: ap teachers .
 *INV: did you tickle Misses Plattford ?
 *CHI: yes .
 *INV: did you ?
@@ -178,7 +169,6 @@
 *INV: Kiera .
 *INV: sorry .
 *CHI: 0 .
-*INV: hows Kiera ?
 *CHI: fine .
 *INV: what sort of hair has Kiera got ?
 *CHI: short hair .
@@ -214,23 +204,18 @@
 *MOT: so you didnt really bump your head ?
 *CHI: no .
 *CHI: 0 .
-*MOT: I didnt think you had because
 *INV: you didnt really ?
 *INV: why did you tell your Mummy you bumped your head ?
 *INV: was it so you she would give you lots of sympathy ?
 *CHI: yeah !
-*INV: was it so she would be nice to you ?
-*MOT: well Daddy picked Thomas up from nursery but Misses Platford
-*INV: are you ready ?
+*MOT: up from nursery but Misses Platford
 *CHI: yeah .
-*INV: put your feet against>
-*MOT: usually tells you if something has happened she tells you .
-*MOT: and if Misses Plattford didnt tell us it had happened>
-*INV: well done .
+*MOT: usually something has happened she tells you .
+*MOT: and if Misses Plattford didnt tell us
 *CHI: 0 .
 *MOT: oh yes .
 *MOT: go and show Jeannine that .
-*INV: oh Ive not seen that before .
+*INV: oh Ive not seen .
 *MOT: no  you wont .
 *MOT: no .
 *CHI: 0 .
@@ -248,7 +233,6 @@
 *INV: Thomas  are you gonna calm down ?
 *INV: youre a bit excited arent you ?
 *CHI: no .
-*INV: I think he is .
 *INV: dont you ?
 *INV: are you going to calm down and tell me where you got this from
 *CHI: no .
@@ -256,8 +240,7 @@
 *INV: okay do you want me to go then ?
 *CHI: 0 .
 *CHI: no .
-*INV: you dont you dont want me to go ?
-*INV: are you gonna>
+*INV: you dont want me to go ?
 *INV: youll hafta talk to me wont you ?
 *CHI: es be a hoover .
 *INV: okay .
@@ -265,8 +248,6 @@
 *CHI: no .
 *INV: this is Fireman hoover .
 *MOT: laughs .
-*INV: just clean the carpet .
-*CHI: I mean a .
 *INV: oh .
 *INV: are you going to make your mind up then .
 *CHI: Im going to be .
@@ -274,32 +255,27 @@
 *CHI: Concorde !
 *INV: 0 .
 *CHI: Im Concorde .
-*MOT: are you ?
 *INV: oh  no hes Concorde .
 *INV: look .
 *CHI: 0 !
-*MOT: shho shho shho .
+*MOT: shho .
 *INV: flying to America .
 *INV: 0 .
 *CHI: Im flying to America .
 *INV: nope .
 *CHI: 0 .
-*MOT: be careful .
 *MOT: Thomas  no .
 *CHI: 0 .
 *INV: so I wanna know more about you bumping your head at c at
-*INV: at nursery .
 *CHI: shall we touch my bikes wheels ?
 *CHI: because theyre not dirty .
 *MOT: laughs .
 *INV: www .
-*CHI: touch them like this .
 *MOT: www .
 *INV: www .
 *INV: have you been to Birmingham ?
 *CHI: no .
 *MOT: www .
-*INV: without your Mum knowing ?
 *CHI: touch these
 *MOT: www .
 *INV: right  let me see if its dirty .
@@ -322,8 +298,7 @@
 *INV: ooh  where does your Mum take you on the bike ?
 *CHI: nowhere .
 *MOT: come on .
-*MOT: we went to Isabelles house the other week .
-*CHI: no we didnt .
+*MOT: we went to Isabelles house .
 *INV: oh .
 *CHI: Jeannines head .
 *MOT: right  come on  Thomas .
@@ -338,13 +313,12 @@
 *INV: that you play with hair and
 *MOT: shall I tell you about this ?
 *MOT: Mary at Saint Gabriels .
-*MOT: I didnt even know she knitted things like this .
+*MOT: she knitted things like this .
 *INV: oh .
 *MOT: and she knew that Thomas was starting school and she knew he was a
-*MOT: so she knitted this fireman and this and thats the wall and
+*MOT: so she knitted this fireman and thats the wall and
 *MOT: look .
-*INV: wow shes very clever isnt she knitting that ?
-*MOT: isnt she clever ?
+*INV: wow shes very clever that ?
 *INV: 0 .
 *MOT: and Thomas was thrilled when he got it .
 *MOT: because youre not really into soft toys but  you did like that
@@ -354,18 +328,15 @@
 *MOT: he has got no cheeks and no nose !
 *CHI: laughs .
 *MOT: perhaps he (h)as>
-*INV: thats what I wanna know .
 *MOT: perhaps its so he cant smell smoke .
 *CHI: that !
 *INV: I dont know if thats very useful being a fireman .
-*INV: do you think>
-*CHI: when he sees ap huhhuho  nose .
-*CHI: Im joke Im only joking .
+*CHI: ap huhhuho  nose .
+*CHI: Im only joking .
 *CHI: that oh .
 *MOT: 0 .
 *INV: thats really
-*CHI: oh bottom .
-*INV: does that what he is that what he says ?
+*INV: is that what he says ?
 *CHI: yes .
 *INV: what else do you use your nose for ?
 *INV: that the fireman cant do ?
@@ -391,24 +362,20 @@
 *INV: www .
 *INV: www .
 *MOT: www .
-*MOT: can you manage ?
 *INV: Thomas something else that's
 *MOT: oh .
 *CHI: no .
 *CHI: what about this &tr
 *INV: wh wheres his hair  look ?
 *CHI: oh !
-*MOT: its in his hat .
 *MOT: laughs .
 *INV: is that what usually happens ?
 *CHI: yeah .
-*INV: and what is what has he got
+*INV: what has he got
 *INV: has he got hair ?
 *INV: whats he called ?
 *CHI: Mister nothing .
 *INV: Mister bald .
-*CHI: look at my>
-*INV: isnt he ?
 *CHI: look at my truck .
 *MOT: Fireman bald .
 *INV: oh .
@@ -421,11 +388,11 @@
 *MOT: I know .
 *MOT: is he sitting in there now ?
 *CHI: okay &-um
-*MOT: oh yes the doors are broken on that arent they ?
+*MOT: the doors are broken on that arent they ?
 *CHI: no .
 *CHI: nothings in there .
 *MOT: well the doors are held on by blue tack .
-*MOT: thats not very safe is it ?
+*MOT: thats not very ?
 *CHI: oy .
 *INV: Thomas  look is he bald anymore ?
 *INV: look what he has got now .
@@ -444,10 +411,9 @@
 *CHI: thanks .
 *CHI: bye .
 *MOT: so  Jeannine  are you going to tell us about the other little
-*INV: oh yes Ive got lots of little friends now  Thomas .
-*MOT: Thomas  listen to this .
-*MOT: Jeannine  goes to see other children now .
-*INV: Ive got a friend called Astrid .
+*INV: oh yes Ive got lots of little .
+*MOT: Jeannine  goes to see other .
+*INV: called Astrid .
 *MOT: oh have you ?
 *MOT: we have as well havent we ?
 *INV: have you ?
@@ -455,37 +421,35 @@
 *INV: no .
 *INV: oh is there another Astrid ?
 *MOT: yes .
-*INV: how funny .
 *MOT: in Didsbury .
 *MOT: we saw here Mummy today didnt we ?
-*INV: shes only Astrids only two years old .
+*INV: Astrids only two years old .
 *INV: and shes very nice .
 *INV: shed like to meet Thomas .
 *MOT: would she ?
-*INV: and theres Aliah .
-*MOT: Im sure Thomas would like to meet Astrid because you like
+*INV: and .
+*MOT: Thomas would like to meet Astrid because you like
 *CHI: course I do because I tickle them !
 *INV: oh !
 *MOT: no no .
 *INV: Im not a girl though .
 *CHI: you are .
 *INV: no  Im not .
-*CHI: I know what you are .
-*INV: Im a lady .
-*MOT: look  come on .
-*CHI: no you a boy .
+*CHI: I know .
+*MOT: look .
+*CHI: a boy .
 *INV: oh .
 *MOT: Thomas  come on .
 *MOT: listen to some more stories .
 *MOT: so Astrid .
 *MOT: would you like to meet Astrid sometime ?
 *CHI: course I do .
-*INV: and then Ive got a friend called Aliah who lives in Cheadle
+*INV: got a friend called Aliah who lives in Cheadle
 *MOT: Leah ?
 *INV: Aliah .
 *MOT: oh Aliah .
 *INV: its an Asian girl .
-*INV: she lives in Cheadle .
+*INV: she lives .
 *MOT: right .
 *CHI: laughs .
 *INV: do you know where Cheadle .
@@ -494,7 +458,6 @@
 *MOT: you have
 *CHI: Im cat .
 *INV: and then Ive got a friend called Connie who lives in Stockport
-*CHI: guess what ?
 *CHI: guess what ?
 *CHI: um  you 0are the owner because Im the cat .
 *INV: ah .
@@ -509,7 +472,6 @@
 *CHI: I 0have got two cats .
 *INV: meow meow .
 *CHI: meow .
-*INV: meow meow .
 *MOT: so another girl in Cheadle ?
 *INV: one called in Cheadle called Aliah .
 *INV: and then theres one in Brinnington
@@ -526,23 +488,23 @@
 *MOT: is he ?
 *INV: www .
 *MOT: www .
-*CHI: meow meow meow .
+*CHI: meow .
 *MOT: www .
 *CHI: meow .
 *MOT: www .
 *INV: www .
 *CHI: 0 .
 *INV: www .
-*INV: so what are have you got any other toys
+*INV: have you got any other toys
 *CHI: yeah .
 *CHI: lots .
 *INV: well you think .
 *INV: Ive not been here for  about two months .
-*INV: so what do what have you got new ?
+*INV: so what have you got new ?
 *INV: what have you got new to show me ?
 *CHI: just old things .
 *MOT: just old things .
-*INV: just old things ?
+*INV: things ?
 *INV: and whats your favorite thing you play with these days ?
 *MOT: Thomas  dont go that way please .
 *MOT: come on .
@@ -550,7 +512,7 @@
 *MOT: come on .
 *MOT: dont be naughty .
 *CHI: Im trying to look .
-*MOT: well look  do you why dont you put that in there ?
+*MOT: well look  why dont you put that in there ?
 *MOT: thats what you wanted to do isnt it ?
 *CHI: yes .
 *MOT: there you are then .
@@ -560,18 +522,13 @@
 *MOT: mhm hm .
 *INV: oh .
 *CHI: it will
-*MOT: we went to a party two weeks ago on Saturday .
+*MOT: we went to a party on Saturday .
 *INV: 0 .
-*MOT: and guess what we bought the little boy whose party it was ?
-*INV: oh wow .
 *MOT: an action man .
 *INV: oh !
-*MOT: like your action man .
 *INV: really ?
-*MOT: it wasnt the same .
 *INV: have you got an action man ?
 *CHI: yep .
-*INV: its Jamies .
 *MOT: yes .
 *MOT: what are you looking for  sweetheart ?
 *CHI: I wanna show Jeannine .
@@ -588,7 +545,6 @@
 *MOT: oh this is broken a little bit now  Thomas .
 *CHI: no .
 *MOT: let me that to you .
-*INV: Im launching the rocket .
 *INV: 0 .
 *CHI: laughs .
 *INV: this is the same color isnt it ?
@@ -610,8 +566,6 @@
 *INV: hed like it to be quite big .
 *INV: it needs to be able to take at least twelve children .
 *INV: and hed like it also to have a rocket .
-*CHI: weve only just got>
-*INV: oh have you got>
 *INV: 0 .
 *INV: can he have a look at it ?
 *INV: inspect it ?
@@ -620,7 +574,6 @@
 *INV: sell it to him ?
 *CHI: um  its very very long .
 *INV: mhm hm .
-*INV: how long ?
 *INV: do you know ?
 *CHI: um  sixty miles .
 *INV: its sixty miles long ?
@@ -636,8 +589,8 @@
 *INV: would you recommend this one ?
 *CHI: yeah .
 *INV: and  um  is there anything we can put on it ?
-*INV: or does it just >
-*CHI: course there is .
+*INV: or does it
+*CHI: is .
 *INV: 0 .
 *INV: a rocket !
 *INV: oh hes very excited now .
@@ -650,7 +603,7 @@
 *CHI: you can do this .
 *INV: mhm hm .
 *INV: mhm .
-*MOT: it came with an aeroplane that didnt it ?
+*MOT: an aeroplane that didnt it ?
 *CHI: oh .
 *MOT: laughs .
 *MOT: you having trouble getting down ?
@@ -664,16 +617,15 @@
 *INV: and then
 *CHI: yeah .
 *INV: close the door .
-*CHI: then drive off .
-*INV: and then>
+*CHI: then .
 *CHI: phsso .
 *INV: oh !
 *CHI: laughs .
 *INV: that was a very fun ride .
-*INV: how much okay  Ill take it .
+*INV: okay  Ill take it .
 *INV: how much does that cost please ?
 *CHI: this many money .
-*MOT: we still play with the shop a lot as well dont we ?
+*MOT: we still play with the shop a lot as well ?
 *INV: oh .
 *INV: um  have I enough there ?
 *CHI: course .
@@ -704,12 +656,10 @@
 *CHI: yes .
 *MOT: oh its here .
 *MOT: no  its usually just camera .
-*MOT: we dont bother with the chips .
-*INV: thank you .
 *INV: um  oh  one thing I forgot
 *INV: can I  um  possibly buy an aeroplane that I make myself ?
 *CHI: yeah .
-*INV: do you want do you want me to tell me about it ?
+*INV: do you want me to tell me about it ?
 *CHI: yeah .
 *INV: how does it work ?
 *CHI: dont know but that policeman there will show you how it will go .
@@ -717,25 +667,19 @@
 *INV: oh .
 *CHI: yeah .
 *CHI: you are policeman .
-*INV: Mister policeman  can you show us how it goes ?
+*INV: Mister policeman  can you show us goes ?
 *MOT: oh !
 *CHI: I forgot to put your hat on .
 *CHI: now .
 *INV: will you take it over to the policeman ?
-*CHI: its not a policeman yet .
-*CHI: um I >
-*MOT: no its just at the moment <isn't
-*INV: Im sorry .
-*INV: its just a Mummy .
+*CHI: policeman yet .
+*MOT: at the moment <isn't
 *INV: how do you make Mummy into a policeman then ?
-*INV: any ideas ?
-*CHI: I havent got a uniform>
-*INV: thatll do .
 *CHI: I 0have .
 *INV: thatll do  Im sure .
 *MOT: and then we had better tell Jeannine about Saturday and Sunday .
 *INV: oh .
-*MOT: what we did on Saturday and Sunday .
+*MOT: Saturday and Sunday .
 *MOT: what did we do on Saturday and Sunday ?
 *CHI: what ?
 *MOT: 0 .
@@ -748,15 +692,13 @@
 *INV: did the uniform fit you ?
 *CHI: yeah .
 *CHI: no  but it went to .
-*MOT: it did ?
 *INV: ah .
 *CHI: and that policeman will show you where it  goes .
-*INV: did you look good as a policeman ?
+*INV: as a policeman ?
 *CHI: yeah .
 *MOT: yes .
 *MOT: well do you remember  Jeannine  last year at Manchester show that
-*INV: oh yeah .
-*MOT: did we ever show you ?
+*MOT: you ?
 *INV: I havent seen the picture .
 *INV: no .
 *MOT: ah well last year the ambulance men took a picture of Thomas for
@@ -766,28 +708,26 @@
 *CHI: yeah .
 *MOT: and the the ambulance man came round one afternoon with a
 *INV: oh wow .
-*MOT: and this Saturday  thats just gone>
 *INV: 0 .
 *INV: they love you dont they ?
 *CHI: yeah .
 *MOT: it was Manchester show again and I was judging in the morning .
 *MOT: and in the afternoon Thomas and I went and we saw the same
-*INV: laughs really ?
-*MOT: because theyve got the photograph on the wall and they
+*MOT: and they
 *INV: are you famous ?
 *CHI: yeah .
 *MOT: and I hadnt got the camera with us so on Sunday we went to
-*CHI: dont needta got any money here .
+*CHI: got any money here .
 *MOT: and the ambulance men took his picture and so did the policeman .
 *INV: wow .
 *MOT: and tell Jeannine about the sirens on the ambulance .
-*CHI: went like this nee nao nee nao !
+*CHI: went like this !
 *INV: are you sure they were that loud ?
 *CHI: yeah .
 *MOT: there were three different sirens werent there ?
 *CHI: one for stopping .
 *MOT: no .
-*MOT: he explained that theres one traffic light uh sorry one
+*MOT: he explained that theres uh sorry one
 *CHI: yeah .
 *MOT: and what was the other one for ?
 *CHI: stopping at traffic light .
@@ -798,7 +738,6 @@
 *MOT: and the chairs .
 *INV: what do they do ?
 *CHI: ap around .
-*INV: what does>
 *CHI: they sitting on the poorly chair .
 *CHI: hahao .
 *INV: what do you use a stretcher for ?
@@ -811,7 +750,6 @@
 *MOT: and Bluey the ambulance is now being dis decommissioned and
 *MOT: and theyve got a new ambulance .
 *INV: Bluey .
-*MOT: a brand new .
 *INV: 0 .
 *INV: have you been in that one ?
 *MOT: yes .
@@ -827,10 +765,10 @@
 *MOT: hello .
 *CHI: oh .
 *CHI: hello  policeman .
-*INV: hes gonna sit here and hes going to>
+*INV: hes gonna sit here and he's
 *INV: hello  Fireman Bald .
 *CHI: um  you got somebody here .
-*INV: do you know why Fireman Balds bald ?
+*INV: why Fireman Balds bald ?
 *CHI: why ?
 *INV: because his hair burnt off .
 *MOT: oh .
@@ -845,7 +783,6 @@
 *CHI: excuse me  policeman .
 *INV: oh thats .
 *CHI: do you know es how to put this on so please do this .
-*INV: I think youre weird .
 *MOT: Ive never heard him say that before .
 *INV: thats really funny .
 *MOT: dont play with that  lovey .
@@ -856,9 +793,8 @@
 *MOT: Im not quite sure how this works you know  Thomas .
 *CHI: uh  Mummy .
 *CHI: can I be a policeman
-*MOT: I think I think some of this is broken off actually
+*MOT: I think some of this is broken off actually
 *INV: oh .
-*MOT: or perhaps not .
 *CHI: oh have we got a bottom on ?
 *CHI: laughs .
 *INV: oh .
@@ -873,42 +809,36 @@
 *INV: he has got no ears .
 *CHI: laughs .
 *MOT: oh poor Fireman Bald .
-*INV: and what else hasnt he got ?
-*MOT: its dreadful .
+*INV: and what else ?
 *CHI: nose  eyebrows .
 *INV: and what do we have eyebrows for ?
 *INV: do you know ?
 *CHI: shuting your eyes ?
 *MOT: shuting eyes .
 *INV: shuting eyes .
-*INV: no eyebrows>
-*CHI: tickling people .
 *CHI: laughs .
 *INV: tickle do you tickle people with your eyebrows ?
 *CHI: I show you .
-*INV: oh oh .
 *INV: no .
 *CHI: 0 .
 *CHI: 0 .
 *CHI: help me !
 *CHI: Fireman Bald !
 *INV: Fireman Balds tickling me .
-*MOT: I havent a clue how that works  Thomas .
-*INV: tickling me with his ears .
+*MOT: I  Thomas .
 *INV: do you believe me ?
 *CHI: laughs .
 *INV: oh oh  watch yourself .
 *MOT: careful careful .
 *CHI: 0 .
 *MOT: oh dear me .
-*CHI: oh theres my camera .
+*CHI: oh theres .
 *INV: whats that your Mum has got there in the black ?
 *MOT: oh .
 *CHI: walkietalkie .
-*CHI: well its not>
 *CHI: you shouldnt do that .
 *CHI: you should do this .
-*CHI: hello  please send fire brigade .
+*CHI: hello  fire brigade .
 *CHI: laughs .
 *MOT: no .
 *INV: hello ?
@@ -920,7 +850,7 @@
 *INV: oh sorry  Mister policeman  I didnt realize .
 *MOT: well Ill put this on then .
 *CHI: you .
-*MOT: you dont look like a policeman at all .
+*MOT: look like a policeman at all .
 *CHI: you .
 *MOT: Thomas !
 *CHI: dont no  its too big .
@@ -932,14 +862,12 @@
 *MOT: right .
 *MOT: youve seen this before havent you  Jeannine ?
 *INV: yeah Ive seen that .
-*INV: its lovely .
 *CHI: this one please .
 *CHI: hm .
 *INV: was it your mother that bought that ?
 *MOT: no  it was Peter .
 *INV: Peter .
 *MOT: yes .
-*INV: I can see>
 *CHI: hello I 0am .
 *INV: I can see your Dad  look .
 *CHI: where ?
@@ -955,20 +883,16 @@
 *CHI: cant see him .
 *CHI: Bobs his uncle .
 *MOT: the little girl Astrid that we were talking about before
-*INV: oh yeah .
 *MOT: we go to The Beehive in Didsbury on Friday and on a very hot day
 *MOT: and she wanted to ride on a bicycle like Thomas .
 *MOT: Thomas was on a red bicycle and
 *INV: how comes he was on red ?
 *INV: is he not
 *MOT: no  it was at The Beehive .
-*INV: oh they provide them .
-*MOT: its not >
 *INV: oh right .
 *MOT: and Astrid wanted to go on a bicycle and we were all saying go on
 *MOT: and she was looking round and we said the yellow one there .
-*MOT: and we could not work out why she couldnt see it was yellow>
-*INV: how funny .
+*MOT: and we could not work out why she couldnt see
 *MOT: then we realized she had sunglass on and it didnt look .
 *INV: laughs .
 *MOT: at all yellow to her .
@@ -993,7 +917,7 @@
 *CHI: oh .
 *INV: where can we find it do you think ?
 *CHI: everywhere about here .
-*INV: do you want do you wanna go and see if you could find it ?
+*INV: do you wanna go and see if you could find it ?
 *CHI: yep .
 *MOT: how are you going to look for it ?
 *CHI: I 0have got some ladders on my police van .
@@ -1006,7 +930,6 @@
 *CHI: Purdie !
 *CHI: you daft cat .
 *INV: uhoh he has just hit Purdie .
-*CHI: have you seen somebodys nose ?
 *MOT: oh he has not  has he ?
 *INV: he just went Purdieq .
 *INV: just like a policeman and hit Purdie like that .
@@ -1025,28 +948,26 @@
 *INV: so thats .
 *CHI: 0 .
 *INV: oh he will I hafta tell the Fireman that ?
-*INV: Fireman  Im afraid>
-*MOT: he cant hear you .
+*INV: Fireman ,
 *INV: oh youre right .
 *INV: sorry  I forgot .
 *MOT: laughs .
 *CHI: just go like this .
-*CHI: hello  fireman !
 *CHI: hmhmo .
 *INV: do you think he can hear you ?
 *INV: can he hear that even though he has got no ears ?
 *CHI: yeah .
 *INV: has Thomas got ears ?
-*MOT: its a good job Thomas has ears otherwise his hat wouldn't
+*MOT: its a good job Thomas otherwise his hat wouldn't
 *INV: mhm .
-*MOT: it would fall straight down wouldnt it ?
+*MOT: straight down wouldnt it ?
 *INV: laughs .
 *CHI: hm hm .
 *INV: www .
 *MOT: www .
 *MOT: oh  Thomas  dont do that .
 *CHI: 0 .
-*MOT: shho shho shho .
+*MOT: shho .
 *MOT: lets just shut that .
 *INV: www .
 *MOT: www .
@@ -1151,9 +1072,8 @@
 *INV: do you make all those at nursery or do you make them at home ?
 *MOT: oh at nursery .
 *MOT: laughs .
-*MOT: Mummys not very good with things like that .
 *CHI: I havent made any pictures of  ages .
-*INV: will you will you make me another picture ?
+*INV: will you make me another picture ?
 *CHI: course I wont .
 *INV: of course I wont .
 *INV: because Ive got a new office .
@@ -1169,17 +1089,16 @@
 *INV: ah .
 *MOT: ah .
 *CHI: no  for me to eat .
-*INV: oh to did a girl give you this ?
+*INV: did a girl give you this ?
 *CHI: no .
 *CHI: I know who .
 *INV: did you get valentines day cards ?
 *CHI: no no .
-*MOT: we got some chocolate hearts didnt we ?
-*INV: oh whats that ?
-*MOT: and an octopus .
+*MOT: we chocolate hearts didnt we ?
+*INV: oh ?
+*MOT: octopus .
 *CHI: octopusie .
-*MOT: and what color ?
-*INV: how many legs has an octopus got ?
+*INV: got ?
 *CHI: none .
 *CHI: 0 .
 *CHI: I will run them .
@@ -1196,7 +1115,6 @@
 *INV: who can investigate ?
 *CHI: you .
 *INV: me .
-*CHI: and me .
 *INV: okay .
 *INV: come on then .
 *INV: lets go .
@@ -1213,7 +1131,7 @@
 *INV: and whats it transporting ?
 *INV: has this been out of the packet before ?
 *MOT: yes it has .
-*MOT: Thomas hadta come to work with me last Tuesday and so we took
+*MOT: Thomas come to work with me last Tuesday and so we took
 *CHI: ah .
 *INV: are you gonna show me what the transporter does ?
 *INV: Ive never seen one before .
@@ -1252,7 +1170,7 @@
 *MOT: well its just
 *CHI: unless .
 *CHI: dont touch it !
-*MOT: no  but  Thomas  the camera would like to see .
+*MOT: no  but  Thomas  the camera .
 *CHI: no but I want .
 *CHI: I dont want you moving my
 *CHI: 0 .
@@ -1269,13 +1187,11 @@
 *INV: what has your Mummy done ?
 *CHI: I didnt want her to move my bike and she did !
 *INV: really ?
-*INV: where did why didnt you want her to come here sweetheart
+*INV: why didnt you want her to come here sweetheart
 *INV: why didnt you want her to move your bike ?
 *CHI: because .
 *INV: huh ?
 *INV: tell me why .
-*INV: why didnt you want wanna go on your>
-*INV: tell me .
 *CHI: because when I get  on my bike  I 0will think it's
 *INV: really ?
 *CHI: yeah .
@@ -1295,7 +1211,6 @@
 *CHI: no .
 *INV: so you would have fallen on the floor .
 *INV: youre right .
-*INV: arent you ?
 *CHI: 0 .
 *INV: oh well  thats alright then .
 *INV: well your Mummy was very naughty then .
@@ -1319,10 +1234,7 @@
 *INV: beard  moustache or nothing ?
 *CHI: nothing .
 *INV: nothing .
-*INV: oh thank you .
-*CHI: I got .
-*INV: oh wow .
-*INV: can I make you have a moustache with it ?
+*INV: oh .
 *CHI: hello .
 *CHI: hello this Jeannine .
 *INV: you can say hello this is Jeannine .
@@ -1343,20 +1255,19 @@
 *INV: so  Jean  I think as well  you know .
 *CHI: Mum .
 *INV: that .
-*CHI: put it back where it was .
-*INV: or else hes gonna fall over .
+*CHI: where it was .
 *CHI: and then .
-*INV: and you do you not use your eyes to look to see if it's
+*INV: do you not use your eyes to look to see if it's
 *CHI: no .
 *INV: no ?
 *INV: why not ?
 *CHI: because I dont .
 *INV: oh because you dont .
-*INV: do you think your Daddy will think thats a good reason ?
+*INV: do you think your Daddy thats a good reason ?
 *CHI: ah .
 *CHI: yeah .
 *INV: yeah ?
-*MOT: are you going to talk to Daddy while hes here ?
+*MOT: are you going to talk ?
 *INV: what are you gonna see ?
 *INV: are you gonna show Daddy your moustache ?
 *CHI: no &-um
@@ -1381,10 +1292,8 @@
 *INV: because he has got no ears .
 *INV: and what else ?
 *INV: oh  can he smell your Dad ?
-*MOT: the fireman hasn't>
-*CHI: I can smell nobody .
+*CHI: nobody .
 *INV: he cant smell nobody because he has got no ears .
-*MOT: the fireman hasnt got ears or a nose  Daddy  or eyebrows .
 *CHI: 0 .
 *INV: oh youre getting very strong .
 *CHI: 0 .
@@ -1395,13 +1304,11 @@
 *INV: that was it .
 *INV: you were gonna show me how the transporter works werent you
 *INV: hm ?
-*CHI: and from the idea I got this .
+*CHI: and from I got this .
 *CHI: look after that little one .
 *INV: mhm hm .
 *CHI: and now  this is sad .
-*CHI: a noisy one !
 *MOT: oh no .
-*INV: oh wow .
 *CHI: hm .
 *MOT: here we go .
 *INV: is this the Mummy and baby fire engines ?
@@ -1416,7 +1323,7 @@
 *MOT: new garages to play with .
 *INV: ah .
 *MOT: and the little red cars that you useta drive around in are still
-*CHI: hold that and Im the big Daddy .
+*CHI: hold that the big Daddy .
 *INV: okay .
 *CHI: 0 .
 *INV: but look the the ladder has gone out of control .
@@ -1427,7 +1334,7 @@
 *CHI: I 0have .
 *CHI: and I 0will just put the siren on .
 *CHI: dingdingdingo .
-*MOT: no  Thomas  its better without the siren  darling .
+*MOT: without the siren  darling .
 *CHI: nee nao .
 *INV: nee nao .
 *CHI: 0 .
@@ -1446,8 +1353,7 @@
 *CHI: dont know where it is .
 *MOT: you do .
 *CHI: know that screw 0has gone ?
-*MOT: dont pick your nose .
-*INV: I can see it from here .
+*INV: from here .
 *MOT: dont pick your nose .
 *MOT: oy !
 *CHI: huh ?
@@ -1482,8 +1388,7 @@
 *MOT: there we are .
 *MOT: right  look .
 *MOT: Ive flipped that up
-*MOT: this is>
-*CHI: it will fall down apart again .
+*CHI: fall down apart again .
 *MOT: it wont fall apart .
 *CHI: it will .
 *MOT: it wont .
@@ -1496,18 +1401,17 @@
 *MOT: no .
 *MOT: its very swish one  this .
 *MOT: very swish .
-*MOT: right which one shall we load up first ?
+*MOT: right shall we load up first ?
 *INV: wow .
 *MOT: two on the bottom and two on the top .
 *CHI: look what you did .
 *MOT: no  two on the bottom and two on the top .
 *CHI: no you did this .
-*CHI: I 0am >
-*MOT: well you dont play with that silly toy then  you play
+*MOT: play with that silly toy then  you play
 *INV: oy .
 *MOT: and I will play with this because I quite like this .
-*MOT: Ill see if Daddy wants to play with me .
-*INV: Thomas  why are you crying now ?
+*MOT: Ill see if Daddy .
+*INV: now ?
 *INV: come here and tell me again .
 *CHI: no .
 *INV: Policeman Fergus .
@@ -1518,8 +1422,7 @@
 *MOT: nice isnt it ?
 *INV: oh thats a lovely transporter .
 *MOT: mhm .
-*MOT: I think so .
-*INV: oh  Jean  arent you lucky ?
+*INV: arent you lucky ?
 *MOT: I think so .
 *INV: wow  thats lovely .
 *INV: and what does it do ?
@@ -1534,12 +1437,9 @@
 *CHI: no not you .
 *CHI: Mummy .
 *INV: no  oh not me .
-*INV: oh Mummy he means .
-*MOT: I think he means Mummy because it fell off .
+*MOT: because it fell off .
 *MOT: there you are  Jeannine .
 *MOT: would you like to play with my transporter ?
-*INV: oh Id love to play .
-*INV: I wish Thomas could play with me though .
 *MOT: 0 .
 *INV: oh !
 *INV: see Jean cant do it .
@@ -1547,19 +1447,16 @@
 *INV: will you show me ?
 *INV: she keeps making the cars fall off .
 *MOT: oh .
-*INV: look it>
 *MOT: laughs .
 *INV: will you show me ?
 *CHI: I dont do that .
-*INV: oh very good .
 *MOT: oh .
-*INV: oh thats much better .
 *MOT: was I driving too fast ?
 *CHI: too much .
 *INV: does this not turn up a bit more ?
 *CHI: it doesnt .
 *CHI: but it can do it very
-*INV: oh hes very good at it .
+*INV: very good at it .
 *CHI: ah .
 *MOT: you see .
 *MOT: oh dear .
@@ -1576,7 +1473,7 @@
 *CHI: 0 .
 *INV: thats exciting song .
 *CHI: 0 .
-*MOT: and do you know what else we did at toddler group this morning>
+*MOT: and do you know what else we did at toddler group
 *CHI: what ?
 *MOT: we sang  two little dickie birds .
 *MOT: and we sang if youre happy and you know it .
@@ -1588,7 +1485,7 @@
 *INV: what happens in the very hungry caterpillar ?
 *CHI: he eats you too .
 *MOT: no .
-*INV: oh well Im not going near that story if he eats me .
+*INV: going near that story if he eats me .
 *MOT: but she had a little caterpillar there to show us .
 *INV: do you remember when you tried to eat me once ?
 *CHI: yeah .
@@ -1609,7 +1506,7 @@
 *CHI: yeah .
 *CHI: you know this lorry ?
 *INV: mhm hm .
-*CHI: both of them  those have got different names .
+*CHI: those have got different names .
 *CHI: thats called smelly .
 *INV: mhm .
 *CHI: that called wee .
@@ -1625,8 +1522,7 @@
 *INV: is that because thats your other name ?
 *INV: Thomas Henry smelly Lastname ?
 *CHI: laughs .
-*INV: smelly Lastname .
-*INV: is that your name is it ?
+*INV: is that your name ?
 *CHI: yeah .
 *INV: I dont think so .
 *CHI: this is the garage  truck .
@@ -1641,23 +1537,19 @@
 *MOT: well next Wednesday  Thomas is going to the nursery that he
 *MOT: and then he goes next Thursday and its the last time he will every
 *INV: really ?
-*MOT: and then he goes to Mersey Vale for an extra week>
-*CHI: fix the door because Im driving off somewhere
-*CHI: guess what ?
+*MOT: and then he goes to Mersey Vale for
+*CHI: because Im somewhere
 *CHI: Im going to Jeannine to ask .
 *MOT: are you ?
 *CHI: to her .
-*MOT: ask her something>
-*INV: where are you going ?
 *CHI: Macdonalds .
 *INV: wheres Macdonalds ?
 *CHI: just round the corner .
 *INV: really ?
 *MOT: mhm .
-*CHI: guess what>
-*INV: which Macdonalds do you go to ?
+*INV: do you go to ?
 *CHI: Stockport one and guess what ?
-*CHI: you can go in the back with the lorrys and cars .
+*CHI: you can go in the back with the lorrys .
 *INV: really ?
 *INV: and what can we get to eat at Macdonalds ?
 *CHI: happy meals .
@@ -1668,7 +1560,6 @@
 *CHI: 0 .
 *MOT: theyre not yoghurts  theyre nuggets .
 *MOT: chicken nuggets .
-*MOT: you always say chicken yoghurts .
 *CHI: no  theyre yoghurts .
 *CHI: they are .
 *MOT: Thomas  always calls them chicken yoghurts .
@@ -1701,10 +1592,8 @@
 *MOT: no  youre not .
 *MOT: look  its mended now .
 *MOT: I thought you hadta go and get to Jeannine quickly .
-*INV: so if we>
-*CHI: no but>
 *CHI: no .
-*INV: so if we go to Macdonalds>
+*INV: so if we
 *CHI: Jeannine Jeannine spoilt my talking !
 *MOT: you spoilt his talking  Jeannine .
 *MOT: oh dear dear .
@@ -1716,7 +1605,7 @@
 *MOT: and then on Friday of that week Thomas leaves nursery forever .
 *MOT: and then we shall be off in August and then on the third of
 *INV: oh .
-*MOT: thats our wedding anniversary .
+*MOT: wedding anniversary .
 *INV: wow !
 *INV: have you got your school uniform yet ?
 *MOT: no  but weve got the order form for it .
@@ -1727,11 +1616,9 @@
 *MOT: hes going tomorrow .
 *INV: where has he gone anyway ?
 *MOT: I dont know .
-*MOT: oh there he is !
-*INV: is he on a flying carpet ?
+*MOT: oh there !
+*INV: a flying carpet ?
 *CHI: yeah .
-*MOT: dont play with the rug .
-*CHI: going to come>
 *MOT: dont play with the rug .
 *MOT: no .
 *CHI: oy .
@@ -1741,34 +1628,23 @@
 *MOT: hes tired .
 *CHI: not !
 *INV: not you  the rug .
-*CHI: no it isnt !
-*CHI: dont want it .
 *INV: were saying he the rug was a bit tired .
 *INV: not you .
 *MOT: no  Thomas you
 *CHI: I need that !
-*MOT: Thomas you>
 *CHI: there !
 *MOT: you dont play with this .
 *CHI: 0 .
-*CHI: give me that .
 *INV: oh  Thomas  do you think
-*CHI: give me it !
 *INV: oh .
-*CHI: give me it>
 *INV: Thomas  youve got all these lovely toys .
 *INV: why do you wanna play with the rug ?
 *CHI: because I wanna play >
-*CHI: give me it .
 *MOT: excuse me .
 *MOT: dont you say “give me it” .
-*CHI: I want it .
 *MOT: well what do you say if you want something ?
 *CHI: please 0can .
 *MOT: thats much better than “give me it” and shouting isnt it ?
-*CHI: dont sit on it .
-*INV: dont sit on it ?
-*INV: thats what a rugs for .
 *MOT: listen  who does the rug belong to ?
 *CHI: me .
 *MOT: uh  it doesnt .
@@ -1779,15 +1655,12 @@
 *MOT: I think its Purdies rug .
 *CHI: isnt !
 *CHI: mine !
-*CHI: oh please can you not sit on it .
 *MOT: well Ill move off but I dont want you moving it around .
-*MOT: its not a rug to play with .
-*CHI: I wanted to .
+*MOT: its not a rug to .
 *MOT: well why dont you go in the conservatory and get you a nice
 *MOT: thats .
 *CHI: no !
-*CHI: I want this mat .
-*INV: Thomas  do you want me  Thomas  do you want me to go
+*INV: Thomas  do you want me to go
 *CHI: www .
 *INV: do you want me to go home ?
 *CHI: no >
@@ -1799,27 +1672,17 @@
 *MOT: right  go over there and Ill get off .
 *CHI: no .
 *INV: laughs .
-*CHI: over there>
-*CHI: I want it somewhere else .
-*INV: look how easily the tears go .
-*MOT: well dont lift it>
 *INV: just like that .
 *INV: as if by magic .
-*MOT: I think hes tired .
-*INV: will you>
 *INV: he is
 *CHI: no !
 *INV: not you  Policeman Bald .
 *MOT: leave it now please  Thomas .
 *MOT: leave the rug .
-*CHI: want it near here .
 *INV: oh what a funny thing he wants .
 *MOT: silly .
 *INV: oh  Thomas  Fireman Bald says he wants to do a dance for you .
-*INV: are you gonna look ?
 *CHI: huh  not dont wanna dance .
-*CHI: I want >
-*INV: oh hes doing the Tweenies dance .
 *INV: hes having good fun .
 *INV: do you wanna come and do it with me ?
 *INV: look .
@@ -1831,10 +1694,10 @@
 *INV: are you coming ?
 *CHI: no .
 *INV: come on .
-*INV: if you if you dont come I might hafta go because Ive only
+*INV: if you dont come I might hafta go because Ive only
 *CHI: I dont wanna .
 *INV: look at him .
-*INV: here he comes .
+*INV: comes .
 *INV: hes very funny .
 *INV: look .
 *INV: oh .

@@ -360,7 +360,7 @@
 *MOT: your eggs .
 *CHI: there egg .
 *CHI: find another eggs .
-*CHI: thats a thats a thats a
+*CHI: thats a
 *CHI: thats icecream .
 *CHI: I want a box .
 *MOT: oh no thats gone away now .
@@ -491,7 +491,7 @@
 *MOT: where is it now ?
 *MOT: wheres that banana now ?
 *CHI: want another one .
-*MOT: havent got that was the last one .
+*MOT: that was the last one .
 *MOT: what about an apple ?
 *CHI: yes .
 *CHI: I not .
@@ -500,7 +500,7 @@
 *CHI: in there .
 *CHI: I want a apple .
 *MOT: Mummy get you a real one ?
-*CHI: not a not a apple .
+*CHI: not a apple .
 *CHI: that one .
 *MOT: it is an apple but you cant eat it .
 *MOT: its a toy one .
@@ -514,7 +514,7 @@
 *CHI: Postman Pat .
 *MOT: Postman Pat .
 *MOT: what about
-*MOT: what about what else do you sing ?
+*MOT: what else do you sing ?
 *MOT: Carl .
 *MOT: the wheels on my bike
 *CHI: wheels on bike go round and round .
@@ -840,7 +840,7 @@
 *CHI: I dont know fishy .
 *MOT: you dont know ?
 *CHI: I dont know fishy .
-*MOT: has he not hes not had his breakfast  has he ?
+*MOT: hes not had his breakfast  has he ?
 *MOT: youd better give it to him .
 *MOT: are you going to give him some breakfast ?
 *CHI: yes .
@@ -969,7 +969,7 @@
 *CHI: wait minute .
 *CHI: wait minute .
 *CHI: I went down .
-*MOT: you went you went down ?
+*MOT: you went down ?
 *CHI: yes .
 *CHI: I went down  Mummy .
 *MOT: yeah .

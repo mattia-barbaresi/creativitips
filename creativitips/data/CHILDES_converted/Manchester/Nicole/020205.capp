@@ -31,8 +31,7 @@
 *MOT: go on then .
 *MOT: baa baa black sheep .
 *MOT: have you any wool ?
-*MOT: yes sir yes sir three bags full .
-*CHI: bags full .
+*MOT: yes sir yes sir three .
 *CHI: Baa baa black sheep away .
 *MOT: do you want it away ?
 *CHI: yeah .
@@ -450,7 +449,7 @@
 *MOT: kiss her ?
 *MOT: are you going to kiss her ?
 *CHI: no way .
-*MOT: are you going to are you going to go and kiss Inga ?
+*MOT: are you going to go and kiss Inga ?
 *MOT: are you going to give me a kiss ?
 *CHI: no .
 *CHI: no .
@@ -511,7 +510,7 @@
 *CHI: a Mummy .
 *MOT: Mummy .
 *CHI: Mummy no .
-*MOT: do you want shall Mummy wipe your nose
+*MOT: shall Mummy wipe your nose
 *MOT: shall Mummy wipe Morags nose ?
 *CHI: no .
 *MOT: its all nos today  isnt it ?
@@ -531,7 +530,7 @@
 *MOT: sit up .
 *MOT: sit up .
 *MOT: sit up .
-*MOT: shall we shall we smack your face ?
+*MOT: shall we smack your face ?
 *MOT: shall we tickle your tummy ?
 *MOT: shall we scratch our hair ?
 *MOT: shall we go
@@ -645,9 +644,9 @@
 *MOT: Ive got a  blue one now .
 *MOT: what color is it ?
 *MOT: what color is it ?
-*MOT: what color what color is it ?
+*MOT: what color is it ?
 *INV: www .
-*MOT: what color what color is that ?
+*MOT: what color is that ?
 *CHI: that .
 *MOT: what color is it ?
 *CHI: red .
@@ -889,7 +888,7 @@
 *INV: shall we make a bridge that the car can go under ?
 *INV: shall we make it on here so it stays up ?
 *INV: Ill take these off .
-*INV: now  lets build up some lets build up some high walls
+*INV: now  lets build up some high walls
 *INV: do you wanna put that one on that side ?
 *INV: on there .
 *CHI: yep .
@@ -920,8 +919,6 @@
 *INV: whoops .
 *MOT: what colors that one ?
 *MOT: thats a white one  isnt it ?
-*MOT: its not often you see white ones .
-*INV: pop that one on there .
 *INV: its going to be a very tall bridge .
 *MOT: it is .
 *MOT: there .
@@ -978,7 +975,7 @@
 *MOT: shall we make a castle ?
 *CHI: no .
 *MOT: shall we ?
-*MOT: we can put we can cheat because we can put that there .
+*MOT: we can cheat because we can put that there .
 *MOT: that there .
 *MOT: and they can be our turrets cant they ?
 *MOT: huh ?
@@ -1048,8 +1045,7 @@
 *CHI: no way .
 *CHI: no way .
 *CHI: no way .
-*INV: there they are  look .
-*MOT: to play with .
+*INV: look .
 *MOT: theyre here  look .
 *MOT: these red ones .
 *MOT: theyre nice  arent they ?
@@ -1101,7 +1097,7 @@
 *MOT: Daddys got a red car  hasnt he ?
 *CHI: no way .
 *MOT: hasnt he ?
-*MOT: took it out  or her out .
+*MOT: or her out .
 *MOT: has she got any clothes ?
 *INV: yeah there should be some .
 *INV: theres a little white top and some  blue trousers .

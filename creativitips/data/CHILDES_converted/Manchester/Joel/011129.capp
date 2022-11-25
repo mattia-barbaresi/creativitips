@@ -37,8 +37,7 @@
 *MOT: there .
 *MOT: whoops .
 *MOT: www .
-*MOT: oh thats very good .
-*INV: good boy .
+*MOT: oh .
 *INV: www .
 *INV: oh look .
 *INV: I found a sticker .
@@ -150,8 +149,7 @@
 *MOT: is there rocks on the track ?
 *CHI: theres rocks on the track .
 *INV: theres rocks on the track  is there ?
-*INV: oh dear .
-*MOT: well thats it .
+*MOT: it .
 *MOT: hell hafta go down there then .
 *MOT: choochooo .
 *MOT: and then hes gonna crash because theres a load of
@@ -265,8 +263,7 @@
 *INV: oh .
 *INV: a little hair .
 *MOT: oh .
-*MOT: he says hair  dont you ?
-*INV: thank you .
+*MOT: dont you ?
 *MOT: youre a bit paranoid .
 *MOT: dont like it in bits  do you ?
 *INV: thank you .
@@ -285,7 +282,6 @@
 *MOT: white .
 *INV: I think it was just a bit of fluff .
 *MOT: did Mummy end up in your bed last night ?
-*INV: oh no .
 *MOT: yeah .
 *CHI: yeah .
 *CHI: Mummy your bed .
@@ -335,8 +331,7 @@
 *MOT: and how old are you going to be ?
 *CHI: two four .
 *INV: two four ?
-*INV: I think youre going to be two  arent you ?
-*CHI: two four .
+*INV: arent you ?
 *MOT: you everybody  dont you ?
 *MOT: the creche two four because theyre all a bit older than two
 *MOT: and are you gonna have a party ?
@@ -354,7 +349,7 @@
 *MOT: who whos going to be there ?
 *MOT: who are you going to play with at your party ?
 *MOT: Joel .
-*INV: are you are you going to play with Bethany ?
+*INV: are you going to play with Bethany ?
 *CHI: yeah .
 *CHI: Bethany .
 *INV: with Bethany .
@@ -384,7 +379,7 @@
 *MOT: Emily .
 *CHI: Emily .
 *INV: Emily .
-*MOT: and are you going to what are you going to do ?
+*MOT: and what are you going to do ?
 *MOT: are you going to  play with the bouncy castle and
 *MOT: not very talkative this morning  are you ?
 *CHI: I think .
@@ -394,14 +389,13 @@
 *CHI: I thinking .
 *INV: www .
 *MOT: whatre you doing ?
-*MOT: tell Caroline what youre doing .
-*INV: whatre you doing .
+*MOT: what youre doing .
 *MOT: tell Caroline what are you doing .
 *CHI: think .
 *MOT: think .
 *CHI: oh .
 *MOT: oh dear .
-*MOT: and are you going to have a birthday cake ?
+*MOT: you going to have a birthday cake ?
 *CHI: birthday cake .
 *INV: pardon ?
 *CHI: cake .
@@ -478,14 +472,13 @@
 *CHI: star .
 *MOT: star .
 *MOT: do you know what that is ?
-*MOT: is it yes .
+*MOT: yes .
 *MOT: its the same shape as that picture  isnt it ?
 *MOT: is it oval .
 *CHI: mhm .
 *CHI: that .
 *MOT: um  do you know what that shape is ?
 *MOT: yeah .
-*MOT: its the same shape as that .
 *MOT: youre not going to say it though  are you ?
 *MOT: oh .
 *MOT: what happened there ?
@@ -676,8 +669,6 @@
 *INV: www .
 *CHI: byebye .
 *CHI: byebye .
-*MOT: byebye .
-*INV: byebye .
 *MOT: see you soon .
 *MOT: www .
 *CHI: here we are .
@@ -725,7 +716,7 @@
 *CHI: there we are .
 *MOT: there we are .
 *CHI: oh Mamas .
-*MOT: can you just keep that  shut just for a minute darling
+*MOT: just keep that  shut just for a minute darling
 *MOT: Joel .
 *MOT: just for a minute .
 *MOT: when it .
@@ -903,15 +894,13 @@
 *MOT: no .
 *MOT: you dont like it .
 *MOT: www .
-*MOT: did you say what did you say ?
+*MOT: what did you say ?
 *CHI: no like it .
 *MOT: www .
 *CHI: oh .
 *MOT: now youve like  done what youve done I dont suppose I can
 *MOT: oh well .
 *CHI: oh well .
-*MOT: oh well .
-*INV: oh well .
 *MOT: oh .
 *MOT: was that your book ?
 *MOT: uhoh .
@@ -947,7 +936,6 @@
 *MOT: hairs .
 *CHI: yeah .
 *CHI: goal .
-*MOT: I dont [<]
 *MOT: yeah .
 *MOT: youre not going to throw everything in the kitchen  are we ?
 *MOT: dont lose them .
@@ -1047,7 +1035,7 @@
 *MOT: www .
 *MOT: oh whats this ?
 *CHI: more .
-*MOT: dont you wanna dont you wanna put this one in the box ?
+*MOT: dont you wanna put this one in the box ?
 *MOT: its a hippopotamus .
 *MOT: oh .
 *CHI: tiger .
@@ -1224,10 +1212,6 @@
 *MOT: are you eating it ?
 *MOT: having a picnic ?
 *CHI: yummy yummy .
-*INV: is it ?
-*MOT: yummy yummy .
-*MOT: thats cat food .
-*INV: oh thats cat food .
 *INV: yes .
 *CHI: Mummys .
 *MOT: oh is that for me ?
@@ -1409,7 +1393,7 @@
 *INV: here you are .
 *INV: only one Im afraid because otherwise Im running out .
 *MOT: oh well lean on the box .
-*INV: are you going to draw like l like Caroline ?
+*INV: are you going to draw like Caroline ?
 *MOT: and then you can lean on the book  cant you ?
 *MOT: right .
 *CHI: right .
@@ -1597,7 +1581,6 @@
 *CHI: Caroline tickle .
 *MOT: did Caroline tickle your foot ?
 *MOT: what did Caroline do ?
-*CHI: tickle there .
 *MOT: tickle there .
 *INV: tickle there .
 *INV: oh .

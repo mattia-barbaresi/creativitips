@@ -353,7 +353,6 @@
 *MOT: in a hole .
 *CHI: get a pan .
 *INV: you get a pan .
-*CHI: what is this ?
 *MOT: there .
 *MOT: oh .
 *MOT: its its a meat skewer .
@@ -474,7 +473,7 @@
 *CHI: there .
 *CHI: one two
 *MOT: shall I mend it ?
-*MOT: shall I shall I mend it ?
+*MOT: shall I mend it ?
 *MOT: there .
 *MOT: whatre you going to do with that now ?
 *MOT: pardon ?
@@ -634,8 +633,6 @@
 *MOT: I think the other one went on the floor .
 *MOT: cant see it .
 *MOT: oh .
-*MOT: its here .
-*INV: its just under the chair .
 *MOT: here it is .
 *MOT: there .
 *CHI: there .
@@ -1052,7 +1049,7 @@
 *MOT: we were looking for him the other day ,
 *CHI: yeah .
 *MOT: are you going to put the rabbit  in the box ?
-*MOT: in your shapesorter then we know we know hes back home safe
+*MOT: in your shapesorter then we know hes back home safe
 *CHI: dont wanna .
 *CHI: there .
 *MOT: still one more brick .
@@ -1069,7 +1066,7 @@
 *MOT: why ?
 *MOT: the same to you as well .
 *CHI: where is it ?
-*MOT: are you going are you going to set your train off  look ?
+*MOT: are you going to set your train off  look ?
 *MOT: so it can go under your new bridge ?
 *MOT: hello .
 *CHI: go there .
@@ -1279,7 +1276,7 @@
 *MOT: do you like these toys that Caroline brings ?
 *CHI: yeah .
 *MOT: yeah ?
-*MOT: theyre very theyre very interesting  arent they ?
+*MOT: theyre very interesting  arent they ?
 *CHI: yeah .
 *MOT: hm ?
 *MOT: what are you singing ?

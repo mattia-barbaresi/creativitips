@@ -29,10 +29,9 @@
 *CHI: a little drop ap bottle .
 *MOT: theres a little drop left in the bottle .
 *MOT: lets just tip it up then .
-*CHI: tip it up>
-*MOT: is that it ?
+*MOT: is ?
 *CHI: two drops .
-*MOT: two drops two drops left in the bottle .
+*MOT: two drops left in the bottle .
 *CHI: two ones .
 *MOT: two ones .
 *CHI: hm .
@@ -163,7 +162,6 @@
 *MOT: he was eighty .
 *MOT: and Grandmas seventy seven on Thursday .
 *MOT: thats a long time isnt it ?
-*CHI: red one green one .
 *MOT: seventy seven .
 *CHI: hold it .
 *MOT: there we are .
@@ -211,7 +209,7 @@
 *CHI: look .
 *CHI: this .
 *MOT: yes .
-*MOT: but dont touch it dont touch the food .
+*MOT: but dont touch the food .
 *CHI: touch the food .
 *MOT: no .
 *MOT: weve just washed your hands but we still dont touch it  Thomas .
@@ -227,7 +225,7 @@
 *CHI: toast sandwiches .
 *MOT: no .
 *MOT: Im not toasting sandwiches now .
-*MOT: were just uh weve just made these havent we ?
+*MOT: weve just made these havent we ?
 *MOT: there we are .
 *MOT: Ive cut them up into small pieces for you .
 *CHI: more lids .
@@ -310,7 +308,7 @@
 *CHI: yes .
 *CHI: not juice .
 *CHI: crisps .
-*MOT: youd like youd like some juice .
+*MOT: youd like some juice .
 *CHI: crisps .
 *MOT: crisps .
 *MOT: are they tasty ?
@@ -489,7 +487,7 @@
 *MOT: well finish something else first .
 *MOT: youve hardly had anything to eat today  Thomas .
 *MOT: you didnt really want your breakfast .
-*MOT: are you not very well are you not feeling very well ?
+*MOT: are you not feeling very well ?
 *CHI: no .
 *MOT: whats the matter ?
 *CHI: bin bag .
@@ -554,7 +552,7 @@
 *MOT: wheres the driver ?
 *CHI: here are .
 *CHI: middle setting off .
-*MOT: hes in the middle hes in the middle getting off .
+*MOT: hes in the middle getting off .
 *MOT: I can hear a real train outside can you ?
 *CHI: not bashed .
 *MOT: no bashed .
@@ -566,9 +564,7 @@
 *MOT: would you like some more juice  darling ?
 *CHI: no .
 *MOT: no .
-*CHI: no please .
 *MOT: what do you say ?
-*CHI: no please>
 *MOT: no thank you .
 *CHI: no .
 *MOT: are you whispering ?
@@ -639,7 +635,6 @@
 *MOT: yes .
 *MOT: theres an orange light on and a green light .
 *MOT: thats why I went over there just to have a quick look .
-*CHI: not see it .
 *MOT: no .
 *MOT: you cant see it where youre sitting but I promise you its there
 *CHI: yes .
@@ -668,11 +663,11 @@
 *MOT: she had a cough .
 *MOT: she had a cold .
 *MOT: she had a temperature didnt she ?
-*CHI: Becky ap juice ap juice a straw .
+*CHI: Becky ap juice a straw .
 *MOT: she had some juice with a straw .
 *MOT: yes .
 *CHI: not drink it .
-*CHI: left it in the it in the packet .
+*CHI: left it in the packet .
 *MOT: did she not drink it ?
 *MOT: she left it in the packet .
 *CHI: yes .
@@ -703,7 +698,6 @@
 *MOT: laughs .
 *MOT: no .
 *MOT: Rebecca .
-*CHI: build the tower .
 *CHI: the fire engine police car .
 *MOT: you want the fire engine and the police car .
 *CHI: yes .
@@ -720,7 +714,7 @@
 *CHI: oops .
 *MOT: let me have a look over here .
 *MOT: when were you last playing with him .
-*CHI: not a not a police man .
+*CHI: not a police man .
 *MOT: I dont know where youve had them  Thomas .
 *MOT: when were you last playing with them ?
 *MOT: Ill hang your coat up as well while while I think about it .
@@ -917,7 +911,7 @@
 *MOT: and what else is on the bed ?
 *MOT: theres something else youve not told me about .
 *CHI: two flowers .
-*CHI: blue flowers blue flowers orange flower .
+*CHI: blue flowers orange flower .
 *MOT: blue flowers .
 *MOT: ah dont  Thomas .
 *MOT: thats naughty creasing it .
@@ -1066,7 +1060,7 @@
 *MOT: and it makes the pillows look really small doesnt it ?
 *CHI: hm .
 *MOT: and so youre looking at the vacuum cleaner bags on the floor .
-*MOT: and not really plugs but when the when weve sucked the air
+*MOT: and not really plugs but when weve sucked the air
 *CHI: yes .
 *MOT: oh darling  Thomas .
 *MOT: these nappies are like you useta have when you were teething .
@@ -1086,7 +1080,7 @@
 *MOT: not sore again now .
 *MOT: I think its all part of this funny cold youve had dont you ?
 *CHI: yellow cars doing .
-*CHI: doing it now .
+*CHI: now .
 *MOT: are you playing with your yellow car ?
 *CHI: yes .
 *CHI: no people on it .
@@ -1165,7 +1159,7 @@
 *CHI: blue van chocolate .
 *CHI: green blue .
 *MOT: thats right .
-*MOT: you can see on the shelf in the kitchen weve got a little van>
+*MOT: you can see on the shelf in the kitchen weve got
 *MOT: its like a very old fashioned delivery van isnt it ?
 *CHI: yes .
 *MOT: its not really a toy that  Thomas .
@@ -1229,7 +1223,7 @@
 *MOT: lets rub some nice soap in .
 *MOT: thats right .
 *MOT: this hand .
-*MOT: weve washed you weve washed your body already so just
+*MOT: weve washed your body already so just
 *CHI: theres a cone there .
 *MOT: yes .
 *MOT: youve dropped a little cone in the bowl havent you ?
@@ -1308,7 +1302,7 @@
 *MOT: too high .
 *MOT: you silly billywp .
 *CHI: glasses .
-*MOT: what a silly billywp .
+*MOT: silly billywp .
 *CHI: glasses head and teeth .
 *MOT: oh I see .
 *MOT: youre putting it on my glasses and my head and my teeth .
@@ -1371,7 +1365,7 @@
 *MOT: yes .
 *MOT: but wheres he driving to ?
 *CHI: going backwards .
-*MOT: going backwards going backwards .
+*MOT: going backwards .
 *CHI: going here .
 *CHI: going backwards .
 *MOT: going backwards .
@@ -1395,7 +1389,7 @@
 *MOT: yes .
 *MOT: thats usually the number of the bus we get isnt it ?
 *MOT: number forty two an easy access bus .
-*MOT: but this morning when we were driving off in the car we saw a bus>
+*MOT: but this morning when we were driving off in the car we saw
 *MOT: and that was the one seven one or the one seven two .
 *MOT: and thats a red bus isnt it ?
 *CHI: yes .
@@ -1507,4 +1501,4 @@
 *CHI: yes .
 *MOT: Id forgotten we were doing this .
 *MOT: right .
-*MOT: you sit down still and Ill just go and have a look Ill go
+*MOT: you sit down still and Ill go

@@ -69,7 +69,7 @@
 *CHI: something in the car .
 *CHI: box in the car .
 *CHI: box in the car .
-*CHI: box in box in the car .
+*CHI: box in the car .
 *INV: thats right .
 *MOT: yeah .
 *MOT: you can always get your box from upstairs in the bedroom .
@@ -342,8 +342,7 @@
 *MOT: that was a nice song .
 *MOT: do you remember the song about the cheeky monkeys ?
 *CHI: my monkey song .
-*MOT: what happened in the monkey song  John .
-*CHI: monkey song .
+*MOT: what happened in the  John .
 *CHI: I back piano .
 *CHI: piano .
 *CHI: the piano .
@@ -750,7 +749,7 @@
 *CHI: one egg .
 *CHI: one egg .
 *CHI: one egg .
-*MOT: put them in the eggs in here .
+*MOT: put the eggs in here .
 *CHI: want some more .
 *CHI: here one .
 *CHI: another one .
@@ -899,7 +898,7 @@
 *INV: tuck her up in bed .
 *INV: there .
 *INV: shes asleep now .
-*CHI: other one want .
+*CHI: want .
 *INV: you want these ones as well ?
 *CHI: yeah .
 *INV: okay .

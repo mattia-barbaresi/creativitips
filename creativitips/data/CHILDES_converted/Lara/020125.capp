@@ -17,10 +17,7 @@
 *SAR: whos that ?
 *SAR: you dont know  do you ?
 *SAR: whos that ?
-*CHI: its IN]
 *SAR: whos that ?
-*CHI: um IN]
-*SAR: um IN]
 *CHI: its a mattress .
 *SAR: oh .
 *SAR: and whos the other one ?
@@ -45,11 +42,11 @@
 *SAR: can I have a kiss ?
 *SAR: Im going then .
 *SAR: www .
-*DAD: say bye bye to IN]
-*SAR: say bye bye to IN]
+*DAD: say bye bye to .
+*SAR: say bye bye to .
 *MOT: say bye bye to Hairy Sarah .
-*CHI: bye bye I]
-*DAD: bye bye IN]
+*CHI: bye bye .
+*DAD: bye bye
 *SAR: bye bye  sweetheart .
 *CHI: what about kiss ?
 *DAD: what about a kiss ?
@@ -58,21 +55,21 @@
 *SAR: you didnt want one .
 *DAD: say bye bye  hairy .
 *DAD: bye bye  Sarah .
-*CHI: bye bye IN]
+*CHI: bye bye .
 *CHI: no .
 *CHI: its Hairy .
 *DAD: bye bye  Hairy .
-*CHI: bye bye  Hairy I]
-*CHI: bye  Hairy SR]
+*CHI: bye bye  Hairy .
+*CHI: bye  Hairy .
 *DAD: dont mind them .
 *CHI: daddy wipe .
 *CHI: daddy wipe it .
-*CHI: daddy wipe it SR]
-*DAD: bring it over here by the IN]
+*CHI: daddy wipe it .
+*DAD: bring it over here by the .
 *DAD: bring it over here then .
 *DAD: oh dear .
 *DAD: is it a bit heavy for you ?
-*CHI: cold PI]
+*CHI: cold .
 *DAD: are they cold ?
 *DAD: well .
 *DAD: put the blanket back on them .
@@ -127,25 +124,23 @@
 *DAD: the little bobbles of fluff from your socks ?
 *CHI: yes .
 *DAD: they they mustve fallen off your feet .
-*CHI: thats PI]
+*CHI: thats .
 *CHI: I want some milk in a bottle .
 *DAD: well .
 *DAD: what do we say ?
-*DAD: please may I IN]
-*CHI: I I want some water .
-*DAD: some IN]
+*CHI: I want some water .
 *DAD: you tell mummy then .
 *CHI: daddy rub that one .
 *DAD: okay .
 *DAD: Ill rub them while whilst youre gone .
-*CHI: I want some I want water .
+*CHI: I want water .
 *MOT: well .
 *MOT: youve got milk in a bottle now .
 *MOT: and its please may I have .
 *MOT: not I want .
 *MOT: here you are .
 *MOT: come on then .
-*CHI: please I have I]
+*CHI: please I have .
 *MOT: chop chop .
 *DAD: is that nice  Lara ?
 *MOT: www .
@@ -157,7 +152,6 @@
 *MOT: well .
 *MOT: why did you give it to me then ?
 *DAD: this is for Heidi and Samantha .
-*CHI: other one .
 *CHI: another one .
 *MOT: dont you want your bottle now ?
 *MOT: you do want it ?
@@ -179,8 +173,8 @@
 *MOT: www .
 *CHI: here .
 *CHI: here  Rosie .
-*CHI: here SR]
-*CHI: here SR]
+*CHI: here .
+*CHI: here .
 *CHI: here you are .
 *MOT: here you are ?
 *CHI: yes .
@@ -191,18 +185,17 @@
 *MOT: would you like mummy to put it on ?
 *CHI: no .
 *CHI: its hurts .
-*CHI: its hurts SR]
 *MOT: its hurts ?
 *DAD: hurts .
 *MOT: its hurts apparently .
 *DAD: I wouldnt do it again .
 *MOT: bye .
 *MOT: wherere you going ?
-*CHI: bye I]
+*CHI: bye .
 *MOT: why dont you get a book ?
-*CHI: bye SR]
+*CHI: bye .
 *MOT: bye .
-*CHI: bye SR]
+*CHI: bye .
 *MOT: where did you go at nursery today ?
 *MOT: Lara ?
 *MOT: where did you go today ?
@@ -219,18 +212,17 @@
 *CHI: that one book .
 *MOT: which one ?
 *CHI: that one book .
-*CHI: that one book SR]
+*CHI: that one book .
 *MOT: this one ?
 *CHI: yes .
 *MOT: pardon you .
 *CHI: what about another one ?
 *CHI: I want two .
-*CHI: what about another one SR]
-*CHI: what about another one SR]
+*CHI: what about another one ?
+*CHI: what about another one ?
 *MOT: www .
 *DAD: are you having a few problems  sugar ?
-*CHI: want this book .
-*DAD: do you want the Postman Pats or do you want Winnie The Poohs
+*DAD: Postman Pats or do you want Winnie The Poohs
 *MOT: all of them .
 *DAD: oh right .
 *DAD: mummy .
@@ -248,7 +240,7 @@
 *DAD: do you wanna get these out ?
 *DAD: do you wanna get these ones out ?
 *CHI: no .
-*DAD: which IN]
+*DAD: which .
 *CHI: this one out .
 *DAD: okay .
 *DAD: well .
@@ -268,10 +260,10 @@
 *MOT: take your nappie off .
 *CHI: no .
 *MOT: have you done a poo ?
-*CHI: no SR]
+*CHI: no .
 *MOT: okay .
 *MOT: do you want a wee wee on the potty ?
-*CHI: no SR]
+*CHI: no .
 *MOT: sure ?
 *MOT: www .
 *CHI: I done a poo .
@@ -279,10 +271,10 @@
 *CHI: yes .
 *CHI: oh !
 *DAD: sorry  my love ?
-*CHI: thats a bit PI]
+*CHI: thats a bit .
 *CHI: mummy do it .
 *MOT: pardon ?
-*CHI: mummy do it SR]
+*CHI: mummy do it .
 *CHI: mummy do it up .
 *MOT: mummy do it up .
 *MOT: there you go .
@@ -301,8 +293,6 @@
 *CHI: Georgie .
 *MOT: Georgie ?
 *CHI: wheres Georgie ?
-*MOT: Georgies next door with Sarah .
-*DAD: at Sarahs house  sweetheart .
 *CHI: wheres daddy ?
 *DAD: here .
 *CHI: sings .
@@ -323,16 +313,15 @@
 *MOT: be a horsie on mummys legs .
 *MOT: without wee weeing .
 *DAD: sing a song .
-*DAD: horsie IN]
 *MOT: oh .
-*MOT: mummys IN]
+*MOT: mummys .
 *DAD: sings .
 *MOT: tickle .
-*MOT: not PI]
-*CHI: this little piggy stay home R]
-*CHI: this little piggy stay none R]
-*CHI: this little piggy stay none well R]
-*CHI: this little piggy stay home R]
+*MOT: not .
+*CHI: this little piggy stay home .
+*CHI: this little piggy stay none .
+*CHI: this little piggy stay none well .
+*CHI: this little piggy stay home .
 *MOT: this little piggy stay where as well ?
 *DAD: this little piggy stay home .
 *MOT: as well ?
@@ -346,31 +335,31 @@
 *MOT: www .
 *MOT: pardon you .
 *CHI: boo .
-*CHI: boo SR]
+*CHI: boo .
 *DAD: boodedoc .
 *MOT: poo or boo ?
 *MOT: do you want poo ?
-*CHI: boo SR]
+*CHI: boo .
 *MOT: boo .
-*CHI: boo SR]
+*CHI: boo .
 *DAD: boo .
-*CHI: boo SR]
+*CHI: boo .
 *MOT: boo .
 *CHI: mummy shut door .
 *MOT: I cant .
 *MOT: your feet are in the way .
 *CHI: no .
-*CHI: no SR]
+*CHI: no .
 *CHI: my feet in the way .
-*CHI: my feet in the way SR]
+*CHI: my feet in the way .
 *CHI: boo .
 *DAD: boo .
 *MOT: boo .
-*CHI: boo SR]
-*CHI: boo SR]
+*CHI: boo .
+*CHI: boo .
 *DAD: boo .
 *MOT: boo .
-*CHI: boo SR]
+*CHI: boo .
 *CHI: its a curtain .
 *MOT: its a garden ?
 *CHI: no .
@@ -378,11 +367,11 @@
 *MOT: the curtains ?
 *DAD: curtains ?
 *MOT: its mummys dress .
-*CHI: boo SR]
+*CHI: boo .
 *MOT: boo .
 *CHI: hide .
-*CHI: boo SR]
-*CHI: hide SR]
+*CHI: boo .
+*CHI: hide .
 *DAD: www .
 *CHI: its cold .
 *MOT: its cold  is it ?
@@ -392,19 +381,19 @@
 *CHI: there .
 *CHI: see ?
 *CHI: wheres Lara gone ?
-*CHI: wheres Lara gone SR]
+*CHI: wheres Lara gone ?
 *MOT: wheres Lara gone ?
 *DAD: wheres she gone ?
 *CHI: Im here .
 *CHI: hiding .
 *CHI: daddy hide .
 *DAD: hello .
-*CHI: daddy hide SR]
+*CHI: daddy hide .
 *DAD: theres no room for daddy under there .
 *DAD: daddys daddys too big .
 *DAD: www .
 *CHI: here  daddy .
-*CHI: here  daddy SR]
+*CHI: here  daddy .
 *MOT: daddys not hiding .
 *MOT: no .
 *MOT: that that would be silly .
@@ -412,11 +401,11 @@
 *DAD: put the duvet over daddys head .
 *DAD: www .
 *CHI: wheres my duvet ?
-*CHI: wheres my duvet SR]
+*CHI: wheres my duvet ?
 *MOT: whos saying that ?
 *MOT: Heidi and Samantha ?
 *CHI: mhm .
-*MOT: why dont you rock why dont you stroke daddys back so
+*MOT: why dont you stroke daddys back so
 *MOT: and then you can tickle him and wake him up .
 *DAD: be careful of my coffee .
 *DAD: Lara R .
@@ -433,23 +422,23 @@
 *MOT: did you have a poo at nursery today ?
 *CHI: no .
 *MOT: you didnt .
-*CHI: I do not PI]
+*CHI: I do not .
 *MOT: you what ?
 *CHI: I wanna hide .
 *CHI: shoes .
-*CHI: shoes SR]
-*CHI: shoes SR]
-*CHI: shoes SR]
+*CHI: shoes .
+*CHI: shoes .
+*CHI: shoes .
 *CHI: go away !
 *CHI: go away  foot .
-*CHI: go away  foot SR]
+*CHI: go away  foot .
 *CHI: open gate through .
 *MOT: open get through or open gate through ?
 *MOT: Lara .
 *CHI: tickle tickle .
-*CHI: tickle tickle SR]
+*CHI: tickle tickle .
 *DAD: I I wasnt asleep really .
-*CHI: Heidi PI]
+*CHI: Heidi .
 *MOT: Heidi what ?
 *CHI: Heidi Heidi on there .
 *CHI: put the feets down .
@@ -480,13 +469,13 @@
 *MOT: dont know .
 *CHI: its in there .
 *CHI: its under there  mummy .
-*CHI: mummy SR]
-*CHI: its under there SR]
+*CHI: mummy .
+*CHI: its under there .
 *MOT: is it ?
 *MOT: under there ?
 *CHI: yes .
 *MOT: www .
-*CHI: I want this one drink .
+*CHI: I want drink .
 *DAD: www .
 *DAD: www .
 *MOT: pardon ?
@@ -495,10 +484,8 @@
 *MOT: but what what was all the s s stuff ?
 *MOT: its alright .
 *MOT: its only a fly .
-*MOT: youre a bit too scared of IN]
-*CHI: go away .
 *MOT: its okay .
-*CHI: a fly I]
+*CHI: a fly .
 *MOT: go away  fly .
 *MOT: go away .
 *CHI: wheres the fly gone ?
@@ -507,8 +494,8 @@
 *CHI: mummy .
 *CHI: you have that .
 *MOT: thank you .
-*CHI: mummy SR]
-*CHI: you have that SR]
+*CHI: mummy .
+*CHI: you have that .
 *MOT: I dont really want it .
 *CHI: that there .
 *CHI: hide .
@@ -517,7 +504,7 @@
 *CHI: yes .
 *CHI: tickle tickle .
 *CHI: I want horsie .
-*CHI: I want horsie SR]
+*CHI: I want horsie .
 *MOT: okay .
 *MOT: well .
 *MOT: if you break it you wont be able to play with it .
@@ -567,13 +554,13 @@
 *MOT: has it ?
 *MOT: can you give mummy a kiss ?
 *CHI: no .
-*CHI: buttons PI]
+*CHI: buttons .
 *MOT: how many buttons ?
-*CHI: one two three eight R]
+*CHI: one two three eight .
 *MOT: four .
-*CHI: nine ten R]
+*CHI: nine ten .
 *MOT: five .
-*CHI: six eleven three R]
+*CHI: six eleven three .
 *MOT: you still cant get the hang of four five six and seven  can you ?
 *MOT: what colors mummys dress ?
 *CHI: blue .
@@ -588,15 +575,11 @@
 *MOT: marmalade ?
 *CHI: gone .
 *DAD: its got marmalade colored flowers on .
-*CHI: one two three R]
+*CHI: one two three .
 *DAD: what colors daddys dress ?
 *CHI: whats daddy dress got on ?
 *CHI: whats daddys dress got on ?
 *DAD: no .
-*MOT: daddy hasnt got a dress  has he ?
-*DAD: daddys only being silly  sweetheart .
-*MOT: daddys being silly .
-*DAD: daddy has trousers instead .
 *DAD: what colors daddys trousers ?
 *CHI: blue .
 *DAD: thats right .
@@ -604,14 +587,13 @@
 *CHI: green .
 *DAD: thats right .
 *MOT: and what colors Laras dress ?
-*CHI: one two three four eight R]
-*MOT: five R]
-*CHI: six seven eight nine R]
+*CHI: one two three four eight .
+*MOT: five .
+*CHI: six seven eight nine .
 *CHI: I cant see your buttons .
 *MOT: one two three four five six seven eight nine ten eleven twelve .
 *CHI: more .
 *MOT: you do it .
-*DAD: www .
 *MOT: yes .
 *MOT: www .
 *MOT: wherere you going ?
@@ -621,7 +603,7 @@
 *CHI: oh dear .
 *MOT: oh dear .
 *MOT: Lara trod on mummys shoe .
-*CHI: oh dear SR]
+*CHI: oh dear .
 *DAD: www .
 *CHI: cant get that out .
 *MOT: daddy get it out then .
@@ -636,17 +618,17 @@
 *CHI: green .
 *CHI: what about green ?
 *MOT: thats the green on .
-*CHI: thats it PI]
+*CHI: thats it .
 *DAD: 0 .
-*CHI: pink one PI]
+*CHI: pink one .
 *MOT: mummy dada the pink one ?
 *CHI: mummy want the pink one ?
 *MOT: Ive got the pink one .
-*CHI: Ive got the pink I]
-*MOT: youve got the IN]
-*CHI: I got IN]
+*CHI: Ive got the pink .
+*MOT: youve got the
+*CHI: I got
 *CHI: have it .
-*CHI: have SR]
+*CHI: have .
 *MOT: what colors your book ?
 *CHI: green .
 *MOT: thats it .
@@ -663,7 +645,7 @@
 *MOT: theyre both yellow  arent they ?
 *CHI: mummy read that .
 *MOT: thats blue .
-*CHI: mummy read that SR]
+*CHI: mummy read that .
 *MOT: mhm .
 *CHI: mummy read that one .
 *MOT: you want me to read them all ?
@@ -684,7 +666,7 @@
 *DAD: Im reading .
 *DAD: www .
 *CHI: daddy have  Winnie Pooh .
-*CHI: daddy have Winnie Pooh SR]
+*CHI: daddy have Winnie Pooh .
 *DAD: sings .
 *CHI: put in daddys knee .
 *DAD: oh .
@@ -697,7 +679,7 @@
 *MOT: Ive just read that one .
 *MOT: whos that ?
 *CHI: mummy read that one .
-*CHI: mummy read that one SR]
+*CHI: mummy read that one .
 *CHI: Lara read that one .
 *MOT: well .
 *MOT: I can only read one at a time .
@@ -707,7 +689,7 @@
 *CHI: hafta put shoe on .
 *CHI: that way .
 *CHI: little Miss Hubbard .
-*CHI: Miss Hubbard SR]
+*CHI: Miss Hubbard .
 *MOT: whatre you doing ?
 *MOT: you wanna put mummys shoe on ?
 *MOT: other foot .
@@ -740,16 +722,16 @@
 *DAD: oh no .
 *DAD: youre stuck ?
 *CHI: I 0am stuck .
-*CHI: I 0am stuck SR]
+*CHI: I 0am
 *MOT: youre not stuck youre stuck .
 *MOT: say stuck .
-*CHI: stuck SR]
+*CHI: stuck .
 *DAD: thank you .
 *DAD: say stuck .
-*CHI: stuck SR]
+*CHI: stuck .
 *MOT: stuck .
 *DAD: say stuck .
-*CHI: stuck SR]
+*CHI: stuck .
 *MOT: stuck .
 *MOT: thats it .
 *MOT: stuck .
@@ -757,18 +739,16 @@
 *CHI: daddy say stuck .
 *DAD: stuck .
 *MOT: stuck .
-*CHI: stuck SR]
+*CHI: stuck .
 *MOT: thats it .
-*CHI: stuck SR]
+*CHI: stuck .
 *MOT: thats it .
 *DAD: wowie .
 *DAD: who is it ?
-*DAD: its Postman Peter .
-*CHI: Pat .
+*DAD: its Postman .
 *MOT: not Postman Peter .
 *DAD: who is it ?
-*DAD: Postman IN]
-*CHI: Pat SR]
+*CHI: Pat .
 *DAD: thats it .
 *DAD: whos look at all these books Ive got on my head .
 *DAD: www .
@@ -784,10 +764,10 @@
 *DAD: do Little Piggy .
 *DAD: oh no .
 *DAD: nicely .
-*CHI: little piggy to market R]
-*CHI: little piggy on like that PI]
+*CHI: little piggy to market .
+*CHI: little piggy on like that .
 *DAD: oh .
-*DAD: are you drawing IN]
+*DAD: are you drawing .
 *DAD: look  mum .
 *DAD: do you want do you want me to get a pen and you can draw round
 *CHI: yes .
@@ -842,9 +822,9 @@
 *DAD: www .
 *CHI: what about this hand ?
 *DAD: there we go  look .
-*CHI: what about this hand SR]
+*CHI: what about this hand ?
 *DAD: what do you want on that hand ?
-*CHI: that there PI]
+*CHI: that there .
 *DAD: okay .
 *DAD: well .
 *DAD: move it back on the paper .
@@ -852,7 +832,7 @@
 *CHI: wheres it gone ?
 *DAD: there we go  look .
 *DAD: Laras hand .
-*DAD: and its the IN]
+*DAD: and its the .
 *DAD: what date is it ?
 *CHI: my book .
 *DAD: eleventh of the seventh nineteen ninety six .
@@ -869,7 +849,7 @@
 *DAD: you got my nose .
 *DAD: youre a silly old sausage  arent you ?
 *DAD: what are you ?
-*DAD: silly old IN]
+*DAD: silly old
 *DAD: look .
 *DAD: this is how you get daddys nose .
 *DAD: you go oh .
@@ -877,17 +857,16 @@
 *DAD: you go wee .
 *DAD: got you .
 *CHI: no .
-*CHI: I got IN]
-*CHI: theres PI]
-*DAD: is that the little thing PI]
+*CHI: I got
+*CHI: theres .
+*DAD: is that the little thing ?
 *DAD: tell you what .
 *DAD: when mummy comes downstairs we can get mummys nose .
 *DAD: would you like to do that ?
 *CHI: I want 0to book .
-*CHI: get this one book SR]
-*CHI: book SR]
-*CHI: book SR]
-*CHI: book SR]
+*CHI: book .
+*CHI: book .
+*CHI: book .
 *DAD: are you gonna get her nose with that book ?
 *DAD: sings .
 *DAD: ow .
@@ -901,7 +880,7 @@
 *DAD: pull pull pull .
 *CHI: no .
 *DAD: okay .
-*CHI: I sit here PI]
+*CHI: I sit here .
 *DAD: you can sit there if you wanna .
 *DAD: wherere you putting your legs ?
 *DAD: oh .
@@ -937,12 +916,12 @@
 *DAD: its that pj time of night again .
 *MOT: do you wanna sit on the potty before you put your nappie on ?
 *CHI: yes .
-*CHI: yes SR]
+*CHI: yes .
 *DAD: www .
 *CHI: I climb up daddy .
 *DAD: you did climb over daddy .
 *MOT: go and get your nappie on then .
-*DAD: climbed over daddy IN]
+*DAD: climbed over daddy .
 *MOT: do you wanna use the potty ?
 *CHI: yes .
 *MOT: oh .
@@ -984,14 +963,14 @@
 *MOT: I said lie down .
 *DAD: www .
 *CHI: whats that in the tummy ?
-*CHI: whats that in the tummy SR]
+*CHI: whats that in the tummy ?
 *MOT: in your tummy ?
-*CHI: whats that SR]
+*CHI: whats that ?
 *MOT: chocolate finger .
 *MOT: www .
 *CHI: wheres another one gone ?
 *CHI: wheres two ?
-*CHI: wheres two SR]
+*CHI: wheres two ?
 *CHI: wheres two gone ?
 *MOT: you only have one  dont you because youve only done one wee wee
 *CHI: mm .
@@ -1007,23 +986,23 @@
 *CHI: no .
 *CHI: no want  mummy .
 *MOT: dont you want your chockyf ?
-*CHI: no SR]
+*CHI: no .
 *MOT: really ?
-*CHI: no SR]
+*CHI: no .
 *MOT: here you go  daddy .
 *MOT: do you want this chockyf ?
 *DAD: okay .
 *DAD: do you want it  Lara ?
-*CHI: no SR]
+*CHI: no .
 *MOT: come on .
 *MOT: lets put your pjs on .
-*CHI: I step in in it .
+*CHI: I step it .
 *MOT: pardon ?
-*CHI: I step in in it SR]
+*CHI: I step
 *MOT: you step into it ?
 *MOT: no .
 *MOT: I now because youre lying down I can do put them on
-*MOT: I hope are you getting chocolaty fingers all over mum's
+*MOT: are you getting chocolaty fingers all over mum's
 *MOT: yes .
 *MOT: look .
 *MOT: daddy .
@@ -1074,7 +1053,7 @@
 *MOT: you havent got your pajama tops on yet .
 *DAD: www .
 *MOT: give us a big kiss .
-*CHI: I want that upstairs PI]
+*CHI: I want that upstairs .
 *MOT: oh .
 *MOT: were not going up yet .
 *MOT: its not bedtime yet .
@@ -1082,26 +1061,26 @@
 *MOT: hello .
 *CHI: whats that ?
 *MOT: tape .
-*CHI: whats that SR]
+*CHI: whats that ?
 *MOT: tape .
-*CHI: whats that SR]
+*CHI: whats that ?
 *MOT: what is it ?
 *CHI: thats tape .
-*CHI: tape SR]
-*CHI: tape SR]
+*CHI: tape .
+*CHI: tape .
 *MOT: tape .
 *CHI: my duvet .
 *CHI: wheres my duvet gone ?
 *MOT: wheres your duvet ?
 *CHI: its a slide .
-*CHI: its a slide SR]
+*CHI: its a slide .
 *MOT: is it ?
 *CHI: yes .
-*CHI: its a IN]
+*CHI: its a .
 *CHI: no .
-*CHI: its a PI]
+*CHI: its a .
 *CHI: no .
-*CHI: its PI]
+*CHI: its .
 *CHI: mummy sit down there .
 *MOT: oh .
 *MOT: Im not moving anywhere  sweetheart .
@@ -1123,12 +1102,12 @@
 *MOT: lets get a book .
 *CHI: I want story .
 *MOT: alright well .
-*MOT: well have IN]
+*MOT: well have .
 *CHI: in bed .
 *MOT: no .
 *MOT: well have one down here  shall we ?
 *DAD: www .
-*MOT: well have one in here down here before bed .
+*MOT: well have one down here before bed .
 *DAD: www .
 *CHI: Im read it .
 *MOT: okay .
@@ -1145,9 +1124,9 @@
 *MOT: farmer .
 *CHI: doggie .
 *MOT: doggie .
-*CHI: doggie SR]
+*CHI: doggie .
 *CHI: horsie .
-*CHI: horsie SR]
+*CHI: horsie .
 *CHI: piggy .
 *MOT: whats this ?
 *CHI: mooo .
@@ -1171,18 +1150,18 @@
 *MOT: yes .
 *CHI: hat .
 *MOT: a hat .
-*MOT: and theres IN]
+*MOT: and theres .
 *MOT: do you know what that is ?
 *CHI: rain .
 *MOT: snow that is .
-*CHI: snow I]
+*CHI: snow .
 *MOT: yes .
-*CHI: snow SR]
+*CHI: snow .
 *CHI: thats snow .
 *MOT: thats rain .
 *MOT: thats snow .
-*CHI: thats rain I]
-*CHI: thats snow I]
+*CHI: thats rain .
+*CHI: thats snow .
 *MOT: yes .
 *MOT: oh look .
 *MOT: whats this ?
@@ -1202,13 +1181,13 @@
 *CHI: bus .
 *MOT: a bus .
 *DAD: www .
-*CHI: bus SR]
+*CHI: bus .
 *MOT: thats a fireengine .
 *MOT: neenawo .
 *CHI: neenawo .
 *CHI: car .
 *MOT: car .
-*CHI: car SR]
+*CHI: car .
 *CHI: brummo .
 *CHI: wheres the man gone ?
 *MOT: which man ?
@@ -1217,9 +1196,9 @@
 *CHI: yes .
 *CHI: a motorbike .
 *MOT: yes .
-*CHI: motorbike SR]
+*CHI: motorbike .
 *CHI: its wrong way round .
-*MOT: its not wrong IN]
+*MOT: its not wrong .
 *MOT: why ?
 *MOT: no .
 *MOT: its not .
@@ -1233,9 +1212,9 @@
 *MOT: theres the boring page .
 *MOT: I look .
 *MOT: seaside .
-*CHI: seaside I]
+*CHI: seaside .
 *MOT: yes .
-*CHI: book PI]
+*CHI: book .
 *MOT: wheres the colors ?
 *MOT: shall we find the colors ?
 *CHI: yes .
@@ -1246,17 +1225,17 @@
 *CHI: pink .
 *CHI: orange .
 *CHI: brown .
-*CHI: red SR]
+*CHI: red .
 *MOT: pink .
-*CHI: pink I]
+*CHI: pink .
 *MOT: what colors that ?
 *CHI: yellow .
 *MOT: that one ?
 *CHI: blue .
 *MOT: that one ?
-*CHI: blue SR]
+*CHI: blue .
 *MOT: black .
-*CHI: black I]
+*CHI: black .
 *CHI: white .
 *MOT: white .
 *CHI: whats that ?
@@ -1267,7 +1246,7 @@
 *CHI: thats thats blue .
 *MOT: well .
 *MOT: thats a sort of bluey color that looks a bit purple .
-*CHI: that one PI]
+*CHI: that one .
 *CHI: we 0have done that one .
 *MOT: weve done that one  havent we ?
 *MOT: thats the animals .
@@ -1276,16 +1255,16 @@
 *MOT: whats that ?
 *CHI: another one .
 *CHI: I want another one .
-*MOT: trains PI]
+*MOT: trains .
 *MOT: thats Dug Gordon Edward James Toby Henry Douglas Percy Donald and
 *DAD: www .
 *CHI: more .
-*CHI: more SR]
-*CHI: more SR]
-*CHI: more SR]
+*CHI: more .
+*CHI: more .
+*CHI: more .
 *MOT: Dug Gordon Edward James Toby Henry Douglas Percy Donald and Thomas
-*CHI: more SR]
-*CHI: more SR]
+*CHI: more .
+*CHI: more .
 *MOT: whos that ?
 *MOT: Henry .
 *MOT: Douglas .
@@ -1298,22 +1277,22 @@
 *CHI: thats James .
 *MOT: thats James .
 *MOT: yes .
-*CHI: thats James SR]
+*CHI: thats James .
 *MOT: no .
 *MOT: thats Edward .
 *CHI: thats James James .
 *MOT: thats Percy .
 *CHI: that .
 *MOT: Douglas .
-*CHI: that SR]
+*CHI: that .
 *MOT: Donald .
-*CHI: that SR]
+*CHI: that .
 *MOT: Thomas .
-*CHI: that SR]
+*CHI: that .
 *MOT: Douglas .
-*CHI: that SR]
+*CHI: that .
 *MOT: Douglas .
-*CHI: that SR]
+*CHI: that .
 *MOT: youre pointing at all of them  Lara .
 *MOT: thats Henry Douglas Percy Donald Thomas .
 *CHI: more .
@@ -1324,12 +1303,12 @@
 *MOT: yes .
 *MOT: theres fish there as well .
 *CHI: on on the back .
-*CHI: on the back SR]
+*CHI: on the back .
 *MOT: no .
 *MOT: oh no .
 *MOT: there .
 *MOT: there they are .
-*CHI: there I]
+*CHI: there .
 *MOT: and there .
 *MOT: do you know what that is ?
 *CHI: a star .
@@ -1366,7 +1345,7 @@
 *MOT: thatll hurt .
 *MOT: thatll hurt .
 *MOT: oh no .
-*MOT: you definitely dont IN]
+*MOT: you definitely dont .
 *MOT: sit on mummy but you cant climb up mummy  can you ?
 *MOT: get off !
 *MOT: get off !
@@ -1385,11 +1364,9 @@
 *CHI: alright  mummy ?
 *MOT: you alright  darling ?
 *CHI: I want dinner .
-*MOT: youve had your dinner .
-*DAD: youve had your dinner  shorty .
-*CHI: I want I want the milk .
-*MOT: your milks here .
-*DAD: youve got some milk .
+*MOT: youve had .
+*DAD: shorty .
+*CHI: I want the milk .
 *DAD: its here .
 *CHI: I want some dinner .
 *MOT: youve had your dinner .
@@ -1450,7 +1427,7 @@
 *MOT: whats teddy got ?
 *CHI: that .
 *MOT: hes got a drum .
-*CHI: that SR]
+*CHI: that .
 *MOT: and thats his spoon for banging the drum with  isnt it ?
 *MOT: youve got one like that .
 *CHI: whats I got ?
@@ -1458,7 +1435,7 @@
 *CHI: whats that ?
 *MOT: what ?
 *CHI: that ?
-*MOT: little boys eating IN]
+*MOT: little boys eating .
 *MOT: thats the boys spoon .
 *MOT: hes eating an egg .
 *CHI: like mummy .
@@ -1480,14 +1457,14 @@
 *MOT: is he going to eat it ?
 *CHI: yes .
 *MOT: oh good .
-*CHI: eat it SR]
+*CHI: eat it .
 *MOT: he will .
 *MOT: Im sure he will .
 *MOT: look .
 *MOT: hes giving teddy an apple in that page .
 *MOT: there you are  teddy .
 *MOT: have an apple .
-*CHI: got leaf on it PI]
+*CHI: got leaf on it .
 *MOT: there is a leaf on it .
 *MOT: yes .
 *MOT: oh .
@@ -1496,7 +1473,7 @@
 *MOT: hes spilt icecream down his trousers .
 *CHI: sit down .
 *MOT: sorry .
-*CHI: sit down SR]
+*CHI: sit down .
 *MOT: oh .
 *MOT: he is sitting down .
 *MOT: yes .
@@ -1521,12 +1498,10 @@
 *MOT: do you remember yesterday ?
 *CHI: no sweet .
 *MOT: no .
-*MOT: Rosie and Jim had a kite .
-*CHI: sweets at nursery .
 *MOT: sweets at nursery ?
 *CHI: yes .
 *MOT: are they ?
-*CHI: yes SR]
+*CHI: yes .
 *MOT: I dont think there are  you know ?
 *MOT: and whats the teddy got  look  on that page ?
 *CHI: lamb .
@@ -1544,13 +1519,12 @@
 *MOT: aah .
 *MOT: kiss it better .
 *MOT: and little boys pretending to be a nurse .
-*CHI: a nurse I]
+*CHI: a nurse .
 *MOT: yes .
 *MOT: pardon ?
 *MOT: thats a picture of the teddybear .
 *CHI: rabbit .
-*MOT: the rabbit .
-*CHI: wheres the rabbit gone ?
+*CHI: rabbit gone ?
 *CHI: wheres the hen ?
 *MOT: wheres the hen ?
 *CHI: yes .
@@ -1562,9 +1536,9 @@
 *MOT: thats the rabbit hole .
 *CHI: mummy daddy hole .
 *MOT: yes .
-*MOT: like mummy and daddys PI]
+*MOT: like mummy and daddys .
 *MOT: and there  look .
-*MOT: hes given teddy a yellow jacket PI]
+*MOT: hes given teddy a yellow jacket .
 *MOT: oh .
 *CHI: mummy .
 *CHI: alright ?
@@ -1574,7 +1548,7 @@
 *MOT: are you gonna go to sleep now ?
 *CHI: no .
 *MOT: I think you are .
-*CHI: no SR]
+*CHI: no .
 *CHI: I read it .
 *MOT: no .
 *MOT: thats enough stories .
@@ -1588,6 +1562,6 @@
 *MOT: do you want bedside bear on ?
 *CHI: lie like this .
 *MOT: you what ?
-*CHI: like this SR]
+*CHI: like this .
 *MOT: you you lie like that .
 *MOT: night night  petal .

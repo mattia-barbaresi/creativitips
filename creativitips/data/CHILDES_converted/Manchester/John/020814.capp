@@ -102,11 +102,11 @@
 *CHI: two three .
 *MOT: three fish .
 *MOT: mind this  John .
-*MOT: mind mind mind mind .
+*MOT: mind .
 *MOT: otherwise well play something else .
 *MOT: just gently over the fish .
 *MOT: do you wanna finish this off or shall we just put them back in the
-*MOT: put them all back in there and you have a have a fish in
+*MOT: put them all back in there and you have a fish in
 *CHI: I caught one .
 *MOT: no .
 *MOT: you didnt .
@@ -147,7 +147,7 @@
 *CHI: and this is broken .
 *CHI: and this a button .
 *MOT: mhm .
-*CHI: make it make it noise .
+*CHI: make it noise .
 *MOT: the button makes it noisy ?
 *CHI: it not make a noise .
 *CHI: this make a little noise .
@@ -215,7 +215,7 @@
 *MOT: in there .
 *MOT: or in here ?
 *MOT: have a look .
-*CHI: in Johns in there .
+*CHI: in there .
 *MOT: you reckon ?
 *CHI: yes .
 *CHI: in .
@@ -259,7 +259,7 @@
 *MOT: do you know where that is  John ?
 *CHI: its gone now .
 *MOT: has it ?
-*CHI: its gone in the its gone in the spiders .
+*CHI: its gone in the spiders .
 *CHI: oh no .
 *CHI: gone in the spiders .
 *CHI: look .
@@ -306,10 +306,10 @@
 *MOT: where are the other ones then ?
 *CHI: that a screw .
 *CHI: that a screw .
-*CHI: thats a that a .
-*CHI: its got a got a dangerous .
-*CHI: its got a got a .
-*CHI: its a dangerous a dangerous screw .
+*CHI: that a .
+*CHI: its got a dangerous .
+*CHI: its got a .
+*CHI: its a dangerous screw .
 *CHI: its a dangerous screw .
 *INV: is it ?
 *CHI: yes .
@@ -349,7 +349,7 @@
 *MOT: theyre for looking at  John .
 *MOT: theyre for looking at .
 *CHI: I like a flower .
-*MOT: no no no no .
+*MOT: no .
 *MOT: Ill go and call Daddy .
 *CHI: want one flower .
 *MOT: www .
@@ -608,7 +608,7 @@
 *MOT: is it the caterpillar ?
 *MOT: his tail .
 *MOT: a wiggly caterpillar .
-*CHI: wiggle wiggle wiggle .
+*CHI: wiggle .
 *CHI: I again .
 *CHI: not another way .
 *CHI: oh .
@@ -636,7 +636,7 @@
 *MOT: look .
 *MOT: shes got so many clothes on .
 *CHI: stand on .
-*CHI: stand on the dolly stand on the windowsill .
+*CHI: dolly stand on the windowsill .
 *MOT: ah .
 *MOT: she can see out .
 *CHI: dolly see my tree .
@@ -662,7 +662,7 @@
 *CHI: see the mushroom .
 *CHI: dolly see the big mushrooms .
 *CHI: ah yes .
-*CHI: dolly see the dolly see another one .
+*CHI: dolly see another one .
 *CHI: coming up in .
 *MOT: she can see much better like that .
 *CHI: its coming up in the window .
@@ -681,7 +681,7 @@
 *CHI: make a field .
 *MOT: here you are then .
 *MOT: a ready made field .
-*CHI: and this a a man .
+*CHI: and a man .
 *MOT: mhm .
 *CHI: and horse .
 *CHI: its a noisy train .
@@ -763,7 +763,7 @@
 *MOT: there are lots of buttons for your carwash .
 *CHI: mhm .
 *CHI: get a track .
-*CHI: its a quiet its a quiet train .
+*CHI: its a quiet train .
 *CHI: need track .
 *CHI: need track for the train .
 *CHI: need track for the train .
@@ -855,7 +855,7 @@
 *MOT: all the churches are closed .
 *CHI: this one is closed as well .
 *MOT: mhm .
-*CHI: and this is a this is a bull .
+*CHI: and this is a bull .
 *CHI: went went to the farm .
 *MOT: yes .
 *CHI: and I see the bull .
@@ -897,7 +897,7 @@
 *MOT: whose turn is it ?
 *CHI: quiet .
 *MOT: is it the horses turn now ?
-*CHI: not a horse not a horse turn .
+*CHI: not a horse turn .
 *CHI: this a bull .
 *CHI: this a cow .
 *CHI: this a cow .
@@ -929,7 +929,7 @@
 *CHI: all going .
 *CHI: its very quiet .
 *MOT: it is  isnt it ?
-*CHI: its very its very quiet .
+*CHI: its very quiet .
 *CHI: like another cow please .
 *MOT: perhaps you can put the monkey on board .
 *MOT: that wont be very quiet  will it ?
@@ -973,11 +973,11 @@
 *MOT: John .
 *MOT: youve lost one of your passengers .
 *CHI: cow want a sleep .
-*CHI: bull want a sleep in the a sleep .
+*CHI: a sleep .
 *MOT: how about if we make a bed then for him ?
 *MOT: look .
 *MOT: there we are .
-*MOT: then the cow then the bull or the cow can sleep .
+*MOT: then the bull or the cow can sleep .
 *CHI: that is hay .
 *MOT: they can lie down .
 *CHI: that is hay .

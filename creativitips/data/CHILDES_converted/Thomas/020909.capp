@@ -50,8 +50,7 @@
 *CHI: something nice .
 *MOT: something nice .
 *MOT: well that is nice .
-*CHI: something nice>
-*MOT: how about how about Rice Krispies ?
+*MOT: how about Rice Krispies ?
 *CHI: no .
 *CHI: no  Mummy .
 *MOT: no .
@@ -509,7 +508,7 @@
 *CHI: oh farty pants .
 *MOT: no .
 *MOT: farty pants isnt nice  Thomas .
-*MOT: you say excuse me .
+*MOT: you say .
 *MOT: yes .
 *CHI: it is farty pants .
 *MOT: no .
@@ -524,7 +523,6 @@
 *CHI: bashed .
 *CHI: I bash something .
 *MOT: no .
-*MOT: its just>
 *MOT: I dont know what to call it .
 *MOT: um .
 *CHI: looks a bit misty .
@@ -546,7 +544,7 @@
 *CHI: yes .
 *MOT: do you remember that ?
 *CHI: yes .
-*CHI: it come its coming out the trees .
+*CHI: its coming out the trees .
 *MOT: yes .
 *MOT: its coming out of the trees .
 *CHI: uh coming out the trees .
@@ -612,7 +610,7 @@
 *MOT: that was clever .
 *CHI: ap need need Fireman Sam .
 *MOT: yes .
-*MOT: we nearly get Fireman Sam out we nearly needta get
+*MOT: we nearly needta get
 *CHI: yes .
 *MOT: gosh she jumped from the roof onto the fence didnt she ?
 *MOT: its not very far but the fence is ever so narrow from that height
@@ -802,7 +800,7 @@
 *MOT: postoffice .
 *MOT: youd like that wouldnt you ?
 *CHI: yes .
-*MOT: working in a postbox a postoffice .
+*MOT: working in a postoffice .
 *MOT: can you imagine that all day ?
 *MOT: seeing Postman Pat coming and going and people posting letters and
 *CHI: look .
@@ -816,7 +814,7 @@
 *MOT: can you see his big chain and medal round his neck ?
 *MOT: and they look like policemen but I think they're
 *CHI: look Grandad .
-*MOT: does he does he look like Grandad the Mayor ?
+*MOT: does he look like Grandad the Mayor ?
 *CHI: yes .
 *MOT: yes .
 *MOT: its some soldiers from the Gurkka Regiment  Thomas .
@@ -936,7 +934,7 @@
 *CHI: no .
 *MOT: oh well Im going to go then .
 *CHI: not need a train now .
-*CHI: I not need a train>
+*CHI: I not need
 *CHI: I not need a
 *CHI: I not need a bridge .
 *MOT: dont you ?
@@ -1037,7 +1035,7 @@
 *CHI: moo cows .
 *CHI: mooo .
 *CHI: oh .
-*MOT: do you think the black the black animal is a cow ?
+*MOT: do you think the black animal is a cow ?
 *CHI: yes .
 *CHI: its not .
 *CHI: yes .
@@ -1056,7 +1054,7 @@
 *CHI: I play a dustbin dustbin man .
 *MOT: you wanna play at being a dustbin man .
 *CHI: yes .
-*CHI: I put I put all my rubbish in my lorry .
+*CHI: I put all my rubbish in my lorry .
 *MOT: putting the rubbish in your lorry are you ?
 *CHI: put doggy poos in it .
 *MOT: dont say that .
@@ -1120,23 +1118,16 @@
 *CHI: 0 .
 *MOT: no .
 *CHI: 0 .
-*MOT: youre not playing with that  Thomas .
-*CHI: oh dear .
 *MOT: no .
-*CHI: oh dear>
 *MOT: come on .
 *MOT: dont be silly .
 *CHI: 0 .
-*CHI: oh dear>
-*CHI: somebody bumped my head .
 *MOT: you bumped your head .
 *MOT: you bumped your head on my knee because you ran towards me when you
-*CHI: I bump .
 *CHI: I 0am .
 *MOT: youre not very happy .
 *CHI: no .
 *MOT: well Im not very happy when you do something when I tell you not
-*CHI: give me a wipe .
 *MOT: give you a wipe .
 *CHI: yes .
 *CHI: give me a wipe .
@@ -1149,7 +1140,7 @@
 *MOT: but listen listen  Thomas .
 *MOT: listen to me .
 *CHI: no no  Mummy .
-*MOT: if you knock if youre playing with the cushions and
+*MOT: if youre playing with the cushions and
 *MOT: but only the cushions .
 *MOT: youre not to start throwing other bits of furniture .
 *MOT: because youve got four cushions and a beanbag .
@@ -1211,7 +1202,7 @@
 *MOT: you have a lot of toys .
 *MOT: yes .
 *CHI: yes .
-*MOT: it was it was the wooden trains you were playing with earlier
+*MOT: it was the wooden trains you were playing with earlier
 *MOT: are you going to put them back in the little box ?
 *CHI: oh no .
 *CHI: no .
@@ -1231,7 +1222,7 @@
 *MOT: oh dear .
 *MOT: are you going to put it back on for me ?
 *CHI: yes .
-*CHI: wind blowing wind blowing it off .
+*CHI: wind blowing it off .
 *MOT: the winds blowing it off .
 *CHI: yes .
 *MOT: I think I just took it off  Thomas .

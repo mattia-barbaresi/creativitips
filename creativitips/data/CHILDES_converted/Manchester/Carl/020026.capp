@@ -299,13 +299,13 @@
 *CHI: want it on .
 *CHI: train .
 *MOT: you wanna what ?
-*CHI: I want I want a train .
+*CHI: I want a train .
 *CHI: I want a train .
 *MOT: your trains are there  look  Carl .
 *CHI: want a train .
 *MOT: there there on the floor .
 *CHI: oh oh want not .
-*CHI: I want I want
+*CHI: I want
 *CHI: not on on here .
 *CHI: want on the bridge .
 *CHI: want a train on the bridge .
@@ -318,14 +318,14 @@
 *CHI: it back .
 *CHI: Annie and Clarabell .
 *CHI: get back the train .
-*CHI: the truck the trucks .
+*CHI: the trucks .
 *MOT: its going backwards ?
 *CHI: get Annie and Clarabell .
 *CHI: get Annie and Clarabell .
 *MOT: Clarabell .
 *CHI: get get it .
 *MOT: you havent got them though  have you ?
-*CHI: I get I get car .
+*CHI: I get car .
 *CHI: get Thomas the Tank Engine to get Annie and Clarabell .
 *CHI: find Annie and Clarabell .
 *MOT: wherere they going to go ?
@@ -344,7 +344,7 @@
 *CHI: not .
 *CHI: watch .
 *CHI: that I know .
-*CHI: want a want a bridge .
+*CHI: want a bridge .
 *MOT: who did that ?
 *CHI: drawing .
 *MOT: some naughty little boy must have done that ?
@@ -365,7 +365,7 @@
 *CHI: oh no .
 *CHI: not .
 *MOT: thats better .
-*MOT: we cant see the writing the scribble then  can we ?
+*MOT: we cant see the scribble then  can we ?
 *CHI: thats better .
 *CHI: much better .
 *MOT: much better yeah .
@@ -454,8 +454,6 @@
 *MOT: is it in the garden ?
 *CHI: not not here .
 *MOT: its not its not here .
-*CHI: wheres cat gone ?
-*MOT: what noise was it making ?
 *MOT: what noise was it making ?
 *CHI: water .
 *CHI: water noise .
@@ -714,7 +712,7 @@
 *MOT: right so what colors do we need ?
 *CHI: red .
 *MOT: think of the song .
-*CHI: I want a I want a rainbow .
+*CHI: I want a rainbow .
 *MOT: dont .
 *MOT: youre going to get them all over you .
 *CHI: I want a rainbow .
@@ -786,7 +784,7 @@
 *CHI: green rainbow .
 *MOT: you sing a rainbow .
 *CHI: rain .
-*MOT: shall we put some of the put some of the lids back on .
+*MOT: shall we put some of the lids back on .
 *MOT: Carl .
 *MOT: come on now .
 *MOT: whats Mummy said about just keeping them all everywhere .
@@ -877,7 +875,7 @@
 *CHI: hold it .
 *CHI: whee .
 *CHI: beepbeepo .
-*CHI: on the on the fish .
+*CHI: on the fish .
 *CHI: beepo .
 *CHI: the fishie .
 *CHI: fishie .
@@ -887,7 +885,7 @@
 *CHI: fishie .
 *MOT: whatre you saying  Carl ?
 *MOT: whatre they doing those fish ?
-*CHI: on the on the water .
+*CHI: on the water .
 *MOT: do you know what they are  Carl ?
 *MOT: theyre whales .
 *CHI: whales .
@@ -913,9 +911,9 @@
 *MOT: have you got something in your eye ?
 *CHI: me wanna make a bridge .
 *CHI: make a bridge .
-*CHI: make a make a bridge .
+*CHI: make a bridge .
 *CHI: wanna make a bridge .
-*CHI: I wanna make make make bridge .
+*CHI: I wanna make bridge .
 *CHI: make bridge .
 *CHI: no .
 *CHI: no .
@@ -988,7 +986,7 @@
 *CHI: thats green .
 *MOT: clever boy .
 *MOT: thats green .
-*MOT: whats this whats this now ?
+*MOT: whats this now ?
 *MOT: is it a big road ?
 *CHI: I wanna make road .
 *CHI: I wanna make a bridge .
@@ -1021,7 +1019,7 @@
 *CHI: not fix .
 *MOT: see Mummyll try it .
 *CHI: not green .
-*CHI: I want I want green .
+*CHI: I want green .
 *MOT: oh be careful .
 *MOT: youre pressing too hard .
 *CHI: want I want hard .
@@ -1045,7 +1043,7 @@
 *MOT: oh perhaps it doesnt .
 *MOT: doesnt matter .
 *MOT: dont worry .
-*CHI: I wanna want green .
+*CHI: I want green .
 *MOT: well you do it .
 *MOT: you do it .
 *MOT: Mummy hold it and you press it on .
@@ -1120,7 +1118,7 @@
 *CHI: 0 .
 *MOT: thats a big slide  isnt it ?
 *CHI: one fishie .
-*CHI: I want a fishies .
+*CHI: fishies .
 *MOT: you wanna put the fishies on the top ?
 *CHI: one two .
 *CHI: one two .
@@ -1214,7 +1212,7 @@
 *CHI: find it .
 *MOT: oh look  look .
 *CHI: hair .
-*CHI: theres a p another penguin .
+*CHI: theres another penguin .
 *MOT: another penguin .
 *CHI: penguin .
 *MOT: penguin  Carl .
@@ -1285,7 +1283,7 @@
 *CHI: shoo .
 *CHI: on Donald .
 *MOT: excuse me .
-*CHI: I want I want Donald .
+*CHI: I want Donald .
 *MOT: oh thats a big train .
 *MOT: choochooo .
 *CHI: go away Thomas .
@@ -1362,7 +1360,7 @@
 *MOT: come on .
 *MOT: what am I doing ?
 *CHI: no .
-*MOT: whatre we whatre we getting ?
+*MOT: whatre we getting ?
 *CHI: get down  Mummy .
 *CHI: get down .
 *MOT: oh .
@@ -1465,7 +1463,7 @@
 *CHI: man a hat on .
 *MOT: yeah .
 *MOT: can you see .
-*MOT: is there a man is there a man in yours ?
+*MOT: is there a man in yours ?
 *MOT: is there a man in that one ?
 *MOT: I know theres a little man in the policecar .
 *MOT: look  look .
@@ -1568,7 +1566,7 @@
 *MOT: all right .
 *MOT: I get the message .
 *CHI: I want that one .
-*CHI: oh wheres the car ?
+*CHI: oh the car ?
 *MOT: its what ?
 *MOT: wherere they all going now ?
 *CHI: on the truck .

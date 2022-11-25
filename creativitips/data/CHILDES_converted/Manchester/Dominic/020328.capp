@@ -109,7 +109,7 @@
 *CHI: read paper  Caroline .
 *MOT: mhm .
 *INV: I know .
-*CHI: I had I had toast  Caroline .
+*CHI: I had toast  Caroline .
 *MOT: yes .
 *MOT: you had some toast .
 *CHI: I .
@@ -372,8 +372,6 @@
 *INV: yeah .
 *CHI: look .
 *CHI: that .
-*MOT: what colors that one .
-*INV: what color .
 *CHI: digger .
 *MOT: what color is it ?
 *CHI: orange .
@@ -458,9 +456,6 @@
 *INV: Henry .
 *MOT: Henrys got lots of wheels  hasnt he ?
 *MOT: oh .
-*MOT: you be careful .
-*CHI: on here .
-*MOT: thatll hurt your foot .
 *CHI: Henry .
 *MOT: um .
 *MOT: Id be very grateful if you played with it on the floor actually ,
@@ -504,7 +499,7 @@
 *CHI: mhm .
 *MOT: oh right .
 *INV: what was that ?
-*MOT: when did you when did you have sausage ?
+*MOT: when did you have sausage ?
 *MOT: did you have sausage last night ?
 *CHI: yes .
 *MOT: did you ?
@@ -593,8 +588,6 @@
 *CHI: oh .
 *CHI: fix it .
 *MOT: oh fix it ?
-*MOT: give it to Mummy then please .
-*CHI: fix it .
 *CHI: fix it please .
 *MOT: mhm .
 *MOT: that magic word .
@@ -1340,7 +1333,6 @@
 *MOT: yes .
 *MOT: can I help now ?
 *CHI: on .
-*MOT: this little .
 *MOT: you want me to put the little monkey on there ?
 *CHI: mhm .
 *MOT: oh .
@@ -1405,7 +1397,6 @@
 *MOT: yes .
 *MOT: what is it ?
 *CHI: burger cheese .
-*MOT: what [>]
 *CHI: look .
 *MOT: burger cheese .
 *MOT: well .
@@ -1450,8 +1441,8 @@
 *CHI: one two .
 *MOT: two .
 *MOT: yes .
-*CHI: I have it .
-*MOT: Ive put it on my thumb .
+*CHI: I .
+*MOT: on my thumb .
 *MOT: Im going to get it to attack you .
 *CHI: ah ah .
 *MOT: get your little nose .
@@ -1529,8 +1520,7 @@
 *CHI: I like grapes .
 *MOT: yes .
 *MOT: I know you like grapes .
-*MOT: every Tuesday you go down to your nanas and ask for the
-*CHI: I like strawberry .
+*MOT: every Tuesday you nanas and ask for the
 *CHI: I have strawberry .
 *MOT: yes .
 *CHI: I eat at Nanas .
@@ -1918,7 +1908,6 @@
 *CHI: you fix it .
 *MOT: I fix it ?
 *CHI: oh no .
-*MOT: I fix it what ?
 *CHI: mummie .
 *CHI: you fix the bridge .
 *CHI: please .

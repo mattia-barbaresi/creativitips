@@ -33,7 +33,7 @@
 *CHI: yes .
 *MOT: no .
 *MOT: Christmas is over so we dont want Jingle Bells .
-*CHI: I want I want the car one .
+*CHI: I want the car one .
 *MOT: no no .
 *CHI: I want the car one  Dimitra .
 *CHI: oh look .
@@ -42,7 +42,7 @@
 *MOT: Thomas  got some tapes from Father Christmas .
 *MOT: I think Father Christmas must have known hed got this .
 *MOT: because he brought some song tapes didnt he ?
-*CHI: I want I wanted it .
+*CHI: I wanted it .
 *INV: you wanted it .
 *CHI: yes .
 *INV: what did you want ?
@@ -184,8 +184,7 @@
 *CHI: no .
 *MOT: come on .
 *MOT: ask Dimitra to sing into that .
-*CHI: sing in that>
-*MOT: she could sing she could sing Jingle Bells .
+*MOT: she could sing Jingle Bells .
 *CHI: singing all the .
 *MOT: we hafta press the blue one until it clicks .
 *MOT: one two three .
@@ -227,8 +226,6 @@
 *MOT: oh .
 *CHI: its your Purdie .
 *CHI: my Purdie .
-*CHI: oh your stuck .
-*MOT: that was Purdie .
 *MOT: not Thomas pretending to be Purdie .
 *MOT: Tom .
 *MOT: come back  darling .
@@ -303,7 +300,7 @@
 *CHI: take the rubbish bag out .
 *INV: why are you talking about a rubbish bag all the time ?
 *INV: I cant see a rubbish bag .
-*MOT: oh hes pretending to be a bin man .
+*MOT: pretending to be a bin man .
 *INV: ah .
 *INV: oh that looks good .
 *CHI: no like good .
@@ -348,8 +345,7 @@
 *CHI: throwing rubbish bags .
 *MOT: thats a dustbin wagon .
 *MOT: the sofa .
-*MOT: hes throwing all the rubbish from the boxes after Christmas
-*INV: ah right .
+*MOT: hes throwing all the rubbish after Christmas
 *CHI: yes .
 *MOT: would you like your slippers on because you might hurt your feet
 *CHI: no no .
@@ -357,7 +353,7 @@
 *CHI: my Wellingtons .
 *MOT: your Wellingtons .
 *CHI: yes .
-*MOT: be careful with the box this box because we needta put the
+*MOT: be careful with this box because we needta put the
 *CHI: no .
 *MOT: right .
 *MOT: Dimitra has seen the boxes now .
@@ -368,11 +364,10 @@
 *INV: how do you play with them ?
 *CHI: them .
 *INV: are you moving them round ?
-*CHI: oh no .
 *CHI: oh my god .
 *CHI: the street lamp r stopped .
 *INV: what has stopped ?
-*CHI: my r my street lamp .
+*CHI: my street lamp .
 *MOT: your street lamp .
 *INV: your street lamp .
 *INV: oh does it stop ?
@@ -429,7 +424,6 @@
 *MOT: no .
 *MOT: Father Christmas was just checking where you live wasnt he ?
 *CHI: yes .
-*CHI: not happy .
 *MOT: oh I thought that was some paper  Thomas .
 *MOT: no .
 *MOT: it isnt .
@@ -439,7 +433,7 @@
 *MOT: yes .
 *MOT: Thomas  Im not having a lot of success because your writing pad
 *MOT: dont draw on your hands .
-*CHI: wipe your wipe your snotty nose .
+*CHI: wipe your snotty nose .
 *INV: naughty nose .
 *CHI: yes .
 *CHI: snotty .
@@ -482,7 +476,7 @@
 *CHI: I 0have tidied up your pen .
 *MOT: tidying up your pen .
 *INV: ah thank you .
-*INV: you put the lid the lid back on .
+*INV: you put the lid back on .
 *CHI: no .
 *MOT: good boy .
 *MOT: thank you .
@@ -499,8 +493,7 @@
 *CHI: put I put Mummy a big plaster on you .
 *MOT: youre putting a big plaster on me .
 *MOT: Ive got a poorly foot havent I ?
-*CHI: put it on your head .
-*MOT: oh put it on my>
+*CHI: put it .
 *MOT: oh I dont think you put it on my head  Thomas .
 *CHI: no .
 *MOT: you mean like this .
@@ -565,7 +558,7 @@
 *CHI: come on  Purdie .
 *CHI: a fire .
 *MOT: here you are .
-*MOT: I thought you said you wanted some blackcurrant juice .
+*MOT: you said you wanted some blackcurrant juice .
 *MOT: there you are .
 *MOT: theres a drink .
 *CHI: it .
@@ -627,8 +620,7 @@
 *CHI: like this .
 *CHI: like this .
 *CHI: whats that noise ?
-*CHI: in your bridge .
-*INV: there we go .
+*CHI: bridge .
 *CHI: your bridge .
 *INV: I think that needs to go on that bridge there at the end .
 *CHI: um okay .
@@ -643,7 +635,7 @@
 *CHI: go 0
 *INV: what are you saying  Thomas ?
 *CHI: train driver go .
-*INV: is that is that how the train goes ?
+*INV: is that how the train goes ?
 *CHI: fat controller .
 *MOT: the fat controller .
 *CHI: yes .
@@ -662,11 +654,8 @@
 *CHI: uh ah .
 *CHI: around my back .
 *CHI: round my back .
-*MOT: round your back .
-*INV: round your back .
 *MOT: behind you .
 *CHI: yes .
-*CHI: of course indeed .
 *CHI: 0 .
 *INV: where is it going ?
 *CHI: to the airport .
@@ -688,7 +677,6 @@
 *CHI: yes .
 *CHI: we can .
 *MOT: weve been to the music lesson this morning havent we ?
-*CHI: all day long .
 *CHI: oh big crash .
 *INV: a very big crash .
 *INV: all the trains are .
@@ -732,10 +720,10 @@
 *CHI: no work .
 *CHI: that one no work .
 *MOT: well well you just turn .
-*INV: maybe it can it can go there like that .
+*INV: maybe it can go there like that .
 *MOT: there .
 *MOT: hows that ?
-*MOT: youve got two trains now .
+*MOT: trains now .
 *MOT: this ones going into Manchester .
 *CHI: oh no .
 *CHI: thats going in there .
@@ -787,8 +775,7 @@
 *MOT: I know where you mean .
 *MOT: in the Christmas tree space .
 *MOT: theres a bungalow just round the corner and we call it the
-*MOT: and when you were a baby we could never ever>
-*CHI: look  Mummy .
+*MOT: and when you were a baby we
 *CHI: a train .
 *MOT: oh yes .
 *CHI: poop poop .
@@ -848,7 +835,7 @@
 *CHI: its yellow .
 *CHI: it like Father Christmas .
 *CHI: like Father Christmas house .
-*MOT: like a like a Father Christmas house .
+*MOT: like a Father Christmas house .
 *CHI: yes .
 *INV: is this where Father Christmas lives ?
 *CHI: yes .
@@ -998,7 +985,7 @@
 *CHI: in the train truck .
 *MOT: oh you want it in the train truck .
 *MOT: I see .
-*CHI: put it in the um the h .
+*CHI: put it in the h .
 *CHI: put it
 *CHI: oh .
 *MOT: oh what has happened .

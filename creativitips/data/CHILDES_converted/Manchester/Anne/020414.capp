@@ -61,8 +61,6 @@
 *CHI: its a bone .
 *INV: its a what ?
 *CHI: its a funny bone .
-*MOT: a funny bone .
-*INV: funny bone .
 *MOT: does look a bit like a dogs bone there doesnt it ?
 *CHI: wheres the dog ?
 *MOT: wheres the dog ?
@@ -115,7 +113,6 @@
 *CHI: someone was holding it .
 *MOT: Im not sure how it works .
 *MOT: we tried to make it work at the health center .
-*CHI: oh that one .
 *MOT: oh .
 *MOT: thats a good idea .
 *CHI: brummo .
@@ -347,7 +344,6 @@
 *MOT: oh right .
 *CHI: oh .
 *CHI: willnt stand .
-*MOT: doesnt it .
 *MOT: I dont think so .
 *MOT: think it stands up alright doesnt it ?
 *MOT: yes .
@@ -387,8 +383,7 @@
 *CHI: and this .
 *CHI: and thats Daddy .
 *MOT: okay .
-*MOT: and whos this .
-*CHI: there we go .
+*MOT: and .
 *CHI: that baby .
 *MOT: hello Grandad and Daddy .
 *MOT: going to give them a kiss ?
@@ -640,7 +635,7 @@
 *MOT: oh yes .
 *MOT: oh .
 *CHI: come along down .
-*CHI: that one that one go down there .
+*CHI: that one go down there .
 *MOT: pardon ?
 *MOT: www .
 *CHI: there you go .
@@ -650,8 +645,7 @@
 *CHI: its a bear .
 *MOT: pardon ?
 *CHI: its a bear down there .
-*MOT: so she cant got down on the slide ?
-*CHI: little girl .
+*MOT: so she on the slide ?
 *CHI: little girl .
 *CHI: its a bear .
 *CHI: okay ?
@@ -739,7 +733,7 @@
 *CHI: no no .
 *CHI: Mummy coming .
 *CHI: Mummy coming in here .
-*INV: do you want me to come in as well ?
+*INV: want me to come in as well ?
 *CHI: yes .
 *CHI: no .
 *CHI: you 0have not got a cushion .
@@ -1289,7 +1283,7 @@
 *CHI: put  here .
 *CHI: stop crying .
 *MOT: hes not crying now .
-*CHI: you come here .
+*CHI: here .
 *MOT: well bring the cot to over here .
 *CHI: no .
 *CHI: I want you come here .
@@ -1411,7 +1405,7 @@
 *MOT: oh .
 *CHI: not .
 *MOT: youve not finished .
-*MOT: the little lion little tiger wants to go on there .
+*MOT: the little tiger wants to go on there .
 *MOT: oh .
 *MOT: thats good .
 *MOT: that one go in like that .
@@ -1463,7 +1457,7 @@
 *CHI: oh .
 *MOT: oh my goodness .
 *MOT: oh my goodness .
-*MOT: and the monkey can go up there .
+*MOT: and up there .
 *CHI: got a .
 *CHI: I got a steps .
 *MOT: have you got some steps ?
@@ -1539,8 +1533,6 @@
 *MOT: climb on .
 *MOT: right .
 *MOT: okay .
-*CHI: there you go .
-*MOT: oh right .
 *CHI: there you go .
 *CHI: there you go .
 *CHI: gone sleep .
@@ -1676,7 +1668,7 @@
 *CHI: no .
 *MOT: yes please .
 *CHI: okay .
-*MOT: can I have some nice medicine ?
+*MOT: can I ?
 *CHI: Anne Annes in here .
 *MOT: Annes medicine .
 *MOT: mm .
@@ -1729,7 +1721,7 @@
 *CHI: in your bed .
 *MOT: youre not very good at tl ll cl are you ?
 *MOT: people who are poorly needta go to sleep  Anne .
-*MOT: are you is the doctor poorly now too ?
+*MOT: is the doctor poorly now too ?
 *CHI: Im not poorly .
 *CHI: Im not doctor again .
 *CHI: you doctors .
@@ -1773,7 +1765,7 @@
 *MOT: some medicine for that um poorly ?
 *MOT: oh .
 *MOT: here we are then .
-*CHI: and on my on my other one .
+*CHI: and on my other one .
 *MOT: okay .
 *CHI: no .
 *CHI: Anne do it for Anne .
@@ -1788,7 +1780,7 @@
 *CHI: Anne want some tea please .
 *MOT: oh no .
 *MOT: youre too poorly .
-*MOT: youll hafta go to bed straight to bed .
+*MOT: youll hafta go straight to bed .
 *MOT: okay .
 *MOT: oh .
 *MOT: when youre better .

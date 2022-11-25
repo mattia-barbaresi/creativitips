@@ -6,7 +6,7 @@
 *MOT: oh theres a light on the front isnt there ?
 *MOT: its a bright light .
 *CHI: light .
-*CHI: all done light .
+*CHI: light .
 *MOT: its a bright light .
 *MOT: is the apple good  Thomas ?
 *CHI: whats this ?
@@ -14,8 +14,7 @@
 *CHI: poc .
 *MOT: poc .
 *MOT: its poc .
-*MOT: its red .
-*INV: yeah its red .
+*INV: red .
 *MOT: its a stacking ring .
 *MOT: Mummys going to pour herself that cup of tea .
 *CHI: ap pour now .
@@ -54,13 +53,10 @@
 *MOT: no .
 *MOT: I think when youve finished your breakfast and weve washed your
 *CHI: mhm .
-*CHI: juice Dadda .
-*CHI: is juice .
 *MOT: couldnt catch that  Thomas .
 *MOT: you were eating an apple .
 *MOT: what did you say ?
 *CHI: mm .
-*CHI: all done .
 *CHI: mm .
 *MOT: all done ?
 *MOT: oh I think youve put too much in .
@@ -120,7 +116,7 @@
 *MOT: and whoever hes talking to he always tells them that Daddy works
 *CHI: Dadda chip shops .
 *INV: mhm .
-*CHI: ah ah ah .
+*CHI: ah .
 *CHI: wheres dadas coat ?
 *MOT: thats Daddys Daddys coat .
 *MOT: if you dont want it pop it back in the bowl please .
@@ -132,8 +128,8 @@
 *MOT: thats naughty .
 *MOT: thats naughty throwing food .
 *INV: whats that noise ?
-*CHI: a bang a bang .
-*MOT: a bang a bang .
+*CHI: a bang .
+*MOT: a bang .
 *INV: whos banging ?
 *MOT: only naughty boys bang .
 *MOT: is Thomas a good boy or a naughty boy ?
@@ -192,8 +188,7 @@
 *MOT: look .
 *MOT: this is your face .
 *MOT: are we washing Thomass face ?
-*MOT: I thought wed have a look at some faces in a minute .
-*CHI: Nin Nin .
+*MOT: I thought wed have a look at some faces .
 *CHI: Nin ap wash face .
 *MOT: yes Im washing as well .
 *MOT: lets wash my hands .
@@ -201,7 +196,7 @@
 *CHI: ap trucks poc .
 *MOT: right .
 *MOT: absolutely .
-*CHI: ap blue truck no no poc .
+*CHI: ap blue truck poc .
 *INV: blue chocf no no poc ?
 *MOT: think youre talking about trucks .
 *INV: ah blue truck .
@@ -290,11 +285,9 @@
 *MOT: right .
 *MOT: here you are .
 *MOT: would you like to play with the sieve ?
-*CHI: in there .
-*MOT: and well pop a drop>
+*MOT: and well pop
 *MOT: now this is going to be very hot so .
 *MOT: drop of hot water in there .
-*MOT: thats right .
 *CHI: water .
 *MOT: water .
 *CHI: juice .
@@ -317,7 +310,7 @@
 *CHI: drop more .
 *MOT: a drop more ?
 *CHI: no a@p
-*MOT: youd like to stir it ?
+*MOT: like to stir it ?
 *MOT: keep stirring it .
 *MOT: keep the spoon .
 *MOT: keep stirring .
@@ -339,7 +332,6 @@
 *MOT: you can help mix .
 *MOT: thats right .
 *MOT: lets stir it .
-*CHI: ap there .
 *MOT: that looks almost right .
 *MOT: and then were going to spread some of this icing on some biscuits
 *MOT: and weve got some Smarties .
@@ -368,12 +360,10 @@
 *CHI: moo .
 *CHI: moo .
 *CHI: m .
-*CHI: ap moon .
 *MOT: I think Ive got icing on my nose .
 *INV: theres a blue ring there .
 *INV: that one .
 *CHI: blue .
-*CHI: blue blue blue .
 *CHI: whats this ?
 *MOT: its a tin with some biscuits in it .
 *CHI: mhm .
@@ -507,7 +497,6 @@
 *MOT: what are you doing ?
 *MOT: one for your tummy and one for the biscuit ?
 *MOT: what about putting some Buttons on one ?
-*CHI: all done .
 *MOT: so what have all these faces got ?
 *MOT: two eyes and a nose .
 *MOT: what about a mouth ?
@@ -589,7 +578,7 @@
 *MOT: that ones done .
 *MOT: ooh .
 *MOT: oh no licking fingers .
-*MOT: which one which one would you like to eat ?
+*MOT: which one would you like to eat ?
 *MOT: that one ?
 *MOT: right .
 *MOT: shall we put the others away ?
@@ -631,11 +620,9 @@
 *MOT: look .
 *MOT: we can show Daddy when he comes home cant we ?
 *MOT: shall we have a look at these books and look at some faces ?
-*CHI: book face>
 *MOT: books and faces .
 *CHI: whats this ?
 *MOT: look .
-*CHI: two books .
 *MOT: those are a little bit like the biscuits weve just made .
 *MOT: two eyes and a smily mouth .
 *CHI: whats this ?
@@ -799,7 +786,7 @@
 *CHI: ugh .
 *INV: oh have you found my tapes ?
 *INV: they these are boring .
-*INV: these are these are much more fun to play with .
+*INV: these are much more fun to play with .
 *CHI: no no .
 *INV: yeah theyre just boring .
 *INV: theres nothing to do with them .
@@ -866,7 +853,7 @@
 *INV: orange juice .
 *CHI: whats this ?
 *MOT: oh that looks like a cake .
-*MOT: it has got chocolate on it hasnt it ?
+*MOT: it has got chocolate ?
 *INV: mm .
 *INV: is it tasty ?
 *INV: mm .
@@ -891,9 +878,8 @@
 *INV: maybe we can make some dinner .
 *CHI: whats this ?
 *INV: its a big knife .
-*INV: we can chop we can chop the aubergine on the chopping board .
+*INV: we can chop the aubergine on the chopping board .
 *INV: and put it in the frying pan .
-*CHI: do it .
 *INV: what are you doing ?
 *CHI: chop sweetie .
 *INV: did you chop the sweet ?
@@ -932,7 +918,6 @@
 *CHI: see you bye .
 *CHI: see you bye .
 *INV: where are you going ?
-*CHI: no no no no the big shops .
 *CHI: no no .
 *CHI: no no .
 *CHI: no poc .
@@ -961,7 +946,6 @@
 *INV: put it in the frying pan .
 *INV: we dont have so much .
 *INV: maybe we can have hm fried mixed vegetables .
-*CHI: yellow juice .
 *INV: hm ?
 *CHI: yellow juice .
 *INV: yellow juice .
@@ -1068,7 +1052,6 @@
 *CHI: mm .
 *INV: theres your spoon .
 *CHI: mm .
-*CHI: all done .
 *CHI: mm .
 *INV: youve finished already ?
 *INV: oof .
@@ -1077,8 +1060,6 @@
 *MOT: yes .
 *CHI: oh dear .
 *INV: aah ooh .
-*CHI: take it off .
-*INV: what happened ?
 *INV: what happened ?
 *INV: did you take it off ?
 *CHI: oh dear .
@@ -1109,7 +1090,7 @@
 *INV: and thats why it doesnt stick very well .
 *INV: it wants to go like a .
 *INV: yeah .
-*INV: it it it fits there as well .
+*INV: it fits there as well .
 *CHI: choo choo .
 *INV: not so well .
 *CHI: oh yeah .
@@ -1229,7 +1210,7 @@
 *CHI: choo choo .
 *CHI: choo choo gone .
 *INV: wheres it going ?
-*CHI: see you choo choo .
+*CHI: choo choo .
 *CHI: oops oh dear .
 *INV: oop .
 *INV: oops .
@@ -1278,7 +1259,6 @@
 *INV: yes .
 *MOT: Daddy might like some icecream .
 *MOT: Daddy .
-*INV: we have some icecream here .
 *INV: oops .
 *FAT: mm .
 *FAT: Thomas want some ?

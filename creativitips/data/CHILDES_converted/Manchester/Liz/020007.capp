@@ -119,10 +119,10 @@
 *CHI: in there .
 *MOT: yeah .
 *CHI: in there .
-*MOT: the other the other way up though .
+*MOT: the other way up though .
 *CHI: there .
 *MOT: yeah .
-*MOT: it hasta it hasta go with that bit in first .
+*MOT: it hasta go with that bit in first .
 *MOT: shall I show you ?
 *CHI: yeah .
 *MOT: okay .
@@ -142,8 +142,7 @@
 *MOT: thats right .
 *CHI: in there .
 *MOT: tight .
-*MOT: its tight that one .
-*INV: is it tight ?
+*MOT: its tight .
 *CHI: yeah .
 *MOT: and what is that one ?
 *CHI: in there .
@@ -192,8 +191,7 @@
 *MOT: I found them .
 *CHI: oh .
 *MOT: okay .
-*MOT: whatre you going to do with them ?
-*CHI: green one .
+*MOT: whatre you going to ?
 *MOT: the green one there ?
 *MOT: go on then .
 *CHI: green .
@@ -317,8 +315,6 @@
 *CHI: look .
 *CHI: spoons .
 *MOT: there you are .
-*MOT: theres your spoons .
-*INV: are they your spoons ?
 *MOT: yeah .
 *INV: what colors are they ?
 *CHI: yellow .
@@ -513,9 +509,7 @@
 *MOT: are you gonna do us some dinner ?
 *CHI: here .
 *INV: are they for me too ?
-*INV: youll hafta youll hafta bring them here .
-*MOT: shall I hold them ?
-*INV: give them to Mum instead .
+*INV: youll hafta bring them here .
 *INV: thats a good idea .
 *MOT: thank you darling .
 *MOT: thats very nice .
@@ -631,7 +625,7 @@
 *MOT: thats half of his face .
 *MOT: what bit have you got there ?
 *CHI: there .
-*MOT: oh I think I think youve got some of his nose  havent you
+*MOT: oh I think youve got some of his nose  havent you
 *MOT: you see there .
 *MOT: thats part of his nose .
 *MOT: and thats part of his nose .
@@ -657,8 +651,7 @@
 *CHI: train .
 *MOT: and whats that ?
 *CHI: do train .
-*MOT: you want you wanna do the train .
-*CHI: do train .
+*MOT: you wanna do the train .
 *CHI: yeah .
 *MOT: okay .
 *MOT: put the rest of his hat in then .
@@ -777,7 +770,7 @@
 *CHI: here you are .
 *CHI: on there .
 *MOT: here you are .
-*MOT: Ill just Ill just sit her here for now .
+*MOT: Ill just sit her here for now .
 *MOT: she can have a look at what else youre doing .
 *MOT: whats that ?
 *MOT: do you know what it looks like ?
@@ -933,19 +926,18 @@
 *CHI: a fence .
 *CHI: red .
 *CHI: green .
-*MOT: I dont I dont see a green one .
+*MOT: I dont see a green one .
 *MOT: theres another red one .
 *CHI: red one .
 *MOT: yeah .
 *MOT: and another blue one .
 *CHI: more red ?
-*MOT: I dont I think thats it for fences love .
+*MOT: I think thats it for fences love .
 *MOT: I think its all bricks now .
 *CHI: Anna .
 *CHI: give her .
 *MOT: are you giving them to Anna ?
-*CHI: fence .
-*INV: are you giving them to me ?
+*INV: giving them to me ?
 *CHI: fence .
 *INV: have you brought me some fences ?
 *INV: are they for me ?
@@ -1055,7 +1047,7 @@
 *MOT: and now the pink .
 *MOT: pink .
 *CHI: pink .
-*MOT: oh well it you called it purple  didnt you ?
+*MOT: you called it purple  didnt you ?
 *MOT: because it looks like a purple .
 *CHI: pink .
 *MOT: its pink really yeah .
@@ -1406,7 +1398,7 @@
 *MOT: it was good  wasnt it ?
 *MOT: we liked it .
 *CHI: basket in there .
-*MOT: well yes I was I was putting the basket in there but
+*MOT: well yes I was putting the basket in there but
 *CHI: out .
 *CHI: out tunnel .
 *MOT: yeah .
@@ -1520,8 +1512,7 @@
 *CHI: Tank .
 *CHI: coming .
 *CHI: Tank 0was coming .
-*MOT: Thomas the tank was coming  wasnt he ?
-*INV: was he coming ?
+*MOT: was coming  wasnt he ?
 *CHI: yeah .
 *CHI: out tunnel .
 *CHI: out tunnel .
@@ -1534,10 +1525,7 @@
 *MOT: a snake .
 *CHI: snake out tunnel .
 *CHI: in the window .
-*MOT: well you hafta climb up .
-*INV: do you wanna climb .
 *MOT: on the chair sweetheart .
-*INV: come on .
 *MOT: climb up on the chair .
 *INV: here you are .
 *MOT: climb on the chair .

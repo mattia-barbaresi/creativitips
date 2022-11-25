@@ -15,10 +15,10 @@
 *CHI: white .
 *MOT: white .
 *MOT: but I cant work out whether thats brown or orange .
-*MOT: its its an orangie brown that isnt it ?
+*MOT: its an orangie brown that isnt it ?
 *CHI: brown .
 *MOT: brown .
-*MOT: its not really orange but its its not really brown either
+*MOT: its not really orange but its not really brown either
 *MOT: its color isnt it ?
 *CHI: Nin Nin .
 *CHI: mummmummmummo .
@@ -29,7 +29,6 @@
 *MOT: wheres the driver of the car ?
 *MOT: is he in the box ?
 *CHI: no .
-*MOT: here he is .
 *MOT: here he is .
 *CHI: Nin Nin .
 *CHI: Nin Nin .
@@ -55,10 +54,10 @@
 *MOT: watch your knees .
 *CHI: Nin Nin .
 *MOT: oh .
-*MOT: look you needta you hafta push this in and then put it
+*MOT: look you hafta push this in and then put it
 *CHI: Nin Nin .
 *MOT: right .
-*MOT: push that push this in first .
+*MOT: push this in first .
 *MOT: that hasta be in first .
 *MOT: thats right and now push the red button .
 *MOT: here shall we do that again ?
@@ -68,8 +67,8 @@
 *CHI: mummmummo .
 *MOT: yes thats from the helicopter isnt it ?
 *CHI: ap this ?
-*CHI: blue mummmummmummo .
-*MOT: its a blue propeller .
+*CHI: blue .
+*MOT: propeller .
 *MOT: a blue propeller on the helicopter .
 *MOT: and on the aeroplane its a red propeller look .
 *MOT: weve got to put the driver in dont we ?
@@ -150,7 +149,6 @@
 *MOT: whats this ?
 *MOT: oh it looks like the fruit .
 *MOT: I think your trains still in the kitchen from morning <
-*CHI: whats this>
 *CHI: ap this ?
 *MOT: shopping basket .
 *MOT: there we are .
@@ -184,13 +182,11 @@
 *MOT: its a traffic cone .
 *MOT: do you remember seeing all the traffic cones on the motorway ?
 *MOT: and what about the road signs ?
-*CHI: ap this .
 *MOT: some were speed signs showing numbers werent they ?
 *MOT: and some were telling where we were going .
 *CHI: poc .
 *MOT: yes .
-*CHI: yellow poc .
-*MOT: poc and yellow signs .
+*CHI: yellow .
 *MOT: what about the trafficlights ?
 *MOT: you were looking at trafficlights werent you ?
 *CHI: oh bowc truck ap choo choosf .
@@ -204,13 +200,12 @@
 *CHI: 0 .
 *MOT: these are the choo choosf .
 *MOT: well Ive put them in the kitchen because you had them in your
-*MOT: a bit sticky>
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *MOT: yes .
 *CHI: 0 .
 *MOT: thats right .
-*MOT: now whos going to go is the pussycat going to go in the
+*MOT: is the pussycat going to go in the
 *MOT: and the one riding the horse can just train cant he today ?
 *CHI: oh bowc .
 *CHI: Nin Nin .
@@ -238,7 +233,7 @@
 *CHI: moo .
 *MOT: are you saying blue or moon ?
 *MOT: do you think the face in the looks like a moon ?
-*MOT: the man in the moon ?
+*MOT: moon ?
 *CHI: whoosh whoosh .
 *MOT: yeah whoosh .
 *MOT: yes thats all the steam isnt it ?
@@ -285,7 +280,7 @@
 *CHI: Nin Nin .
 *MOT: no they dont .
 *MOT: theyre used more on the road than on the railway  Thomas .
-*MOT: but if we put traffic cones here .
+*MOT: put traffic cones here .
 *MOT: then the cars cant go down there .
 *MOT: hm ?
 *MOT: the cars cant go  Thomas  down this road .
@@ -305,12 +300,11 @@
 *MOT: do you think this is the driver of this car  Thomas ?
 *MOT: or train ?
 *MOT: no thats the wrong one .
-*CHI: a big juice .
+*CHI: juice .
 *MOT: its that one .
 *MOT: a big juice ?
 *MOT: oh a big juice .
 *MOT: yes it has long hasnt it ?
-*INV: little bit .
 *MOT: oh right .
 *INV: ah .
 *INV: are you drinking the last bit of my juice ?
@@ -334,14 +328,13 @@
 *MOT: still wants to sit on there does it ?
 *MOT: there should be a special driver for that car but I cant see it .
 *CHI: no m .
-*CHI: oh whats this .
+*CHI: oh .
 *CHI: this .
 *INV: are you trying to give me your juice ?
 *INV: dont you want it ?
 *CHI: Nin Nin .
 *CHI: ap this ?
 *MOT: thats the big digger .
-*MOT: you drinking the >
 *INV: Thomas .
 *MOT: are you bringing the .
 *CHI: stuck .
@@ -377,7 +370,7 @@
 *CHI: Nin Nin .
 *CHI: no six .
 *MOT: six ?
-*MOT: are you counting as you stack them ?
+*MOT: are you counting as you ?
 *CHI: satc .
 *MOT: green .
 *MOT: yes .
@@ -407,17 +400,14 @@
 *MOT: can you see the different sizes ?
 *MOT: some are taller than others  Thomas  look .
 *CHI: Nin Nin .
-*MOT: look at that .
-*CHI: see you truck .
 *MOT: look at this .
 *MOT: ones big and ones small .
 *MOT: theyre like steps arent they ?
 *CHI: steps ap steps .
 *MOT: steps look .
-*CHI: ap this ?
 *MOT: walking round the truck .
 *CHI: chair .
-*MOT: and going up the steps .
+*MOT: up the steps .
 *CHI: chair .
 *CHI: Nin Nin .
 *CHI: chair .
@@ -430,7 +420,7 @@
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *CHI: mummc ap mummc poc .
-*MOT: theyre all going to go for a ride in the truck .
+*MOT: for a ride in the truck .
 *CHI: chair .
 *MOT: shall Mummy make a chair ?
 *CHI: no .
@@ -487,14 +477,13 @@
 *MOT: Im sorry thats a giraffe .
 *MOT: thats a giraffe .
 *CHI: Nin Nin  poo .
-*MOT: his feet do his feet smell ?
+*MOT: do his feet smell ?
 *MOT: no they dont .
 *MOT: his feet and his nose and his tummy his neck his face and .
 *CHI: tractor .
 *MOT: its a tree .
 *CHI: chair .
 *MOT: and we can put some more on now .
-*CHI: oh dear .
 *MOT: ooh .
 *CHI: all done box .
 *MOT: all done ?
@@ -508,7 +497,6 @@
 *MOT: the ladybirds red with black spots .
 *CHI: poc nip nipc .
 *MOT: ladybird ladybird fly away home .
-*MOT: your house>
 *CHI: blue .
 *CHI: Nin Nin .
 *CHI: blue .
@@ -545,7 +533,6 @@
 *MOT: the sun .
 *CHI: see you Nin Nin .
 *CHI: chair .
-*MOT: are you>
 *CHI: chair .
 *MOT: be careful .
 *MOT: hits you .
@@ -589,7 +576,7 @@
 *CHI: oh .
 *MOT: hello .
 *CHI: Nin Nins hat
-*MOT: oh dear my hat ?
+*MOT: my hat ?
 *CHI: oh .
 *MOT: does that look nice ?
 *MOT: Mummys hat look nice ?
@@ -639,15 +626,14 @@
 *INV: its a box ?
 *MOT: here .
 *MOT: oops .
-*MOT: I was just about to say this is what you play in the in the
+*MOT: I was just about to say this is what you play in the
 *MOT: its dripping water isnt it ?
 *MOT: oh dear .
 *MOT: what a mess .
-*MOT: Ill just>
 *CHI: Nin Nin
-*MOT: this is the handset from your Teletubby play centre in the
+*MOT: the handset from your Teletubby play centre in the
 *CHI: Nin Nin
-*CHI: Nin Nin ap .
+*CHI: Nin Nin .
 *MOT: yeah .
 *CHI: Nin Nin
 *MOT: no it has not broken .
@@ -682,7 +668,6 @@
 *CHI: oh dear broke
 *MOT: is it ringing ?
 *CHI: Nin Nin .
-*MOT: talk to him .
 *CHI: blue .
 *MOT: he might answer the phone .
 *MOT: thats a blue button .
@@ -774,7 +759,7 @@
 *MOT: you get to talk to them .
 *MOT: you ring somebody up .
 *MOT: ring Grandma up .
-*MOT: tell her you had a really nice day at her home .
+*MOT: tell her you had a really nice day at .
 *MOT: youre not going to ring Grandma and say thank you very much for a
 *CHI: no .
 *CHI: no .
@@ -870,7 +855,7 @@
 *CHI: keys .
 *MOT: keys .
 *MOT: do you remember seeing a rainbow ?
-*MOT: when the rain came when the sun came out and it was raining
+*MOT: when the sun came out and it was raining
 *MOT: stripes .
 *CHI: Nin Nin .
 *CHI: all done .
@@ -888,8 +873,8 @@
 *INV: yeah .
 *CHI: oh .
 *MOT: the television .
-*MOT: no no no no no .
-*MOT: no no no no no .
+*MOT: no .
+*MOT: no .
 *MOT: come on lets do some dancing or something .
 *CHI: 0 .
 *MOT: oh oh oh oh .
@@ -901,12 +886,12 @@
 *MOT: right .
 *MOT: be careful because itll break .
 *CHI: 0 .
-*MOT: Thomas stop it .
+*MOT: Thomas .
 *MOT: now look .
 *MOT: whos this on the plate ?
 *CHI: 0 .
 *MOT: no .
-*MOT: if youre going to be rough its going away .
+*MOT: if youre going to its going away .
 *MOT: do you wanna just sit gentle and look at it ?
 *MOT: look .
 *MOT: can you see the balloons ?
@@ -926,7 +911,7 @@
 *MOT: therere some flags as well .
 *CHI: Nin Nin .
 *MOT: where are you going ?
-*CHI: no no no chair .
+*CHI: no chair .
 *MOT: oh well thats a sign youre tired when you start holding my hair
 *MOT: hm ?
 *MOT: I think we oughta pick all these things up .
@@ -954,7 +939,7 @@
 *CHI: choo choo .
 *MOT: choo choo choo choo .
 *CHI: tea .
-*MOT: now get get down there .
+*MOT: get down there .
 *CHI: Nin Nin .
 *MOT: get down please .
 *CHI: tea there .
@@ -1032,14 +1017,14 @@
 *CHI: door .
 *MOT: door ?
 *MOT: we cant go out yet can we ?
-*MOT: beep beep beep beep beep beep .
+*MOT: beep beep .
 *CHI: ap this ?
 *CHI: ap this ?
 *MOT: this is the highchair .
 *MOT: and Ill put a mat down .
 *MOT: oh .
 *CHI: Nin Nin Dadda .
-*MOT: this looks good doesnt it ?
+*MOT: doesnt it ?
 *CHI: Nin Nin .
 *MOT: this looks like were up to something Thomas .
 *CHI: Nin Nin .
@@ -1074,7 +1059,6 @@
 *MOT: well get some oops paint and some crayons .
 *CHI: Nin Nin .
 *CHI: door .
-*MOT: you are ?
 *MOT: you the Play Doh through ?
 *CHI: 0 .
 *MOT: oh Thomas what matter .
@@ -1102,7 +1086,6 @@
 *CHI: Nin Nin .
 *CHI: this ?
 *MOT: you know what this is .
-*MOT: youve got to go on your highchair though havent you ?
 *CHI: 0 .
 *CHI: stuck oh dear dear .
 *CHI: poc .
@@ -1115,10 +1098,10 @@
 *CHI: poc .
 *MOT: well lets do the poc one then .
 *CHI: 0 yellow .
-*MOT: well do yellow one as well .
+*MOT: well do yellow .
 *CHI: 0 .
 *MOT: Im going to tickle those feet .
-*MOT: tickle tickle tickle tickle tickle tickle tickle .
+*MOT: tickle .
 *CHI: ap this ?
 *CHI: poc .
 *MOT: its poc .
@@ -1129,7 +1112,7 @@
 *MOT: keep your foot off the ground .
 *MOT: this foot off the ground .
 *MOT: oops are you going to fall off your chair ?
-*MOT: its a he oh look at that .
+*MOT: oh look at that .
 *MOT: youve picked fluff up from the floor .
 *MOT: 0 .
 *MOT: or perhaps its more inside you slipper thinking about it because
@@ -1205,7 +1188,7 @@
 *MOT: yellow paint on your foot and then well  do it on the blue
 *CHI: poc .
 *MOT: no you cant .
-*MOT: no no no no no no .
+*MOT: no .
 *MOT: you can only do that if you promise to go on your highchair .
 *MOT: would you do that for Mummy ?
 *MOT: because when weve done finger foot painting before you've
@@ -1233,11 +1216,11 @@
 *MOT: what about some fingers ?
 *MOT: are you going to just stay sitting on your chair ?
 *CHI: Nin Nin .
-*MOT: and we can do some fingers .
+*MOT: some fingers .
 *CHI: Nin Nin
 *CHI: Nin Nin .
 *MOT: yes .
-*CHI: ap da da .
+*CHI: da .
 *MOT: come and sit on your chair .
 *MOT: then you can do it .
 *MOT: Thomas .
@@ -1253,7 +1236,6 @@
 *MOT: because this isnt really going to show up is it ?
 *CHI: Nin Nin .
 *MOT: yellow hands .
-*CHI: oh <no-no>
 *MOT: no ?
 *MOT: well Mummys going to do it then instead .
 *CHI: Nin Nin .
@@ -1288,7 +1270,6 @@
 *CHI: eh ah .
 *MOT: no ?
 *CHI: 0 .
-*MOT: it doesnt really matter because youve a nice>
 *CHI: 0 .
 *MOT: now rub your hands together .
 *CHI: 0 .
@@ -1312,10 +1293,9 @@
 *MOT: too much .
 *CHI: no .
 *MOT: did you not wanna do this on a piece of paper ?
-*CHI: no no no>
 *MOT: look at you .
 *MOT: even your face .
-*MOT: youre a muck top a muck top .
+*MOT: youre a muck top .
 *CHI: no .
 *MOT: no ?
 *MOT: well Im going to get a bowl of water now and wash you up .
@@ -1333,7 +1313,7 @@
 *MOT: sit on the big chair .
 *MOT: why why wouldnt you sit your table ?
 *CHI: 0 .
-*MOT: Thomas has got to be in the bath soon hasnt he ?
+*MOT: Thomas has got to be soon hasnt he ?
 *CHI: ap more poc .
 *MOT: look .
 *MOT: weve both got painty hands havent we ?
@@ -1341,8 +1321,7 @@
 *CHI: no no .
 *CHI: ap this ?
 *CHI: ap this ?
-*CHI: more poc .
-*MOT: orange paint and green Play Doh .
+*MOT: and green Play Doh .
 *CHI: baball .
 *MOT: footballs .
 *MOT: come on .

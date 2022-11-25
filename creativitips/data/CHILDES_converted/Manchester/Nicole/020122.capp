@@ -111,7 +111,7 @@
 *CHI: no .
 *MOT: no ?
 *CHI: no .
-*MOT: dont you want dont you wanna make .
+*MOT: dont you wanna make .
 *CHI: this .
 *MOT: what are you doing ?
 *MOT: putting the pan on ?
@@ -143,7 +143,7 @@
 *MOT: hm ?
 *MOT: whats in there ?
 *CHI: pear .
-*MOT: shall we shall we do some dinner ?
+*MOT: shall we do some dinner ?
 *MOT: hm ?
 *MOT: shall we get some dinner going ?
 *MOT: ready for later on ?
@@ -289,7 +289,6 @@
 *MOT: choke .
 *MOT: www .
 *CHI: biscuit .
-*MOT: a biscuit .
 *INV: biscuit .
 *MOT: yeah .
 *INV: whos in the pram ?
@@ -321,7 +320,7 @@
 *MOT: we just want your voice .
 *MOT: its not a very talkative voice this morning .
 *MOT: its too interested in a biscuit .
-*MOT: have you are you full of biscuit yet ?
+*MOT: are you full of biscuit yet ?
 *CHI: no .
 *MOT: no you dont dunk those type of biscuits .
 *MOT: theyre not dunkable biscuits .
@@ -403,7 +402,7 @@
 *MOT: theres no pies through there .
 *INV: a pie .
 *INV: is that what you said ?
-*MOT: if you if you want a pie you come and make a pie .
+*MOT: if you want a pie you come and make a pie .
 *INV: theres lots of pies .
 *INV: Im sure theres a cake in there .
 *INV: in the microwave .
@@ -443,7 +442,7 @@
 *CHI: no .
 *MOT: well what do you wanna do with it then ?
 *CHI: my cake .
-*MOT: you get you get us some plates out .
+*MOT: you get us some plates out .
 *INV: oh theres a nice teapot in there  as well .
 *MOT: mhm .
 *MOT: are you going to get us the plates .
@@ -487,7 +486,7 @@
 *MOT: what are you doing ?
 *CHI: again .
 *MOT: whatre you doing ?
-*MOT: what are you what are you doing ?
+*MOT: what are you doing ?
 *CHI: again .
 *CHI: one two three four five six seven .
 *MOT: yeah .
@@ -503,7 +502,7 @@
 *CHI: jump .
 *MOT: are you jumping ?
 *INV: you like jumping  dont you ?
-*INV: you were doing that last time I was here .
+*INV: doing that last time I was here .
 *CHI: biscuit .
 *CHI: biscuit .
 *MOT: www .
@@ -552,8 +551,7 @@
 *INV: no ?
 *MOT: no .
 *CHI: a chair .
-*MOT: youre going to have the chair .
-*INV: wants the chair .
+*MOT: to have the chair .
 *INV: mm .
 *INV: yum yum yum .
 *INV: this is lovely .
@@ -600,8 +598,8 @@
 *MOT: good girl .
 *MOT: first time .
 *INV: good girl .
-*MOT: put some milk in a cup then .
-*INV: Ill lift it up for you .
+*MOT: put some .
+*INV: for you .
 *MOT: there we are .
 *MOT: not not very much .
 *INV: thats plenty .
@@ -621,7 +619,7 @@
 *MOT: here heres your sugar .
 *CHI: oh .
 *MOT: put put your sugar in .
-*MOT: put the sugar in the in the cup .
+*MOT: put the sugar in the cup .
 *MOT: two please .
 *INV: oh .
 *INV: thats plenty .
@@ -660,7 +658,7 @@
 *MOT: round here .
 *MOT: www .
 *MOT: right .
-*MOT: now youve now youve had your wee wee are you going to make
+*MOT: now youve had your wee wee are you going to make
 *MOT: cheese and tomato ?
 *CHI: oh .
 *MOT: shall I get a plate out of this cupboard ?
@@ -945,12 +943,10 @@
 *INV: oh is dolly going in the basket ?
 *CHI: yeah .
 *INV: with all the shopping ?
-*MOT: are you going are you going to um  take her for a walk ?
+*MOT: are you going to um  take her for a walk ?
 *CHI: oh .
 *MOT: oh .
 *CHI: byebye .
-*MOT: byebye .
-*INV: byebye .
 *MOT: now what do you need ?
 *MOT: eggs .
 *MOT: there we go .
@@ -971,7 +967,6 @@
 *CHI: dull .
 *MOT: mhm .
 *CHI: byebye .
-*MOT: byebye .
 *INV: hello .
 *CHI: byebye .
 *MOT: byebye .
@@ -1024,7 +1019,7 @@
 *INV: www .
 *MOT: oh whats that youve got ?
 *CHI: a bobble .
-*MOT: its a its a .
+*MOT: its a .
 *INV: I think its bread .
 *MOT: www .
 *MOT: its um  either a small loaf or a cob .
@@ -1074,7 +1069,7 @@
 *CHI: cat .
 *CHI: no .
 *MOT: youre not a cat .
-*MOT: arent you are you a pussycat ?
+*MOT: are you a pussycat ?
 *MOT: is Nicole a pussycat ?
 *CHI: no .
 *MOT: is Nicole a dog ?
@@ -1135,7 +1130,7 @@
 *MOT: oh .
 *INV: and clap of lightening perhaps .
 *MOT: yeah .
-*MOT: when the when the rain makes a noise .
+*MOT: when the rain makes a noise .
 *MOT: the rain makes a noise like that .
 *CHI: thunder .
 *MOT: yeah .
@@ -1435,8 +1430,7 @@
 *CHI: oh .
 *CHI: look .
 *CHI: look .
-*MOT: are you going to put that penguin on it .
-*INV: baby penguin .
+*MOT: are you going to put that penguin .
 *CHI: there .
 *MOT: on there .
 *MOT: all right .
@@ -1448,7 +1442,7 @@
 *MOT: youre as warm as toast .
 *MOT: not cold .
 *CHI: there .
-*INV: what about what about hippo ?
+*INV: what about hippo ?
 *INV: does he wanna go on somewhere ?
 *MOT: can you do the hippo ?
 *CHI: yeah .
@@ -1483,7 +1477,6 @@
 *CHI: no .
 *INV: what about in that bit of field ?
 *MOT: look there  look .
-*INV: so he can eat some grass .
 *CHI: okay .
 *CHI: okay .
 *MOT: there .
@@ -1568,7 +1561,7 @@
 *MOT: and the other bit .
 *CHI: okay .
 *MOT: and the other bit .
-*MOT: give it give it here .
+*MOT: give it here .
 *MOT: give the box to Mummy please .
 *INV: have you found elephant yet ?
 *MOT: this is naughty .
@@ -1588,8 +1581,7 @@
 *MOT: here .
 *INV: what about my baby whale ?
 *CHI: oh .
-*INV: hes over the other side .
-*MOT: I thought he looked quite nice stood there .
+*MOT: looked quite nice stood there .
 *MOT: on that .
 *MOT: shall we stand him here  look .
 *MOT: like that .

@@ -50,8 +50,7 @@
 *MOT: youre going to fall .
 *CHI: ap that that .
 *CHI: that one .
-*MOT: what about this one ?
-*CHI: that one>
+*MOT: this one ?
 *MOT: look .
 *MOT: is there a green light on this microphone ?
 *CHI: um .
@@ -75,7 +74,6 @@
 *MOT: mind .
 *MOT: right .
 *MOT: you going to lie down while I change your nappie ?
-*CHI: nip nin .
 *MOT: will you keep .
 *MOT: will you lie down and keep an eye on that light for me .
 *CHI: 0 .
@@ -211,8 +209,6 @@
 *MOT: chips ?
 *MOT: no you had Rice Krispies .
 *CHI: Rice Krispies .
-*MOT: with milk .
-*CHI: ap juice .
 *MOT: juice .
 *MOT: you had orange juice .
 *CHI: ne big willies !
@@ -379,12 +375,10 @@
 *MOT: no .
 *MOT: dont touch that  Thomas .
 *MOT: oh have you lost it down the back ?
-*MOT: now dont .
-*CHI: oh yes .
 *MOT: yes .
 *MOT: now dont touch anything .
 *CHI: red bus .
-*CHI: no touch ap back too .
+*CHI: no touch .
 *MOT: no .
 *MOT: you mustnt touch the television .
 *CHI: stereo .
@@ -538,14 +532,7 @@
 *MOT: oh no .
 *MOT: lets sing it to Jonathan because its actually Jonathans birthday
 *MOT: we might as well practise for this afternoon .
-*MOT: happy birthday to you>
-*CHI: to you .
-*MOT: happy birthday to you>
-*CHI: happy birthday to you>
-*MOT: happy birthday dear>
-*CHI: happy birthday dear .
-*MOT: happy birthday to you>
-*CHI: happy birthday to you>
+*MOT: happy birthday
 *MOT: blow the candles .
 *MOT: and clap hands .
 *MOT: thats right .
@@ -631,7 +618,7 @@
 *MOT: and those are all things that we forgot last night when we were in
 *CHI: 0 the bridge .
 *MOT: the trains going down the bridge .
-*CHI: ap  going backwards .
+*CHI: going backwards .
 *MOT: over the bridge and down the hill .
 *MOT: I should have said shouldnt I ?
 *MOT: did it go down backwards ?
@@ -775,7 +762,6 @@
 *CHI: yeah .
 *MOT: thats it .
 *MOT: very clever .
-*MOT: they way>
 *CHI: yeah .
 *MOT: stick together .
 *MOT: whoops !
@@ -931,7 +917,7 @@
 *MOT: up and down ?
 *MOT: now heres the fishing basket .
 *MOT: come through here .
-*MOT: and lets see if you can if you can use the rod  to hook
+*MOT: and lets see if you can use the rod  to hook
 *MOT: or even the net .
 *MOT: you could use the net to try and catch some fish .
 *CHI: oh .
@@ -1056,7 +1042,6 @@
 *MOT: but youve got to just be careful it doesnt catch you  Thomas .
 *MOT: especially in the eye .
 *MOT: or the face .
-*MOT: because if>
 *CHI: no .
 *MOT: if you banged yourself or anybody else it would hurt very much
 *CHI: yes .
@@ -1347,7 +1332,6 @@
 *CHI: car .
 *MOT: dont fall down .
 *MOT: and look .
-*MOT: if you do that>
 *MOT: open your legs .
 *MOT: open your legs .
 *MOT: and put your feet across like that .
@@ -1385,7 +1369,7 @@
 *MOT: and off you go .
 *MOT: look .
 *MOT: your speed starts slowly .
-*MOT: and then it gets quicker quicker quicker quicker .
+*MOT: and then it gets quicker .
 *MOT: you can go seventy miles an hour .
 *MOT: where are we driving to  Thomas ?
 *MOT: where are you driving to ?
@@ -1482,7 +1466,7 @@
 *MOT: I think thats quite funny .
 *MOT: I think we could do with a nappie change young man dont you ?
 *CHI: mhm .
-*CHI: see Norman Brian .
+*CHI: see Norman .
 *MOT: no .
 *MOT: well do it downstairs .
 *MOT: we wont come upstairs .
@@ -1613,7 +1597,7 @@
 *MOT: to buy a stick of candy .
 *MOT: one for you .
 *MOT: one for me .
-*MOT: and one for sister <Sandy>
+*MOT: and one for sister
 *CHI: Sandy .
 *CHI: ap 0 Sandy .
 *CHI: one ap you .

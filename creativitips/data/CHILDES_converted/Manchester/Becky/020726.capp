@@ -28,10 +28,9 @@
 *MOT: thats not Mrs Lyons  is it ?
 *MOT: thats Caroline .
 *CHI: Caroline .
-*CHI: can you can you help us .
+*CHI: can you help us .
 *MOT: no .
-*MOT: I dont think Carolinell be able to help any more than I can [>]
-*INV: I dont think theres much room really .
+*MOT: I dont think Carolinell be able
 *INV: let Mummy do it .
 *INV: because then otherwise Ill just get in the way  willnt I ?
 *MOT: can you not put them in here again please .
@@ -62,7 +61,7 @@
 *CHI: put him in there .
 *CHI: put him there .
 *CHI: theres one .
-*CHI: and I and I cant find another one .
+*CHI: and I cant find another one .
 *CHI: oh .
 *CHI: and I cant find .
 *CHI: are you helping as well ?
@@ -105,8 +104,6 @@
 *CHI: is that called Daddy ?
 *MOT: that is .
 *CHI: is that called Daddy ?
-*INV: Im not .
-*MOT: that isnt .
 *MOT: no .
 *MOT: thats Caroline .
 *CHI: he spilt his juice .
@@ -425,7 +422,7 @@
 *CHI: oh .
 *CHI: you are .
 *CHI: this is my baby .
-*CHI: and mine any my pigs .
+*CHI: any my pigs .
 *CHI: oh dear .
 *CHI: oh dear .
 *CHI: alright .
@@ -463,7 +460,7 @@
 *CHI: theres a hole .
 *CHI: now .
 *CHI: wake up .
-*CHI: theres a theres a birdie  Mum .
+*CHI: theres a birdie  Mum .
 *CHI: oh dear .
 *CHI: the pig here .
 *CHI: this one .
@@ -694,7 +691,7 @@
 *MOT: whats happened to dollys hair ?
 *MOT: didnt she have a ribbon in before ?
 *CHI: where the ribbon ?
-*INV: I think it went I think it went walk about .
+*INV: I think it went walk about .
 *INV: I think its at somebody elses house probably .
 *CHI: it was me .
 *CHI: sorry .
@@ -720,9 +717,9 @@
 *CHI: Mum .
 *CHI: Mum .
 *MOT: hm ?
-*CHI: and I and I got this .
 *CHI: and I got this .
-*CHI: and I got and this .
+*CHI: and I got this .
+*CHI: and this .
 *CHI: uhoh .
 *CHI: a orange .
 *CHI: and I got
@@ -805,7 +802,7 @@
 *MOT: shall I wipe it off ?
 *CHI: yeah .
 *MOT: there you go .
-*CHI: is that is that okay ?
+*CHI: is that okay ?
 *MOT: thank you .
 *CHI: what did you do ?
 *CHI: corn .
@@ -901,7 +898,7 @@
 *CHI: all day long through the town .
 *MOT: all day long and through the town .
 *CHI: that one .
-*CHI: is that a is that another bell ?
+*CHI: is that another bell ?
 *MOT: no .
 *MOT: its a pear .
 *CHI: yeah .
@@ -931,7 +928,7 @@
 *CHI: tomato .
 *CHI: and this is another tomato .
 *CHI: this this .
-*CHI: and thats and thats cabbage .
+*CHI: and thats cabbage .
 *MOT: thats not cabbage ?
 *CHI: thats crisps .
 *MOT: theyre not crisps .

@@ -20,7 +20,6 @@
 *MOT: are you riding round on your bicycle ?
 *CHI: yes .
 *CHI: 0 .
-*CHI: is tea ready ?
 *MOT: teas ready .
 *MOT: dont bang into things with that bike .
 *CHI: Nin Nin .
@@ -112,7 +111,7 @@
 *CHI: baby .
 *MOT: so that if youre not with me and I forget what you look like I can
 *MOT: and then I see my Thomas .
-*CHI: Nin Nin  ap big ap big steps .
+*CHI: Nin Nin  ap big steps .
 *CHI: steps .
 *CHI: chair .
 *CHI: a chair .
@@ -131,7 +130,7 @@
 *CHI: a key .
 *MOT: youve climbed up on the big step to try and put the key in the
 *CHI: a tunnel .
-*CHI: Nin Nin  I see a tunnel .
+*CHI: Nin Nin  a tunnel .
 *MOT: you can see a tunnel .
 *MOT: thats the lock .
 *CHI: lock .
@@ -223,7 +222,7 @@
 *MOT: right .
 *MOT: well you get down .
 *CHI: get down .
-*MOT: youve put all this fruit all this plastic fruit under the
+*MOT: youve put all this plastic fruit under the
 *CHI: yes .
 *MOT: I think youve lost one of the eggs .
 *MOT: there should be six eggs in there but there are only five .
@@ -241,7 +240,7 @@
 *MOT: oh gosh whats happening to this now ?
 *CHI: Nin Nin .
 *CHI: where where missing teas ?
-*CHI: oh there the tea the tea .
+*CHI: oh there the tea .
 *CHI: two tea .
 *MOT: two teas .
 *CHI: two tea .
@@ -325,12 +324,10 @@
 *CHI: green orange .
 *MOT: yes .
 *MOT: dont touch anything over there .
-*CHI: a light on here .
 *MOT: yes .
 *MOT: its alright down there isnt it ?
 *CHI: a light on here .
 *MOT: yes .
-*CHI: there it is .
 *MOT: yes .
 *MOT: theres a red light on that one isnt there ?
 *CHI: big steps .
@@ -401,7 +398,7 @@
 *CHI: cock a doodle doo .
 *CHI: cock a doodle doo .
 *MOT: are you putting your head in the box ?
-*MOT: itll get stuck itll get stuck  little man wont it ?
+*MOT: itll get stuck  little man wont it ?
 *MOT: there you are .
 *MOT: what else can you see on the box ?
 *MOT: I think the suns shining isnt it ?
@@ -500,7 +497,6 @@
 *MOT: itll break .
 *MOT: dont bang it .
 *MOT: just be gentle .
-*CHI: it break>
 *MOT: no .
 *MOT: youve got be careful .
 *MOT: itll break .
@@ -512,7 +508,7 @@
 *MOT: Thomas !
 *MOT: come on .
 *MOT: as soon as weve done this Mummy can make some lunch cant she ?
-*MOT: look at your brown legs look at your brown legs .
+*MOT: look at your brown legs .
 *CHI: tick tock tick tock .
 *MOT: tick tock .
 *MOT: yes .
@@ -530,12 +526,8 @@
 *MOT: did you hear it ?
 *MOT: what did it do ?
 *MOT: did it make a big smash ?
-*CHI: oh dear .
-*CHI: oh dear>
 *MOT: what noise does it make ?
-*CHI: Mummy Daddy clock .
 *MOT: pardon .
-*CHI: Mummy Daddy clock .
 *MOT: Mummy Daddy clock .
 *MOT: yes .
 *MOT: well you threw it on the floor didnt you ?
@@ -546,11 +538,11 @@
 *MOT: in your .
 *MOT: its because its very warm weather isnt it ?
 *CHI: the teeth
-*CHI: Nin Nin  teeth hurt .
+*CHI: Nin Nin .
 *MOT: pardon .
 *MOT: cheese .
 *MOT: teeth .
-*MOT: are your teeth hurting are you teeth hurting  sweetheart ?
+*MOT: are you teeth hurting  sweetheart ?
 *CHI: no .
 *MOT: no .
 *MOT: well youre holding your mouth .
@@ -560,7 +552,7 @@
 *MOT: and weve hadta close the window  because there was quite a lot
 *MOT: hello .
 *MOT: put your shorts back on and then were all done arent we ?
-*MOT: all done all done and dusted .
+*MOT: all done and dusted .
 *MOT: oh look at that big boy .
 *MOT: arent you a lovely boy ?
 *MOT: and your hairs stuck to your head .
@@ -568,7 +560,7 @@
 *MOT: sweaty sweaty boy .
 *MOT: is Thomas a sweaty boy ?
 *CHI: ap broke .
-*MOT: youve broke it it ?
+*MOT: it ?
 *CHI: yes .
 *MOT: I dont think you have .
 *MOT: pick it up .
@@ -595,7 +587,7 @@
 *MOT: night night  Thomas .
 *MOT: are you getting inside the cupboard ?
 *CHI: ap stuck .
-*MOT: are you stuck are you really stuck ?
+*MOT: are you really stuck ?
 *CHI: yes .
 *CHI: here it is .
 *CHI: here it is .
@@ -638,7 +630,7 @@
 *CHI: open the purse .
 *MOT: open the purse .
 *MOT: be careful .
-*CHI: oh its open .
+*CHI: oh .
 *CHI: moneys .
 *MOT: moneys .
 *MOT: are you going to put it back in Mummys purse please ?
@@ -650,8 +642,8 @@
 *MOT: thats a two pence piece and a one pence piece .
 *MOT: theyre called coins .
 *CHI: coins .
-*CHI: some more some more coins .
-*MOT: well just sit on the floor then please just sit on the floor
+*CHI: some more coins .
+*MOT: well just sit on the floor
 *MOT: theres different colored coins arent there ?
 *CHI: what are .
 *MOT: which are the silver ones ?
@@ -667,7 +659,6 @@
 *MOT: when we go to the shops ?
 *MOT: does Thomas go the shops ?
 *MOT: what are you going to buy ?
-*CHI: two moneys .
 *MOT: two moneys .
 *CHI: yes please .
 *MOT: no .
@@ -969,7 +960,7 @@
 *CHI: sandwich .
 *MOT: and you enjoyed the jelly and ice cream didnt you ?
 *CHI: mhm .
-*MOT: a red jelly a red jelly and white ice cream .
+*MOT: a red jelly and white ice cream .
 *CHI: red jelly cream .
 *MOT: and then we were given a piece of birthday cake .
 *MOT: but we ate that when we got home didnt we ?
@@ -1102,7 +1093,7 @@
 *CHI: yes .
 *MOT: Mummyll just have a drink first out of the glass so there isn't
 *CHI: Thomas do it now .
-*MOT: Thomas do it now Thomas do it now .
+*MOT: Thomas do it now .
 *MOT: thats right .
 *MOT: you make more noise drinking water than you do crunching crisps .
 *MOT: there are some more sandwiches there arent there ?
@@ -1148,7 +1139,7 @@
 *MOT: thats cheese .
 *MOT: cubes of cheese .
 *CHI: cube cheese .
-*MOT: weve cut it into squares into cubes .
+*MOT: weve cut it into cubes .
 *MOT: because youll sit very happily for half an hour wont you ?
 *MOT: watching a video .
 *MOT: and it means Mummy just has time to go upstairs and have a big

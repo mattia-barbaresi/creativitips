@@ -10,8 +10,6 @@
 *CHI: book .
 *CHI: book .
 *CHI: book .
-*INV: oh which book do you want ?
-*MOT: go and get a book .
 *CHI: yeah .
 *MOT: are we gonna have a look at it ?
 *CHI: yeah .
@@ -234,8 +232,6 @@
 *CHI: Liz back in .
 *MOT: yeah Ill Ill put it back in .
 *CHI: Liz .
-*MOT: I cant lift you up Liz .
-*CHI: Liz back in .
 *CHI: Liz back in .
 *MOT: well I tell you what .
 *MOT: Ill bring this down .
@@ -258,8 +254,8 @@
 *MOT: whos this here ?
 *MOT: this is you at Aunty Caths wedding .
 *MOT: with Mummy .
-*MOT: well hafta well hafta stick that back in  wont willn't]
-*MOT: its got its got ripped .
+*MOT: well hafta
+*MOT: its got ripped .
 *CHI: got ripped .
 *MOT: oh dear .
 *MOT: got ripped .
@@ -520,7 +516,7 @@
 *CHI: cat .
 *CHI: there .
 *MOT: yeah .
-*MOT: its just its just for you know looking at .
+*MOT: its just for you know looking at .
 *CHI: there flowers .
 *MOT: yeah theyre theyre just for looking at as well .
 *CHI: Liz flowers .
@@ -594,7 +590,7 @@
 *MOT: I bet theres a bunny in lots of your books over there .
 *CHI: yeah .
 *MOT: yeah .
-*MOT: I bet most of them have got a bunny in .
+*MOT: I bet most of a bunny in .
 *CHI: spider .
 *CHI: spider book .
 *CHI: spider .
@@ -782,7 +778,7 @@
 *MOT: there we go .
 *MOT: right what else is in the bag then ?
 *CHI: oh .
-*INV: do you want do you want me to get them out for you ?
+*INV: do you want me to get them out for you ?
 *CHI: help .
 *INV: yeah you need some help .
 *INV: because theyre all a bit upside down  arent they ?
@@ -962,10 +958,10 @@
 *MOT: yeah which is where they live .
 *CHI: fence .
 *CHI: fence .
-*MOT: are you putting are you putting a fence in ?
+*MOT: are you putting a fence in ?
 *MOT: oh right yeah .
 *MOT: thats a good idea .
-*MOT: I think I think these round bits fit on these round bits .
+*MOT: I think these round bits fit on these round bits .
 *MOT: oh .
 *MOT: oh thats good enough  isnt it ?
 *CHI: one in there .
@@ -1068,7 +1064,7 @@
 *CHI: fit in there .
 *CHI: that on .
 *MOT: I think its too big to go there .
-*CHI: one go one go in there .
+*CHI: one go in there .
 *MOT: no its too big darling .
 *MOT: it could go on top of there .
 *MOT: thats right .
@@ -1132,7 +1128,7 @@
 *CHI: where ?
 *INV: where is it ?
 *MOT: wheres the red one ?
-*MOT: I think you put I think you put it on Annas knee .
+*MOT: I think you put it on Annas knee .
 *MOT: is it there ?
 *MOT: hooray .
 *MOT: there you go .
@@ -1161,8 +1157,7 @@
 *MOT: that didnt sound very good really .
 *MOT: come on out .
 *MOT: come on .
-*MOT: well hafta get that pinned to the wall better  wont willn't]
-*CHI: wont willn't]
+*MOT: well hafta get that pinned to the wall better won't
 *MOT: get some big big clips clips .
 *MOT: come on .
 *MOT: shall we look what this Budgies doing ?
@@ -1227,7 +1222,6 @@
 *MOT: pardon ?
 *CHI: Harold .
 *MOT: yeah thats Harold .
-*CHI: it got eyes .
 *CHI: faces .
 *MOT: yeah thats his face  isnt it ?
 *CHI: out tunnel .

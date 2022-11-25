@@ -17,7 +17,7 @@
 *CHI: yeah .
 *MOT: eating her breakfast ?
 *CHI: yeah .
-*MOT: what did you have for your breakfast ?
+*MOT: you have for your breakfast ?
 *CHI: milk .
 *MOT: had milk .
 *MOT: yes .
@@ -185,8 +185,6 @@
 *CHI: fluffy .
 *MOT: theyre fluffy  are they ?
 *CHI: yeah .
-*MOT: there you are .
-*CHI: socks fluffy .
 *INV: socks are fluffy  are they ?
 *CHI: yeah .
 *INV: oh .
@@ -246,7 +244,6 @@
 *MOT: going to put her in then ?
 *MOT: look .
 *MOT: wheres her quilt gone ?
-*INV: over there  isnt it ?
 *MOT: are you going to sing her Rock a Bye Baby ?
 *MOT: sit on Mummys knee and then sing it for us .
 *MOT: can you sing to her ?
@@ -267,8 +264,7 @@
 *INV: www .
 *MOT: one for the little boy that lives in the lane .
 *MOT: do you know any more songs ?
-*CHI: Humpty Dumpty sat on wall .
-*MOT: on a wall .
+*CHI: Humpty Dumpty sat .
 *CHI: Humpty Dumpty
 *MOT: had a great
 *MOT: fall .
@@ -284,7 +280,7 @@
 *MOT: yeah .
 *MOT: Humpty .
 *MOT: come on .
-*MOT: Humpty Dumpty sat on a wall .
+*MOT: Humpty Dumpty .
 *MOT: Humpty Dumpty had a great fall .
 *MOT: all the Kings horses and all the Kings men .
 *MOT: couldnt put Humpty together again .
@@ -372,7 +368,6 @@
 *MOT: I dont think we wanna do that  Becky .
 *CHI: hello .
 *MOT: peepbo .
-*MOT: come here .
 *MOT: Becky .
 *MOT: Becky .
 *MOT: have a peep through there  look .
@@ -422,7 +417,6 @@
 *INV: in a bit .
 *MOT: lets get something else out  Becky .
 *MOT: hm ?
-*CHI: toys .
 *MOT: what shall we get out ?
 *CHI: um  tip up .
 *MOT: no .
@@ -604,7 +598,7 @@
 *MOT: shall I color Noddys shorts ?
 *CHI: yeah .
 *CHI: yeah .
-*MOT: and what color are color are they ?
+*MOT: and what color are they ?
 *CHI: yellow .
 *MOT: they are yellow .
 *MOT: thats right .
@@ -790,8 +784,6 @@
 *MOT: oh .
 *MOT: youve broken it .
 *CHI: yeah .
-*MOT: oh dear .
-*INV: oh dear .
 *MOT: thats blue  isnt it ?
 *MOT: not yellow .
 *MOT: its blue .
@@ -878,7 +870,7 @@
 *CHI: doing ?
 *MOT: what are they doing ?
 *CHI: yeah .
-*MOT: do you think what do you think theyre doing ?
+*MOT: what do you think theyre doing ?
 *MOT: what do you think theyre doing ?
 *MOT: huh ?
 *MOT: do you think theyre having a little dance ?
@@ -1032,8 +1024,6 @@
 *MOT: do you have them in the bath with you ?
 *MOT: yes .
 *MOT: you have got another whale as well though  havent you ?
-*MOT: its in the box somewhere  isnt it ?
-*CHI: baby whale .
 *CHI: baby whale .
 *MOT: a baby whale ?
 *CHI: yeah .
@@ -1134,15 +1124,13 @@
 *MOT: yeah .
 *MOT: thats a hippo .
 *MOT: I dont really know what hippo says .
-*CHI: hippo says .
-*MOT: what do you think a hippo says  Becky ?
+*MOT: think a hippo says  Becky ?
 *MOT: what does he say ?
 *CHI: cock a doodle doo .
 *MOT: no .
 *MOT: I dont think he says cock a doodle doo .
 *INV: he sings +"/.
-*INV: mud mud glorious mud .
-*MOT: glorious mud .
+*INV: mud mud .
 *CHI: back .
 *MOT: I dont think hell go on the back .
 *MOT: no .
@@ -1213,7 +1201,7 @@
 *MOT: wanna put that on top  do you ?
 *MOT: there we are .
 *MOT: can you see the tunnel then  Becky ?
-*MOT: can you see it ?
+*MOT: see it ?
 *MOT: come on then .
 *MOT: make the animals go through the tunnel .
 *MOT: oh .
@@ -1256,7 +1244,6 @@
 *MOT: yes .
 *CHI: yes .
 *MOT: go on then .
-*MOT: put the ladder through .
 *CHI: the ladder .
 *CHI: the ladder .
 *CHI: the ladder .
@@ -1323,7 +1310,6 @@
 *CHI: yeah .
 *MOT: you would ?
 *MOT: I dont think theres much chance of that  Becky .
-*MOT: the other one driving a tiger  look .
 *MOT: very brave of him  isnt it ?
 *CHI: doing ?
 *CHI: doing ?
@@ -1412,7 +1398,7 @@
 *CHI: come on  Sukie .
 *CHI: on knee .
 *MOT: no .
-*MOT: I dont think Sukie wants to sit on your knee .
+*MOT: I dont think on your knee .
 *MOT: give him a cuddle .
 *MOT: go on .
 *MOT: give Sukie a cuddle .
@@ -1424,7 +1410,6 @@
 *MOT: Sukies fluffy  is he ?
 *CHI: fluffy .
 *CHI: Sukie tickle .
-*MOT: is he tickling you .
 *MOT: poor old Sukie .
 *MOT: hm ?
 *MOT: poor Sukie .
@@ -1540,7 +1525,6 @@
 *CHI: look .
 *CHI: dolly .
 *INV: dolly .
-*MOT: a dolly ?
 *CHI: yeah .
 *CHI: look .
 *CHI: dress on .
@@ -1637,7 +1621,7 @@
 *MOT: a what ?
 *CHI: milk .
 *MOT: milk  is it ?
-*MOT: is that what that is ?
+*MOT: is that ?
 *CHI: strawberry .
 *CHI: plate .
 *MOT: a plate do you want  do you ?
@@ -1672,7 +1656,7 @@
 *MOT: theyre your biscuits  are they ?
 *INV: www .
 *CHI: that ?
-*MOT: thats a tin a box of food .
+*MOT: thats a box of food .
 *CHI: the end .
 *MOT: the end ?
 *MOT: oh ?

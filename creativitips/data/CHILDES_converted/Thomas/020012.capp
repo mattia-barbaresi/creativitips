@@ -88,7 +88,7 @@
 *CHI: two .
 *MOT: and how old was Jake last night ?
 *CHI: oh .
-*MOT: he was two he was two .
+*MOT: he was two .
 *CHI: m bye .
 *MOT: byebye .
 *CHI: ap this ?
@@ -123,7 +123,7 @@
 *MOT: thats brown .
 *MOT: thats brown .
 *MOT: this is brown .
-*MOT: and your shoes your laces are brown .
+*MOT: and your laces are brown .
 *CHI: ap this ?
 *CHI: ap this ?
 *MOT: thats brown .
@@ -185,11 +185,9 @@
 *CHI: ap this ?
 *CHI: ap this ?
 *MOT: thats Percy the green engine .
-*CHI: oh no .
 *MOT: and Mr and Mrs Noah where are they ?
 *CHI: no .
 *MOT: no theyre not there are they ?
-*CHI: oh dear .
 *CHI: no .
 *MOT: no .
 *INV: where are they ?
@@ -245,7 +243,7 @@
 *MOT: grrro .
 *MOT: the lion .
 *MOT: grrro .
-*MOT: and theres a white bear a polar bear .
+*MOT: and theres a polar bear .
 *INV: whoops .
 *CHI: oh .
 *MOT: www .
@@ -253,7 +251,7 @@
 *MOT: the lion  Thomas .
 *MOT: what does the lion say ?
 *CHI: grrro .
-*MOT: and then weve got a horse a red horse .
+*MOT: and then weve got a red horse .
 *CHI: grrro .
 *MOT: and an elephant .
 *MOT: you had some little cheese sandwiches last night that were cut in
@@ -432,8 +430,6 @@
 *CHI: 0 .
 *CHI: where giraffe ?
 *MOT: wheres the giraffe ?
-*MOT: whats Thomas>
-*CHI: where giraffe>
 *MOT: whats Thomas doing ?
 *MOT: oh what was that ?
 *CHI: giraffe .
@@ -486,9 +482,8 @@
 *CHI: where 0are
 *CHI: oops .
 *CHI: grapes .
-*INV: ah there you are .
+*INV: ah .
 *MOT: grapes .
-*INV: oh yum yum yum .
 *MOT: grapes .
 *CHI: laughs .
 *MOT: therere some more grapes here look .
@@ -526,7 +521,6 @@
 *MOT: whats this ?
 *CHI: laughs .
 *MOT: oh .
-*MOT: look what Ive got .
 *MOT: whats this ?
 *CHI: banana .
 *MOT: banana .
@@ -541,10 +535,9 @@
 *CHI: ooh .
 *MOT: and what are these ?
 *MOT: are these eggs ?
-*MOT: and whos that Thomas >
 *MOT: oops .
 *MOT: now .
-*MOT: be careful be careful .
+*MOT: be careful .
 *CHI: 0 .
 *CHI: wo Dadda work .
 *MOT: Daddy has gone to work has he ?
@@ -625,7 +618,6 @@
 *CHI: two pear .
 *MOT: more pears .
 *MOT: two pears
-*INV: nice pears .
 *INV: nice green ones .
 *MOT: thank you .
 *MOT: so we have green grapes green pears and a banana in the basket .
@@ -637,14 +629,11 @@
 *MOT: that lemon is yellow like Lala .
 *CHI: Lala .
 *MOT: Lala .
-*INV: well youll hafta take at least a pear away .
-*MOT: yellow like>
+*INV: well youll hafta take away .
 *INV: put it in the basket basket .
 *CHI: uh .
 *MOT: ooh .
 *INV: ooh .
-*MOT: goodness me .
-*CHI: oops oh dear .
 *MOT: oops oh dear .
 *CHI: oops .
 *CHI: oops oh dear .
@@ -661,11 +650,11 @@
 *MOT: thats an orange .
 *CHI: ap this ?
 *INV: oh .
-*MOT: thats an orange .
+*MOT: thats .
 *INV: what ?
 *MOT: would you like to put it in the basket  Thomas ?
 *CHI: mm .
-*MOT: would you like to take the fruit from Dimitra and put it in
+*MOT: would you like to take the fruit and put it in
 *CHI: no .
 *CHI: no .
 *MOT: no .
@@ -828,8 +817,6 @@
 *CHI: snow .
 *MOT: snow .
 *MOT: snow .
-*CHI: andp snow .
-*CHI: a hat .
 *CHI: a hat .
 *CHI: shh .
 *MOT: beep beep .
@@ -852,7 +839,7 @@
 *MOT: shall we put  Thomass hat on the little dog ?
 *CHI: wodarc wodarc .
 *MOT: wodarc ?
-*CHI: a nice hat .
+*CHI: hat .
 *CHI: oh dear .
 *CHI: 0 .
 *MOT: ooh sit on your chair .
@@ -871,7 +858,7 @@
 *MOT: can you try and say yellow ?
 *MOT: yellow like Lala .
 *CHI: blue .
-*MOT: thats thats blue yes .
+*MOT: thats blue yes .
 *CHI: blue .
 *MOT: and wheres yellow ?
 *CHI: ooh .
@@ -905,7 +892,7 @@
 *MOT: was was it stuck ?
 *CHI: oh .
 *MOT: Im looking at your birthday cards and I can see a teddybear has a
-*MOT: its time we took these cards down but well leave them up today>
+*MOT: its time we took these cards down but well leave them
 *MOT: wheres the hat on the teddybear ?
 *CHI: thats it .
 *MOT: happy birthday Thomas .
@@ -926,7 +913,6 @@
 *MOT: this is a card from Grandma and Granddad .
 *MOT: and that has a little boy whos pretending to be a magician .
 *MOT: and he has got a puppy coming out of his hat .
-*CHI: ap there .
 *MOT: look .
 *MOT: that is like if we had .
 *CHI: ap choo choo there .
@@ -1008,7 +994,6 @@
 *MOT: up .
 *MOT: what were you doing ?
 *MOT: jumping up ?
-*CHI: oh no .
 *MOT: 0 .
 *CHI: up .
 *MOT: are you jumping up ?
@@ -1028,15 +1013,12 @@
 *MOT: youre going to trip .
 *MOT: lets just sit and do your laces .
 *MOT: what are these ?
-*CHI: Nin Nin no .
 *MOT: oh no .
-*MOT: but youve got .
 *MOT: you cant do dancing if youre going to trip up .
 *MOT: these your shoes ?
 *MOT: your shoes ?
 *CHI: oh no .
 *MOT: shoes .
-*CHI: stop it .
 *CHI: stop no .
 *MOT: shoes and laces .
 *MOT: shoelaces .
@@ -1045,7 +1027,6 @@
 *MOT: there .
 *MOT: all done .
 *CHI: more .
-*CHI: on ap top .
 *MOT: are you marching ?
 *MOT: marching .
 *MOT: 0 .
@@ -1073,13 +1054,12 @@
 *MOT: um jumping up .
 *CHI: 0 .
 *MOT: and jumping down .
-*MOT: I dont think you jump down .
+*MOT: think you jump down .
 *CHI: no .
 *MOT: I think you get down .
 *CHI: no .
 *MOT: fall down .
 *CHI: oops .
-*CHI: all stuck .
 *MOT: youre stuck ?
 *MOT: oh dear .
 *CHI: 0 .
@@ -1176,8 +1156,7 @@
 *CHI: um .
 *MOT: when we go out for a walk .
 *CHI: ap there .
-*INV: yes just there .
-*MOT: you like posting  Thomas  dont you ?
+*MOT: Thomas  dont you ?
 *CHI: ap there
 *MOT: oh .
 *MOT: going to have a ride on Dobbin now are you ?
@@ -1196,7 +1175,6 @@
 *CHI: oh dear dear .
 *INV: oh dear .
 *MOT: the tractor fell over .
-*CHI: my moo .
 *MOT: oh .
 *MOT: 0 .
 *CHI: oh dear dear .
@@ -1277,15 +1255,14 @@
 *CHI: oh .
 *MOT: ah .
 *CHI: oh .
-*MOT: thats Alice next door barking .
+*MOT: thats next door barking .
 *CHI: oh .
 *MOT: because the newspaper has just arrived .
 *MOT: shall we go and find the newspaper ?
 *CHI: ooh .
 *CHI: woofo .
 *CHI: bo .
-*MOT: we always know when the newspapers are being delivered>
-*CHI: whoo whoo whoo .
+*MOT: we always know when the newspapers are
 *MOT: they let us know somebodys coming .
 *CHI: bo .
 *MOT: there we are .
@@ -1357,8 +1334,6 @@
 *MOT: no .
 *MOT: what would Daddy say ?
 *MOT: Daddy would say noq .
-*CHI: ap do .
-*CHI: ap do>
 *MOT: no .
 *MOT: no .
 *MOT: we dont need the light on .
@@ -1378,8 +1353,7 @@
 *MOT: poor Thomas .
 *MOT: whats Mummy doing here ?
 *MOT: could really do with some help  Thomas .
-*MOT: because Im getting in a muddle .
-*CHI: Pooh Bear>
+*MOT: because Im .
 *MOT: whos this ?
 *MOT: Pooh Bear ?
 *CHI: Pooh Bear .
@@ -1435,7 +1409,6 @@
 *MOT: wash our hands ?
 *CHI: no .
 *MOT: and splash splash water dont we ?
-*MOT: because this>
 *CHI: no .
 *MOT: oh .
 *MOT: oh its this one we press .
@@ -1476,7 +1449,6 @@
 *CHI: no .
 *MOT: no .
 *MOT: no squeak .
-*CHI: whats it ?
 *MOT: we can take the cab off actually altogether cant we ?
 *MOT: ooh .
 *MOT: how is that ?
@@ -1585,10 +1557,10 @@
 *MOT: and then put the steps there .
 *MOT: oh thats better .
 *CHI: steps a steps .
-*CHI: oh dear oh dear .
+*CHI: oh dear .
 *CHI: whoo whoo whoo .
 *CHI: oh dear dear .
-*MOT: there were two animals two of each kind of animal went into
+*MOT: two of each kind of animal went into
 *MOT: one two .
 *MOT: 0 .
 *MOT: I dont know the words to the rest of that .
@@ -1642,7 +1614,7 @@
 *MOT: yes .
 *MOT: you had a green balloon but I dont know where it is .
 *MOT: but we brought some balloons back from the party last night .
-*MOT: so Mummy  will have a go at blowing up .
+*MOT: so  will have a go at blowing up .
 *CHI: balloons .
 *MOT: a big blue balloon .
 *MOT: 0 .

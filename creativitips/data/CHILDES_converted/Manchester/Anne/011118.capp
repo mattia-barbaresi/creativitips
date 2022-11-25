@@ -191,7 +191,7 @@
 *MOT: do you want some bread with it ?
 *CHI: mhm .
 *MOT: there you are then .
-*MOT: theres some bread to have with [>]
+*MOT: theres some bread to have with
 *CHI: a .
 *MOT: and some butter .
 *CHI: more butter please .
@@ -223,13 +223,11 @@
 *MOT: oh more tomato .
 *MOT: Im going to have some tomato .
 *MOT: and some cucumber and some lettuce .
-*MOT: Id like some cheese with my salad .
-*CHI: that .
+*MOT: Id like some salad .
 *CHI: that one .
 *MOT: oh .
 *MOT: thats to make it stick to something else .
 *MOT: so you can do this  look .
-*MOT: like this .
 *MOT: thats it .
 *MOT: pretend .
 *MOT: pretend .
@@ -324,8 +322,6 @@
 *MOT: do you think Paddington would like to dance ?
 *MOT: Paddington can dance as well cant he ?
 *MOT: oh .
-*CHI: fall over .
-*MOT: shall I make [>]
 *MOT: shall we do these ?
 *MOT: thatll make a nice noise willnt it ?
 *CHI: catch it .
@@ -349,8 +345,6 @@
 *MOT: is he going to throw it to you ?
 *CHI: yeah .
 *MOT: one .
-*MOT: two .
-*CHI: two .
 *MOT: three .
 *MOT: oh .
 *MOT: you didnt try and catch it .
@@ -747,7 +741,7 @@
 *MOT: that one ?
 *MOT: thats a dress isnt it ?
 *MOT: shell look very funny .
-*MOT: if she wears a dress and trouse and trousers .
+*MOT: if she wears a dress and trousers .
 *MOT: drink .
 *MOT: youre having a drink ?
 *MOT: what are you drinking ?
@@ -757,7 +751,6 @@
 *CHI: coke .
 *MOT: oh .
 *MOT: what did we go and see at the shops today ?
-*CHI: chickens .
 *MOT: the chickens .
 *MOT: the pigeons .
 *MOT: didnt we ?
@@ -791,10 +784,10 @@
 *MOT: yeah .
 *CHI: tellie .
 *MOT: well .
-*MOT: were not we willnt watch it on the tellie today .
+*MOT: we willnt watch it on the tellie today .
 *CHI: why ?
 *MOT: why ?
-*MOT: because were because were playing at the moment .
+*MOT: because were playing at the moment .
 *CHI: no .
 *MOT: well watch it later .
 *INV: no .
@@ -1077,8 +1070,7 @@
 *INV: is the monkey not there ?
 *CHI: no .
 *MOT: no .
-*MOT: I like the monkey .
-*INV: I wonder where it is .
+*MOT: I .
 *INV: it must have got left at someones house .
 *MOT: yeah .
 *MOT: I like the monkey .
@@ -1558,7 +1550,7 @@
 *MOT: there we are .
 *CHI: thank you .
 *MOT: sit like that .
-*MOT: I cant I dont think you can sit on that bit .
+*MOT: I dont think you can sit on that bit .
 *MOT: look .
 *MOT: the cars going to drive under the bridge .
 *MOT: I bet if we used this one  thats yours .
@@ -1569,8 +1561,6 @@
 *CHI: yes .
 *MOT: has it gone under the bridge ?
 *CHI: yeah .
-*CHI: there goes .
-*MOT: under the bridge .
 *CHI: there goes .
 *MOT: there we are .
 *CHI: there goes .

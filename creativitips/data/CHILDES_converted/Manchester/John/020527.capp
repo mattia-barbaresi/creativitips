@@ -296,7 +296,7 @@
 *MOT: can you see anything ?
 *CHI: house .
 *MOT: I think youre shutting your eye though John .
-*MOT: keep it keep .
+*MOT: keep .
 *MOT: thats it .
 *MOT: keep it open so you can look through .
 *MOT: can you see some patterns ?
@@ -571,7 +571,7 @@
 *MOT: whos that ?
 *CHI: yellow .
 *MOT: yes .
-*MOT: theyre painting yellow but do you recognize whose this is [//]
+*MOT: theyre painting yellow but do you recognize
 *MOT: and the long tail .
 *CHI: yeah .
 *MOT: who is it ?
@@ -1026,9 +1026,9 @@
 *CHI: no .
 *MOT: go on .
 *MOT: can I do this one instead ?
-*CHI: no no no no no .
-*MOT: no no no no .
-*CHI: no no no no no .
+*CHI: no .
+*MOT: no .
+*CHI: no .
 *MOT: have you got any long finger nails that I should cut ?
 *CHI: no no .
 *MOT: no .
@@ -1042,7 +1042,7 @@
 *CHI: chocolate and
 *CHI: want want chocolate .
 *MOT: you want your chocolate ?
-*CHI: I want I want eat all my chocolate .
+*CHI: I want eat all my chocolate .
 *CHI: in there .
 *MOT: did you buy any fishfingers ?
 *CHI: no .
@@ -1050,7 +1050,7 @@
 *CHI: yes .
 *MOT: what else ?
 *CHI: clippers fit in there .
-*CHI: nail clippers in nail clippers in there .
+*CHI: nail clippers in there .
 *MOT: slippers ?
 *CHI: nail clippers .
 *MOT: oh nail clippers .
@@ -1091,7 +1091,7 @@
 *CHI: open .
 *CHI: oh rocket .
 *CHI: oh yes .
-*MOT: now this ones a bit messy because I think its I think it
+*MOT: now this ones a bit messy because I think it
 *MOT: eat it in here please .
 *MOT: in there .
 *MOT: it melted and refroze .
@@ -1211,7 +1211,7 @@
 *MOT: theres the alligator .
 *MOT: grro .
 *CHI: again .
-*MOT: snap snap snap .
+*MOT: snap .
 *CHI: want a rocket .
 *CHI: ah thank you .
 *MOT: watch out .

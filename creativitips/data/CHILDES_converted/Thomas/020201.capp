@@ -101,7 +101,7 @@
 *CHI: bowc ap truck .
 *MOT: did they manage to get the pussycat down ?
 *MOT: put her safely in the truck ?
-*MOT: Thomas  youll hafta tell me whats going on the television
+*MOT: Thomas  youll hafta tell me on the television
 *CHI: duck .
 *MOT: I cant see .
 *INV: truck .
@@ -112,11 +112,10 @@
 *INV: she recently got saved by a yellow truck didnt she ?
 *CHI: ap more choc chocf .
 *INV: theres no more choc chocf .
-*MOT: its all in your tummy .
-*INV: thats the end .
+*MOT: its all .
 *MOT: I think if I lift up that bib
 *MOT: aah thats where the chocolate is .
-*MOT: one two three four chocolate footballs .
+*MOT: four chocolate footballs .
 *MOT: are you feeling any better this morning ?
 *CHI: no .
 *CHI: beep beep .
@@ -215,7 +214,7 @@
 *MOT: Mummy has just tripped over Purdies water bowl .
 *MOT: to set the day off to a fine start .
 *MOT: oh  Thomas .
-*MOT: what a mess what a mess .
+*MOT: what a mess .
 *MOT: what has Mummy done ?
 *MOT: what has Mummy done ?
 *MOT: when you tip Purdies food up youve kicked a football haven't
@@ -290,7 +289,7 @@
 *MOT: are you warm enough  Thomas ?
 *CHI: night night .
 *CHI: see you .
-*INV: look what look what Ive got .
+*INV: look what Ive got .
 *INV: Ive got some toast as well .
 *CHI: more choc chocf .
 *MOT: there isnt more choc chocf  Thomas .
@@ -378,7 +377,7 @@
 *MOT: but Daddy said he hadnt  Thomas .
 *MOT: has Granddad ever done that to your cheeks ?
 *CHI: Granddad .
-*MOT: has Granddad has Granddad done that to you ?
+*MOT: has Granddad done that to you ?
 *CHI: Granddad .
 *MOT: what does Granddad do ?
 *MOT: does he arrive and say +"/.
@@ -584,9 +583,9 @@
 *MOT: you call them peas dont you ?
 *CHI: more pea .
 *CHI: more pea .
-*MOT: more pea more peas .
+*MOT: more peas .
 *MOT: theyre sultanas .
-*CHI: pea all gone .
+*CHI: pea .
 *MOT: mm .
 *MOT: we wont be able to take you to a wedding reception will we ?
 *MOT: in a couple of weeks if youre going to do that .
@@ -684,7 +683,7 @@
 *CHI: peach .
 *MOT: peach .
 *MOT: there is a peach .
-*MOT: but the peach is a bit wizened up a bit old  Thomas .
+*MOT: but the peach is a bit old  Thomas .
 *MOT: this is an apple .
 *MOT: it looks like a peach doesnt it ?
 *MOT: because its quite red .
@@ -864,7 +863,6 @@
 *MOT: do you think the driver of the train would like a piece of apple ,
 *MOT: try giving him a piece of apple .
 *MOT: thats a good boy .
-*CHI: oh dear .
 *MOT: oh has he fallen over ?
 *MOT: he must have eaten too much .
 *MOT: or eaten it too quickly .
@@ -887,7 +885,6 @@
 *MOT: whats the matter ?
 *MOT: oh thats right .
 *MOT: he can see where hes going now .
-*CHI: byebye  truck .
 *MOT: theres really not a lot of room is there ?
 *CHI: no .
 *MOT: no .
@@ -895,7 +892,7 @@
 *MOT: youve finished with that .
 *CHI: no .
 *MOT: no .
-*MOT: well you thats right .
+*MOT: thats right .
 *MOT: you keep them on the highchair because you might wanna eat
 *MOT: no .
 *CHI: no .
@@ -905,7 +902,7 @@
 *CHI: Nin Nin .
 *MOT: yes .
 *CHI: Nin Nin .
-*MOT: would you like to put some apple in the back of the trailer>
+*MOT: would you like to put some apple in the back of
 *MOT: I can never think whats called .
 *MOT: thats right .
 *MOT: would the driver like a piece of toast ?
@@ -934,8 +931,6 @@
 *CHI: hatc choo choosf .
 *CHI: hatc choo choosf .
 *MOT: a green choo choo .
-*MOT: is this>
-*CHI: help help .
 *MOT: is that Percy or Henry ?
 *MOT: I cant remember what color Percy is .
 *CHI: help help .
@@ -998,8 +993,8 @@
 *CHI: no .
 *MOT: have you noticed that the colors on the truck
 *CHI: ah .
-*MOT: not in not in your mouth .
-*MOT: the colors on the truck .
+*MOT: not in your mouth .
+*MOT: the colors on .
 *MOT: no .
 *MOT: he doesnt drive that does he ?
 *CHI: choo choosf .
@@ -1025,4 +1020,4 @@
 *MOT: is it tickling ?
 *CHI: no .
 *MOT: and then we went over and under .
-*MOT: and round and round .
+*MOT: and round .

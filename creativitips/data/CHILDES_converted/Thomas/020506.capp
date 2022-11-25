@@ -11,7 +11,6 @@
 *MOT: oops a daisy .
 *MOT: was that the postman coming or the paperboy ?
 *CHI: paperboy .
-*CHI: a big paper .
 *MOT: the paperboy ?
 *CHI: no .
 *INV: who was it ?
@@ -143,7 +142,7 @@
 *INV: are we going to have chocolate biscuits ?
 *INV: oh to you know .
 *INV: what have you got there ?
-*CHI: Lala and Dipsy yellow babies>
+*CHI: Lala and Dipsy
 *INV: what happened ?
 *CHI: oh .
 *CHI: oh dear .
@@ -165,7 +164,7 @@
 *INV: Im checking checking  the microphones .
 *INV: the green light is on there .
 *CHI: yes .
-*CHI: ap shining too the na the green .
+*CHI: ap shining too the green .
 *INV: its shining ?
 *CHI: no .
 *INV: no .
@@ -189,7 +188,7 @@
 *INV: look what has Dimitra done there .
 *MOT: oh dear what a mess .
 *MOT: its alright  dont worry .
-*INV: I made a mess .
+*INV: a mess .
 *MOT: dont worry .
 *MOT: Peter did exactly the same with a cup of coffee down there last
 *INV: had Dimitra been naughty ?
@@ -209,7 +208,6 @@
 *MOT: well we useta have a nice coffee table here but we hadta get rid of
 *MOT: you useta climb on it .
 *MOT: so its not really anybodys fault when .
-*CHI: no in there .
 *MOT: theres nothing in there ?
 *CHI: no .
 *MOT: oh dear .
@@ -237,8 +235,6 @@
 *INV: one has fallen on the floor ?
 *CHI: yes .
 *CHI: thats better .
-*INV: thats better .
-*MOT: thats better .
 *MOT: yeah .
 *MOT: thats better .
 *INV: mm .
@@ -322,12 +318,10 @@
 *CHI: apple .
 *INV: apple .
 *CHI: whats this ?
-*INV: thats a it says “cream of tomato soup” .
+*INV: it says “cream of tomato soup” .
 *CHI: soup .
 *INV: soup .
 *CHI: nice soup .
-*INV: nice soup .
-*MOT: nice soup .
 *CHI: whats this ?
 *INV: eh thats spaghetti .
 *INV: pasta .
@@ -370,12 +364,10 @@
 *MOT: what do you think hes doing ?
 *MOT: banging ?
 *CHI: here you are .
-*MOT: no no no no no .
+*MOT: no .
 *MOT: no youre going to hurt people .
 *INV: thank you .
 *MOT: spatula .
-*CHI: spatula .
-*INV: yes spatula .
 *INV: yes .
 *INV: and then you put it on the plate .
 *INV: no .
@@ -436,7 +428,7 @@
 *CHI: ap floor .
 *MOT: oh I dropped it on the floor .
 *MOT: I opened my purse and dropped the money all over the floor .
-*INV: is that what happened ?
+*INV: happened ?
 *CHI: hm ?
 *MOT: and then we paid the man .
 *MOT: and then we walked home .
@@ -486,14 +478,13 @@
 *CHI: mhm .
 *INV: yes .
 *INV: make some more space for our picnic .
-*CHI: ap some sandwiches .
 *MOT: some sandwiches ?
 *CHI: yum ap tummy .
 *INV: are they going in the tummy ?
 *INV: and theyre yummy ?
 *CHI: yeah .
 *INV: yes .
-*CHI: a big train eat it .
+*CHI: a big train .
 *INV: train ticket ?
 *CHI: yes please .
 *MOT: oh I see .
@@ -543,7 +534,6 @@
 *CHI: warm drink .
 *MOT: a warm drink .
 *MOT: thats right .
-*INV: whats that .
 *CHI: bangadrumtimec .
 *MOT: bangadrumtimec .
 *MOT: yes your music lesson starts again tomorrow morning doesnt it ?
@@ -577,7 +567,7 @@
 *INV: yes .
 *MOT: well thats right .
 *MOT: yeah .
-*INV: you have like that .
+*INV: like that .
 *CHI: big noise .
 *INV: are you going to make a big noise ?
 *INV: I wanna cut it into pieces and give one to Thomas and one to Mummy
@@ -591,7 +581,7 @@
 *INV: I can have this instead .
 *INV: mm .
 *INV: ay .
-*MOT: youre still wearing your pyjamas arent you ?
+*MOT: still wearing your pyjamas arent you ?
 *CHI: oh dear .
 *CHI: oh dear .
 *INV: what happened ?
@@ -611,15 +601,15 @@
 *MOT: the musical instruments ?
 *CHI: mhm .
 *CHI: Thomas do it .
-*INV: tea fall on the floor ?
+*INV: on the floor ?
 *INV: Thomas  Im going to start taking eh music lessons as well .
 *CHI: yeah .
 *CHI: mhm .
 *INV: mhm .
 *INV: whats that ?
-*MOT: oh be careful .
+*MOT: oh .
 *INV: oops .
-*INV: thats a that was a big noise .
+*INV: that was a big noise .
 *CHI: whats this ?
 *INV: thats a
 *CHI: yellow .
@@ -734,7 +724,7 @@
 *MOT: you carry the bag .
 *CHI: carry the bag .
 *MOT: and the moneys in there to pay for it .
-*CHI: oh yellow money .
+*CHI: money .
 *MOT: can you undo the zip  Thomas ?
 *CHI: yes .
 *CHI: ap more .
@@ -829,7 +819,7 @@
 *CHI: no .
 *MOT: oh dear .
 *MOT: thats not very good manners .
-*CHI: put it away .
+*CHI: away .
 *MOT: thats right .
 *MOT: put it away .
 *CHI: oh .
@@ -892,7 +882,7 @@
 *MOT: have you got a ring ?
 *CHI: yes .
 *INV: nice .
-*MOT: is it Dimitras ring ?
+*MOT: Dimitras ring ?
 *CHI: a yellow blue fish on .
 *MOT: with a blue fish on it ?
 *INV: hup oops .
@@ -908,7 +898,7 @@
 *CHI: yeah .
 *MOT: you big toe ?
 *CHI: yes .
-*MOT: shall we try ?
+*MOT: try ?
 *INV: to try ?
 *CHI: yes .
 *CHI: the big toe .
@@ -958,21 +948,19 @@
 *CHI: ap hot .
 *CHI: Dimitra do it .
 *INV: what are you saying ?
-*CHI: de the pan and isp hot .
+*CHI: de hot .
 *INV: yes .
 *INV: the pan and the shop .
 *CHI: isp hot .
 *MOT: oh its hot .
-*MOT: the pan is hot .
-*INV: oh its hot .
 *INV: yes .
 *INV: the pan is hot .
 *INV: and we break the egg .
 *INV: and it goes on the pan fssso .
 *INV: and maybe we can make scrambled eggs .
-*INV: do you want to bring the spatula ?
+*INV: do you want the spatula ?
 *CHI: yes .
-*CHI: and ap sit down .
+*CHI: sit down .
 *MOT: shall I bring a fork ?
 *MOT: well well beat it together with a fork shall we ?
 *CHI: a big noise .
@@ -1010,8 +998,6 @@
 *CHI: trouble .
 *INV: trouble .
 *MOT: trouble .
-*INV: oh yes .
-*MOT: oh dear .
 *MOT: spilt the juice .
 *INV: yes .
 *INV: and got myself into trouble .
@@ -1098,7 +1084,7 @@
 *INV: yes .
 *INV: okay .
 *INV: snip snip .
-*MOT: how do you cut hair ?
+*MOT: cut hair ?
 *CHI: nipnipnipsc .
 *MOT: and where do you have your haircut ?
 *MOT: where does Thomas go to have his haircut ?
@@ -1186,8 +1172,6 @@
 *CHI: yeah .
 *INV: yeah ?
 *CHI: thats better .
-*INV: thats better .
-*MOT: thats better .
 *CHI: yes .
 *MOT: now has Dimitra paid you ?
 *CHI: yes .
@@ -1217,12 +1201,10 @@
 *CHI: no .
 *CHI: nenene down .
 *INV: ah .
-*INV: your feet .
 *INV: look what happened !
 *INV: oh no .
 *MOT: youve been sitting in the wet patch ?
-*INV: yes I have .
-*CHI: wet patch>
+*INV: yes .
 *INV: I didnt realize .
 *INV: no .
 *INV: so now I have tea in my tummy and on my trousers .
@@ -1260,16 +1242,16 @@
 *MOT: they were drying on the washing line werent they ?
 *CHI: no .
 *MOT: they were .
-*INV: they have teddy bears on .
+*INV: teddy bears on .
 *CHI: no want de .
 *MOT: you dont want them on ?
 *CHI: no .
 *MOT: its Winnie the Pooh isnt it ?
 *CHI: the stars ap moon .
-*MOT: the f oh the stars and the moon .
+*MOT: oh the stars and the moon .
 *MOT: it has got Winnie the Pooh .
 *MOT: I think its Piglet .
-*MOT: since we washed that we cant tell .
+*MOT: since we we cant tell .
 *MOT: and a million stars .
 *INV: Thomas .
 *INV: maybe you can put your woolly hat on .
@@ -1291,7 +1273,7 @@
 *MOT: oh there he is .
 *CHI: oops .
 *CHI: here you are
-*MOT: is that the telephone ?
+*MOT: the telephone ?
 *CHI: yes .
 *MOT: hello .
 *MOT: www .
@@ -1321,7 +1303,7 @@
 *INV: did I step on your toe ?
 *CHI: yeah .
 *INV: oh whats that ?
-*CHI: Thomas  do it .
+*CHI: Thomas .
 *INV: where are you going ?
 *CHI: ap table .
 *INV: where ?
@@ -1335,7 +1317,6 @@
 *INV: come here .
 *INV: come here and
 *INV: are you going to sleep .
-*CHI: come back ap table now .
 *CHI: oops oh dear .
 *CHI: ap head .
 *INV: did you bang your head ?
@@ -1387,7 +1368,7 @@
 *INV: there you go .
 *CHI: here man .
 *CHI: man .
-*CHI: in the man .
+*CHI: man .
 *INV: you want me to put the man in again ?
 *CHI: yes .
 *INV: yeah .
@@ -1397,11 +1378,10 @@
 *INV: is the horse going on a ride ?
 *CHI: yeah .
 *INV: yes .
-*CHI: off we go now .
+*CHI: go now .
 *INV: okay .
 *INV: bye bye .
 *CHI: bye .
-*CHI: under the tree>
 *INV: under the tree ?
 *CHI: ap Dimitra .
 *INV: ah .
@@ -1412,7 +1392,7 @@
 *INV: the big bears ?
 *CHI: yes .
 *CHI: under the trees .
-*INV: theyre on the trees in the trees ?
+*INV: theyre in the trees ?
 *CHI: yes .
 *CHI: yes .
 *CHI: under the tree .
@@ -1454,7 +1434,7 @@
 *INV: red nose ?
 *INV: are you going to um music class  tomorrow ?
 *CHI: yes .
-*INV: why are you what are you going to do ?
+*INV: what are you going to do ?
 *CHI: bang bang a drum time .
 *INV: its bang a drum time .
 *INV: do you like going there ?
@@ -1528,8 +1508,7 @@
 *INV: we have the red light .
 *CHI: yeah .
 *INV: which is on .
-*INV: yes thats good .
-*CHI: orange green>
+*INV: yes .
 *INV: orange and green .
 *INV: everything is fine .
 *CHI: a green orange andp red one .
@@ -1687,7 +1666,6 @@
 *CHI: oh dear .
 *INV: oh dear .
 *INV: what happened ?
-*CHI: broke the lid .
 *INV: what happened ?
 *INV: ooh finished .
 *INV: finished .

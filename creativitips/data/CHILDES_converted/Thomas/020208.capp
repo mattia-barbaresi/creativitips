@@ -5,7 +5,7 @@
 *MOT: ah .
 *MOT: what are you doing ?
 *CHI: 0 .
-*MOT: Ill get you .
+*MOT: you .
 *CHI: 0 .
 *MOT: no .
 *MOT: Im not asking you to put it on .
@@ -51,7 +51,7 @@
 *CHI: down .
 *MOT: wash and down ?
 *MOT: or perhaps we wont get you down .
-*MOT: well wash your hands and well see if you wanna do some
+*MOT: well wash your hands you wanna do some
 *CHI: Pippin .
 *MOT: yes .
 *MOT: Pippins coming on in a moment .
@@ -72,12 +72,11 @@
 *MOT: this morning its clay .
 *MOT: sometimes its bricks and stones and things like daffodils and
 *MOT: oh theyve done all sorts havent they ?
-*MOT: oh and a little dog .
 *CHI: oh brr brr .
 *MOT: little dog Pippin goes everywhere with her .
 *MOT: and you enjoy this program dont you ?
 *MOT: so Mummy usually tapes it so you can watch it later .
-*MOT: I hafta remember to brush your teeth when I go upstairs .
+*MOT: I hafta remember to brush your teeth go upstairs .
 *CHI: Pippin .
 *MOT: Pippin .
 *MOT: whats Pippin doing ?
@@ -106,7 +105,6 @@
 *INV: ah teapots .
 *MOT: yes .
 *CHI: oh dear .
-*CHI: all gone .
 *CHI: oh dear mess .
 *MOT: oh is there a mess ?
 *CHI: no no mess .
@@ -128,7 +126,7 @@
 *CHI: oh Nin Nin .
 *MOT: I think I took it off before when I was washing up .
 *MOT: thisll be over in a few minutes .
-*MOT: when it is shall we do some painting and drawing ?
+*MOT: when it is painting and drawing ?
 *CHI: oh .
 *MOT: whats happening  Thomas ?
 *MOT: youre not telling me .
@@ -151,7 +149,7 @@
 *MOT: and Mummy needs to send it and I keep thinking we oughta put a
 *MOT: because its who's
 *MOT: and she likes you .
-*MOT: so I thought your handprint might cheer her up .
+*MOT: so your handprint might cheer her up .
 *MOT: and the other ones a thank you card for Ruths Mummy .
 *MOT: because we went to see Ruths Mummy and she gave us tea didn't
 *MOT: I thought it would be nice to write and say “thank you weve had a
@@ -169,7 +167,7 @@
 *CHI: poc snip snipo .
 *MOT: yes .
 *MOT: these are the red scissors but upstairs youve got some with a blue
-*MOT: I might put this on if were going to do some painting .
+*MOT: I might put this on if were going to do .
 *CHI: where 0has Pippin gone ?
 *MOT: where has Pippin gone ?
 *MOT: would you like to put your bib back on ?
@@ -178,7 +176,6 @@
 *MOT: not a bit interested are you ?
 *CHI: no oh .
 *MOT: ah excuse me .
-*MOT: if I have mine on>
 *CHI: 0 .
 *MOT: you must have yours on .
 *CHI: 0 .
@@ -191,7 +188,7 @@
 *MOT: thats nice .
 *MOT: well if you dont put
 *MOT: no .
-*MOT: no no no not peoples faces .
+*MOT: not peoples faces .
 *MOT: would you like Mummys other apron ?
 *MOT: pussycat on it ?
 *CHI: 0 .
@@ -207,7 +204,7 @@
 *MOT: or would you like that one on instead ?
 *MOT: oh this is a big boys bib .
 *MOT: ah .
-*CHI: Nin Nin bib .
+*CHI: bib .
 *MOT: no .
 *MOT: Mummys wearing one already .
 *MOT: you have that ?
@@ -240,7 +237,6 @@
 *INV: look .
 *MOT: make a mess .
 *MOT: but I think Ill move I think Ill move
-*CHI: no  Nin Nin .
 *MOT: ah have you only just realized ?
 *CHI: no .
 *MOT: excuse me .
@@ -301,7 +297,6 @@
 *MOT: yes .
 *MOT: we can say red .
 *MOT: we dont very often but we can .
-*MOT: we don't>
 *CHI: yellow .
 *MOT: oh look .
 *MOT: colors on the television .
@@ -334,15 +329,12 @@
 *MOT: very quickly didnt he ?
 *MOT: he just went pss and hed drawn it .
 *MOT: he said he had drawn a horse .
-*CHI: whats this .
-*MOT: oh yes he has .
 *MOT: theres the horse .
 *CHI: two brown .
 *MOT: two brown ?
 *MOT: yes .
 *MOT: he drew a horse and he drew a pussycat .
 *MOT: and that looks like Grandma has been drawing numbers with you .
-*CHI: two pear .
 *MOT: and a sausage .
 *CHI: two sausage .
 *MOT: two sausages and a silver cloud .
@@ -358,9 +350,9 @@
 *MOT: what about stars ?
 *CHI: stars .
 *MOT: stars .
-*CHI: no no no poc .
+*CHI: no poc .
 *MOT: and do you remember that beautiful rainbow ?
-*CHI: no no no no no .
+*CHI: no .
 *MOT: you dont wanna do that now .
 *MOT: okay .
 *MOT: thats fine .
@@ -408,7 +400,6 @@
 *MOT: thats purple as well but its a lighter shade .
 *MOT: thats very dark purple .
 *CHI: drop .
-*MOT: and that>
 *MOT: thats more a lilac color isnt it ?
 *CHI: mm .
 *MOT: do you remember seeing some lilac growing on the trees ?
@@ -439,8 +430,6 @@
 *CHI: hm .
 *MOT: is this picture for Dimitra so she can take it back with her ?
 *CHI: more hatc .
-*MOT: more hatc .
-*CHI: two hatc .
 *MOT: two hatc .
 *MOT: is that a sort of green ?
 *MOT: thats right .
@@ -481,7 +470,7 @@
 *CHI: door .
 *MOT: theyre both for Mummy and theyre not very exciting .
 *CHI: all done .
-*MOT: I dont think well worry about that .
+*MOT: well worry about that .
 *CHI: all done .
 *MOT: the postmans very brave this morning .
 *MOT: it looks like its going to rain and hes wearing his shorts .
@@ -506,7 +495,6 @@
 *MOT: three .
 *MOT: four .
 *MOT: oh .
-*MOT: five six seven eight nine>
 *MOT: I cant count that quickly if youre putting them all in .
 *MOT: you tell Mummy as youre putting them in how many .
 *CHI: one .
@@ -558,13 +546,12 @@
 *CHI: blue .
 *CHI: Nin Nin  a blue .
 *MOT: its blue isnt it ?
-*MOT: weve one or two .
-*MOT: but we havent got pots the right white the right color
+*MOT: weve .
+*MOT: but we havent got pots the right color
 *MOT: what about putting the red one in the red pot ?
 *CHI: red pot .
 *MOT: the red one in the red pot ?
 *MOT: now weve got these blacks and browns and greys and white .
-*CHI: all done .
 *MOT: two shades of brown .
 *MOT: yes .
 *CHI: Nin Nin
@@ -589,7 +576,7 @@
 *MOT: an aeroplane ?
 *CHI: Nin Nin .
 *MOT: look at that .
-*MOT: one two three four five six seven colors of the rainbow .
+*MOT: seven colors of the rainbow .
 *MOT: can you use the brown pencil to write .
 *MOT: look .
 *MOT: we saw a rainbow in the sky didnt we ?
@@ -615,9 +602,8 @@
 *CHI: red yellow blue .
 *MOT: yes .
 *MOT: and it was a huge rainbow wasnt it ?
-*CHI: oh dear .
 *MOT: I think theres a little rhyme actually to help you remember the
-*MOT: I cant remember it .
+*MOT: remember it .
 *MOT: what is it ?
 *MOT: Richard of York .
 *MOT: so Richard would be red .
@@ -657,10 +643,9 @@
 *MOT: one more .
 *MOT: one .
 *MOT: ooh .
-*CHI: laughs .
 *MOT: that was a bit dramatic .
 *CHI: oh dear dear .
-*MOT: oh dear dear dear dear .
+*MOT: oh dear .
 *CHI: 0 .
 *MOT: ssh .
 *CHI: ah .
@@ -692,12 +677,11 @@
 *MOT: you dont wanna
 *MOT: I dont mind actually .
 *CHI: Nin Nin .
-*CHI: no no .
 *MOT: whats the matter ?
 *MOT: has something
 *CHI: no 0 .
 *MOT: has something happened while youve been painting that you don't
-*MOT: perhaps its because you dont like having a wash afterwards>
+*MOT: perhaps its because you dont like having
 *CHI: yellow .
 *MOT: you want yellow ?
 *MOT: ah .
@@ -711,14 +695,14 @@
 *MOT: if I mix these together I get orange .
 *CHI: yellow poc .
 *MOT: are you going to put your hands on my hands ?
-*CHI: oh no no no no .
+*CHI: oh no .
 *MOT: something has happened .
 *MOT: you youve just gone off it havent you ?
-*CHI: no no no no .
+*CHI: no .
 *MOT: hey ?
 *MOT: well Mummys sitting here silly now with paint on her hands .
 *MOT: now Im going to do a handprint .
-*MOT: its a Mummys wearing her bib
+*MOT: Mummys wearing her bib
 *MOT: hah .
 *MOT: oh dear .
 *MOT: Nin Nins handprint .
@@ -736,7 +720,6 @@
 *MOT: stuck again .
 *MOT: and a shiny side .
 *MOT: I dont know whether the paintll stick to the other side being so
-*CHI: ap stuck>
 *CHI: stuck .
 *MOT: stuck .
 *MOT: oh .
@@ -756,20 +739,19 @@
 *MOT: shall we do another one ?
 *CHI: wadac wadac .
 *MOT: youd like to do some more drawing ?
-*CHI: no no no no no .
+*CHI: no .
 *MOT: what would you like to do ?
 *MOT: no ?
 *MOT: theres no no way youre going to be drawing .
 *MOT: look at this .
 *MOT: ah .
 *MOT: oh .
-*CHI: oh dear .
-*MOT: no no no no .
+*MOT: no .
 *MOT: only draw on the paper .
 *CHI: oh dear .
 *MOT: whatre you going to draw ?
 *MOT: Mummy going to do another handprint to get this paint off .
-*MOT: I think I might go upstairs  Thomas  because we have a book>
+*MOT: I think I might go upstairs  Thomas because
 *CHI: Nin Nin .
 *CHI: all done .
 *MOT: all done .
@@ -795,9 +777,8 @@
 *MOT: Mr Middle .
 *MOT: Ruby Ring .
 *MOT: and Mr Small .
-*CHI: wee wee wee>
 *MOT: Mr Thumb .
-*MOT: are you saying wee wee wee>
+*MOT: are you saying
 *MOT: this little piggy went to market .
 *MOT: this little piggy went to market .
 *MOT: this you dont like my dirty hands do you ?
@@ -805,8 +786,7 @@
 *MOT: this little piggy had roastbeef and this little piggy had none .
 *MOT: this little piggy .
 *MOT: what did he say ?
-*CHI: wee wee wee>
-*MOT: wee wee wee wee .
+*MOT: wee .
 *MOT: all the way home .
 *MOT: all the way home .
 *MOT: oh poor Peggy and Mrs Linekear arent going to get these cards
@@ -824,12 +804,11 @@
 *MOT: clean hands !
 *CHI: ap this ?
 *CHI: watch .
-*MOT: Mummys ring .
 *MOT: Ive taken my watch off  Thomas .
 *CHI: all done wash .
 *MOT: Mummys just going to get a book  Thomas  with a picture of a
 *CHI: oops .
-*CHI: oh dear dear dear .
+*CHI: oh dear .
 *MOT: Noahs Ark .
 *CHI: Ark .
 *MOT: the Ark look .
@@ -870,12 +849,11 @@
 *CHI: jump jump .
 *MOT: jump jump .
 *MOT: right .
-*MOT: and the butterfly the butterfly flatters by .
+*MOT: and the butterfly flatters by .
 *MOT: we were watching Purdie yesterday outside .
 *MOT: she was looking at a butterfly on a leaf wasnt she ?
 *MOT: look at that .
 *MOT: the rainbow in the sky with the sun .
-*CHI: a rainbow>
 *MOT: whats this ?
 *MOT: a rainbow ?
 *MOT: the rainbow came out when the rain came down and the sun shone at
@@ -919,7 +897,7 @@
 *MOT: and a sheep .
 *CHI: baaao .
 *MOT: baao .
-*MOT: gently gently gently .
+*MOT: gently .
 *MOT: this is not a book you can have really on your own is it ?
 *MOT: because its not hardback .
 *MOT: eh not eh hard pages .
@@ -948,7 +926,6 @@
 *MOT: thats your Noahs Ark .
 *CHI: that .
 *MOT: thats where the animals go in two by two isnt it ?
-*CHI: going two by two>
 *MOT: and theyre all bright colors arent they ?
 *MOT: I think we need an extension of your table  Thomas .
 *CHI: gone two steps .
@@ -980,16 +957,14 @@
 *MOT: with a trunk .
 *MOT: I cant make the noise .
 *MOT: a polarbear .
-*MOT: a white polarbear .
+*MOT: polarbear .
 *CHI: a white .
 *MOT: a white polarbear .
 *CHI: 0 .
 *MOT: Im not quite sure what this is .
 *MOT: it could be a horse .
 *CHI: Nin Nin .
-*MOT: or a zebra .
 *CHI: Nin Nin
-*MOT: it could be a zebra .
 *CHI: 0 .
 *MOT: yes .
 *MOT: all your animals sound very much the same  Thomas .
@@ -1001,7 +976,7 @@
 *MOT: and what about the lion ?
 *MOT: what does the lion say ?
 *CHI: 0 .
-*CHI: a big the bear .
+*CHI: the bear .
 *MOT: a big bear .
 *MOT: and what does the bird say ?
 *CHI: cheep cheep .
@@ -1019,10 +994,9 @@
 *CHI: Nin Nin .
 *CHI: Nin Nin .
 *MOT: yes .
-*MOT: they go the other way round because they clip on there .
+*MOT: they go the other way round clip on there .
 *MOT: 0 .
 *MOT: oh now look whos coming .
-*CHI: ap Nana there .
 *MOT: no .
 *MOT: it was Purdie  Tom .
 *CHI: puss .
@@ -1052,7 +1026,7 @@
 *MOT: their favorite boy didnt they ?
 *MOT: did they come and see their favorite boy ?
 *MOT: and you didnt know they were coming did you ?
-*MOT: nice little surprise .
+*MOT: surprise .
 *CHI: Nana 0and Granddad .
 *CHI: Nin Nin .
 *MOT: yes .
@@ -1070,8 +1044,8 @@
 *CHI: Nin Nin .
 *MOT: yes  poppet .
 *MOT: the elephant going up and down the steps ?
-*CHI: no no no .
-*MOT: no no no .
+*CHI: no .
+*MOT: no .
 *MOT: thats Noah .
 *CHI: no Noah .
 *MOT: no Noah Noah .
@@ -1079,7 +1053,7 @@
 *MOT: Mr Noah is a man .
 *CHI: Nin Nin .
 *MOT: yes .
-*CHI: Nana Granddad ap steps .
+*CHI: ap steps .
 *MOT: steps .
 *MOT: and Mrs Noah is a lady .
 *CHI: Nin Nin .
@@ -1103,7 +1077,7 @@
 *MOT: oh gosh the lion has escaped .
 *CHI: 0 .
 *CHI: oh there .
-*MOT: no no no no .
+*MOT: no .
 *MOT: look .
 *MOT: therere the postman .
 *MOT: his red van .
@@ -1137,7 +1111,6 @@
 *MOT: one man .
 *MOT: one lady .
 *MOT: two people .
-*CHI: all done .
 *MOT: which one looks like Nana ?
 *CHI: Nana .
 *MOT: and which one looks like Granddad ?
@@ -1152,7 +1125,7 @@
 *MOT: poor Nana .
 *MOT: shes lying down in the boat and suddenly an elephant gets on top
 *CHI: oops oh dear .
-*MOT: it would be oops oh dear wouldnt it ?
+*MOT: oops oh dear wouldnt it ?
 *CHI: the boat .
 *CHI: a big boat .
 *MOT: a big boat .
@@ -1189,8 +1162,8 @@
 *MOT: whatre you doing ?
 *CHI: Nin Nin .
 *CHI: no .
-*CHI: no no no no .
-*MOT: no no no no .
+*CHI: no .
+*MOT: no .
 *CHI: oh dear .
 *CHI: a mess .
 *MOT: ah .
@@ -1201,7 +1174,6 @@
 *MOT: what about on this piece of paper we draw some blue for the sea .
 *CHI: Nin Nin .
 *MOT: and some fishes .
-*CHI: oh dear mess .
 *CHI: oh dear mess .
 *MOT: you keep that mess .
 *MOT: look .

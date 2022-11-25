@@ -78,7 +78,7 @@
 *MOT: it doesnt .
 *MOT: what does it spell ?
 *MOT: hen .
-*CHI: hen I]
+*CHI: hen .
 *MOT: thats right .
 *MOT: now which one ?
 *MOT: a sheep .
@@ -122,8 +122,8 @@
 *CHI: er Golden Girl ?
 *MOT: no .
 *MOT: its not .
-*MOT: its a ticking .
-*CHI: and Clever Cat .
+*MOT: its a .
+*CHI: Clever Cat .
 *MOT: which word letter do you think cat begins with then ?
 *MOT: so which letter does cat begin with ?
 *CHI: Clever Cat .
@@ -152,8 +152,7 @@
 *MOT: and then Eddy Elephant .
 *MOT: thats right .
 *MOT: right .
-*MOT: one two three four five six seven eight nine ten to go .
-*CHI: four five six seven eight nine ten R]
+*MOT: one two three to go .
 *MOT: which one would you like to do ?
 *CHI: er pig .
 *MOT: pig .
@@ -174,7 +173,7 @@
 *MOT: now which one ?
 *CHI: I wanna do er cow .
 *MOT: cow .
-*CHI: cow SR]
+*CHI: cow .
 *MOT: cow .
 *CHI: why are we not going for a picnic ?
 *MOT: we are .
@@ -215,7 +214,7 @@
 *MOT: do do do do do do dog ?
 *CHI: Eddy Elephant .
 *MOT: no not do do Eddy Elephant .
-*MOT: do do do dippy IN]
+*MOT: do do do dippy +..?
 *CHI: Dippy Duck .
 *MOT: Dippy Duck .
 *CHI: Dippy Duck .
@@ -224,9 +223,9 @@
 *CHI: er .
 *MOT: thats it .
 *MOT: and then an Oscar Orange and then a Golden Girl .
-*CHI: and then a Golden Girl I]
-*CHI: and then a Golden Girl SR]
-*MOT: what other letter what other word youve got out ends with
+*CHI: and then a Golden Girl .
+*CHI: and then a Golden Girl .
+*MOT: what other word youve got out ends with
 *CHI: lalalasi .
 *MOT: last letter .
 *MOT: can you see a Golden Girl anywhere on here ?
@@ -236,7 +235,7 @@
 *MOT: and whats this one called ?
 *MOT: this is a cart .
 *MOT: beginning with Clever Cat .
-*CHI: are they Clever Cats SR]
+*CHI: are they Clever Cats ?
 *CHI: 0 .
 *MOT: no .
 *MOT: no .
@@ -265,54 +264,53 @@
 *MOT: its a sticker that you put on there .
 *CHI: I havent .
 *MOT: you did .
-*CHI: I havent SR]
+*CHI: I havent .
 *CHI: stick it on your arm .
 *MOT: oh thanks a bunch .
 *CHI: pinch .
 *CHI: no .
 *CHI: dont .
-*CHI: weve got one two three four five six seven eight nine ten
-*CHI: which one do you wanna do now ?
+*CHI: weve got one two three four six seven eight nine ten
 *MOT: hey  Lara ?
 *MOT: whats three add one ?
 *CHI: 0 .
 *MOT: three .
-*CHI: add I]
+*CHI: add .
 *MOT: one .
-*CHI: one I]
+*CHI: one .
 *MOT: is no .
 *MOT: three .
 *CHI: add one .
 *MOT: is ?
 *MOT: count .
-*CHI: one two three four R]
+*CHI: one two three four .
 *MOT: oh .
 *MOT: well done .
 *MOT: so this is an even difficult more difficult one .
-*MOT: whats three IN]
+*MOT: whats three .
 *MOT: hold up three fingers .
 *MOT: three .
 *MOT: youve got five there .
 *MOT: three add two ?
 *MOT: one two .
-*MOT: whats IN]
+*MOT: whats ?
 *CHI: add four .
 *MOT: whats three add two then ?
 *MOT: youve got three add two is ?
 *CHI: four .
 *MOT: one .
-*CHI: two three four five R]
+*CHI: two three four five .
 *MOT: five .
 *MOT: clever girl .
 *CHI: I want Eddy Elephant .
 *MOT: okay .
-*MOT: lets find one thats IN]
+*MOT: lets find one thats .
 *CHI: I want Eddy Elephant today and I want Poor Peter and I want hairy
 *MOT: how about doing rabbit ?
 *MOT: thats got lots of letters in it .
-*CHI: rabbit I]
+*CHI: rabbit ?
 *MOT: right .
-*CHI: right SR]
+*CHI: right .
 *CHI: this one first .
 *MOT: no .
 *MOT: you hafta find the Robber Red first .
@@ -326,13 +324,13 @@
 *CHI: Ticking Kissing Tess .
 *MOT: Kissing Tes .
 *MOT: 0 .
-*CHI: kissing kissing SR]
+*CHI: kissing kissing .
 *CHI: no .
 *CHI: its kissing Tess .
-*CHI: Kissing Tess SR]
-*CHI: one two three four five six R]
-*CHI: one two three four five six seven R]
-*MOT: six R]
+*CHI: Kissing Tess .
+*CHI: one two three four five six .
+*CHI: one two three four five six seven .
+*MOT: six .
 *MOT: you are a banana head .
 *CHI: 0 .
 *MOT: 0 .
@@ -343,14 +341,13 @@
 *MOT: field ?
 *MOT: right .
 *MOT: this has got lots of letters .
-*MOT: so IN]
 *MOT: so you want Fireman Fred .
 *MOT: start it off and then Annie Apple .
 *MOT: no yes .
 *MOT: farmer farmer Annie Apple .
 *CHI: I dont know how to draw Annie Apple .
 *MOT: yes you do .
-*MOT: youre not IN]
+*MOT: youre not .
 *MOT: theres two Robber Reds so youll hafta choose one of them .
 *MOT: thats it .
 *MOT: Munching Mike .
@@ -378,14 +375,14 @@
 *CHI: I wanna do the truck .
 *MOT: the truck ?
 *MOT: okay .
-*CHI: no PI]
+*CHI: no .
 *MOT: well .
 *MOT: well do the truck first and then well do the duck .
 *MOT: you want a Ticking Tess and then a Robber Red .
 *MOT: thats not a Robber Red .
 *MOT: thats it .
 *MOT: and an Uppy Umbrella .
-*MOT: and then a IN]
+*MOT: and then a .
 *MOT: no .
 *MOT: no .
 *MOT: now you want a Clever Cat .
@@ -395,12 +392,11 @@
 *MOT: do you wanna do the duck now ?
 *CHI: I cant reach over there .
 *MOT: right .
-*MOT: so Dippy Duck begins duck begins with Dippy Duck .
+*MOT: so duck begins with Dippy Duck .
 *MOT: and then an Uppy Umbrella .
 *CHI: oh look .
 *MOT: yes .
-*MOT: but your Dippy Ducks the up way up .
-*CHI: oh look .
+*MOT: but your Dippy Ducks the .
 *MOT: what ?
 *MOT: oh .
 *MOT: I know .
@@ -413,15 +409,13 @@
 *CHI: look .
 *MOT: uhhuh .
 *MOT: Kicking King at the end .
-*CHI: Kicking King at the end I]
-*CHI: and Dippy Duck at the beginning .
 *MOT: now .
 *MOT: do you wanna do the last two or shall I do one and you do the other
 *CHI: I you do one and I do one .
 *MOT: do you wanna do the farmer or the goat ?
 *CHI: that one on top of there .
 *MOT: do you wanna do the farmer or the goat ?
-*CHI: the goat I]
+*CHI: the goat .
 *MOT: okay .
 *MOT: oh .
 *MOT: thank you .
@@ -438,12 +432,12 @@
 *CHI: are you going to get there first ?
 *MOT: Im already there .
 *MOT: its because I can spell .
-*CHI: I thats because I can spell I]
+*CHI: I thats because I can spell .
 *MOT: you cant spell yet .
 *MOT: youre nearly there though .
 *MOT: there .
 *MOT: now do you wanna do some more jigsaws or shall we do some exercises
-*CHI: er do some exercises R]
+*CHI: er do some exercises .
 *CHI: with my dress on .
 *CHI: and I go round and round and round with my dress on .
 *MOT: youll hafta take your shoes off though .
@@ -454,12 +448,12 @@
 *MOT: dont throw please .
 *MOT: right .
 *MOT: lets have some music .
-*CHI: I want I wanna put them over  out of our exercises .
+*CHI: I wanna put them over  out of our exercises .
 *CHI: thats why .
 *CHI: do the exercises .
 *CHI: round and round and round and round and round and round .
 *MOT: right .
-*CHI: round and round and round and round SR]
+*CHI: round and round and round and round .
 *MOT: well need a good exercises tape .
 *MOT: Nelly the elephant .
 *MOT: are you ready ?
@@ -488,7 +482,7 @@
 *MOT: are you getting dizzy ?
 *CHI: yes .
 *MOT: are you ?
-*CHI: fall over PI]
+*CHI: fall over .
 *MOT: now .
 *MOT: you hafta do this one .
 *MOT: then this one .
@@ -498,7 +492,7 @@
 *CHI: I wanna go round and round again .
 *MOT: okay .
 *MOT: you do the round and round and Ill do this marching one .
-*CHI: you do round and round and then Ill do PI]
+*CHI: you do round and round and then Ill do .
 *MOT: okay .
 *MOT: right .
 *MOT: this one .
@@ -509,23 +503,19 @@
 *MOT: like this .
 *MOT: alright ?
 *MOT: and the other one .
-*CHI: bouncing on the bed R]
+*CHI: bouncing on the bed .
 *MOT: right then .
-*CHI: bouncing on the bed R]
+*CHI: bouncing on the bed .
 *MOT: this one .
-*MOT: one two three four R]
-*CHI: five six seven IN]
-*MOT: one two three four R]
-*MOT: one two three four R]
-*CHI: one two three four R]
-*MOT: one two three four R]
+*MOT: one two three four .
+*MOT: one two three four .
 *MOT: okay ?
-*CHI: lets do shall we do some singing ?
+*CHI: shall we do some singing ?
 *MOT: okay .
 *CHI: put the exercises book down .
 *MOT: okay .
 *MOT: well .
-*MOT: this is a song you can do like this like this .
+*MOT: this is a song you can do like this .
 *MOT: do you wanna do them like this ?
 *MOT: thats a funny one  isnt it ?
 *MOT: hes a naughty caterpillar .
@@ -539,11 +529,11 @@
 *MOT: Im doing exercises .
 *CHI: I dont wanna do exercises .
 *CHI: no .
-*CHI: no SR]
-*CHI: long grass R]
+*CHI: no !
+*CHI: long grass .
 *MOT: dont what ?
-*CHI: long wavy grass R]
-*CHI: long wavy grass R]
+*CHI: long wavy grass .
+*CHI: long wavy grass .
 *CHI: 0 .
 *MOT: 0 .
 *CHI: have another one ?
@@ -560,21 +550,20 @@
 *CHI: does that fit there ?
 *MOT: thats right .
 *CHI: shall I see how it fits in ?
-*CHI: shall I see SR]
+*CHI: shall I see ?
 *MOT: mhm .
 *MOT: thats the wrong button to start it .
 *MOT: are you alright  sweetpea ?
 *CHI: I wanna do that one .
 *MOT: which one ?
 *MOT: weve done that one .
-*CHI: I wanna do that one .
-*MOT: that one .
+*CHI: I wanna do .
 *MOT: that one ?
 *MOT: the jigsaw clock ?
-*CHI: shall we both shall we both do each other ?
+*CHI: shall we both do each other ?
 *MOT: you want me to do the jigsaw part and you do that one ?
 *CHI: yes .
-*CHI: its just a not very long one ?
+*CHI: its just very long one ?
 *MOT: alright then .
 *CHI: no .
 *CHI: it isnt .
@@ -585,7 +574,7 @@
 *MOT: shall I wait until youve finished that one ?
 *CHI: yes .
 *MOT: let me get all the pieces out .
-*CHI: they had a pretend dog in they garden PI]
+*CHI: they had a pretend dog in they
 *MOT: who did ?
 *CHI: they did .
 *MOT: do you know any of these numbers ?
@@ -613,7 +602,7 @@
 *CHI: why is it ?
 *CHI: Amys teddy .
 *MOT: well .
-*MOT: if shes Amy IN]
+*MOT: if shes Amy
 *CHI: yes .
 *MOT: Amy can be Lara .
 *MOT: and if Im dad youre mum .
@@ -636,7 +625,7 @@
 *CHI: shes playing with it .
 *CHI: this is babys toy too .
 *CHI: no .
-*CHI: no SR]
+*CHI: no .
 *MOT: Lara .
 *MOT: Lara .
 *MOT: she cant hurt anything .
@@ -647,7 +636,7 @@
 *MOT: thank you .
 *CHI: theres your icecream as well .
 *CHI: were going home .
-*MOT: Im not going Im not going anywhere .
+*MOT: Im not going anywhere .
 *MOT: Im staying here .
 *MOT: this can be home .
 *CHI: thats the seaside .
@@ -672,7 +661,7 @@
 *CHI: chocolate lolly .
 *CHI: no .
 *CHI: its too big .
-*CHI: she wants IN]
+*CHI: she wants
 *CHI: no .
 *MOT: Lara .
 *MOT: she wont hurt it .
@@ -690,8 +679,6 @@
 *CHI: Amy out ?
 *MOT: yes .
 *MOT: but just stop running away from Amy .
-*CHI: thats your icecream .
-*MOT: Ive got one ?
 *MOT: thats yours .
 *CHI: no .
 *CHI: I let you have it .
@@ -722,10 +709,10 @@
 *CHI: its in the car park .
 *CHI: hello .
 *CHI: can Lara have a lollipop ?
-*CHI: because shes only got IN]
+*CHI: because shes only got .
 *CHI: shes in there .
 *CHI: can she have one ?
-*CHI: shes only got IN]
+*CHI: shes only got .
 *MOT: did you pay ?
 *MOT: good .
 *CHI: here you go .
@@ -735,12 +722,12 @@
 *CHI: there you go .
 *MOT: 0 .
 *MOT: Ive finished mine .
-*CHI: Ive finished mine I]
+*CHI: Ive finished mine .
 *MOT: shall we go for a walk ?
 *CHI: yes .
 *CHI: come on then .
 *CHI: no .
-*CHI: no SR]
+*CHI: no .
 *CHI: we at the seaside .
 *CHI: we 0are at home .
 *CHI: so weve got to go to somewhere else .
@@ -748,8 +735,8 @@
 *MOT: why dont you take Amy for a swim ?
 *MOT: why dont you take Lara for a swim  mummy ?
 *CHI: come on .
-*CHI: for a swim I]
-*CHI: for a swim SR]
+*CHI: for a swim .
+*CHI: for a swim .
 *MOT: come and have a swim in here .
 *CHI: oh .
 *MOT: and Amy .
@@ -779,12 +766,12 @@
 *MOT: okay .
 *CHI: and Laras .
 *MOT: Ive got mine on .
-*CHI: Ive got mine on I]
+*CHI: Ive got mine on .
 *CHI: this is very big .
 *CHI: right .
 *MOT: is that your swimming costume ?
 *MOT: Amy !
-*CHI: Amy I]
+*CHI: Amy !
 *CHI: 0 .
 *MOT: Amy .
 *AMY: 0 .
@@ -794,32 +781,30 @@
 *AMY: 0 .
 *CHI: Im mum .
 *MOT: Amy .
-*CHI: daddies and mummies swimming costume PI]
+*CHI: daddies and mummies swimming costume .
 *MOT: what about old swimming costumes ?
 *CHI: here .
 *MOT: are they ?
-*MOT: why have we got why have we taken old swimming costumes ?
+*MOT: why have we taken old swimming costumes ?
 *MOT: dont we want our new ones ?
-*CHI: well these are babys and PI]
+*CHI: well these are babys and .
 *CHI: baby baby .
 *CHI: put yours on .
 *CHI: no .
-*CHI: no SR]
+*CHI: no .
 *CHI: not allowed these .
 *CHI: youre not allowed these .
 *CHI: going to get some out for baby .
-*CHI: for Amy PI]
+*CHI: for Amy .
 *CHI: there .
 *MOT: 0 .
 *CHI: take her clothes off .
-*CHI: take her clothes off SR]
+*CHI: take her clothes off .
 *MOT: Ive got my swimming costume on .
-*CHI: I got IN]
+*CHI: I got .
 *MOT: Im all ready .
-*CHI: Ive got my swimming costume on I]
-*CHI: Im all ready I]
-*CHI: swim swim swim swim .
-*MOT: swim swim swim swim .
+*CHI: Ive got my swimming costume on .
+*CHI: Im all ready .
 *MOT: splish splash splish splash .
 *MOT: are you tired  Lara ?
 *CHI: no .
@@ -837,10 +822,10 @@
 *MOT: quick quick .
 *CHI: quick quick quick .
 *CHI: take your swimming costume off .
-*CHI: take your swimming costume off SR]
-*CHI: take your swimming costume off SR]
+*CHI: take your swimming costume off .
+*CHI: take your swimming costume off .
 *CHI: quick quick quick .
-*CHI: take your swimming costume off SR]
+*CHI: take your swimming costume off .
 *MOT: I have .
 *MOT: Im all ready .
 *MOT: Im waiting for you lot .
@@ -860,7 +845,7 @@
 *MOT: shes walking .
 *CHI: quick quick quick .
 *MOT: 0 .
-*CHI: quick quick quick SR]
+*CHI: quick quick quick .
 *MOT: up you get again .
 *AMY: 0 .
 *MOT: 0 .
@@ -872,9 +857,9 @@
 *CHI: quick quick quick quick .
 *CHI: quick quick quick .
 *CHI: turn it over quick .
-*CHI: quick quick SR]
+*CHI: quick quick .
 *CHI: we pull it shut .
-*CHI: quick quick quick quick quick quick quick SR]
+*CHI: quick quick quick quick quick quick quick .
 *CHI: oh .
 *MOT: is it shut now ?
 *MOT: hang on  Amy .
@@ -882,7 +867,7 @@
 *MOT: woo !
 *MOT: 0 .
 *CHI: now she can go .
-*CHI: now she can go SR]
+*CHI: now she can go .
 *MOT: now she can go .
 *MOT: yes .
 *CHI: we 0are at home now .
@@ -893,7 +878,7 @@
 *MOT: no .
 *MOT: this is home now for us .
 *MOT: and you if youre mummy youve got to make dinner .
-*CHI: quick quick SR]
+*CHI: quick quick .
 *CHI: Im at home now .
 *MOT: er okay .
 *MOT: park the pram then and make dinner .
@@ -906,7 +891,7 @@
 *CHI: I will get baby out .
 *MOT: okay .
 *MOT: well park the pram over there .
-*MOT: in the where it sposta go there and then its not in Amy's
+*MOT: where it sposta go there and then its not in Amy's
 *MOT: isnt she clever ?
 *MOT: isnt she ?
 *CHI: babys going to sleep .
@@ -924,8 +909,7 @@
 *MOT: Amy Lara can go to the shop  look  with her toddle trolley .
 *MOT: Lara and Abi will go to the shop and get some milk .
 *CHI: thats Lara though .
-*MOT: I know .
-*CHI: shes got pretty dress on .
+*CHI: shes .
 *MOT: shes walking  isnt she ?
 *CHI: 0 .
 *MOT: 0 .
@@ -954,12 +938,11 @@
 *MOT: sorry  Lara .
 *CHI: Im holding baby .
 *MOT: oh .
-*MOT: you need a wee wee .
-*CHI: do you wanna see baby ?
+*MOT: you .
 *MOT: oh .
 *MOT: thats Amy  isnt it ?
 *MOT: baby Amy .
-*CHI: Amy SR]
+*CHI: Amy .
 *MOT: round and round Lara goes with her toddle trolley .
 *MOT: mummys in the way .
 *MOT: theres going to be a crash .
@@ -988,7 +971,7 @@
 *AMY: 0 .
 *MOT: 0 .
 *CHI: 0 .
-*MOT: now shes pretending to be IN]
+*MOT: now shes pretending to be .
 *AMY: 0 .
 *MOT: 0 .
 *MOT: pretending to be a car .
@@ -1005,12 +988,11 @@
 *MOT: I know but theres no room .
 *MOT: theres not enough room .
 *MOT: because Im helping her round .
-*CHI: she IN]
+*CHI: she .
 *MOT: no .
 *MOT: because Im helping her round .
 *MOT: and I wont be able to reach over you .
-*MOT: you sit on my knee here and I might be able to do it .
-*CHI: Ill sit here .
+*MOT: you sit on my knee here and .
 *MOT: I cant get past .
 *CHI: no .
 *CHI: Im mum !
@@ -1019,11 +1001,11 @@
 *MOT: mummy sits on daddys knee .
 *CHI: no she doesnt .
 *MOT: yes she does .
-*CHI: no she doesnt SR]
+*CHI: no she doesnt !
 *MOT: yes she does .
-*CHI: no she doesnt SR]
+*CHI: no she doesnt .
 *MOT: yes she does .
-*CHI: no she doesnt SR]
+*CHI: no she doesnt .
 *MOT: why not ?
 *CHI: because she doesnt .
 *CHI: shes asleep now .
@@ -1038,7 +1020,7 @@
 *MOT: 0 .
 *MOT: do you think we should go round a different way now  Amy ?
 *CHI: Lara .
-*CHI: Amys in asleep PI]
+*CHI: Amys in asleep .
 *MOT: sorry .
 *AMY: 0 .
 *MOT: do you think we should go round a different way  Lara ?
@@ -1056,14 +1038,14 @@
 *MOT: 0 .
 *MOT: is she ?
 *MOT: I wouldnt do that  Lara .
-*MOT: otherwise you might IN]
-*MOT: I think youre gonna fall on her PI]
+*MOT: otherwise you might .
+*MOT: I think youre gonna
 *AMY: 0 .
 *CHI: 0 .
 *MOT: 0 .
 *CHI: can I sit there ?
 *MOT: oh careful .
-*CHI: can I sit there SR]
+*CHI: can I sit there ?
 *MOT: sit where ?
 *CHI: in the middle ?
 *MOT: yes .
@@ -1102,8 +1084,8 @@
 *MOT: thats better .
 *CHI: Ill just carry baby around .
 *CHI: shes awake .
-*CHI: shes awake SR]
-*CHI: shes awake SR]
+*CHI: shes awake .
+*CHI: shes awake .
 *MOT: 0 .
 *AMY: 0 .
 *CHI: 0 .
@@ -1114,10 +1096,10 @@
 *CHI: bobobobobob .
 *CHI: lets go and see the seaside .
 *CHI: its lovely at the seaside .
-*CHI: its lovely at the seaside SR]
+*CHI: its lovely at the seaside .
 *CHI: were going to the seaside .
 *MOT: I think thats enough  Amy .
-*MOT: I think youre gonna be IN]
+*MOT: I think youre gonna
 *CHI: Lara .
 *MOT: Lara .
 *MOT: I think thats enough walking .
@@ -1127,7 +1109,7 @@
 *MOT: whatre you doing now ?
 *MOT: are you gonna go round ?
 *MOT: 0 .
-*CHI: Ill PI]
+*CHI: Ill .
 *MOT: oh .
 *MOT: Amys trying to follow you .
 *MOT: quick quick .
@@ -1137,10 +1119,9 @@
 *MOT: oh no no no no .
 *MOT: put it down down quickly .
 *CHI: 0 .
-*CHI: ready steady go .
-*MOT: go .
+*CHI: ready steady .
 *CHI: woo .
-*CHI: its going to PI]
+*CHI: its going to .
 *CHI: 0 .
 *CHI: bobobobobobob .
 *CHI: why cant you go on the fireplace ?
@@ -1169,10 +1150,10 @@
 *CHI: oh .
 *CHI: it must be  in my toy box somewhere .
 *MOT: pardon ?
-*CHI: must be in my toybox somewhere SR]
+*CHI: must be in my toybox somewhere .
 *MOT: alright then .
 *CHI: excuse me .
-*CHI: excuse me SR]
+*CHI: excuse me .
 *CHI: shes trying to park it .
 *MOT: she is trying to park it .
 *MOT: shes gonna fall .
@@ -1184,7 +1165,7 @@
 *CHI: 0 .
 *MOT: what are you doing ?
 *CHI: excuse me .
-*CHI: what are you doing  Lara I]
+*CHI: what are you doing  Lara ?
 *MOT: 0 .
 *MOT: no no no no .
 *MOT: no no .
@@ -1198,7 +1179,7 @@
 *MOT: 0 .
 *MOT: she wants to go I think .
 *CHI: 0 .
-*MOT: I think I think the problem is  Amy that youre the wrong
+*MOT: I think the problem is  Amy that youre the wrong
 *MOT: I think you wanna be this side  dont you ?
 *CHI: excuse me .
 *CHI: I want 0to push it .
@@ -1218,8 +1199,8 @@
 *MOT: Ill push Lara with her trolley .
 *CHI: 0 .
 *CHI: this way  Lara .
-*CHI: this way SR]
-*CHI: this way SR]
+*CHI: this way .
+*CHI: this way .
 *MOT: ouch .
 *MOT: careful .
 *CHI: sorry .
@@ -1227,7 +1208,7 @@
 *MOT: dont push her .
 *MOT: Lara .
 *MOT: leave her .
-*MOT: if shes IN]
+*MOT: if she's
 *MOT: are you going to sleep ?
 *CHI: do you wanna sleep there ?
 *MOT: uhhuh .
@@ -1238,7 +1219,7 @@
 *CHI: Im sleeping somewhere else .
 *MOT: why ?
 *CHI: because I am .
-*CHI: mummy and daddy PI]
+*CHI: mummy and daddy .
 *CHI: do you wanna come on the bed ?
 *MOT: er I think I better clear up this mess that Laras made .
 *MOT: dont you ?
@@ -1248,7 +1229,7 @@
 *CHI: because shes a bit knackered .
 *MOT: 0 .
 *MOT: shes what ?
-*CHI: bit knackered SR]
+*CHI: bit knackered .
 *CHI: 0 .
 *MOT: does mum want dad to ready her a story ?
 *CHI: pardon ?
@@ -1258,7 +1239,7 @@
 *MOT: does mum want dad to read her a story ?
 *MOT: no ?
 *MOT: are you really tired or are you just pretending ?
-*CHI: pretending I]
+*CHI: pretending .
 *MOT: okay .
 *CHI: oh wake time .
 *CHI: you didnt have a sleep .
@@ -1299,9 +1280,9 @@
 *CHI: hello .
 *CHI: now .
 *CHI: toast .
-*CHI: toast SR]
+*CHI: toast .
 *CHI: toaster .
-*CHI: toaster SR]
+*CHI: toaster .
 *CHI: here we are .
 *CHI: get some kitchen roll .
 *CHI: there .
@@ -1317,7 +1298,7 @@
 *CHI: its all wet .
 *CHI: tissue .
 *CHI: there .
-*CHI: there SR]
+*CHI: there .
 *CHI: Im cleaning this up .
 *CHI: theres some coming through .
 *MOT: oh .
@@ -1328,7 +1309,7 @@
 *MOT: youre a funny old baby  Amy R .
 *AMY: 0 .
 *MOT: what do you wanna do now ?
-*CHI: shall we shall we play with Lara ?
+*CHI: shall we play with Lara ?
 *MOT: yes lets play with Lara .
 *CHI: oh .
 *CHI: and Amy because shes awake .
@@ -1371,7 +1352,6 @@
 *MOT: wheres Amys highchair ?
 *CHI: its er behind you .
 *MOT: okay .
-*CHI: shall I put you hold IN]
 *MOT: mind my coffee .
 *CHI: you hold that .
 *MOT: oh okay .
@@ -1383,8 +1363,8 @@
 *MOT: oh alright then .
 *MOT: oh .
 *MOT: oh dear .
-*CHI: oh dear I]
-*MOT: dont IN]
+*CHI: oh dear .
+*MOT: dont .
 *CHI: alright ?
 *CHI: alright .
 *CHI: I can do it .
@@ -1397,9 +1377,9 @@
 *CHI: come on .
 *MOT: oh .
 *MOT: I bet she does .
-*CHI: she does I]
+*CHI: she does .
 *MOT: Amy usually eats all her breakfast .
-*CHI: she does SR]
+*CHI: she does .
 *CHI: she wants her drink .
 *CHI: thats what the problem is .
 *MOT: Amy .
@@ -1460,7 +1440,7 @@
 *MOT: hooray .
 *CHI: oh look .
 *MOT: what ?
-*CHI: look SR]
+*CHI: look .
 *MOT: ugh .
 *CHI: what is it ?
 *MOT: er just dirt I think .
@@ -1486,10 +1466,10 @@
 *CHI: babys crying .
 *MOT: oh .
 *MOT: shes got hiccups .
-*CHI: babys crying SR]
+*CHI: babys crying .
 *MOT: youve got hiccups  sweetheart .
 *CHI: Amys crying .
-*CHI: Amys crying SR]
+*CHI: Amys crying .
 *MOT: well .
 *MOT: you better pick her up then .
 *MOT: Im dealing with Lara .
@@ -1510,7 +1490,7 @@
 *CHI: no .
 *MOT: pardon ?
 *CHI: bed .
-*MOT: its lying in the dwarfs bed PI]
+*MOT: its lying in the dwarfs bed .
 *CHI: drill drill .
 *CHI: theyve got their boots on .
 *MOT: they drill .
@@ -1539,7 +1519,7 @@
 *MOT: put your head on my shoulder .
 *MOT: thats it .
 *MOT: thats nice .
-*MOT: there was once a queen R]
+*MOT: there was once a queen .
 *MOT: no .
 *MOT: dont do that .
 *MOT: are you gonna listen to the story or not ?
@@ -1548,57 +1528,57 @@
 *CHI: wanna sit up .
 *MOT: 0 .
 *MOT: there was once a queen who pricked her finger as she sat sewing one
-*MOT: she looked at the drop of blood which fell from her hand R]
-*MOT: she said R]
+*MOT: she looked at the drop of blood which fell from her hand .
+*MOT: she said +"/.
 *MOT: how I would like a little daughter with skin as pure as the snow
-*MOT: lips as red as blood and hair as black as a window frame R]
+*MOT: lips as red as blood and hair as black as a window frame .
 *MOT: when a little girl was born thats just how she looked so she was
-*MOT: but before IN]
+*MOT: but before .
 *CHI: that girl ?
 *MOT: pardon ?
-*CHI: that girl SR]
+*CHI: that girl ?
 *MOT: that girl .
 *MOT: yes .
 *MOT: called Snow White .
-*MOT: but before long the queen died and the king married again R]
-*MOT: the new queen was very beautiful but very vain R]
-*MOT: and she would look in her magic mirror and ask R]
-*MOT: mirror mirror on the wall R]
-*MOT: who is the fairest of us all R]
+*MOT: but before long the queen died and the king married again .
+*MOT: the new queen was very beautiful but very vain .
+*MOT: and she would look in her magic mirror and ask +"/.
+*MOT: mirror mirror on the wall .
+*MOT: who is the fairest of us all ?
 *MOT: she was very pleased when the magic mirror answered thou oh queen
 *MOT: what was that ?
 *CHI: neenawo .
 *MOT: neenawo .
 *MOT: but as Snow White grew up she became more and more beautiful and
-*MOT: one day she asked her mirror R]
-*MOT: mirror mirror on the wall R]
-*MOT: who is the fairest of us all R]
-*MOT: and was furious at the reply R]
-*MOT: Snow White is the fairest of them all R]
+*MOT: one day she asked her mirror +"/.
+*MOT: mirror mirror on the wall .
+*MOT: who is the fairest of us all ?
+*MOT: and was furious at the reply .
+*MOT: Snow White is the fairest of them all .
 *CHI: whos that ?
 *MOT: thats the huntsman .
 *MOT: she told the huntsman to take the little girl into the forest and
 *MOT: the huntsman was a kind man and decided not to do as he was ordered
-*MOT: he took Snow White into the forest and left her there R]
-*MOT: warning her not to go back to the palace R]
+*MOT: he took Snow White into the forest and left her there .
+*MOT: warning her not to go back to the palace .
 *MOT: Snow White was very frightened at first but the animals she met
 *MOT: it was growing dusk when Snow White came to a little cottage among
-*MOT: perhaps someone will let me stay the night here R]
-*MOT: said Snow White R]
-*MOT: it looked such a friendly little cottage R]
-*MOT: that she walked boldly up the path and tapped on the door R]
+*MOT: perhaps someone will let me stay the night here .
+*MOT: said Snow White +".
+*MOT: it looked such a friendly little cottage .
+*MOT: that she walked boldly up the path and tapped on the door .
 *MOT: no one answered so Snow White finding the door unlocked steeped
-*MOT: the cottage inside was just as pretty inside as outside R]
-*MOT: Snow White found seven little chairs drawn up to the table R]
-*MOT: and seven little beds neatly arranged in a row R]
-*MOT: this cottage must belong to seven very small people R]
-*MOT: thought Snow White R]
-*MOT: perhaps they will be kind to a little girl R]
+*MOT: the cottage inside was just as pretty inside as outside .
+*MOT: Snow White found seven little chairs drawn up to the table .
+*MOT: and seven little beds neatly arranged in a row .
+*MOT: this cottage must belong to seven very small people .
+*MOT: thought Snow White +".
+*MOT: perhaps they will be kind to a little girl .
 *MOT: she took a tiny piece of bread from each plate and a tiny piece of
-*MOT: then she took a sip took a sip of milk from each mug .
+*MOT: then she took a sip of milk from each mug .
 *CHI: theres horse .
 *MOT: no .
-*MOT: thats a rein thats a deer .
+*MOT: thats a deer .
 *CHI: theres Tilly .
 *MOT: thats not Tilly .
 *MOT: thats a rabbit .
@@ -1607,18 +1587,18 @@
 *MOT: thats a bird .
 *MOT: feeling weary after a day in the forest she curled up on one of the
 *MOT: now the cottage belonged to seven dwarves who spent their days
-*MOT: every morning IN]
-*CHI: nearby I]
+*MOT: every morning .
+*CHI: nearby .
 *MOT: nearby .
-*CHI: nearby SR]
+*CHI: nearby .
 *MOT: every morning they went forth with their picks and their shovels
 *MOT: and every evening they lighted their lanterns and came back to
 *MOT: when they arrived that night they saw at once that somebody had
 *MOT: they looked around and soon discovered Snow White asleep in bed .
 *MOT: how beautiful she is ?
-*MOT: whispered one R]
+*MOT: whispered one +".
 *MOT: shall we wake her ?
-*MOT: asked another R]
+*MOT: asked another +".
 *MOT: their voices roused Snow White and she sat up in bed looking in
 *CHI: hes bought a lamp .
 *MOT: hes got his lamp .
@@ -1632,14 +1612,14 @@
 *MOT: in our bed ?
 *CHI: my bed is here .
 *MOT: my bed is here .
-*CHI: my bed is here SR]
+*CHI: my bed is here .
 *CHI: Im having my duvet .
 *MOT: okay .
 *CHI: do you want some of my duvet ?
 *MOT: mhm .
 *CHI: its very big .
 *CHI: I 0have got to have my duvet all by myself .
-*CHI: Im a bit IN]
+*CHI: Im a bit
 *CHI: I 0have have my duvet all by myself .
 *MOT: okay .
 *CHI: you can get your own duvet .
@@ -1659,23 +1639,21 @@
 *CHI: my duvet here .
 *CHI: Im a bit stuck here .
 *CHI: you cant be stuck here  can you ?
-*CHI: cant be stuck here SR]
+*CHI: cant be stuck here .
 *CHI: thats sposta go there .
-*CHI: its sposta IN]
+*CHI: its sposta .
 *CHI: oh .
 *CHI: I need a pillow .
 *CHI: youve got a pillow  havent you ?
 *MOT: mhm .
-*CHI: I need a pillow SR]
+*CHI: I need a pillow .
 *CHI: oh oh oh oh oh oh oh .
 *CHI: you are at my house  arent you ?
 *MOT: mhm .
 *CHI: wake time .
-*CHI: its wake time SR]
+*CHI: its wake time .
 *CHI: its wakypooc time .
-*CHI: its wakypooc SR]
-*CHI: wakypooc SR]
-*CHI: wakypooc SR]
+*CHI: its waky+poo@c
 *CHI: tickly tickly .
 *MOT: oh no .
 *MOT: five minutes .
@@ -1684,7 +1662,7 @@
 *CHI: no .
 *CHI: its wake time now .
 *CHI: you can make me my breakfast and bring it to me in bed .
-*CHI: no SR]
+*CHI: no .
 *CHI: youre not poorly .
 *MOT: no .
 *MOT: Im just tired .
@@ -1701,16 +1679,15 @@
 *MOT: yes .
 *CHI: can I take this off ?
 *CHI: I taked it off .
-*CHI: I taked it off SR]
+*CHI: I taked
 *MOT: well done .
 *CHI: twenty forty eight .
-*CHI: twenty forty eighty SR]
-*CHI: its twenty forty eighty SR]
+*CHI: twenty forty eighty .
+*CHI: its twenty forty eighty .
 *MOT: is it ?
 *CHI: twenty ninety .
 *CHI: no no .
 *CHI: I 0have tie it on here first .
-*CHI: so IN]
 *MOT: okay ?
 *MOT: all done ?
 *CHI: 0 .
@@ -1744,10 +1721,10 @@
 *MOT: uhhuh .
 *CHI: and then  you hafta jump there .
 *CHI: then you hafta get get there again .
-*CHI: and then you hafta oh er IN]
+*CHI: and then you hafta oh &-er
 *CHI: do that .
 *CHI: thats how Cinderella does .
-*CHI: that how Cinderella does SR]
+*CHI: that how Cinderella does .
 *MOT: is it ?
 *MOT: right .
 *CHI: kick the cushion off .
@@ -1795,9 +1772,9 @@
 *CHI: let me see .
 *MOT: its open to six oclock .
 *CHI: six oclock its open .
-*CHI: six oclock its open SR]
-*CHI: six oclock its open SR]
-*CHI: six oclock its open SR]
+*CHI: six oclock its open .
+*CHI: six oclock its open .
+*CHI: six oclock its open .
 *CHI: there we go .
 *MOT: its open before six oclock .
 *CHI: jump .
@@ -1824,53 +1801,52 @@
 *CHI: I needta climb .
 *CHI: wheres ball gone ?
 *CHI: wheres the ball gone ?
-*CHI: wheres the ball gone SR]
+*CHI: wheres the ball gone ?
 *MOT: I dont know .
 *CHI: where is it ?
-*CHI: where is it SR]
+*CHI: where is it ?
 *CHI: Jebba .
 *MOT: its over there .
-*CHI: Jebba SR]
 *CHI: wheres the ball gone  Jebba ?
 *MOT: hey ?
-*CHI: wheres the ball gone  Jebba SR]
+*CHI: wheres the ball gone  Jebba ?
 *MOT: Jebba ?
 *MOT: whos Jebba ?
-*CHI: Jebba SR]
+*CHI: Jebba .
 *MOT: I wonder what that is ?
 *CHI: what ?
-*MOT: do you know IN]
+*MOT: do you know .
 *CHI: Jebba ?
 *MOT: yes .
 *CHI: wheres the ball gone ?
 *MOT: I dont know .
-*CHI: Jebba SR]
+*CHI: Jebba ?
 *MOT: Im not Jebba .
 *MOT: Im Im either daddy or Im mummy .
-*CHI: Jebba SR]
-*CHI: Jebba SR]
+*CHI: Jebba ?
+*CHI: Jebba ?
 *MOT: stop calling me different names .
 *CHI: Jebba .
 *CHI: can you get the ball ?
 *MOT: I dont know who youre talking to .
-*CHI: Jebba SR]
-*CHI: Jebba SR]
-*CHI: can you get the ball SR]
+*CHI: Jebba .
+*CHI: Jebba .
+*CHI: can you get the ball ?
 *MOT: you get it .
-*CHI: you get it I]
+*CHI: you get it .
 *MOT: you get it .
 *CHI: no .
 *CHI: I cant .
 *MOT: why not ?
 *CHI: because Im not near to it .
 *MOT: you are .
-*CHI: not SR]
+*CHI: not .
 *MOT: are .
-*CHI: Im not SR]
+*CHI: Im not .
 *MOT: are .
-*CHI: Im not SR]
+*CHI: Im not .
 *MOT: are .
-*CHI: Im not SR]
+*CHI: Im not .
 *MOT: are .
 *CHI: Im Im not now .
 *MOT: no youre not now but you were before so you can go and get it .
@@ -1896,7 +1872,7 @@
 *MOT: no .
 *MOT: I dont .
 *CHI: get I dont .
-*MOT: well PI]
+*MOT: well .
 *MOT: ouch .
 *MOT: that hurt .
 *CHI: 0 .
@@ -1906,7 +1882,7 @@
 *MOT: youre being ever so bad tempered today .
 *MOT: are you tired ?
 *CHI: no .
-*CHI: why is your PI]
+*CHI: why is your ?
 *CHI: why is it like that ?
 *CHI: 0 .
 *MOT: so you can tickle it .
@@ -1914,8 +1890,6 @@
 *MOT: on your head .
 *CHI: babys awake now .
 *MOT: I bet she is .
-*MOT: all that banging .
-*CHI: you woke her up .
 *MOT: you woke her up .
 *CHI: hisses .
 *CHI: now shes got dead .
@@ -1928,14 +1902,14 @@
 *MOT: you are a right madam today .
 *MOT: I dont think well be able to go swimming if youre like this .
 *CHI: I do wanna go .
-*CHI: I do wanna go SR]
+*CHI: I do wanna go .
 *MOT: you do wanna go ?
 *MOT: are you going to be a big girl ?
 *CHI: yes .
 *MOT: youre tired  arent you ?
 *CHI: no .
 *MOT: you are .
-*CHI: no SR]
+*CHI: no .
 *MOT: you are .
 *MOT: youre being all tired today .
 *CHI: Im not .

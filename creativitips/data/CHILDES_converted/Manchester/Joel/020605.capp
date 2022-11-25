@@ -132,8 +132,6 @@
 *CHI: no .
 *MOT: oh .
 *INV: I wanna see the drill .
-*MOT: your drills really brilliant  isnt it ?
-*INV: can I see the drill .
 *CHI: no .
 *CHI: lets go upstairs and Caroline see my pictures .
 *MOT: no .
@@ -207,7 +205,6 @@
 *CHI: tickle tickle .
 *MOT: mind your eyes .
 *MOT: oh .
-*MOT: you got me .
 *CHI: look .
 *CHI: drill  Caroline .
 *INV: yes .
@@ -266,8 +263,6 @@
 *CHI: I make some fresh air .
 *INV: pardon ?
 *CHI: I make some fresh air .
-*MOT: make some fresh air ?
-*INV: make some fresh air ?
 *MOT: there  look .
 *MOT: screwdriver .
 *CHI: yeah .
@@ -333,7 +328,6 @@
 *MOT: can you play .
 *INV: no .
 *INV: we cant go upstairs yet .
-*MOT: can you show Caroline your Noddy phone ?
 *INV: lets see your Noddy phone please .
 *MOT: come on .
 *MOT: its really good that .
@@ -745,7 +739,6 @@
 *MOT: can I have your hand please .
 *MOT: its a bit &-um
 *CHI: upstairs .
-*INV: lets go upstairs ?
 *INV: in a minute .
 *MOT: what else is there ?
 *MOT: hey .
@@ -792,7 +785,7 @@
 *MOT: yeah .
 *MOT: whats it in ?
 *CHI: dont know .
-*MOT: whats this whats this box called ?
+*MOT: whats this box called ?
 *CHI: lunchbox .
 *MOT: thats right .
 *CHI: lunchbox .
@@ -851,7 +844,6 @@
 *CHI: I putting in it .
 *CHI: put in the freezer .
 *MOT: are you gonna put it in the freezer ?
-*INV: put it in the freezer .
 *MOT: will that cool it down a bit ?
 *CHI: yeah .
 *CHI: cooled now .
@@ -873,7 +865,6 @@
 *INV: its in here .
 *MOT: although I dont suppose it really matters .
 *MOT: because .
-*INV: take them off anyway .
 *CHI: get his shirts  Mummy .
 *MOT: is that his shirt ?
 *CHI: hes lost it .
@@ -1094,7 +1085,7 @@
 *CHI: there .
 *CHI: Im in the bath .
 *MOT: www .
-*CHI: I want I want some bubblebath .
+*CHI: I want some bubblebath .
 *MOT: www .
 *MOT: do you want some bubblebath ?
 *CHI: yeah .
@@ -1168,7 +1159,6 @@
 *CHI: I go have a fag .
 *MOT: no .
 *MOT: youre not .
-*MOT: theyre dirty .
 *CHI: I got a fag .
 *INV: you dont wanna do that .
 *INV: thats naughty .
@@ -1228,10 +1218,8 @@
 *INV: thank you .
 *CHI: here you are .
 *INV: no .
-*INV: let me just .
 *MOT: no .
 *MOT: Caroline doesnt really want one .
-*MOT: a look at the picture thats all .
 *INV: what is it ?
 *INV: tiger ?
 *INV: it was .
@@ -1348,7 +1336,7 @@
 *INV: take this one off as well ?
 *CHI: yeah .
 *MOT: freezing .
-*INV: pass me that little that little tin with the yellow top .
+*INV: pass me that little tin with the yellow top .
 *INV: please .
 *CHI: where ?
 *MOT: with the clothes in .

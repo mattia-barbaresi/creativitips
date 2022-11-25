@@ -21,7 +21,7 @@
 *MOT: the train fell over ?
 *CHI: yes .
 *MOT: you busy playing with coat hangers ?
-*MOT: we bought you some more clothes today havent we ?
+*MOT: you some more clothes today havent we ?
 *CHI: no .
 *CHI: bang head .
 *CHI: not open here .
@@ -38,7 +38,7 @@
 *CHI: oh lie down .
 *MOT: oh Reverend Tims .
 *MOT: yes .
-*MOT: thats did we say that was one of the Postman Pat characters
+*MOT: did we say that was one of the Postman Pat characters
 *MOT: Reverand Tim ?
 *CHI: yes .
 *CHI: bump head .
@@ -63,7 +63,6 @@
 *MOT: weve got some new trousers havent we ?
 *MOT: what are you doing ?
 *MOT: swinging on the lampshade ?
-*CHI: get out .
 *MOT: youre a cheeky boy .
 *MOT: thats what you are .
 *MOT: no  Thomas .
@@ -81,7 +80,7 @@
 *MOT: no .
 *MOT: its a lightbulb .
 *CHI: not lightbulb .
-*CHI: look at it .
+*CHI: it .
 *CHI: up in the air .
 *MOT: Im looking at it .
 *MOT: yes .
@@ -122,7 +121,7 @@
 *CHI: ah .
 *CHI: no kiss .
 *CHI: no kiss .
-*MOT: no kiss no kiss ?
+*MOT: no kiss ?
 *MOT: ah .
 *MOT: do you not like kissing Mummy ?
 *CHI: no .
@@ -161,13 +160,11 @@
 *MOT: you quite alright ?
 *MOT: oh I think Mummy is going to make herself a cup of coffee .
 *CHI: hey .
-*CHI: ap there ap there .
+*CHI: ap there .
 *CHI: no .
-*CHI: ap there>
 *MOT: what would you like ?
 *MOT: a coat hanger ?
 *CHI: no .
-*CHI: ap there>
 *MOT: a coat hanger ?
 *CHI: ap there one .
 *MOT: shh .
@@ -191,7 +188,7 @@
 *CHI: heheo .
 *CHI: 0 .
 *MOT: so  Thomas .
-*MOT: well hafta have another trip next week somewhere to buy some>
+*MOT: well hafta have another trip next week somewhere to
 *CHI: mhm .
 *MOT: we havent been into Mothercare yet have we ?
 *CHI: no .
@@ -271,8 +268,8 @@
 *MOT: where has he come from ?
 *MOT: the police car ?
 *MOT: there are the firemen and the fire engine .
-*CHI: no no no .
-*MOT: you dont want the policeman in the fire in the police car ?
+*CHI: no .
+*MOT: you dont want the policeman in the police car ?
 *CHI: no .
 *MOT: oh .
 *CHI: whoops .
@@ -414,15 +411,13 @@
 *MOT: shes only thirteen inches .
 *MOT: oh dear dear .
 *MOT: she needs to be that much taller .
-*MOT: another five inches to fit into those clothes .
-*CHI: hold it .
+*MOT: another five inches to fit into .
 *MOT: yes .
 *MOT: you can hold it .
 *MOT: its like a snake isnt it ?
 *CHI: snake .
 *CHI: yes .
 *CHI: snake .
-*CHI: snake snake>
 *MOT: and what color is it  Thomas ?
 *CHI: color white .
 *MOT: what color are the numbers ?
@@ -434,7 +429,7 @@
 *MOT: so Sues a little bit too small isnt she ?
 *CHI: mhm .
 *MOT: oh .
-*MOT: oh well hafta see if the shop does dolls uh clothes for
+*MOT: oh well hafta see if the shop does clothes for
 *MOT: oh she needs something now its getting too winter .
 *MOT: she has got this little jacket look .
 *CHI: yes .
@@ -589,7 +584,7 @@
 *MOT: hold the measure there .
 *MOT: and well put it round the top of her ears .
 *MOT: right round .
-*MOT: and it meets up it meets up there .
+*MOT: and it meets up there .
 *MOT: oh Sues .
 *MOT: oh it has gone over her ears .
 *MOT: eleven and a half .
@@ -706,13 +701,10 @@
 *MOT: thats very strange  Thomas .
 *MOT: because your old shoes  measure almost the same as your new ones
 *MOT: and yet youre old shoes are too small and your new ones are too
-*CHI: put in there .
 *MOT: thats very funny .
 *MOT: but I tell you what .
 *MOT: your new shoes .
 *MOT: even though theyre boots feel lighter than your old ones .
-*MOT: have you>
-*CHI: cover mud .
 *MOT: yeah .
 *MOT: theyre covered in mud arent they ?
 *CHI: yes .
@@ -725,8 +717,7 @@
 *CHI: no put in there .
 *CHI: down down there .
 *MOT: excuse me please .
-*CHI: a down a down there .
-*CHI: a down>
+*CHI: a down there .
 *MOT: just a minute .
 *MOT: I cant tell what your old shoes are .
 *CHI: minute .
@@ -736,7 +727,6 @@
 *MOT: a long time ago .
 *CHI: yeah .
 *MOT: and we havent got .
-*CHI: no no>
 *CHI: no put in there .
 *CHI: no .
 *MOT: no what  sweetheart ?
@@ -781,7 +771,7 @@
 *MOT: if we put one of your cars .
 *CHI: no thanks .
 *CHI: no thanks .
-*MOT: you dont want me to put the car on there ?
+*MOT: the car on there ?
 *MOT: no .
 *MOT: what about the policeman ?
 *MOT: shall we put the policeman in ?
@@ -827,7 +817,6 @@
 *MOT: no .
 *MOT: they havent broken .
 *MOT: lets put some stones on this side .
-*CHI: no no>
 *CHI: ap .
 *MOT: pardon ?
 *CHI: bash .
@@ -873,9 +862,7 @@
 *MOT: look .
 *MOT: one stone .
 *MOT: two stones .
-*CHI: no no>
 *MOT: three stones .
-*CHI: no no>
 *CHI: no .
 *MOT: look .
 *CHI: no .
@@ -930,10 +917,7 @@
 *CHI: no .
 *CHI: Thomas do it please .
 *CHI: Thomas do it .
-*MOT: do you wanna put>
-*CHI: Thomas do it>
 *MOT: do you wanna put some more in the scale pan ?
-*CHI: no no>
 *CHI: chocolate buttons .
 *MOT: chocolate buttons ?
 *CHI: yes !
@@ -967,7 +951,6 @@
 *MOT: and what about long ?
 *MOT: long and short ?
 *MOT: has Thomas got long hair ?
-*CHI: long hair>
 *MOT: Thomas has got quite short hair .
 *MOT: but when you look at Sue .
 *MOT: Sue has got no hair at all has she ?
@@ -992,7 +975,7 @@
 *CHI: yeah .
 *MOT: and Dipsys fatter than Po isnt he ?
 *CHI: mhm .
-*MOT: is he wider .
+*MOT: wider .
 *CHI: thep wider .
 *MOT: hes wider .
 *MOT: lets have a look at the measure again .
@@ -1000,7 +983,6 @@
 *CHI: mhm .
 *MOT: a long tape .
 *MOT: if we fold it like this .
-*CHI: eat sweets .
 *MOT: youre eating the sweets are you ?
 *CHI: mhm .
 *MOT: if we fold it like that thats not very long now is it ?
@@ -1018,7 +1000,6 @@
 *MOT: is that long ?
 *CHI: no .
 *MOT: it is .
-*CHI: no no>
 *MOT: it is .
 *MOT: thats ever so long .
 *MOT: whats the rhyme we know about the elephant ?
@@ -1032,7 +1013,6 @@
 *CHI: two ones .
 *CHI: no .
 *CHI: no thanks .
-*CHI: ap the ball .
 *MOT: you dont want the buttons ?
 *CHI: yes .
 *CHI: thep buttons ap there .
@@ -1058,14 +1038,12 @@
 *MOT: I think theyve gone in your tummy .
 *MOT: and that tummys going to be really big .
 *CHI: no .
-*CHI: not where gone .
 *MOT: dont you think its going to be very big ?
 *CHI: no .
 *MOT: I think it is .
-*CHI: no no>
 *CHI: Mummy read .
 *MOT: Mummy what ?
-*CHI: Thomas read it .
+*CHI: read it .
 *MOT: read it ?
 *MOT: the packet ?
 *MOT: the button packet ?
@@ -1083,7 +1061,7 @@
 *MOT: hes terribly tall and terribly fat .
 *MOT: nose .
 *CHI: nose .
-*MOT: I think but I cant remember the rhyme we sang it the
+*MOT: I think but I cant remember the
 *MOT: we sang it yesterday didnt we ?
 *CHI: mhm .
 *MOT: the elephant walks like this and that .
@@ -1124,7 +1102,7 @@
 *MOT: some things are very heavy and some things are very light .
 *MOT: thats very very heavy isnt it ?
 *CHI: mhm .
-*MOT: so thats Isabelles Daddy is very tall isnt he ?
+*MOT: Isabelles Daddy is very tall isnt he ?
 *CHI: yeah .
 *MOT: hes a big tall man isnt he ?
 *CHI: mhm .
@@ -1225,7 +1203,7 @@
 *MOT: this one doesnt though .
 *MOT: because its still sealed up isnt it ?
 *CHI: mhm .
-*CHI: not come off that one .
+*CHI: that one .
 *MOT: look .
 *MOT: theyve all got different letters on them .
 *MOT: we were collecting them until we had a full set .
@@ -1236,8 +1214,6 @@
 *MOT: weve got bl and cl  and el .
 *MOT: weve got two bls .
 *MOT: different shades of green .
-*CHI: no thanks .
-*MOT: and cl .
 *MOT: and an el .
 *CHI: red putting there .
 *MOT: youre putting them there are you ?
@@ -1289,8 +1265,7 @@
 *MOT: shake .
 *CHI: no thanks .
 *MOT: shake .
-*CHI: no thanks>
-*MOT: shake shake shake .
+*MOT: shake .
 *CHI: no .
 *CHI: bash .
 *CHI: that one .
@@ -1390,7 +1365,6 @@
 *MOT: thanks policeman ?
 *MOT: are you thanking the policeman for helping ?
 *CHI: yes .
-*CHI: see you .
 *CHI: chocolate button .
 *CHI: ap there there .
 *MOT: there you are .

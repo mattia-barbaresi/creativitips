@@ -12,7 +12,6 @@
 *CHI: yes .
 *CHI: yes .
 *CHI: it is .
-*CHI: I know .
 *CHI: its a car .
 *MOT: oh a car .
 *MOT: right .
@@ -230,11 +229,10 @@
 *MOT: and you move the beads along the wires dont you ?
 *CHI: yes .
 *CHI: move the wires all day long .
-*MOT: move it along the wires .
 *MOT: move it along the wires all day long .
 *CHI: yes .
 *MOT: they have one of these at the Toctors Waiting Room dont they ?
-*MOT: and we see those on Taisy and Tom .
+*MOT: and we see Taisy and Tom .
 *MOT: and they have them in John Lewis .
 *MOT: and you sit for a long time dont you ?
 *MOT: playing with these .
@@ -247,7 +245,6 @@
 *CHI: come here please .
 *CHI: 0 .
 *CHI: 0 .
-*CHI: my eye .
 *MOT: oh youve bumped your eye on the corner of the box .
 *CHI: yes .
 *MOT: oh dear .
@@ -376,7 +373,7 @@
 *MOT: it says
 *MOT: oh look at the gift label .
 *MOT: thats nice .
-*MOT: what has what has it got on it  Thomas ?
+*MOT: what has it got on it  Thomas ?
 *MOT: a teddy bear .
 *MOT: a nice scarf .
 *MOT: and look .
@@ -532,7 +529,7 @@
 *CHI: all have wash and clean .
 *MOT: all have wash and clean .
 *CHI: yes .
-*CHI: a dig a digger dig it .
+*CHI: a digger dig it .
 *MOT: want your your digger to dig up the pieces .
 *CHI: ap more in the box .
 *CHI: just dig black box .
@@ -574,7 +571,7 @@
 *MOT: right .
 *MOT: youre playing with your fire engine as well .
 *CHI: yes .
-*MOT: the fire engines a nice present isnt it ?
+*MOT: the fire engines a nice present ?
 *MOT: not not work .
 *CHI: not work .
 *CHI: its not work .
@@ -584,7 +581,6 @@
 *CHI: get it out .
 *CHI: 0 .
 *CHI: oh dear .
-*CHI: all done .
 *CHI: over there .
 *CHI: no ladders .
 *CHI: not fit in .
@@ -617,7 +613,7 @@
 *MOT: yes .
 *MOT: you got a Tinky Winky didnt you ?
 *MOT: from Father Christmas .
-*CHI: one ea said .
+*CHI: said .
 *MOT: pardon .
 *CHI: one of each .
 *MOT: one of each .
@@ -674,7 +670,6 @@
 *MOT: so Father Christmas brought you a Tinky Winky and the train set
 *CHI: yes .
 *MOT: and a fire engine .
-*MOT: and you>
 *CHI: not Thomas The Tank Engine .
 *CHI: hold that Thomas The Tank Engine .
 *MOT: yes .
@@ -694,7 +689,6 @@
 *MOT: all from Father Christmas .
 *MOT: oh and Postman Pat books .
 *MOT: he must have known you liked all those people  Thomas .
-*MOT: theyre here now .
 *MOT: all these parcels are here now .
 *CHI: open them .
 *MOT: yes .
@@ -721,7 +715,7 @@
 *MOT: oh Thomas  youve not had your breakfast yet but would you like
 *CHI: yes please .
 *CHI: oh .
-*CHI: um have um have that one .
+*CHI: um have that one .
 *MOT: have that one .
 *CHI: no more nuts .
 *MOT: no nuts .
@@ -798,12 +792,11 @@
 *CHI: two now .
 *MOT: theres two now .
 *MOT: yes .
-*MOT: well one was for one was for Mummy and one was for Daddy .
+*MOT: well one was for Mummy and one was for Daddy .
 *CHI: and one for me .
 *CHI: to me .
 *CHI: I want toblerone one .
 *MOT: no .
-*CHI: its mine .
 *MOT: toblerone has nuts in it  Thomas .
 *CHI: its mine .
 *MOT: and you havent got an allergy to nuts that we know of .
@@ -1312,7 +1305,6 @@
 *MOT: dont mess with your spoon  Thomas .
 *MOT: come on .
 *MOT: you have this one .
-*CHI: what a mess .
 *MOT: there you are .
 *MOT: look .
 *MOT: you have Mummys spoon .
@@ -1370,8 +1362,7 @@
 *CHI: quickly  Daddy .
 *MOT: your chocolates up there  Daddy .
 *MOT: Ive put your toblerone up there out of the way .
-*MOT: and then Sue has bought him a box of chocolates .
-*FAT: thank you .
+*MOT: Sue has bought him a box of chocolates .
 *CHI: quickly  Daddy .
 *MOT: quickly  Daddy .
 *MOT: quickly .
@@ -1401,9 +1392,7 @@
 *CHI: I want another chocolate .
 *MOT: I bet you do .
 *MOT: and chocolates from Sue .
-*MOT: so I think weve finally opened all our Christmas presents>
-*CHI: have one .
-*CHI: have one please .
+*MOT: so I think
 *CHI: have one .
 *MOT: have one .
 *CHI: yes please .
@@ -1430,7 +1419,7 @@
 *CHI: yes please .
 *CHI: please have a chocolate .
 *MOT: if you have another chocolate youve got to eat some fruit
-*FAT: which chocolates are these ones ?
+*FAT: are these ones ?
 *CHI: um .
 *MOT: those are from Sue .
 *CHI: Sue .

@@ -30,12 +30,12 @@
 *CHI: that for you .
 *MOT: oh thank you .
 *MOT: thats a lot of carrots  isnt it ?
-*CHI: I want a want a yellow fork .
+*CHI: I want a yellow fork .
 *MOT: have you got a yellow fork ?
 *CHI: this is a red fork .
 *MOT: this is a red fork .
 *MOT: Ill have that .
-*CHI: its its its broken .
+*CHI: its broken .
 *MOT: it is a bit  isnt it ?
 *MOT: its been chewed .
 *CHI: broken .
@@ -62,7 +62,7 @@
 *MOT: you are in the wars today  arent you ?
 *MOT: have you bumped your big toe now ?
 *CHI: I bang my hand .
-*CHI: a wash brush on my hand .
+*CHI: a on my hand .
 *MOT: mhm .
 *CHI: close the door .
 *MOT: yeah .
@@ -115,7 +115,7 @@
 *MOT: youve got to be careful .
 *MOT: its very hot today .
 *CHI: hot .
-*MOT: hot hot hot hot .
+*MOT: hot .
 *MOT: oh .
 *CHI: do Ring a roses .
 *MOT: right .
@@ -124,13 +124,10 @@
 *MOT: we all fall down .
 *CHI: fall down .
 *MOT: fishes .
-*CHI: in the water .
 *CHI: fishes .
 *MOT: fishes .
-*CHI: we all jump up .
-*MOT: all jump up .
-*MOT: with a one two three .
-*CHI: one two three .
+*CHI: we .
+*MOT: with a .
 *MOT: hooray .
 *CHI: do it again .
 *MOT: no no .
@@ -138,7 +135,7 @@
 *MOT: that was enough .
 *MOT: are you dizzy ?
 *CHI: help .
-*MOT: help help help .
+*MOT: help .
 *MOT: help .
 *CHI: go on the floor .
 *MOT: me ?
@@ -160,7 +157,7 @@
 *CHI: yeah .
 *MOT: oh .
 *CHI: go on me .
-*MOT: I might I might really squash you though .
+*MOT: I might really squash you though .
 *CHI: do it .
 *MOT: ah .
 *CHI: I squashed .
@@ -189,7 +186,7 @@
 *CHI: its a person .
 *INV: yeah .
 *INV: made out of triangles .
-*CHI: try and put it over here  shall I ?
+*CHI: try and put it over here ?
 *CHI: I write my name on .
 *MOT: yeah .
 *CHI: I want the pens .
@@ -198,9 +195,9 @@
 *MOT: um are they in the other room ?
 *MOT: lets go and see .
 *CHI: wait a minute .
-*CHI: I put the chip on here  shall I ?
+*CHI: I put the chip on here ?
 *MOT: they must be in here somewhere  Liz .
-*MOT: theyre not in theyre not in there .
+*MOT: theyre not in there .
 *MOT: unless Daddys hidden them .
 *MOT: theres a pencil here .
 *MOT: would would this pencil be all right ?
@@ -324,7 +321,7 @@
 *MOT: yeah .
 *CHI: I not .
 *MOT: arent you ?
-*CHI: putting this in my in yours .
+*CHI: putting this in yours .
 *MOT: youre putting your foot in my pocket ?
 *CHI: do ladys .
 *MOT: ladys .
@@ -476,7 +473,7 @@
 *MOT: www .
 *CHI: come here .
 *CHI: come on .
-*CHI: come and come and get me .
+*CHI: come and get me .
 *MOT: come and get me .
 *MOT: Im worn out  Liz .
 *MOT: you come and get me .
@@ -548,7 +545,7 @@
 *CHI: and four wanna go on the mat .
 *MOT: four on the mat .
 *MOT: wow .
-*CHI: one wanna go on the on the on the mat .
+*CHI: one wanna go on the mat .
 *MOT: mhm .
 *CHI: no .
 *CHI: something to you .
@@ -604,7 +601,7 @@
 *MOT: I like that story .
 *CHI: this is a a brown &-er
 *CHI: I dont know .
-*MOT: its a its some bread .
+*MOT: its some bread .
 *CHI: some bread .
 *MOT: yeah .
 *CHI: this is a tin .
@@ -790,7 +787,7 @@
 *CHI: just put it right down .
 *MOT: I think thats as far down as itll go because its only a small
 *MOT: the big ones go on the bottom  dont they ?
-*CHI: these ones go on the on the bottom .
+*CHI: these ones go on the bottom .
 *MOT: that one doesnt  no .
 *MOT: its only little for the top you see .
 *MOT: thats it .
@@ -807,7 +804,7 @@
 *MOT: yeah .
 *CHI: this is only color little .
 *INV: you might need this one .
-*MOT: I think I think yeah .
+*MOT: I think yeah .
 *MOT: you need the one off Anna .
 *MOT: is that one bigger than the red one ?
 *MOT: which ones the biggest .

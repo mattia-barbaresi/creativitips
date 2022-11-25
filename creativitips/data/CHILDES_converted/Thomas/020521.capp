@@ -77,7 +77,7 @@
 *MOT: you are cheeky .
 *MOT: trouble we have with bread  its so springy .
 *MOT: no dont .
-*MOT: no no no .
+*MOT: no .
 *MOT: people have got to eat it .
 *MOT: Ive just washed my hands but
 *INV: is this homemade bread  Thomas ?
@@ -182,7 +182,7 @@
 *MOT: and their Mummy Lynne .
 *MOT: and we were watching the trains going past .
 *MOT: and Thomas pushed his foot against a bench .
-*MOT: and because we had got some bags heavy bags on the back of
+*MOT: and because we had got heavy bags on the back of
 *MOT: and tipped up didnt you ?
 *MOT: you didnt hurt yourself because you landed very gently .
 *CHI: fall over .
@@ -196,7 +196,7 @@
 *MOT: is that nice ?
 *CHI: yeah .
 *MOT: shall we just move this out of the way while were talking ?
-*CHI: no no no .
+*CHI: no .
 *MOT: no ?
 *MOT: oh alright .
 *MOT: okay .
@@ -263,7 +263,7 @@
 *MOT: you can cut it .
 *MOT: would you like me to do it ?
 *INV: my is hopeless .
-*INV: am I much worse .
+*INV: much worse .
 *MOT: its till you get to the bottom .
 *MOT: its fine till you get to the bottom and then it
 *MOT: are we cutting bread ?
@@ -321,7 +321,7 @@
 *CHI: yeah .
 *MOT: and we looked out of the window and there was a big bin bag lorry
 *MOT: and we could see the train station .
-*MOT: and we could see the road the roundabout .
+*MOT: and we could see the roundabout .
 *MOT: we could see all sorts from the airport .
 *MOT: and then after we had done that we got in the lift and we went to
 *MOT: and we could see all the aeroplanes going up and the ones coming
@@ -417,7 +417,7 @@
 *MOT: oh hes better now isnt he ?
 *INV: he went to the doctor ?
 *MOT: yes .
-*CHI: ap the better .
+*CHI: the better .
 *MOT: yes .
 *MOT: and we bought Daddy some grapes didnt we ?
 *MOT: and who helped eat the grapes ?
@@ -576,8 +576,7 @@
 *CHI: no .
 *CHI: ap Alice .
 *MOT: no .
-*CHI: Thomas do it>
-*MOT: Ill show Ill show Alice later .
+*MOT: Ill show Alice later .
 *MOT: Mummys going to finish her lunch .
 *CHI: ap there ap there .
 *MOT: no .
@@ -589,7 +588,7 @@
 *CHI: ap there .
 *MOT: dont dont blow it .
 *MOT: no .
-*CHI: ap there there there .
+*CHI: ap there .
 *MOT: just hold it .
 *MOT: thats right .
 *MOT: Im not quite sure what thats called  Thomas .
@@ -643,7 +642,7 @@
 *MOT: because when Daddy comes home you can show Daddy .
 *CHI: show you .
 *MOT: show you .
-*CHI: Mummy show us .
+*CHI: Mummy .
 *MOT: Mummy showing us ?
 *CHI: Dimitra .
 *MOT: you wanna show Dimitra ?
@@ -714,7 +713,7 @@
 *CHI: yeah .
 *INV: that is a brand new toy .
 *INV: Thomas .
-*CHI: dig dig dig .
+*CHI: dig .
 *INV: shall I show you ?
 *INV: shall I show you ?
 *MOT: thats an apple .
@@ -844,7 +843,6 @@
 *INV: let go .
 *INV: Im going to blickt the lady .
 *CHI: laughs .
-*CHI: thep <blick@t>
 *CHI: Thomas do it .
 *INV: Thomas do it ?
 *INV: you wanna blickt the lady ?
@@ -856,7 +854,7 @@
 *INV: mhm .
 *INV: Im blickingt the lady and the train driver .
 *INV: oh !
-*INV: do you want do you wanna do it ?
+*INV: do you wanna do it ?
 *CHI: yeah .
 *INV: shall I do it again ?
 *INV: shall I blickt the lady and the train driver .
@@ -864,7 +862,6 @@
 *INV: Im blickingt the train driver .
 *INV: what about the bird ?
 *INV: shall we blickt the bird ?
-*CHI: ap Thomas blickt it .
 *INV: oh a sweet .
 *INV: blickt the sweet .
 *INV: the lady again ?
@@ -875,7 +872,6 @@
 *INV: what have we got here ?
 *CHI: whats this ?
 *INV: strawberries ?
-*CHI: this empty .
 *INV: its empty ?
 *INV: yes .
 *CHI: ap jobs .
@@ -891,7 +887,7 @@
 *CHI: fall over .
 *INV: you fell over ?
 *CHI: yeah .
-*INV: oh so well were blickingt the tomato together with the
+*INV: oh so were blickingt the tomato together with the
 *INV: yes .
 *INV: wheres Thomas ?
 *INV: what are you doing there ?
@@ -1030,7 +1026,6 @@
 *INV: nothing in ?
 *INV: is there nothing in ?
 *CHI: no broken .
-*INV: is it>
 *CHI: broke .
 *INV: has it broke ?
 *INV: has it broken ?
@@ -1080,7 +1075,7 @@
 *INV: hello  Thomas .
 *CHI: not there .
 *INV: hello .
-*INV: where are you ?
+*INV: you ?
 *INV: boo !
 *CHI: boo .
 *INV: boo .
@@ -1118,8 +1113,8 @@
 *INV: well its not exactly like a guitar .
 *INV: but its the same principle .
 *CHI: yeah .
-*CHI: tick tock tick tock tick tock .
-*INV: tick tock tick tock tick tock .
+*CHI: tick tock .
+*INV: tick tock .
 *CHI: yeah .
 *CHI: oh .
 *INV: oh dear .
@@ -1216,8 +1211,7 @@
 *CHI: naughty crane there .
 *CHI: ap naughty crane there .
 *INV: crane ?
-*CHI: ap the crane .
-*INV: ah the crane .
+*INV: crane .
 *INV: yes .
 *INV: of course .
 *CHI: no moneys .
@@ -1256,7 +1250,6 @@
 *INV: oh no .
 *INV: what has happened ?
 *CHI: Smartie .
-*INV: is that>
 *INV: ouch .
 *CHI: ouch .
 *CHI: ouch .
@@ -1329,12 +1322,10 @@
 *MOT: what has broken ?
 *CHI: oh Thomas play it .
 *CHI: da broken .
-*INV: yeah this one .
-*MOT: have you broken it ?
 *CHI: yeah .
 *MOT: how have you broken it ?
 *CHI: ap show you .
-*INV: no no no .
+*INV: no .
 *INV: dont show Mummy .
 *MOT: oh no .
 *MOT: sorry .
@@ -1344,19 +1335,16 @@
 *INV: yeah .
 *MOT: does it need some more sticky glue ?
 *INV: yeah sticky glue .
-*INV: maybe blue tack and Sellotape .
-*MOT: yes some blue tack .
+*INV: maybe blue tack .
 *INV: and a bit of glue .
 *CHI: ap le glue .
 *INV: yes .
 *MOT: and a hammer and a nail .
 *CHI: oh what going on ?
 *INV: Thomas .
-*INV: would you>
 *CHI: what going on ?
 *INV: would you like to help me put everything inside now ?
 *CHI: no .
-*INV: in the box ?
 *CHI: 0 .
 *MOT: go and help Dimitra put those things away .
 *INV: and the oranges there .

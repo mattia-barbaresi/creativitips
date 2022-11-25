@@ -8,8 +8,8 @@
 *CHI: ap Ben gone ap home .
 *MOT: Ben has gone home ?
 *CHI: ap Thomass .
-*CHI: baby truck go home .
-*CHI: Thomas ap come home .
+*CHI: go home .
+*CHI: Thomas home .
 *MOT: Thomas has come home ?
 *CHI: ap truck go home .
 *MOT: well weve just been to Ben and Charlottes house havent we ?
@@ -17,7 +17,6 @@
 *MOT: and when we came home there was a big green truck outside our house
 *MOT: so you sat outside in your pushchair didnt you ?
 *CHI: no .
-*MOT: and watched it .
 *CHI: what happen .
 *CHI: smash .
 *MOT: what happened ?
@@ -72,15 +71,13 @@
 *CHI: Lalas .
 *CHI: been .
 *MOT: youve been to the park ?
-*CHI: been <Sue's>
 *MOT: been what  darling ?
-*CHI: been <Sue's>
 *MOT: been two shoes ?
 *CHI: two .
 *CHI: big .
 *CHI: please .
 *MOT: I dont know what youre saying .
-*CHI: be ap babies .
+*CHI: babies .
 *MOT: babies ?
 *CHI: baby .
 *MOT: what are you saying ?
@@ -257,7 +254,7 @@
 *MOT: and it says RSVP .
 *MOT: weve go to reply .
 *MOT: oh its a Rugrat .
-*MOT: I dont watch the Rugrat Rugrats .
+*MOT: I dont watch the Rugrats .
 *MOT: and it says made especially for you by Molly Lou .
 *MOT: Hadfield library room is above Hadfield library at the top of the
 *MOT: opposite the railway station .
@@ -291,13 +288,13 @@
 *CHI: jump up .
 *MOT: youve jumped up ?
 *CHI: yes .
-*MOT: did you say “I jumped up” ?
+*MOT: say “I jumped up” ?
 *MOT: yes .
 *MOT: you have jumped up havent you ?
 *CHI: right .
 *MOT: right .
 *MOT: well have you finished making your deliverys ?
-*CHI: oh yes of course .
+*CHI: oh yes .
 *MOT: well we could do really  Thomas  now .
 *MOT: while youre having a change .
 *CHI: a change .
@@ -424,10 +421,9 @@
 *MOT: right .
 *MOT: youre going to hafta have your vest changed now .
 *MOT: because youre a bit wet arent you ?
-*CHI: no no>
-*MOT: no no no ?
+*MOT: no ?
 *CHI: no .
-*MOT: oh I think you mean yes yes yes .
+*MOT: oh I think you mean yes .
 *CHI: no .
 *CHI: no .
 *CHI: the yellow wheels .
@@ -505,14 +501,13 @@
 *CHI: mhm yeah .
 *CHI: oops .
 *MOT: you going to lie down ?
-*CHI: no no no .
+*CHI: no .
 *MOT: what are you thinking ?
 *MOT: youve gone quiet .
 *CHI: no .
 *MOT: thinking about birthday partys ?
 *MOT: no ?
-*CHI: no no>
-*MOT: no no no .
+*MOT: no .
 *MOT: are you feeling alright ?
 *CHI: no .
 *MOT: whats the matter  sweetheart ?
@@ -582,7 +577,6 @@
 *CHI: more stars .
 *CHI: no get ap train past .
 *CHI: no .
-*CHI: build a train .
 *MOT: you building a train ?
 *CHI: yes .
 *MOT: you build
@@ -605,8 +599,6 @@
 *MOT: youre a good boy doing that arent you ?
 *CHI: have a digger please .
 *CHI: have a digger .
-*CHI: tidy up .
-*MOT: alright then .
 *MOT: in the .
 *MOT: have a digger .
 *MOT: tidy up ?
@@ -725,7 +717,7 @@
 *MOT: cant ?
 *CHI: no no cream .
 *MOT: no cream ?
-*CHI: no no no sore .
+*CHI: no sore .
 *CHI: no .
 *MOT: no .
 *MOT: but weve put cream on before and its so much better than it was
@@ -743,7 +735,6 @@
 *CHI: digger doing ?
 *MOT: just lie still a minute please .
 *MOT: just lie still a minute please .
-*MOT: you can have the digger>
 *CHI: go up .
 *MOT: is that what the digger does ?
 *MOT: it goes up ?
@@ -802,8 +793,7 @@
 *MOT: weve scraped off .
 *MOT: these are not the trousers that you go out in .
 *MOT: these are just a pair of trousers that well slip on now before
-*MOT: because weve got to get some clean trousers ironed havent we>
-*CHI: eat it .
+*MOT: because weve got to get some clean trousers
 *CHI: chew it .
 *MOT: oh no .
 *MOT: dont eat that .
@@ -832,8 +822,7 @@
 *CHI: not silly .
 *MOT: it is .
 *MOT: to drink sour milk .
-*CHI: oh drink a sour milk .
-*MOT: heres your digger .
+*CHI: oh .
 *MOT: theres the digger .
 *CHI: no digger .
 *MOT: theres the digger .
@@ -842,14 +831,13 @@
 *MOT: Thomas whats the matter ?
 *CHI: 0 .
 *MOT: pardon ?
-*CHI: blow the whistle .
 *MOT: you want some whistles ?
 *CHI: yes .
 *MOT: well Im just trying to clear the table .
 *MOT: weve got to have lunch .
 *CHI: oh another one .
 *MOT: there .
-*CHI: there there there .
+*CHI: there .
 *MOT: there you are .
 *MOT: there are a lot of whistles there .
 *CHI: no .
@@ -859,7 +847,6 @@
 *MOT: you want all the whistles ?
 *CHI: yeah .
 *MOT: well why didnt you say that ?
-*CHI: lot of whistles .
 *MOT: please .
 *CHI: please !
 *MOT: please may I have all the whistles ?
@@ -870,7 +857,7 @@
 *MOT: you happy now ?
 *CHI: yeah .
 *MOT: good .
-*CHI: going thep whistles up .
+*CHI: up .
 *CHI: going up .
 *MOT: its going up ?
 *MOT: what are you doing ?
@@ -907,7 +894,7 @@
 *CHI: lot of whistles .
 *CHI: going up .
 *CHI: there .
-*MOT: a lot of whistles going up there .
+*MOT: whistles going up there .
 *MOT: youre lifting them high in the air .
 *MOT: but youve got to hold onto them havent you ?
 *MOT: to support them .
@@ -966,7 +953,7 @@
 *CHI: taking lot of letters .
 *CHI: lot in there .
 *CHI: whistles .
-*MOT: a lot of whistles ?
+*MOT: whistles ?
 *CHI: up .
 *MOT: a lot of whistles in the dumper truck .
 *CHI: oh no no .
@@ -981,8 +968,6 @@
 *CHI: one fall down .
 *MOT: yes .
 *MOT: well I think theyre quite a strange shape  Thomas .
-*MOT: for them to stack up .
-*CHI: look lot of >
 *CHI: there .
 *MOT: yeah .
 *CHI: oh .
@@ -1006,7 +991,7 @@
 *MOT: we have days like that when we just feel fed up dont we ?
 *CHI: oh .
 *CHI: no fit in .
-*MOT: wont they all fit in ?
+*MOT: fit in ?
 *CHI: oh yeah .
 *MOT: very good .
 *MOT: thats clever isnt it ?
@@ -1015,7 +1000,7 @@
 *MOT: right .
 *MOT: there you are .
 *MOT: lets have some lunch now .
-*MOT: lets put the digger the whistles there .
+*MOT: lets put the whistles there .
 *MOT: you can look at them while youre eating your lunch cant you ?
 *CHI: look at them .
 *MOT: yes .
@@ -1033,8 +1018,7 @@
 *MOT: there you are .
 *MOT: youve got a sausage roll .
 *MOT: would you like some cheese as well ?
-*CHI: no no>
-*MOT: no no no ?
+*MOT: no ?
 *CHI: here it is .
 *MOT: we didnt go to the sausage roll shop did we ?
 *CHI: no .
@@ -1057,7 +1041,6 @@
 *CHI: no Auntie Patty .
 *CHI: no .
 *MOT: well surely it will be more fun than staying at home with just
-*CHI: no Patty .
 *CHI: no Auntie Patty .
 *CHI: no holidays .
 *MOT: no Auntie Patty ?
@@ -1106,7 +1089,7 @@
 *CHI: funny .
 *MOT: theyre funny ?
 *MOT: yes .
-*MOT: but what are what are Lalas ?
+*MOT: but what are Lalas ?
 *CHI: funny .
 *MOT: what do you mean Lalas are funny ?
 *CHI: pooppoopsc .
@@ -1169,7 +1152,7 @@
 *MOT: weve got to throw them away .
 *CHI: hm .
 *MOT: if you get crumbs on them .
-*MOT: no no no .
+*MOT: no .
 *MOT: if you do that theyve got to go in the bin .
 *MOT: you mustnt do that please .
 *CHI: ap .
@@ -1187,7 +1170,7 @@
 *CHI: oh dear .
 *CHI: ap bed .
 *MOT: oh dear what ?
-*CHI: Percy ap bed .
+*CHI: ap bed .
 *MOT: sounds like youre saying oh dear busy ap bed .
 *CHI: no Percy ap bed .
 *MOT: Percy a bed ?
@@ -1248,8 +1231,6 @@
 *MOT: and Daddy said people have been to the moon but they hafta go in a
 *MOT: and so Tom said well hed like to go with Pippo in the rocket .
 *MOT: and Daddy should come too .
-*MOT: but then>
-*CHI: Daddy too .
 *MOT: yes .
 *MOT: but then his Daddy says the moons a very very long way away .
 *MOT: so Tom thinks well perhaps well go to the moon another day .
@@ -1271,7 +1252,6 @@
 *MOT: oops .
 *CHI: oh dear .
 *MOT: Mummy just dropped her little biscuit .
-*CHI: oh no .
 *MOT: we saw .
 *CHI: silly  Purdie .
 *MOT: no .
@@ -1324,7 +1304,6 @@
 *CHI: big nipsc .
 *CHI: ap big tummy .
 *MOT: no .
-*MOT: she hasnt .
 *CHI: big willie .
 *MOT: she hasnt any of those things .
 *MOT: shes beautiful .
@@ -1444,7 +1423,7 @@
 *CHI: drinking Pippos .
 *MOT: Pippos ?
 *MOT: whats Pippos ?
-*CHI: lot of Pippo .
+*CHI: Pippo .
 *MOT: they might have been drinking warm milk .
 *CHI: yeah .
 *MOT: or it could have been .
@@ -1483,7 +1462,7 @@
 *MOT: you sit on Daddys knee and share an apple .
 *MOT: or a banana .
 *MOT: sometimes both .
-*CHI: what happen pear ?
+*CHI: pear ?
 *CHI: the .
 *CHI: space rocket .
 *MOT: you talking about the space rocket again ?
@@ -1511,4 +1490,4 @@
 *MOT: Ill just go and see if theres anything else .
 *MOT: while Ive got the ironing board out .
 *CHI: iron board .
-*CHI: ap lot doing board .
+*CHI: ap .

@@ -156,7 +156,7 @@
 *MOT: dont throw the books out .
 *MOT: which book do you want ?
 *MOT: which book ?
-*MOT: do you want a book which book do you want ?
+*MOT: which book do you want ?
 *MOT: do you want that book ?
 *MOT: oh later .
 *MOT: later .
@@ -309,7 +309,7 @@
 *MOT: Mummys gonna hafta do that pet .
 *CHI: huh ?
 *MOT: I think Mummys gonna hafta do that .
-*MOT: do you want Mummy do you want Mummy to help you ?
+*MOT: do you want Mummy to help you ?
 *CHI: me .
 *MOT: you do it .
 *MOT: well I tell you what .
@@ -327,7 +327,7 @@
 *CHI: Mama .
 *MOT: Mummy do it .
 *MOT: okay .
-*MOT: well Ill you can do it too .
+*MOT: well you can do it too .
 *MOT: Ill just help .
 *MOT: now Ill make this little hole like this .
 *MOT: look .
@@ -347,7 +347,7 @@
 *MOT: no .
 *MOT: theres not .
 *MOT: see .
-*MOT: this is theres only one on this one .
+*MOT: theres only one on this one .
 *MOT: there isnt any on this .
 *MOT: look .
 *MOT: thats it .
@@ -375,7 +375,7 @@
 *MOT: they are .
 *MOT: do we collect shells on the beach ?
 *MOT: dont we ?
-*MOT: you like collecting you like collecting shells .
+*MOT: you like collecting shells .
 *MOT: do I look a bit funny ?
 *MOT: take it off this ear .
 *MOT: thank you .
@@ -511,13 +511,13 @@
 *MOT: what darling ?
 *CHI: oh .
 *CHI: go in there .
-*MOT: youre go youre going in there ?
+*MOT: youre going in there ?
 *CHI: yeah .
 *MOT: right .
 *MOT: now darling .
 *MOT: but dont be long .
 *CHI: huh ?
-*MOT: dont dont dont be long .
+*MOT: dont be long .
 *MOT: because I wanna make tea soon .
 *MOT: so Id like some potatos please to make some tea with .
 *MOT: okay .
@@ -590,7 +590,7 @@
 *CHI: no  Mama .
 *MOT: no ?
 *MOT: is it not hot ?
-*MOT: is it is it cold  Ruth ?
+*MOT: is it cold  Ruth ?
 *CHI: no .
 *MOT: what is it ?
 *CHI: no no .
@@ -626,7 +626,7 @@
 *MOT: you sit back .
 *MOT: bit difficult  isnt it ?
 *MOT: oh dear .
-*MOT: no no no .
+*MOT: no .
 *MOT: I dont want tea .
 *MOT: Im not eating tea .
 *MOT: shes being naughty .
@@ -637,7 +637,7 @@
 *MOT: I dont want tea .
 *MOT: shes being naughty .
 *MOT: shes like you sometimes .
-*MOT: no no no no no .
+*MOT: no .
 *MOT: she wont eat tea .
 *MOT: no .
 *MOT: you are very very naughty .
@@ -674,7 +674,7 @@
 *CHI: mhm .
 *MOT: mhm .
 *MOT: there .
-*MOT: no no no .
+*MOT: no .
 *CHI: nice .
 *CHI: I on there .
 *MOT: Im not having tea .
@@ -691,7 +691,7 @@
 *MOT: oh .
 *MOT: youre being very gentle with these teddys at the moment .
 *MOT: is that your teddy ?
-*MOT: is that is that teddy John youve got ?
+*MOT: is that teddy John youve got ?
 *CHI: mhm .
 *MOT: is it ?
 *CHI: Dada .
@@ -721,7 +721,7 @@
 *CHI: on there .
 *MOT: put .
 *MOT: that little babys got a bed of his own  hasnt it ?
-*MOT: wheres wheres wheres babys bed ?
+*MOT: wheres babys bed ?
 *CHI: huh ?
 *MOT: wheres the babys bed ?
 *CHI: in there .
@@ -811,7 +811,7 @@
 *MOT: www .
 *MOT: you looked a sight you did .
 *MOT: Ruth .
-*MOT: were you were you were you putting on Mummys panties ?
+*MOT: were you putting on Mummys panties ?
 *CHI: nice .
 *MOT: nice .
 *MOT: were you putting on Mummys panties this morning  were you ?
@@ -828,7 +828,7 @@
 *MOT: what darling ?
 *CHI: on there .
 *CHI: on there .
-*MOT: shall we shall we leave these on or off ?
+*MOT: shall we leave these on or off ?
 *MOT: Ruth .
 *MOT: listen .
 *MOT: do you want these on or off ?
@@ -1027,7 +1027,7 @@
 *MOT: what darling ?
 *MOT: is she going off to church ?
 *MOT: she looks very pretty .
-*MOT: is she going off is she going off to a wedding maybe ?
+*MOT: is she going off to a wedding maybe ?
 *MOT: is she ?
 *CHI: and me .
 *MOT: are you going ?
@@ -1099,7 +1099,7 @@
 *MOT: have you got everything ?
 *MOT: is that you back again ?
 *CHI: huh ?
-*MOT: is that you are you back again
+*MOT: are you back again
 *CHI: yeah .
 *MOT: hello .
 *MOT: have you come back ?
@@ -1140,7 +1140,7 @@
 *MOT: have you got your hat on now ?
 *MOT: right .
 *MOT: well Ruth .
-*MOT: I I Im the shop here  look .
+*MOT: Im the shop here  look .
 *MOT: look at all the food Ive got in my shop .
 *MOT: now  look .
 *CHI: huh ?
@@ -1369,7 +1369,7 @@
 *MOT: you forgot your key .
 *CHI: huh ?
 *CHI: on choo choo .
-*MOT: oh youre going on the on the train ?
+*MOT: oh youre going on the train ?
 *CHI: mhm .
 *MOT: are you ?
 *MOT: where are you going ?
@@ -1683,7 +1683,7 @@
 *MOT: thats a whale  Ruth .
 *CHI: huh ?
 *MOT: thats a whale .
-*MOT: werent we watching werent we watching about a whale on tv ?
+*MOT: werent we watching about a whale on tv ?
 *CHI: yeah .
 *MOT: were we ?
 *MOT: in Ireland .

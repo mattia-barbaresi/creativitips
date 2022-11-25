@@ -7,8 +7,7 @@
 *CHI: stop it .
 *CHI: stop it  talking .
 *MOT: no .
-*MOT: thats not nice telling Dimitra to stop talking .
-*CHI: will you walking at the >
+*MOT: thats not nice telling Dimitra .
 *CHI: and .
 *MOT: oh .
 *MOT: you wanna go walking with Dimitra .
@@ -18,7 +17,6 @@
 *MOT: would you like to bring that bag to me please ?
 *CHI: here you are .
 *MOT: we brought this ?
-*INV: oh  wow .
 *MOT: lets have a look and see what weve got .
 *MOT: now weve got to be very careful with this because this  is a
 *MOT: are you going to look at this first ?
@@ -164,8 +162,7 @@
 *MOT: what else would you like ?
 *CHI: hosepipe somewhere .
 *MOT: oh .
-*MOT: I know what youre going to use as a hosepipe .
-*CHI: there hosepipe .
+*MOT: I know what youre going to .
 *MOT: yes .
 *MOT: thats the fishing rod .
 *MOT: I knew you were going to get that .
@@ -284,7 +281,7 @@
 *CHI: 0 .
 *MOT: youre stretching .
 *MOT: what are you doing now  Thomas ?
-*CHI: the the my bag .
+*CHI: my bag .
 *MOT: the hosepipe ?
 *MOT: whys the hosepipe lifting up the bag ?
 *CHI: um put it down .
@@ -315,7 +312,7 @@
 *MOT: look .
 *MOT: its high up .
 *MOT: hes trapped .
-*MOT: help help help help .
+*MOT: help .
 *MOT: hes shouting out of the window .
 *MOT: lets take the fire engine elevator up .
 *CHI: dont worry .
@@ -482,9 +479,9 @@
 *MOT: she looks like the queen ?
 *CHI: Po .
 *MOT: ah .
-*MOT: not quite sure how the queen would feel about that .
+*MOT: not quite sure how .
 *MOT: Dimitra looks like a queen ?
-*CHI: like the like a Father Christmas
+*CHI: like a Father Christmas
 *MOT: Dimitra looks like Father Christmas ?
 *CHI: Po looks like a Father Christmas .
 *MOT: oh .
@@ -582,11 +579,11 @@
 *CHI: come on  Mum .
 *MOT: later on well do that .
 *CHI: oh dear .
-*CHI: have a have a plane .
+*CHI: have a plane .
 *CHI: train .
 *CHI: hop .
 *MOT: do you think Dimitra and Po would perhaps like a drink ?
-*CHI: no no no .
+*CHI: no .
 *MOT: no ?
 *MOT: have you asked them ?
 *CHI: no thanks .
@@ -740,7 +737,7 @@
 *MOT: now .
 *MOT: who are you now ?
 *MOT: are you Sams mobile shop ?
-*MOT: or are you the fireman going home via the supermarket and you've>
+*MOT: or are you the fireman going home via the supermarket
 *CHI: yeow .
 *CHI: done it .
 *CHI: sorry .
@@ -761,7 +758,7 @@
 *MOT: thats a very big tube .
 *MOT: because usually  theyre very small arent they ?
 *MOT: please may I have a look at the Smartie box ?
-*CHI: oh no no no .
+*CHI: oh no .
 *MOT: no ?
 *MOT: what else have you got ?
 *CHI: yoghurtsp .
@@ -1027,7 +1024,7 @@
 *INV: look .
 *INV: its not just pipes .
 *INV: look  Thomas .
-*INV: is that is that a head ?
+*INV: is that a head ?
 *INV: can you see ?
 *INV: let me show you .
 *INV: whoops .
@@ -1059,7 +1056,6 @@
 *INV: where are you going to put water ?
 *INV: Thomas .
 *CHI: look  Mummy .
-*INV: are we not going to play ?
 *CHI: water .
 *MOT: yes .
 *MOT: I can see .
@@ -1067,7 +1063,7 @@
 *CHI: 0 .
 *MOT: um be careful .
 *MOT: be careful .
-*MOT: no no no no .
+*MOT: no .
 *INV: oops .
 *CHI: 0 .
 *INV: be careful .
@@ -1148,7 +1144,7 @@
 *CHI: yes .
 *CHI: to Thomas .
 *CHI: oh dear .
-*CHI: what a what a mess .
+*CHI: what a mess .
 *CHI: oh .
 *CHI: 0 .
 *INV: okay .
@@ -1306,8 +1302,7 @@
 *INV: are we building a tower ?
 *CHI: yeah .
 *CHI: look .
-*MOT: what are you building ?
-*CHI: all mended .
+*MOT: what ?
 *MOT: oh .
 *MOT: thats beautiful .
 *CHI: look  Mummy .
@@ -1318,7 +1313,6 @@
 *MOT: is the passenger waiting to go on the train ?
 *CHI: yeah .
 *CHI: and stay down there .
-*MOT: stay .
 *CHI: down there .
 *CHI: look  Mummy .
 *MOT: it really is lovely isnt it ?
@@ -1357,7 +1351,7 @@
 *INV: where are the passengers ?
 *CHI: lots of passengers .
 *INV: lots of passengers .
-*INV: are there are they all in the bus and in the trains ?
+*INV: are they all in the bus and in the trains ?
 *CHI: oh dear .
 *CHI: what happened ?
 *CHI: what a mess .
@@ -1418,7 +1412,7 @@
 *CHI: because they because they fall down .
 *CHI: look .
 *CHI: they go there .
-*CHI: there and  look .
+*CHI: look .
 *CHI: whats that ?
 *CHI: whats that ?
 *INV: um thats a train .
@@ -1453,7 +1447,6 @@
 *INV: I dont wanna bang my head .
 *CHI: yeah .
 *CHI: the people .
-*CHI: argh >
 *CHI: argh .
 *CHI: whee .
 *CHI: ow .
@@ -1500,7 +1493,7 @@
 *INV: fishing rod ?
 *INV: well .
 *INV: youre not doing that with a fishing rod .
-*INV: you just hold it like that and wait .
+*INV: you just .
 *CHI: 0 .
 *INV: with a fishing rod .
 *INV: you just hold it like that .
@@ -1540,7 +1533,7 @@
 *CHI: ooh .
 *MOT: Thomas .
 *CHI: ooh .
-*MOT: play nicely or well hafta take them away .
+*MOT: play nicely or well hafta .
 *CHI: ooh .
 *CHI: 0 .
 *MOT: what has Mummy said to you about not doing things in
@@ -1548,12 +1541,11 @@
 *MOT: do you remember what we said ?
 *MOT: you were very very clever with the whistles .
 *MOT: you didnt blow them in peoples faces did you ?
-*MOT: you blew you turned to the side .
+*MOT: you turned to the side .
 *MOT: youve got to be very very careful with peoples faces .
 *MOT: especially .
 *CHI: no .
 *MOT: eyes .
-*CHI: stop it .
 *MOT: well .
 *MOT: thats what were trying to tell you .
 *INV: oh .
@@ -1572,7 +1564,7 @@
 *INV: I dont enjoy it .
 *CHI: stop it .
 *CHI: off .
-*INV: no no no .
+*INV: no .
 *INV: youre not having it .
 *INV: Im not going to bring it back .
 *CHI: sorry  Mummy .
@@ -1596,10 +1588,9 @@
 *INV: thats okay .
 *INV: laughs .
 *CHI: laughs .
-*CHI: see if you can do that .
 *INV: what do you want me to do ?
 *INV: bang the floor like this ?
-*CHI: bang bang bang bang .
+*CHI: bang .
 *INV: laughs .
 *CHI: laughs .
 *INV: be careful now .
@@ -1629,7 +1620,7 @@
 *INV: is there a glass ?
 *CHI: I dont know .
 *INV: no ?
-*INV: Ill just Ill just drink it from the bottle then .
+*INV: Ill just drink it from the bottle then .
 *INV: its not very nice drinking from the bottle is it ?
 *INV: since we dont have a glass .
 *INV: theres nothing much we can do .
@@ -1687,7 +1678,7 @@
 *INV: thats thats my bird isnt it ?
 *CHI: hm .
 *INV: it goes on the top of the train station .
-*INV: I dont I dont have it today .
+*INV: I dont have it today .
 *CHI: ice cream .
 *INV: is Thomas going to have an ice cream ?
 *INV: dont put it in your mouth .
@@ -1740,12 +1731,12 @@
 *INV: are you going to post them ?
 *CHI: yeah .
 *INV: do you think thats going to work ?
-*CHI: no no no .
+*CHI: no .
 *INV: well .
 *INV: if that doesnt work .
 *INV: what else are you going to do ?
 *INV: what about some shelfs ?
-*INV: what about putting a shelf a shelf there .
+*INV: what about putting a shelf there .
 *CHI: theyre ladders .
 *INV: are they not shelfs ?
 *INV: are they just ladders ?
@@ -1810,7 +1801,6 @@
 *CHI: crawl up
 *MOT: shall Mummy say it ?
 *CHI: no .
-*CHI: stop it .
 *CHI: stop it .
 *INV: you dont want Mummy to say the nursery rhyme ?
 *CHI: no .

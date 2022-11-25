@@ -124,8 +124,6 @@
 *CHI: Molly touch the curtains .
 *CHI: Molly bad cat .
 *MOT: you see .
-*MOT: Molly doesnt want .
-*INV: touch the curtains .
 *MOT: Molly doesnt wanna be outside but she wants to be sat where the
 *MOT: this is what she likes .
 *MOT: there .
@@ -187,8 +185,8 @@
 *INV: yeah .
 *CHI: where shoe ?
 *MOT: thats right .
-*MOT: thats their shoe those shoes  should we say ?
-*CHI: and ready and ready bed .
+*MOT: thats those shoes  should we say ?
+*CHI: and ready bed .
 *MOT: yes .
 *MOT: shes ready for bed there .
 *MOT: mhm .
@@ -257,7 +255,7 @@
 *CHI: the playdough in Nicoles pan .
 *CHI: wait .
 *CHI: a pan .
-*CHI: because a pan hot .
+*CHI: because hot .
 *MOT: well .
 *MOT: go and get your playdough then .
 *MOT: hurry up .
@@ -277,12 +275,11 @@
 *MOT: do you wanna play with your dominos or do you wanna get your
 *CHI: I just there .
 *MOT: or do you wanna carry on playing with your teddys ?
-*CHI: I playing with play the teddys .
+*CHI: I play the teddys .
 *MOT: right .
 *CHI: no head .
 *INV: no .
 *MOT: no .
-*INV: no head .
 *MOT: shes got no head .
 *MOT: youve got it in your hand .
 *CHI: yeah .
@@ -470,7 +467,7 @@
 *MOT: I havent got a pizza .
 *MOT: Ive got to get one when I go shopping .
 *MOT: www .
-*MOT: Ill have Ive got to get one when I go shopping .
+*MOT: Ive got to get one when I go shopping .
 *MOT: whats Nicoles favorite food ?
 *CHI: nobody .
 *MOT: nobody .
@@ -558,7 +555,7 @@
 *MOT: its only in in there .
 *MOT: go and get your pans .
 *INV: come on then .
-*MOT: shall I put shall I put the teddys away ?
+*MOT: shall I put the teddys away ?
 *CHI: yeah .
 *MOT: yeah .
 *CHI: Nicole maltloaf .
@@ -575,7 +572,7 @@
 *INV: well .
 *INV: are we not playing in the kitchen ?
 *MOT: oh no .
-*MOT: bring it the um playdough in here Nicole
+*MOT: the um playdough in here Nicole
 *CHI: no .
 *INV: look .
 *INV: if I do this I can hold them .
@@ -649,8 +646,7 @@
 *MOT: you get it .
 *MOT: go and put it on the kitchen table for me .
 *MOT: go and put it on the kitchen table .
-*MOT: theres a good girl .
-*CHI: Nicole got it .
+*MOT: theres .
 *MOT: are you going to give it to .
 *MOT: are you going to read it first ?
 *CHI: oh .
@@ -714,8 +710,7 @@
 *CHI: and this here .
 *CHI: and tape finished go downstairs ?
 *CHI: right .
-*INV: when the tapes finished we can go downstairs .
-*MOT: when the tape .
+*INV: when we can go downstairs .
 *MOT: yeah .
 *INV: youre getting the hang of this  arent you  Nicole ?
 *MOT: yeah .
@@ -729,7 +724,7 @@
 *CHI: the toy come down .
 *CHI: Nicole play with .
 *INV: thats right .
-*MOT: shall I shall I do her dress ?
+*MOT: shall I do her dress ?
 *MOT: yellow ?
 *CHI: yeah .
 *CHI: yellow .
@@ -825,7 +820,7 @@
 *MOT: well .
 *MOT: its been cooking all morning .
 *CHI: Nicole .
-*MOT: arent you going to do arent you going to dish it up for
+*MOT: arent you going to dish it up for
 *MOT: dont you think its ready yet ?
 *MOT: are you testing it ?
 *MOT: Nicole .
@@ -851,14 +846,13 @@
 *MOT: do you want your dollys out ?
 *CHI: yeah .
 *MOT: well .
-*MOT: whyre you whyre you tipping it upsidedown then ?
+*MOT: whyre you tipping it upsidedown then ?
 *MOT: let go .
 *MOT: now put everything else back please .
 *CHI: no .
 *CHI: dolly do drawing .
 *MOT: and are the dollys gonna eat that ?
 *CHI: no .
-*MOT: all that .
 *MOT: no ?
 *CHI: the dolly dolly like that .
 *CHI: and Caroline Nicole like that .
@@ -1194,13 +1188,12 @@
 *CHI: put putting away no .
 *MOT: Im not putting them away .
 *MOT: think theres something a bit wrong there  dont you ?
-*CHI: where orange .
-*MOT: theyre oranges .
+*MOT: oranges .
 *MOT: not balls .
 *CHI: where orange ?
 *MOT: theyre not meant to be thrown about .
 *MOT: its gone somewhere  isnt it ?
-*MOT: think thats think that is a satsuma or a Clementine .
+*MOT: think that is a satsuma or a Clementine .
 *MOT: its a little one  isnt it ?
 *MOT: we love those .
 *MOT: do you wanna go and wee wee ?
@@ -1214,7 +1207,7 @@
 *CHI: chicken .
 *CHI: yeah .
 *CHI: yeah .
-*MOT: if you want if you wanna throw them sit on the step .
+*MOT: if you wanna throw them sit on the step .
 *CHI: yeah .
 *MOT: and see if you can throw them into the blue thing there .
 *MOT: no .
@@ -1284,7 +1277,6 @@
 *MOT: well .
 *MOT: www .
 *CHI: 0 .
-*MOT: that hare again .
 *MOT: pardon ?
 *CHI: roll it .
 *CHI: I roll it .
@@ -1442,7 +1434,7 @@
 *CHI: train .
 *CHI: teatime yet ?
 *MOT: well .
-*MOT: when you bring when you bring when you bring the train back
+*MOT: when you bring the train back
 *CHI: right .
 *CHI: train come minute .
 *CHI: train come .
@@ -1478,7 +1470,7 @@
 *MOT: do you think he might like a pear ?
 *CHI: like a pear .
 *CHI: yes .
-*CHI: like a like a pear .
+*CHI: like a pear .
 *MOT: www .
 *MOT: hm ?
 *CHI: and is that coming in ?
@@ -1708,7 +1700,7 @@
 *MOT: oh .
 *MOT: www .
 *MOT: go upstairs then and have a wee wee .
-*MOT: look at this gherkin thats on the on the cushion .
+*MOT: look at this gherkin thats on the cushion .
 *MOT: are you going to bring that piece of gherkin thats on the cushion
 *MOT: oh .
 *MOT: bring it to Mummy .

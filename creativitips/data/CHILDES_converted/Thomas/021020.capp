@@ -2,7 +2,7 @@
 *INV: alright .
 *CHI: alright this puppet .
 *INV: just wait a second .
-*INV: we needta set it get it right first .
+*INV: we needta get it right first .
 *CHI: right .
 *INV: what do we need ?
 *INV: ah everythings there .
@@ -109,14 +109,14 @@
 *INV: there isnt another one .
 *CHI: 0 looking another one .
 *CHI: your looking looking too .
-*INV: no no no .
+*INV: no .
 *INV: I I had that in my hand .
 *INV: and then I put it back and you found it .
 *INV: yeah .
 *INV: its just one .
 *CHI: I wanna look .
 *INV: you wanna look ?
-*INV: for another for another one ?
+*INV: for another one ?
 *CHI: yes .
 *INV: I dont think theres another one .
 *CHI: I 0am looking .
@@ -129,7 +129,7 @@
 *INV: pardon ?
 *CHI: youre not telling the truth .
 *INV: I am saying the truth .
-*CHI: youre youre not .
+*CHI: youre not .
 *INV: yes I am .
 *INV: its just one .
 *INV: and I think she would like to tamt .
@@ -145,16 +145,15 @@
 *CHI: its go roaro .
 *INV: oh is it a .
 *INV: its just a little tiger .
-*CHI: go <roar@o>
-*INV: its not going like that .
+*INV: not going like that .
 *CHI: yes .
-*INV: its more like a cat .
+*INV: more like a cat .
 *INV: its not dangerous .
 *CHI: yes it is .
 *INV: no .
 *INV: little tigers are not so dangerous .
 *CHI: a big ones are
-*INV: would you like to see it tamt ?
+*INV: to see it tamt ?
 *INV: look !
 *INV: look .
 *INV: whats happening ?
@@ -172,7 +171,7 @@
 *CHI: eh  no thanks .
 *INV: no ?
 *CHI: play my toys .
-*CHI: I not need your toys .
+*CHI: your toys .
 *INV: would you .
 *CHI: your your play my toys .
 *INV: I will play with your toys but you havent played with mine .
@@ -223,7 +222,6 @@
 *INV: just there ?
 *CHI: cry ah .
 *CHI: 0 .
-*INV: did you cry ?
 *CHI: play this toy !
 *INV: play with that ?
 *CHI: right .
@@ -256,10 +254,8 @@
 *INV: I like blickingt things .
 *CHI: and me too .
 *INV: okay .
-*CHI: thats thats more like mine .
-*INV: is it ?
+*CHI: thats more like mine .
 *CHI: get get mine .
-*CHI: just there .
 *CHI: its the right size .
 *CHI: two horses .
 *INV: come here .
@@ -284,9 +280,8 @@
 *INV: no .
 *CHI: throw in just
 *INV: pardon ?
-*CHI: throw it in just time .
+*CHI: throw it in .
 *INV: throw it in
-*CHI: just time>
 *INV: in this time ?
 *INV: right .
 *INV: would you like to put this back on the box there ?
@@ -312,7 +307,7 @@
 *INV: dustbin wagon is waiting for dustbin man ?
 *CHI: yeah .
 *CHI: dustbin man .
-*INV: what is it what is he doing with them ?
+*INV: what is he doing with them ?
 *CHI: lots of rubbish .
 *INV: lots of rubbish ?
 *INV: yeah .
@@ -363,7 +358,6 @@
 *INV: just a minute .
 *INV: pardon ?
 *CHI: its time .
-*CHI: just in time .
 *INV: dustbin time ?
 *CHI: no .
 *CHI: dustbin man is on Friday .
@@ -373,9 +367,9 @@
 *INV: on Monday ?
 *INV: well to be honest  again I do not understand what you are saying
 *CHI: yes you do .
-*INV: oh well I hope I do>
+*INV: oh well I hope
 *INV: no .
-*CHI: wanna climb up here .
+*CHI: climb up here .
 *INV: are you going to climb there ?
 *INV: good .
 *INV: can you see anything out of the window ?
@@ -405,7 +399,7 @@
 *CHI: I 0do not know .
 *INV: you just told me you do .
 *INV: whats her name ?
-*CHI: eh  its its Isabelle .
+*CHI: eh  its Isabelle .
 *INV: is that Isabelle ?
 *CHI: yeah .
 *INV: I dont think so .
@@ -416,7 +410,7 @@
 *CHI: yes it is .
 *INV: yes it is ?
 *INV: oop .
-*INV: I think youre the box .
+*INV: I think the box .
 *CHI: ap put in your car .
 *INV: what are you going to put in my car ?
 *CHI: these .
@@ -442,16 +436,15 @@
 *INV: its just a wire isnt it ?
 *CHI: what for ?
 *INV: Im not sure .
-*INV: where do where is it coming from ?
+*INV: where is it coming from ?
 *INV: so you liked my card then ?
 *CHI: no car .
 *INV: the one that I sent you ?
-*INV: no no no .
+*INV: no .
 *CHI: yeah .
 *CHI: look .
 *CHI: look at me .
 *CHI: Thomas escaping .
-*INV: are you escaping ?
 *CHI: yes .
 *CHI: lots ap wheels .
 *CHI: whee .
@@ -509,7 +502,7 @@
 *CHI: mhm .
 *INV: plaster on .
 *INV: okay .
-*INV: that should that should be okay now .
+*INV: that should be okay now .
 *INV: I think its going to get better in about two days time .
 *CHI: yeah .
 *INV: are you feeling any better ?
@@ -520,7 +513,6 @@
 *CHI: yeah .
 *INV: oh wow .
 *INV: so it doesnt hurt anymore ?
-*INV: if you can hop .
 *CHI: I 0am elephant .
 *INV: are you an elephant ?
 *CHI: yes .
@@ -535,11 +527,11 @@
 *CHI: I da bear bear .
 *CHI: 0 .
 *CHI: I 0am .
-*INV: Im not scared of you  big bear .
+*INV: scared of you  big bear .
 *CHI: 0 .
 *INV: I can see you .
 *CHI: I 0can see you .
-*CHI: I ap bear ap bear .
+*CHI: I ap bear .
 *INV: are you a bear ?
 *CHI: yeah .
 *INV: whats your name  bear ?
@@ -549,17 +541,17 @@
 *CHI: I am to eat you all up .
 *INV: oh are you going to eat me all up ?
 *CHI: yeah .
-*INV: oh no no no .
+*INV: oh no .
 *INV: I had better hide .
-*INV: would you would you not like some honey instead ?
+*INV: would you not like some honey instead ?
 *CHI: yeah .
 *CHI: ap no .
 *INV: honeys better than me .
 *INV: I think .
-*INV: oh no oh no .
+*INV: oh no .
 *INV: a big bears coming .
 *INV: oh look .
-*INV: Thomas  I think there is something on your stuck on your
+*INV: Thomas  I think there is something stuck on your
 *CHI: where ?
 *INV: look .
 *INV: look .
@@ -577,7 +569,7 @@
 *INV: its quite funny weve got the same horses .
 *INV: oops oops .
 *CHI: these .
-*INV: oh no no no .
+*INV: oh no .
 *INV: Mummys not going to be happy with all these all over the floor .
 *INV: lets pick them up .
 *INV: lets pick them all up .
@@ -594,7 +586,7 @@
 *INV: big bear .
 *CHI: see you in the morning  alligator .
 *INV: okay see you .
-*CHI: see you in Grandma  alligator .
+*CHI: see you in  alligator .
 *CHI: you in Grandma 0and Granddads house .
 *INV: where am I going to see you ?
 *CHI: Grandma 0and Granddads house .
@@ -639,14 +631,11 @@
 *INV: so we can all sit down on the grass and have a very nice picnic .
 *CHI: okay .
 *INV: okay .
-*INV: lets invite>
 *INV: shall we invite the two horses ?
 *CHI: I wanna eat giraffe .
 *INV: youre going to eat the giraffe ?
 *CHI: yeah .
 *CHI: thats lovely .
-*CHI: ap two horse .
-*INV: was she tasty ?
 *INV: are you eating the horses ?
 *INV: youre eating our company .
 *INV: I thought we were going to eat with them not eat them .
@@ -662,9 +651,9 @@
 *INV: oh .
 *CHI: I do not like that .
 *CHI: laughs .
-*INV: is it not very nice ?
+*INV: not very nice ?
 *INV: what else are we have ?
-*CHI: I I my dinner .
+*CHI: my dinner .
 *CHI: I very hungry .
 *INV: have you finished your dinner did you say ?
 *CHI: finished .
@@ -673,8 +662,6 @@
 *CHI: here you are  Dimitra .
 *CHI: here for you .
 *INV: are these for me ?
-*CHI: your welcome .
-*INV: thank you .
 *INV: what can we do with them ?
 *INV: do you have any good ideas ?
 *CHI: yeah build houses !
@@ -702,22 +689,22 @@
 *INV: is the giraffe scared ?
 *CHI: yeah .
 *INV: oh no .
-*INV: run away run away .
+*INV: run away .
 *INV: oh .
 *INV: the giraffe is hiding now .
-*CHI: ap big lion big bear coming  Dimitra .
+*CHI: ap big bear coming  Dimitra .
 *INV: oh !
-*INV: run away run away .
+*INV: run away .
 *INV: oh but that house
-*INV: you just you just demolished that house .
+*INV: you just demolished that house .
 *INV: oop .
 *INV: why are you throwing everything around now ?
-*INV: no no no .
+*INV: no .
 *INV: lets not play that then .
 *INV: no .
 *INV: look  Thomas .
 *INV: I really dont like this .
-*INV: no no no .
+*INV: no .
 *INV: Ill take all my toys away then .
 *INV: ouch .
 *CHI: laughs .
@@ -768,7 +755,7 @@
 *CHI: its more like a snake actually .
 *INV: do you like this toy ?
 *CHI: not that a toy .
-*CHI: its its yours .
+*CHI: its yours .
 *INV: yes .
 *INV: its not a toy at all .
 *CHI: not a toy .
@@ -793,7 +780,6 @@
 *INV: well this thing you can control the camera .
 *INV: I think .
 *INV: but  it has got many little buttons and you can play with them
-*CHI: it not talk .
 *INV: nothing is happening is is it ?
 *CHI: no .
 *INV: are you sleepy ?
@@ -837,7 +823,7 @@
 *CHI: not worry  Purdie .
 *CHI: I get a plaster for you .
 *INV: oh has she hurt her leg .
-*CHI: your broken your  broken this  Purdie .
+*CHI: your  broken this .
 *INV: oh she has she has broken her back ?
 *CHI: yeah .
 *CHI: here go  Purdie .
@@ -860,7 +846,6 @@
 *CHI: right .
 *CHI: es Purdies a horse .
 *CHI: I man on a horse .
-*CHI: Purdies hoppers .
 *CHI: right .
 *CHI: lets go .
 *INV: what are you doing ?
@@ -896,7 +881,7 @@
 *INV: is she going to be better soon ?
 *INV: oop .
 *CHI: laughs .
-*INV: oh no no no .
+*INV: oh no .
 *INV: dont do that  Thomas .
 *INV: you may hurt her .
 *INV: and you dont wanna hurt her you wanna get her better dont you ?
@@ -967,7 +952,7 @@
 *CHI: yeah .
 *INV: I dont think she has  Thomas .
 *CHI: laughs .
-*CHI: I did nip Purdies nose .
+*CHI: I Purdies nose .
 *INV: did she like it ?
 *CHI: yeah .
 *INV: I dont think she did actually .
@@ -987,7 +972,7 @@
 *CHI: more like ap having a nappie change .
 *INV: oh be careful  Thomas .
 *INV: you dont wanna hurt her .
-*INV: shes very calm isnt she ?
+*INV: very calm isnt she ?
 *CHI: Purdie crying .
 *INV: is she ?
 *CHI: yeah .
@@ -1001,7 +986,7 @@
 *CHI: dont know .
 *INV: you carrying her around ?
 *INV: oh no !
-*INV: I th I think that make her really unhappy .
+*INV: I think that make her really unhappy .
 *INV: Thomas  leave Purdie alone now .
 *INV: Thomas .
 *CHI: what happening now ?
@@ -1009,7 +994,7 @@
 *CHI: laughs .
 *INV: Thomas  I think you should leave Purdie alone now .
 *CHI: hear Purdie say miaowo .
-*INV: no no no .
+*INV: no .
 *CHI: Purdies not a lady .
 *INV: shes a cat .
 *INV: shes not happy .
@@ -1021,7 +1006,7 @@
 *INV: no .
 *INV: lets do something different .
 *INV: no .
-*INV: you shouldnt shouldnt play with Purdie like that .
+*INV: you shouldnt play with Purdie like that .
 *INV: shes not happy .
 *INV: she doesnt think its a game .
 *INV: Thomas  please come here .
@@ -1044,7 +1029,7 @@
 *INV: are you a snake now ?
 *CHI: ap ap dat is Thomass .
 *CHI: sa eating come Dimitra .
-*INV: are you coming are you going to eat me up ?
+*INV: are you going to eat me up ?
 *CHI: yeah .
 *INV: are you a snake ?
 *CHI: yeah .
@@ -1067,7 +1052,6 @@
 *INV: whats on fire ?
 *INV: hello  Pippin .
 *CHI: 0 .
-*INV: whats the matter ?
 *CHI: Auntie Mabel chips on fire .
 *INV: oh is it ?
 *CHI: yeah .
@@ -1079,7 +1063,6 @@
 *INV: I shouldnt be asking you  Pippin  what Im sposta do .
 *INV: I should know shouldnt I ?
 *CHI: yeah .
-*CHI: woof woof .
 *INV: okay .
 *INV: woof woof ?
 *INV: okay  Pippin .
@@ -1190,7 +1173,6 @@
 *INV: great .
 *INV: thats very nice and clean now .
 *CHI: yeah thanks .
-*CHI: that my>
 *CHI: I her .
 *INV: no no  Thomas .
 *CHI: I stroke her .
@@ -1230,21 +1212,20 @@
 *INV: thats great .
 *INV: well you know .
 *INV: my I have a problem with this chair of mine .
-*INV: um I a bit of fixing there .
+*INV: a bit of fixing there .
 *CHI: mine .
 *CHI: what for ?
 *CHI: its broken ?
-*INV: eh I think>
 *INV: yeah .
 *INV: somethings not working very well there .
 *INV: would you like to have a look ?
 *CHI: no .
 *CHI: its not .
-*CHI: it has gone like a chair there .
+*CHI: it has gone like a .
 *CHI: its better now .
 *INV: is it ?
 *INV: oh great .
-*CHI: sa ready sit on .
+*CHI: sit on .
 *INV: pardon ?
 *CHI: its ready sit on .
 *CHI: mhm .
@@ -1275,8 +1256,6 @@
 *INV: well I think its a bit early still to have my lunch .
 *CHI: Purdie bit me .
 *CHI: Purdies eat me .
-*CHI: sorry  Purd .
-*MOT: Thomas  does Purdie wanna go out ?
 *INV: pardon ?
 *MOT: would Purdie like to go out ?
 *INV: I dont know .
@@ -1307,8 +1286,7 @@
 *INV: oh the wire ?
 *INV: yes .
 *CHI: I get her better .
-*CHI: like your hold .
-*INV: of course .
+*CHI: like .
 *INV: okay .
 *INV: yes .
 *CHI: your hold that .
@@ -1328,7 +1306,7 @@
 *INV: you need that one ?
 *INV: no .
 *INV: you know you shouldnt go to Purdie with this wire .
-*INV: I think we need we needta fix your hand first .
+*INV: I think we needta fix your hand first .
 *CHI: oh no thanks .
 *CHI: I need ap fix this chair .
 *INV: this chair ?
@@ -1336,7 +1314,7 @@
 *CHI: no this .
 *INV: which one ?
 *CHI: that .
-*INV: no no no .
+*INV: no .
 *INV: youre not going to to go to Purdie again .
 *INV: because I dont think shell be happy .
 *INV: shes going to bite you again .
@@ -1376,7 +1354,7 @@
 *CHI: youre silly woman .
 *INV: Im a silly woman ?
 *INV: I probably do hear silly things actually .
-*CHI: I heard I heard big bear .
+*CHI: I heard big bear .
 *INV: you heard your bear ?
 *CHI: yeah .
 *CHI: youre a big bear .
@@ -1395,7 +1373,7 @@
 *INV: no .
 *INV: dont press those buttons please .
 *CHI: not pressing any .
-*CHI: I not I not eating any now .
+*CHI: I not eating any now .
 *CHI: so your eat me .
 *CHI: some police come out of me .
 *INV: whats coming out of you ?
@@ -1419,7 +1397,7 @@
 *CHI: there .
 *INV: can you hear that ?
 *CHI: mhm .
-*CHI: your say Postman Pat Postman Pat .
+*CHI: your say Postman Pat .
 *CHI: little white cat .
 *INV: oh I dont know that song .
 *CHI: yes you do .
@@ -1438,13 +1416,12 @@
 *INV: yes we can .
 *INV: is this how it goes ?
 *CHI: no .
-*CHI: thats thats not right .
+*CHI: thats not right .
 *INV: thats not right ?
 *INV: well Im afraid I dont know anymore songs .
 *INV: ah .
 *INV: I know one .
 *INV: gently down the stream .
-*INV: merrily merrily>
 *INV: 0 .
 *INV: gently down the stream .
 *INV: if you see a crocodile dont forget to
@@ -1466,7 +1443,7 @@
 *INV: what about Purdie ?
 *CHI: Purdie is hurting the ginger cat .
 *CHI: no worry  Purd .
-*CHI: Purdies Purdies little girl .
+*CHI: Purdies little girl .
 *INV: Purdies a little girl ?
 *INV: yes she is .
 *CHI: 0 .
@@ -1483,7 +1460,6 @@
 *INV: Thomas .
 *CHI: yeah ?
 *INV: what are you doing now ?
-*CHI: running away Purdie .
 *INV: pardon ?
 *INV: are you not going to play with me anymore ?
 *CHI: no no .
@@ -1501,10 +1477,7 @@
 *MOT: why have you been so naughty to Purdie ?
 *CHI: I 0do not know .
 *MOT: no .
-*MOT: I dont know either  Thomas .
-*CHI: ap Purdie bite me .
-*CHI: I think>
-*MOT: well  Thomas  Im not surprised she has bitten you if
+*MOT: Im not surprised she has bitten you if
 *CHI: yeah .
 *MOT: dont climb up there !
 *CHI: ap Purdie Dimitra wash it .
@@ -1524,8 +1497,6 @@
 *CHI: I 0am good boy now .
 *MOT: I dont care whether youre a good boy now .
 *MOT: youve not been a good boy have you ?
-*CHI: yes I do .
-*MOT: earlier on today .
 *MOT: you going to go and talk to Dimitra ?
 *CHI: oh .
 *CHI: blooming heck .

@@ -15,7 +15,6 @@
 *INV: we do need the lady .
 *INV: maybe the best thing to do is to put it there so that the lady can
 *INV: look at the lady .
-*INV: shes coming .
 *CHI: uh no .
 *CHI: nappie change that one .
 *INV: oh does she needta go for a nappie change ?
@@ -108,10 +107,10 @@
 *CHI: a toy .
 *INV: up there .
 *CHI: no need them .
-*CHI: no need the ll all these ladys .
+*CHI: no need all these ladys .
 *INV: we dont need all these ladys .
 *INV: actually I think theres only one lady there .
-*INV: the rest are the other two are men .
+*INV: the other two are men .
 *INV: ah look what else
 *INV: the other thing we can do with them  is .
 *CHI: whats there ?
@@ -177,7 +176,7 @@
 *INV: go later .
 *CHI: whats that noise ?
 *INV: I think its the microwave .
-*INV: would you like to do a blickt do blickt those people a
+*INV: would you like to do blickt those people a
 *CHI: no no .
 *INV: no .
 *INV: youve had enough of of that .
@@ -221,7 +220,7 @@
 *CHI: oh no .
 *INV: everythings falling down .
 *INV: oops .
-*INV: did you did you hurt your knee there ?
+*INV: did you hurt your knee there ?
 *CHI: everybody fall down .
 *CHI: look .
 *CHI: letters all falling down .
@@ -286,8 +285,7 @@
 *INV: oh yes yes .
 *CHI: yes .
 *MOT: no .
-*MOT: youll break them and then you wont be able to play with them>
-*CHI: no stairs .
+*MOT: youll break them and then you wont be able to
 *CHI: be like that .
 *INV: mm I can smell something really nice  Thomas .
 *INV: can you smell something nice ?
@@ -309,8 +307,6 @@
 *INV: its very high up .
 *CHI: look me  Mummy .
 *CHI: high up .
-*INV: are you high up ?
-*MOT: whats the matter ?
 *MOT: ah Thomas !
 *INV: its a bit of an unconventional table .
 *MOT: it is .
@@ -391,8 +387,7 @@
 *CHI: this bin bags .
 *INV: no .
 *INV: theyre too nice to throw away .
-*INV: maybe you could give them to me .
-*CHI: too nice>
+*INV: maybe you could .
 *CHI: too nice .
 *INV: too nice to throw away .
 *CHI: too nice .
@@ -473,7 +468,6 @@
 *INV: oh is she ?
 *CHI: 0 lie down .
 *MOT: alright .
-*CHI: lie down>
 *CHI: okay .
 *CHI: 0 .
 *CHI: I stand up again .
@@ -555,7 +549,7 @@
 *CHI: yes .
 *CHI: oh .
 *CHI: 0 .
-*INV: Ill start coughing too if you do that to my throat to my
+*INV: Ill start coughing too if you do that to my
 *CHI: need it .
 *MOT: no no .
 *CHI: stop it .
@@ -599,11 +593,11 @@
 *CHI: the crane fall down .
 *MOT: no .
 *CHI: 0 .
-*MOT: you be careful with that>
+*MOT: you be
 *CHI: no no fall down .
 *INV: its okay .
 *INV: its okay .
-*INV: you can floor .
+*INV: floor .
 *INV: okay .
 *INV: leave it lying there .
 *INV: is it sleeping ?
@@ -630,7 +624,7 @@
 *MOT: promise me .
 *CHI: promise me .
 *CHI: 0 .
-*INV: no throwing  tables and chairs on me .
+*INV: tables and chairs on me .
 *INV: okay .
 *CHI: yes .
 *INV: okay .
@@ -788,8 +782,6 @@
 *MOT: do you not need
 *MOT: oh .
 *CHI: no .
-*MOT: you like>
-*MOT: you like>
 *CHI: no  Mummy .
 *MOT: yes .
 *MOT: alright .
@@ -808,8 +800,6 @@
 *INV: yes please .
 *INV: I would love some .
 *CHI: 0 .
-*CHI: cup fall .
-*MOT: Ill give you .
 *CHI: cup fall down .
 *INV: what fell down ?
 *CHI: cup .
@@ -861,7 +851,7 @@
 *CHI: yes please .
 *MOT: would you like a piece of bread  Thomas ?
 *CHI: no .
-*CHI: have um have caravan .
+*CHI: have caravan .
 *MOT: what would you like ?
 *CHI: um um .
 *CHI: have caravan .
@@ -901,8 +891,6 @@
 *CHI: 0 .
 *MOT: well Im sorry this isnt a Christmas meal but Happy Christmas .
 *INV: Happy Christmas .
-*INV: Happy Christmas  Thomas .
-*MOT: Happy Christmas  Thomas .
 *MOT: cheers .
 *CHI: mhm again .
 *MOT: again .
@@ -1005,10 +993,8 @@
 *INV: ah chocolate .
 *MOT: we hadta get something that looked sunny and bright .
 *CHI: hold it .
-*CHI: hold it .
 *MOT: so the sunny and bright is for you and the red ribbon is for
-*CHI: hold it>
-*INV: oh thank you so much .
+*INV: so much .
 *CHI: hold it .
 *MOT: and we have a card upstairs havent we ?
 *CHI: hold it .
@@ -1259,7 +1245,6 @@
 *INV: this one .
 *CHI: um no .
 *CHI: yellow .
-*INV: its a whale .
 *INV: yellow .
 *CHI: no .
 *CHI: its green .
@@ -1282,15 +1267,14 @@
 *CHI: that like a bridge .
 *MOT: like a bridge ?
 *CHI: yes .
-*MOT: like a like a hat .
+*MOT: like a hat .
 *CHI: Im wearing a hat .
 *MOT: where 0has Thomas gone now ?
 *MOT: I dont know ?
 *INV: where is Thomas ?
 *MOT: where is Thomas ?
 *MOT: have you seen him  Dimitra ?
-*MOT: he has gone very quiet .
-*INV: I dont know .
+*MOT: he has gone .
 *INV: he wanted to get down .
 *MOT: yes .
 *MOT: I think he must have got down and gone off .
@@ -1302,7 +1286,7 @@
 *MOT: I can hear something over here .
 *MOT: and I can see something very bright but its a bib .
 *CHI: open .
-*MOT: oh hes there .
+*MOT: oh .
 *CHI: hello .
 *MOT: hello .
 *INV: hello .
@@ -1340,8 +1324,7 @@
 *INV: you want me to get down too .
 *CHI: yes .
 *CHI: get down  please .
-*CHI: get down>
-*MOT: does your ear hurt ?
+*MOT: hurt ?
 *MOT: you were holding your ear .
 *MOT: no .
 *CHI: no .
@@ -1372,7 +1355,6 @@
 *MOT: like you .
 *MOT: ah thats something else that Dimitra can do with you in a few
 *CHI: mhm .
-*MOT: your Thomas The Tank Engine .
 *CHI: the Thomas The Tank Engine in it .
 *CHI: chocolate mousse .
 *MOT: chocolate mousse .
@@ -1595,8 +1577,8 @@
 *CHI: ap lost your present .
 *MOT: I dont think shes going to be very .
 *CHI: lost your present .
-*MOT: ah I dont think shes going to be very pleased .
-*CHI: lost your present .
+*MOT: ah I dont think shes going to .
+*CHI: present .
 *INV: ah did you lose it ?
 *CHI: yes .
 *INV: oh no .

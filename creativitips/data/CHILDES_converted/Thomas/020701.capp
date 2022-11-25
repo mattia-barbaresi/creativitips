@@ -95,7 +95,7 @@
 *CHI: here you are .
 *MOT: thank you .
 *MOT: right .
-*MOT: you give that to the greengrocer .
+*MOT: you give that to .
 *CHI: um one strawberry .
 *CHI: one two strawberries .
 *MOT: he hasnt got any more  Thomas .
@@ -116,7 +116,6 @@
 *MOT: he has got two fillets of yellow fish  Thomas .
 *MOT: there you are .
 *MOT: just let me go back and pay him .
-*CHI: there you are .
 *MOT: there we are .
 *MOT: well give him two pounds for those shall we ?
 *CHI: oh .
@@ -159,7 +158,6 @@
 *CHI: elephant .
 *MOT: is that your elephant ?
 *MOT: yes .
-*MOT: we were going to>
 *MOT: we were going to cut this out for you werent we ?
 *MOT: but we somehow the box got crashed .
 *MOT: what Ill do later on .
@@ -239,8 +237,6 @@
 *MOT: what do you do ?
 *MOT: go to the shops and you buy the food and then you take it round to
 *CHI: uh .
-*MOT: are you going to>
-*CHI: a roundabout .
 *MOT: a roundabout .
 *CHI: yes .
 *MOT: are you going to do some deliverys today .
@@ -257,7 +253,7 @@
 *MOT: theres a bottle of milk here that the postman has brought .
 *MOT: not the postman .
 *MOT: the milkman .
-*MOT: Mummys get Mummys getting confused .
+*MOT: Mummys getting confused .
 *MOT: oh well be careful .
 *MOT: if you throw the bottle of milk down itll smash and the milkll go
 *CHI: 0 .
@@ -420,7 +416,7 @@
 *MOT: round and round .
 *CHI: not do it round .
 *CHI: sitting Dimitras .
-*CHI: sitting that big chair .
+*CHI: sitting .
 *MOT: sitting where Dimitras sat .
 *MOT: youre something else arent you ?
 *MOT: this is funny .
@@ -455,7 +451,6 @@
 *MOT: can you find it ?
 *CHI: hm .
 *MOT: you can reach them .
-*CHI: all mended now .
 *INV: what are you saying ?
 *MOT: what are you saying ?
 *CHI: no .
@@ -737,16 +732,12 @@
 *INV: shall we put it behind Thomas ?
 *INV: these are Annie and Clarabel ?
 *CHI: Annie Clarabel .
-*CHI: one in there .
 *INV: what about a little sheep ?
 *INV: where would you like to put that ?
 *CHI: um .
-*CHI: not sheep .
-*CHI: horse I think .
 *INV: yes .
 *INV: on the grass .
 *INV: what about the boat ?
-*CHI: what it doing the boat ?
 *CHI: look .
 *CHI: a train there .
 *INV: yes .
@@ -765,7 +756,7 @@
 *INV: that one .
 *INV: do you want that one off ?
 *INV: whos that ?
-*CHI: watch it  Percy .
+*CHI: Percy .
 *INV: what  Purdie ?
 *INV: ah its Percy .
 *CHI: Percy .
@@ -812,7 +803,6 @@
 *INV: what is it ?
 *INV: is it a .
 *INV: like that .
-*CHI: no want it .
 *CHI: cheeky .
 *INV: cheeky .
 *CHI: yes .
@@ -925,7 +915,7 @@
 *INV: no .
 *INV: this is sposta go in the freezer there .
 *CHI: freezer .
-*INV: do you do you know what it is ?
+*INV: do you know what it is ?
 *INV: it makes ice cubes .
 *CHI: ice cubes .
 *INV: yes .
@@ -1020,15 +1010,14 @@
 *INV: eggs .
 *CHI: whats this ?
 *CHI: Dimitra open it .
-*CHI: what in what inside it ?
+*CHI: what inside it ?
 *CHI: eggs .
 *INV: eggs are inside it .
 *CHI: watch .
 *INV: oh .
-*INV: theyd be broken now if they were real eggs .
+*INV: broken now if they were real eggs .
 *INV: I think they go all together  Thomas .
 *INV: you cant pull them apart .
-*CHI: that fridge .
 *INV: whats in the freezer ?
 *CHI: um fridge .
 *CHI: climb the ladders .
@@ -1045,7 +1034,6 @@
 *INV: oh weve got two ladders .
 *CHI: right .
 *INV: whos coming ?
-*CHI: fall the ladder .
 *CHI: down the ladder .
 *INV: down the ladder .
 *CHI: go Sues house .
@@ -1127,7 +1115,7 @@
 *CHI: yes .
 *CHI: hiding .
 *INV: are they hiding in the fridge ?
-*CHI: hiding in the door .
+*CHI: hiding .
 *INV: oh .
 *CHI: laughs .
 *CHI: Thomas The Tank Engine shut the door .
@@ -1167,7 +1155,6 @@
 *CHI: find them .
 *CHI: Thomas The Tank Engine found them .
 *CHI: find them .
-*CHI: find >
 *CHI: find them .
 *CHI: no .
 *INV: who has found them ?
@@ -1175,7 +1162,7 @@
 *INV: hm .
 *CHI: Bertie found them .
 *CHI: doing now .
-*INV: I thought Thomas was broken and the fire the Fireman was
+*INV: I thought Thomas was broken and the Fireman was
 *CHI: Thomas coming
 *CHI: happy birthday .
 *INV: laughs .

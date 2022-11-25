@@ -285,9 +285,7 @@
 *CHI: yes .
 *MOT: but Daddys not at work today is he ?
 *CHI: no .
-*CHI: Allen Hall>
 *MOT: pardon ?
-*CHI: Allen Hall>
 *MOT: no .
 *MOT: Daddys not at Allen Hall today .
 *MOT: Daddys poorly .
@@ -577,14 +575,13 @@
 *CHI: no changing .
 *MOT: no changing ?
 *CHI: no train bridge .
-*MOT: well I think if you if you need changing we oughta go and do
+*MOT: well I think if you need changing we oughta go and do
 *MOT: do you not think you need changing ?
 *CHI: no .
 *MOT: Im just looking for the rest of your train set .
 *CHI: train set gone ?
 *MOT: where has the train set gone ?
 *MOT: here we are .
-*CHI: turn round .
 *MOT: when we go out this afternoon we must remember to come back and
 *MOT: would you like to sit in your chair ?
 *CHI: yes .
@@ -663,7 +660,6 @@
 *MOT: Im just wondering what Ive done with Jonathans birthday present
 *MOT: Ive got the wrapping paper .
 *MOT: I wonder if I didnt bring the present down from upstairs .
-*CHI: some Thomas did .
 *CHI: back .
 *CHI: ap going backwards .
 *CHI: going backwards .
@@ -683,7 +679,6 @@
 *CHI: oh dear .
 *MOT: what has happened ?
 *MOT: have you dropped the trains on the floor ?
-*MOT: dont worry .
 *MOT: Ill pick them up .
 *MOT: theyre lovely trains arent they ?
 *CHI: ap blue train .
@@ -958,7 +953,6 @@
 *MOT: oh dear dear .
 *MOT: who else went to the dentist ?
 *MOT: do you remember .
-*CHI: here you are .
 *MOT: right .
 *MOT: would you like to bring it here while I stick this label on .
 *CHI: Thomas doing ?
@@ -968,8 +962,6 @@
 *MOT: now look  Thomas .
 *MOT: would you like to stick this on ?
 *CHI: yeah .
-*CHI: yes of course .
-*MOT: there we are .
 *MOT: yes of course ?
 *MOT: ah .
 *MOT: thats really sweet .
@@ -1064,7 +1056,7 @@
 *CHI: Thomas do it .
 *CHI: Thomas do it .
 *MOT: okay .
-*MOT: just uh just one minute .
+*MOT: just one minute .
 *MOT: right .
 *MOT: now Mummy has written .
 *MOT: look at this .
@@ -1088,7 +1080,6 @@
 *MOT: whats Thomas doing now ?
 *MOT: well would you just like to put a little signature on the bottom
 *CHI: yes .
-*CHI: Jonathan .
 *CHI: yes of course .
 *MOT: yes of course .
 *MOT: you are funny .
@@ -1200,11 +1191,11 @@
 *MOT: because you wanted to go to sleep after lunch .
 *MOT: and you fought it didnt you ?
 *CHI: yes .
-*MOT: and youre a ratty ratty ratty arent you ?
+*MOT: and youre a ratty arent you ?
 *CHI: pencil gone ?
 *MOT: please may I borrow the pencil again ?
 *MOT: Mummy wants to borrow the pencil .
-*MOT: no no no .
+*MOT: no .
 *CHI: 0 .
 *MOT: I shall put the roll of Sellotape in that envelope .
 *CHI: oh dear .
@@ -1238,7 +1229,6 @@
 *MOT: alright .
 *MOT: and we know its in the entrance when were ready to go out of
 *CHI: oh dear .
-*CHI: oh dear .
 *MOT: oh dear .
 *CHI: oops .
 *CHI: racing car .
@@ -1262,7 +1252,7 @@
 *MOT: a little bit later on today .
 *MOT: because weve got some things to deliver .
 *MOT: some letters to push through peoples doors .
-*CHI: Mummy letters .
+*CHI: letters .
 *MOT: so you can play postman .
 *MOT: and do that for me .
 *MOT: and the other job weve got to remember to do before tomorrow .
@@ -1289,7 +1279,6 @@
 *MOT: now Im taking that off you .
 *MOT: no .
 *MOT: you dont throw .
-*MOT: if you throw>
 *CHI: 0 .
 *MOT: if you throw .
 *CHI: 0 .
@@ -1334,8 +1323,7 @@
 *MOT: because Jacks mummy wanted to know all about it .
 *MOT: and weve got a leaflet here .
 *MOT: it says “music time” .
-*MOT: songs rhymes movement listening musical games .
-*CHI: ap shopping basket .
+*MOT: songs rhymes movement listening .
 *MOT: and a large collection of instruments .
 *MOT: Monday and Friday mornings .
 *MOT: but we only go on Mondays .
@@ -1357,7 +1345,7 @@
 *MOT: you a tired boy ?
 *CHI: yeah .
 *MOT: you look terribly tired .
-*MOT: I wouldnt mind beting that we set off well walk>
+*MOT: I wouldnt mind beting that we set off
 *MOT: oh dear .
 *MOT: and youll go to sleep .
 *MOT: that would be typical wouldnt it ?
@@ -1490,7 +1478,7 @@
 *MOT: so youre giving me the red apple to eat .
 *MOT: after youve had a bite out of it .
 *MOT: mm .
-*MOT: crunchy crunchy crunchy .
+*MOT: crunchy .
 *CHI: here you are .
 *MOT: thank you .
 *MOT: now Mummy has just written a little note to .
@@ -1503,8 +1491,7 @@
 *MOT: two moneys ?
 *CHI: yes .
 *MOT: have you got a lot more money for change  Thomas ?
-*CHI: dat de ride le bike .
-*CHI: ride le bike>
+*CHI: dat de .
 *CHI: it .
 *MOT: you riding the bicycle again ?
 *CHI: yes .

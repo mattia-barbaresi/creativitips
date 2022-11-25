@@ -1,8 +1,7 @@
 *CHI: heh heh .
 *CHI: train any more track .
-*CHI: yes >
 *MOT: youve got plenty of track in the box havent you ?
-*CHI: train not there anymore .
+*CHI: anymore .
 *MOT: pardon ?
 *CHI: yes .
 *CHI: yes .
@@ -150,7 +149,7 @@
 *CHI: yes .
 *MOT: youre getting muddled up arent you ?
 *MOT: hows that  Thomas ?
-*CHI: look a big bump .
+*CHI: look .
 *MOT: yes .
 *MOT: oops a daisy .
 *CHI: these two broken down .
@@ -346,7 +345,7 @@
 *MOT: and the hairdressers telephone number is almost the same as ours .
 *MOT: ours is three eight nine zero .
 *MOT: and theres three eight nine nine .
-*MOT: and people are always phoning for the hairdressers .
+*MOT: and people are always .
 *MOT: pardon .
 *CHI: tea party Jean .
 *MOT: Mummy what Jean ?
@@ -382,7 +381,7 @@
 *MOT: blue ink .
 *MOT: ink .
 *MOT: from inside of a pen .
-*CHI: let me see the blue ink .
+*CHI: the blue ink .
 *MOT: look .
 *MOT: theres the blue ink .
 *MOT: can you see the mark on the carpet ?
@@ -494,7 +493,7 @@
 *CHI: go .
 *CHI: look its a wind blow house .
 *CHI: wind blow blow .
-*CHI: its not the house .
+*CHI: the house .
 *MOT: the wind has blown all the trees over ?
 *CHI: yes .
 *CHI: thats a naughty wind .
@@ -572,7 +571,7 @@
 *CHI: there .
 *CHI: Bob builder near the telephone in his tummy .
 *MOT: Bob The Builder has got what  love ?
-*CHI: got a telephone on board and I have a telephone in my tummy ?
+*CHI: telephone on board and I have a telephone in my tummy ?
 *MOT: Bob The Builder has got a telephone on board and youve a telephone
 *CHI: yes .
 *MOT: well that sounds a little bit bizarre .
@@ -608,7 +607,7 @@
 *CHI: I put something else in .
 *CHI: like this house .
 *CHI: this house .
-*CHI: dig dig dig dig .
+*CHI: dig .
 *CHI: put them here .
 *CHI: hey .
 *MOT: aw the poor horse .
@@ -734,7 +733,7 @@
 *MOT: another heavy load .
 *MOT: I was just thinking what an excellent way to tidy up your <train
 *CHI: train missing .
-*CHI: just opened the track on the track .
+*CHI: on the track .
 *MOT: youve just opened the track .
 *MOT: a piece of track came off didnt it ?
 *CHI: yes .
@@ -755,13 +754,11 @@
 *MOT: its black  Thomas .
 *CHI: I like blue .
 *MOT: well its like a very very dark blue .
-*CHI: thats the one .
 *MOT: thats a blue .
 *MOT: it looks quite .
 *CHI: another blue one .
 *MOT: yes .
 *MOT: I think when you see it against the other blue ones you can tell
-*CHI: a yellow one .
 *MOT: yes .
 *MOT: how many yellow ones .
 *CHI: one two three .
@@ -802,7 +799,6 @@
 *MOT: careful  darling .
 *MOT: be gentle with it .
 *MOT: thats not nice .
-*CHI: this ones the biggest .
 *CHI: ap more heavy load .
 *MOT: more heavy loads .
 *CHI: heavy loads .
@@ -890,7 +886,7 @@
 *MOT: do you think they will be ?
 *CHI: aw .
 *CHI: thats funny .
-*CHI: some is funny .
+*CHI: funny .
 *MOT: whats funny  love ?
 *CHI: youre funny .
 *MOT: youre funny .
@@ -906,7 +902,6 @@
 *MOT: yes there are large wheels at the back and small wheels at the
 *CHI: yes .
 *CHI: my digger man .
-*CHI: my train .
 *MOT: oh are you lifting it all out ?
 *MOT: Thomas .
 *MOT: thats not nice .
@@ -1078,7 +1073,7 @@
 *MOT: oh yes .
 *MOT: its nearly a full box isnt it ?
 *CHI: thats a full bottle .
-*MOT: it is almost it looks like youve just had one spoonful out
+*MOT: it looks like youve just had one spoonful out
 *MOT: weve not needed Calpol for a long time have you ?
 *CHI: no .
 *MOT: not since before Christmas when you were poorly .
@@ -1168,7 +1163,7 @@
 *MOT: would you like to drop them into that bag please ?
 *MOT: yes .
 *CHI: I useta wear those shoes when I was expecting you .
-*CHI: youve never worn shoe .
+*CHI: youve shoe .
 *MOT: and what colors that shoe ?
 *CHI: purple .
 *MOT: purple .
@@ -1234,7 +1229,6 @@
 *MOT: Ive just obviously put that one down in some Blu tack .
 *MOT: right .
 *MOT: which one matches that ?
-*CHI: put it in here .
 *MOT: that one .
 *MOT: are the heels the same size ?
 *MOT: yes .
@@ -1243,7 +1237,7 @@
 *MOT: and which one matches that one ?
 *CHI: not yet .
 *CHI: not like shoes .
-*CHI: shall throw them in here .
+*CHI: here .
 *CHI: repair man .
 *MOT: youre a repair man .
 *CHI: yes .
@@ -1255,10 +1249,7 @@
 *CHI: all yours .
 *MOT: theyre all mine .
 *CHI: yes .
-*MOT: where do you>
-*CHI: where did you buy them ?
-*CHI: and it's>
-*MOT: where did you>
+*CHI: you buy them ?
 *CHI: from a shoe shop .
 *MOT: oh its a shoe shop is it ?
 *MOT: where does your heel go  Thomas ?
@@ -1277,7 +1268,7 @@
 *MOT: and these were the ones I wore at your christening .
 *CHI: yes .
 *MOT: right right .
-*MOT: wheres the where are Mummys toes ?
+*MOT: where are Mummys toes ?
 *CHI: there .
 *CHI: under your shoe .
 *MOT: under my shoe .
@@ -1391,7 +1382,7 @@
 *MOT: shall I pay you for them ?
 *CHI: yes .
 *MOT: there you are .
-*MOT: thats how much would you like ?
+*MOT: how much would you like ?
 *CHI: two change .
 *MOT: two change .
 *MOT: right .
@@ -1439,7 +1430,7 @@
 *CHI: yes .
 *MOT: oh they fit perfectly .
 *MOT: in fact .
-*CHI: no more no more shoes .
+*CHI: no more shoes .
 *MOT: youve no more shoes in your shop ?
 *MOT: well I have bought quite a few pairs havent I ?
 *CHI: yes .
@@ -1694,7 +1685,7 @@
 *CHI: no .
 *MOT: cant imagine Purdie liking to eat a banana can you ?
 *CHI: no .
-*MOT: or a Crunchie that Crunchie bar youve just eaten .
+*MOT: or that Crunchie bar youve just eaten .
 *MOT: I cant imagine Purdie would like to eat a Crunchie .
 *CHI: no .
 *MOT: but thats alright .

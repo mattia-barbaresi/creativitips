@@ -11,8 +11,6 @@
 *CHI: 0 .
 *CHI: not in there .
 *CHI: hiding down the stairs .
-*MOT: its hiding>
-*CHI: I think .
 *MOT: its hiding down the stairs you think ?
 *CHI: hiding somewhere .
 *MOT: its hiding somewhere ?
@@ -119,7 +117,7 @@
 *MOT: oh no .
 *CHI: get fire engine out .
 *MOT: get the fire engine out because the cookers beeping ?
-*MOT: Im not sure how to stop it .
+*MOT: how to stop it .
 *CHI: no need a green rope .
 *MOT: you dont need the big rope ?
 *CHI: no .
@@ -144,8 +142,6 @@
 *MOT: with your truck .
 *CHI: got my hat .
 *CHI: see whats happening .
-*MOT: you got>
-*CHI: oh mind .
 *CHI: drop my hat on .
 *MOT: oh .
 *CHI: silly .
@@ -164,10 +160,9 @@
 *CHI: no .
 *MOT: or hooter ?
 *CHI: no .
-*CHI: oh dear .
 *MOT: now dont press any buttons please .
 *MOT: mustnt press any buttons .
-*MOT: no no no .
+*MOT: no .
 *CHI: sorry .
 *MOT: no .
 *MOT: you dont touch any of those .
@@ -205,7 +200,6 @@
 *MOT: I bet you do .
 *CHI: oh look .
 *CHI: two beep beep .
-*MOT: I know>
 *MOT: two beep beeps again ?
 *MOT: I can hear them .
 *CHI: my kitchen .
@@ -228,7 +222,7 @@
 *CHI: yes .
 *CHI: stop moment on again .
 *MOT: just be careful not to put those reins round your neck .
-*CHI: no no no .
+*CHI: no .
 *CHI: two beeping again .
 *MOT: yes .
 *MOT: beeping again .
@@ -256,7 +250,6 @@
 *CHI: te post them through a slot .
 *MOT: youre posting them through a slot ?
 *CHI: yeah .
-*MOT: whats .
 *CHI: see Mummys slot .
 *CHI: see Mummy letters .
 *MOT: what sort of slot was it ?
@@ -280,7 +273,7 @@
 *MOT: you had breakfast ?
 *CHI: oh yeah .
 *MOT: what did you have for breakfast ?
-*CHI: uh sausages and beans and chocf chocolate mousse .
+*CHI: uh sausages and beans and chocolate mousse .
 *MOT: sausages beans and chocolate mousse for your breakfast ?
 *CHI: yeah .
 *MOT: this morning ?
@@ -305,7 +298,6 @@
 *CHI: no sandwiches .
 *MOT: you didnt have any sandwiches at breakfast time ?
 *CHI: oh yes .
-*MOT: you had>
 *MOT: you had sandwiches as well !
 *MOT: with sausages and beans ?
 *CHI: yeah .
@@ -368,8 +360,6 @@
 *CHI: no another time .
 *MOT: yes .
 *MOT: well youve got Teletubbies on video  Thomas havent you ?
-*MOT: so that>
-*CHI: pull it>
 *MOT: we can watch Teletubbies sometime .
 *MOT: whos your favorite Teletubby ?
 *CHI: oh fall out .
@@ -416,7 +406,6 @@
 *CHI: big .
 *MOT: just sit on my knee a minute and talk to me .
 *MOT: because Ive missed you .
-*CHI: no no>
 *MOT: oh yes .
 *CHI: no .
 *MOT: you said you had missed me when you arrived home .
@@ -443,9 +432,8 @@
 *CHI: come on  Mummy .
 *MOT: come on  Mummy ?
 *MOT: where do you want Mummy to come too ?
-*CHI: ap going ap big truck shop .
-*CHI: big truck shop>
-*MOT: were going to the big truck shop ?
+*CHI: ap going ap .
+*MOT: were going to the ?
 *CHI: big truck there .
 *MOT: oh the big truck .
 *MOT: truck shop .
@@ -472,7 +460,7 @@
 *MOT: do I need towing away ?
 *CHI: oh yes .
 *MOT: do I ?
-*MOT: am I stuck in the mud ?
+*MOT: stuck in the mud ?
 *CHI: oh yeah .
 *MOT: or am I stuck in the armchair because Ive eaten too much ?
 *CHI: yeah .
@@ -529,8 +517,6 @@
 *MOT: thank you very very much  Thomas .
 *CHI: big one .
 *CHI: a baby one .
-*MOT: a big one .
-*CHI: a big one .
 *MOT: a big one and a baby one ?
 *CHI: big truck people off .
 *CHI: oh no .
@@ -591,7 +577,7 @@
 *MOT: right .
 *MOT: okay .
 *MOT: shall we make the postbox with the chair like we normally do ?
-*CHI: no no no chair .
+*CHI: no chair .
 *MOT: I thought you liked doing it like .
 *CHI: not need not that !
 *CHI: not need that !
@@ -658,7 +644,7 @@
 *CHI: no .
 *MOT: no .
 *MOT: what was she called ?
-*CHI: called Jane .
+*CHI: called .
 *CHI: Dora letter .
 *MOT: in a big red envelope like that hadnt she ?
 *MOT: and when she went to the sorting office she watched for the bright
@@ -730,7 +716,6 @@
 *MOT: you wanna write it ?
 *CHI: yeah .
 *MOT: youre going to write in the envelope ?
-*CHI: yeah yeah>
 *MOT: alright there you are .
 *MOT: just on this envelope though .
 *MOT: not the others .
@@ -822,7 +807,7 @@
 *MOT: can you see the picture on the stamp ?
 *MOT: thats the queen .
 *MOT: the queens head .
-*MOT: oh no dont draw it dont color her in .
+*MOT: oh no dont color her in .
 *CHI: sorry .
 *MOT: thank you .
 *MOT: thank you .
@@ -832,7 +817,7 @@
 *CHI: Granddad .
 *MOT: Granddad ?
 *CHI: mhm .
-*MOT: have you written to thank him for having you ?
+*MOT: written to thank him for having you ?
 *CHI: yes .
 *MOT: what did you say ?
 *MOT: thank you for a very nice time Granddad ?
@@ -859,7 +844,6 @@
 *MOT: oh dear .
 *CHI: no na writing .
 *CHI: no not .
-*MOT: just a minute .
 *MOT: just a minute .
 *MOT: Mummys writing .
 *CHI: two words .
@@ -918,7 +902,7 @@
 *MOT: thank you .
 *MOT: and what does that say ?
 *MOT: that little sticker in the corner ?
-*CHI: ap say you love you>
+*CHI: ap say you
 *MOT: it says “with love” .
 *MOT: what did you say it said ?
 *CHI: I love you .
@@ -1019,7 +1003,6 @@
 *CHI: yes .
 *MOT: does she like helping ?
 *CHI: a jump around .
-*CHI: get it .
 *CHI: mhm .
 *CHI: Jess jump .
 *CHI: jumping .
@@ -1092,7 +1075,6 @@
 *CHI: have fun .
 *CHI: ouch .
 *CHI: get something out of .
-*CHI: wash wash>
 *MOT: oh youre washing Jess are you ?
 *CHI: yes .
 *MOT: Thomas are you wet ?
@@ -1129,7 +1111,6 @@
 *CHI: bump .
 *CHI: oh .
 *CHI: 0 .
-*CHI: a touch .
 *MOT: what are you doing ?
 *MOT: closing Mummys eyes ?
 *CHI: yeah .
@@ -1179,14 +1160,13 @@
 *MOT: and the engine stops and the fireman hasta go and find more wood
 *MOT: and once he has done that and he has got the boilers lit again
 *CHI: come on  Mummy .
-*MOT: goes on .
 *CHI: James .
 *CHI: come on  James .
 *CHI: ap said going ap fat controller .
 *CHI: come on  James .
 *MOT: do you think the fat controller ?
 *CHI: yeah .
-*CHI: no no no fat controller .
+*CHI: no fat controller .
 *CHI: come on  Mummy .
 *CHI: going the seaside .
 *MOT: come on  Mummy .
@@ -1234,7 +1214,6 @@
 *MOT: apple and an orange have you ?
 *CHI: yeah .
 *MOT: oh thank you very very much .
-*MOT: is this>
 *MOT: is this to eat on the journey to the seaside  Thomas ?
 *CHI: yeah .
 *MOT: oh thats lovely .
@@ -1361,10 +1340,10 @@
 *CHI: bottle truck .
 *CHI: bottle smell disgusting .
 *MOT: you talking about the dustbin now ?
-*MOT: well lets lets not get all the toys out  Thomas .
+*MOT: well lets not get all the toys out  Thomas .
 *CHI: oh .
 *MOT: because youre not terribly good at putting things away are you ?
-*CHI: oh st stand up .
+*CHI: oh stand up .
 *MOT: I thought you wanted me to stand up ?
 *CHI: sit up ?
 *MOT: sit up ?
@@ -1379,7 +1358,7 @@
 *MOT: why would you like the blinds open ?
 *CHI: doing there .
 *CHI: doing that .
-*MOT: well what would what would you like ?
+*MOT: well what would you like ?
 *MOT: dont touch the blinds .
 *MOT: what would you like to do on the window ledge ?
 *MOT: look at the cars going past ?
@@ -1512,7 +1491,7 @@
 *CHI: yes .
 *CHI: get in .
 *MOT: what happened ?
-*MOT: had the one brick fall off the window ledge .
+*MOT: had the fall off the window ledge .
 *CHI: yes .
 *CHI: oh fall out again .
 *MOT: another one has fallen down ?
@@ -1537,7 +1516,6 @@
 *CHI: yes .
 *CHI: and ap Thomas look .
 *MOT: Thomas look as well .
-*MOT: shall we>
 *MOT: shall we both look ?
 *MOT: Thomas I cant see a thing now .
 *MOT: can you ?
@@ -1547,8 +1525,6 @@
 *MOT: but we cant see it can we ?
 *MOT: doesnt matter youve plenty more bricks .
 *MOT: oh shall we .
-*MOT: Im sure we'll>
-*CHI: building thep tower .
 *MOT: youre building a tower are you ?
 *MOT: Im quite sure when Mummy comes to move the furniture in a few days
 *MOT: because we usually do dont we ?
@@ -1580,7 +1556,7 @@
 *CHI: one 0has fallen .
 *CHI: no more .
 *CHI: up .
-*MOT: I think soon  Thomas .
+*MOT: soon  Thomas .
 *MOT: the towers going to be much bigger than you .
 *MOT: and youre not going to be able to reach up to put any more bricks
 *CHI: oh yeah .
@@ -1604,7 +1580,7 @@
 *MOT: I think he must be at home this week .
 *MOT: perhaps his Mummys on holiday .
 *MOT: because shes at home .
-*MOT: if Grandma and Granddad have come to visit havent they
+*MOT: if Grandma and Granddad to visit havent they
 *CHI: oh no .
 *CHI: wall fall down .
 *MOT: oh theyve all fallen down .

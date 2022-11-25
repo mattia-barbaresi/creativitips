@@ -467,8 +467,6 @@
 *CHI: bridge .
 *MOT: excuse me .
 *CHI: bridge .
-*CHI: more bridge .
-*MOT: excuse me .
 *CHI: bridge .
 *MOT: no .
 *MOT: excuse me .
@@ -703,7 +701,7 @@
 *CHI: bridge .
 *CHI: oh .
 *CHI: bridge .
-*MOT: any bridge any train that comes under my bridge I keep .
+*MOT: any train that comes under my bridge I keep .
 *MOT: thats mine now .
 *MOT: is that coming under my bridge too ?
 *CHI: mhm .

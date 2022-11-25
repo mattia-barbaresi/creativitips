@@ -143,7 +143,6 @@
 *CHI: found look .
 *CHI: Percy .
 *MOT: no .
-*MOT: hes not .
 *CHI: think it .
 *INV: oh .
 *CHI: here is Percy .
@@ -623,7 +622,7 @@
 *MOT: youre not going ?
 *CHI: I not .
 *MOT: why not ?
-*CHI: because I dont because I dont wanna .
+*CHI: because I dont wanna .
 *MOT: you dont wanna ?
 *MOT: oh well .
 *MOT: if you dont wanna go Ill tell them youre not coming any more
@@ -904,8 +903,6 @@
 *MOT: thats not a coach .
 *MOT: thats a train .
 *MOT: thats Diesel .
-*CHI: thats Diesel .
-*MOT: or is it Daisy ?
 *MOT: its Daisy .
 *CHI: that Daisy .
 *CHI: you having Daisy .
@@ -975,7 +972,7 @@
 *INV: thank you .
 *CHI: give it to Caroline now .
 *MOT: okay .
-*CHI: and Percy got brick on his on his truck .
+*CHI: and Percy got brick on his truck .
 *MOT: oh right .
 *MOT: what colors the brick ?
 *CHI: um blue .
@@ -1102,8 +1099,6 @@
 *CHI: theyre black .
 *MOT: they are .
 *MOT: yes .
-*MOT: they are .
-*CHI: theyre black .
 *INV: yes .
 *INV: they are .
 *CHI: and Edward got black wheels .
@@ -1565,8 +1560,6 @@
 *CHI: so that car can .
 *MOT: we want it so that the cars can fit  do we ?
 *CHI: yes .
-*CHI: and trains .
-*MOT: whatre you doing ?
 *CHI: where my trains ?
 *MOT: you dont need your trains .
 *MOT: youve got plenty of things here to play with .
@@ -1651,7 +1644,7 @@
 *CHI: because Nina Nina .
 *MOT: she didnt mean any harm .
 *MOT: it was just a .
-*MOT: she just shes just fascinated .
+*MOT: shes just fascinated .
 *MOT: oh .
 *MOT: well move it that way a bit so she cant get it .
 *MOT: okay ?
@@ -1951,8 +1944,7 @@
 *CHI: sorry  Caroline .
 *INV: thats alright .
 *MOT: whoops .
-*MOT: why dont you keep still then you willnt fall over everybody
-*CHI: sorry  Nina .
+*MOT: why dont you keep you willnt fall over everybody
 *INV: this could be a train .
 *CHI: this one not .
 *MOT: no .

@@ -1,262 +1,260 @@
-*CHI: babbles  0 10263
-*MOT: is that a tasty apple  10263 16000
-*MOT: apple  16000 19255
-*CHI: babbles  19255 28449
-*CHI: babbles  28449 45216
-*CHI: unhappynoise  45216 151512
-*MOT: Ill give it back in a minute  151512 153744
-*CHI: coughs  153744 158790
-*CHI: babbles  158790 165017
-*CHI: babbles  165017 195723
-*CHI: babbles  195723 220863
-*CHI: babbles  220863 235284
-*MOT: one two three catch  235284 289455
-*MOT: one two three catch  289455 294040
-*MOT: good girl  294040 295796
-*MOT: oop and throw  295796 298546
-*MOT: yeah and catch  298546 301606
-*MOT: dont you throw up on my new carpet  301768 340827
-*MOT: dont you throw up on my new carpet  340827 342583
-*MOT: mister bunny goes boingo  342583 350583
-*MOT: mister bunny goes boingo  350583 357649
-*MOT: laughs  357649 407512
-*MOT: thats a koala  407512 415294
-*MOT: and hes playing “Waltzing Matilda”  415294 492767
+*CHI: babbles .
+*MOT: is that a tasty apple ?
+*MOT: apple .
+*CHI: babbles .
+*CHI: babbles .
+*CHI: unhappynoise .
+*MOT: Ill give it back in a minute .
+*CHI: coughs .
+*CHI: babbles .
+*CHI: babbles .
+*CHI: babbles .
+*CHI: babbles .
+*MOT: one two three catch .
+*MOT: one two three catch .
+*MOT: good girl !
+*MOT: oop and throw .
+*MOT: yeah and catch .
+*MOT: dont you throw up on my new carpet .
+*MOT: dont you throw up on my new carpet .
+*MOT: mister bunny goes boingo .
+*MOT: mister bunny goes boingo .
+*MOT: laughs .
+*MOT: thats a koala .
+*MOT: and hes playing “Waltzing Matilda” .
 *MOT: www .
-*CHI: a  492767 499626
-*MOT: a  499626 501069
-*CHI: a  501069 501969
-*MOT: a  501969 502844
-*CHI: wa  502844 503844
-*MOT: a  503844 505030
-*CHI: a  505030 506257
-*MOT: a  506257 506855
-*CHI: a  506855 508366
-*MOT: a  508366 508856
-*MOT: thats Blinky Bill  508856 514966
-*MOT: Blinky Bill  514966 518276
-*MOT: youre Mabel  518276 519076
-*MOT: Im Mummy  519076 519676
-*MOT: thats Blinky Bill  519676 521374
-*MOT: you sat up he sat up  521374 544309
-*MOT: well he sat up you didnt sit up  544309 546222
-*MOT: thats what youre trying to do  546222 547522
-*MOT: ooh but not fall forward  547522 549380
-*CHI: m m m m  549380 558434
-*MOT: mum m  558434 561281
-*CHI: dae  561281 563954
-*MOT: Dad da  563954 565482
-*CHI: dae  565482 569582
-*MOT: dae  569582 570466
-*MOT: da  570466 574394
-*CHI: da  574394 575804
-*MOT: da  575804 576405
-*CHI: dee  576405 577405
-*MOT: whoo laughs  577405 580091
-*MOT: da  580091 583041
-*MOT: how about ba  583041 587489
-*MOT: ba  587489 590133
-*MOT: you baba  590133 592033
-*MOT: Mabels baba  592033 594187
-*CHI: dja  594187 596130
+*CHI: a !
+*MOT: a !
+*CHI: a .
+*MOT: a .
+*CHI: wa .
+*MOT: a .
+*CHI: a .
+*MOT: a .
+*CHI: a .
+*MOT: a .
+*MOT: thats Blinky Bill .
+*MOT: Blinky Bill .
+*MOT: youre Mabel .
+*MOT: Im Mummy .
+*MOT: thats Blinky Bill .
+*MOT: you sat up he sat up .
+*MOT: well he sat up you didnt sit up .
+*MOT: thats what youre trying to do .
+*MOT: ooh but not fall forward .
+*CHI: m m m m .
+*MOT: mum m .
+*CHI: dae .
+*MOT: Dad da .
+*CHI: dae .
+*MOT: dae .
+*MOT: da .
+*CHI: da .
+*MOT: da .
+*CHI: dee .
+*MOT: whoo laughs .
+*MOT: da .
+*MOT: how about ba ?
+*MOT: ba .
+*MOT: you baba ?
+*MOT: Mabels baba .
+*CHI: dja .
 *MOT: da oh is it da today ?
-*MOT: is da the word of the day da  596130 600119
-*CHI: ga  600119 601478
-*MOT: da  601478 602130
-*MOT: thats an apple  602130 604079
-*CHI: uu  604079 609078
+*MOT: is da the word of the day da ?
+*CHI: ga .
+*MOT: da .
+*MOT: thats an apple .
+*CHI: uu .
 *MOT: ewe an apple core youre scraping away .
-*CHI: nuh  609078 612759
-*MOT: have to do a seed reconnaissance soon  610778 612559
-*MOT: da  612759 613136
-*CHI: da  613136 614969
-*MOT: da  614969 617001
-*CHI: monkeynoiserepeateda  617001 640041
-*MOT: wee monkey I think  634001 635401
-*MOT: do we have a monkey  635401 636501
-*MOT: I dont  636501 638101
-*MOT: I have a monkey at home in my bedroom  638101 640041
-*MOT: in Australia  640041 642211
-*MOT: lets go bounce  642211 643260
-*MOT: bounce  like a kangaroo hello  643260 649091
-*MOT: hello  649091 650973
-*MOT: I think theres a joey around here somewhere  650973 652373
-*MOT: oh heres the joey  652373 653273
-*MOT: look its a baby kangaroo  653273 655508
-*MOT: hello Mabel  655508 657070
-*MOT: Mabel  657070 658225
-*MOT: well call you Skip  658225 659847
-*MOT: Skippy  659847 661172
-*MOT: Skippy 661172 667976
-*CHI: monkeynoiserepeateda  667976 673224
-*MOT: imitatedmonkeynoiserepeateda  673224 677482
+*CHI: nuh .
+*MOT: have to do a seed reconnaissance soon .
+*MOT: da .
+*CHI: da .
+*MOT: da .
 *CHI: monkeynoiserepeateda .
-*MOT: gasps look at you clapping  677482 679287
-*MOT: clap  wheres the possum  679287 683475
-*MOT: mister possum  683475 685106
-*MOT: oh hes over there  685106 686085
-*MOT: clap  686085 692778
-*MOT: one two three  692778 701011
-*MOT: you dropped your op apple  701011 706011
-*MOT: there you go oh  706011 707925
-*MOT: thank you for rubbing those hands all over me  707925 710625
-*MOT: thank you for that all those apple juicy hands  710625 713586
-*MOT: oh youve just lost that  713586 720312
-*MOT: have you still got a bit of apple in your mouth  720312 736048
-*CHI: hm  736048 745310
-*CHI: babbles  745310 750219
-*MOT: you do dont you  750219 752319
-*MOT: youve a bit of apple in your mouth  752319 753419
-*MOT: youre hiding it you little monkey  753419 755345
-*MOT: oh you little chipmunk  755345 757976
-*CHI: aa  757976 760061
-*MOT: have you got it  760061 772261
-*MOT: have you eaten it  772261 773061
-*MOT: come on let me have a look  773061 774391
+*MOT: wee monkey I think .
+*MOT: do we have a monkey ?
+*MOT: I dont .
+*MOT: I have a monkey at home in my bedroom .
+*MOT: in Australia .
+*MOT: lets go bounce .
+*MOT: bounce  like a kangaroo hello .
+*MOT: hello .
+*MOT: I think theres a joey around here somewhere .
+*MOT: oh heres the joey .
+*MOT: look its a baby kangaroo .
+*MOT: hello Mabel .
+*MOT: Mabel .
+*MOT: well call you Skip .
+*MOT: Skippy !
+*CHI: monkeynoiserepeateda .
+*MOT: imitatedmonkeynoiserepeateda .
+*CHI: monkeynoiserepeateda .
+*MOT: gasps look at you clapping .
+*MOT: clap  wheres the possum ?
+*MOT: mister possum ?
+*MOT: oh hes over there .
+*MOT: clap .
+*MOT: you dropped your op apple .
+*MOT: there you go oh !
+*MOT: thank you for rubbing those hands all over me .
+*MOT: thank you for that all those apple juicy hands .
+*MOT: oh youve just lost that .
+*MOT: have you still got a bit of apple in your mouth ?
+*CHI: hm .
+*CHI: babbles .
+*MOT: you do dont you ?
+*MOT: youve a bit of apple in your mouth .
+*MOT: youre hiding it you little monkey .
+*MOT: oh you little chipmunk .
+*CHI: aa .
+*MOT: have you got it ?
+*MOT: have you eaten it ?
+*MOT: come on let me have a look .
 *MOT: you rubbed apple all over me thank you .
-*MOT: give that to Toby  774391 798489
-*MOT: so where were we  798489 804818
-*MOT: whee  804818 806924
-*MOT: woah are you trying to stand up  806924 812217
+*MOT: give that to Toby .
+*MOT: so where were we ?
+*MOT: whee !
+*MOT: woah are you trying to stand up ?
 *CHI: cries .
-*MOT: the doggy goes woofo  812217 815517
-*MOT: Old Macdonald had a farm ee aye ee aye ohwp 815517 820051
-*MOT: and on that farm there was a dog ee aye ee aye ohwp 820051 825112
+*MOT: the doggy goes woofo .
+*MOT: Old Macdonald had a farm ee aye ee aye oh@wp
+*MOT: and on that farm there was a dog ee aye ee aye oh@wp
 *MOT: with a woofo woofo there there
 *CHI: ba .
-*MOT: Old Macdonald had a farm ee aye ee aye ohwp 830995 836063
+*MOT: Old Macdonald had a farm ee aye ee aye oh@wp
 *MOT: and on that farm there was a snowball throwing bear el il e@l
 *MOT: with a snowball here and a cold bit of snow down your top there
-*MOT: here a there there a here everywhere a blah 848594 852277
-*MOT: Old Macdonald had a farm ee aye ee aye ohwp 852277 856734
+*MOT: here a there there a here everywhere a blah
+*MOT: Old Macdonald had a farm ee aye ee aye oh@wp
 *MOT: and on that farm there was a pussycat ee aye ee aye oh@wp
 *MOT: with a miaowo miaowo there,
-*MOT: Old Macdonald had a farm ee aye ee aye ohwp 868727 872685
-*CHI: babbles  872685 903149
-*CHI: babbles  903149 915888
-*CHI: babbles  915888 922425
-*CHI: babbles  922425 926883
-*CHI: moans  926883 931972
-*CHI: babbles  931972 946123
-*CHI: babbles  946123 952605
-*CHI: whines  952605 957505
+*MOT: Old Macdonald had a farm ee aye ee aye oh@wp
+*CHI: babbles .
+*CHI: babbles .
+*CHI: babbles .
+*CHI: babbles .
+*CHI: moans .
+*CHI: babbles .
+*CHI: babbles .
+*CHI: whines .
 *MOT: you cant always get what you want Mabel you cant always get
-*CHI: babbles  961904 971904
-*MOT: monkey  971904 973539
-*MOT: are your teethies playing up  973539 976761
-*MOT: are your teethies playing up  976761 980055
-*CHI: upsetnoise  980055 985843
-*MOT: boo  985843 991693
-*MOT: peekaboo  991693 996446
-*MOT: peekaboo  996446 1000120
-*MOT: boo  1000120 1006407
-*MOT: peekaboo  1006407 1010069
-*MOT: thats a crazy rabbit playing peekaboo peekaboo  1010069 1013648
-*CHI: monkeynoiserepeateda  1013648 1018073
-*MOT: claps  1018073 1020710
+*CHI: babbles .
+*MOT: monkey .
+*MOT: are your teethies playing up ?
+*MOT: are your teethies playing up ?
+*CHI: upsetnoise .
+*MOT: boo !
+*MOT: peekaboo !
+*MOT: peekaboo !
+*MOT: boo .
+*MOT: peekaboo !
+*MOT: thats a crazy rabbit playing peekaboo peekaboo .
+*CHI: monkeynoiserepeateda .
+*MOT: claps .
 *MOT: claps one two three tap rub
 *CHI: babbles .
-*MOT: Mummy have  1029229 1041999
-*MOT: paddy cake paddy cake bakers man  1041999 1045191
+*MOT: Mummy have ?
+*MOT: paddy cake paddy cake bakers man .
 *CHI: babbles .
-*MOT: bake me a cake as fast as you can  1045191 1048391
+*MOT: bake me a cake as fast as you can .
 *CHI: babbles .
-*MOT: good girl low five low five low five  1048391 1058457
+*MOT: good girl low five .
 *CHI: mm .
-*CHI: babbles  1058457 1061062
-*MOT: low five  1061062 1061918
-*MOT: high five  1061918 1069830
+*CHI: babbles .
+*MOT: low five ?
+*MOT: high five ?
 *CHI: mm mum .
-*MOT: high five  1069830 1070784
-*MOT: mum  1070784 1072242
-*MOT: mum  1072242 1076066
-*MOT: raao  1076066 1081036
+*MOT: high five .
+*MOT: mum !
+*MOT: mum .
+*MOT: raao .
 *CHI: laughs .
-*MOT: laughs  1081036 1082854
-*MOT: mum  1082854 1087454
-*CHI: mm muh  1087454 1089728
-*MOT: mum  1089728 1093094
-*CHI: mm m  1093094 1094063
-*MOT: m  1094063 1095243
-*CHI: babbles  1095243 1100514
-*MOT: mum  1100514 1105848
-*MOT: mum  1105848 1110170
-*MOT: mum  1110170 1116235
-*CHI: a  1116235 1123970
-*MOT: a  1123970 1126712
-*CHI: a .
-*CHI: a aa  1126712 1128737
-*MOT: a  1128737 1132432
-*CHI: a .
-*MOT: a  1132432 1134669
-*CHI: a  1134669 1139125
-*MOT: laughs monkey monkey .
-*MOT: mouthnoise  1139125 1143183
-*CHI: laughs  1143183 1144583
-*MOT: mouthnoise  1144583 1146855
-*CHI: mouthnoise  1146855 1150145
-*MOT: youre so cute  1150145 1151390
-*CHI: mouthnoise  1151390 1154347
-*MOT: laughs  1154347 1156133
-*MOT: mouthnoise  1156133 1157922
-*CHI: mouthnoise  1157922 1164358
-*MOT: amusednoise .
-*CHI: babbles  1164358 1167922
-*MOT: mouthnoise  1168139 1170838
-*CHI: babbles  1170838 1174086
-*MOT: laughs mouthnoise  1174086 1176348
-*MOT: Mabel  1176348 1178805
-*MOT: mouthnoise  1178805 1181331
-*CHI: mouthnoise  1181331 1184052
-*CHI: mouthnoise  1184052 1187450
-*MOT: laughs  1187450 1188279
-*CHI: babbles  1188279 1191084
-*MOT: mouthnoise  1191084 1193840
-*MOT: mouthnoise  1193840 1197826
-*CHI: babbles .
-*CHI: repeateda  1197826 1205082
-*MOT: oh monkey repeateda .
-*CHI: repeateda  1205082 1206502
-*MOT: repeateda  1206502 1208678
-*CHI: repeateda  1208678 1209965
-*MOT: laughs  1209965 1211565
-*MOT: a  1211565 1219171
-*CHI: babbbles .
-*MOT: imitatedbabble  1219171 1221910
-*CHI: mouthnoise  1221910 1231210
-*MOT: laughs  1231210 1232379
-*MOT: clap claps  1232379 1234709
-*CHI: sneezes .
-*MOT: ooh bless you bless you  1234709 1237966
-*MOT: does that feel good  1237966 1238566
-*MOT: do you like that sneeze  1238566 1239366
-*MOT: is that why you smelt smiled  1239366 1240981
-*CHI: mouthnoise  1240981 1244377
-*CHI: mouthnoise  1244377 1249523
-*MOT: monkey war  1249523 1257723
-*MOT: oh rabbit wars rabbit rr  1257723 1261331
-*MOT: Mabel  1261331 1266298
-*MOT: hi  1266298 1268591
-*CHI: babbles  1268591 1276941
-*MOT: mouthnoise  1276941 1280858
-*CHI: babbles .
-*MOT: mouthnoise  1280858 1283131
-*CHI: mouthnoise  1283131 1288905
-*MOT: good girl you are a clever monkey  1288905 1291745
-*CHI: blowsraspberry .
-*MOT: blowsraspberry monkey repeatedar  1291745 1296988
-*CHI: repeateda .
-*MOT: chuckles repeateda  1296988 1300088
-*CHI: repeateda  1300088 1306472
-*CHI: ha  1306472 1308369
-*CHI: repeateda  1308369 1313502
-*MOT: have we got duckie  1312269 1313322
-*MOT: see duckie massive duck quacko  1313322 1317502
-*CHI: burps  1317502 1318137
-*MOT: oh excuse you  1318137 1319607
-*CHI: moans  1319607 1327853
-*CHI: aa  1327853 1340957
 *MOT: laughs .
-*CHI: babbles  1340957 1345350
-*CHI: moans  1345350 1349626
-*MOT: okay  1349626 1351651
+*MOT: mum .
+*CHI: mm muh .
+*MOT: mum .
+*CHI: mm m .
+*MOT: m .
+*CHI: babbles .
+*MOT: mum .
+*MOT: mum .
+*MOT: mum .
+*CHI: a .
+*MOT: a .
+*CHI: a .
+*CHI: a aa .
+*MOT: a .
+*CHI: a .
+*MOT: a .
+*CHI: a .
+*MOT: laughs monkey monkey .
+*MOT: mouthnoise .
+*CHI: laughs .
+*MOT: mouthnoise .
+*CHI: mouthnoise .
+*MOT: youre so cute !
+*CHI: mouthnoise .
+*MOT: laughs .
+*MOT: mouthnoise .
+*CHI: mouthnoise .
+*MOT: amusednoise .
+*CHI: babbles .
+*MOT: mouthnoise .
+*CHI: babbles .
+*MOT: laughs mouthnoise .
+*MOT: Mabel ?
+*MOT: mouthnoise .
+*CHI: mouthnoise .
+*CHI: mouthnoise .
+*MOT: laughs .
+*CHI: babbles .
+*MOT: mouthnoise .
+*MOT: mouthnoise .
+*CHI: babbles .
+*CHI: repeateda .
+*MOT: oh monkey repeateda .
+*CHI: repeateda .
+*MOT: repeateda .
+*CHI: repeateda .
+*MOT: laughs .
+*MOT: a .
+*CHI: babbbles .
+*MOT: imitatedbabble .
+*CHI: mouthnoise .
+*MOT: laughs .
+*MOT: clap claps .
+*CHI: sneezes .
+*MOT: ooh bless you .
+*MOT: does that feel good ?
+*MOT: do you like that sneeze ?
+*MOT: is that why you smiled ?
+*CHI: mouthnoise .
+*CHI: mouthnoise .
+*MOT: monkey war .
+*MOT: oh rabbit wars rabbit rr !
+*MOT: Mabel ?
+*MOT: hi .
+*CHI: babbles .
+*MOT: mouthnoise .
+*CHI: babbles .
+*MOT: mouthnoise .
+*CHI: mouthnoise .
+*MOT: good girl you are a clever monkey .
+*CHI: blowsraspberry .
+*MOT: blowsraspberry monkey repeatedar .
+*CHI: repeateda .
+*MOT: chuckles repeateda .
+*CHI: repeateda .
+*CHI: ha .
+*CHI: repeateda .
+*MOT: have we got duckie ?
+*MOT: see duckie massive duck quacko .
+*CHI: burps .
+*MOT: oh excuse you .
+*CHI: moans .
+*CHI: aa .
+*MOT: laughs .
+*CHI: babbles .
+*CHI: moans .
+*MOT: okay .

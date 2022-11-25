@@ -35,7 +35,7 @@
 *MOT: what have you got there ?
 *CHI: whats in the box ?
 *CHI: oh toys .
-*MOT: whats in the box ?
+*MOT: the box ?
 *MOT: toys ?
 *CHI: yellow .
 *MOT: thats Lala .
@@ -79,8 +79,6 @@
 *CHI: up .
 *MOT: there are two fish there .
 *CHI: two fish there .
-*CHI: fish fish>
-*CHI: fish fish>
 *MOT: and theres your fishing net .
 *CHI: fishing net .
 *CHI: fishing net .
@@ -97,7 +95,7 @@
 *MOT: this brown bowl .
 *CHI: brown bowl .
 *MOT: a brown bowl .
-*CHI: in this one fish .
+*CHI: one fish .
 *CHI: a bowl .
 *CHI: big bang .
 *MOT: a big bang .
@@ -129,9 +127,9 @@
 *MOT: can you say duck rather than quack quack ?
 *CHI: ap yes .
 *MOT: because quack quack is the noise they make isnt it ?
-*CHI: quack quack quacko .
+*CHI: quacko .
 *MOT: yes .
-*MOT: they say quack quack quacko .
+*MOT: they say quacko .
 *MOT: but really theyre called ducks .
 *CHI: ducks .
 *MOT: ducks .
@@ -142,9 +140,9 @@
 *CHI: swans .
 *MOT: are you going to put them back in the water now ?
 *CHI: back in the water .
-*CHI: splash splash splash .
+*CHI: splash .
 *MOT: you are making a lot of splashes arent you ?
-*MOT: splash splash splash .
+*MOT: splash .
 *CHI: splash .
 *CHI: Nin Nin .
 *CHI: ap water .
@@ -154,7 +152,7 @@
 *CHI: yes .
 *MOT: thats right .
 *MOT: are you going to go fishing again ?
-*CHI: a red oh a red one .
+*CHI: oh a red one .
 *MOT: red one .
 *MOT: thats the net isnt it ?
 *CHI: net .
@@ -269,7 +267,7 @@
 *MOT: thats right .
 *MOT: and you take the water from the brown bowl into the white one .
 *CHI: white bowl .
-*MOT: it runs very quickly doesnt it ?
+*MOT: very quickly doesnt it ?
 *CHI: yes .
 *MOT: now just watch what youre doing now .
 *MOT: because youre getting a bit silly arent you ?
@@ -327,7 +325,7 @@
 *MOT: its round like a wheel .
 *MOT: but look .
 *MOT: heres another bucket .
-*MOT: a yellow a red one with a yellow handle .
+*MOT: a red one with a yellow handle .
 *MOT: and this is a square bucket .
 *CHI: square bucket .
 *MOT: shall we see if the square bucket works just as well as the round
@@ -401,13 +399,12 @@
 *CHI: wash it .
 *MOT: youre certainly washing it .
 *MOT: the floors never going to .
-*CHI: where go>
 *MOT: I dont know .
 *CHI: no .
 *MOT: what  darling ?
 *MOT: oh no  Thomas .
 *MOT: no .
-*MOT: youre werent not watching are you ?
+*MOT: youre not watching are you ?
 *CHI: in trouble .
 *MOT: you are in trouble now .
 *MOT: because youre just throwing buckets of water .
@@ -428,7 +425,7 @@
 *MOT: all done now ?
 *CHI: yes .
 *MOT: well the floors dry now isnt it ?
-*CHI: no no no .
+*CHI: no .
 *MOT: no ?
 *MOT: youre fed up with that are you ?
 *MOT: well  lets .
@@ -438,7 +435,6 @@
 *MOT: and see what happens here ?
 *CHI: white .
 *CHI: white ones .
-*CHI: white white>
 *MOT: thats a sieve isnt it ?
 *CHI: sieve .
 *MOT: you use the green spade .
@@ -485,14 +481,14 @@
 *CHI: yes .
 *MOT: it was somebody at work saying that Daddy was on his way home but
 *CHI: Nin Nin .
-*CHI: a bang a bang .
+*CHI: a bang .
 *MOT: are you banging ?
 *MOT: oh dont bang too much  Thomas .
 *MOT: dont bang too much please !
 *MOT: no no .
 *MOT: thats too noisy .
 *CHI: Nin Nin .
-*MOT: no no no .
+*MOT: no .
 *MOT: this is .
 *MOT: look .
 *MOT: is this a rake ?
@@ -634,7 +630,6 @@
 *CHI: watch .
 *CHI: bye bye  Nin Nin .
 *CHI: see you in the morning .
-*CHI: night night>
 *MOT: oh bye bye  Thomas .
 *MOT: night night .
 *MOT: see you in the morning .
@@ -657,7 +652,7 @@
 *CHI: hello !
 *CHI: yes .
 *CHI: oh .
-*MOT: is that what you say to them when you see them ?
+*MOT: what you say to them when you see them ?
 *MOT: do you say helloq !
 *CHI: bye bye .
 *CHI: see you in the morning .
@@ -667,9 +662,9 @@
 *MOT: what would you like ?
 *CHI: all done now ?
 *MOT: pardon ?
-*CHI: all done now no ?
+*CHI: all done ?
 *CHI: Nin Nin .
-*CHI: all done now no>
+*CHI: all done
 *MOT: thats the tin that Mummy keeps the tea bags in .
 *MOT: would you like a biscuit ?
 *MOT: because if you do theres one on the table that you didnt eat
@@ -703,7 +698,6 @@
 *MOT: are you going to go and have a biscuit ?
 *CHI: Nin Nin .
 *CHI: whats this ?
-*CHI: ap coming>
 *CHI: no .
 *CHI: oh yeah .
 *CHI: ap the choo choos .
@@ -726,10 +720,10 @@
 *CHI: yes .
 *CHI: uhoh .
 *CHI: oh dear .
-*CHI: ap stuck ap stuck .
+*CHI: ap stuck .
 *MOT: is the bicycle all stuck ?
 *CHI: yes .
-*CHI: ap the stuck ap de stuck .
+*CHI: ap de stuck .
 *MOT: its stuck is it ?
 *CHI: no ride a truck ap the big .
 *MOT: now you watch your feet .
@@ -765,7 +759,6 @@
 *CHI: all done now .
 *CHI: all done .
 *MOT: all done now .
-*CHI: it down .
 *CHI: ap broombroomo .
 *CHI: backwaysc .
 *MOT: are you going backwards ?
@@ -788,11 +781,9 @@
 *CHI: yes .
 *MOT: theyre very old shoes arent they ?
 *CHI: yes .
-*MOT: I dont go out in those  Thomas .
-*CHI: a truck>
+*MOT: I dont .
 *CHI: broombroomo .
 *MOT: I just keep them in the house .
-*MOT: to wear around the house .
 *CHI: a bubble .
 *MOT: yes .
 *MOT: Ive got some bubbles here .
@@ -823,7 +814,7 @@
 *MOT: what a lot of bubbles .
 *MOT: theyre all the colors of the rainbow .
 *CHI: watch a rainbow .
-*CHI: oh a lot .
+*CHI: oh .
 *MOT: shall I dip the wand in ?
 *MOT: and you blow some more ?
 *MOT: Ill hold it .
@@ -835,7 +826,6 @@
 *CHI: red one .
 *MOT: shall we try again ?
 *MOT: and again ?
-*CHI: oh a lot>
 *MOT: no .
 *MOT: not in your mouth  Thomas .
 *MOT: you mustnt touch it .
@@ -866,12 +856,11 @@
 *MOT: bread please ?
 *MOT: bread ?
 *MOT: youd like some bread ?
-*MOT: well you can have some tea fairly soon .
+*MOT: well you can have some tea .
 *MOT: you can have some tea fairly soon .
-*CHI: riding a truck .
-*MOT: and now were blowing bubbles like its windy outside .
+*MOT: bubbles like its windy outside .
 *MOT: were blowing arent we ?
-*CHI: wind ap the no blow bubbles .
+*CHI: no blow bubbles .
 *CHI: no .
 *MOT: no ?
 *MOT: you dont wanna blow them ?
@@ -968,7 +957,7 @@
 *MOT: a bee bah comes ?
 *CHI: yes .
 *CHI: bee bah comes .
-*CHI: beebao beebao .
+*CHI: beebao .
 *MOT: oh is a bee bah coming ?
 *CHI: yes .
 *MOT: I cant hear it can you ?
@@ -1014,14 +1003,13 @@
 *MOT: there we are .
 *MOT: you can use the spade to find  some stones .
 *MOT: you can dig .
-*CHI: dig dig>
-*MOT: dig dig dig .
+*MOT: dig .
 *MOT: thats what the digger does doesnt it ?
 *CHI: Nin Nin .
 *CHI: no drop .
 *CHI: drop  Nin Nin .
 *MOT: yes .
-*CHI: no no it .
+*CHI: it .
 *MOT: youve got to be careful you dont slip .
 *CHI: no slip .
 *CHI: Thomas do it .
@@ -1040,7 +1028,6 @@
 *CHI: no .
 *MOT: shall we do this and see .
 *CHI: no no  Nin Nin .
-*CHI: no no>
 *MOT: lets see if the waterwheel .
 *MOT: oh yes .
 *MOT: it moves when we put sand through it as well .
@@ -1049,14 +1036,11 @@
 *MOT: look at that .
 *MOT: where are you going  Thomas ?
 *CHI: ap digger .
-*MOT: oh you>
-*CHI: ap digger>
-*CHI: dig dig dig .
+*CHI: dig .
 *MOT: oh youve gone to get the digger .
-*MOT: that dig dig digs have you ?
+*MOT: that digs have you ?
 *CHI: yes .
 *CHI: Nin Nin op .
-*CHI: dig dig>
 *CHI: oh .
 *MOT: yes .
 *CHI: the sand pit .
@@ -1080,7 +1064,7 @@
 *MOT: no more ?
 *MOT: well would you like to do it ?
 *CHI: no .
-*CHI: a big dig dig digc .
+*CHI: a big digc .
 *MOT: a big dig .
 *MOT: you sound like youre in the boy scouts saying dibn dibn dibn .
 *CHI: dig dig .
@@ -1095,7 +1079,6 @@
 *MOT: because the digger digs deep .
 *MOT: and Im digging with the spade .
 *MOT: Im digging deep .
-*CHI: dig dig>
 *MOT: look weve got some .
 *CHI: oh two Smarties .
 *CHI: stones .
@@ -1127,7 +1110,7 @@
 *CHI: Dimitra .
 *MOT: Dimitra ?
 *MOT: what were you saying ?
-*MOT: did you say anything very exciting ?
+*MOT: anything very exciting ?
 *MOT: did Thomas say anything very exciting ?
 *CHI: ap big chair .
 *CHI: big chair .
@@ -1288,7 +1271,7 @@
 *CHI: cheeky .
 *MOT: arent you ?
 *CHI: oh .
-*MOT: youre cheeky cheeky cheeky meekyf .
+*MOT: youre cheeky meekyf .
 *MOT: what are you ?
 *CHI: Nin Nin ap Mummy .
 *CHI: oh .
@@ -1321,8 +1304,8 @@
 *MOT: theyre long for you .
 *MOT: because you have them very short dont you ?
 *CHI: Nin Nin .
-*CHI: snip snip snipo .
-*MOT: Nin Nin snip snip snipo .
+*CHI: snipo .
+*MOT: Nin Nin snipo .
 *MOT: I dont think I needta cut them .
 *CHI: cut .
 *CHI: no cut .
@@ -1352,7 +1335,7 @@
 *MOT: you went with Granddad didnt you ?
 *CHI: yes .
 *MOT: to have your hair cut .
-*MOT: snip snip snip snip .
+*MOT: snip snip .
 *CHI: Nin Nin .
 *CHI: Daddys .
 *MOT: is that Daddys newspaper ?
@@ -1361,7 +1344,7 @@
 *MOT: pardon ?
 *MOT: yellow boxes round ?
 *MOT: yellow boxes ?
-*CHI: oh whats this ?
+*CHI: oh ?
 *MOT: shh .
 *MOT: dont shout .
 *MOT: oh I see .
@@ -1392,7 +1375,7 @@
 *MOT: oh thats not for Thomas .
 *MOT: thats not for Thomas to look at .
 *MOT: oh dear .
-*MOT: are we going to have screaming addabsf again ?
+*MOT: are we going to have screaming again ?
 *CHI: Nin Nin .
 *CHI: ap Nin Nin chair .
 *CHI: Nin Nin !
@@ -1426,8 +1409,8 @@
 *MOT: calm down .
 *MOT: are you still tired ?
 *CHI: no .
-*MOT: you had a sleep this afternoon havent you ?
-*CHI: Nin Nin knee .
+*MOT: you had a sleep this afternoon ?
+*CHI: knee .
 *CHI: Nin Nin ap knee .
 *CHI: 0 .
 *MOT: oh .
@@ -1445,12 +1428,10 @@
 *CHI: Nin Nin .
 *CHI: oh .
 *MOT: oh .
-*CHI: poo poo poo .
-*MOT: poo poo poo ?
+*CHI: poo .
+*MOT: poo ?
 *MOT: do I not smell nice ?
-*CHI: poo poo>
 *MOT: oh I think I smell quite nice .
-*CHI: poo poo>
 *MOT: mind you I cant smell anything at the moment .
 *MOT: so perhaps I dont .
 *MOT: does Mummy smell nice ?
@@ -1580,8 +1561,6 @@
 *MOT: oh .
 *CHI: a red one .
 *MOT: and then next week were going to Bens party .
-*CHI: Ben party>
-*MOT: on Monday .
 *MOT: Bens party on Monday .
 *CHI: Ben party .
 *MOT: Bens party .

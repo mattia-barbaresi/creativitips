@@ -6,7 +6,7 @@
 *INV: heres the train .
 *MOT: youve been talking about this havent you ?
 *INV: here are the rails .
-*INV: we should link those .
+*INV: we those .
 *CHI: that .
 *MOT: train .
 *CHI: whats this ?
@@ -19,7 +19,7 @@
 *CHI: engine .
 *CHI: Nin Nin  ap train stop .
 *INV: yeah .
-*INV: this is where the sta the train stops .
+*INV: this is where the train stops .
 *INV: it stops here .
 *INV: well it doesnt go through there does it ?
 *CHI: no .
@@ -63,8 +63,6 @@
 *INV: you can put the tree instead .
 *CHI: open the gate .
 *CHI: open the gate .
-*MOT: open the gate ?
-*INV: open the gate ?
 *CHI: oh a big noise .
 *INV: a big noise .
 *INV: it is a noisy train isnt it ?
@@ -97,7 +95,6 @@
 *MOT: right .
 *MOT: backwards .
 *CHI: man there .
-*MOT: oh no perhaps >
 *INV: yeah .
 *INV: there we go .
 *MOT: well I think that might be the train driver .
@@ -127,7 +124,7 @@
 *MOT: no .
 *MOT: it wont go through .
 *MOT: its stuck .
-*INV: really though the train should be going on the>
+*INV: really though the train should be going
 *MOT: round there .
 *INV: yeah .
 *INV: on the rails .
@@ -135,7 +132,7 @@
 *INV: thats right .
 *CHI: ap Thomas train .
 *CHI: ap Thomas .
-*MOT: a Thomas train .
+*MOT: train .
 *INV: yes .
 *MOT: yes .
 *INV: its Thomas The Tank Engine isnt it ?
@@ -147,8 +144,8 @@
 *MOT: how about putting the other train on the track  Thomas ?
 *CHI: one front .
 *CHI: one ap front .
-*MOT: one at the front ?
-*INV: one at the front ?
+*MOT: one at ?
+*INV: front ?
 *CHI: oh ap there there .
 *INV: there ?
 *INV: they can not join up can they ?
@@ -187,9 +184,8 @@
 *INV: the train is coming .
 *CHI: ap ap shut .
 *INV: good .
-*MOT: youve .
 *INV: good .
-*INV: and now the train can go to the station behind the station .
+*INV: and now the train can go behind the station .
 *INV: really it should go on the tracks shouldnt it ?
 *CHI: tracks .
 *INV: yeah .
@@ -225,7 +221,6 @@
 *MOT: ooh .
 *INV: wow .
 *CHI: all down .
-*CHI: all down now .
 *MOT: yes .
 *CHI: oh beep beep .
 *MOT: oops a daisy .
@@ -236,13 +231,13 @@
 *CHI: what a mess .
 *MOT: no .
 *MOT: you have a little car that you do that with and it goes on its own
-*MOT: shall we sent it round the tracks round the track ?
+*MOT: shall we sent it round the track ?
 *CHI: bite crunch .
 *MOT: bite crunch ?
 *MOT: no .
 *MOT: I dont think its something to bite  Thomas .
 *MOT: its part of the railway .
-*MOT: its a signal .
+*MOT: signal .
 *CHI: crunch .
 *MOT: no .
 *MOT: you dont bite and crunch it .
@@ -272,7 +267,7 @@
 *MOT: Thomas !
 *MOT: hes cheeky .
 *MOT: no .
-*MOT: not in your mouth not in your mouth .
+*MOT: not in your mouth .
 *MOT: can I have a look at your mouth please because you banged your lip
 *MOT: is it better now ?
 *MOT: is it better now ?
@@ -295,7 +290,7 @@
 *MOT: what about underneath the rug ?
 *MOT: no .
 *INV: no .
-*MOT: it might be under the station .
+*MOT: under the station .
 *INV: no no .
 *MOT: oh dear .
 *MOT: do you know where it is ?
@@ -319,7 +314,6 @@
 *MOT: and what else were you doing ?
 *MOT: were you blowing bubbles ?
 *CHI: yellow bubbles .
-*MOT: yellow bubbles .
 *CHI: tad much .
 *CHI: bye bye .
 *INV: and are you still watching the Teletubbies ?
@@ -364,19 +358,16 @@
 *CHI: oh .
 *INV: oops .
 *CHI: oh dear .
-*CHI: whats this .
 *CHI: oh .
 *CHI: aah !
 *CHI: oh .
 *INV: what are you doing  Thomas ?
 *CHI: on the big steps .
 *CHI: eh ap keys ap tunnel .
-*MOT: oh the keys are going in the tunnel .
-*CHI: ap tunnel>
+*MOT: are going in the tunnel .
 *MOT: when the key goes into the lock I think he thinks its like a train
 *INV: ah .
-*CHI: Nin Nin  ap dark .
-*MOT: its dark its dark isnt it ?
+*MOT: its dark isnt it ?
 *MOT: inside the keyhole .
 *MOT: yes .
 *MOT: very dark .
@@ -426,7 +417,7 @@
 *CHI: 0 .
 *CHI: away ap chair away .
 *MOT: thats right .
-*MOT: put the chair away .
+*MOT: away .
 *CHI: oh .
 *INV: good .
 *INV: ah nice .
@@ -442,7 +433,7 @@
 *CHI: a big train .
 *CHI: 0 .
 *INV: what are you drinking ?
-*CHI: drink black juice black juice .
+*CHI: drink black juice .
 *MOT: black juice .
 *MOT: whats it made of ?
 *MOT: whats it made from ?
@@ -454,11 +445,9 @@
 *INV: yeah .
 *INV: it was made of strawberries and banana and uh summer berries .
 *INV: or something like that .
-*MOT: summer fruits or fruits of the forest>
+*MOT: summer fruits or
 *MOT: yeah .
-*INV: all so>
 *MOT: yes .
-*INV: I think cranberries and blackberries>
 *INV: very nice .
 *INV: it was very nice  Thomas .
 *MOT: you like strawberries dont you ?
@@ -523,8 +512,7 @@
 *INV: back to the juice .
 *MOT: yes .
 *MOT: this is very nice .
-*INV: well we can play if Thomas is not going to play .
-*MOT: yes I think so .
+*INV: well we can play .
 *INV: um we can have a train enter the station near the bird because
 *INV: oh .
 *INV: bird bird and tree ?
@@ -553,7 +541,6 @@
 *MOT: has Thomas got a rucksack  to put on his back ?
 *CHI: bobobo big noise .
 *CHI: oh big noise .
-*INV: big noise .
 *INV: it does make a big noise doesnt it ?
 *CHI: night night .
 *INV: night night ?
@@ -565,7 +552,7 @@
 *INV: what big chair ?
 *INV: or did you just say my name ?
 *CHI: Thomas .
-*MOT: I think it was your name .
+*MOT: it was your name .
 *MOT: whats your name ?
 *CHI: Dimitra .
 *INV: yes .
@@ -613,8 +600,7 @@
 *INV: oh .
 *CHI: steps .
 *MOT: I cant remember it making that noise before .
-*MOT: Im sure its >
-*INV: no  because that was another part of it didnt make that
+*INV: it didnt make that
 *MOT: oh right .
 *CHI: night night .
 *MOT: night night .
@@ -626,8 +612,6 @@
 *MOT: oh .
 *INV: okay .
 *INV: good .
-*INV: its going to sleep .
-*MOT: its going to sleep .
 *CHI: oh sit up .
 *MOT: sit up .
 *CHI: oh .
@@ -684,7 +668,6 @@
 *INV: good .
 *INV: okay .
 *INV: so .
-*CHI: oh here .
 *INV: you put it there .
 *INV: and what do you do next ?
 *INV: ah .
@@ -712,8 +695,7 @@
 *INV: coming now wait ?
 *MOT: you cant wait can you ?
 *CHI: oh .
-*INV: ah I think youre going to become a postman arent you ?
-*MOT: I think so yeah .
+*INV: ah I think youre going to become a postman ?
 *CHI: postman .
 *INV: postman .
 *MOT: postman .
@@ -793,7 +775,6 @@
 *MOT: were not sure are we ?
 *MOT: but .
 *CHI: leg .
-*CHI: her leg>
 *MOT: her leg .
 *MOT: yes .
 *MOT: she hadta go in an ambulance didnt she ?
@@ -850,7 +831,7 @@
 *MOT: jump .
 *MOT: are you going to play with some more letters ?
 *MOT: posting them ?
-*CHI: ap table ap table .
+*CHI: ap table .
 *MOT: are you going to put the post on the table ?
 *CHI: here you are  Nin Nin .
 *CHI: here you are  Nin Nin .
@@ -915,7 +896,7 @@
 *INV: that makes a big noise .
 *MOT: that really does make a noise .
 *INV: is that what you take with you to the  music lesson ?
-*INV: or is it the music that you make here ?
+*INV: or is it the music ?
 *MOT: no musical
 *MOT: at the group .
 *MOT: and this is something we bought to play with at home .
@@ -924,26 +905,23 @@
 *MOT: oh yes .
 *MOT: that balloon was tied to the pushchair wasnt it ?
 *MOT: Daddy took you out at the weekend a few weeks ago .
-*CHI: blue one ap blue ones .
+*CHI: ap blue ones .
 *MOT: yes .
 *MOT: and the shop tied the balloon to your pushchair didnt they ?
 *INV: oh where is it ?
 *INV: it disappeared .
 *INV: oh no .
-*INV: and I quite liked>
 *CHI: a bangadrumtimec coming .
 *MOT: bangadrumtimec coming ?
-*CHI: tad much .
-*INV: where is it where has it gone ?
+*INV: where has it gone ?
 *INV: its there .
-*MOT: the mouth the mouth organ makes you laugh doesnt it ?
+*MOT: the mouth organ makes you laugh doesnt it ?
 *MOT: wheres that ?
 *CHI: bangadrumtimec .
 *MOT: its a little bit noisy  Thomas .
 *INV: yeah .
 *INV: I think thats .
-*INV: maybe later maybe later .
-*CHI: bang a >
+*INV: maybe later .
 *CHI: a bangadrumtimec .
 *MOT: bangadrumtimec .
 *MOT: well shall we sing a song instead ?
@@ -997,7 +975,6 @@
 *MOT: you get terribly excited when I say Im going upstairs .
 *CHI: bang bang .
 *MOT: no .
-*INV: does that make a big bang as well ?
 *MOT: theyre bunny rabbits arent they ?
 *MOT: bunny rabbits .
 *CHI: green one .
@@ -1110,7 +1087,6 @@
 *MOT: some peaches .
 *MOT: Ill cut up some more .
 *INV: are you going to bring here the peaches ?
-*MOT: there you are .
 *MOT: and come back in a moment for some paper wont you ?
 *INV: mm .
 *INV: oh its really nice .
@@ -1179,7 +1155,7 @@
 *CHI: want a picnic .
 *MOT: Thomas  where has the picnic mat gone to ?
 *MOT: did I take it upstairs ?
-*MOT: gosh theres another one going off now .
+*MOT: gosh theres going off now .
 *CHI: whats that ?
 *MOT: its a noise isnt it ?
 *CHI: ambulance .
@@ -1215,17 +1191,15 @@
 *INV: are we going to have a picnic ?
 *CHI: hello  Nin Nin .
 *CHI: backsidec .
-*MOT: we cant go outside .
+*MOT: outside .
 *MOT: its raining .
 *MOT: no .
-*MOT: weve got to just sit on the floor in here .
-*INV: no I think  its its wet outside .
+*MOT: in here .
+*INV: its wet outside .
 *MOT: we go out everyday dont we ?
 *MOT: when the weathers nice .
 *MOT: yes .
 *MOT: we wont spread it out .
-*CHI: big bite .
-*MOT: we wont spread>
 *CHI: big bite .
 *MOT: a big bite .
 *INV: you had a big bite .
@@ -1252,7 +1226,7 @@
 *INV: whos that ?
 *CHI: Mummy .
 *MOT: Mummy .
-*INV: yeah its my Mummy .
+*INV: my Mummy .
 *CHI: yes .
 *MOT: Dimitras Mummy .
 *MOT: is she called Cathy ?
@@ -1268,7 +1242,7 @@
 *MOT: Mummy sleeping .
 *MOT: no .
 *MOT: Mummys having a picnic .
-*INV: were were eating some peach .
+*INV: were eating some peach .
 *INV: mm .
 *MOT: theyre nectarines arent they ?
 *INV: mhm .
@@ -1283,13 +1257,12 @@
 *INV: look .
 *INV: Lalas head is in the plate .
 *INV: shes having a big sleep in the plate .
-*INV: after had after having too much  to eat probably .
+*INV: after having too much  to eat probably .
 *INV: oh .
 *CHI: yeah .
 *CHI: sit up .
 *CHI: want a picnic ?
 *CHI: Lala sit  n here .
-*MOT: you want>
 *INV: here .
 *MOT: is she sitting up or sleeping ?
 *MOT: oh sleep are you sleeping with Lala ?
@@ -1355,7 +1328,7 @@
 *MOT: very good .
 *MOT: they need washing really dont they ?
 *CHI: wash .
-*MOT: just be Thomas  be gentle with them .
+*MOT: Thomas  be gentle with them .
 *MOT: be very very gentle with fruit please .
 *CHI: peach .
 *MOT: no .
@@ -1389,7 +1362,6 @@
 *INV: mm .
 *INV: very nice .
 *CHI: mm .
-*CHI: Lalas head .
 *INV: bo what ?
 *CHI: oh .
 *CHI: seed .
@@ -1402,7 +1374,7 @@
 *CHI: yes .
 *MOT: oh I see .
 *MOT: right .
-*MOT: the little stalk at the end youre calling it a st a seed .
+*MOT: the little stalk at the end youre calling it a seed .
 *CHI: seed .
 *MOT: a seed .
 *MOT: because we look at apple pips dont we ?
@@ -1416,7 +1388,7 @@
 *MOT: who put the hat back on Lala ?
 *CHI: Dimitras hat .
 *MOT: oh yes .
-*MOT: Dimitra would like to put the hat ?
+*MOT: Dimitra would like to put ?
 *INV: Dimitras hat .
 *MOT: it will protect you go out into the rain .
 *INV: ah mm .
@@ -1457,8 +1429,7 @@
 *INV: is Thomas going to wear that ?
 *CHI: on .
 *INV: ah I think it suits you .
-*INV: oh so  good .
-*MOT: oh look at that .
+*INV: good .
 *INV: yes .
 *INV: its great .
 *CHI: Mummy do it .
@@ -1466,7 +1437,7 @@
 *MOT: oh .
 *MOT: does that look nice ?
 *CHI: a a bee bah helmet .
-*INV: a big ball ah do they all go in the helmet ?
+*INV: ah do they all go in the helmet ?
 *INV: hm .
 *MOT: theyre going to be lovely arent they ?
 *INV: www .
@@ -1476,7 +1447,6 @@
 *MOT: oops a daisy .
 *MOT: oh .
 *CHI: Dimitra do it .
-*INV: Dimitra do it ?
 *CHI: a helmet .
 *INV: ah am I going to wear the helmet ?
 *CHI: there .
@@ -1547,7 +1517,7 @@
 *CHI: oh here it is .
 *MOT: here it is .
 *MOT: thats Mummys chair .
-*CHI: ah Daddy chair .
+*CHI: chair .
 *MOT: yes .
 *MOT: Daddy sits there .
 *MOT: and you sit everywhere dont you ?
@@ -1555,11 +1525,10 @@
 *CHI: bouncing .
 *MOT: bouncing peaches .
 *MOT: never mind .
-*MOT: we eat them very quickly dont we ?
+*MOT: quickly dont we ?
 *CHI: throwing .
 *CHI: 0 .
 *MOT: oh its very cold now  without the hat on .
-*INV: are you going>
 *CHI: 0 .
 *INV: are you going to put the peaches back there ?
 *CHI: no .
@@ -1588,8 +1557,7 @@
 *INV: oops .
 *MOT: oops .
 *MOT: no .
-*MOT: no no .
-*INV: theyre falling down as well .
+*INV: as well .
 *CHI: falling down .
 *INV: falling down .
 *INV: yes .
@@ -1604,8 +1572,6 @@
 *CHI: one ap Thomas .
 *MOT: one for Thomas .
 *CHI: all done now .
-*MOT: all done .
-*CHI: all done>
 *CHI: a drop more .
 *CHI: here you are  Nin Nin .
 *MOT: thank you .
@@ -1619,7 +1585,7 @@
 *INV: oh thank you very much .
 *MOT: yes .
 *INV: ah I think Im going to take my helmet off now .
-*CHI: oh sit up .
+*CHI: oh .
 *CHI: oh .
 *CHI: oh oh bang ap head .
 *INV: what did you do ?
@@ -1627,8 +1593,7 @@
 *MOT: banged your head .
 *INV: ah .
 *INV: on the sofa ?
-*MOT: what happened this afternoon ?
-*INV: maybe you &n>
+*MOT: this afternoon ?
 *MOT: oh yes .
 *MOT: maybe you need the hard hat on .
 *MOT: what happened this afternoon ?
@@ -1653,7 +1618,7 @@
 *MOT: thats right .
 *MOT: he banged his head on the the door .
 *INV: oh is this what happened ?
-*MOT: and did Mummy oh and did Mummy kiss you better ?
+*MOT: oh and did Mummy kiss you better ?
 *CHI: yes .
 *MOT: oh dear .
 *MOT: oh are you better now ?
@@ -1674,7 +1639,7 @@
 *INV: oh youre moving them round and about on the sofa .
 *CHI: 0 .
 *INV: are you singing See saw ?
-*CHI: ap fall heh .
+*CHI: heh .
 *MOT: yes .
 *MOT: what about Twinkle twinkle little star ?
 *MOT: you sang that the other day .

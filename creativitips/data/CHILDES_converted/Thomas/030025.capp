@@ -24,7 +24,7 @@
 *INV: is is your Mum a postman as well ?
 *CHI: yes .
 *CHI: and youre a postman too .
-*CHI: and you and you be a postman .
+*CHI: and you be a postman .
 *MOT: alright .
 *MOT: Ill be a postman .
 *MOT: shall I be Postman Pat ?
@@ -126,7 +126,7 @@
 *INV: the Sorting Office .
 *INV: and then where do they go ?
 *INV: they get sorted and they get taken to .
-*CHI: on the on the post train .
+*CHI: on the post train .
 *INV: on the post train .
 *MOT: the mail train .
 *MOT: the mail train .
@@ -158,7 +158,7 @@
 *INV: how do you know he has got bad feet  Thomas ?
 *MOT: he can barely walk .
 *MOT: he hobbles around doesnt he ?
-*INV: oh is your is your Mum the post lorry .
+*INV: oh is your Mum the post lorry .
 *INV: is that what youre doing ?
 *MOT: yes .
 *MOT: Im the Sorting Office .
@@ -166,7 +166,7 @@
 *MOT: Mum sorts everything out doesnt she ?
 *CHI: look .
 *CHI: Postman Pat the mail on his back .
-*CHI: on his on his head .
+*CHI: on his head .
 *MOT: yes .
 *CHI: is that your new hat  Postman Pat ?
 *CHI: no .
@@ -293,7 +293,7 @@
 *MOT: Missus Goggins .
 *MOT: yes .
 *INV: what does Missus Goggins do then ?
-*INV: is she is she in the Sorting Office  Thomas ?
+*INV: is she in the Sorting Office  Thomas ?
 *CHI: yes .
 *MOT: shes in the post office isnt she ?
 *CHI: post office .
@@ -407,14 +407,14 @@
 *MOT: this is our post van .
 *CHI: this one .
 *INV: where do you put the letters then ?
-*CHI: in the in the postbox .
+*CHI: in the postbox .
 *INV: oh yes .
 *INV: of course .
 *INV: lovely .
 *MOT: this is either a bicycle a fire engine a truck a digger or a post
 *CHI: 0 .
 *INV: will you collect some letters .
-*INV: will you deliver these to your to your Mummy please ?
+*INV: will you deliver these to your Mummy please ?
 *CHI: okay .
 *INV: okay .
 *CHI: 0 .
@@ -466,7 +466,7 @@
 *MOT: its in May .
 *MOT: its the first of May .
 *MOT: Grandads is the first and Mummys the tenth .
-*CHI: a postman a train mans hoping on his leg .
+*CHI: a train mans hoping on his leg .
 *INV: is that Gordon hoping ?
 *MOT: the train mans hoping on his leg .
 *CHI: yes .
@@ -507,7 +507,7 @@
 *CHI: theres a fire in the hallway .
 *CHI: beebao beebao .
 *MOT: oh yes .
-*MOT: we know what firemens do firemen do .
+*MOT: we know what firemen do .
 *INV: do you like Fireman Sam ?
 *CHI: yes .
 *CHI: in the Fireman Sam put his trailer down .
@@ -927,7 +927,7 @@
 *INV: quickly  Thomas .
 *INV: Fireman Sam .
 *MOT: Jeannine could be fire fighter Penny Morris .
-*INV: oh is there is there a lady fire fighter .
+*INV: oh is there a lady fire fighter .
 *MOT: yes .
 *MOT: Penny Morris is the lady fire fighter .
 *INV: Fireman Sam  quickly .
@@ -962,13 +962,12 @@
 *CHI: nee nao nee nao .
 *INV: Fireman Sam  I think we need the police car and the ambulance .
 *CHI: no .
-*CHI: I need a>
 *INV: the walls on fire again .
 *MOT: what about the fire guard or or this cupboard ?
 *INV: do you think the fires ?
 *CHI: nee nao nee nao .
 *INV: quickly .
-*CHI: the nee nasc the nee nasc is not ready yet .
+*CHI: the nee nasc is not ready yet .
 *INV: oh oh well hafta got back to the station .
 *INV: look .
 *INV: here  Thomas .
@@ -1045,7 +1044,7 @@
 *CHI: 0 .
 *MOT: no .
 *MOT: not backup like that .
-*MOT: I suddenly realized he was making a reverse a reversing
+*MOT: I suddenly realized he was making a reversing
 *INV: Fireman Sam  quickly .
 *INV: Fireman Sam  I think we need Postman Pat to clear all this up .
 *INV: because .
@@ -1059,7 +1058,7 @@
 *CHI: quickly .
 *INV: nee nao nee nao .
 *CHI: nee nao .
-*INV: Fireman Sam  have you managed to do all the put the fire
+*INV: Fireman Sam  have you managed to put the fire
 *CHI: um um the Rocking Horse is on fire .
 *INV: oh .
 *INV: quickly .
@@ -1093,7 +1092,7 @@
 *CHI: good Fireman Sam .
 *INV: whats the song for Fireman Sam  Thomas ?
 *CHI: Fireman Sam .
-*CHI: I not I not remember the words .
+*CHI: I not remember the words .
 *INV: wow .
 *INV: thats nice .
 *MOT: “Fireman Sam is the hero next door” is about all we can remember
@@ -1126,7 +1125,6 @@
 *MOT: and we found out afterwards that a little girl called Jennifer had
 *MOT: and some builders who were working on the building site near her
 *MOT: and they bought a
-*CHI: and my walls on fire .
 *CHI: dingalingalingo .
 *MOT: and when she was feeling better and she grew up she no longer
 *MOT: and it came to you .
@@ -1137,7 +1135,7 @@
 *INV: it comes over and puts the fire out from the sky .
 *INV: do you believe me ?
 *CHI: no .
-*CHI: its a big its a big flying fire engine .
+*CHI: its a big flying fire engine .
 *CHI: nee nao nee nao .
 *MOT: would you like to go and get Bow Wowc ?
 *CHI: first sirens .
@@ -1165,11 +1163,11 @@
 *INV: no .
 *CHI: no .
 *CHI: its sniffing .
-*INV: why is why is it sniffing ?
+*INV: why is it sniffing ?
 *CHI: because it just wanted to smell sirens .
 *MOT: it wants to smell a siren .
 *INV: Bow Wowc  do you wanna smell the siren on this ?
-*MOT: Bow Wowc has had a wash .
+*MOT: Bow Wowc has .
 *CHI: Bow Wowc went bouncing and he sniffed .
 *INV: Bow Wowc is beautiful .
 *MOT: Bow Wowc has a couple of washes hasnt he ?
@@ -1208,10 +1206,9 @@
 *CHI: I see .
 *INV: so it does go around his neck like that .
 *MOT: yes .
-*MOT: its a it is a neck cover .
+*MOT: it is a neck cover .
 *MOT: yes .
 *INV: ah thats quite nice for you isnt it ?
-*INV: Jess is more .
 *CHI: 0 .
 *CHI: and he has popped there .
 *INV: I cant really get him on the video when he has .
@@ -1228,10 +1225,9 @@
 *MOT: it went slowly .
 *INV: Fireman Sam  Jess is stuck on a tree .
 *CHI: yes .
-*INV: can you can you save Jess ?
+*INV: can you save Jess ?
 *CHI: yes .
 *INV: meow meow .
-*CHI: of course I can .
 *MOT: listen .
 *CHI: its too high up .
 *MOT: is it ?
@@ -1244,8 +1240,6 @@
 *MOT: oh thats clever .
 *CHI: then Fireman Sam hold ears and went down .
 *INV: Fireman Sam  well done .
-*INV: youre my hero .
-*CHI: Fireman Sam went .
 *MOT: oh thats the train not the fire engine .
 *INV: good job  Fireman Sam .
 *INV: well done .
@@ -1355,7 +1349,7 @@
 *MOT: has he got a little nose ?
 *INV: ah .
 *MOT: what else has he got ?
-*CHI: he has got he has got he has got a chin and a>
+*CHI: he has got he has got he has got a chin
 *MOT: he has got a chin on his ears .
 *MOT: oh right .
 *INV: he sounds a very handsome snake to me .
@@ -1451,7 +1445,7 @@
 *MOT: do you ?
 *MOT: you wish you were a fireman .
 *CHI: yes .
-*INV: perhaps you can be a fireman when you when you grow up .
+*INV: perhaps you can be a fireman when you grow up .
 *INV: yes .
 *CHI: yes .
 *INV: would you like that ?
@@ -1474,7 +1468,7 @@
 *INV: there you go .
 *MOT: 0 excuse me .
 *MOT: sorry .
-*INV: what sort of what sort of sweets do you sell ,
+*INV: what sort of sweets do you sell ,
 *CHI: I sell midget gems .
 *MOT: magic gems .
 *INV: ah magic gems .
@@ -1490,7 +1484,7 @@
 *INV: do you sell smarties ?
 *CHI: yes .
 *CHI: Ive got some smarties in the big cupboard .
-*CHI: lets have some smart some jelly babies .
+*CHI: lets have some jelly babies .
 *MOT: we havent any jelly babies  Thomas .
 *INV: do you want me to bring you some jelly babies next time I come ?
 *CHI: yes .
@@ -1542,7 +1536,7 @@
 *CHI: yes .
 *INV: tell me about Isabel .
 *INV: whats she like ?
-*CHI: I love I love her .
+*CHI: I love her .
 *INV: you love Isabel .
 *CHI: yes .
 *CHI: look .
@@ -1795,7 +1789,7 @@
 *INV: I think youre going to be a comedian when youre older  Thomas .
 *MOT: I wonder what you will be when you grow up  Thomas .
 *CHI: being lots of big men .
-*MOT: being lots of big lots of big men .
+*MOT: being lots of big men .
 *MOT: yes .
 *CHI: like builders like Bob .
 *MOT: builders like Bob .
@@ -1825,7 +1819,7 @@
 *CHI: this this train man not feeling well .
 *MOT: is he not ?
 *MOT: oh better have a tablet then hadnt you ?
-*CHI: and a and a cup of coffee .
+*CHI: and a cup of coffee .
 *MOT: a tablet and a cup of coffee .
 *MOT: wow .
 *MOT: the train mans not feeling very well .
@@ -1881,7 +1875,7 @@
 *CHI: he has he has got a headache too .
 *MOT: has he ?
 *MOT: he has got a headache as as well .
-*MOT: the head the trainman .
+*MOT: the trainman .
 *MOT: he better have a tablet .
 *INV: its funny how weve all come over poorly isnt it ?
 *CHI: this this trainman having the yellow one .
