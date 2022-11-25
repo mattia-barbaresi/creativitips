@@ -28,6 +28,7 @@ class Computation:
         self.state_entropies = {}
         self.old_p = []
         self.old_p_units = []
+        self.shallow_parsing = []
 
     def read_percept(self, sequence):
         # certain tps
@@ -85,7 +86,7 @@ class Computation:
                 elif "AVG" in self.method:
                     unit = self.tps_1.get_next_unit_with_AVG(s[:5], past=old_seq)
                 else:  # if TPS
-                    unit = self.tps_1.get_next_unit_ftps(s[:5], past=old_seq)
+                    unit = self.tps_1.get_next_unit_ftps_withAVG(s[:5], past=old_seq)
                 action = "tps"
 
             # if no unit found, pick at random length
@@ -115,14 +116,18 @@ class Computation:
 
     def compute(self, sequences):
         for s in sequences:
+            if len(s) < 2:
+                continue
             self.old_p = ["START"]
             self.old_p_units = ["START"]
-
+            shpar_units = []
             while len(s) > 0:
                 # --------------- COMPUTE ---------------
 
                 # compute next percept
                 units, action = self.read_percept(s)
+                for un in units:
+                    shpar_units.append(un)
                 self.actions.extend(action)
                 p = " ".join(units)
 
@@ -159,6 +164,9 @@ class Computation:
                 # update s
                 s = s[len(p.strip().split(" ")):]
 
+            sp_seq = " || ".join(shpar_units).strip(".?")
+            print("shallow parsed: ", sp_seq)
+            self.shallow_parsing.append(sp_seq)
             # compute last
             self.tps_1.encode(self.old_p + ["END"])
             self.tps_units.encode(self.old_p_units + ["END"])

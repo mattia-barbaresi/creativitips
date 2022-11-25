@@ -32,7 +32,7 @@ for ltmp in ltm:
                             rng = np.random.default_rng(const.RND_SEED)
                             # read input model
                             file_dir_in = "tps_results_" + str(const.STM_DECAY_RATE) + "_" + str(ltmp) \
-                                          + "/" + utils.params_to_string(method, order, forg, interf, t_mem) + file_name + "/"
+                                          + "/" + "{}_{}_/".format(method, order) + file_name + "/"
                             out_dir = const.OUT_DIR + "creativeGens/" + file_dir_in
                             in_path = const.OUT_DIR + file_dir_in + "tps_units.dot"
                             in_gpath = const.OUT_DIR + file_dir_in + "ggraph.dot"

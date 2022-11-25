@@ -6,7 +6,7 @@ import utils
 
 
 class Parser:
-    """Class for PARSER: A Model for Word Segmentation
+    """A class implementing PARSER: A Model for Word Segmentation
     Pierre Perruchet and Annie Vinter, 1998"""
 
     def __init__(self, ulen=None):
@@ -61,12 +61,12 @@ class Parser:
                 self.mem[u]["weight"] = weight
                 self.mem[u]["t"] = self.time
         # add weight to  entire percept (chunking)
-        # if pct in self.mem:
-        #     self.mem[pct]["weight"] += weight
-        # else:
-        #     self.mem[pct] = dict()
-        #     self.mem[pct]["weight"] = weight
-        #     self.mem[pct]["t"] = self.time
+        if pct in self.mem:
+            self.mem[pct]["weight"] += weight
+        else:
+            self.mem[pct] = dict()
+            self.mem[pct]["weight"] = weight
+            self.mem[pct]["t"] = self.time
 
     def encode(self, p, units, weight=1.0):
         self.time += 1
@@ -89,7 +89,7 @@ class Parser:
         # r = e ^ (-t / s)
         # s = memory stability
         # return 0.05
-        return math.exp(- (self.time - init_time) / s) / 20
+        return math.exp(- (self.time - init_time) / s) / 100
 
     def forget_interf(self, rng, pct, comps=None, interfer=0.005):
         # forgetting

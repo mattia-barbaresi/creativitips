@@ -68,7 +68,7 @@ class TPS:
     def calculateExp(self, init_time, s=const.LTM_DECAY_RATE):
         # r = e ^ (-t / s)
         # s = memory stability, greater the value, shorter the term
-        return math.exp(- (self.time - init_time) / s) / 20
+        return math.exp(- (self.time - init_time) / s) / 100
 
     def forget(self, uts):
         # for each transition
@@ -204,8 +204,6 @@ class TPS:
         if self.order > 0:
             if self.order < len(pp_seq):
                 tps_seqs = self.get_ftps_sequence(pp_seq)
-                # print("percept: ", percept)
-                # print("tps_seqs: ", tps_seqs)
                 for ii in range(len(tps_seqs)-1):
                     # or break on a deap
                     if tps_seqs[ii] > (tps_seqs[ii + 1] + 0.25):  # insert a break
@@ -218,6 +216,31 @@ class TPS:
             print("(TPmodule):Order must be grater than 1.")
 
         return []
+
+    def get_next_unit_ftps_withAVG(self, percept, past=None):
+        # if order = 1 no past required
+        if self.order > 1 and past:
+            past = past[-self.order:]
+        else:
+            past = []
+        pp_seq = past + percept
+        if self.order > 0:
+            if self.order < len(pp_seq):
+                tps_seqs = self.get_ftps_sequence(pp_seq)
+                avgTP = sum(tps_seqs)/len(tps_seqs)
+                for ii in range(1,len(tps_seqs)):
+                    # or break on a deap
+                    if tps_seqs[ii] < avgTP:  # insert a break
+                        print("tps unit: ", percept[:(self.order - len(past)) + ii ])
+                        return percept[:(self.order - len(past)) + ii]
+
+            else:
+                print("(TPmodule):Order grater than percept length. Percept is too short.")
+        else:
+            print("(TPmodule):Order must be grater than 1.")
+
+        return []
+
 
     def get_next_unit_btps(self, percept, past=None):
         # if order = 1 no past required
@@ -447,7 +470,7 @@ class TPS:
 
         return res
 
-    def generate_paths(self, rand_gen, n_paths=20, min_len=20):
+    def generate_paths(self, rand_gen, n_paths=20, max_len=20):
         res = []
         init_keys = []
         init_values = []
@@ -468,7 +491,7 @@ class TPS:
             seq = ["START"]
             _s = init_keys[utils.mc_choice(rand_gen, init_values)]  # choose rnd starting point (monte carlo)
             seq.append(_s)
-            for _ in range(min_len):
+            for _ in range(max_len):
                 if _s not in self.le_rows.classes_:
                     break
                 i = self.le_rows.transform([_s])[0]

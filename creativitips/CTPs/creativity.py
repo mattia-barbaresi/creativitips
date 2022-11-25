@@ -62,11 +62,13 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
 
 
 def normalize_arr(arr):
-    if len(arr) == 1:
-        return [1.0]
     nar = np.array(arr)
-    nar = nar / nar.sum()
-    return nar
+    sm = nar.sum()
+    if sm == 0:
+        # flat probs
+        return [1.0 / len(nar)] * len(nar)
+    else:
+        return nar / sm
 
 
 def creative_ggens(rand_gen, kg0, n_seq=10, min_len=30):
@@ -150,8 +152,10 @@ def evaluate_online(seqs):
 def utility_from_sequence(sequence):
     melody = intfun.key2accidentals(sequence, 'G')  # Hp: key of G
     allowed_intervals = [4, 3, -3, -4, 9, -9]  # only thirds and sixths
-    return utility.utility(melody, allowed_intervals)
-    # return utility.utility_kl(melody, allowed_intervals)
+    ut = utility.utility(melody, allowed_intervals)
+    # ut = utility.utility_kl(melody, allowed_intervals)
+    print("utility: ", ut)
+    return ut
 
 
 def evaluate_interval_function(seqs):
@@ -182,9 +186,8 @@ def update(g_evals, G):
     for seq, val in g_evals:
         for sn, en in mit.pairwise(seq):
             u = float(G[sn][en]["u"]) if "u" in G[sn][en] else 0
-            v = float(G[sn][en]["v"]) if "v" in G[sn][en] else 0
+            # v = float(G[sn][en]["v"]) if "v" in G[sn][en] else 0
             G[sn][en]["u"] = (u + val) / 2  # u average (u mean)
-            # G[sn][en]["v"] = (v + abs(u - val))/2  # v average (u variability)
             G[sn][en]["v"] = 1.0 - math.sqrt((u - val) ** 2)  # v average (u variability)
     return G
 
@@ -195,13 +198,10 @@ def gupdate(GG, g_evals, gensids):
         path_idxs = init_node + gensids[indx]
         # path_idxs.append(end_node)
         for sn, en in mit.pairwise(path_idxs):  # NOTE: there could be more than one class per symbol!
-            # sn = gg_nodes[si]
-            # en = gg_nodes[ei]
             u = float(GG[sn][en]["u"])
             u = 0 if u == -1.0 else u
-            v = float(GG[sn][en]["v"]) if "v" in GG[sn][en] else 0
+            # v = float(GG[sn][en]["v"]) if "v" in GG[sn][en] else 0
             GG[sn][en]["u"] = (u + val) / 2  # u average (u mean)
-            # G[sn][en]["v"] = (v + abs(u - val))/2  # v average (u variability)
             GG[sn][en]["v"] = 1.0 - math.sqrt((u - val) ** 2)  # v average (u variability)
 
     return GG
@@ -224,5 +224,5 @@ def plot_nx_creativity(G, filename="tps", ):
                  # label="{:.2f}".format(c),
                  penwidth=str(0.1 + abs(3 * c))
                  )
-    print(gra.source)
-    gra.render(filename, view=True)
+    # print(gra.source)
+    gra.render(filename, view=False)
