@@ -188,7 +188,8 @@ def read_sequences(rng, fn):
         seqs = generate_miller(rng)
     elif fn == "isaac" or fn == "hello" or fn == "mediapipe":
         seqs = read_words("data/" + fn + ".txt")
-    elif fn == "all_irish-notes_and_durations-abc" or fn == "bach_preludes" or fn == "ocarolan" or fn == "scottish" or fn == "bach_scot":
+    elif fn == "all_irish-notes_and_durations-abc" or fn == "bach_preludes" or fn == "ocarolan" or fn == "scottish"\
+            or fn == "bach_scot" or fn == "br_text":
         # split lines by space
         seqs = read_spaced("data/" + fn + ".txt")
         # seqs = convert_songs("data/" + fn + "/", fn)
@@ -558,3 +559,13 @@ def convert_french_phono():
     with open("data/french_phono_converted.txt", "w") as fp:
         for line in data:
             fp.write(line + "\n")
+
+
+def read_childes_files(root_dir='data/CHILDES_converted/'):
+    fnames = []
+    for subdir, dirs, files in os.walk(root_dir):
+        for file in files:
+            if ('.capp' in file):
+                fnames.append(subdir + '/' + file)
+    return fnames
+

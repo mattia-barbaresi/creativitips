@@ -11,7 +11,7 @@ if __name__ == "__main__":
     threshold = 1.0
     w = 1.0
     i = 0.005
-    file_names = ["input", "input2", "input_full", "input2_full", "saffran", "thompson_newport", "thompson_newport_ABCDEF", "reber",]
+    file_names = ["input", "input2", "input_full", "input2_full", "saffran", "thompson_newport", "thompson_newport_ABCDEF", "all_irish-notes_and_durations-abc"]
     # file_names = ["input", "input2", "input_full", "input2_full", "saffran", "thompson_newport", "thompson_newport_ABCDEF", "reber",
     #               "Onnis2003_L1_2","Onnis2003_L2_2","Onnis2003_L1_6","Onnis2003_L2_6",
     #               "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
