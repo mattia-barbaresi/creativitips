@@ -12,7 +12,7 @@ for subdir, dirs, files in os.walk(root_dir):
         if '.capp' in file:
             filenm = file
             textfile = subdir + '/' + file
-            outdir = subdir.replace("CHILDES_converted", "CHILDES_converted_SP")
+            outdir = subdir.replace("CHILDES_converted", "CHILDES_ISP")
             os.makedirs(outdir, exist_ok=True)
 
             print("processing file: ", filenm)

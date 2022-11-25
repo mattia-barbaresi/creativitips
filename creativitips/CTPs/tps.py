@@ -68,7 +68,7 @@ class TPS:
     def calculateExp(self, init_time, s=const.LTM_DECAY_RATE):
         # r = e ^ (-t / s)
         # s = memory stability, greater the value, shorter the term
-        return math.exp(- (self.time - init_time) / s) / 100
+        return math.exp(- (self.time - init_time) / s) / 1000
 
     def forget(self, uts):
         # for each transition

@@ -89,7 +89,7 @@ class Parser:
         # r = e ^ (-t / s)
         # s = memory stability
         # return 0.05
-        return math.exp(- (self.time - init_time) / s) / 100
+        return math.exp(- (self.time - init_time) / s) / 1000
 
     def forget_interf(self, rng, pct, comps=None, interfer=0.005):
         # forgetting

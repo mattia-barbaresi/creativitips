@@ -60,16 +60,16 @@ if __name__ == "__main__":
     # file_names = ["input", "input2", "input_full", "input2_full", "reber",
     #               "saffran", "thompson_newport","thompson_newport_ABCDEF",
     #               "all_irish-notes_and_durations-abc", "all_songs_in_G",  "bach_preludes", "ocarolan", "scottish"]
-    file_names = ["input"]
+    file_names = ["CHILDES"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
-    interferences = [0.0005]
+    interferences = [0.00001]
     tps_orders = [2]
     # method = [met_pars]
     # met: AVG, FTP, MI, CT or BRENT
     # pars: W = with, N=No, F=forgetting, I=interference
-    methods = ["AVG_WFWI"]
+    methods = ["AVG_WFWI","FTP_WFWI"]
 
     for tps_method in methods:
         for tps_order in tps_orders:
@@ -77,7 +77,7 @@ if __name__ == "__main__":
                 for t_mem in thresholds_mem:
                     # init
                     rng = np.random.default_rng(const.RND_SEED)
-                    root_out_dir = const.OUT_DIR + "tps_results_SP/" + "{}_{}/".format(tps_method, tps_order)
+                    root_out_dir = const.OUT_DIR + "tps_results_SP_1000/" + "{}_{}/".format(tps_method, tps_order)
                     os.makedirs(root_out_dir, exist_ok=True)
 
                     with open(root_out_dir + "params.txt", "w") as of:
@@ -131,7 +131,7 @@ if __name__ == "__main__":
                         cm.compute(sequences)
 
                         # save shallow parsing results
-                        with open(fi_dir + "shallow_parsed.txt", "w") as fp:
+                        with open(fi_dir + "shallow_parsed.shparctps", "w") as fp:
                             for ln in cm.shallow_parsing:
                                 fp.write(ln + "\n")
                         # class form on graph
@@ -195,11 +195,11 @@ if __name__ == "__main__":
 
                         # generalization
                         ggraph = TPsGraph(tps=cm.tps_units)
-                        gen_paths = cm.tps_units.generate_paths(rng, n_paths=50, max_len=50)
+                        gen_paths = cm.tps_units.generate_paths(rng, n_paths=10, max_len=20)
                         if gen_paths:
                             print("generalizing ...")
                             # self.tps_units.normalize()
-                            ggraph.generalize(fi_dir, gen_paths, render=True)
+                            ggraph.generalize(fi_dir, gen_paths, render=False)
                             # cm.generalize(fi_dir, gen_paths)
 
                         # generate sample sequences from generalized graph
@@ -238,7 +238,7 @@ if __name__ == "__main__":
                         utils.plot_gra_from_normalized(cm.tps_units,
                                                        filename=fi_dir + "tps_units",
                                                        thresh=plot_thresh,
-                                                       render=True)
+                                                       render=False)
                         print("plotting tps symbols...")
                         utils.plot_gra_from_normalized(cm.tps_1,
                                                        filename=fi_dir + "tps_symbols",
