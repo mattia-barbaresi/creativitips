@@ -2,8 +2,6 @@ from datetime import datetime
 import json
 import os
 import numpy as np
-from matplotlib import pyplot as plt
-
 import complexity
 from creativitips import utils
 from creativitips import const
@@ -60,16 +58,16 @@ if __name__ == "__main__":
     # file_names = ["input", "input2", "input_full", "input2_full", "reber",
     #               "saffran", "thompson_newport","thompson_newport_ABCDEF",
     #               "all_irish-notes_and_durations-abc", "all_songs_in_G",  "bach_preludes", "ocarolan", "scottish"]
-    file_names = ["CHILDES"]
+    file_names = ["input"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
-    interferences = [0.00001]
+    interferences = [0.0005]
     tps_orders = [2]
     # method = [met_pars]
     # met: AVG, FTP, MI, CT or BRENT
     # pars: W = with, N=No, F=forgetting, I=interference
-    methods = ["AVG_WFWI","FTP_WFWI"]
+    methods = ["AVG_WFWI"]
 
     for tps_method in methods:
         for tps_order in tps_orders:
@@ -77,7 +75,7 @@ if __name__ == "__main__":
                 for t_mem in thresholds_mem:
                     # init
                     rng = np.random.default_rng(const.RND_SEED)
-                    root_out_dir = const.OUT_DIR + "tps_results_SP_1000/" + "{}_{}/".format(tps_method, tps_order)
+                    root_out_dir = const.OUT_DIR + "tps_results_SP/" + "{}_{}/".format(tps_method, tps_order)
                     os.makedirs(root_out_dir, exist_ok=True)
 
                     with open(root_out_dir + "params.txt", "w") as of:
@@ -92,8 +90,6 @@ if __name__ == "__main__":
                             "tps_decay_rate": const.LTM_DECAY_RATE,
                         }, of)
 
-                    if "CHILDES" in file_names:
-                        file_names = utils.read_childes_files()
                     for fn in file_names:
                         print("processing {} series ...".format(fn))
                         fi_dir = root_out_dir + "{}/".format(fn)
@@ -103,37 +99,16 @@ if __name__ == "__main__":
                             raise
 
                         results = dict()
-                        # --------------- INPUT ---------------
-                        if "CHILDES" in fn:
-                            sequences = []
-                            with open(fn, "r") as fp:
-                                for line in fp.readlines():
-                                    if '*AGEIS:' in line:
-                                        continue
-                                    utter = line.strip().split()
-                                    # if list has less than 3 elements, it is empty b/c
-                                    # auto-cleaning removed a non-speech sound, etc.
-                                    if len(utter) < 3:
-                                        continue
-                                    sequences.append(utter[1:])
-                        else:
-                            sequences = utils.read_sequences(rng, fn)
-
+                        # input
+                        sequences = utils.read_sequences(rng, fn)
                         # read percepts using parser function
                         start_time = datetime.now()
-
                         # init module for computation
                         cm = Computation(rng, order=tps_order, weight=const.WEIGHT, interference=interf,
                                          mem_thres=t_mem, unit_len=const.ULENS, method=tps_method)
-
-                        # --------------- COMPUTE ---------------
                         # compute series
                         cm.compute(sequences)
 
-                        # save shallow parsing results
-                        with open(fi_dir + "shallow_parsed.shparctps", "w") as fp:
-                            for ln in cm.shallow_parsing:
-                                fp.write(ln + "\n")
                         # class form on graph
                         # dc = fc.distributional_context(fc_seqs, 3)
                         # # print("---- dc ---- ")
@@ -195,11 +170,11 @@ if __name__ == "__main__":
 
                         # generalization
                         ggraph = TPsGraph(tps=cm.tps_units)
-                        gen_paths = cm.tps_units.generate_paths(rng, n_paths=10, max_len=20)
+                        gen_paths = cm.tps_units.generate_paths(rng, n_paths=50, max_len=50)
                         if gen_paths:
                             print("generalizing ...")
                             # self.tps_units.normalize()
-                            ggraph.generalize(fi_dir, gen_paths, render=False)
+                            ggraph.generalize(fi_dir, gen_paths, render=True)
                             # cm.generalize(fi_dir, gen_paths)
 
                         # generate sample sequences from generalized graph
@@ -238,7 +213,7 @@ if __name__ == "__main__":
                         utils.plot_gra_from_normalized(cm.tps_units,
                                                        filename=fi_dir + "tps_units",
                                                        thresh=plot_thresh,
-                                                       render=False)
+                                                       render=True)
                         print("plotting tps symbols...")
                         utils.plot_gra_from_normalized(cm.tps_1,
                                                        filename=fi_dir + "tps_symbols",
