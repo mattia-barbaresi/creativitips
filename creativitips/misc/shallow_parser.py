@@ -13,7 +13,7 @@ for subdir, dirs, files in os.walk(root_dir):
             os.makedirs(outdir, exist_ok=True)
 
             print("processing file: ", filenm)
-            with open(textfile, "r") as fpi:
+            with open(textfile, "r",encoding='cp1252') as fpi:
                 with open(outdir + '/' + filenm.split('.capp')[0] + '.shpar', "w") as fpo:
                     for line in fpi.readlines():
                         utter = line.split()
