@@ -1,0 +1,977 @@
+*CHI: I want a drink .
+*MOT: a drink  please .
+*INV: how was school this morning ?
+*CHI: wasnt at school .
+*INV: oh yeah .
+*INV: were you ?
+*INV: is that the class shes in ?
+*INV: cmon and show me .
+*INV: is she your friend that you play with ?
+*INV: look at this lovely jumper .
+*INV: who knit this ?
+*INV: did granny do that ?
+*MOT: not granny Black no  Granny Kenny ?
+*INV: did granny Kenny do that one ?
+*INV: thats lovely isnt it ?
+*INV: so there we are sir .
+*MOT: so Granny Kenny keeps him up on all his jumpers .
+*MOT: what do you say ?
+*CHI: because Im staying up .
+*INV: laughs .
+*MOT: see they dont want you getting up and again .
+*INV: oh .
+*MOT: right were gonna go out .
+*MOT: and Ill make a cup of tea .
+*MOT: you can have a wee chat to Cathy ?
+*MOT: show Cathy all your toys and all .
+*INV: och this is all lovely .
+*MOT: just  you go on and do whatever you want .
+*INV: right this is brilliant !
+*INV: show me this .
+*CHI: this is a thing to screw them all off .
+*INV: so I see .
+*CHI: and this is a box .
+*INV: whats for this ?
+*INV: Ive brought a jigsaw .
+*CHI: what ?
+*INV: Ive brought a jigsaw with me .
+*INV: whats that ?
+*INV: och thats lovely .
+*INV: och that is really lovely .
+*INV: whatd you do ?
+*INV: aw brilliant !
+*INV: oh look at that one !
+*INV: really nice !
+*CHI: whats your jigsaw like ?
+*INV: well Ill tell you what .
+*INV: can we do something else first of all ?
+*CHI: yes .
+*INV: right I want you to I wanna do a test okay ?
+*INV: youre gonna hafta do some work for me today .
+*INV: is that okay ?
+*INV: and then when we finish our work well do the jigsaw .
+*INV: is that okay ?
+*INV: is that a deal ?
+*INV: yeah ?
+*INV: right  okay .
+*INV: right this is what you hafta do for me .
+*INV: right ?
+*INV: now .
+*INV: do you see this ?
+*INV: do you know what this is ?
+*INV: whats that ?
+*INV: haha !
+*INV: thats Cathys tape recorder .
+*INV: do you have a tape recorder ?
+*INV: no ?
+*INV: you hafta get a tape recorder .
+*CHI: I havent got one .
+*INV: youll hafta get one .
+*CHI: havent got one .
+*INV: because theyre good fun .
+*INV: you can play tapes on it .
+*CHI: cant have I havent got one .
+*INV: well you could put that on your Santa list .
+*INV: maybe Santall bring you one .
+*INV: well this  what this does is records the sound of your lovely
+*INV: now I want you to say exactly what I say .
+*INV: okay can you say that ?
+*INV: can you do that ?
+*INV: right you hafta repeat after me exactly what I say .
+*INV: okay ?
+*INV: so here we go .
+*INV: are you ready ?
+*INV: my name is Stuart .
+*INV: now you say that .
+*CHI: my name is Stuart .
+*INV: good .
+*CHI: my lace is getting out .
+*INV: will I tie it ?
+*CHI: yeah .
+*INV: right are you ready for the next one ?
+*INV: I live in .
+*INV: you hafta say that .
+*CHI: I live in .
+*INV: good boy .
+*CHI: I wanna do a jigsaw .
+*INV: but I want you to do this one .
+*CHI: jigsaw too .
+*INV: come here you hafta finish this .
+*INV: I am three .
+*CHI: I am three .
+*INV: my daddy has a red van .
+*CHI: my daddy has a red van .
+*INV: brilliant .
+*INV: now listen to this one .
+*INV: because this is very difficult okay ?
+*INV: garden asked Mummy to play .
+*INV: you say that .
+*INV: garden asked Mummy to play .
+*INV: right .
+*INV: now .
+*INV: my Granny no see can I .
+*CHI: my Granny .
+*INV: no what ?
+*CHI: I dont know that .
+*INV: right .
+*INV: my Granny no see can I .
+*INV: you say that .
+*CHI: I cant .
+*INV: can you not do that one ?
+*INV: my Granny no see can I .
+*CHI: I cant do it .
+*INV: try it again .
+*INV: my Granny no see can I .
+*CHI: my Granny .
+*INV: right .
+*INV: okay .
+*INV: right were gonna do these ones .
+*INV: some more .
+*INV: okay ?
+*INV: right .
+*INV: go away and play .
+*CHI: go away and play .
+*INV: come you here and eat your tea .
+*CHI: come here and .
+*INV: right .
+*INV: sit you down and watch tv .
+*CHI: sit you down and .
+*INV: come here and Ill give you a kiss .
+*CHI: he he .
+*INV: laughs .
+*INV: dont you do that .
+*CHI: dont you do that .
+*INV: good .
+*INV: Adam and Kathryn are asleep .
+*INV: now you say that .
+*CHI: I cant do that .
+*INV: Adam and Kathryn are asleep .
+*INV: you say that .
+*INV: Adam .
+*CHI: Adam and Kathryn are asleep .
+*INV: good boy !
+*INV: right .
+*INV: my mummie and my daddy is at work .
+*CHI: mummie and daddys at work .
+*INV: good !
+*INV: the boys at nursery plays on the bikes .
+*INV: is that right ?
+*INV: right you say that .
+*INV: the boys at nursery plays on the bikes .
+*CHI: I cant know that .
+*INV: you say that .
+*INV: the boys at nursery plays on the bikes .
+*CHI: the bikes .
+*INV: good !
+*INV: the girls at nursery play with the dolls .
+*CHI: I cant know that .
+*INV: the girls at nursery .
+*CHI: the girls at nursery play with dollies at nursery !
+*INV: good !
+*INV: youre great !
+*INV: youre brilliant !
+*INV: right are you ready ?
+*INV: Daddy has gone to work .
+*INV: my Mummy has went to the shops .
+*CHI: my Mummy went to the shops .
+*INV: right .
+*INV: I dont have no brothers .
+*CHI: no brothers .
+*INV: you say exactly what I say .
+*INV: I dont have no brothers .
+*INV: right .
+*INV: I dont have no brothers .
+*INV: right .
+*INV: I dont have any toys .
+*INV: do that one again .
+*INV: laughs .
+*INV: I dont see Playbus no more .
+*CHI: I cant say that .
+*INV: you can !
+*INV: I dont see Playbus no more .
+*INV: I dont see Playbus no more .
+*CHI: I cant say that .
+*INV: try it again .
+*INV: I dont see Playbus no more .
+*CHI: Playbus anymore .
+*INV: brilliant !
+*INV: its not sunny anymore .
+*CHI: its not sunny anymore .
+*INV: good .
+*INV: now this is a hard one .
+*INV: are you ready ?
+*INV: I done a painting at nursery .
+*CHI: I done a painting  at nursery .
+*INV: brilliant .
+*INV: I did a jigsaw today .
+*CHI: I did a jigsaw today .
+*INV: right .
+*INV: I seen a Polar Bear .
+*INV: I saw cartoons yesterday .
+*CHI: cartoons yesterday .
+*INV: good boy .
+*INV: now only a few more okay ?
+*INV: and then were gonna play .
+*INV: youre very  very good Stuart .
+*INV: youre brilliant !
+*INV: okay ?
+*INV: youre such a big help to me .
+*INV: are you ready ?
+*INV: I asked my mummie could I go out .
+*INV: I asked my mummie could I go out .
+*INV: right .
+*INV: Mummy asked me if I was hungry .
+*INV: good boy .
+*INV: Mummy asked me if I was hungry .
+*INV: say that one again .
+*INV: Mummy asked me .
+*CHI: Mummy asked me .
+*INV: if I was hungry .
+*CHI: if I was hungry .
+*INV: good boy .
+*INV: I wonder is it going to snow .
+*INV: I wonder is it going to snow .
+*CHI: I wonder is it gonna snow .
+*INV: I wonder .
+*CHI: I wonder .
+*INV: if Santa will come .
+*CHI: I will wonder if Santa will come .
+*INV: brilliant .
+*CHI: he come last  last Tuesday .
+*INV: he did .
+*INV: he did .
+*INV: what did he bring you ?
+*CHI: a lovely jigsaw and Kinder eggs .
+*INV: och brilliant .
+*INV: did you get another jigsaw ?
+*CHI: no just one .
+*INV: och good well you can show it to me then .
+*INV: when we finish this okay ?
+*INV: well thatll be brilliant .
+*INV: right .
+*INV: only a couple more to do .
+*INV: are you ready ?
+*CHI: yeah .
+*INV: look at them jigsaws .
+*INV: youve to say that .
+*INV: look at them jigsaws .
+*CHI: look at them jigsaws .
+*INV: right .
+*INV: I like those sweets .
+*CHI: I like them sweets .
+*INV: right .
+*INV: tidy up them toys .
+*CHI: tidy up them toys .
+*INV: I play with those toys .
+*CHI: I play with them toys .
+*INV: laughs .
+*INV: look at them there diggers .
+*CHI: look at them diggers .
+*INV: look at them there diggers .
+*CHI: look at them there diggers .
+*INV: right .
+*INV: I have this here book .
+*CHI: I have my book here .
+*INV: uhhuh .
+*INV: I play with this toy here .
+*CHI: I play with this toy here .
+*INV: those dumpers are noisy .
+*CHI: them dumpers are noisy .
+*INV: brilliant !
+*INV: thats really good .
+*INV: now were just gonna try one more .
+*INV: right ?
+*INV: I asked my daddy could I go out .
+*CHI: my daddy to go out .
+*INV: I now listen very carefully okay ?
+*INV: I asked my daddy could I go out .
+*CHI: I asked my daddy to go out .
+*INV: brilliant .
+*INV: Mummy asked me if I was thirsty .
+*CHI: thirsty .
+*INV: right .
+*INV: I wonder is it going to snow .
+*CHI: I wonder will it gonna snow .
+*INV: I wonder if Santa will come .
+*CHI: I wonder if Santa will come .
+*INV: brilliant !
+*INV: those are just fantastic .
+*CHI: are we finished ?
+*INV: thats it .
+*INV: its all done .
+*INV: arent you great ?
+*INV: that is really really good .
+*INV: he is just brilliant here .
+*INV: hes great !
+*INV: hes brilliant !
+*INV: chatting away to me here .
+*INV: hes a great boy .
+*CHI: jigsaw .
+*INV: I brought it here .
+*INV: do this one .
+*CHI: lets see .
+*CHI: one .
+*INV: is that the one that Santa brought ?
+*CHI: yeah .
+*INV: oh br what one will we do ?
+*INV: do you wanna do the one I brought ?
+*INV: right .
+*INV: its not as hard as your ones .
+*CHI: no ?
+*INV: no its not as difficult as that .
+*INV: but  waitll you see .
+*CHI: its a big farm one is it ?
+*INV: its  a helicopter one .
+*CHI: oh .
+*INV: look .
+*INV: because I knew you liked jigsaws didnt I ?
+*INV: here whats Santa bringing you ?
+*CHI: toys .
+*INV: whats your big present ?
+*INV: hes bringing you ?
+*CHI: a powerbike .
+*INV: aw you lucky thing !
+*INV: look at you already !
+*INV: youre brilliant .
+*INV: so  what happened ?
+*INV: when did Santa come ?
+*CHI: yesterday .
+*INV: yesterday .
+*INV: he came last week didnt he ?
+*INV: wha what did he do when he came in ?
+*CHI: he just said +"/.
+*CHI: you want a present ?
+*CHI: know what he know what he said ?
+*INV: was it ?
+*CHI: wheres this go ?
+*INV: wait until we see .
+*INV: well hafta find the other things as well .
+*INV: now what else do we need ?
+*CHI: well we need this .
+*INV: Stuart this is too easy for you .
+*CHI: its not !
+*CHI: its .
+*INV: uhhuh .
+*INV: a helicopter .
+*CHI: huh ?
+*CHI: open his wings .
+*INV: uhhuh .
+*INV: that goes at the bottom .
+*INV: yeah .
+*INV: brilliant !
+*CHI: look at that .
+*INV: youre very good at jigsaws arent you ?
+*INV: are they your favorite thing to do ?
+*CHI: yup .
+*INV: did you do one this morning ?
+*CHI: yup .
+*INV: did you ?
+*CHI: yup at nursery .
+*CHI: in the playgroup .
+*INV: oh right .
+*CHI: any more ?
+*INV: no thats the only one I have .
+*INV: but Ive got more in the house .
+*CHI: well you bring in more then .
+*INV: right .
+*CHI: because I never seen when I was up at the house .
+*INV: have you not seen Adams jigsaws ?
+*CHI: no .
+*INV: well why dont you come over some day ?
+*INV: play with them .
+*CHI: Ill come up some day .
+*INV: yeah .
+*CHI: yeah Im coming some day .
+*INV: you come over and play with Adam .
+*CHI: Im coming over some day .
+*INV: come over some afternoon when Adam comes home from school right ?
+*CHI: yeah .
+*INV: and you can play with Adams jigsaws and Adams toys .
+*INV: hed love that .
+*INV: good boy !
+*CHI: I can do it .
+*INV: you can do it very quickly too cant you ?
+*INV: laughs .
+*INV: thats good .
+*CHI: wheres this go ?
+*INV: you just keep trying .
+*INV: keep trying all the pieces .
+*INV: you can do it better than I can .
+*INV: so what did you do this morning then ?
+*INV: at nursery ?
+*CHI: played and played and .
+*CHI: I just played and played and played .
+*INV: what did you do ?
+*CHI: played and played and played and
+*INV: just played ?
+*INV: what did you play with ?
+*CHI: I played with the cars .
+*INV: with cars ?
+*CHI: yeah .
+*INV: whatd you make ?
+*CHI: a big like my daddys .
+*INV: oh brilliant !
+*CHI: better get this right .
+*CHI: wheres this go ?
+*INV: there that bit goes .
+*INV: yeah .
+*CHI: wheres this bit go ?
+*INV: brilliant !
+*INV: maybe thats the middle bit .
+*INV: good .
+*CHI: two more .
+*INV: uhhuh .
+*INV: congratulations !
+*INV: well done .
+*INV: now thats good isnt it ?
+*CHI: what else is in there ?
+*INV: what in the bag ?
+*INV: well theres just some books .
+*INV: hi Jim .
+*CHI: whats what else is in there ?
+*INV: what in that bag ?
+*INV: you have a look and see what you see what there is .
+*CHI: I can I can find a book .
+*INV: uhhuh .
+*INV: do you wanna have a look at it ?
+*INV: here .
+*INV: theres some good things .
+*INV: who did that ?
+*CHI: I dont know .
+*INV: I wonder who did that ?
+*CHI: no .
+*INV: who do you think did that ?
+*CHI: dont know .
+*INV: who does this book belong to ?
+*CHI: dont know .
+*INV: who do you think it belongs to ?
+*CHI: dont know .
+*INV: is it is it Adams ?
+*INV: is it Superboys ?
+*INV: is it ?
+*CHI: I dont know .
+*INV: laughs .
+*INV: maybe its Kathryn did it was it ?
+*INV: this is a lovely book .
+*INV: its got flaps .
+*INV: pull up mhm .
+*CHI: there .
+*INV: now you tell me all about that picture .
+*INV: now whats happening in that picture ?
+*CHI: theyre all .
+*CHI: theyre all messing .
+*INV: laughs .
+*INV: what are they doing ?
+*CHI: theyre messing .
+*INV: why are they messing ?
+*CHI: because Mummy says not to mess it .
+*INV: what does Mummy say when its all messy ?
+*INV: what does she say ?
+*CHI: good boys .
+*INV: good boys for tidying it up ?
+*INV: and when its all messy what does Mummy say ?
+*INV: she says  tidy up .
+*INV: what does she say ?
+*INV: tidy up .
+*INV: tidy up those toys Stuart !
+*INV: is that what she says ?
+*INV: whats the daddy doing ?
+*CHI: daddys saying +"/.
+*CHI: no no no .
+*CHI: whats that ?
+*CHI: dunno .
+*INV: can you see the teddy ?
+*INV: where is it ?
+*INV: where is he ?
+*CHI: there .
+*INV: look carefully .
+*INV: theres always a teddy hiding somewhere .
+*INV: oh look this is great !
+*INV: tell me all about this page .
+*CHI: theyre taking all their toys to play outside .
+*INV: is that a powerbike ?
+*CHI: no .
+*INV: whats a powerbike got ?
+*CHI: its got pirates pirates on it .
+*CHI: and men on it .
+*INV: brilliant .
+*INV: thatll be great .
+*INV: whats the wee baby doing in the picture ?
+*INV: do you see the wee baby ?
+*INV: look .
+*INV: laughs .
+*INV: whats that boy painting ?
+*INV: did you do me a painting ?
+*INV: you promised me you were gonna do me a painting .
+*CHI: I dont wanna do it .
+*INV: did you not do one at nursery for me ?
+*INV: what are they ?
+*CHI: dinosaurs .
+*INV: thats right .
+*CHI: and all of these .
+*INV: what was the last painting you did in school ?
+*INV: did you bring it home ?
+*INV: do you not bring your paintings home ?
+*INV: do you draw pictures ?
+*CHI: I dont wanna see that one .
+*INV: you dont wanna see this one .
+*INV: what are we gonna do ?
+*INV: will we do another jigsaw ?
+*INV: yeah ?
+*CHI: yeah .
+*INV: is that what you wanna do ?
+*CHI: yeah .
+*INV: right .
+*INV: well I havent got any more with me .
+*INV: but you have some .
+*INV: what one will we do ?
+*CHI: will we do that one ?
+*INV: what one ?
+*CHI: its called .
+*INV: aye we did that one the last time .
+*INV: show me one of these new ones youve got .
+*CHI: lets do this one .
+*INV: yeah .
+*CHI: because thats old .
+*INV: is that the one Santa brought last week ?
+*CHI: no .
+*INV: what one did he bring ?
+*CHI: that one .
+*INV: that one ?
+*CHI: the one the cars are sitting on .
+*INV: oh yeah .
+*INV: brilliant .
+*CHI: what else is in there too ?
+*INV: that ?
+*CHI: yeah .
+*INV: thats a present for you .
+*INV: for Christmas .
+*CHI: thats from Santa .
+*INV: I hope not .
+*INV: thats just from me .
+*INV: thats just a Christmas present from me .
+*INV: for Stuart .
+*INV: for you .
+*CHI: can I keep it all day ?
+*INV: yes its yours .
+*INV: its a present isnt it ?
+*CHI: this ones Snow White .
+*CHI: doesnt mean its a Snow White .
+*CHI: let me see .
+*CHI: thats a picture of Snow White .
+*INV: put the picture there so we can look at it .
+*CHI: it stands up too !
+*INV: laughs .
+*CHI: whats those ?
+*CHI: its a hard one like yours .
+*INV: the other one was very easy for you .
+*INV: there arent very many pieces in it .
+*INV: a boy of three being able to do a seventy piece jigsaw is very ,
+*INV: Im telling you .
+*INV: you are definitely the best boy .
+*INV: or youre the best person I know at doing jigsaws .
+*CHI: is that broken ?
+*INV: I dont know .
+*INV: no I dont think so .
+*INV: have you done this one before ?
+*CHI: its very hard .
+*CHI: you hafta push it off the back .
+*INV: you do .
+*CHI: this ones very hard .
+*INV: this one ?
+*CHI: yeah it is !
+*INV: well sure we could do it together couldnt we ?
+*INV: tell me this .
+*INV: do you watch cartoons ?
+*CHI: yeah .
+*INV: whats your favorite one ?
+*CHI: um  spooky .
+*INV: spooky ?
+*INV: whats that ?
+*CHI: spooky  you see thats what .
+*CHI: thats what .
+*CHI: thats funny .
+*INV: its funny ?
+*CHI: funny  Im actually laughing .
+*INV: laughs .
+*INV: well whats it about ?
+*CHI: spookies come out and scare everybody .
+*INV: help .
+*INV: uhhuh .
+*INV: when did you watch it ?
+*CHI: another funny comes on .
+*CHI: then I watch it .
+*INV: uhhuh .
+*CHI: when like when spooky comes then I watch it .
+*INV: when did you watch it last ?
+*INV: when did you see it ?
+*INV: when did you see it ?
+*CHI: see thats Dopey .
+*INV: thats right .
+*INV: well tell me about this spooky .
+*INV: what does he do ?
+*CHI: whoo !
+*INV: does he go whoo ?
+*INV: Im scared !
+*CHI: he put his tongue out .
+*CHI: very scary .
+*CHI: hes very scary .
+*INV: uhhuh .
+*CHI: you see .
+*INV: right .
+*CHI: I have no friends .
+*INV: youve no friends ?
+*CHI: Ive got Bronagh and Claire and Angeline .
+*CHI: thats my friends .
+*INV: in school ?
+*CHI: yeah .
+*MOT: no because the they go to a different school .
+*INV: do they ?
+*CHI: yeah .
+*INV: is that ?
+*INV: Angeline lives down there doesnt she ?
+*INV: whos Bronagh ?
+*CHI: thats my thats my friend .
+*INV: does she go to your school ?
+*CHI: no .
+*INV: wheres she live ?
+*CHI: when you cross the road  thats Bronaghs house .
+*INV: oh is that right ?
+*CHI: yeah .
+*INV: uhhuh .
+*INV: and who was the other one you mentioned ?
+*CHI: Claire .
+*INV: where does she live ?
+*CHI: she lives beside beside me .
+*INV: oh does she ?
+*INV: she live in there ?
+*INV: there ?
+*CHI: yeah .
+*INV: does she ?
+*INV: and sure youve got Adam too .
+*INV: hes your friend isnt he ?
+*CHI: he doesnt come down anymore .
+*CHI: because he goes up to Christophers house .
+*INV: he doesnt no .
+*INV: he doesnt go out at all now .
+*INV: because its dark you see .
+*INV: but hell play with you in the afternoon  if youre here .
+*INV: hed love to play with you .
+*CHI: but you see .
+*INV: why dont you come down  and play with us ?
+*INV: you just come down and knock the door .
+*INV: and tell Mummy youre coming down .
+*INV: and Ill look after you in my house .
+*INV: and you can play with Adam .
+*INV: and Ill bring you back home again  if you want .
+*CHI: Ill come some day and play with Adam .
+*INV: well yes you should .
+*CHI: play in your house .
+*INV: you could go up to Adams bedroom .
+*INV: and you could play with all the toys up there .
+*INV: you know what Adams got .
+*INV: he has an Action Man .
+*CHI: Ive got Robocop .
+*INV: you do not !
+*CHI: I do .
+*INV: you do not !
+*CHI: I do .
+*INV: when ?
+*CHI: theres a tape in there for to see it .
+*CHI: have you seen it ?
+*INV: what happens in Robocop ?
+*CHI: he bangs everybody bad boys .
+*INV: you better be good then .
+*CHI: no .
+*INV: youre a good boy .
+*INV: youre the best boy in nursery school .
+*CHI: I cant do .
+*INV: youre doing really  really well !
+*CHI: will you help me ?
+*INV: yeah .
+*INV: you have done this so many times you just know where all these go .
+*INV: so  apart from Robocop then  what else do you watch ?
+*INV: do you watch the cartoons in the afternoon ?
+*CHI: yeah .
+*INV: what did you see last ?
+*CHI: all the funnies .
+*INV: all the wee funnies on ?
+*CHI: yeah .
+*CHI: have you got a ?
+*INV: no  no I havent .
+*CHI: oh Ive got Ive got videos of it .
+*INV: of what ?
+*CHI: of  Robocop .
+*INV: Robocop ?
+*CHI: yeah .
+*INV: no you dont .
+*CHI: yes I go bang bang bang .
+*INV: and who watches it ?
+*CHI: me .
+*INV: and who else ?
+*CHI: mum and dad .
+*INV: do your mummie and daddy watch it ?
+*CHI: and I sit down in the chair with mummie and daddy .
+*INV: laughs .
+*INV: I think Daddy likes it does he ?
+*CHI: I love it too .
+*INV: do you ?
+*CHI: Daddy and Mummy and me .
+*CHI: all of us like it .
+*CHI: I done it .
+*CHI: I done it .
+*CHI: I know I done it .
+*INV: laughs .
+*INV: well done !
+*INV: oh dont wreck it .
+*INV: oh Stuart dont wreck it .
+*INV: dont !
+*INV: look at that !
+*CHI: put it back in .
+*INV: aw sure put it there .
+*INV: and right well do the other one .
+*INV: will we do this one ?
+*INV: the new one ?
+*INV: cmon and well do it .
+*CHI: och naw !
+*INV: och yeah !
+*INV: well do this .
+*INV: and then well have the three of them all together .
+*CHI: no dont .
+*INV: no ?
+*INV: do you wanna put it back in the box then ?
+*INV: youre a very good boy arent you ?
+*CHI: more more more more .
+*INV: more more more more .
+*INV: right  now what about this one ?
+*INV: whats that other one ?
+*INV: is that another Snow White one ?
+*CHI: no .
+*CHI: a Snow White one .
+*INV: whats that one ?
+*INV: not wanna do that one ?
+*CHI: I think .
+*INV: is it too difficult that one ?
+*INV: is it too hard ?
+*INV: we could do it together .
+*INV: no what else can we do then ?
+*INV: will we look through some of my books ?
+*INV: waitll we see .
+*CHI: I wanna see some of them .
+*INV: yeah theres loads of them .
+*INV: look .
+*CHI: oh tractor !
+*CHI: Ive got one of them too .
+*INV: have you Stuart ?
+*INV: look brilliant .
+*CHI: theres the tractor at the front .
+*INV: whats that one ?
+*INV: its a bit like that .
+*INV: its called a combine harvester .
+*INV: and it cuts and gathers in the wheat in the farmers field .
+*CHI: yeah .
+*INV: and all the the wheat goes inside the machine .
+*INV: and its thrown in this big box at the back .
+*CHI: whats that ?
+*INV: that looks like a special tractor that cuts through .
+*INV: it has one wheel at the front and two at the back .
+*CHI: two at the two at the front and two at the back ?
+*INV: thats a traction engine .
+*INV: have you got one of those ?
+*CHI: yeah .
+*INV: youve got everything havent you ?
+*INV: yeah let me see .
+*INV: ding a lingo lingo lingo .
+*INV: whats he doing ?
+*CHI: dingdongo dingdongo .
+*INV: and what does he do first thing in the morning when he gets out of
+*INV: whats the first thing he does ?
+*CHI: and what happened there ?
+*INV: what do you think happened ?
+*INV: what happened ?
+*INV: what happened ?
+*INV: I wonder what .
+*INV: I wonder what did happen .
+*INV: teddys standing up .
+*INV: look hes watching it all .
+*INV: whats that ?
+*CHI: a telephone and a radio .
+*INV: aw whats he doing there ?
+*CHI: because he wants his mummie  and his daddy .
+*INV: well I wonder where his mummie and daddy are .
+*INV: where did mummie and daddy .
+*INV: where did they go ?
+*CHI: thats his friends .
+*INV: thats right .
+*INV: thats not the end of it .
+*INV: thats only the beginning .
+*INV: because you didnt look at it all .
+*CHI: thats brilliant !
+*INV: thats right .
+*INV: och look look at that silly bear .
+*INV: whats he doing ?
+*INV: all the animals are playing instruments .
+*INV: laughs .
+*INV: Ive never seen a sheep play drums .
+*INV: have you ?
+*CHI: I havent .
+*INV: no .
+*INV: thats all the wee birds  twittering away .
+*INV: all the bees buzzing .
+*INV: what time is it now ?
+*INV: is it autumn time or is it winter time ?
+*CHI: its its snowing time .
+*INV: a snowy day thats right .
+*INV: I think its going to snow .
+*INV: I wonder if its going to snow .
+*CHI: I wonder if its going to snow .
+*INV: go on .
+*CHI: I seen all them .
+*CHI: I seen that one .
+*INV: did you ?
+*INV: when did you see that one ?
+*CHI: away .
+*INV: thats all the books I have .
+*INV: do you wanna have a look at this one again ?
+*INV: well theres more pictures in it .
+*INV: do you not wanna see that one ?
+*INV: well thats all I have .
+*INV: what else are we gonna look at then ?
+*INV: what about your book ?
+*INV: who are you going to see next then ?
+*CHI: one two three four five six .
+*INV: you missed a page  look !
+*INV: whats your favorite food ?
+*CHI: my favorite foods that .
+*INV: what a big cream bun ?
+*CHI: thats my favorite .
+*INV: I know what your favorite is .
+*INV: your favorite is  spaghetti hoops .
+*CHI: no its not .
+*INV: its noodles .
+*INV: isnt it ?
+*CHI: yeah .
+*INV: you love noodles .
+*CHI: icecream .
+*INV: yeah .
+*INV: the end .
+*INV: what about us .
+*INV: oh look .
+*INV: whats this ?
+*INV: is this a workshop ?
+*CHI: no its not .
+*CHI: its a bangerswp .
+*INV: oh yeah .
+*INV: do these come out too ?
+*INV: its falling apart .
+*INV: its falling apart .
+*INV: whatre we gonna do ?
+*CHI: lets make it up again .
+*CHI: lets fix it all back up again .
+*INV: do these all come out too ?
+*CHI: no dont .
+*INV: I bet you they do look !
+*CHI: they dont come out .
+*CHI: you hafta put them back in .
+*INV: you like to be tidy dont you ?
+*INV: you do .
+*INV: my goodness do you know what you can do with those ?
+*INV: is that what this is for ?
+*INV: are these the same as daddys tools ?
+*CHI: no .
+*INV: do you help daddy with his work do you ?
+*CHI: you screw that .
+*INV: do these go in ?
+*INV: no ?
+*INV: screw that one in ?
+*INV: and that one and that one .
+*INV: is that right ?
+*INV: whered that come from ?
+*INV: oh aye .
+*INV: oh dear !
+*INV: that ?
+*INV: and Ill screw it on ?
+*CHI: is that definitely for me ?
+*INV: you can have it when I go home .
+*INV: you hafta give it to mummie .
+*CHI: I dont wanna give it to mummie .
+*INV: its for Christmas Day .
+*CHI: this is Christmas Day too .
+*INV: its not at all .
+*INV: no way .
+*INV: and then um  you could open it on Christmas Day wont you ?
+*INV: what are we gonna do now ?
+*CHI: Ive no jigsaws .
+*INV: I really wanted to do that one over there .
+*CHI: we could but .
+*INV: well Id love to just  see that one because .
+*CHI: you get you get that one on Christmas Day .
+*INV: uhhuh  you havent opened it yet .
+*CHI: no because when its Christmas Day Ill open it .
+*INV: open that one ?
+*CHI: yup on Christmas time .
+*INV: thats thats right  the Thomas The Tank ones .
+*INV: theyre lovely arent they ?
+*CHI: theyre chocolate .
+*INV: oh yummy yummy yummy !
+*INV: are you gonna keep one for me ?
+*CHI: no because you hafta get one on Christmas Day .
+*INV: well tell me this  who put up your Christmas tree ?
+*CHI: um m mummie .
+*INV: did she ?
+*CHI: and you see theres a whole lot of things and the fairy up on the
+*INV: yeah the fairys lovely isnt it ?
+*CHI: its not .
+*INV: thats right .
+*INV: I know .
+*INV: thats good .
+*INV: what about all your lovely streamers and everything ?
+*INV: arent they really good ?
+*CHI: I wanna see whats in here .
+*INV: you hafta wait and give it to mummie .
+*INV: hafta wait and mummie can see it then .
+*CHI: Im wrapping this all up .
+*INV: uhhuh .
+*INV: and theres some sweets as well for later on  after you have
+*INV: because Im sure you havent had your lunch yet have you ?
+*CHI: no .
+*INV: no  no .
+*INV: oh well .
+*CHI: theres some sweeties in here too .
+*INV: oh aye theres always sweeties .
+*INV: dont I always bring you some sweeties ?
+*CHI: yeah .
+*CHI: I like sweeties .
+*INV: I know you do .
+*INV: so do I .
+*CHI: and chocolate .
+*INV: chocolate .
+*INV: crisps .
+*CHI: is it chocolate ?
+*INV: hey what do you think of all these diggers in the back ?
+*INV: you can even see them still cant you ?
+*CHI: I can see one .
+*INV: uhhuh .
+*INV: well tell me this .
+*INV: Im gonna finish off .
+*INV: this wee boy is absolutely fantastic !
+*MOT: what is in there ?
+*MOT: whats this ?
+*MOT: whats this Stuart ?
+*MOT: you tell me .
+*INV: thats for Stuart from the Child Language Project .
+*MOT: lovely .
+*INV: its not very much Im afraid .
+*MOT: are you going to put it under the tree ?
+*MOT: did you tell Cathy that Santa came to your house ?
+*INV: theres some sweeties there .
+*INV: youd better have your lunch first .
+*INV: I hafta go now anyway .
+*CHI: I dont want any toys .
+*INV: I have never seen a child who can do jigsaws like him .
+*MOT: I know from he was no age Cathy
+*INV: he just really likes them doesnt he ?
+*INV: its very good that he can do those .
+*INV: theyre really quite complicated .
+*MOT: www .
+*INV: www .

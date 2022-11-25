@@ -1,0 +1,922 @@
+*CHI: find a lobster .
+*MOT: was there a lobster in that book you had ?
+*MOT: where is that book you had  John ?
+*MOT: about all the British animals ?
+*MOT: and a starfish .
+*MOT: where is it ?
+*CHI: in my bedroom .
+*MOT: no .
+*MOT: oh no .
+*MOT: its on the piano  John .
+*MOT: I can see it .
+*CHI: oh .
+*CHI: no .
+*MOT: it is .
+*MOT: behind Anna .
+*INV: is that what youre looking for ?
+*CHI: yeah .
+*MOT: good .
+*MOT: is there a lobster in here ?
+*CHI: yeah .
+*MOT: a starfish .
+*CHI: picture a lobster .
+*MOT: mhm .
+*MOT: crab .
+*MOT: ah .
+*MOT: look .
+*MOT: its blue .
+*CHI: mhm .
+*MOT: whats that ?
+*MOT: thats a prawn .
+*CHI: prawn .
+*MOT: mhm .
+*CHI: and heres a butterfly .
+*MOT: arent they beautiful .
+*CHI: butterflys .
+*MOT: mhm .
+*MOT: in fact that ones called a Camberwell Beauty butterfly .
+*CHI: yes .
+*MOT: we could build something with your bricks .
+*MOT: which one is driving  John ?
+*MOT: this one or this one ?
+*CHI: oh .
+*MOT: where is his face ?
+*MOT: look .
+*MOT: he hasnt got a face .
+*CHI: wheres a face ?
+*CHI: wheres a face ?
+*MOT: thats better .
+*CHI: wheres a face ?
+*MOT: where are they going to take the pig and the horse today ?
+*CHI: tickling .
+*CHI: she licking me .
+*MOT: just quite gently  John .
+*MOT: just quite gently because if she starts to cry it means probably
+*MOT: pick her up .
+*MOT: lets pick her up and give her a cuddle .
+*MOT: she likes cuddles .
+*MOT: are you a baby ?
+*CHI: yeah .
+*MOT: thats for babys .
+*CHI: I much bigger .
+*MOT: youre too big for that now .
+*MOT: have you got both bags here  John ?
+*MOT: oh one inside the other .
+*MOT: can you make me a castle ?
+*CHI: make castle .
+*MOT: mhm .
+*CHI: I made it .
+*CHI: I made a castle .
+*CHI: I made a bridge .
+*MOT: yes .
+*MOT: very good .
+*CHI: oh .
+*CHI: I found my car .
+*MOT: oh thats where it is .
+*MOT: do you know where the tyres are ?
+*CHI: in there .
+*MOT: oh theyre in the car  are they ?
+*CHI: yeah .
+*CHI: and where and where this ?
+*MOT: oh the light the headlight fell out a long time ago .
+*MOT: I dont know where it is .
+*MOT: no .
+*MOT: dont know .
+*CHI: might be in old house .
+*MOT: maybe it is .
+*CHI: one the light .
+*CHI: one the light is gone .
+*MOT: yes .
+*MOT: one of the lights .
+*CHI: maybe gone in the car .
+*MOT: possibly .
+*CHI: maybe its gone maybe its gone on the bed .
+*MOT: mhm .
+*MOT: could be anywhere really  couldnt it ?
+*CHI: where the tyres ?
+*MOT: are all the tyres in the car ?
+*CHI: I cant open it .
+*MOT: would you like me to do it ?
+*CHI: yeah .
+*MOT: lets have a go .
+*MOT: cant see them  John .
+*CHI: tyres gone in .
+*MOT: cant see them .
+*MOT: youre probably right .
+*MOT: its just I cant see them .
+*CHI: might be in there .
+*MOT: you reckon .
+*MOT: okay .
+*CHI: might be in there .
+*MOT: mhm .
+*MOT: could be in the boot .
+*CHI: might be in there .
+*CHI: might be in there .
+*CHI: do it .
+*MOT: no .
+*CHI: my one two three .
+*MOT: maybe daddy has them safe somewhere .
+*MOT: hes got the tractor tyres .
+*CHI: yes .
+*CHI: daddy got them .
+*MOT: you reckon .
+*MOT: okay .
+*MOT: did you finish building your bridge ?
+*MOT: ah .
+*MOT: you have cheese this morning .
+*MOT: what else do you have  John for your breakfast ?
+*CHI: Weetabix .
+*MOT: yes .
+*MOT: anything else ?
+*CHI: and cornflakes .
+*MOT: and cornflakes .
+*MOT: you were lucky with both .
+*MOT: you sometimes get as many breakfasts as there are people don't
+*MOT: Nicole gives you Weetabix .
+*MOT: daddy gives you cornflakes .
+*MOT: I give you something else .
+*MOT: not very much room here  John .
+*MOT: would you like to build a church with your bricks ?
+*CHI: mhm .
+*MOT: you can build a big tower .
+*MOT: and a cross on the top .
+*MOT: would you like to start it ?
+*CHI: not start it .
+*MOT: no .
+*MOT: can you get off ?
+*MOT: maybe youd like to build something else .
+*MOT: or build with your other bricks .
+*MOT: I can see some wooden bricks by the Duplo .
+*CHI: maybe its a yacht .
+*MOT: oh yeah .
+*MOT: its a bit like a yacht sail  isnt it ?
+*MOT: maybe you can find another brick that can be the boat .
+*CHI: make a sail .
+*MOT: mhm .
+*MOT: whats that now ?
+*CHI: bus .
+*CHI: bus .
+*MOT: oh I see .
+*CHI: people can sit down .
+*MOT: whos traveling on the bus ?
+*MOT: whos traveling on the bus ?
+*CHI: a man .
+*MOT: ah .
+*MOT: anybody else ?
+*MOT: are there any babys on the bus ?
+*CHI: yeah .
+*MOT: what are they doing ?
+*CHI: I dont know .
+*MOT: you dont know .
+*MOT: oh .
+*MOT: what did they do in the song ?
+*MOT: the babys on the bus go
+*MOT: do you remember that ?
+*MOT: oh perhaps youve forgotten .
+*CHI: gagao .
+*MOT: well they might go gagao .
+*MOT: yeah .
+*CHI: gagao .
+*MOT: well whats Rosie doing ?
+*CHI: sucking mummies bosom .
+*MOT: so maybe the babys on the bus are doing that .
+*CHI: I dont know .
+*MOT: you dont know .
+*MOT: well in the song the babys on the bus go 0 .
+*CHI: yes .
+*MOT: Rosie doesnt do that though  does she ?
+*CHI: yes .
+*CHI: oh .
+*CHI: I got two buss .
+*CHI: maybe its a van .
+*CHI: oh .
+*CHI: maybe from slippers .
+*CHI: we got two buss .
+*CHI: we got a lorry .
+*CHI: we got a lorry .
+*MOT: what have you got in your lorry ?
+*CHI: we got a lorry .
+*CHI: oh .
+*CHI: its another lorry .
+*CHI: oh its another its another one lorry .
+*MOT: funny shaped one .
+*MOT: what do you say ?
+*MOT: do you remember what you hafta say ?
+*MOT: what do you say ?
+*MOT: remember ?
+*MOT: pardon me .
+*CHI: pardon me .
+*MOT: pardon me .
+*CHI: pardon me .
+*CHI: oh empty .
+*CHI: oh .
+*CHI: look .
+*MOT: well its not quite empty .
+*CHI: no .
+*CHI: empty .
+*CHI: empty .
+*MOT: what can you put in it ?
+*CHI: I made a shopping .
+*MOT: oh yeah .
+*MOT: a shopping bag .
+*MOT: yeah .
+*MOT: thats a good idea .
+*CHI: its full and empty .
+*CHI: full and empty .
+*CHI: full of paint .
+*CHI: I bought paint in Tesco .
+*CHI: bought paint in Tesco .
+*CHI: bought paint in Tesco .
+*CHI: I bought I bought paint in Tesco .
+*CHI: I bought paint in Tesco .
+*CHI: I bought paint in Tesco .
+*MOT: whatre you going to do with it ?
+*MOT: excuse me .
+*CHI: all empty .
+*CHI: all empty .
+*CHI: all empty .
+*CHI: all empty .
+*CHI: all empty .
+*CHI: all empty .
+*MOT: John .
+*MOT: is that the piano or the door ?
+*INV: the door .
+*MOT: oh thats okay .
+*CHI: oh my money .
+*MOT: really .
+*MOT: have you posted it down there ?
+*CHI: all my money .
+*CHI: the big money here .
+*CHI: big money .
+*INV: is there ?
+*CHI: put it out .
+*INV: where is it ?
+*MOT: well and truly posted I think .
+*CHI: its in there .
+*INV: oh I dont think I can get that one .
+*CHI: yeah .
+*CHI: like a ol on this .
+*CHI: like a ol .
+*CHI: like a Humpty Dumpty .
+*INV: is it ?
+*CHI: like a wl .
+*INV: mhm .
+*INV: quite like one yes .
+*CHI: want a wl .
+*MOT: wheres your writing books  John ?
+*CHI: its upstairs .
+*MOT: is it ?
+*CHI: in my bedroom .
+*MOT: oh I thought they were down here last I looked .
+*MOT: Im sure we can find one down here .
+*MOT: John .
+*MOT: there are some books down here .
+*CHI: I get some .
+*MOT: okay .
+*MOT: quickly get them and then bring them down .
+*MOT: thank you .
+*MOT: John .
+*MOT: do you need a hand ?
+*MOT: I oh youve got some .
+*MOT: well done .
+*CHI: I got some .
+*MOT: mhm .
+*CHI: I a postman .
+*CHI: look .
+*CHI: one .
+*MOT: mhm .
+*CHI: look .
+*MOT: we havent done this one yet from grandma .
+*CHI: I got some crayons .
+*MOT: mhm .
+*MOT: oh coloring books .
+*MOT: do you wanna look at that one ?
+*CHI: windows .
+*CHI: it got a door .
+*INV: oh yeah .
+*CHI: and its got a lady .
+*INV: lady in the door .
+*CHI: yeah .
+*CHI: oh .
+*CHI: its got a mouse .
+*INV: oh yes .
+*INV: peeping out the window .
+*INV: arent there theres two .
+*CHI: lady see them .
+*INV: mhm .
+*CHI: lady see them .
+*CHI: got some bedrooms .
+*CHI: its got a chimney .
+*CHI: got a
+*CHI: smoke come out there .
+*CHI: smoke come out there .
+*INV: yeah .
+*INV: smoke comes out the chimney  doesnt it ?
+*CHI: yeah .
+*CHI: and people .
+*CHI: oh its a cat .
+*CHI: its a cat .
+*CHI: its a cat .
+*INV: cat sitting on her knee .
+*INV: is it asleep ?
+*CHI: yeah .
+*CHI: what I do .
+*CHI: what I do .
+*MOT: do you wanna do some coloring  John ?
+*MOT: John .
+*MOT: the christmas tree one you havent started at all .
+*MOT: shall we do that one today ?
+*CHI: mhm .
+*MOT: the penguin decorating the christmas tree .
+*CHI: Meg Meg Meg .
+*CHI: Meg Meg Meg .
+*CHI: Meg .
+*MOT: Meg ?
+*CHI: Meg .
+*MOT: whos Meg ?
+*CHI: er Meg .
+*MOT: do you know a story about Meg ?
+*CHI: yes .
+*MOT: do we ?
+*CHI: yes .
+*MOT: you might .
+*MOT: whats the story about then ?
+*CHI: yes .
+*MOT: whats the story about ?
+*CHI: Meg .
+*MOT: Meg and
+*CHI: Meg and dad up in the attic .
+*MOT: oh gosh .
+*MOT: we havent read that one for ages .
+*MOT: is it something about moving house ?
+*CHI: yeah .
+*MOT: yeah .
+*CHI: moving house .
+*MOT: oh .
+*CHI: moving house .
+*MOT: we read that before we moved house .
+*CHI: what I do .
+*MOT: do you wanna read the book that granny sent you  John ?
+*CHI: yeah .
+*MOT: okay .
+*MOT: do you wanna bring it over ?
+*CHI: nana bring it .
+*MOT: mhm .
+*MOT: she posted it to you .
+*MOT: whoops .
+*MOT: its called this is the house that John built .
+*MOT: do you wanna sit on the chair ?
+*CHI: yes .
+*MOT: yes .
+*MOT: whoops .
+*MOT: Ill move Rosie round the other side .
+*MOT: oh which side are you going ?
+*MOT: youre going that side .
+*MOT: okay .
+*MOT: whoops a daisy .
+*MOT: do you wanna come and sit here ?
+*MOT: you cant see the pictures from there .
+*MOT: do you wanna see the pictures ?
+*MOT: perhaps you dont .
+*MOT: John  look .
+*MOT: theres windows in the pages .
+*CHI: whats in the wheeliebin ?
+*MOT: I dont think theyve got a wheeliebin in this house .
+*MOT: theyve got a water butt .
+*MOT: like weve got in the garden .
+*MOT: this is the house that John built .
+*MOT: this is the malt that lay in the house that John built .
+*MOT: look .
+*MOT: youve got a window showing you where the malt is in the attic .
+*CHI: malt .
+*MOT: this is the rat that ate the malt .
+*CHI: this is the rat .
+*MOT: that lay in the house that John built .
+*CHI: this is the malt .
+*MOT: yeah .
+*MOT: thats the malt .
+*MOT: and that must be John .
+*CHI: malt .
+*MOT: mhm .
+*MOT: what can you see in its house ?
+*CHI: some food .
+*MOT: some food .
+*MOT: what else can you see ?
+*CHI: food in bags .
+*MOT: mhm .
+*MOT: malt .
+*CHI: malt .
+*MOT: I can see a fireplace .
+*CHI: fire .
+*MOT: mhm .
+*MOT: who is this ?
+*CHI: a mouse .
+*MOT: the rat that ate the malt .
+*CHI: a rat .
+*MOT: mhm .
+*CHI: this is a rat .
+*MOT: and this is that cat that killed the rat that ate the malt that lay
+*MOT: this is the dog .
+*MOT: this is the malt .
+*MOT: this is the house .
+*MOT: enormous animals  arent they ?
+*MOT: look at the size of this cat  John .
+*MOT: oh my goodness  look .
+*MOT: the cow fills the kitchen .
+*MOT: who is this  John ?
+*CHI: little doggy .
+*MOT: this is the dog that worried the cat that killed the rat that ate
+*MOT: theres two windows here .
+*CHI: my face dirty .
+*MOT: is it ?
+*CHI: all flaky bits .
+*MOT: oh do you want me to wipe it with my finger ?
+*MOT: not on the chair  John .
+*MOT: so youve got to tell me two things here  John .
+*MOT: who is this ?
+*CHI: hat .
+*MOT: and who is this ?
+*CHI: cow .
+*MOT: yes .
+*MOT: then youve got three windows .
+*MOT: this is the maiden .
+*MOT: this is the man .
+*MOT: where are you going on your journey  John ?
+*INV: www .
+*CHI: mooed .
+*MOT: yeah .
+*CHI: mooed .
+*MOT: mooed .
+*CHI: mooed .
+*MOT: I moved the book .
+*CHI: move book .
+*CHI: I move the book .
+*CHI: I move .
+*CHI: hairy .
+*CHI: hairy .
+*MOT: whats hairy ?
+*MOT: oh your crayon .
+*CHI: this hairy .
+*MOT: thank you .
+*CHI: hairy .
+*MOT: I havent got it yet .
+*MOT: shall we put it on the floor ?
+*MOT: are you happy there ?
+*CHI: yeah .
+*CHI: I .
+*CHI: this a car .
+*CHI: this is a lorry .
+*MOT: John .
+*MOT: these crayons are for books .
+*MOT: Ill be very cross if you do it on the walls .
+*MOT: come out or otherwise Ill take it away .
+*MOT: John .
+*MOT: you either draw on the paper or I take it away .
+*MOT: whats it to be ?
+*MOT: do you wanna do any coloring ?
+*MOT: John .
+*MOT: John .
+*MOT: what are you doing ?
+*MOT: come on  John .
+*MOT: you come out .
+*MOT: you can draw on one of these magazines if you like .
+*CHI: no .
+*CHI: not draw .
+*MOT: no .
+*MOT: you dont wanna draw on one of those .
+*MOT: what else have we got in these old magazines ?
+*CHI: wanna draw on my .
+*MOT: do you wanna draw on this ?
+*MOT: on the yoghurt .
+*MOT: you can make it orange .
+*MOT: its a white pot at the moment .
+*MOT: you can make it orange with your crayon .
+*CHI: I put back .
+*CHI: I want it .
+*MOT: oh well .
+*MOT: its gone now .
+*CHI: I want it .
+*MOT: well youve posted it .
+*CHI: I like to draw .
+*MOT: well you have some other crayons on the floor .
+*MOT: you can use those to draw .
+*CHI: its gone .
+*MOT: mhm .
+*CHI: like like my crayons dirty in the kitchen .
+*MOT: you like them dirty ?
+*CHI: in the kitchen .
+*MOT: why is that ?
+*CHI: you throw it in the bin .
+*MOT: but then you wont have so many crayons .
+*CHI: yes .
+*MOT: you have too many crayons .
+*CHI: you throw them in the bin .
+*MOT: I dont think Ill throw them in the bin .
+*CHI: these go in the bin .
+*MOT: would you like to see some photographs ?
+*MOT: whoops .
+*CHI: put them in the kitchen .
+*CHI: like them dirty in the kitchen .
+*CHI: I going in the bin .
+*MOT: oh .
+*MOT: www .
+*MOT: John .
+*CHI: going in the bin .
+*CHI: I put it in the bin .
+*CHI: my crayons .
+*CHI: you put them in the bin .
+*MOT: you come here .
+*MOT: can you shut the door for us ?
+*MOT: thank you .
+*MOT: very good .
+*CHI: close the white curtains .
+*MOT: no  John .
+*MOT: we dont need the curtains closed .
+*MOT: John .
+*MOT: come on .
+*CHI: I need this .
+*CHI: I need this .
+*MOT: John .
+*MOT: let go of the curtains .
+*CHI: I dont like my crayons .
+*MOT: do you wanna read one of Rosies books ?
+*MOT: or we could try and find Rosies babys .
+*MOT: you were looking for that book last night werent you and you were
+*MOT: theres dogger .
+*MOT: oh .
+*MOT: and a few others .
+*MOT: come on .
+*MOT: no .
+*MOT: dont touch it  John .
+*MOT: John .
+*MOT: do you wanna play with your Duplo bricks today ?
+*CHI: no .
+*MOT: perhaps you can find something in your boxes then to play with .
+*CHI: no .
+*MOT: no .
+*MOT: that mini would be very good on this road  wouldnt it ?
+*MOT: this road map .
+*CHI: mini .
+*MOT: mini .
+*MOT: the little car you found in your bag .
+*CHI: mini .
+*MOT: wheres your car ?
+*CHI: its not my car .
+*CHI: its not my car .
+*CHI: its a bus .
+*MOT: oh okay .
+*MOT: empty ?
+*CHI: yes .
+*CHI: oh .
+*CHI: empty .
+*CHI: must go petrol .
+*MOT: okay .
+*MOT: how much does it cost ?
+*MOT: pardon ?
+*MOT: oh .
+*CHI: I like it on .
+*MOT: okay .
+*MOT: you can do it .
+*MOT: yeah .
+*MOT: try her arms through there  John .
+*MOT: put her arms through that hole .
+*MOT: no .
+*MOT: not her legs .
+*MOT: her arms .
+*MOT: thats it .
+*MOT: best to experiment with these things .
+*MOT: something like that .
+*MOT: do you want me to show you  John ?
+*CHI: yes .
+*MOT: if you want me to show you bring it over then .
+*CHI: where the bus ?
+*CHI: looking the cab .
+*CHI: I find a .
+*INV: oh yeah .
+*CHI: I find a I find another one .
+*CHI: I find another one .
+*MOT: ah .
+*CHI: maybe it fits in the tree .
+*CHI: maybe too big .
+*INV: I think so yes .
+*CHI: maybe too .
+*CHI: maybe thisll fit .
+*CHI: maybe thisll fit .
+*CHI: I think its a .
+*CHI: it fits .
+*MOT: happy song .
+*CHI: I find a man .
+*MOT: oh yes .
+*MOT: does he fit on top of the chimney ?
+*CHI: no .
+*MOT: oh just as well .
+*CHI: it fits .
+*CHI: this fits .
+*CHI: where the cab ?
+*CHI: where the cab ?
+*CHI: wheres the cab ?
+*CHI: maybe thisll fit .
+*MOT: maybe .
+*MOT: try it .
+*INV: yeah .
+*CHI: oh .
+*CHI: its a carwash .
+*MOT: ah .
+*CHI: its a carwash .
+*MOT: its a very big carwash .
+*CHI: I think it .
+*CHI: I think its very scary .
+*MOT: mhm .
+*MOT: make a lot of noise  dont they carwashes ?
+*MOT: where are the brushes  John ?
+*MOT: are they on the side or at the top ?
+*CHI: maybe too big .
+*MOT: oh maybe .
+*CHI: its too big .
+*CHI: its too big .
+*CHI: maybe its too big .
+*CHI: maybe too big in the car .
+*CHI: too big in the car .
+*MOT: is he going to be smaller when you take his clothes off ?
+*CHI: yeah .
+*MOT: oh .
+*CHI: now thats better .
+*MOT: right .
+*MOT: okay .
+*CHI: oh too big .
+*MOT: still too big .
+*CHI: take this off .
+*CHI: now thats better .
+*CHI: now much better .
+*CHI: I buy this .
+*CHI: I buy I buy pepper .
+*CHI: I buy I buy egg .
+*CHI: buy egg .
+*MOT: oh .
+*CHI: now maybe its a candle .
+*CHI: now maybe its a candle .
+*MOT: its a bit like a candle yeah .
+*CHI: yeah .
+*CHI: like a candle .
+*CHI: I think its a candle .
+*CHI: chips .
+*CHI: chips .
+*CHI: chips .
+*CHI: this eggll fit .
+*CHI: no .
+*CHI: fits .
+*CHI: lift .
+*CHI: lift .
+*CHI: bang .
+*MOT: are there some more eggs  John in there ?
+*MOT: can you fill fill the carton with eggs ?
+*CHI: wheres John ?
+*INV: dont know .
+*INV: whereve you gone ?
+*MOT: oh .
+*CHI: where John ?
+*CHI: very difficult .
+*MOT: its very difficult  is it ?
+*CHI: I buy onion in the shop .
+*CHI: I buy onion in the shop .
+*MOT: oh good .
+*MOT: we do need some onions .
+*CHI: I buy icecream .
+*CHI: I have a icecream .
+*CHI: we have blackberry .
+*CHI: we have blackberry .
+*MOT: do you think theyre grapes maybe ?
+*CHI: grapes .
+*CHI: I find the grapes in the .
+*CHI: I had a I find the grapes in the garden .
+*CHI: and grapes in the garden .
+*MOT: John .
+*MOT: just put your arms in the bag .
+*MOT: John .
+*MOT: John .
+*MOT: I shall take this away if you do this .
+*CHI: in my clothes .
+*MOT: can you tip it upside down maybe ?
+*MOT: and empty the bag .
+*MOT: tip it upside down  John .
+*MOT: John .
+*CHI: oh sausage go in there .
+*MOT: where is it ?
+*CHI: in the bag .
+*CHI: in the bag .
+*MOT: John .
+*MOT: I dont want you to do this .
+*MOT: no .
+*MOT: oh what have you got ?
+*CHI: a cake .
+*CHI: it dont have a icecream .
+*CHI: it dont have a jelly .
+*MOT: no .
+*CHI: I like some icecream .
+*MOT: maybe you could make some .
+*CHI: I want some icecream .
+*CHI: I want some icecream .
+*CHI: I want some icecream .
+*MOT: theres some by your knee .
+*CHI: like some icecream in my dish .
+*MOT: well you could pretend the hats your dish and put the ice+cream
+*MOT: are you tired  John ?
+*CHI: no .
+*MOT: John .
+*MOT: are you tired ?
+*MOT: do you wanna bring it in  John ?
+*MOT: have you still got some more cheese left ?
+*CHI: yeah .
+*MOT: John .
+*MOT: bring the car in .
+*MOT: John .
+*CHI: ugh .
+*MOT: whatre you doing ?
+*MOT: I dread to think .
+*MOT: wheres the mini that you found  John ?
+*MOT: or is that the one youre playing with ?
+*MOT: can you show me the car ?
+*MOT: oh it is the green mini .
+*MOT: good .
+*MOT: that belongs to a man called Mister Bean .
+*MOT: this mini .
+*MOT: its Mister Beans car .
+*MOT: John .
+*MOT: have you shown Anna your Thomas the Tank Engine balloon ?
+*MOT: that you got from the hospital .
+*CHI: oh its a plaster .
+*MOT: really .
+*CHI: its a plaster .
+*MOT: oh dear .
+*CHI: parrot .
+*CHI: parrot .
+*MOT: parrot fluff on it .
+*CHI: parrot fluff .
+*MOT: well luckily it was just a play plaster  wasnt it ?
+*CHI: yes .
+*MOT: yeah .
+*MOT: whats in your green box today ?
+*CHI: Duplo .
+*MOT: Duplo .
+*MOT: mhm .
+*MOT: and what is in your red box today ?
+*MOT: Mothers hey .
+*MOT: John .
+*MOT: John .
+*MOT: whats happening ?
+*MOT: whos this ?
+*MOT: peeppo .
+*MOT: is it the gorilla ?
+*CHI: no .
+*CHI: a monkey .
+*MOT: oh youre a monkey .
+*MOT: sorry .
+*MOT: what do you like to eat  monkey ?
+*MOT: do you like to eat berrys and leafs ?
+*CHI: yeah .
+*MOT: and what kind of fruit do you like to eat  monkey ?
+*MOT: what did the monkeys in the zoo like ?
+*CHI: cherrys .
+*MOT: oh right .
+*MOT: anything else ?
+*CHI: I like some cherry .
+*MOT: you would or the monkey would ?
+*CHI: I like some cherry .
+*MOT: do you want plums ?
+*CHI: I like like some black .
+*CHI: I like some jelly .
+*MOT: perhaps well make some later .
+*CHI: I want I wanna make some .
+*MOT: mhm .
+*CHI: I wanna make some .
+*CHI: somebody open the door .
+*CHI: somebody open the door .
+*MOT: we cant hear you with your mouth full .
+*CHI: somebody open the door .
+*CHI: somebody open the food .
+*CHI: somebody open the door .
+*MOT: is there a door ?
+*CHI: somebody open the door .
+*MOT: I didnt know there was a door there .
+*CHI: somebody open the door .
+*CHI: somebody open the sauce .
+*CHI: somebody open the sauce .
+*CHI: somebody open the sauce .
+*CHI: somebody open the sauce .
+*MOT: the sauce ?
+*CHI: yes .
+*CHI: I cant .
+*CHI: take me out .
+*CHI: oh thank you .
+*CHI: a agac .
+*CHI: a agac .
+*MOT: whats an agac ?
+*CHI: a pink agac .
+*MOT: did you burn the crayon on the agac ?
+*CHI: yeah .
+*CHI: lie here in bed .
+*CHI: but I in the garden .
+*MOT: oh .
+*CHI: but I here in my castle .
+*MOT: mhm .
+*CHI: it .
+*CHI: I catch the agac .
+*MOT: where was it going ?
+*CHI: I catch it .
+*CHI: and I put it on the floor .
+*CHI: I like I like this .
+*MOT: oh .
+*MOT: it was you  was it ?
+*CHI: yes .
+*MOT: I thought it was Daddy who did that .
+*CHI: I think Daddy did that .
+*MOT: oh you think so .
+*CHI: me did that .
+*MOT: you did it .
+*CHI: Daddy did it .
+*MOT: Ill have a word with Daddy then .
+*MOT: what are you doing  John ?
+*CHI: and I picking some crayons .
+*CHI: I picking .
+*CHI: oh stupid one .
+*CHI: oh never mind .
+*CHI: oh another one is broken .
+*CHI: another one is broken .
+*CHI: another one is broken .
+*CHI: another one is broken .
+*CHI: another one is broken .
+*MOT: see how many green crayons you can find in your box  John .
+*CHI: find one .
+*CHI: find pink .
+*MOT: whoops .
+*CHI: I find ones .
+*CHI: find .
+*MOT: how many have you found there ?
+*CHI: one one two .
+*MOT: can you find some more ?
+*CHI: one two .
+*CHI: look for ouch .
+*CHI: its a fire .
+*CHI: look .
+*CHI: its a fire .
+*CHI: agac .
+*CHI: its a agac .
+*CHI: its a agac .
+*CHI: its a agac .
+*CHI: its a agac .
+*CHI: a agac .
+*CHI: its a agac .
+*CHI: it a agac .
+*CHI: its a agac .
+*CHI: its a agac .
+*CHI: its a agac .
+*MOT: could it be an agac ?
+*CHI: green .
+*CHI: its a its a green agac .
+*MOT: oh .
+*CHI: its a green agac .
+*CHI: its a
+*MOT: green eggs and ham .
+*CHI: Sam .
+*MOT: I do not like them Sam I am .
+*CHI: yeah .
+*CHI: getting very angry .
+*MOT: yes .
+*MOT: well Im not surprised .
+*CHI: surprised .
+*CHI: surprised .
+*CHI: surprised .
+*CHI: surprised .
+*CHI: surprised .
+*CHI: surprised .
+*CHI: oh .
+*MOT: John .
+*MOT: www .
+*CHI: I want go in car .
+*MOT: John .
+*CHI: because I go to sleep .
+*CHI: because I go to sleep .
+*CHI: I not .
+*CHI: I come in the garden .
+*CHI: I come in the garden .
+*CHI: I come in garden .
+*MOT: John .
+*MOT: can you just stay here for a couple of moments ?
+*CHI: I play in the garden .
+*MOT: perhaps you can help put the things back in the bag .
+*CHI: oh yes .
+*CHI: I want a icecream .
+*MOT: well have some at lunchtime .
+*CHI: I dont want some lunch .
+*MOT: well its up to you .
+*MOT: thats whats on offer .
+*CHI: had a ouch .
+*MOT: let me have a look .
+*MOT: oh yes .
+*MOT: how did you do that ?
+*CHI: this .
+*MOT: on there ?
+*CHI: on there .
+*MOT: ah .
+*MOT: does it need a kiss ?
+*CHI: no .
