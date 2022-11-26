@@ -31,7 +31,6 @@ if __name__ == "__main__":
                     print("processing {} series ...".format(fn))
                     fi_dir = subdir.replace(dir_in, root_dir)
                     os.makedirs(fi_dir, exist_ok=True)
-
                     # clean sequences
                     sequences = []
                     with open(subdir + "/" + fn, "r") as fp:
@@ -50,7 +49,6 @@ if __name__ == "__main__":
                     # compute series
                     cm.compute(sequences)
                     # save shallow parsing results
-                    # with open(fi_dir + ".shparctps", "w") as fp:
                     with open(fi_dir + "/" + fn.split('.capp')[0] + '.shpartips', "w") as fp:
                         for ln in cm.shallow_parsing:
                             fp.write(ln + "\n")

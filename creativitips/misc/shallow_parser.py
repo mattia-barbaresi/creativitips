@@ -21,7 +21,7 @@ for subdir, dirs, files in os.walk(root_dir):
                     for line in fpi.readlines():
                         if '*AGEIS:' in line:
                             continue
-                        utter = line.split()
+                        utter = line.strip().split()
                         # if list has less than 3 elements, it is empty b/c
                         # auto-cleaning removed a non-speech sound, etc.
                         if len(utter) < 3:
@@ -37,6 +37,6 @@ for subdir, dirs, files in os.walk(root_dir):
 # from ccg_nlpy import remote_pipeline
 #
 # pipeline = remote_pipeline.RemotePipeline()
-# doc = pipeline.doc("I am gonna stop the train with my whist")
+# doc = pipeline.doc(" whose are all these?")
 # sp = " || ".join(x["tokens"] for x in doc.get_shallow_parse.cons_list)
 # print(sp)
