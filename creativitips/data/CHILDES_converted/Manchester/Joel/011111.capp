@@ -4,6 +4,7 @@
 *MOT: who are you going on holiday with ?
 *CHI: Mummy Daddy .
 *INV: Mummy Daddy .
+*MOT: and .
 *MOT: Joel .
 *CHI: Joel .
 *DAD: say see you soon .
@@ -21,7 +22,7 @@
 *MOT: yeah .
 *MOT: oh .
 *MOT: www .
-*INV: this is ladys place  isnt it ?
+*INV: this is ladys place isnt it ?
 *MOT: yes .
 *INV: yes .
 *INV: it is .
@@ -50,7 +51,7 @@
 *INV: do you wanna play cars ?
 *CHI: lady .
 *INV: lady what ?
-*MOT: youre all excited  arent you ?
+*MOT: youre all excited arent you ?
 *CHI: write .
 *MOT: write .
 *INV: write .
@@ -63,14 +64,14 @@
 *CHI: Mummy dryer .
 *MOT: yeah .
 *MOT: Mummys dryer .
-*MOT: and you fell off  didnt you ?
+*MOT: and you fell off didnt you ?
 *INV: did you ?
 *MOT: looking .
 *MOT: www .
 *CHI: look .
 *MOT: yeah .
 *MOT: were not doing it again .
-*MOT: not again because you hurt yourself  didnt you ?
+*MOT: not again because you hurt yourself didnt you ?
 *CHI: oh .
 *CHI: look .
 *MOT: back in here please .
@@ -113,7 +114,7 @@
 *MOT: oh .
 *MOT: wow .
 *MOT: thats a funny looking car .
-*INV: it is  isnt it ?
+*INV: it is isnt it ?
 *MOT: what does a car do ?
 *MOT: vroomvroomo .
 *MOT: is that it ?
@@ -194,7 +195,7 @@
 *MOT: yeah .
 *MOT: lovely .
 *CHI: pottie .
-*INV: Pingu on your pottie  is there ?
+*INV: Pingu on your pottie is there ?
 *MOT: www .
 *CHI: stick it .
 *MOT: stick it .
@@ -209,7 +210,7 @@
 *MOT: arent you going to bring Pingu ?
 *MOT: shall we read him ?
 *CHI: yeah .
-*MOT: here you are  look .
+*MOT: here you are look .
 *MOT: on the floor .
 *MOT: with everything else .
 *MOT: oh .
@@ -217,7 +218,7 @@
 *MOT: err .
 *MOT: good job thats clean .
 *MOT: not that youve ever used it .
-*MOT: dying to know what that is  arent you ?
+*MOT: dying to know what that is arent you ?
 *INV: microphone .
 *INV: say that one .
 *MOT: right .
@@ -251,7 +252,7 @@
 *CHI: Daddy .
 *MOT: www .
 *MOT: oh we dont know who Pingi is .
-*MOT: I suppose its Pingus friend  is it ?
+*MOT: I suppose its Pingus friend is it ?
 *CHI: yeah .
 *MOT: oh right .
 *CHI: in bed .
@@ -285,7 +286,7 @@
 *CHI: in there .
 *MOT: in there .
 *MOT: what were you doing ?
-*MOT: were you
+*MOT: were you .
 *CHI: sweep .
 *MOT: sweep .
 *MOT: yeah .
@@ -297,6 +298,7 @@
 *MOT: oh .
 *MOT: whats over there ?
 *MOT: what are they ?
+*MOT: what .
 *MOT: whats that .
 *CHI: sausages .
 *MOT: www .
@@ -308,20 +310,21 @@
 *MOT: gravy ?
 *CHI: I want gravy .
 *MOT: he likes gravy .
-*INV: you like gravy  do you ?
+*INV: you like gravy do you ?
 *MOT: what do you have your gravy on ?
 *CHI: potato .
 *MOT: potatos .
+*MOT: and .
 *CHI: potatos .
-*MOT: potatos and
+*MOT: potatos and .
 *INV: what else do you like ?
 *CHI: carrot .
 *MOT: carrot ?
-*MOT: you are a sloppychops  arent you ?
+*MOT: you are a sloppychops arent you ?
 *MOT: are you cheeky monkey ?
 *CHI: legs .
 *INV: legs .
-*MOT: youve got all bruises  look .
+*MOT: youve got all bruises look .
 *CHI: lady .
 *CHI: bruise .
 *MOT: a bruise .
@@ -350,7 +353,7 @@
 *MOT: wouldnt think youd had a bath last night .
 *MOT: did Mama take you out in the garden afterwards ?
 *INV: www .
-*MOT: you were just in your nappie in your bed last night because it was
+*MOT: you were just in your nappie in your bed last night because it was .
 *MOT: www .
 *CHI: 0 .
 *MOT: where you gone ?
@@ -365,7 +368,7 @@
 *MOT: Ive just washed the pots .
 *MOT: oh .
 *MOT: are you going to talk to us ?
-*INV: youve said lots today  havent you ?
+*INV: youve said lots today havent you ?
 *CHI: yeah .
 *INV: yes .
 *INV: you have .
@@ -386,7 +389,7 @@
 *MOT: thats Rebecca .
 *MOT: Rachels fallen over somewhere .
 *INV: www .
-*MOT: and whos on that one there  look .
+*MOT: and whos on that one there look .
 *CHI: that Joel .
 *MOT: who ?
 *CHI: Bethany .
@@ -400,17 +403,18 @@
 *MOT: there .
 *MOT: where else ?
 *MOT: there .
+*INV: and .
 *CHI: Mummy Daddy .
 *INV: Mummy Daddy .
 *MOT: and wheres Joel when he was a really tiny baby .
 *MOT: can you see Joel when he was a really tiny baby ?
 *MOT: oh .
 *MOT: look .
-*MOT: there  look .
+*MOT: there look .
 *MOT: with your teddy .
 *MOT: you were only three days old .
 *MOT: www .
-*MOT: you wouldnt look at the camera  would you ?
+*MOT: you wouldnt look at the camera would you ?
 *CHI: no .
 *MOT: no .
 *CHI: whoops .
@@ -430,11 +434,12 @@
 *MOT: Ill turn the sound down .
 *MOT: what does Grandpa Pete say to you ?
 *MOT: Joel .
-*CHI: no  Mummy .
-*MOT: yes  Joel .
+*CHI: no Mummy .
+*MOT: yes Joel .
 *MOT: else um well turn it off .
-*CHI: no  Mummy no .
-*MOT: yeah but the lady willnt be able to hear anything on the tape
+*MOT: um .
+*CHI: no Mummy no .
+*MOT: yeah but the lady willnt be able to hear anything on the tape .
 *MOT: lets turn it off .
 *MOT: oh .
 *MOT: come on .
@@ -449,7 +454,7 @@
 *MOT: no .
 *INV: no ?
 *MOT: www .
-*MOT: bit of a fusspot  isnt he ?
+*MOT: bit of a fusspot isnt he ?
 *MOT: are you going back to baby ?
 *MOT: are you crawling like a baby ?
 *INV: crawling backwards now .
@@ -472,7 +477,7 @@
 *MOT: oh .
 *MOT: the ball there .
 *MOT: and what about Row row row your boat .
-*MOT: you usually sing that one  dont you ?
+*MOT: you usually sing that one dont you ?
 *CHI: ball .
 *MOT: your ball ?
 *MOT: can you get it ?
@@ -483,11 +488,11 @@
 *MOT: whatve you done with it ?
 *CHI: cooker .
 *MOT: well Mummyll hafta get that one in a bit .
-*MOT: get your other ball under there  look .
+*MOT: get your other ball under there look .
 *MOT: where wheres the ball ?
 *CHI: on the cooker .
 *MOT: cooker .
-*MOT: that what
+*MOT: that what .
 *CHI: Mummy .
 *MOT: what ?
 *MOT: what do you want ?
@@ -527,17 +532,17 @@
 *MOT: hm ?
 *MOT: go go and ask the lady what her name is .
 *MOT: come on .
-*MOT: got it  look .
+*MOT: got it look .
 *MOT: oh .
 *MOT: are you going to come and sweep up ?
 *INV: www .
 *MOT: Ive got it .
 *MOT: Joel .
 *MOT: Joel .
-*MOT: if you get that stick under there
+*MOT: if you get that stick under there .
 *MOT: Joel .
 *MOT: come on .
-*MOT: Ive got it  look .
+*MOT: Ive got it look .
 *MOT: www .
 *MOT: is that all you wanted ?
 *MOT: not back under there .
@@ -580,7 +585,7 @@
 *CHI: more .
 *MOT: more ?
 *CHI: Mummy .
-*MOT: you hafta hold it still  look .
+*MOT: you hafta hold it still look .
 *MOT: there .
 *CHI: lady .
 *INV: oh .
@@ -603,7 +608,7 @@
 *MOT: oh .
 *MOT: itll fall over .
 *MOT: oh .
-*MOT: well it will now  willnt it ?
+*MOT: well it will now willnt it ?
 *MOT: whoops .
 *MOT: ow .
 *MOT: thank you .
@@ -616,7 +621,7 @@
 *CHI: yeah .
 *MOT: you get a book then .
 *MOT: well read a book .
-*MOT: over there  look .
+*MOT: over there look .
 *CHI: that .
 *MOT: who is it ?
 *MOT: whove you got ?
@@ -634,9 +639,9 @@
 *MOT: whats that ?
 *MOT: can you get it off ?
 *MOT: here you are .
-*MOT: these are all worn out  arent they ?
+*MOT: these are all worn out arent they ?
 *MOT: I can hardly see them .
-*MOT: theyre not stickers  are they ?
+*MOT: theyre not stickers are they ?
 *CHI: page .
 *MOT: turn the page .
 *MOT: oh .
@@ -654,7 +659,7 @@
 *MOT: stickers .
 *CHI: more .
 *MOT: more .
-*INV: lots of them  arent there ?
+*INV: lots of them arent there ?
 *MOT: who was that ?
 *MOT: who was it ?
 *MOT: whos that ?
@@ -664,7 +669,7 @@
 *MOT: whos that ?
 *CHI: helicopter .
 *MOT: no .
-*MOT: whos that  look ?
+*MOT: whos that look ?
 *CHI: horse .
 *MOT: horse .
 *MOT: where shall we put the horse ?
@@ -703,15 +708,15 @@
 *CHI: um .
 *MOT: www .
 *MOT: whos that ?
-*MOT: oh whats that there  look .
+*MOT: oh whats that there look .
 *CHI: Joel .
-*MOT: thats Joel  is it ?
+*MOT: thats Joel is it ?
 *MOT: what numbers on Joel ?
 *MOT: what numbers that ?
 *CHI: six .
 *MOT: no .
 *MOT: nearly .
-*MOT: looks a bit like it  doesnt it ?
+*MOT: looks a bit like it doesnt it ?
 *MOT: is it a five ?
 *CHI: four .
 *MOT: that way .
@@ -749,12 +754,12 @@
 *CHI: Percy .
 *MOT: thats Percy .
 *MOT: well according to this youve got Thomas Joel Percy Toby .
-*MOT: well none of those are Toby  are they ?
+*MOT: well none of those are Toby are they ?
 *MOT: Edward Gordon and Henry .
 *CHI: Toby .
 *MOT: Toby ?
 *MOT: are you trying to find Toby ?
-*MOT: dont think hes in there  is he ?
+*MOT: dont think hes in there is he ?
 *CHI: no .
 *MOT: no .
 *MOT: whos that ?
@@ -764,7 +769,7 @@
 *MOT: Henry ?
 *CHI: Duck .
 *MOT: is that Duck ?
-*MOT: it looks like Duck  doesnt it ?
+*MOT: it looks like Duck doesnt it ?
 *CHI: no .
 *MOT: Duck .
 *MOT: Duck .
@@ -853,13 +858,13 @@
 *INV: more whale .
 *INV: yeah .
 *MOT: www .
-*MOT: we havent got any whales  have we ?
+*MOT: we havent got any whales have we ?
 *CHI: no .
 *MOT: no .
 *INV: www .
 *CHI: no more whale .
 *INV: no more whale .
-*MOT: can you see
+*MOT: can you see .
 *CHI: tiger .
 *INV: a baby tiger .
 *CHI: baby tiger .
@@ -884,7 +889,7 @@
 *CHI: monkey .
 *MOT: ah .
 *MOT: are you giving monkey a kiss ?
-*MOT: you love monkeys  dont you ?
+*MOT: you love monkeys dont you ?
 *CHI: ah .
 *MOT: ah .
 *MOT: its like the monkey on on the Pg tips advertisement .
@@ -894,15 +899,15 @@
 *INV: well its a fish .
 *CHI: fish .
 *MOT: yeah .
-*MOT: and thats a  monkey .
-*MOT: whats that one down there  look ?
+*MOT: and thats a monkey .
+*MOT: whats that one down there look ?
 *MOT: dont think you know what that one is .
 *MOT: what is it ?
 *MOT: whats that one ?
 *MOT: are you having trouble ?
 *CHI: man .
 *INV: its a hippo .
-*MOT: is that a hippopotamus there  look ?
+*MOT: is that a hippopotamus there look ?
 *MOT: and whos that ?
 *CHI: man .
 *INV: man ?
@@ -958,8 +963,8 @@
 *MOT: is that a boat ?
 *CHI: no .
 *MOT: oh .
-*MOT: youre very er  literal  arent you ?
-*MOT: cant we cant play games  can we ?
+*MOT: youre very er literal arent you ?
+*MOT: cant we cant play games can we ?
 *CHI: no .
 *MOT: www .
 *MOT: I thought he was going to do Row row row the boat .
@@ -1000,7 +1005,7 @@
 *MOT: youll go flying .
 *CHI: flying .
 *CHI: oh .
-*MOT: you dont care  do you ?
+*MOT: you dont care do you ?
 *MOT: oh .
 *MOT: wheres Joel gone ?
 *MOT: oh .
@@ -1014,7 +1019,7 @@
 *MOT: is it ?
 *INV: www .
 *MOT: oh its raining .
-*MOT: Joel  its raining .
+*MOT: Joel its raining .
 *MOT: look .
 *MOT: well you cant really see .
 *MOT: theres all rain on the window .
@@ -1077,12 +1082,12 @@
 *CHI: mama .
 *MOT: mama ?
 *MOT: I thought it might be .
-*MOT: hello  mama .
-*MOT: oh  Joel ?
+*MOT: hello mama .
+*MOT: oh Joel ?
 *MOT: yeah .
 *MOT: hes playing with all the bricks with the lady .
 *MOT: yeah .
-*MOT: oh  hes just standing looking at me .
+*MOT: oh hes just standing looking at me .
 *MOT: yeah .
 *MOT: he willnt talk .
 *MOT: no .
@@ -1127,12 +1132,13 @@
 *MOT: yeah .
 *MOT: well I dont know .
 *MOT: he willnt talk to us .
+*MOT: so .
 *MOT: hes not saying anything .
 *MOT: hes just standing there .
 *MOT: I think hes got a headache .
 *MOT: hes holding his head .
 *MOT: mhm .
-*MOT: either that or hes having a  squeeze I think .
+*MOT: either that or hes having a squeeze I think .
 *MOT: is that a squeeze because you dont want me to look at you .
 *MOT: are you finished ?
 *MOT: right .
@@ -1150,7 +1156,7 @@
 *MOT: oh good boy .
 *MOT: oh .
 *MOT: is that mister Duplo man ?
-*MOT: its like your  isnt it ?
+*MOT: its like your isnt it ?
 *MOT: is it like yours ?
 *MOT: what shall we make ?
 *CHI: bricks .
@@ -1183,20 +1189,21 @@
 *CHI: sweets and chocolate .
 *MOT: sweets and chocolate ?
 *MOT: you must like something else .
-*MOT: what do you like for your  pudding ?
+*MOT: what do you like for your pudding ?
 *CHI: semolina .
 *MOT: semolina .
 *MOT: www .
-*MOT: you love semolina  dont you ?
+*MOT: you love semolina dont you ?
 *MOT: and what else do you like for your pudding ?
 *MOT: cake .
 *CHI: cake .
-*MOT: cake and
+*MOT: cake and .
 *MOT: custard .
 *CHI: yeah .
-*MOT: and  what do you like for elevenses ?
+*MOT: and what do you like for elevenses ?
 *MOT: what do you like on your toast ?
 *CHI: toast .
+*MOT: and .
 *MOT: what about your marmalade ?
 *CHI: no .
 *MOT: no ?
@@ -1205,7 +1212,7 @@
 *MOT: oh .
 *MOT: oh .
 *MOT: mind your head .
-*MOT: youre gonna bang your head on the  lion tiger
+*MOT: youre gonna bang your head on the lion tiger .
 *MOT: are you tired ?
 *CHI: no .
 *MOT: no ?
@@ -1236,7 +1243,7 @@
 *MOT: what colors that ?
 *CHI: green .
 *MOT: thats green .
-*MOT: and that's
+*MOT: and thats .
 *CHI: white .
 *INV: white .
 *MOT: red .
@@ -1270,7 +1277,7 @@
 *CHI: yeah .
 *MOT: yeah .
 *MOT: whoops .
-*MOT: not useta playing with dollys  are we ?
+*MOT: not useta playing with dollys are we ?
 *MOT: oh didnt you like that on ?
 *CHI: poo .
 *MOT: what do you mean poo ?
@@ -1313,12 +1320,12 @@
 *CHI: lady .
 *MOT: oh .
 *MOT: ah .
-*MOT: you hafta be gentle  dont you ?
+*MOT: you hafta be gentle dont you ?
 *MOT: no .
 *MOT: gentle not bash her on the head .
 *MOT: ah .
 *MOT: shell cry .
-*MOT: dont care  do you ?
+*MOT: dont care do you ?
 *MOT: decidedly tired .
 *INV: mhm .
 *INV: do you wanna give dolly an apple ?
@@ -1349,14 +1356,14 @@
 *MOT: are you going to tickle the lady ?
 *INV: Ill tickle you .
 *MOT: yeah ?
-*MOT: you think youre being daring touching that  dont you ?
+*MOT: you think youre being daring touching that dont you ?
 *MOT: thinks hes gonna get told off .
 *CHI: toys .
 *INV: pardon ?
 *CHI: toes ?
 *INV: toes ?
 *INV: have you hurt your toes ?
-*INV: move those silly animals out the way   shall we ?
+*INV: move those silly animals out the way shall we ?
 *CHI: toys .
 *INV: oh toys .
 *MOT: um toys .
@@ -1379,7 +1386,7 @@
 *MOT: is it empty ?
 *MOT: oh .
 *MOT: is it empty ?
-*INV: it is empty  isnt it ?
+*INV: it is empty isnt it ?
 *MOT: oh .
 *INV: theres nothing in it .
 *MOT: youre a bit nosy darling .
@@ -1405,7 +1412,7 @@
 *INV: no .
 *CHI: bag .
 *MOT: youll not be satisfied .
-*INV: will you not be satisfied until you find out  will you ?
+*INV: will you not be satisfied until you find out will you ?
 *INV: book .
 *CHI: book .
 *CHI: book .

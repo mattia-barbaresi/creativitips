@@ -57,7 +57,7 @@
 *MOT: help .
 *CHI: oh .
 *MOT: shes gonna tie him in a knot .
-*MOT: shes tied him in a knot  look .
+*MOT: shes tied him in a knot look .
 *MOT: thats a shark .
 *MOT: sharks trying to eat him .
 *CHI: that night night .
@@ -77,12 +77,17 @@
 *CHI: Lara go .
 *MOT: no .
 *MOT: its mummys go .
+*CHI: Lara .
 *MOT: mummys go .
 *MOT: now .
 *MOT: its Laras go .
+*CHI: mummy .
 *MOT: Laras go .
+*CHI: mummy .
 *MOT: you wind the lift up .
+*CHI: Lara .
 *MOT: yes .
+*CHI: mummy .
 *MOT: after Lara .
 *MOT: Lara first .
 *CHI: mummy first .
@@ -99,7 +104,10 @@
 *MOT: push .
 *MOT: Laras go .
 *CHI: mummy go .
+*CHI: mummy .
 *MOT: you mean you want me to wind the lift .
+*CHI: mummy .
+*CHI: mummy .
 *MOT: your go .
 *MOT: put your car in .
 *CHI: nice and warm .
@@ -122,6 +130,8 @@
 *MOT: mummys cars waiting for the lift .
 *CHI: mummy go .
 *MOT: whee !
+*CHI: mummy .
+*CHI: mummy .
 *MOT: mummys go .
 *MOT: brummo .
 *CHI: Lara go .
@@ -130,6 +140,7 @@
 *MOT: thats a shrimp singing .
 *MOT: actually I think thats a lobster .
 *CHI: mummy go .
+*CHI: mummy .
 *MOT: is it my go ?
 *MOT: or Laras go ?
 *CHI: no mummy go .
@@ -169,7 +180,7 @@
 *CHI: no .
 *CHI: mummy .
 *CHI: that .
-*MOT: its just dirt  sweetheart .
+*MOT: its just dirt sweetheart .
 *CHI: marmalade there .
 *MOT: marmalade .
 *MOT: probably .
@@ -177,8 +188,14 @@
 *MOT: good girl .
 *MOT: thank you .
 *CHI: mummy go .
+*CHI: mummy .
+*CHI: mummy .
+*CHI: mummy .
+*CHI: mummy .
 *MOT: well .
 *MOT: how can I go when your cars in the lift ?
+*CHI: mummy .
+*CHI: mummy .
 *MOT: okay .
 *MOT: will you wind the lift down for me ?
 *CHI: oh .
@@ -188,9 +205,13 @@
 *CHI: Lara go .
 *CHI: Lara .
 *CHI: Lara .
+*CHI: Lara .
+*CHI: Lara .
+*CHI: Lara .
 *MOT: well .
 *MOT: alright then .
 *CHI: mummy go .
+*CHI: mummy .
 *CHI: oh .
 *CHI: oh .
 *CHI: oops .
@@ -215,10 +236,15 @@
 *CHI: whee .
 *CHI: mummy go .
 *MOT: well .
-*MOT: why do you say mummys go while youre putting your own car in
+*MOT: why do you say mummys go while youre putting your own car in .
+*CHI: mummy .
 *MOT: Laras go .
 *MOT: obviously if your cars in the lift .
+*CHI: mummy .
+*CHI: mummy .
+*CHI: mummy .
 *MOT: you want me to wind it up you mean .
+*CHI: mummy .
 *CHI: mummy .
 *MOT: oh .
 *MOT: is it Laras go ?
@@ -251,11 +277,13 @@
 *CHI: put it in there .
 *MOT: thank you .
 *CHI: Lara go .
+*CHI: Lara .
 *MOT: okay .
 *MOT: oh .
 *MOT: nappie changing time .
 *CHI: Lara .
 *MOT: smelly bum .
+*CHI: Lara .
 *MOT: pardon ?
 *CHI: nice and warm .
 *MOT: is it ?
@@ -278,7 +306,7 @@
 *MOT: good girl .
 *MOT: come on .
 *MOT: Lara .
-*MOT: if youre not here by the time I count to three you sit on the
+*MOT: if youre not here by the time I count to three you sit on the .
 *MOT: one .
 *MOT: two .
 *MOT: three .
@@ -355,7 +383,8 @@
 *CHI: Lara car car car .
 *CHI: go in there .
 *CHI: mummy go .
-*MOT: why do you keep saying its mummys go when you stick your own car
+*CHI: mummy .
+*MOT: why do you keep saying its mummys go when you stick your own car .
 *CHI: Lara play .
 *MOT: no .
 *CHI: Lara play .
@@ -375,6 +404,8 @@
 *MOT: one two whee .
 *CHI: no .
 *CHI: no like mummys .
+*CHI: no .
+*CHI: no .
 *MOT: youre nasty .
 *CHI: mummy play .
 *CHI: mummy play .
@@ -384,7 +415,7 @@
 *MOT: come here .
 *MOT: do you wanna play with the petrol ?
 *CHI: yes .
-*MOT: come here then  Laras car .
+*MOT: come here then Laras car .
 *MOT: all full .
 *CHI: all full .
 *MOT: there .
@@ -418,6 +449,7 @@
 *MOT: who is it ?
 *MOT: its Ronald McDonald .
 *CHI: mummy go .
+*CHI: mummy .
 *CHI: ah !
 *MOT: what ?
 *CHI: this .
@@ -429,11 +461,11 @@
 *MOT: more petrol .
 *CHI: mummy petrol .
 *CHI: all full .
-*CHI: all full  mummy .
+*CHI: all full mummy .
 *CHI: pardon ?
-*CHI: all full  mummy .
+*CHI: all full mummy .
 *MOT: all full ?
-*MOT: petrol money then please  lady .
+*MOT: petrol money then please lady .
 *MOT: thank you .
 *MOT: thank you .
 *CHI: more .
@@ -444,7 +476,7 @@
 *CHI: hello .
 *MOT: hello .
 *CHI: where 0is my car ?
-*CHI: where 0is
+*CHI: where 0is .
 *MOT: wheres your car ?
 *CHI: mummy .
 *CHI: mummy to play that .
@@ -463,12 +495,12 @@
 *CHI: go walk .
 *MOT: are they gonna walk .
 *MOT: oh .
-*MOT: thats better and healthy for them  isnt it ?
+*MOT: thats better and healthy for them isnt it ?
 *CHI: mummy .
 *CHI: mummy .
 *CHI: mummy lady .
 *MOT: wheres mummys lady ?
-*MOT: youve nicked her  havent you ?
+*MOT: youve nicked her havent you ?
 *MOT: youve got her in your hand .
 *MOT: oh .
 *CHI: bye bye .
@@ -484,6 +516,7 @@
 *MOT: Humpty .
 *MOT: sings .
 *CHI: Abi go .
+*CHI: Abi .
 *MOT: Abis go ?
 *MOT: Abis at home sweetheart .
 *CHI: Emma Jim .
@@ -538,7 +571,7 @@
 *MOT: oh no .
 *MOT: whee !
 *MOT: whatre you doing ?
-*MOT: what  is little madam doing ?
+*MOT: what is little madam doing ?
 *CHI: climb .
 *MOT: are you climbing ?
 *MOT: sings .
@@ -562,10 +595,12 @@
 *MOT: upside down .
 *CHI: Lara car .
 *CHI: Lara .
+*CHI: Lara .
+*CHI: Lara .
 *MOT: there .
 *CHI: there .
-*MOT: thats mummys car  is it ?
-*MOT: you dont want that one  do you ?
+*MOT: thats mummys car is it ?
+*MOT: you dont want that one do you ?
 *CHI: no .
 *MOT: no .
 *MOT: you certainly dont .
@@ -591,14 +626,14 @@
 *MOT: whatre you doing ?
 *CHI: whats that ?
 *MOT: its a cello .
-*CHI: whats that ?
+*CHI: whats that .
 *MOT: Goofy .
 *CHI: Goofy .
 *MOT: you wanna open it ?
 *CHI: mhm .
 *MOT: there .
-*MOT: but its broken  isnt it ?
-*MOT: because its sposta live in that
+*MOT: but its broken isnt it ?
+*MOT: because its sposta live in that .
 *MOT: like that .
 *MOT: but I think you pulled it too hard .
 *MOT: oh .
@@ -614,6 +649,8 @@
 *MOT: the button ?
 *MOT: okay .
 *MOT: I thought you wanted me to do it .
+*CHI: me .
+*CHI: me .
 *CHI: mummy do hole .
 *CHI: mummy hole like Lara .
 *MOT: I cant do anything if you wont let me touch her .
@@ -645,7 +682,7 @@
 *CHI: daddy go bed .
 *MOT: daddys in bed .
 *MOT: yes .
-*MOT: daddys a lazybones  isnt he ?
+*MOT: daddys a lazybones isnt he ?
 *CHI: yes .
 *CHI: no .
 *MOT: yes .
@@ -653,7 +690,7 @@
 *CHI: whats that ?
 *MOT: what is it ?
 *CHI: no !
-*CHI: whats that ?
+*CHI: whats that .
 *MOT: its another car .
 *MOT: night night .
 *CHI: night night .
@@ -691,7 +728,7 @@
 *MOT: or the popper ?
 *CHI: yes .
 *MOT: you cant do it .
-*MOT: youre just loathe to let anyone else try  arent you ?
+*MOT: youre just loathe to let anyone else try arent you ?
 *CHI: there hurt .
 *MOT: pardon ?
 *MOT: get what ?
@@ -710,8 +747,8 @@
 *MOT: it is .
 *CHI: broke .
 *CHI: broke .
-*MOT: I know its broken  sweetheart .
-*MOT: its popped  hasnt it ?
+*MOT: I know its broken sweetheart .
+*MOT: its popped hasnt it ?
 *MOT: can I have that popper ?
 *CHI: no .
 *MOT: well .
@@ -763,6 +800,7 @@
 *CHI: lie sofa .
 *CHI: Winnie The Pooh dummy .
 *CHI: Winnie The Pooh dummy .
+*MOT: and .
 *MOT: you wanna lie on the sofa with Winnie The Pooh dummy ?
 *CHI: yes .
 *MOT: and watch Winnie The Pooh ?
@@ -804,5 +842,5 @@
 *CHI: lie Winnie Pooh diddyf .
 *MOT: yes .
 *MOT: Ill get them .
-*MOT: Im just gonna fast
+*MOT: Im just gonna fast .
 *MOT: and your duvet .

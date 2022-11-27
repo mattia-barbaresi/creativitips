@@ -40,8 +40,9 @@
 *CHI: bed .
 *MOT: a bed .
 *MOT: good .
-*CHI: have a
+*CHI: have a .
 *CHI: oh .
+*CHI: not .
 *MOT: whats the matter ?
 *CHI: do a Daddy bed .
 *CHI: and a baby bed .
@@ -54,7 +55,7 @@
 *CHI: oh .
 *MOT: and this one ?
 *CHI: under bed .
-*MOT: here we are  look .
+*MOT: here we are look .
 *MOT: Daddys bed .
 *MOT: Mummys bed .
 *MOT: and babys bed .
@@ -71,7 +72,7 @@
 *MOT: a bit floppy .
 *CHI: sit on that .
 *MOT: oh .
-*MOT: babys sitting on
+*MOT: babys sitting on .
 *MOT: whos this ?
 *MOT: is this babys Mummy or babys Daddy ?
 *CHI: Daddy .
@@ -107,9 +108,10 @@
 *MOT: okay .
 *CHI: wheres Spot gonna go ?
 *MOT: wheres Spot gonna go ?
-*CHI: which which is
+*CHI: which which is .
 *MOT: he needs a bed as well does he ?
-*CHI: shall we just
+*CHI: he .
+*CHI: shall we just .
 *CHI: bears a need a cushion for him .
 *MOT: okay .
 *MOT: well .
@@ -127,7 +129,7 @@
 *MOT: pardon ?
 *CHI: Im gonna use bed for her .
 *MOT: okay .
-*MOT: youre gonna use those covers to make a basket <for
+*MOT: youre gonna use those covers to make a basket for .
 *MOT: oh .
 *MOT: thats a nice bed isnt it ?
 *CHI: nice bed .
@@ -166,7 +168,7 @@
 *CHI: in the pram .
 *MOT: in the pram .
 *MOT: okay .
-*MOT: let me move my shoes  look .
+*MOT: let me move my shoes look .
 *MOT: theyre in your way .
 *MOT: right .
 *MOT: thats everybody asleep I think isnt it ?
@@ -175,14 +177,16 @@
 *CHI: little Noddy not asleep yet .
 *MOT: oh right .
 *MOT: okay .
+*MOT: so .
 *CHI: now hes asleep .
 *MOT: okay .
 *CHI: sleep there .
 *MOT: theyre all asleep now .
 *MOT: well .
-*MOT: it looks like wed better tidy up the picnic then if theyve all
+*MOT: it looks like wed better tidy up the picnic then if theyve all .
 *CHI: no .
 *CHI: we dont .
+*CHI: we .
 *MOT: hm ?
 *MOT: are we leaving the picnic there for their breakfast ?
 *MOT: whatve you done ?
@@ -204,8 +208,8 @@
 *CHI: put put picnic out the way .
 *MOT: put the picnic out of the way .
 *MOT: now .
-*MOT: the trouble is
-*MOT: the box for the picnic
+*MOT: the trouble is .
+*MOT: the box for the picnic .
 *MOT: teddys sleeping on top of the box for the picnic .
 *CHI: no .
 *CHI: go to sleep .
@@ -241,7 +245,7 @@
 *CHI: the baby one .
 *MOT: thats for baby .
 *MOT: right .
-*MOT: just go up there  baby .
+*MOT: just go up there baby .
 *MOT: shush .
 *MOT: tuck you in .
 *CHI: he cant see .
@@ -253,7 +257,7 @@
 *MOT: I think wed better fold it over dont you ?
 *CHI: yeah .
 *MOT: because its quite a big cover .
-*MOT: there you are  dancing bear .
+*MOT: there you are dancing bear .
 *CHI: thank you .
 *CHI: good night .
 *CHI: theyre all asleep .
@@ -270,7 +274,7 @@
 *MOT: havent they ?
 *CHI: no .
 *MOT: oh .
-*MOT: um down there on the floor  look is the cover for
+*MOT: um down there on the floor look is the cover for .
 *MOT: how about using that ?
 *CHI: good night .
 *CHI: sleep tight .
@@ -291,7 +295,7 @@
 *CHI: they will not go to sleep .
 *MOT: oh .
 *MOT: whatre you going to do then ?
-*CHI: want come out  Caitlin ?
+*CHI: want come out Caitlin ?
 *CHI: okay .
 *MOT: what does Mummy usually do if you dont go to sleep ?
 *MOT: read her a story ?
@@ -345,12 +349,12 @@
 *MOT: isnt she closing her eyes ?
 *MOT: why not ?
 *MOT: that one has hasnt she ?
-*MOT: except shes got a poorly eye hasnt she that doesnt close very
+*MOT: except shes got a poorly eye hasnt she that doesnt close very .
 *MOT: there .
 *MOT: shush .
 *MOT: I think that their eyes are nearly closed .
 *MOT: hey .
-*MOT: I think its gonna be somebodys birthday when they
+*MOT: I think its gonna be somebodys birthday when they .
 *MOT: whose birthday is it going to be when they wake up ?
 *CHI: this one .
 *MOT: Caitlins birthday .
@@ -377,8 +381,8 @@
 *MOT: theyre not .
 *CHI: fourteen .
 *CHI: gonna be fourteen ?
-*MOT: theyre not  Anne .
-*CHI: gonna be
+*MOT: theyre not Anne .
+*CHI: gonna be .
 *MOT: shes gonna be fourteen ?
 *MOT: my goodness .
 *CHI: Lucy gonna be thirteen .
@@ -397,6 +401,7 @@
 *CHI: right .
 *CHI: everybody sit down .
 *MOT: okay .
+*CHI: everybody .
 *CHI: there .
 *MOT: there we are .
 *MOT: whoops .
@@ -410,7 +415,7 @@
 *MOT: is Caitlin gonna blow the candles out ?
 *MOT: are you gonna help her ?
 *MOT: hooray .
-*MOT: well done  Caitlin .
+*MOT: well done Caitlin .
 *CHI: well done .
 *MOT: are you going to cut the cake up now then ?
 *CHI: cut the cake up .
@@ -435,14 +440,15 @@
 *INV: there .
 *MOT: on the floor .
 *MOT: okay ?
+*CHI: need .
 *CHI: we need putting the lid on .
 *MOT: okay .
-*CHI: I got
+*CHI: I got .
 *CHI: in a minute .
 *MOT: one .
 *MOT: theyre fiddly these candles .
 *MOT: real candles are much easier .
-*MOT: come on  fiddly candle .
+*MOT: come on fiddly candle .
 *MOT: two .
 *CHI: ready yet ?
 *MOT: yeah .
@@ -451,14 +457,14 @@
 *MOT: whore we singing to ?
 *MOT: careful you dont knock the cake .
 *MOT: are we singing to Lucy ?
-*MOT: alright  Lucy .
+*MOT: alright Lucy .
 *MOT: just sit down .
 *CHI: just sit down and have your cake .
 *MOT: there you are .
 *CHI: sing Happy birthday .
 *MOT: whoops .
-*MOT: sit up  Lucy .
-*CHI: sit up  Lucy .
+*MOT: sit up Lucy .
+*CHI: sit up Lucy .
 *CHI: sing Happy birthday .
 *CHI: no .
 *MOT: oh sorry .
@@ -470,12 +476,12 @@
 *MOT: hooray .
 *MOT: has she got any presents to open ?
 *CHI: yes .
-*MOT: here you are  Lucy .
+*MOT: here you are Lucy .
 *MOT: heres your birthday present .
 *MOT: does she like that ?
 *MOT: hm ?
 *MOT: whatre you doing ?
-*CHI: trying get  this down .
+*CHI: trying get this down .
 *MOT: are you trying to put that one down ?
 *CHI: but its cant work .
 *MOT: cant it ?
@@ -500,7 +506,7 @@
 *MOT: okay .
 *CHI: I gonna cut it for you .
 *CHI: everybody cant get on .
-*CHI: I got
+*CHI: I got .
 *MOT: pardon ?
 *MOT: whats the matter ?
 *CHI: whoops .
@@ -564,7 +570,7 @@
 *CHI: yes .
 *MOT: is Daddy staying asleep ?
 *CHI: yes .
-*CHI: yes  Mummy .
+*CHI: yes Mummy .
 *INV: lucky Daddy .
 *MOT: www .
 *CHI: wanna go back in bed .
@@ -587,13 +593,13 @@
 *MOT: yeah .
 *MOT: take a cup of tea upstairs to Daddy .
 *MOT: go and snuggle in bed with Daddy .
-*MOT: I think Daddy better wake up to drink it  Anne .
+*MOT: I think Daddy better wake up to drink it Anne .
 *CHI: there we go .
 *MOT: thats it .
-*MOT: sit up  Daddy .
+*MOT: sit up Daddy .
 *CHI: he cant sit up .
 *MOT: hes not a very good teddybear at sitting up that one is he ?
-*MOT: I dont think he will  Anne .
+*MOT: I dont think he will Anne .
 *MOT: youll just hafta hold him like that .
 *MOT: he says are you coming in bed with me ?
 *MOT: are you coming to fidget in bed with me ?
@@ -609,7 +615,7 @@
 *CHI: read this story please .
 *MOT: you want me to read it ?
 *MOT: right .
-*MOT: come on then  teddys .
+*MOT: come on then teddys .
 *MOT: anybody else wanna listen to this story ?
 *CHI: me .
 *MOT: okay .
@@ -652,7 +658,7 @@
 *CHI: I want another drink .
 *MOT: I gave you a drink .
 *MOT: here it is .
-*MOT: theres the snowman  look .
+*MOT: theres the snowman look .
 *MOT: and then its nighttime .
 *MOT: and the snowmans come inside .
 *MOT: what does the little boy show the snowman ?
@@ -663,6 +669,7 @@
 *MOT: shows him the cat .
 *MOT: and what else does he show him ?
 *MOT: whats he showing him here ?
+*MOT: the .
 *CHI: pineapple .
 *MOT: whats he done with the pineapple ?
 *CHI: put it on his nose .
@@ -710,7 +717,7 @@
 *MOT: there he is .
 *MOT: good job you can see him isnt it ?
 *MOT: theyre dancing .
-*MOT: and theyve got party hats on and theyve got lots of nice things
+*MOT: and theyve got party hats on and theyve got lots of nice things .
 *MOT: oh .
 *MOT: and then it was time to go back home .
 *MOT: and they flew all the way home .
@@ -734,7 +741,7 @@
 *MOT: well .
 *MOT: I expect youll be able to soon .
 *MOT: shall we put .
-*MOT: lets put some of these back in the box and then therell be some
+*MOT: lets put some of these back in the box and then therell be some .
 *MOT: shall I do them ?
 *CHI: yeah .
 *MOT: right .
@@ -755,7 +762,7 @@
 *MOT: come on then .
 *MOT: well .
 *MOT: listen .
-*MOT: if you want a wee go and have a wee and then you can get those off
+*MOT: if you want a wee go and have a wee and then you can get those off .
 *CHI: oh .
 *MOT: Anne .
 *MOT: come on .
@@ -763,11 +770,11 @@
 *MOT: oh .
 *MOT: now we .
 *MOT: now we can do a good pattern cant we ?
-*CHI: hello  Mr Mandu .
+*CHI: hello Mr Mandu .
 *MOT: oh .
 *MOT: www .
-*CHI: hello  Mr Mandu .
-*MOT: hello  Mr Mandu ?
+*CHI: hello Mr Mandu .
+*MOT: hello Mr Mandu ?
 *MOT: whos Mr Mandu ?
 *MOT: hm ?
 *MOT: there we are .
@@ -795,7 +802,7 @@
 *MOT: the penguins going on the pattern .
 *MOT: hes going on the white snowy brick is he ?
 *MOT: oh .
-*MOT: I think he wants to go on
+*MOT: I think he wants to go on .
 *CHI: hes a penguin .
 *MOT: the penguins on the blue watery brick .
 *MOT: think youll be able to fit one in there .
@@ -816,7 +823,7 @@
 *MOT: what about the horse ?
 *MOT: does the horse go through ?
 *MOT: oh .
-*MOT: the horse could get under it just  look .
+*MOT: the horse could get under it just look .
 *MOT: the little horse .
 *MOT: oh .
 *MOT: just .
@@ -834,14 +841,14 @@
 *MOT: thats the other long piece isnt it ?
 *MOT: I knew there was a long piece somewhere .
 *MOT: there .
-*MOT: you use the long piece  look .
+*MOT: you use the long piece look .
 *MOT: you put put some feet on it .
 *MOT: there .
-*MOT: can you build one with that  look .
+*MOT: can you build one with that look .
 *MOT: put some bricks underneath .
-*MOT: on here  look .
+*MOT: on here look .
 *MOT: if we put those underneath .
-*MOT: what about these  look .
+*MOT: what about these look .
 *CHI: weve gotta have these as well .
 *MOT: okay .
 *MOT: whoops .
@@ -861,7 +868,7 @@
 *MOT: I was wondering where the baby was .
 *INV: oh .
 *MOT: hes gone .
-*MOT: is he behind you  Anne ?
+*MOT: is he behind you Anne ?
 *MOT: not in there ?
 *MOT: no .
 *MOT: thats the man .
@@ -882,7 +889,7 @@
 *CHI: oh .
 *CHI: oh no .
 *MOT: just balancing on her toes .
-*CHI: hello  Mummy .
+*CHI: hello Mummy .
 *CHI: Mummy .
 *CHI: please have some sweeties .
 *CHI: okay .
@@ -928,7 +935,7 @@
 *MOT: go on then .
 *MOT: youre determined to do it .
 *INV: www .
-*MOT: were not very clever are we  Anne ?
+*MOT: were not very clever are we Anne ?
 *MOT: Carolinell show us .
 *INV: oh yes .
 *INV: Carolines ever so clever .
@@ -940,7 +947,7 @@
 *MOT: thats it .
 *INV: there .
 *INV: is that better ?
-*MOT: is that better  Anne ?
+*MOT: is that better Anne ?
 *MOT: www .
 *CHI: cant do this .
 *CHI: I cant get this in .
@@ -964,13 +971,13 @@
 *MOT: do you want the train to go under the tunnel then ?
 *MOT: whoops .
 *MOT: its not a very sturdy one .
-*MOT: we wouldnt make  construction engineers .
+*MOT: we wouldnt make construction engineers .
 *CHI: oh no .
 *MOT: oh .
 *MOT: too small .
 *MOT: make it a bit bigger .
 *MOT: hang on .
-*MOT: I think weve got some dynamic problems  Anne .
+*MOT: I think weve got some dynamic problems Anne .
 *CHI: oh .
 *CHI: the tiger can get .
 *MOT: right .
@@ -1023,7 +1030,7 @@
 *CHI: he need mine .
 *MOT: he needs yours does he ?
 *MOT: well .
-*MOT: well just get your horsie out because we dont wanna muddle them
+*MOT: well just get your horsie out because we dont wanna muddle them .
 *MOT: oh .
 *MOT: wait a minute .
 *MOT: hes animals .
@@ -1054,7 +1061,7 @@
 *MOT: catastrophe .
 *MOT: I knew my first bridge was superior .
 *MOT: it might be too small but it stays up .
-*CHI: this is difficult  Mummy .
+*CHI: this is difficult Mummy .
 *CHI: difficult .
 *CHI: stand up .
 *MOT: well .
@@ -1064,7 +1071,7 @@
 *CHI: its difficult stand up this one isnt .
 *MOT: right .
 *MOT: now .
-*MOT: is that a little bit more  sturdy .
+*MOT: is that a little bit more sturdy .
 *CHI: oh yes .
 *CHI: thats a sturdy .
 *CHI: oh no dear .
@@ -1077,6 +1084,7 @@
 *MOT: there we are .
 *MOT: www .
 *CHI: oh .
+*CHI: its .
 *CHI: goodness gracious me .
 *MOT: goodness gracious you ?
 *CHI: goodness gracious me .
@@ -1148,7 +1156,7 @@
 *MOT: but that ones not green .
 *MOT: its my green field .
 *MOT: and that ones not green .
-*CHI: we need
+*CHI: we need .
 *CHI: there .
 *MOT: okay .
 *CHI: that no good .
@@ -1159,7 +1167,7 @@
 *MOT: that is good .
 *MOT: does that man look after the tigers ?
 *CHI: yeah .
-*MOT: are you alright  tigers ?
+*MOT: are you alright tigers ?
 *CHI: yeah .
 *MOT: theyre a little bit hungry .
 *MOT: they want a banana .
@@ -1195,7 +1203,7 @@
 *MOT: you dont wanna play with that .
 *MOT: shall we look in here then ?
 *CHI: yeah .
-*MOT: Ill just get a tissue  Anne .
+*MOT: Ill just get a tissue Anne .
 *CHI: oh .
 *MOT: pardon ?
 *CHI: oh .
@@ -1226,7 +1234,7 @@
 *MOT: youre going to see if its in there .
 *MOT: thats a good idea .
 *MOT: oh .
-*MOT: sit up  dolly .
+*MOT: sit up dolly .
 *MOT: go on then .
 *MOT: have a look and see if its in there .
 *MOT: perhaps her hair ribbon might be in there .
@@ -1259,8 +1267,8 @@
 *CHI: its not in there .
 *MOT: not in there ?
 *MOT: have a look and see if its in with the food at all .
-*MOT: what do you want her to wear  Anne ?
-*MOT: do you want a dress or her dungarees back on now shes got pants on
+*MOT: what do you want her to wear Anne ?
+*MOT: do you want a dress or her dungarees back on now shes got pants on .
 *CHI: dress .
 *MOT: that dress ?
 *MOT: take your shirt off then .
@@ -1283,7 +1291,7 @@
 *INV: she hasnt got any shoes .
 *CHI: oh .
 *CHI: oh dear .
-*MOT: we bought some dolls clothes for Sophie that had shoes with them
+*MOT: we bought some dolls clothes for Sophie that had shoes with them .
 *CHI: we got some shoes back .
 *MOT: yeah .
 *MOT: do you remember ?
@@ -1328,7 +1336,7 @@
 *CHI: oh .
 *CHI: got it wrong way .
 *MOT: is it the wrong way round ?
-*MOT: its because her head turns round  Anne .
+*MOT: its because her head turns round Anne .
 *MOT: this peculiar dolly .
 *MOT: oh .
 *MOT: now .
@@ -1375,7 +1383,7 @@
 *CHI: this hat .
 *MOT: her hats what ?
 *MOT: hang on .
-*MOT: what I did was I turned it inside out because it looked a bit too
+*MOT: what I did was I turned it inside out because it looked a bit too .
 *MOT: there we are .
 *MOT: there .
 *CHI: play in here .
@@ -1387,7 +1395,7 @@
 *CHI: not going to now .
 *CHI: oh .
 *CHI: silly sticks .
-*MOT: havent you  Anne .
+*MOT: havent you Anne .
 *INV: www .
 *MOT: oh .
 *MOT: it looks like were having a mixture .
@@ -1410,7 +1418,7 @@
 *CHI: not take this home .
 *MOT: no .
 *CHI: this is babys .
-*MOT: Carolines little girl could play with it if if she took it
+*MOT: Carolines little girl could play with it if if she took it .
 *CHI: no .
 *MOT: Carolines Anne .
 *INV: I think Carolines Anne would probably just eat it .
@@ -1436,7 +1444,7 @@
 *CHI: no .
 *MOT: soon .
 *MOT: well not throw her out quite yet shall we ?
-*MOT: when Caroline goes or after Caroline goes weve got to go down the
+*MOT: when Caroline goes or after Caroline goes weve got to go down the .
 *CHI: where we going ?
 *MOT: were going to the doctors .
 *CHI: I Im not better yet .
@@ -1455,7 +1463,7 @@
 *CHI: they not going for stay here ?
 *MOT: well .
 *MOT: you cant really stay here by yourself can you ?
-*MOT: and Daddys not here so you come with me and you can play with
+*MOT: and Daddys not here so you come with me and you can play with .
 *CHI: want you go .
 *MOT: well .
 *MOT: yeah .
@@ -1493,14 +1501,14 @@
 *MOT: pardon ?
 *CHI: tigers in there .
 *MOT: tigers dont go to work do they ?
-*MOT: has Caroline seen the book of of places that you went to with
+*MOT: has Caroline seen the book of of places that you went to with .
 *MOT: shall we show her ?
 *MOT: shall we show her ?
 *CHI: oh .
 *MOT: shall we show her ?
 *MOT: very quickly .
 *MOT: come her then .
-*MOT: then she can see and you can tell her about the pictures can't
+*MOT: then she can see and you can tell her about the pictures cant .
 *MOT: its what Grandma made for you isnt it ?
 *CHI: I cant do it .
 *MOT: well .

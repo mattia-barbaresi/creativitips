@@ -1,58 +1,59 @@
 *CHI: jump ap truck .
-*MOT: are you jumping ?
+*MOT: are you jumping .
 *CHI: yes .
 *CHI: jump ap lorry .
-*MOT: jumping on the lorry ?
+*MOT: jumping on the lorry .
 *CHI: www .
 *MOT: www .
 *CHI: ap Ben gone ap home .
-*MOT: Ben has gone home ?
+*MOT: Ben has gone home .
 *CHI: ap Thomass .
 *CHI: go home .
 *CHI: Thomas home .
-*MOT: Thomas has come home ?
+*MOT: Thomas has come home .
 *CHI: ap truck go home .
-*MOT: well weve just been to Ben and Charlottes house havent we ?
+*MOT: well weve just been to Ben and Charlottes house havent we .
 *CHI: mhm .
-*MOT: and when we came home there was a big green truck outside our house
-*MOT: so you sat outside in your pushchair didnt you ?
+*MOT: and when we came home there was a big green truck outside our house .
+*MOT: so you sat outside in your pushchair didnt you .
 *CHI: no .
 *CHI: what happen .
 *CHI: smash .
-*MOT: what happened ?
-*CHI: bang !
+*MOT: what happened .
+*CHI: bang .
 *CHI: shouted .
 *MOT: bang .
 *CHI: very loud .
-*MOT: bang ?
-*MOT: shouted very loud ?
+*MOT: bang .
+*MOT: shouted very loud .
 *CHI: yes .
 *CHI: a big truck bang .
-*MOT: oh was that when he closed the door ?
+*MOT: oh was that when he closed the door .
 *MOT: at the back ?
-*MOT: was there a really loud bang ?
+*MOT: was there a really loud bang .
 *CHI: yes .
-*MOT: who shouted ?
-*MOT: did the driver shout ?
+*MOT: who shouted .
+*MOT: did the driver shout .
 *MOT: or did you shout ?
-*MOT: nobody shouted ?
-*MOT: it was just the noise was it ?
+*MOT: nobody shouted .
+*MOT: it was just the noise was it .
+*CHI: yes .
 *MOT: oh dear .
-*MOT: gosh  Thomas Lastname .
+*MOT: gosh Thomas Lastname .
 *CHI: oh my God .
 *MOT: no .
 *MOT: dont say that .
-*MOT: thats not nice is it ?
+*MOT: thats not nice is it .
 *CHI: choo choo choo .
 *MOT: its not nice saying that .
-*MOT: Mummys going to wipe our shoes because weve walked through the
-*MOT: and were very muddy arent we ?
+*MOT: Mummys going to wipe our shoes because weve walked through the .
+*MOT: and were very muddy arent we .
 *CHI: trousers 0are muddy .
 *CHI: poo .
 *CHI: Thomas do .
 *CHI: what a mess .
-*MOT: well I think after weve sorted out the shoes we needta get you
-*CHI: bang !
+*MOT: well I think after weve sorted out the shoes we needta get you .
+*CHI: bang .
 *CHI: shouted very loud .
 *CHI: big truck .
 *CHI: Mummy .
@@ -61,143 +62,146 @@
 *CHI: back .
 *CHI: back ma truck .
 *CHI: 0 lift ap shoes ap Mummy .
-*MOT: youve lifted my shoes up onto your box ?
-*MOT: um our shoes are very dirty  Thomas .
+*MOT: youve lifted my shoes up onto your box .
+*MOT: um our shoes are very dirty Thomas .
 *MOT: Im just going to give them a wipe .
-*MOT: is that alright ?
+*MOT: is that alright .
 *CHI: like it .
-*MOT: so what else have we been doing today ?
+*MOT: so what else have we been doing today .
 *CHI: um been a park .
 *CHI: Lalas .
 *CHI: been .
-*MOT: youve been to the park ?
-*MOT: been what  darling ?
-*MOT: been two shoes ?
+*MOT: youve been to the park .
+*CHI: been .
+*MOT: been what darling .
+*CHI: been .
+*MOT: been two shoes .
 *CHI: two .
 *CHI: big .
 *CHI: please .
 *MOT: I dont know what youre saying .
 *CHI: babies .
-*MOT: babies ?
+*MOT: babies .
 *CHI: baby .
-*MOT: what are you saying ?
+*MOT: what are you saying .
 *CHI: sitting ap big truck .
-*MOT: sit in the big truck ?
+*MOT: sit in the big truck .
 *MOT: oh youre .
-*CHI: bang !
+*CHI: bang .
 *MOT: oh I see .
-*MOT: youre sitting on your toy box but youre pretending its the big
+*MOT: youre sitting on your toy box but youre pretending its the big .
 *CHI: truck little rest ap now .
 *CHI: truck ap truck rest .
-*MOT: the truck what  darling ?
+*MOT: the truck what darling .
 *CHI: little rest now .
-*MOT: a little rest now ?
-*MOT: ah the trucks having a little rest now is it ?
+*MOT: a little rest now .
+*MOT: ah the trucks having a little rest now is it .
 *MOT: well its not making any deliverys here .
 *MOT: but I would imagine its driving somewhere through Manchester now .
-*MOT: or perhaps it has stopped off at somebody elses house and it's
-*MOT: just think the driver could be opening and closing the door all
+*MOT: or perhaps it has stopped off at somebody elses house and its .
+*MOT: just think the driver could be opening and closing the door all .
 *CHI: one ap get out the cab .
-*MOT: getting out of the cab ?
+*MOT: getting out of the cab .
 *CHI: jumps .
-*MOT: oh he jumped out of the cab did he ?
+*MOT: oh he jumped out of the cab did he .
 *CHI: mhm .
 *CHI: there .
-*CHI: here you are  everybody .
+*CHI: here you are everybody .
 *CHI: ap Sues house there .
 *CHI: Sues house .
-*MOT: Sues house ?
+*MOT: Sues house .
 *CHI: yes .
-*MOT: why are you talking about Sues house ?
+*MOT: why are you talking about Sues house .
 *CHI: a parcel Sues .
 *CHI: jump .
 *CHI: two parcels .
-*MOT: two parcels for Sues house ?
+*MOT: two parcels for Sues house .
 *MOT: it wasnt actually Sues house that the driver was going to .
-*MOT: but um he was stopped quite near Sues house wasnt he ?
-*CHI: here you are  Sue .
+*MOT: but um he was stopped quite near Sues house wasnt he .
+*CHI: here you are Sue .
 *MOT: oh I see .
-*MOT: youre delivering some letters are you ?
+*MOT: youre delivering some letters are you .
 *MOT: and pretending theyre going to Sue .
-*MOT: you got a letter didnt you ?
+*MOT: you got a letter didnt you .
 *MOT: today .
 *CHI: coughing .
-*MOT: youre coughing ?
+*MOT: youre coughing .
 *CHI: yeah .
 *CHI: more letters ap Sue .
 *MOT: more letters for Sue .
 *CHI: ap two trucks .
 *CHI: oh .
-*CHI: here you are  Sue .
+*CHI: here you are Sue .
 *MOT: you spent hours and hours playing with those .
 *CHI: go take letters ap Sues house .
 *MOT: all the letters going to Sues house .
-*MOT: and Im just thinking how you played hours and hours with this old
-*MOT: youve had hours of fun havent you ?
+*MOT: and Im just thinking how you played hours and hours with this old .
+*MOT: youve had hours of fun havent you .
 *CHI: mhm .
 *MOT: all these expensive toys .
-*MOT: and you prefer old envelopes and an old box as a postbox don't
+*MOT: and you prefer old envelopes and an old box as a postbox dont .
 *CHI: mhm .
 *CHI: look all letters .
 *CHI: look all the letters .
-*MOT: look at all the letters ?
+*MOT: look at all the letters .
 *CHI: look all the letters .
-*MOT: are you saying “look at all the letters” ?
+*MOT: are you saying “look at all the letters” .
+*CHI: all .
 *CHI: letters .
 *CHI: letters .
 *MOT: letters letters .
-*MOT: its exciting isnt it ?
+*MOT: its exciting isnt it .
 *CHI: go ap train .
 *CHI: Sues house .
-*MOT: theyre going in the train to Sues house ?
+*MOT: theyre going in the train to Sues house .
 *CHI: yeah .
-*MOT: well you saw that on Auntie Mabel and Pippin didnt you ?
+*MOT: well you saw that on Auntie Mabel and Pippin didnt you .
 *MOT: the letters .
-*MOT: once the postbox has been emptied the letters get sorted into sacks
-*MOT: and they go on the train dont they ?
+*MOT: once the postbox has been emptied the letters get sorted into sacks .
+*MOT: and they go on the train dont they .
 *CHI: yeah .
 *MOT: and then they go to another post office .
 *MOT: where theyre sorted for delivery .
 *MOT: what the postman does .
 *CHI: big sorting office .
 *MOT: a sorting .
-*MOT: a big sorting office ?
+*MOT: a big sorting office .
 *MOT: thats right !
-*MOT: and they went through that machine very very quickly didn't
+*MOT: and they went through that machine very very quickly didnt .
 *CHI: yeah .
-*MOT: you got a lot of letters  Thomas .
-*MOT: and youre going to get more towards Christmas arent you ?
+*MOT: you got a lot of letters Thomas .
+*MOT: and youre going to get more towards Christmas arent you .
 *MOT: when everyones sending one another Christmas cards .
 *CHI: Christmas cards .
 *MOT: Christmas cards .
 *MOT: weve bought all our stamps for the Christmas cards havent we ?
 *CHI: mhm .
-*MOT: do you remember going into the post office ?
-*MOT: and buying all those cards ?
+*MOT: do you remember going into the post office .
+*MOT: and buying all those cards .
 *MOT: uh not cards .
 *MOT: stamps .
 *CHI: stamps .
 *CHI: mhm .
 *CHI: that one 0has been crushed there .
-*MOT: pardon ?
+*MOT: pardon .
 *CHI: another one crushed .
 *CHI: another one 0has been crushed .
-*MOT: not been crossed ?
+*MOT: not been crossed .
 *CHI: crushed .
-*MOT: crushed ?
+*MOT: crushed .
 *CHI: yeah .
 *MOT: it has been crushed .
 *MOT: thats right .
 *MOT: youre holding a white envelope and its all screwed up .
-*MOT: how do you think it has got crushed  Thomas ?
-*CHI: bang !
-*MOT: it went bang ?
+*MOT: how do you think it has got crushed Thomas .
+*CHI: bang .
+*MOT: it went bang .
 *MOT: no .
 *MOT: but I mean how ?
-*MOT: what do you think has happened to it ?
-*MOT: to get it crushed ?
+*MOT: what do you think has happened to it .
+*MOT: to get it crushed .
 *CHI: something in the car smashed .
-*MOT: something smashed it ?
+*MOT: something smashed it .
 *CHI: mhm .
 *CHI: yes .
 *MOT: oh dear dear .
@@ -207,18 +211,18 @@
 *CHI: shoes dirt .
 *MOT: well theyre a little bit dirty underneath .
 *MOT: but Ive wiped them with a cloth .
-*MOT: they could do with a polish really couldnt they ?
+*MOT: they could do with a polish really couldnt they .
 *CHI: polish .
 *MOT: they could do with a nice polish .
-*MOT: we polished them before we went to the christening on Sunday
-*MOT: do you remember going to Abigails christening ?
-*CHI: whats that coming from ?
+*MOT: we polished them before we went to the christening on Sunday .
+*MOT: do you remember going to Abigails christening .
+*CHI: whats that coming from .
 *CHI: oh dear .
 *CHI: Mummy .
-*MOT: yes ?
-*CHI: whats that ?
-*MOT: whats what my darling ?
-*CHI: whats that there ?
+*MOT: yes .
+*CHI: whats that .
+*MOT: whats what my darling .
+*CHI: whats that there .
 *MOT: ah this is addressed you .
 *MOT: lets have a look www .
 *CHI: www no .
@@ -226,8 +230,8 @@
 *MOT: no .
 *MOT: weve got to keep this .
 *MOT: because this came in the post today and it says .
-*MOT: whos that ?
-*CHI: whats that ?
+*MOT: whos that .
+*CHI: whats that .
 *MOT: it looks like one of the Tweenies .
 *MOT: look .
 *MOT: theres a stamp like weve bought the other day .
@@ -235,45 +239,46 @@
 *MOT: and it was posted in Stockport .
 *MOT: and it says Master tl Lastname .
 *MOT: and its written in red pen .
-*MOT: it came through the post especially for Thomas didnt it ?
+*MOT: it came through the post especially for Thomas didnt it .
 *CHI: no .
 *MOT: lets open it and see whats inside .
+*CHI: no .
 *CHI: cant .
 *CHI: no shut it up .
 *MOT: shut it up .
 *CHI: shut it .
-*MOT: shut it up ?
-*MOT: whos that ?
+*MOT: shut it up .
+*MOT: whos that .
 *CHI: shut it .
 *MOT: it says “its Mollys birthday” .
-*MOT: Mollys actually born on Christmas Day wasnt she ?
+*MOT: Mollys actually born on Christmas Day wasnt she .
 *MOT: Molly will be five on Christmas Day .
 *CHI: shut it .
 *MOT: Thomas please come to my party .
-*MOT: on Tuesday twenty first of December for three forty five until six
+*MOT: on Tuesday twenty first of December for three forty five until six .
 *MOT: and it says RSVP .
 *MOT: weve go to reply .
 *MOT: oh its a Rugrat .
 *MOT: I dont watch the Rugrats .
 *MOT: and it says made especially for you by Molly Lou .
-*MOT: Hadfield library room is above Hadfield library at the top of the
+*MOT: Hadfield library room is above Hadfield library at the top of the .
 *MOT: opposite the railway station .
 *MOT: thats an invitation for Thomas to go to Mollys birthday party .
-*CHI: whats that ?
-*MOT: would you like to go ?
+*CHI: whats that .
+*MOT: would you like to go .
 *CHI: no .
-*CHI: what happened ?
+*CHI: what happened .
 *MOT: you went to Mollys birthday last year .
 *MOT: and it was held between Christmas .
 *CHI: oh dear .
-*MOT: it has come out of the envelope ?
+*MOT: it has come out of the envelope .
 *CHI: yeah .
 *MOT: it was between Christmas and New Year .
 *MOT: and they had it in a place where there was a big ball pool .
-*MOT: and you Daddy were jumping around in all the balls and having great
+*MOT: and you Daddy were jumping around in all the balls and having great .
 *CHI: oh dear .
 *CHI: not shut it .
-*MOT: no shut it ?
+*MOT: no shut it .
 *MOT: well we can shut it .
 *MOT: there we are .
 *MOT: well put the invitation back in .
@@ -283,39 +288,39 @@
 *MOT: and then we can close the envelope .
 *CHI: thank you .
 *MOT: thank you .
-*MOT: weve closed it havent we ?
+*MOT: weve closed it havent we .
 *MOT: its shut now .
 *CHI: jump up .
-*MOT: youve jumped up ?
+*MOT: youve jumped up .
 *CHI: yes .
-*MOT: say “I jumped up” ?
+*MOT: say “I jumped up” .
 *MOT: yes .
-*MOT: you have jumped up havent you ?
+*MOT: you have jumped up havent you .
 *CHI: right .
 *MOT: right .
-*MOT: well have you finished making your deliverys ?
+*MOT: well have you finished making your deliverys .
 *CHI: oh yes .
-*MOT: well we could do really  Thomas  now .
+*MOT: well we could do really Thomas now .
 *MOT: while youre having a change .
 *CHI: a change .
 *MOT: and then thinking about lunch .
 *CHI: no .
-*MOT: no ?
+*MOT: no .
 *CHI: no .
-*CHI: bang !
-*CHI: bang !
-*CHI: bang !
+*CHI: bang .
+*CHI: bang .
+*CHI: bang .
 *CHI: very loud .
-*MOT: very loud ?
-*MOT: are you pretending to be the driver in his cab ?
+*MOT: very loud .
+*MOT: are you pretending to be the driver in his cab .
 *CHI: mhm .
 *CHI: yeah .
 *CHI: ap minute .
 *CHI: hammer in the truck .
-*CHI: hello  bus .
-*MOT: are you drinking juice ?
+*CHI: hello bus .
+*MOT: are you drinking juice .
 *CHI: oops .
-*MOT: is Thomas drinking some juice ?
+*MOT: is Thomas drinking some juice .
 *CHI: oh yes .
 *CHI: no no change .
 *MOT: yes .
@@ -325,7 +330,7 @@
 *MOT: yes .
 *MOT: you can .
 *CHI: no .
-*MOT: listen  Thomas .
+*MOT: listen Thomas .
 *MOT: youve had milk and youve had juice youre drinking more juice .
 *MOT: youre going to be very wet .
 *CHI: no no wet .
@@ -343,16 +348,16 @@
 *MOT: come and see what Mummy has got on the table .
 *CHI: oh .
 *MOT: you come and see what Mummy has got on the table .
-*CHI: whats that ?
-*MOT: whats that ?
-*CHI: whats that ?
-*MOT: we bought those this morning didnt we ?
-*CHI: whats that come from ?
-*MOT: whats that come from ?
+*CHI: whats that .
+*MOT: whats that .
+*CHI: whats that .
+*MOT: we bought those this morning didnt we .
+*CHI: whats that come from .
+*MOT: whats that come from .
 *CHI: I chew them .
 *MOT: I chew www .
-*CHI: whats that ?
-*MOT: ah what is it ?
+*CHI: whats that .
+*MOT: ah what is it .
 *CHI: whistle .
 *MOT: a whistle .
 *MOT: right .
@@ -364,20 +369,20 @@
 *MOT: a lot of whistles .
 *MOT: yeah .
 *CHI: no lot of whistles .
-*MOT: and we saw these this morning didnt we ?
+*MOT: and we saw these this morning didnt we .
 *MOT: because you like .
-*CHI: sit down  Mummy .
-*MOT: sit down  Mummy ?
+*CHI: sit down Mummy .
+*MOT: sit down Mummy .
 *CHI: yes .
 *MOT: thank you .
-*MOT: you like these little whistles dont you ?
+*MOT: you like these little whistles dont you .
 *CHI: oh dear .
 *CHI: ap get a ladder out .
 *CHI: oh my God .
 *MOT: Thomas dont keep saying that please .
 *MOT: thats not nice .
 *CHI: get a ladder out .
-*MOT: get a ladder out ?
+*MOT: get a ladder out .
 *MOT: thats not a ladder .
 *MOT: thats your little chair .
 *CHI: no ladder .
@@ -386,15 +391,15 @@
 *CHI: climb up .
 *CHI: fall .
 *CHI: climb up .
-*MOT: youre climbing up ?
+*MOT: youre climbing up .
 *CHI: oh yes .
 *CHI: ap thats it .
 *CHI: blow one .
-*MOT: youre going to blow one ?
+*MOT: youre going to blow one .
 *CHI: 0 .
-*MOT: oh !
-*MOT: that did make a noise at the end didnt it ?
-*MOT: oh  Thomas .
+*MOT: oh .
+*MOT: that did make a noise at the end didnt it .
+*MOT: oh Thomas .
 *MOT: look .
 *MOT: theres some red ones .
 *MOT: some yellow ones .
@@ -412,16 +417,16 @@
 *CHI: no .
 *MOT: well I was thinking I must get some for Christmas .
 *MOT: and when we went out this morning .
-*MOT: oh  Thomas .
+*MOT: oh Thomas .
 *MOT: youve leaked already .
-*MOT: when we went out this morning we saw them didnt we ?
-*CHI: hao funny noise come from ?
-*MOT: funny noise come from ?
+*MOT: when we went out this morning we saw them didnt we .
+*CHI: hao funny noise come from .
+*MOT: funny noise come from .
 *CHI: yes .
 *MOT: right .
 *MOT: youre going to hafta have your vest changed now .
 *MOT: because youre a bit wet arent you ?
-*MOT: no ?
+*MOT: no .
 *CHI: no .
 *MOT: oh I think you mean yes .
 *CHI: no .
@@ -431,45 +436,48 @@
 *CHI: yellow whistles .
 *MOT: yellow whistles .
 *CHI: oh look .
-*MOT: all different colors the whistles arent there ?
+*MOT: all different colors the whistles arent there .
 *CHI: yeah .
 *MOT: right .
-*MOT: would you just like to lift your arms up and take your vest off
+*MOT: would you just like to lift your arms up and take your vest off .
 *CHI: lot of whistles .
 *MOT: a lot of whistles .
 *CHI: what a mess .
-*MOT: what a mess ?
+*MOT: what a mess .
+*CHI: digger .
 *CHI: lot of let .
 *CHI: whistle out .
-*MOT: what are you saying ?
+*CHI: digger .
+*MOT: what are you saying .
 *CHI: digger the whistle .
-*CHI: a whistles ?
-*MOT: you talking about the digger ?
+*CHI: digger .
+*CHI: a whistles .
+*MOT: you talking about the digger .
 *CHI: no the whistles out .
 *CHI: oh dear .
 *CHI: funny noises .
-*MOT: funny noises ?
+*MOT: funny noises .
 *CHI: yes yes .
 *CHI: there funny .
-*MOT: youre making funny noises arent you ?
+*MOT: youre making funny noises arent you .
 *CHI: no ap cant .
 *MOT: I think you are .
 *CHI: no .
-*MOT: you normally get whistles at birthday partys dont you ?
+*MOT: you normally get whistles at birthday partys dont you .
 *CHI: yeah .
 *MOT: do you remember going to Rachels .
 *MOT: well it was Jonathans party actually .
 *MOT: I think .
 *MOT: the last one .
-*MOT: and you got a whistle and we found it not many weeks ago didn't
+*MOT: and you got a whistle and we found it not many weeks ago didnt .
 *CHI: what Mummy found it .
 *MOT: Mummy found it .
 *MOT: yes .
-*MOT: we were looking through some things and we came across it didn't
+*MOT: we were looking through some things and we came across it didnt .
 *CHI: digger come .
 *CHI: the crane ap lift Mummy up .
-*MOT: a crane ?
-*MOT: youre going to lift Mummy up ?
+*MOT: a crane .
+*MOT: youre going to lift Mummy up .
 *CHI: yes .
 *MOT: can you just lie down please and well get this done .
 *CHI: 0 .
@@ -477,85 +485,86 @@
 *MOT: we put some cream on didnt we ?
 *MOT: before we came out .
 *MOT: before we went out we put some cream on .
-*MOT: and it has obviously been working because you dont look quite as
-*MOT: you going to use your potty soon ?
+*MOT: and it has obviously been working because you dont look quite as .
+*MOT: you going to use your potty soon .
 *CHI: oh no .
-*MOT: no ?
+*MOT: no .
 *CHI: ap blow whistle .
-*MOT: you wanna blow the whistles instead ?
-*MOT: do you remember when we went to Abigails christening on Sunday ?
+*MOT: you wanna blow the whistles instead .
+*MOT: do you remember when we went to Abigails christening on Sunday .
 *MOT: that little boy called Harry ?
 *MOT: he was a lot younger than you .
-*MOT: and he sat on a potty didnt he ?
+*MOT: and he sat on a potty didnt he .
 *CHI: little whistle .
 *CHI: all done .
 *CHI: leave it there .
-*MOT: youre leaving the whistles there are you ?
+*MOT: youre leaving the whistles there are you .
 *CHI: yeah .
 *MOT: they should be .
 *CHI: oh dear .
 *CHI: this one .
-*MOT: there should be eleven whistles because we asked for ten and the
+*MOT: there should be eleven whistles because we asked for ten and the .
 *MOT: Ill give you one extra in case ones not working .
-*MOT: that was nice of her wasnt it ?
+*MOT: that was nice of her wasnt it .
 *CHI: mhm yeah .
 *CHI: oops .
-*MOT: you going to lie down ?
+*MOT: you going to lie down .
 *CHI: no .
-*MOT: what are you thinking ?
+*MOT: what are you thinking .
 *MOT: youve gone quiet .
 *CHI: no .
-*MOT: thinking about birthday partys ?
-*MOT: no ?
-*MOT: no .
-*MOT: are you feeling alright ?
+*MOT: thinking about birthday partys .
 *CHI: no .
-*MOT: whats the matter  sweetheart ?
+*MOT: no .
+*MOT: no .
+*MOT: are you feeling alright .
+*CHI: no .
+*MOT: whats the matter sweetheart .
 *CHI: sit down .
-*MOT: you wanna sit down ?
+*MOT: you wanna sit down .
 *MOT: thats alright .
 *MOT: you can sit down .
 *CHI: whistles .
 *CHI: whistles .
 *MOT: there are a lot of whistles .
 *CHI: hao funny .
-*MOT: can you look at the whistles and tell me whats on them ?
+*MOT: can you look at the whistles and tell me whats on them .
 *MOT: look .
 *MOT: these have circles .
-*MOT: can you see these round shapes ?
-*MOT: but this one has
+*MOT: can you see these round shapes .
+*MOT: but this one has .
 *MOT: a star shape .
 *MOT: like twinkle twinkle little star .
 *MOT: some have stars and some have circles .
-*MOT: theyre all different colors arent they ?
+*MOT: theyre all different colors arent they .
 *CHI: oh no .
 *CHI: not lie down .
 *CHI: no .
-*MOT: you dont wanna lie down ?
-*CHI: no ?
-*CHI: hello  whistles .
-*CHI: what ap doing round here ?
+*MOT: you dont wanna lie down .
+*CHI: no .
+*CHI: hello whistles .
+*CHI: what ap doing round here .
 *MOT: hello whistles .
-*MOT: what are you doing round here ?
-*CHI: poo !
-*CHI: smell disgusting !
+*MOT: what are you doing round here .
+*CHI: poo .
+*CHI: smell disgusting .
 *CHI: lot of whistle .
 *MOT: laughs .
-*MOT: poo you smell disgusting ?
+*MOT: poo you smell disgusting .
 *MOT: a lot of whistles ?
 *MOT: laughs .
 *MOT: a lot of whistles together dont smell disgusting .
 *CHI: oh yes .
 *MOT: you keep saying that because of that book .
-*MOT: last night when I was getting you to sleep I said “shall we have a
-*MOT: and instead of you saying the one about the dog that goes for a
+*MOT: last night when I was getting you to sleep I said “shall we have a .
+*MOT: and instead of you saying the one about the dog that goes for a .
 *CHI: poo farty pants .
-*MOT: poo farty pants ?
+*MOT: poo farty pants .
 *MOT: no .
 *MOT: you didnt say that .
 *MOT: you said “poo you smell disgusting one” .
 *CHI: 0 .
-*MOT: no  Thomas .
+*MOT: no Thomas .
 *MOT: dont .
 *MOT: because youre going to hurt Mummys neck doing that .
 *CHI: lot ap stars .
@@ -566,42 +575,43 @@
 *CHI: green cir shapes .
 *MOT: shapes .
 *MOT: thats right .
-*CHI: whats that ?
+*CHI: whats that .
 *MOT: thats star shaped .
 *MOT: like the stars in the sky at night .
 *CHI: no night .
-*MOT: night night ?
+*CHI: night .
+*MOT: night night .
 *CHI: no star shapes .
 *CHI: no stars .
-*MOT: no stars ?
+*MOT: no stars .
 *CHI: more stars .
 *CHI: no get ap train past .
 *CHI: no .
-*MOT: you building a train ?
+*MOT: you building a train .
 *CHI: yes .
-*MOT: you build
+*MOT: you build .
 *CHI: digger please .
 *CHI: yes please .
-*MOT: have you just had a wee  Thomas ?
+*MOT: have you just had a wee Thomas .
 *CHI: yeah .
 *MOT: oh dear dear .
 *CHI: wipe it off for you .
-*MOT: youre wiping it off for me ?
+*MOT: youre wiping it off for me .
 *MOT: thank you .
-*MOT: is that what you wanted to do ?
+*MOT: is that what you wanted to do .
 *CHI: yeah .
 *CHI: trains .
 *MOT: not to worry .
 *MOT: right .
 *MOT: lets lift your arms up .
 *CHI: ap dropped .
-*MOT: youve dropped a whistle ?
-*MOT: youre a good boy doing that arent you ?
+*MOT: youve dropped a whistle .
+*MOT: youre a good boy doing that arent you .
 *CHI: have a digger please .
 *CHI: have a digger .
 *MOT: in the .
 *MOT: have a digger .
-*MOT: tidy up ?
+*MOT: tidy up .
 *MOT: you wanna do some tidying up ?
 *MOT: well .
 *CHI: mind shoes .
@@ -609,29 +619,29 @@
 *CHI: not worry shoes .
 *MOT: dont .
 *CHI: 0 .
-*CHI: not worry !
+*CHI: not worry .
 *MOT: dont worry shoes .
-*MOT: I dont think theyre really worrying are they ?
+*MOT: I dont think theyre really worrying are they .
 *CHI: no no .
 *MOT: no .
 *CHI: shouted .
 *CHI: a policeman shouted .
-*MOT: the policeman shouted ?
+*MOT: the policeman shouted .
 *CHI: mhm .
-*MOT: which policeman ?
-*CHI: shouted very loud !
-*MOT: shh !
+*MOT: which policeman .
+*CHI: shouted very loud .
+*MOT: shh .
 *MOT: dont shout .
-*MOT: the policeman shouted very loud ?
+*MOT: the policeman shouted very loud .
 *CHI: mhm yes .
-*MOT: which policeman  Thomas ?
+*MOT: which policeman Thomas .
 *CHI: policeman boy .
-*MOT: policeman boy ?
+*MOT: policeman boy .
 *CHI: yes .
 *CHI: here you are .
 *CHI: some bit of soap .
 *CHI: bit of a soap .
-*MOT: bit of soap ?
+*MOT: bit of soap .
 *CHI: bit of .
 *CHI: big ears .
 *CHI: big eyes .
@@ -640,51 +650,51 @@
 *MOT: hello .
 *CHI: bye .
 *MOT: bye bye .
-*CHI: hello  Mummy .
-*MOT: hello  Thomas .
+*CHI: hello Mummy .
+*MOT: hello Thomas .
 *CHI: big tummy willie .
-*MOT: thats not nice is it ?
+*MOT: thats not nice is it .
 *MOT: saying that ?
 *CHI: oh .
-*CHI: no driver !
+*CHI: no driver .
 *CHI: oh no .
-*MOT: what has happened to the driver of the digger ?
-*CHI: ap find him  Mummy .
-*MOT: well I looked for him yesterday  Thomas .
+*MOT: what has happened to the driver of the digger .
+*CHI: ap find him Mummy .
+*MOT: well I looked for him yesterday Thomas .
 *MOT: and I couldnt see him .
 *MOT: I dont know what has happened .
 *MOT: I dont know where he has gone .
-*MOT: have you put him somewhere safe ?
+*MOT: have you put him somewhere safe .
 *CHI: oh yes .
-*MOT: can you remember where ?
+*MOT: can you remember where .
 *CHI: yes .
-*MOT: whereabouts ?
+*MOT: whereabouts .
 *CHI: no Mummy find .
 *MOT: no but Mummy cant find it .
 *MOT: because Ive looked and I couldnt see him .
 *MOT: but if you remember where youve put him .
-*MOT: then that would be really helpful wouldnt it ?
+*MOT: then that would be really helpful wouldnt it .
 *CHI: mhm yeah .
 *MOT: it would be helpful if you could tell me .
-*MOT: can you not remember ?
+*MOT: can you not remember .
 *CHI: no .
 *MOT: oh dear .
 *CHI: no digger man .
-*MOT: no digger man ?
+*MOT: no digger man .
 *CHI: truck down .
 *CHI: truck .
 *CHI: tired .
-*MOT: the trucks tired ?
+*MOT: the trucks tired .
 *CHI: yeah .
 *CHI: big green truck .
-*MOT: its tired ?
+*MOT: its tired .
 *CHI: yes .
 *CHI: a big green truck .
-*MOT: do you mean it has got a lot of tyres ?
-*MOT: or you mean its tired sleepy ?
-*MOT: it wants a rest ?
+*MOT: do you mean it has got a lot of tyres .
+*MOT: or you mean its tired sleepy .
+*MOT: it wants a rest .
 *CHI: big big green truck .
-*MOT: sleep like that ?
+*MOT: sleep like that .
 *MOT: youre lying down to show me .
 *CHI: green truck .
 *MOT: that sort of sleepy .
@@ -695,10 +705,10 @@
 *MOT: those are blue wheels on your digger .
 *CHI: no blue wheels .
 *CHI: green wheels .
-*MOT: did it have green wheels as well ?
+*MOT: did it have green wheels as well .
 *MOT: the truck ?
 *CHI: brown wheels .
-*MOT: did it have brown wheels ?
+*MOT: did it have brown wheels .
 *CHI: mhm .
 *MOT: yes .
 *MOT: I think it had normal wheels didnt it ?
@@ -707,93 +717,95 @@
 *CHI: big green .
 *CHI: not fall down .
 *MOT: not fall down .
-*CHI: green truck going ?
+*CHI: green truck going .
 *MOT: just lie still now while we get this done .
-*MOT: we had got you all cleaned up hadnt we ?
+*MOT: we had got you all cleaned up hadnt we .
 *MOT: and then you did a wee so weve hadta do it again .
-*MOT: think well put some more special cream on  Thomas .
+*MOT: think well put some more special cream on Thomas .
 *CHI: oh no no .
 *CHI: cant .
-*MOT: cant ?
+*MOT: cant .
 *CHI: no no cream .
-*MOT: no cream ?
+*MOT: no cream .
 *CHI: no sore .
 *CHI: no .
 *MOT: no .
-*MOT: but weve put cream on before and its so much better than it was
-*MOT: so if we keep putting cream on then hopefully by bedtime its going
+*MOT: but weve put cream on before and its so much better than it was .
+*MOT: so if we keep putting cream on then hopefully by bedtime its going .
 *CHI: cream better .
 *MOT: this special cream makes it better .
-*MOT: do you remember that day you fell in the park ?
-*MOT: and you grazed your knee ?
-*MOT: and when you got to Grandma and Granddads house Granddad put some
+*MOT: do you remember that day you fell in the park .
+*MOT: and you grazed your knee .
+*MOT: and when you got to Grandma and Granddads house Granddad put some .
 *MOT: magic cream .
 *MOT: doesnt always work .
 *MOT: but sometimes its nice .
-*CHI: digger doing ?
+*CHI: digger doing .
 *MOT: now you just lie still a moment there please .
-*CHI: digger doing ?
+*CHI: digger doing .
 *MOT: just lie still a minute please .
 *MOT: just lie still a minute please .
+*CHI: digger .
 *CHI: go up .
-*MOT: is that what the digger does ?
+*MOT: is that what the digger does .
 *MOT: it goes up ?
 *CHI: yes .
 *CHI: down .
-*MOT: up and down ?
+*MOT: up and down .
 *CHI: down bump .
 *CHI: oh dear .
 *CHI: what a mess .
 *MOT: oh dear .
-*MOT: what goes up and down and bumps ?
-*MOT: and then you say “oh dear what a mess” ?
+*MOT: what goes up and down and bumps .
+*MOT: and then you say “oh dear what a mess” .
 *MOT: what are you talking about now ?
 *MOT: just lie still please .
 *CHI: lie down no .
 *MOT: no .
 *MOT: Im sorry .
 *MOT: I know you dont wanna lie down .
-*MOT: what are you talking about that goes up and down ?
+*MOT: what are you talking about that goes up and down .
 *MOT: and makes a mess ?
 *CHI: poo .
-*CHI: poo  Mummy .
+*CHI: poo Mummy .
 *CHI: farty pants .
 *CHI: smell disgusting .
 *MOT: no .
 *MOT: Mummy doesnt smell disgusting .
-*MOT: that is not a nice thing to say  Thomas .
+*MOT: that is not a nice thing to say Thomas .
 *MOT: Mummy smells nice .
 *CHI: look bit ap stick .
-*MOT: bit of what  darling ?
+*MOT: bit of what darling .
 *CHI: bit of stick .
 *CHI: bit of stick .
 *CHI: no .
-*CHI: hello  something .
+*CHI: hello something .
 *CHI: hello .
 *CHI: something .
-*MOT: whats that matter ?
+*MOT: whats that matter .
 *CHI: something there .
-*MOT: theres something there ?
+*MOT: theres something there .
 *CHI: yeah .
-*MOT: youve seen something ?
-*MOT: do you know what it is ?
+*MOT: youve seen something .
+*MOT: do you know what it is .
 *MOT: its a bit of Cornflake stuck to your trousers .
 *MOT: from breakfast time .
 *MOT: because these arent the trous .
-*CHI: no !
-*MOT: Thomas whats the matter ?
+*CHI: no .
+*MOT: Thomas whats the matter .
 *CHI: crunch .
-*MOT: crunch ?
+*MOT: crunch .
 *CHI: crunch .
-*MOT: there ?
+*MOT: there .
+*CHI: yeah .
 *MOT: no .
 *MOT: its on the outside of the trousers .
-*MOT: so its not hurting your foot is it ?
+*MOT: so its not hurting your foot is it .
 *MOT: there we are .
 *MOT: weve scraped off .
 *MOT: these are not the trousers that you go out in .
-*MOT: these are just a pair of trousers that well slip on now before
-*MOT: because weve got to get some clean trousers
+*MOT: these are just a pair of trousers that well slip on now before .
+*MOT: because weve got to get some clean trousers .
 *CHI: chew it .
 *MOT: oh no .
 *MOT: dont eat that .
@@ -802,21 +814,21 @@
 *MOT: no .
 *MOT: because that Corn those Cornflakes are left from breakfast .
 *MOT: and theyve got .
-*CHI: oh no no !
+*CHI: oh no no .
 *MOT: and theyve got milk on them .
-*MOT: so ugh !
-*MOT: can you imagine ?
+*MOT: so ugh .
+*MOT: can you imagine .
 *CHI: no I cant .
-*MOT: no you cant ?
+*MOT: no you cant .
 *CHI: no ap the digger going back .
 *MOT: Ill get the digger for you .
 *CHI: bump digger bump .
-*MOT: Ill tell you  Thomas .
+*MOT: Ill tell you Thomas .
 *MOT: they wont be very nice .
-*MOT: theyll be all soggy and soft and the milk has probably gone sour
+*MOT: theyll be all soggy and soft and the milk has probably gone sour .
 *CHI: drink .
 *CHI: mm .
-*MOT: you cant drink milk that has gone sour can you ?
+*MOT: you cant drink milk that has gone sour can you .
 *CHI: oh .
 *MOT: thats silly .
 *CHI: not silly .
@@ -826,12 +838,13 @@
 *MOT: theres the digger .
 *CHI: no digger .
 *MOT: theres the digger .
-*CHI: no  Mummy !
-*MOT: whats the matter ?
-*MOT: Thomas whats the matter ?
+*CHI: no Mummy .
+*CHI: no .
+*MOT: whats the matter .
+*MOT: Thomas whats the matter .
 *CHI: 0 .
-*MOT: pardon ?
-*MOT: you want some whistles ?
+*MOT: pardon .
+*MOT: you want some whistles .
 *CHI: yes .
 *MOT: well Im just trying to clear the table .
 *MOT: weve got to have lunch .
@@ -839,147 +852,152 @@
 *MOT: there .
 *CHI: there .
 *MOT: there you are .
+*CHI: there .
 *MOT: there are a lot of whistles there .
 *CHI: no .
 *CHI: oh dear .
-*MOT: what do you want  poppet ?
+*MOT: what do you want poppet .
 *CHI: 0 .
-*MOT: you want all the whistles ?
+*MOT: you want all the whistles .
 *CHI: yeah .
-*MOT: well why didnt you say that ?
+*MOT: well why didnt you say that .
 *MOT: please .
-*CHI: please !
-*MOT: please may I have all the whistles ?
+*CHI: please .
+*MOT: please may I have all the whistles .
 *CHI: please may ap whistles .
 *MOT: there you are .
 *MOT: thats all the whistles now .
 *CHI: up .
-*MOT: you happy now ?
+*MOT: you happy now .
 *CHI: yeah .
 *MOT: good .
 *CHI: up .
 *CHI: going up .
-*MOT: its going up ?
-*MOT: what are you doing ?
-*MOT: lifting all the diggers up ?
-*MOT: with your whistle ?
-*MOT: uh lifting all the whistles up with your digger ?
-*MOT: Thomas ?
+*MOT: its going up .
+*MOT: what are you doing .
+*MOT: lifting all the diggers up .
+*MOT: with your whistle .
+*MOT: uh lifting all the whistles up with your digger .
+*MOT: Thomas .
 *CHI: yeah .
-*MOT: yes ?
-*MOT: is that what youre doing ?
-*MOT: Mummys just checking while Ive got the pram back here that we've
+*MOT: yes .
+*MOT: is that what youre doing .
+*MOT: Mummys just checking while Ive got the pram back here that weve .
 *CHI: not go on .
-*MOT: will they not fit in ?
+*MOT: will they not fit in .
 *CHI: no .
 *CHI: yes .
 *CHI: ap do fit in .
-*MOT: they do fit in ?
+*MOT: they do fit in .
 *CHI: yes .
-*MOT: bit of a strange shape really arent they ?
+*MOT: bit of a strange shape really arent they .
 *MOT: to go in there .
 *CHI: look .
 *CHI: oh dear .
 *CHI: oh no .
-*MOT: whats that ?
+*MOT: whats that .
 *CHI: one whistle fall down .
-*MOT: one whistle has fallen down ?
+*MOT: one whistle has fallen down .
 *CHI: getting all up .
 *CHI: ap cant .
 *CHI: digger no .
 *CHI: no dig .
-*MOT: Thomas whats the matter ?
+*MOT: Thomas whats the matter .
 *CHI: no digger .
 *CHI: no .
+*CHI: digger .
 *CHI: lot of whistles .
 *CHI: going up .
 *CHI: there .
 *MOT: whistles going up there .
 *MOT: youre lifting them high in the air .
-*MOT: but youve got to hold onto them havent you ?
+*MOT: but youve got to hold onto them havent you .
 *MOT: to support them .
-*MOT: they dont travel easily on their own do they ?
+*MOT: they dont travel easily on their own do they .
 *CHI: going down .
-*MOT: do you feel a bit happier now ?
+*MOT: do you feel a bit happier now .
 *CHI: yeah .
 *MOT: good .
-*MOT: you were a bit upset before werent you ?
+*MOT: you were a bit upset before werent you .
 *MOT: I dont know why .
-*MOT: whove we seen today ?
-*MOT: have we seen Ben and Charlotte ?
+*MOT: whove we seen today .
+*MOT: have we seen Ben and Charlotte .
 *CHI: no .
 *MOT: we have .
 *MOT: and Lynne .
-*MOT: we havent seen Isabelle though have we ?
+*MOT: we havent seen Isabelle though have we .
 *MOT: because shes on holiday .
 *MOT: and we didnt see Jo and Becky because theyre on holiday .
-*MOT: everybodys on holiday  Thomas .
+*MOT: everybodys on holiday Thomas .
+*CHI: everybody .
 *MOT: everybodys on holiday .
-*MOT: we went on holiday a few weeks ago didnt we ?
-*MOT: do you remember ?
+*MOT: we went on holiday a few weeks ago didnt we .
+*MOT: do you remember .
 *CHI: yeah .
 *CHI: Nana 0and Granddad .
 *MOT: with Grandma and Granddad .
 *MOT: thats right .
-*MOT: and where did we go ?
+*MOT: and where did we go .
 *CHI: Thomas there .
-*MOT: where did we go ?
+*MOT: where did we go .
 *CHI: went ap MacDonalds .
-*MOT: went too MacDonalds ?
+*MOT: went too MacDonalds .
 *CHI: yeah .
-*MOT: well I think we went to Spain  Thomas .
+*MOT: well I think we went to Spain Thomas .
 *CHI: ap have a mixer .
-*MOT: have a mixer ?
+*MOT: have a mixer .
 *CHI: yes please .
-*MOT: well I think the mixer is upstairs isnt it ?
+*MOT: well I think the mixer is upstairs isnt it .
 *CHI: yeah .
 *MOT: in the bathroom .
 *CHI: dumper truck .
-*MOT: dumper truck ?
+*MOT: dumper truck .
+*CHI: yeah .
 *MOT: alright .
-*MOT: would you just like to wipe your nose ?
-*MOT: please dont get upset  Thomas .
+*MOT: would you just like to wipe your nose .
+*MOT: please dont get upset Thomas .
 *MOT: its not worth it .
 *CHI: ap snotsnotc .
-*MOT: snotsnotc ?
+*MOT: snotsnotc .
 *CHI: yes .
 *CHI: toottoottooto .
-*MOT: you talking about a pig ?
-*MOT: when you say snotsnotc ?
+*MOT: you talking about a pig .
+*MOT: when you say snotsnotc .
 *CHI: oh yes it is .
 *CHI: snotsnotc .
-*MOT: why dont you say pig instead of snotsnotc ?
+*MOT: why dont you say pig instead of snotsnotc .
 *CHI: dumper truck .
 *CHI: taking lot of letters .
 *CHI: lot in there .
 *CHI: whistles .
-*MOT: whistles ?
+*CHI: whistles .
+*MOT: whistles .
 *CHI: up .
 *MOT: a lot of whistles in the dumper truck .
 *CHI: oh no no .
 *MOT: oh dear .
 *MOT: what has happened ?
 *CHI: one fall down .
-*MOT: one has fallen down ?
+*MOT: one has fallen down .
 *MOT: oh dear dear .
 *CHI: train .
 *CHI: oh thats it .
 *CHI: oh no .
 *CHI: one fall down .
 *MOT: yes .
-*MOT: well I think theyre quite a strange shape  Thomas .
+*MOT: well I think theyre quite a strange shape Thomas .
 *CHI: there .
 *MOT: yeah .
 *CHI: oh .
 *CHI: funny .
-*MOT: is it funny ?
-*MOT: you did that very well actually havent you ?
+*MOT: is it funny .
+*MOT: you did that very well actually havent you .
 *CHI: yeah .
-*CHI: sorry  Mummy .
+*CHI: sorry Mummy .
 *CHI: not mean that .
-*MOT: sorry  Mummy ?
-*MOT: not mean that ?
-*MOT: what ?
+*MOT: sorry Mummy .
+*MOT: not mean that .
+*MOT: what .
 *MOT: to get upset earlier on ?
 *CHI: another one miss .
 *MOT: it doesnt matter my darling .
@@ -987,70 +1005,71 @@
 *CHI: no .
 *MOT: we have days like this when we just dont feel .
 *MOT: look Ive found three more whistles .
-*CHI: three more whistles !
-*MOT: we have days like that when we just feel fed up dont we ?
+*CHI: three more whistles .
+*MOT: we have days like that when we just feel fed up dont we .
 *CHI: oh .
 *CHI: no fit in .
-*MOT: fit in ?
+*MOT: fit in .
 *CHI: oh yeah .
 *MOT: very good .
-*MOT: thats clever isnt it ?
-*MOT: is it exciting that theyve all fitted in ?
+*MOT: thats clever isnt it .
+*MOT: is it exciting that theyve all fitted in .
 *CHI: oh yeah .
 *MOT: right .
 *MOT: there you are .
 *MOT: lets have some lunch now .
 *MOT: lets put the whistles there .
-*MOT: you can look at them while youre eating your lunch cant you ?
+*MOT: you can look at them while youre eating your lunch cant you .
+*CHI: no .
 *CHI: look at them .
 *MOT: yes .
 *MOT: you can still look at them .
-*CHI: oh !
-*MOT: Thomas  listen to Mummy .
+*CHI: oh .
+*MOT: Thomas listen to Mummy .
 *MOT: if you get them very dirty with food well hafta throw them away .
 *MOT: so youre better just leaving them there .
 *MOT: looking at them while you eat your lunch .
 *MOT: then play with them afterwards .
-*MOT: yes ?
+*MOT: yes .
 *MOT: you can still look at them .
 *MOT: oops a daisy .
 *CHI: hm .
 *MOT: there you are .
 *MOT: youve got a sausage roll .
-*MOT: would you like some cheese as well ?
-*MOT: no ?
+*MOT: would you like some cheese as well .
+*MOT: no .
 *CHI: here it is .
-*MOT: we didnt go to the sausage roll shop did we ?
+*MOT: we didnt go to the sausage roll shop did we .
 *CHI: no .
 *CHI: round ap round .
-*MOT: its going round and round ?
+*MOT: its going round and round .
 *MOT: I can hear you crunching on those crisps .
-*MOT: when you go and stay with Grandma and Granddad you can take one of
+*MOT: when you go and stay with Grandma and Granddad you can take one of .
 *CHI: oh .
 *CHI: no .
-*MOT: are you going to stay with them ?
+*MOT: are you going to stay with them .
 *CHI: no .
-*MOT: no ?
-*MOT: do you not wanna go and stay with Grandma and Granddad ?
+*MOT: no .
+*MOT: do you not wanna go and stay with Grandma and Granddad .
 *CHI: no .
 *MOT: oh you always .
 *CHI: no Sharon ap David .
 *MOT: oh Sharon and David .
-*MOT: youre going to see Sharon and David and Auntie Patty ?
+*MOT: youre going to see Sharon and David and Auntie Patty .
 *CHI: no .
 *CHI: no Auntie Patty .
 *CHI: no .
-*MOT: well surely it will be more fun than staying at home with just
+*MOT: well surely it will be more fun than staying at home with just .
 *CHI: no Auntie Patty .
 *CHI: no holidays .
-*MOT: no Auntie Patty ?
-*MOT: no holidays ?
+*MOT: no Auntie Patty .
+*MOT: no holidays .
 *CHI: yeah .
-*MOT: do you not wanna go and stay ?
+*MOT: do you not wanna go and stay .
 *CHI: no .
-*MOT: Im sure you will when you get there  Thomas .
+*MOT: Im sure you will when you get there Thomas .
 *CHI: no .
-*CHI: Mummy doing ?
+*CHI: Mummy doing .
 *MOT: Mummy was just checking the green lights working .
 *MOT: because you normally tell me and you havent told me today .
 *CHI: oh .
@@ -1061,94 +1080,94 @@
 *CHI: no .
 *CHI: two one .
 *CHI: tip out .
-*MOT: tip them all out ?
-*MOT: you using the trailer to tip them all out onto the table ?
+*MOT: tip them all out .
+*MOT: you using the trailer to tip them all out onto the table .
 *CHI: mhm .
 *MOT: your hairs all sticking up .
 *MOT: because you had a woolly hat on this morning when we went out .
 *MOT: and its all sticking up .
-*MOT: you shaking your head like you do when you see Dimitra ?
+*MOT: you shaking your head like you do when you see Dimitra .
 *CHI: hm .
 *CHI: no do that .
-*MOT: she shakes her head like that doesnt she ?
+*MOT: she shakes her head like that doesnt she .
 *MOT: she does it so that you can see her hair moving .
-*MOT: it makes you laugh doesnt it ?
-*MOT: are you going to have a little bit more sausage roll ?
+*MOT: it makes you laugh doesnt it .
+*MOT: are you going to have a little bit more sausage roll .
 *CHI: no .
 *MOT: no thank you .
 *CHI: no thank you .
-*MOT: would you like some cheese ?
+*MOT: would you like some cheese .
 *CHI: no no Mummy eat it .
-*MOT: Mummy eat it ?
+*MOT: Mummy eat it .
 *CHI: yes please .
 *CHI: eat ap Lalas .
-*MOT: eat a Lalas ?
+*MOT: eat a Lalas .
 *CHI: yeah .
 *CHI: na funny Lalas .
-*MOT: what are Lalas ?
+*MOT: what are Lalas .
 *CHI: funny .
-*MOT: theyre funny ?
+*MOT: theyre funny .
 *MOT: yes .
-*MOT: but what are Lalas ?
+*MOT: but what are Lalas .
 *CHI: funny .
-*MOT: what do you mean Lalas are funny ?
+*MOT: what do you mean Lalas are funny .
 *CHI: pooppoopsc .
 *MOT: pooppoopsc .
 *CHI: papo .
-*MOT: I really dont know what youre meaning  Thomas .
+*MOT: I really dont know what youre meaning Thomas .
 *CHI: Mummy do that .
-*MOT: what would you like Mummy to do ?
+*MOT: what would you like Mummy to do .
 *CHI: two pappapc .
 *MOT: pappapc .
 *CHI: ap do that .
 *MOT: you useta say that in the summer .
 *MOT: when we were sitting outside .
 *MOT: and we could hear trains coming past .
-*MOT: you were always telling Brian and Linda that the trains were saying
+*MOT: you were always telling Brian and Linda that the trains were saying .
 *CHI: pappapo .
-*MOT: we had that storybook dont we ?
-*MOT: Thomas The Tank Engine where one of the engines stays in the tunnel
+*MOT: we had that storybook dont we .
+*MOT: Thomas The Tank Engine where one of the engines stays in the tunnel .
 *MOT: but the other trains when they go past they say poop poop .
-*MOT: you know the story Im talking about ?
+*MOT: you know the story Im talking about .
 *CHI: mhm .
-*MOT: which is the train ?
+*MOT: which is the train .
 *CHI: oh Henry .
-*MOT: Henry ?
+*MOT: Henry .
 *CHI: mhm .
-*MOT: does Henry say poop poop ?
+*MOT: does Henry say poop poop .
 *CHI: oh yeah .
-*MOT: or is Henry the one stuck in the tunnel ?
+*MOT: or is Henry the one stuck in the tunnel .
 *CHI: Henry in ap tunnel .
-*MOT: is it not Percy that gets stuck in the tunnel ?
+*MOT: is it not Percy that gets stuck in the tunnel .
 *CHI: ap no .
 *CHI: Henry .
 *MOT: its Henry .
-*MOT: Henry and Percy are both green arent they ?
-*MOT: or is Percy green ?
+*MOT: Henry and Percy are both green arent they .
+*MOT: or is Percy green .
 *CHI: Percy green .
 *MOT: I only know that Thomas The Tank Engine is blue .
 *MOT: and that Henrys green .
 *MOT: I get mixed up with .
 *MOT: oh I know that Jamess red .
 *MOT: because the storybook says that James is a cheerful red engine .
-*MOT: but everything weve read about Percy he seems very grumpy
+*MOT: but everything weve read about Percy he seems very grumpy .
 *MOT: he doesnt seem a happy engine .
 *MOT: I feel grumpy sometimes .
 *CHI: yeah .
 *MOT: yes .
 *CHI: poo .
-*MOT: poo ?
+*MOT: poo .
 *CHI: yeah .
 *MOT: oh dear .
 *CHI: empty ap papers out .
-*MOT: empty the papers out ?
-*MOT: is that what you saw the recycling people do this morning ?
-*MOT: emptying the papers out ?
-*MOT: youve actually got a touch of cold at the moment havent you ?
+*MOT: empty the papers out .
+*MOT: is that what you saw the recycling people do this morning .
+*MOT: emptying the papers out .
+*MOT: youve actually got a touch of cold at the moment havent you .
 *CHI: no .
 *MOT: so I think thats why youre grumpy .
 *MOT: youve not been sleeping .
-*MOT: remember what Mummy said about if you get food on them  Thomas .
+*MOT: remember what Mummy said about if you get food on them Thomas .
 *MOT: weve got to throw them away .
 *CHI: hm .
 *MOT: if you get crumbs on them .
@@ -1157,70 +1176,70 @@
 *MOT: you mustnt do that please .
 *CHI: ap .
 *CHI: 0 .
-*MOT: eat some lunch and then we can have your hands washed and you can
+*MOT: eat some lunch and then we can have your hands washed and you can .
 *CHI: ap sticky .
-*MOT: whats sticky ?
+*MOT: whats sticky .
 *CHI: sticky hands .
-*MOT: youve got sticky hands ?
+*MOT: youve got sticky hands .
 *CHI: no .
 *MOT: oh .
 *MOT: I thought you said you had .
 *CHI: no I cant .
-*MOT: your hands arent sticky ?
+*MOT: your hands arent sticky .
 *CHI: oh dear .
 *CHI: ap bed .
-*MOT: oh dear what ?
+*MOT: oh dear what .
 *CHI: ap bed .
 *MOT: sounds like youre saying oh dear busy ap bed .
 *CHI: no Percy ap bed .
-*MOT: Percy a bed ?
+*MOT: Percy a bed .
 *CHI: a bed .
 *CHI: yeah .
-*MOT: Percy the tank engine ?
+*MOT: Percy the tank engine .
 *CHI: mhm .
-*MOT: do you mean he has gone to bed in the shed with the other engines
+*MOT: do you mean he has gone to bed in the shed with the other engines .
 *CHI: mhm .
 *CHI: Gordon .
 *CHI: Gordon there .
 *MOT: Gordons in the engine shed .
 *CHI: yeah .
-*MOT: who else is in the engine sheds ?
+*MOT: who else is in the engine sheds .
 *MOT: there you are .
-*MOT: would you like a few more crisps ?
-*MOT: because you didnt have em  a full packet before .
+*MOT: would you like a few more crisps .
+*MOT: because you didnt have em a full packet before .
 *MOT: it was just a few that were left from the other day .
 *CHI: oh no .
 *MOT: there we are .
 *MOT: theres some bread there as well .
 *MOT: oh oops a daisy .
-*MOT: is that the dumper truck falling on the floor ?
+*MOT: is that the dumper truck falling on the floor .
 *CHI: yes yes .
 *CHI: here you are .
 *MOT: thank you .
-*MOT: are these for me ?
+*MOT: are these for me .
 *CHI: mhm .
-*MOT: oh thank you very much  Thomas .
+*MOT: oh thank you very much Thomas .
 *MOT: thats nice of you to share .
-*MOT: youre a good boy sharing things arent you ?
+*MOT: youre a good boy sharing things arent you .
 *CHI: here you are .
 *MOT: oh thank you very very much .
-*MOT: have you got enough yourself ?
+*MOT: have you got enough yourself .
 *CHI: oh yes .
 *MOT: youve got plenty without uh .
 *CHI: mhm .
-*MOT: having these ?
+*MOT: having these .
 *CHI: mhm .
 *CHI: oh dear .
 *CHI: space .
 *MOT: a little space .
 *CHI: space rocket .
-*MOT: a space rocket ?
+*MOT: a space rocket .
 *CHI: yeah .
-*MOT: do you think the whistles look like a space rocket ?
-*MOT: wow !
+*MOT: do you think the whistles look like a space rocket .
+*MOT: wow .
 *CHI: space rocket fall down .
-*MOT: the space rocket fall down ?
-*MOT: thats another book isnt it ?
+*MOT: the space rocket fall down .
+*MOT: thats another book isnt it .
 *MOT: when we read about Tom and Pippo the monkey .
 *MOT: because Tom sees the moon in the sky .
 *MOT: and he rather fancies visitting the moon .
@@ -1228,79 +1247,79 @@
 *CHI: get in the rocket .
 *MOT: thats right .
 *MOT: and Tom says hed like to go to the moon .
-*MOT: and Daddy said people have been to the moon but they hafta go in a
+*MOT: and Daddy said people have been to the moon but they hafta go in a .
 *MOT: and so Tom said well hed like to go with Pippo in the rocket .
 *MOT: and Daddy should come too .
 *MOT: yes .
 *MOT: but then his Daddy says the moons a very very long way away .
 *MOT: so Tom thinks well perhaps well go to the moon another day .
 *MOT: tonight well just go too bed .
-*MOT: and the storybook shows him sitting there looking out of the window
+*MOT: and the storybook shows him sitting there looking out of the window .
 *CHI: Purdie crying .
-*MOT: Purdies crying ?
-*MOT: hello  Purdie .
-*MOT: whats the matter  sweetheart ?
-*CHI: what happen  sweetheart ?
-*MOT: hello  Purdie .
+*MOT: Purdies crying .
+*MOT: hello Purdie .
+*MOT: whats the matter sweetheart ?
+*CHI: what happen sweetheart .
+*MOT: hello Purdie .
 *CHI: not see her .
-*MOT: oh are you saying “what happen  sweetheart” because thats what I
-*MOT: what happen  sweetheart ?
-*CHI: hello  sweetheart .
+*MOT: oh are you saying “what happen sweetheart” because thats what I .
+*MOT: what happen sweetheart .
+*CHI: hello sweetheart .
 *MOT: yes .
-*MOT: shes Mummys sweetheart isnt she ?
+*MOT: shes Mummys sweetheart isnt she .
 *CHI: yes .
 *MOT: oops .
 *CHI: oh dear .
 *MOT: Mummy just dropped her little biscuit .
 *MOT: we saw .
-*CHI: silly  Purdie .
+*CHI: silly Purdie .
 *MOT: no .
 *MOT: it wasnt Purdies fault .
 *MOT: it was Mummys fault .
 *MOT: for being a silly Mummy .
-*MOT: we saw Lynne Ben and Charlottes pussy cat didnt we ?
+*MOT: we saw Lynne Ben and Charlottes pussy cat didnt we .
 *MOT: today .
-*MOT: whats their pussy cat called ?
+*MOT: whats their pussy cat called .
 *CHI: lion .
-*MOT: lion ?
+*MOT: lion .
 *MOT: no .
 *MOT: its tiger .
 *MOT: its called tiger .
 *MOT: its not fluffy like Purdie .
-*MOT: but its a very dark color isnt it ?
+*MOT: but its a very dark color isnt it .
 *MOT: like Purdie .
 *MOT: a mackerel tabby .
 *MOT: very dark color .
-*CHI: hello  Purdie .
+*CHI: hello Purdie .
 *CHI: mhm .
-*MOT: poor  Thomas .
-*MOT: youve got a runny nose havent you ?
+*MOT: poor Thomas .
+*MOT: youve got a runny nose havent you .
 *CHI: no .
 *MOT: oh dont sniff .
 *MOT: thats not nice .
-*CHI: here you are  Purdie .
-*MOT: you offering Purdie a whistle ?
-*MOT: oh I dont think Purdie will like those  Thomas .
+*CHI: here you are Purdie .
+*MOT: you offering Purdie a whistle .
+*MOT: oh I dont think Purdie will like those Thomas .
 *MOT: theyre going to be a little bit too loud for her .
-*MOT: and do you remember what Mummy said to you the other day ?
-*MOT: you never point near anybodys face do you ?
+*MOT: and do you remember what Mummy said to you the other day .
+*MOT: you never point near anybodys face do you .
 *MOT: you do them to the side .
 *MOT: you never ever point them direct in somebodys face .
 *MOT: thats a good boy .
 *MOT: that is a good boy .
 *MOT: but Purdies not going to like them .
-*MOT: she doesnt like noises does she ?
+*MOT: she doesnt like noises does she .
 *CHI: no .
-*MOT: here you are  sweetheart .
+*MOT: here you are sweetheart .
 *CHI: 0 .
-*MOT: now just because I said Purdie doesnt like noises doesnt mean you
-*MOT: shes eating her lunch isnt she ?
+*MOT: now just because I said Purdie doesnt like noises doesnt mean you .
+*MOT: shes eating her lunch isnt she .
 *MOT: its always best not to disturb her when shes eating .
 *MOT: oh dear .
-*MOT: what happened ?
+*MOT: what happened .
 *MOT: did you start to cough ?
 *CHI: poo .
-*CHI: farty pants  Purdie .
+*CHI: farty pants Purdie .
 *CHI: big nipsc .
 *CHI: ap big tummy .
 *MOT: no .
@@ -1314,115 +1333,115 @@
 *MOT: no .
 *MOT: she might have a big tummy because she has eaten a lot of food .
 *MOT: but she hasnt anything else that youre saying .
-*MOT: so what do you say to Mummy for buying you those whistles ?
+*MOT: so what do you say to Mummy for buying you those whistles .
 *CHI: thank you .
 *CHI: tad much indeed .
 *MOT: thank you .
 *MOT: tad much indeed .
-*MOT: its quite alright  Thomas .
+*MOT: its quite alright Thomas .
 *CHI: poo .
 *CHI: farty pants .
 *MOT: no .
 *CHI: big tummy .
 *MOT: no .
-*CHI: big tummy  Purdie .
+*CHI: big tummy Purdie .
 *MOT: no .
 *MOT: she hasnt .
-*MOT: Im just saying her tummy might be a little bit large after she
+*MOT: Im just saying her tummy might be a little bit large after she .
 *MOT: but she has not really got a fat tummy .
-*MOT: shes very nice isnt she ?
+*MOT: shes very nice isnt she .
 *CHI: shh .
-*MOT: you telling her to be quiet ?
-*MOT: can you hear her chewing her food ?
+*MOT: you telling her to be quiet .
+*MOT: can you hear her chewing her food .
 *CHI: funny .
 *MOT: thats right .
 *MOT: its funny .
 *MOT: shes biting and crunching .
-*MOT: what does she do ?
+*MOT: what does she do .
 *CHI: big fat tummy .
 *MOT: oh no .
 *MOT: she hasnt a big fat tummy .
-*MOT: she has finished her lunch now anyway hasnt she ?
+*MOT: she has finished her lunch now anyway hasnt she .
 *CHI: she sleep a video .
-*MOT: sleep a video ?
+*MOT: sleep a video .
 *CHI: yes .
 *CHI: yeah please .
 *CHI: watch a video .
-*MOT: you wanna watch a video ?
+*MOT: you wanna watch a video .
 *CHI: yeah .
-*MOT: you wanna sleep in front of a video ?
+*MOT: you wanna sleep in front of a video .
 *CHI: yes please .
 *MOT: Thomas Henry Lastname .
 *MOT: no .
 *MOT: weve got things to do .
-*CHI: bye bye  Purdie .
+*CHI: bye bye Purdie .
 *CHI: see you in the mornit .
-*CHI: see you in the mornit
-*MOT: you waving bye bye to Purdie ?
+*CHI: see you in the mornit .
+*MOT: you waving bye bye to Purdie .
 *CHI: bye bye little Purdie .
 *MOT: you telling her youll see her in the morning .
-*CHI: see you in the mornit
-*MOT: you always say “mornitc” dont you ?
+*CHI: see you in the mornit .
+*MOT: you always say “mornitc” dont you .
 *MOT: you useta say morning .
-*MOT: would you like some more bread ?
+*MOT: would you like some more bread .
 *CHI: poop poop .
-*MOT: crispy bread ?
+*MOT: crispy bread .
 *CHI: no no .
-*MOT: no no ?
-*CHI: pah !
+*MOT: no no .
+*CHI: pah .
 *MOT: oh you said “no no” and youre eating it straight away .
-*MOT: I think you meant yes didnt you ?
+*MOT: I think you meant yes didnt you .
 *CHI: yeah .
 *MOT: yes .
 *CHI: big fat tummy .
-*MOT: big fat tummy ?
-*MOT: oh  Thomas .
+*MOT: big fat tummy .
+*MOT: oh Thomas .
 *CHI: hao .
-*MOT: if you go round telling everybody that theyve got big fat tummys
-*MOT: nobodys going to wanna mix with a little boy who tells them
-*MOT: and can you imagine if people kept telling you you had a big fat
-*MOT: you wouldnt be very pleased would you ?
+*MOT: if you go round telling everybody that theyve got big fat tummys .
+*MOT: nobodys going to wanna mix with a little boy who tells them .
+*MOT: and can you imagine if people kept telling you you had a big fat .
+*MOT: you wouldnt be very pleased would you .
 *CHI: no .
 *MOT: no .
 *MOT: you wouldnt .
 *MOT: right .
 *MOT: whats Mummy doing now ?
-*CHI: what happened ?
+*CHI: what happened .
 *MOT: well Im just plugging the iron in .
-*MOT: because while youre finishing your lunch Mummy can start ironing
+*MOT: because while youre finishing your lunch Mummy can start ironing .
 *MOT: they werent dry enough earlier on when I was doing some ironing .
 *MOT: I think theyre alright now .
-*MOT: and were going to hafta put the check trousers in the washing
+*MOT: and were going to hafta put the check trousers in the washing .
 *CHI: mhm .
 *CHI: washbasin .
 *CHI: washbasin .
-*MOT: the washbasin ?
+*MOT: the washbasin .
 *CHI: mhm .
-*MOT: are you thinking again about the Tom and Pippo story ?
+*MOT: are you thinking again about the Tom and Pippo story .
 *CHI: mhm .
 *CHI: space rocket .
-*MOT: space rocket ?
-*MOT: well Tom and Pippo went out didnt they ?
+*MOT: space rocket .
+*MOT: well Tom and Pippo went out didnt they .
 *MOT: with their Mummy for a walk .
 *MOT: and I think .
-*MOT: were they running up a hill ?
+*MOT: were they running up a hill .
 *CHI: ap space rocket .
-*MOT: a space rocket ?
+*MOT: a space rocket .
 *MOT: I think they were running either up or down a hill and they fell .
-*MOT: and when they got home Mummy hadta put Tom straight in the bath and
-*MOT: the washbasin didnt she ?
-*MOT: and then what happened ?
+*MOT: and when they got home Mummy hadta put Tom straight in the bath and .
+*MOT: the washbasin didnt she .
+*MOT: and then what happened .
 *MOT: after they had got all nice and clean and dry .
-*MOT: they sat in front of the fire and had
+*MOT: they sat in front of the fire and had .
 *CHI: warm drink .
 *MOT: a warm drink .
 *MOT: thats right .
-*MOT: what do you think they were drinking ?
+*MOT: what do you think they were drinking .
 *CHI: drinking Pippos .
-*MOT: what do you think they were drinking ?
+*MOT: what do you think they were drinking .
 *CHI: drinking Pippos .
-*MOT: Pippos ?
-*MOT: whats Pippos ?
+*MOT: Pippos .
+*MOT: whats Pippos .
 *CHI: Pippo .
 *MOT: they might have been drinking warm milk .
 *CHI: yeah .
@@ -1430,16 +1449,16 @@
 *CHI: drinking .
 *MOT: it could have been hot chocolate .
 *CHI: Mummy do it .
-*MOT: Thomas just remember what Ive said about the whistles in the food
+*MOT: Thomas just remember what Ive said about the whistles in the food .
 *MOT: if they get dirty theyve got to go in the bin .
 *MOT: no .
 *MOT: not in the food .
 *CHI: all fall down again .
-*MOT: theyve fallen down ?
+*MOT: theyve fallen down .
 *CHI: yes .
 *MOT: look .
 *MOT: theres an apple here .
-*MOT: would you like some apple ?
+*MOT: would you like some apple .
 *MOT: here you are .
 *CHI: no .
 *CHI: ap there .
@@ -1451,34 +1470,35 @@
 *MOT: we cant have a big apple .
 *MOT: theres apple there .
 *CHI: a big one .
-*MOT: no  Thomas .
+*MOT: no Thomas .
 *MOT: its all cut up nicely for you .
 *CHI: no cut nice .
+*CHI: no .
 *MOT: no .
 *MOT: because if you have a big one Ive got to stay with you .
-*MOT: to make sure you dont start eating the core and the pips and all
-*MOT: and Mummy has just started doing some ironing hasnt she ?
-*MOT: you usually have a big apple with Daddy at bedtime dont you ?
+*MOT: to make sure you dont start eating the core and the pips and all .
+*MOT: and Mummy has just started doing some ironing hasnt she .
+*MOT: you usually have a big apple with Daddy at bedtime dont you .
 *MOT: you sit on Daddys knee and share an apple .
 *MOT: or a banana .
 *MOT: sometimes both .
-*CHI: pear ?
+*CHI: pear .
 *CHI: the .
 *CHI: space rocket .
-*MOT: you talking about the space rocket again ?
-*MOT: is that what you would take to the moon if you were visitting ?
-*MOT: youd take an apple banana and some pears ?
+*MOT: you talking about the space rocket again .
+*MOT: is that what you would take to the moon if you were visitting .
+*MOT: youd take an apple banana and some pears .
 *CHI: yeah .
-*MOT: would you ?
-*MOT: what else would you take ?
+*MOT: would you .
+*MOT: what else would you take .
 *CHI: oranges .
-*MOT: oranges ?
+*MOT: oranges .
 *CHI: pears .
 *MOT: yes .
 *MOT: oranges and pears .
-*MOT: what else ?
+*MOT: what else .
 *CHI: bananas .
-*MOT: bananas ?
+*MOT: bananas .
 *CHI: mhm .
 *MOT: because it is a very very long way away .
 *MOT: the moon isnt it ?
@@ -1488,6 +1508,8 @@
 *MOT: there we are .
 *MOT: trousers ironed .
 *MOT: Ill just go and see if theres anything else .
+*MOT: while .
+*CHI: no .
 *MOT: while Ive got the ironing board out .
 *CHI: iron board .
 *CHI: ap .

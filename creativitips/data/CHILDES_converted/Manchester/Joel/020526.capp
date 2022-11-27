@@ -3,7 +3,7 @@
 *INV: goat .
 *CHI: goat .
 *CHI: more pig .
-*INV: a baby pig  that .
+*INV: a baby pig that .
 *CHI: another dog .
 *INV: another dog .
 *INV: oh .
@@ -16,8 +16,8 @@
 *INV: oh .
 *INV: another pig .
 *CHI: clipclop .
-*CHI: fall over  horse .
-*INV: fall over  horse .
+*CHI: fall over horse .
+*INV: fall over horse .
 *CHI: mooo .
 *INV: mooo .
 *CHI: oh .
@@ -69,11 +69,11 @@
 *CHI: theres a horse .
 *CHI: theres a horse .
 *CHI: clipclop .
-*CHI: fall over  horse .
+*CHI: fall over horse .
 *CHI: oh .
 *CHI: this is horse .
 *MOT: you like horses .
-*MOT: we go to see the horses  dont we ?
+*MOT: we go to see the horses dont we ?
 *INV: mhm .
 *CHI: horse .
 *CHI: me have some more please .
@@ -111,14 +111,14 @@
 *MOT: that ones not a goat .
 *MOT: baby cow called a calf .
 *MOT: is that with its Mummy ?
-*MOT: that ones lying down  look .
+*MOT: that ones lying down look .
 *MOT: its gonna rain .
 *MOT: oh .
 *MOT: it is raining .
 *CHI: hes eating grass .
 *MOT: is he eating grass ?
-*MOT: he is  isnt he ?
-*CHI: hes eating grass  look .
+*MOT: he is isnt he ?
+*CHI: hes eating grass look .
 *INV: mhm .
 *MOT: and what would you like next ?
 *MOT: the goat ?
@@ -141,7 +141,7 @@
 *CHI: I want another horse .
 *INV: you want the other horse ?
 *MOT: you want that horse ?
-*MOT: that ones lying down as well  isnt he ?
+*MOT: that ones lying down as well isnt he ?
 *CHI: its not very .
 *MOT: its not very what ?
 *CHI: very .
@@ -161,7 +161,7 @@
 *MOT: those dogs help the farmer with the sheep .
 *CHI: no .
 *CHI: this dog .
-*MOT: you havent got any sheep though down there  have you ?
+*MOT: you havent got any sheep though down there have you ?
 *CHI: this is a sheep .
 *MOT: thats right .
 *CHI: Carolines .
@@ -169,10 +169,10 @@
 *CHI: baao .
 *MOT: oh .
 *CHI: two .
-*CHI: look  Gordon .
+*CHI: look Gordon .
 *CHI: shoes and socks .
 *MOT: well .
-*MOT: theres still lots more up here  look .
+*MOT: theres still lots more up here look .
 *MOT: dont you want any pigs ?
 *MOT: rabbits .
 *MOT: a goose .
@@ -186,12 +186,12 @@
 *INV: now .
 *INV: I think these baby lambs want their Mummy .
 *MOT: oh yeah .
-*MOT: theyre all on their own  look .
+*MOT: theyre all on their own look .
 *INV: look .
-*MOT: they should be with their Mummy really  shouldnt they ?
+*MOT: they should be with their Mummy really shouldnt they ?
 *CHI: wheres my Mummy ?
 *CHI: wheres my Mummy ?
-*MOT: there  look .
+*MOT: there look .
 *INV: can they come down and be with their Mummy ?
 *MOT: put them with their Mummy ?
 *CHI: come you come and have your Mummys .
@@ -219,8 +219,8 @@
 *CHI: frolicking .
 *MOT: www .
 *CHI: look .
-*CHI: that is  Mummy ?
-*CHI: that  Mummy ?
+*CHI: that is Mummy ?
+*CHI: that Mummy ?
 *MOT: www .
 *MOT: what that is ?
 *MOT: thats um dollys clothes by the looks of it .
@@ -229,9 +229,9 @@
 *MOT: what a big pig .
 *MOT: what does a pig say ?
 *CHI: hes got in here .
-*MOT: youre not gonna do it  are you ?
-*CHI: your Daddy  look .
-*INV: a pig say  Joel ?
+*MOT: youre not gonna do it are you ?
+*CHI: your Daddy look .
+*INV: a pig say Joel ?
 *CHI: baao .
 *MOT: no .
 *MOT: that was a sheep .
@@ -245,7 +245,8 @@
 *CHI: a chocolate one .
 *CHI: mm .
 *INV: chocolate beefburger ?
-*MOT: you can get Mars Bars fried now  cant you ?
+*CHI: chocolate .
+*MOT: you can get Mars Bars fried now cant you ?
 *MOT: at the chip shop .
 *MOT: www .
 *CHI: would you like .
@@ -254,20 +255,20 @@
 *MOT: you want some money ?
 *CHI: thank you .
 *MOT: whatve we got ?
-*INV: just put these up here because I
+*INV: just put these up here because I .
 *MOT: oh .
 *MOT: whats that one ?
 *CHI: twenty pence .
 *MOT: fifty fifty pence .
 *INV: www .
-*CHI: this is
+*CHI: this is .
 *MOT: thats a twenty pence .
 *CHI: thirteen ninety nine .
 *MOT: is it thirteen ninety nine .
 *CHI: thirteen ninety nine .
 *CHI: there .
 *MOT: well .
-*MOT: you keep that then because youve paid for it now  havent you ?
+*MOT: you keep that then because youve paid for it now havent you ?
 *CHI: paid for it .
 *MOT: yeah .
 *MOT: yours now and youve paid for it .
@@ -275,7 +276,7 @@
 *MOT: for a while .
 *CHI: paid for chicken ?
 *MOT: paid for chicken .
-*MOT: here you are  look .
+*MOT: here you are look .
 *MOT: give you some money for the chicken .
 *MOT: and which ones that one like ?
 *MOT: look .
@@ -304,7 +305,7 @@
 *MOT: the Queens nose .
 *MOT: and does she rub the Queens nose and make a wish ?
 *CHI: yeah .
-*MOT: she she turned her Grandma into a frog  didnt she ?
+*MOT: she she turned her Grandma into a frog didnt she ?
 *CHI: yeah .
 *MOT: oh .
 *CHI: got sink .
@@ -322,13 +323,13 @@
 *INV: I know you do .
 *INV: yeah .
 *INV: Mummy says you do .
-*CHI: its Queens nose  look .
+*CHI: its Queens nose look .
 *INV: I know its the Queens nose .
 *INV: yes .
 *CHI: look .
 *INV: you rub it .
 *INV: and make a wish .
-*INV: can you remember the little girls name who
+*INV: can you remember the little girls name who .
 *CHI: I dont know .
 *MOT: is it Harmony ?
 *CHI: Harmony .
@@ -363,7 +364,7 @@
 *MOT: oh .
 *CHI: stop it .
 *MOT: is he being naughty ?
-*INV: Ive got something else thats new  look  Joel .
+*INV: Ive got something else thats new look Joel .
 *CHI: hooray .
 *MOT: oh .
 *MOT: look .
@@ -387,7 +388,7 @@
 *MOT: it was nearly a year ago since you went on Thomas .
 *CHI: I went on Thomas .
 *MOT: mhm .
-*MOT: I bet you cant remember it though  can you ?
+*MOT: I bet you cant remember it though can you ?
 *INV: no .
 *MOT: we should have waited until you were a bit older I think .
 *MOT: because you had your broken arm .
@@ -420,27 +421,28 @@
 *MOT: steamroller wheels .
 *MOT: oh .
 *MOT: is he stuck ?
-*INV: I think he hasta sit down actually  Joel in there .
+*INV: I think he hasta sit down actually Joel in there .
 *MOT: yeah .
-*MOT: hes a bit tall  isnt he ?
+*MOT: hes a bit tall isnt he ?
 *MOT: is he a big big man .
 *INV: shall we sit him down ?
 *CHI: oh .
 *INV: yeah .
 *INV: like that .
-*MOT: thats a bit like your Thomas book  isnt it when theyre taking
+*MOT: thats a bit like your Thomas book isnt it when theyre taking .
 *MOT: and Thomas takes those tigers .
 *CHI: thanks .
 *CHI: thanks .
 *CHI: bye .
-*MOT: bye  horse .
-*CHI: bye  horse .
+*MOT: bye horse .
+*CHI: bye horse .
 *MOT: is that where he lives ?
 *CHI: yeah .
 *CHI: thanks .
-*CHI: bye  horse .
+*CHI: bye horse .
 *CHI: horse .
 *MOT: made up now .
+*INV: so .
 *INV: whatre we going to put in here now .
 *MOT: oh .
 *MOT: look .
@@ -469,9 +471,9 @@
 *MOT: thank you .
 *INV: stick the tiger in there then with the penguin .
 *MOT: thats the .
-*MOT: sit him down  look .
+*MOT: sit him down look .
 *MOT: and then he fits .
-*MOT: he cant see where hes going  can he ?
+*MOT: he cant see where hes going can he ?
 *MOT: got no window .
 *MOT: www .
 *MOT: hey .
@@ -497,14 +499,14 @@
 *INV: and hell hafta go .
 *INV: yes .
 *INV: hell definitely hafta lie down that one .
-*MOT: all these animals having a nice ride  arent they on this train .
+*MOT: all these animals having a nice ride arent they on this train .
 *CHI: hes willnt fit .
 *INV: he willnt stick .
 *INV: no .
 *INV: hell fit in it but he willnt stick down .
 *MOT: too long .
 *MOT: oh .
-*MOT: hippos getting lots of rides  he is  isnt he ?
+*MOT: hippos getting lots of rides he is isnt he ?
 *MOT: oh .
 *MOT: well .
 *MOT: he was .
@@ -538,7 +540,7 @@
 *MOT: whats his name then ?
 *CHI: driver .
 *MOT: oh .
-*MOT: its not like Ted the driver or
+*MOT: its not like Ted the driver or .
 *INV: no .
 *INV: hes just driver driver .
 *MOT: www .
@@ -552,11 +554,11 @@
 *CHI: there .
 *CHI: there .
 *CHI: that .
-*INV: perhaps he could go on the top here  look .
+*INV: perhaps he could go on the top here look .
 *MOT: oh yeah .
 *MOT: is he riding shotgun ?
-*INV: thats a bit naughty  isnt it ?
-*MOT: like with bandits  eh ?
+*INV: thats a bit naughty isnt it ?
+*MOT: like with bandits eh ?
 *INV: mhm .
 *CHI: oh .
 *CHI: bang .
@@ -572,7 +574,7 @@
 *MOT: oh .
 *CHI: thanks .
 *MOT: well .
-*MOT: hes a happy chappie  isnt he ?
+*MOT: hes a happy chappie isnt he ?
 *MOT: cant open the door now .
 *MOT: oh .
 *CHI: its that way .
@@ -589,7 +591,7 @@
 *MOT: oh .
 *MOT: you hafta sit him down .
 *MOT: is he sitting down ?
-*MOT: think he hasta sit down  doesnt he  sweetheart ?
+*MOT: think he hasta sit down doesnt he sweetheart ?
 *MOT: dont you like him sitting down ?
 *CHI: I got job to do .
 *MOT: got a job to do ?
@@ -597,14 +599,14 @@
 *CHI: what ?
 *MOT: what job hafta got to do ?
 *CHI: drivers got to do .
-*MOT: drivers got to do it  has he ?
+*MOT: drivers got to do it has he ?
 *CHI: this .
 *MOT: yeah .
 *MOT: hes a bit tall .
 *MOT: youll hafta squash him down a bit .
 *MOT: get his legs .
 *MOT: well .
-*MOT: now theres nobody to drive the train now  is there ?
+*MOT: now theres nobody to drive the train now is there ?
 *MOT: oh .
 *MOT: the train definitely is too big .
 *MOT: well .
@@ -614,17 +616,17 @@
 *CHI: just drop you off .
 *MOT: is he being naughty ?
 *MOT: shouldnt really .
-*MOT: you hafta be a proper train driver  dont you to drive a train .
+*MOT: you hafta be a proper train driver dont you to drive a train .
 *CHI: crash .
 *MOT: youd have lots of crashes if just any old person drove the train .
-*CHI: byebye  train .
+*CHI: byebye train .
 *CHI: oh .
 *CHI: I got job to do .
 *CHI: got job to do .
 *CHI: look .
 *MOT: busy ?
 *MOT: yes .
-*MOT: covered in pen  arent you ?
+*MOT: covered in pen arent you ?
 *CHI: pen .
 *MOT: has he got a job to do ?
 *CHI: yeah .
@@ -652,12 +654,12 @@
 *MOT: whore you going to playgroup with after Christmas ?
 *CHI: Mummy .
 *MOT: oh .
-*MOT: youre not interested  are you ?
+*MOT: youre not interested are you ?
 *MOT: oh .
-*MOT: there you go  look .
+*MOT: there you go look .
 *CHI: where this bit ?
 *INV: like that .
-*INV: dont fall out  Mr Man .
+*INV: dont fall out Mr Man .
 *INV: Mr driver .
 *CHI: what about a bridge ?
 *CHI: what about a bridge ?
@@ -670,7 +672,7 @@
 *MOT: oh .
 *MOT: thats a good idea .
 *MOT: yes .
-*MOT: trains go under bridges  dont they ?
+*MOT: trains go under bridges dont they ?
 *MOT: www .
 *MOT: um .
 *CHI: oh .
@@ -683,13 +685,13 @@
 *MOT: www .
 *CHI: thanks .
 *CHI: oh .
-*CHI: got  jobs to do .
+*CHI: got jobs to do .
 *CHI: right .
 *CHI: got I got jobs to do .
 *CHI: got drive the train .
 *CHI: got drive the train .
 *MOT: oh .
-*MOT: hes just busy  isnt he that train driver .
+*MOT: hes just busy isnt he that train driver .
 *MOT: it never ends .
 *MOT: what ?
 *CHI: choochooo .
@@ -719,8 +721,8 @@
 *MOT: there .
 *MOT: thats a bit more stable .
 *MOT: oh .
-*MOT: not very good at this  am I ?
-*MOT: my bridge keeps collapsing  Joel .
+*MOT: not very good at this am I ?
+*MOT: my bridge keeps collapsing Joel .
 *MOT: its gonna collapse in a minute .
 *MOT: your train goes up to it .
 *MOT: oh .
@@ -734,8 +736,8 @@
 *MOT: oh .
 *MOT: coming round again ?
 *MOT: there .
-*MOT: better put
-*MOT: pull him that end  look .
+*MOT: better put .
+*MOT: pull him that end look .
 *MOT: get hold of the train here .
 *MOT: there .
 *MOT: pull .
@@ -758,7 +760,7 @@
 *INV: oh bumped .
 *MOT: yeah .
 *CHI: the train driver .
-*CHI: this  Mummy .
+*CHI: this Mummy .
 *CHI: train driver .
 *CHI: Im happy .
 *CHI: up the stairs go .
@@ -773,14 +775,14 @@
 *MOT: oh .
 *MOT: monkey .
 *MOT: oh .
-*MOT: monkey banged his head  didnt he ?
+*MOT: monkey banged his head didnt he ?
 *MOT: oh .
 *MOT: poor monkey .
 *CHI: wanna drive .
 *CHI: no wanna drive .
 *CHI: no wanna drive .
 *CHI: this want drive .
-*CHI: this want drive  Mummy .
+*CHI: this want drive Mummy .
 *CHI: this wanna drive .
 *MOT: who wants to drive ?
 *MOT: monkey ?
@@ -789,17 +791,17 @@
 *MOT: whats the matter ?
 *CHI: this way .
 *INV: do you wanna put him in there ?
-*MOT: thiss come off here  look .
+*MOT: thiss come off here look .
 *MOT: oh .
 *MOT: what about that then .
 *MOT: oh .
 *CHI: crash .
 *MOT: oh dear .
 *CHI: crash .
-*MOT: train trains gone without him  look .
+*MOT: train trains gone without him look .
 *MOT: oh no .
 *MOT: the drivers fallen out .
-*MOT: its not a very good train then  is it ?
+*MOT: its not a very good train then is it ?
 *CHI: oh not .
 *MOT: oh .
 *MOT: eh ?
@@ -816,7 +818,7 @@
 *CHI: can help us ?
 *CHI: can you help us ?
 *MOT: want a what ?
-*CHI: look  Mummy .
+*CHI: look Mummy .
 *MOT: what is it ?
 *CHI: come off .
 *MOT: has it come off ?

@@ -19,14 +19,14 @@
 *MOT: you think it looks like a bee .
 *MOT: no .
 *MOT: its not .
-*MOT: its a
+*MOT: its a .
 *MOT: what do hens lay ?
 *MOT: whats that ?
 *INV: okay .
 *INV: shall I have a look at these then ?
 *CHI: mhm .
 *MOT: right .
-*MOT: youre excited to be home early with your Mummy  arent you ?
+*MOT: youre excited to be home early with your Mummy arent you ?
 *MOT: are you excited ?
 *MOT: are you excited ?
 *MOT: are you ?
@@ -70,7 +70,7 @@
 *MOT: what what did you play with ?
 *INV: hello .
 *MOT: come and tell me what you played with .
-*MOT: what was in hospital  Ruth ?
+*MOT: what was in hospital Ruth ?
 *CHI: story .
 *CHI: story .
 *CHI: story .
@@ -91,7 +91,7 @@
 *CHI: no .
 *MOT: oh Ruth .
 *MOT: what was in the playroom ?
-*MOT: there was lots lots of toys  werent there ?
+*MOT: there was lots lots of toys werent there ?
 *MOT: what kind of toys were in the room ?
 *CHI: baba story .
 *MOT: babas .
@@ -99,18 +99,18 @@
 *MOT: babys .
 *MOT: and what else ?
 *MOT: I tell you what what was in the room .
-*MOT: there was one just a horsie just like yours  wasnt there ?
+*MOT: there was one just a horsie just like yours wasnt there ?
 *CHI: huh ?
 *MOT: there was .
 *MOT: wasnt there a horsie just like that ?
 *MOT: yeah .
-*MOT: and we played
+*MOT: and we played .
 *CHI: play milk .
 *MOT: what did you play ?
 *CHI: play milk .
 *MOT: did we ?
 *MOT: what did you make Mummy ?
-*MOT: you made Mummy tea  didnt you ?
+*MOT: you made Mummy tea didnt you ?
 *CHI: huh ?
 *MOT: do you remember ?
 *CHI: huh ?
@@ -125,7 +125,7 @@
 *MOT: I had milk with it .
 *MOT: good .
 *MOT: I had milk and I had some juice .
-*MOT: and you gave me a plate and a
+*MOT: and you gave me a plate and a .
 *MOT: gave me a plate and a cup .
 *MOT: and what did you give me to eat it with ?
 *MOT: come here .
@@ -159,7 +159,7 @@
 *CHI: milk .
 *MOT: milk .
 *MOT: be careful .
-*MOT: youre gonna go right
+*MOT: youre gonna go right .
 *MOT: Im warning you .
 *MOT: you be very careful .
 *MOT: youre not sposta do it that way .
@@ -185,7 +185,7 @@
 *MOT: whose baba are you ?
 *CHI: Mamas baba .
 *CHI: Annas baba .
-*MOT: you said you were Annas baba  didnt you ?
+*MOT: you said you were Annas baba didnt you ?
 *MOT: you said you werent Mummys baba .
 *MOT: www .
 *MOT: oh .
@@ -217,7 +217,7 @@
 *MOT: what did you have for your lunch ?
 *CHI: peas .
 *MOT: peas .
-*MOT: you always say that and I know you didnt have peas because I know
+*MOT: you always say that and I know you didnt have peas because I know .
 *MOT: it was sausages .
 *MOT: do you eat sausages ?
 *MOT: chips and beans .
@@ -245,14 +245,14 @@
 *MOT: when Anna goes .
 *MOT: Ruth .
 *MOT: www .
-*MOT: listen  Ruth .
+*MOT: listen Ruth .
 *MOT: I want you to tell Anna what you can do now .
 *MOT: youre very clever .
 *MOT: right .
 *MOT: come on .
 *MOT: but I bet you wont do this .
 *MOT: come and have a look at this book .
-*MOT: you wont do it because Mummy thinks youre very clever
+*MOT: you wont do it because Mummy thinks youre very clever .
 *MOT: come here .
 *MOT: look at this .
 *CHI: no .
@@ -270,7 +270,7 @@
 *CHI: no .
 *MOT: oh Ruth .
 *MOT: come here then .
-*CHI: boo boo  Mama .
+*CHI: boo boo Mama .
 *MOT: you can have some milk if you want .
 *MOT: do you want some milk ?
 *CHI: boo boo .
@@ -282,7 +282,7 @@
 *CHI: boo boo .
 *CHI: I want boo boo .
 *CHI: want boo boo .
-*MOT: no  Ruth .
+*MOT: no Ruth .
 *CHI: I want boo boo .
 *MOT: no .
 *CHI: I want boo boo .
@@ -295,8 +295,8 @@
 *MOT: no .
 *MOT: do you want some milk ?
 *MOT: do you want some milk ?
-*CHI: I want milk  Mama .
-*MOT: you want milk  do you ?
+*CHI: I want milk Mama .
+*MOT: you want milk do you ?
 *CHI: want milk too .
 *CHI: Mama get milk me .
 *MOT: Mummy get you milk .
@@ -337,7 +337,7 @@
 *CHI: out the door .
 *CHI: out the door .
 *CHI: out the door .
-*MOT: she wants to go out the door  do you hey ?
+*MOT: she wants to go out the door do you hey ?
 *MOT: www .
 *MOT: well Ruth .
 *MOT: Im only getting your milk darling .
@@ -350,44 +350,46 @@
 *MOT: www .
 *MOT: is that nice ?
 *MOT: do you want a book ?
-*MOT: well let me get
+*MOT: well let me get .
 *MOT: which one shall we get ?
 *MOT: www .
 *MOT: thank you .
 *MOT: is that better now ?
 *MOT: oh Ruth .
 *MOT: whats this one here ?
+*MOT: hickory .
 *CHI: no .
 *MOT: hickory dickory dock .
 *CHI: no .
 *CHI: dock .
+*MOT: the .
 *MOT: who ran up the clock ?
 *CHI: no .
 *MOT: the mouse ran up the clock .
-*MOT: the clock struck
+*MOT: the clock struck .
 *CHI: no .
 *MOT: what ?
 *CHI: no .
-*MOT: the mouse ran
+*MOT: the mouse ran .
 *CHI: down .
-*MOT: hickory dickory (dock)
+*MOT: hickory dickory dock .
 *CHI: dock .
 *MOT: oh .
 *CHI: doctor .
 *MOT: Doctor Foster .
 *CHI: doctor .
 *MOT: thats right .
-*MOT: Doctor Foster went to Gloucester in a shower of
+*MOT: Doctor Foster went to Gloucester in a shower of .
 *MOT: rain .
-*MOT: he stepped in a
+*MOT: he stepped in a .
 *MOT: puddle .
 *MOT: right up to his middle .
-*MOT: and never went there
+*MOT: and never went there .
 *CHI: again .
 *MOT: yeah .
-*MOT: Sally go round the
-*MOT: Sally go round the
-*MOT: Sally go round the
+*MOT: Sally go round the .
+*MOT: Sally go round the .
+*MOT: Sally go round the .
 *MOT: on a .
 *CHI: Saturday afternoon .
 *MOT: thats right .
@@ -401,36 +403,36 @@
 *MOT: these ones .
 *MOT: which one ?
 *CHI: there .
-*MOT: Old king Cole was a merry old
+*MOT: Old king Cole was a merry old .
 *CHI: soul .
-*MOT: and a merry old soul was
+*MOT: and a merry old soul was .
 *CHI: he .
-*MOT: he called for his
+*MOT: he called for his .
 *CHI: pipe .
-*MOT: and he called for his
+*MOT: and he called for his .
 *CHI: bowl .
 *CHI: there .
 *MOT: there .
-*MOT: and he called for his fiddlers
+*MOT: and he called for his fiddlers .
 *CHI: fiddler three .
 *MOT: three .
 *MOT: thats right .
-*MOT: there was an old woman who lived in a
+*MOT: there was an old woman who lived in a .
 *CHI: shoe .
-*MOT: she had so many children she didnt know
+*MOT: she had so many children she didnt know .
 *CHI: to do .
 *MOT: yeah .
-*MOT: she gave them some broth without any
+*MOT: she gave them some broth without any .
 *CHI: bread .
-*MOT: then scolded them soundly and
+*MOT: then scolded them soundly and .
 *MOT: no .
-*MOT: she sent them to
+*MOT: she sent them to .
 *CHI: bed .
 *MOT: bed .
 *MOT: thats a good girl .
 *CHI: no .
 *MOT: www .
-*MOT: this is the way we
+*MOT: this is the way we .
 *MOT: go on .
 *MOT: you do it .
 *MOT: what do we do ?
@@ -438,24 +440,24 @@
 *MOT: are you gonna do it ?
 *CHI: no .
 *MOT: oh well .
-*MOT: no point in me reading then if youre not going to
+*MOT: no point in me reading then if youre not going to .
 *MOT: wash our hands .
 *MOT: wash our hands .
-*MOT: this is the way we
+*MOT: this is the way we .
 *MOT: what do we do ?
 *MOT: oh yes .
 *MOT: this is the way we wash our face .
 *MOT: www .
-*MOT: this is the way we
+*MOT: this is the way we .
 *CHI: tie shoe .
 *MOT: tie our shoes .
 *MOT: tie our shoes .
-*MOT: this is the way we
+*MOT: this is the way we .
 *CHI: tie shoe .
-*MOT: on a cold and frosty
+*MOT: on a cold and frosty .
 *CHI: morning .
 *MOT: good girl .
-*MOT: Lucy Locket lost her
+*MOT: Lucy Locket lost her .
 *CHI: pocket .
 *MOT: Kitty Fisher found it .
 *CHI: there .
@@ -464,29 +466,31 @@
 *CHI: there .
 *MOT: yes .
 *MOT: there it is .
-*MOT: not a penny was there in it but a ribbon
+*MOT: not a penny was there in it but a ribbon .
 *CHI: there .
 *MOT: round it .
 *MOT: hey diddle diddle .
-*MOT: the cat and the
+*MOT: the cat and the .
 *MOT: fiddle .
+*MOT: the .
 *CHI: there .
 *MOT: the cow .
-*MOT: the cow jumped over the
+*MOT: the cow jumped over the .
 *CHI: moon .
 *MOT: the .
 *CHI: that .
-*MOT: the little dog
+*MOT: the little dog .
 *CHI: laugh .
-*MOT: to see such
+*MOT: to see such .
 *CHI: oh baba .
 *CHI: big cat .
 *CHI: baba cat .
 *MOT: thats right .
-*MOT: and the dish ran away with the
+*MOT: and the dish ran away with the .
 *CHI: spoon .
 *MOT: thats it .
 *MOT: whats this one here ?
+*MOT: two .
 *CHI: Peter .
 *CHI: Paul .
 *CHI: fly away Peter .
@@ -496,7 +500,7 @@
 *CHI: come back Paul .
 *MOT: good girl .
 *MOT: clever girl .
-*MOT: we like that one  dont we ?
+*MOT: we like that one dont we ?
 *MOT: thats clever .
 *MOT: higgledywp piggledywp .
 *CHI: come back Peter .
@@ -505,23 +509,25 @@
 *MOT: come back Peter .
 *MOT: come back Paul .
 *MOT: thats right .
-*MOT: higgledywp piggledywp my
+*MOT: higgledywp piggledywp my .
 *CHI: black hen .
 *MOT: thats right .
-*MOT: she lays
-*MOT: eggs for
+*MOT: she lays .
+*MOT: eggs for .
 *CHI: gentlemen .
 *MOT: thats right .
 *MOT: gentlemen .
+*MOT: sometimes .
 *CHI: four .
 *MOT: no .
 *MOT: not four .
+*MOT: sometimes .
 *CHI: four .
 *MOT: no .
 *MOT: nine .
 *CHI: nine .
 *MOT: nine .
-*MOT: and sometimes
+*MOT: and sometimes .
 *CHI: me .
 *MOT: no .
 *MOT: sometimes nine .
@@ -529,7 +535,7 @@
 *CHI: mhm .
 *MOT: say that .
 *CHI: ten .
-*MOT: higgledywp piggledywp my
+*MOT: higgledywp piggledywp my .
 *CHI: black hen .
 *MOT: good girl .
 *MOT: you clever old girl you .
@@ -542,7 +548,7 @@
 *MOT: shall we turn over ?
 *CHI: mhm .
 *MOT: would you like this one ?
-*MOT: dance to your
+*MOT: dance to your .
 *CHI: Mama .
 *MOT: dance to your Daddy .
 *CHI: Mama on there .
@@ -558,7 +564,7 @@
 *MOT: can you say fish ?
 *CHI: fish .
 *MOT: good girl .
-*MOT: what are you doing  Ruth ?
+*MOT: what are you doing Ruth ?
 *MOT: whatre you doing you silly girl ?
 *MOT: www .
 *MOT: what does the boat do ?
@@ -599,12 +605,12 @@
 *MOT: mickc ?
 *CHI: mhm .
 *MOT: I dont know what that is .
-*MOT: you can do this  rascal .
+*MOT: you can do this rascal .
 *MOT: www .
 *MOT: you little tinker .
 *MOT: you just do it on purpose .
 *MOT: one two three four five .
-*MOT: once I caught a
+*MOT: once I caught a .
 *CHI: fish .
 *MOT: fish alive .
 *MOT: thats right .
@@ -623,18 +629,18 @@
 *MOT: are you really ?
 *MOT: youre a little tease .
 *MOT: thats who you are .
-*MOT: Little Bo Peep has lost her
+*MOT: Little Bo Peep has lost her .
 *CHI: sheep .
 *MOT: and doesnt know where to find them .
-*MOT: leave them alone and theyll come
+*MOT: leave them alone and theyll come .
 *CHI: home .
-*MOT: wagging their tails behind
+*MOT: wagging their tails behind .
 *MOT: them .
 *MOT: right .
 *MOT: this is one of your favorite .
-*MOT: baa baa black
+*MOT: baa baa black .
 *CHI: sheep .
-*MOT: have you any
+*MOT: have you any .
 *CHI: wool .
 *MOT: yes .
 *CHI: in there .
@@ -646,14 +652,14 @@
 *MOT: one bag full .
 *MOT: is that right ?
 *CHI: no .
-*MOT: Ill put this away now because youre not
+*MOT: Ill put this away now because youre not .
 *MOT: Ill just hafta put it away now .
 *MOT: there we go .
 *MOT: books away now .
 *CHI: story .
 *MOT: what ?
 *CHI: story .
-*MOT: well youll hafta sit up and listen to it instead of being silly
+*MOT: well youll hafta sit up and listen to it instead of being silly .
 *MOT: go and get the story you want then .
 *CHI: no .
 *INV: hello .
@@ -680,7 +686,7 @@
 *CHI: mhm .
 *CHI: me on there .
 *MOT: oh .
-*MOT: we went to mass with those and you shared those with all the little
+*MOT: we went to mass with those and you shared those with all the little .
 *MOT: didnt everybody play with those ?
 *CHI: huh ?
 *MOT: huh ?
@@ -732,7 +738,7 @@
 *MOT: are you saying story ?
 *CHI: story .
 *MOT: thats better .
-*MOT: I dont know what you mean by story
+*MOT: I dont know what you mean by story .
 *MOT: story .
 *CHI: Mama story .
 *CHI: Mummy story .
@@ -750,8 +756,8 @@
 *MOT: thats a difficult one .
 *CHI: huh ?
 *MOT: huh ?
-*CHI: no  Mama .
-*CHI: no  Mama .
+*CHI: no Mama .
+*CHI: no Mama .
 *CHI: Mama story .
 *MOT: oh Mummy tell a story .
 *CHI: mhm .
@@ -809,7 +815,7 @@
 *CHI: no .
 *MOT: no monkeys .
 *CHI: mhm .
-*MOT: whats got a big think like this
+*MOT: whats got a big think like this .
 *MOT: whos that ?
 *MOT: hey .
 *MOT: whos that ?
@@ -817,7 +823,7 @@
 *MOT: its an elephant .
 *MOT: can you say elephant ?
 *MOT: elephant .
-*MOT: the elephant was so big that Mickey was
+*MOT: the elephant was so big that Mickey was .
 *MOT: so he ran away .
 *MOT: and do you know who he ran in to ?
 *MOT: the cage of the .
@@ -897,7 +903,7 @@
 *MOT: is she ?
 *MOT: shes she going ?
 *CHI: back me .
-*CHI: Mama help Mamas tea out  Mama .
+*CHI: Mama help Mamas tea out Mama .
 *CHI: Mama Mama tea out .
 *MOT: do you want those things out ?
 *CHI: mhm .
@@ -906,7 +912,7 @@
 *MOT: www .
 *CHI: get Mama tea out please .
 *MOT: good girl .
-*MOT: Im glad you put a please at the end of that without being reminded
+*MOT: Im glad you put a please at the end of that without being reminded .
 *INV: hello .
 *CHI: me hold baba .
 *CHI: oh .
@@ -924,7 +930,7 @@
 *MOT: right .
 *MOT: whats that ?
 *CHI: cold .
-*MOT: what is it  Ruth ?
+*MOT: what is it Ruth ?
 *MOT: its icecream .
 *CHI: icecream .
 *MOT: icecream .
@@ -977,7 +983,7 @@
 *MOT: what do you drink ?
 *CHI: there .
 *MOT: ice you dont drink that .
-*MOT: thats icecream  isnt it ?
+*MOT: thats icecream isnt it ?
 *MOT: you eat icecream .
 *CHI: juice .
 *MOT: juice .
@@ -986,10 +992,10 @@
 *MOT: thank you very much .
 *CHI: me on nice .
 *MOT: are you having nice ?
-*MOT: nice icecream  isnt it ?
+*MOT: nice icecream isnt it ?
 *MOT: yeah .
 *CHI: me there .
-*MOT: you had some icecream on Saturday  didnt you ?
+*MOT: you had some icecream on Saturday didnt you ?
 *CHI: huh ?
 *MOT: you had some icecream on Saturday .
 *CHI: mhm .
@@ -999,7 +1005,7 @@
 *MOT: do you remember when you went on all the rides ?
 *MOT: what did you go on ?
 *MOT: do you know what you went on ?
-*MOT: a train  didnt you ?
+*MOT: a train didnt you ?
 *MOT: Im a thicko .
 *MOT: ah .
 *MOT: right .
@@ -1015,7 +1021,7 @@
 *MOT: take it away .
 *MOT: take it away .
 *MOT: take it away .
-*CHI: me  Mummy .
+*CHI: me Mummy .
 *MOT: oh horrible icecream .
 *MOT: oh horrible icecream .
 *MOT: oh nasty icecream .
@@ -1043,7 +1049,7 @@
 *CHI: baba .
 *CHI: there on there .
 *MOT: what is that ?
-*MOT: its an egg  Ruth .
+*MOT: its an egg Ruth .
 *CHI: emc .
 *MOT: no .
 *MOT: egg .
@@ -1054,18 +1060,18 @@
 *MOT: its an egg .
 *MOT: any more ?
 *CHI: no .
-*MOT: well you threw one away  didnt you over there ?
+*MOT: well you threw one away didnt you over there ?
 *MOT: look .
 *MOT: youre getting a bit naughty .
 *CHI: no .
-*MOT: another  Ruth .
+*MOT: another Ruth .
 *MOT: say more or another .
 *CHI: more emc please .
 *CHI: there .
 *MOT: more egg .
 *CHI: no .
-*CHI: more emc  Mama .
-*MOT: egg  Ruth .
+*CHI: more emc Mama .
+*MOT: egg Ruth .
 *MOT: egg .
 *CHI: emc please .
 *MOT: egg .
@@ -1086,9 +1092,9 @@
 *MOT: and a lemon .
 *MOT: how about that ?
 *CHI: on there shop .
-*MOT: right  Ruth .
-*MOT: do you wanna put that there then in the shop and Ill come and say
-*MOT: you stand there  right .
+*MOT: right Ruth .
+*MOT: do you wanna put that there then in the shop and Ill come and say .
+*MOT: you stand there right .
 *MOT: okay .
 *MOT: are you gonna sell these to me ?
 *MOT: oh I needta get something for tea .
@@ -1108,7 +1114,7 @@
 *MOT: thank you .
 *MOT: okay .
 *MOT: shall we have more in your shop ?
-*MOT: lets put some more in your shop and then you can
+*MOT: lets put some more in your shop and then you can .
 *MOT: okay .
 *MOT: lets have this .
 *MOT: this can be your shop .
@@ -1124,11 +1130,11 @@
 *MOT: good morning .
 *MOT: good morning .
 *CHI: good morning .
-*MOT: its a lovely day outside  isnt it ?
+*MOT: its a lovely day outside isnt it ?
 *MOT: yeah .
 *MOT: the suns shining .
 *MOT: Id like something for tea please .
-*MOT: I think I might have
+*MOT: I think I might have .
 *CHI: there .
 *MOT: oh no .
 *MOT: I think Ill have some chicken .
@@ -1157,8 +1163,8 @@
 *MOT: what is it ?
 *CHI: juice on there too .
 *MOT: right .
-*CHI: juice  no .
-*CHI: juice in there  no .
+*CHI: juice no .
+*CHI: juice in there no .
 *CHI: milk in there .
 *MOT: can I have that ?
 *MOT: thank you .
@@ -1224,7 +1230,7 @@
 *MOT: thank you .
 *MOT: well have a nice day .
 *MOT: shake hands .
-*CHI: no  me .
+*CHI: no me .
 *MOT: excuse me .
 *MOT: I just bought these in your shop .
 *MOT: byebye then .
@@ -1239,9 +1245,9 @@
 *MOT: thank you very much .
 *CHI: back .
 *MOT: money back ?
-*MOT: I dont think youd make a good storekeeper giving all your stuff
+*MOT: I dont think youd make a good storekeeper giving all your stuff .
 *MOT: thats it .
-*MOT: now  Ruth .
+*MOT: now Ruth .
 *MOT: shall I be the .
 *MOT: you come and buy .
 *MOT: shall I be the .
@@ -1295,7 +1301,7 @@
 *MOT: would you please stop knocking my wares over ?
 *MOT: say chicken .
 *MOT: chicken .
-*MOT: no  Ruth .
+*MOT: no Ruth .
 *MOT: please dont .
 *MOT: no .
 *MOT: thats not very nice .
@@ -1371,7 +1377,7 @@
 *MOT: were you ?
 *CHI: mhm .
 *MOT: mhm .
-*MOT: you thought it was incredibly funny  didnt you hm ?
+*MOT: you thought it was incredibly funny didnt you hm ?
 *CHI: two teas .
 *MOT: mhm .
 *CHI: Mama .
@@ -1476,7 +1482,7 @@
 *MOT: would you like an icecream ?
 *CHI: I want a icecream please .
 *MOT: excuse me please .
-*MOT: I hope youre not thinking of coming out here without paying for
+*MOT: I hope youre not thinking of coming out here without paying for .
 *MOT: thats three pounds please .
 *MOT: one pound .
 *MOT: two pounds .
@@ -1517,7 +1523,7 @@
 *MOT: good girl .
 *MOT: eating the chicken .
 *MOT: do you like chicken ?
-*MOT: you had chicken yesterday in hospital  didnt you ?
+*MOT: you had chicken yesterday in hospital didnt you ?
 *MOT: gentle .
 *CHI: huh ?
 *MOT: oh gentle .
@@ -1543,12 +1549,12 @@
 *MOT: are you biting that ?
 *MOT: right .
 *MOT: Ill take it off you then .
-*MOT: dont bite  darling .
+*MOT: dont bite darling .
 *MOT: theres a chicken leg .
 *MOT: and oh Ruth .
 *MOT: you can say the full .
 *MOT: whats this called ?
-*MOT: you can say bananas now  cant you hey ?
+*MOT: you can say bananas now cant you hey ?
 *MOT: do you wanna .
 *MOT: go on .
 *MOT: what are these ?
@@ -1566,7 +1572,7 @@
 *CHI: banana .
 *MOT: good girl .
 *MOT: in fact theyre bananas .
-*CHI: I on top  Anna .
+*CHI: I on top Anna .
 *MOT: because theres one two three four five six .
 *MOT: that makes them bananas .
 *MOT: are you bananas ?
@@ -1575,7 +1581,7 @@
 *MOT: dont bite .
 *MOT: you can lick it .
 *MOT: okay .
-*MOT: you can lick it but dont bite  Ruth .
+*MOT: you can lick it but dont bite Ruth .
 *MOT: dont break them .
 *MOT: thats it .
 *MOT: you can lick it .
@@ -1587,7 +1593,7 @@
 *MOT: right .
 *MOT: thats it .
 *CHI: no away .
-*MOT: well I said dont bite  Ruth .
+*MOT: well I said dont bite Ruth .
 *MOT: youve been naughty now .
 *CHI: nana banana back .
 *MOT: only if you dont bite .
@@ -1597,6 +1603,7 @@
 *MOT: good .
 *MOT: you can have them back .
 *MOT: but if you bite them Ill take them off you again .
+*MOT: thats .
 *CHI: banana .
 *MOT: forty p please .
 *CHI: forty p please .
@@ -1665,13 +1672,13 @@
 *CHI: oh no .
 *CHI: oh dear .
 *CHI: fall down .
-*CHI: stuck one  Anna .
+*CHI: stuck one Anna .
 *CHI: there stuck .
 *CHI: there stuck .
 *MOT: is it ?
 *MOT: thats it .
 *MOT: put the rest in .
-*MOT: youve not played with the box yet  Ruth .
+*MOT: youve not played with the box yet Ruth .
 *CHI: no .
 *MOT: no .
 *MOT: shall we put these away ?
@@ -1682,9 +1689,9 @@
 *MOT: whos in there ?
 *INV: the baba .
 *MOT: oh the baba .
-*MOT: thats the little baba  isnt it ?
+*MOT: thats the little baba isnt it ?
 *MOT: little baba .
-*MOT: little baba came to hospital with us  didnt she ?
+*MOT: little baba came to hospital with us didnt she ?
 *CHI: huh ?
 *MOT: didnt little baba come to hospital ?
 *CHI: mhm .
@@ -1693,7 +1700,7 @@
 *MOT: oh .
 *MOT: is that the box of bricks ?
 *MOT: Ruth .
-*MOT: Mummys gonna put these way first  shall we ?
+*MOT: Mummys gonna put these way first shall we ?
 *CHI: huh ?
 *MOT: shall we just make ourselves some room ?
 *CHI: me .
@@ -1721,7 +1728,7 @@
 *CHI: me .
 *MOT: www .
 *CHI: Mama brick .
-*CHI: tower  Mama .
+*CHI: tower Mama .
 *MOT: what darling ?
 *CHI: I want my tower .
 *CHI: it sleep .
@@ -1764,7 +1771,7 @@
 *MOT: oh whos that ?
 *CHI: tiger .
 *MOT: tiger .
-*MOT: thats baby tiger  isnt it ?
+*MOT: thats baby tiger isnt it ?
 *MOT: oh baby tiger .
 *MOT: is baby tiger after Mummy ?
 *MOT: oh baby tigers after me .

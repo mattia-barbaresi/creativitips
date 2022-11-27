@@ -1,7 +1,7 @@
 *INV: www .
 *MOT: sing it properly .
 *MOT: two little frogs .
-*MOT: whatre you doing  Becky ?
+*MOT: whatre you doing Becky ?
 *CHI: I like him .
 *MOT: you like him ?
 *MOT: yes .
@@ -36,7 +36,7 @@
 *MOT: dont pull his hair .
 *CHI: there .
 *CHI: I need a soap .
-*MOT: you need some soap  do you ?
+*MOT: you need some soap do you ?
 *CHI: yeah .
 *MOT: here you are .
 *CHI: thank you .
@@ -48,7 +48,7 @@
 *CHI: he need a bath .
 *MOT: he needs a bath ?
 *MOT: well .
-*MOT: I think hes just had one  hasnt he ?
+*MOT: I think hes just had one hasnt he ?
 *MOT: youve just given him a wash .
 *MOT: hm ?
 *CHI: oh .
@@ -89,9 +89,9 @@
 *INV: ah .
 *INV: thats lovely .
 *MOT: wherere you going ?
-*CHI: Im gonna get um  tea .
+*CHI: Im gonna get um tea .
 *INV: pardon ?
-*MOT: going to get some tea  are you ?
+*MOT: going to get some tea are you ?
 *CHI: yeah .
 *CHI: Sukie cat .
 *MOT: tea for Sukie cat ?
@@ -114,12 +114,12 @@
 *CHI: its Rachel .
 *CHI: thats Rachel ?
 *MOT: mhm .
-*MOT: its Caroline  Becky .
+*MOT: its Caroline Becky .
 *CHI: Caroline .
 *INV: thats right .
 *CHI: okay .
 *INV: pardon ?
-*INV: where do I
+*INV: where do I .
 *CHI: done a wee .
 *MOT: go on .
 *MOT: get on the pottie .
@@ -155,6 +155,7 @@
 *CHI: yeah .
 *MOT: oh dear .
 *CHI: hes been up all day .
+*CHI: been .
 *CHI: you be alright .
 *CHI: yesterday .
 *CHI: you be be alright .
@@ -167,10 +168,10 @@
 *MOT: hes bumped his knee ?
 *CHI: yeah .
 *MOT: oh dear .
-*MOT: but hes alright now  is he ?
+*MOT: but hes alright now is he ?
 *CHI: yeah .
 *MOT: good .
-*MOT: dont crayon on that  Becky .
+*MOT: dont crayon on that Becky .
 *CHI: oh .
 *CHI: wheres those crayons ?
 *INV: I dont know .
@@ -198,14 +199,14 @@
 *MOT: treasure ?
 *CHI: oh no .
 *CHI: oh .
-*MOT: wheres the treasure  Becky ?
+*MOT: wheres the treasure Becky ?
 *CHI: um here .
 *MOT: oh .
 *MOT: what sort of treasure is it ?
 *MOT: can I see ?
 *CHI: yeah .
 *CHI: fish .
-*MOT: its fish  is it ?
+*MOT: its fish is it ?
 *CHI: yeah .
 *MOT: oh lovely .
 *MOT: where did this come from ?
@@ -213,13 +214,13 @@
 *CHI: um water .
 *CHI: oh .
 *CHI: I got some .
-*MOT: it was in the water  was it ?
+*MOT: it was in the water was it ?
 *CHI: getting treasure .
 *MOT: getting some more treasure ?
 *CHI: yeah .
 *INV: www .
 *INV: whats this ?
-*MOT: is that more treasure  Becky ?
+*MOT: is that more treasure Becky ?
 *MOT: Becky .
 *MOT: come back in here please .
 *MOT: what are you doing ?
@@ -236,7 +237,7 @@
 *MOT: can he eat this fish ?
 *CHI: yeah .
 *MOT: come on .
-*MOT: do you wanna eat this fish  Sukie ?
+*MOT: do you wanna eat this fish Sukie ?
 *CHI: youre very hungry .
 *CHI: do you like fish ?
 *CHI: there we are .
@@ -246,12 +247,12 @@
 *MOT: whats that ?
 *CHI: thats just bit .
 *CHI: thats just dry .
-*MOT: its dry  is it ?
+*MOT: its dry is it ?
 *MOT: what is it though ?
 *MOT: can I look ?
 *MOT: dont put it there please .
 *CHI: this bit of plaster .
-*MOT: bit of plaster  is it ?
+*MOT: bit of plaster is it ?
 *MOT: wheres that come from ?
 *CHI: in the top .
 *MOT: just leave it there .
@@ -274,14 +275,14 @@
 *MOT: thank you .
 *MOT: and what is this ?
 *CHI: this is special pie .
-*MOT: its pie  is it ?
+*MOT: its pie is it ?
 *CHI: yeah .
 *MOT: oh .
 *MOT: I see .
 *CHI: this is .
 *MOT: can Sukie look ?
 *CHI: he had some .
-*MOT: hes had some  has he ?
+*MOT: hes had some has he ?
 *CHI: hes hungry .
 *MOT: hes hungry .
 *MOT: all gone .
@@ -310,16 +311,16 @@
 *MOT: yeah .
 *CHI: look .
 *CHI: uhoh .
-*CHI: we Minnie Mouse again  Mum .
-*INV: were going
+*CHI: we Minnie Mouse again Mum .
+*INV: were going .
 *CHI: yeah .
 *MOT: were going to see Minnie Mouse again ?
 *MOT: are we ?
 *CHI: yeah .
 *MOT: where ?
-*CHI: I don't
+*CHI: I dont .
 *CHI: we going in the car .
-*MOT: were going in the car  are we ?
+*MOT: were going in the car are we ?
 *MOT: can I come ?
 *CHI: yes please .
 *CHI: oh .
@@ -388,6 +389,7 @@
 *MOT: oh .
 *CHI: whos want yellow .
 *MOT: no .
+*MOT: this .
 *INV: it isnt .
 *INV: what color is it ?
 *CHI: this um green .
@@ -431,7 +433,7 @@
 *INV: no .
 *INV: what color is it ?
 *CHI: dont know .
-*MOT: its blue  Becky .
+*MOT: its blue Becky .
 *CHI: blue .
 *CHI: whos want blue ?
 *INV: Becky wants blue .
@@ -442,16 +444,16 @@
 *MOT: me .
 *INV: www .
 *CHI: whos tapping feet ?
-*MOT: can you tap your feet  Becky ?
+*MOT: can you tap your feet Becky ?
 *CHI: thank you .
 *CHI: its not all finish .
 *INV: not yet .
 *INV: no .
-*CHI: on your
+*CHI: on your .
 *CHI: on your head .
 *INV: www .
 *CHI: whos want yellow .
-*MOT: Becky  wants yellow .
+*MOT: Becky wants yellow .
 *CHI: whats that ?
 *MOT: yellow .
 *MOT: yellow doggie I think it is .
@@ -474,8 +476,8 @@
 *INV: do you want a crown ?
 *CHI: yeah .
 *CHI: its a bit big on me .
-*INV: its a lot big for you  isnt it ?
-*MOT: its a necklace on Becky  isnt it ?
+*INV: its a lot big for you isnt it ?
+*MOT: its a necklace on Becky isnt it ?
 *MOT: Becky .
 *MOT: a necklace ?
 *CHI: yeah .
@@ -528,7 +530,7 @@
 *CHI: 0are you you fairy ?
 *MOT: pardon ?
 *CHI: you fairy .
-*MOT: Im a fairy  am I ?
+*MOT: Im a fairy am I ?
 *MOT: thank you .
 *MOT: yes .
 *MOT: just leave that there .
@@ -536,18 +538,18 @@
 *CHI: empty minute .
 *MOT: think its slightly stuck .
 *INV: yeah .
-*INV: heavy  isnt it ?
+*INV: heavy isnt it ?
 *CHI: Sukie .
 *CHI: Sukie want a lion .
 *MOT: pardon ?
 *CHI: have crown .
 *MOT: the crown ?
-*MOT: you wanna put the crown back on  do you ?
+*MOT: you wanna put the crown back on do you ?
 *CHI: yeah .
 *MOT: itll keep falling off if I sit up though .
 *CHI: hello .
 *MOT: hello .
-*MOT: hello  Tiny Tears .
+*MOT: hello Tiny Tears .
 *MOT: are you going for a walk ?
 *CHI: yes .
 *CHI: hes having sleep .
@@ -576,6 +578,7 @@
 *CHI: got dirt .
 *MOT: youve got dirt in your ear ?
 *MOT: Becky .
+*MOT: dont .
 *CHI: there we are .
 *CHI: you go up here .
 *CHI: a jug .
@@ -590,7 +593,7 @@
 *CHI: choochooo .
 *CHI: a cup of tea .
 *CHI: I want a drink .
-*MOT: shall I get some papers to draw on now  Becky ?
+*MOT: shall I get some papers to draw on now Becky ?
 *CHI: yes please .
 *MOT: just a minute then .
 *MOT: Ill go and get some .
@@ -612,7 +615,7 @@
 *CHI: um .
 *CHI: where sit ?
 *MOT: well .
-*MOT: Ill just sit here  shall I ?
+*MOT: Ill just sit here shall I ?
 *MOT: I might break that chair if I sit on it .
 *MOT: can I sit here ?
 *MOT: www .
@@ -639,9 +642,9 @@
 *MOT: broken curtain hook .
 *CHI: broken curtain hook .
 *MOT: you have got some dirt in your ear .
-*MOT: been pushing a crayon in it  have you ?
+*MOT: been pushing a crayon in it have you ?
 *CHI: yeah .
-*MOT: you mustnt put things in your ear  Becky .
+*MOT: you mustnt put things in your ear Becky .
 *CHI: no .
 *CHI: this doesnt go in there .
 *MOT: doesnt it ?
@@ -669,7 +672,7 @@
 *MOT: youre gonna make a mess .
 *MOT: Ill tell you what .
 *MOT: save it for later .
-*MOT: well do something that  is a bit more interesting than picking
+*MOT: well do something that is a bit more interesting than picking .
 *CHI: look .
 *CHI: this .
 *CHI: there we are .
@@ -723,9 +726,9 @@
 *MOT: wheres that one gone ?
 *CHI: where is it ?
 *MOT: oh .
-*MOT: its here  look .
+*MOT: its here look .
 *CHI: is this in that hand ?
-*MOT: you dont wanna do magic  do you ?
+*MOT: you dont wanna do magic do you ?
 *CHI: that one .
 *CHI: yeah .
 *CHI: yeah .
@@ -753,15 +756,15 @@
 *MOT: what about some black ?
 *INV: www .
 *MOT: thats the wrong way .
-*MOT: its confusing  isnt it ?
+*MOT: its confusing isnt it ?
 *MOT: because that that lid goes on that way .
 *CHI: okay .
 *CHI: whos want this ?
 *CHI: oh dear .
-*MOT: would you like Santa to bring you some little animals  Becky ?
+*MOT: would you like Santa to bring you some little animals Becky ?
 *CHI: please .
 *MOT: maybe he will then .
-*MOT: you like the little animals  dont you ?
+*MOT: you like the little animals dont you ?
 *CHI: yes .
 *CHI: little animals .
 *CHI: little animals .
@@ -770,18 +773,18 @@
 *CHI: wheres the baby rabbit ?
 *MOT: I dont think there is a baby rabbit .
 *CHI: Santas bring a baby rabbit .
-*MOT: Santall bring the baby rabbit  will he ?
+*MOT: Santall bring the baby rabbit will he ?
 *CHI: yeah .
 *MOT: I see .
 *CHI: baby .
 *MOT: hafta have a word with him .
 *MOT: and remind him .
-*MOT: I dont think you wrote animals on your list though  did you ?
+*MOT: I dont think you wrote animals on your list though did you ?
 *CHI: no .
 *MOT: no .
 *CHI: thats .
 *MOT: www .
-*MOT: dont play with  Becky .
+*MOT: dont play with Becky .
 *CHI: where cow ?
 *CHI: wheres cow ?
 *MOT: theres a calf there .
@@ -789,7 +792,7 @@
 *MOT: oh no .
 *MOT: there is .
 *MOT: www .
-*MOT: thats a cow  Becky .
+*MOT: thats a cow Becky .
 *MOT: wheres doggie .
 *MOT: I dont know .
 *MOT: wheres the grey doggie gone ?
@@ -811,7 +814,7 @@
 *INV: must be lost .
 *MOT: mhm .
 *CHI: Santas bring you um a dog .
-*MOT: Santall bring the dog  will he ?
+*MOT: Santall bring the dog will he ?
 *CHI: yes .
 *CHI: Mummy .
 *CHI: that calf .
@@ -820,7 +823,7 @@
 *CHI: where Little Bo Peep .
 *MOT: I dont think theres a Little Bo Peep .
 *MOT: hafta pretend theres a Little Bo Peep .
-*MOT: the dolly could be Little Bo Peep  couldnt she ?
+*MOT: the dolly could be Little Bo Peep couldnt she ?
 *CHI: yes .
 *CHI: shes not all all dressed .
 *CHI: not all dressed .
@@ -831,7 +834,7 @@
 *MOT: you dont needta undo the buttons .
 *MOT: it just pulls down .
 *MOT: pull it over her hands .
-*MOT: like that  look .
+*MOT: like that look .
 *MOT: thats it .
 *CHI: why ?
 *MOT: you needta undo this one though .
@@ -839,12 +842,12 @@
 *MOT: pull that one .
 *MOT: thats it .
 *MOT: whyve you taken her clothes off ?
-*MOT: should  put a dress on now .
+*MOT: should put a dress on now .
 *MOT: youve just taken that off .
 *CHI: oh no .
 *CHI: no .
 *MOT: oh .
-*MOT: youll hafta put her legs in first  Becky .
+*MOT: youll hafta put her legs in first Becky .
 *MOT: youll hafta put her legs in first .
 *MOT: thats it .
 *MOT: let me hold her .
@@ -853,21 +856,21 @@
 *MOT: shes got .
 *MOT: no .
 *MOT: shes got both legs down .
-*MOT: shes got both feet down the same leg  Becky .
+*MOT: shes got both feet down the same leg Becky .
 *MOT: okay .
 *MOT: try her now .
 *MOT: you see if you can pull them over her feet .
 *MOT: there we are .
-*MOT: thats better  isnt it ?
+*MOT: thats better isnt it ?
 *CHI: now we need these .
 *CHI: need shirt .
 *MOT: oh .
-*MOT: she wants that underneath  doesnt she ?
+*MOT: she wants that underneath doesnt she ?
 *CHI: mhm .
 *MOT: go on then .
-*MOT: think the  buttons go at the back  dont they ?
-*CHI: shes like um  getting married .
-*MOT: shes getting looks like shes getting married  does she ?
+*MOT: think the buttons go at the back dont they ?
+*CHI: shes like um getting married .
+*MOT: shes getting looks like shes getting married does she ?
 *CHI: yes .
 *CHI: think so .
 *CHI: think so .
@@ -889,7 +892,7 @@
 *MOT: have you got any buttons on today ?
 *CHI: no .
 *MOT: no .
-*MOT: you havent  have you ?
+*MOT: you havent have you ?
 *CHI: no .
 *MOT: have I got any buttons on ?
 *MOT: no .
@@ -904,7 +907,7 @@
 *CHI: is it ?
 *CHI: thats my Grandpa there .
 *CHI: peeping .
-*MOT: is that his Grandpa  is it ?
+*MOT: is that his Grandpa is it ?
 *CHI: yeah .
 *CHI: hello .
 *CHI: are you waking me up ?
@@ -915,7 +918,7 @@
 *CHI: I got a funny tail .
 *INV: got a what ?
 *CHI: hes got a funny .
-*MOT: hes got a funny tail  has he ?
+*MOT: hes got a funny tail has he ?
 *CHI: yeah .
 *CHI: like my funny tail .
 *MOT: ponytail ?
@@ -961,17 +964,17 @@
 *MOT: put the little lid on ?
 *CHI: we doing the Duplo .
 *INV: oh excellent .
-*MOT: because we didnt play with it last week  did we and
+*MOT: because we didnt play with it last week did we and .
 *MOT: here we are .
 *MOT: yeah .
-*MOT: shall we see whats in here  Becky ?
+*MOT: shall we see whats in here Becky ?
 *MOT: theres a train like weve got .
 *MOT: hafta make a very long tail on it .
 *MOT: oh .
 *MOT: its got all sorts of things .
 *CHI: choochooo .
-*MOT: look at that  Becky .
-*MOT: thats a long train  isnt it ?
+*MOT: look at that Becky .
+*MOT: thats a long train isnt it ?
 *MOT: hm ?
 *CHI: yeah .
 *MOT: shall I put the driver in ?
@@ -1030,7 +1033,7 @@
 *CHI: a red .
 *CHI: a red hair .
 *CHI: a red hair .
-*MOT: snake on there  look .
+*MOT: snake on there look .
 *CHI: a red hair .
 *MOT: okay .
 *CHI: red hair .
@@ -1039,11 +1042,11 @@
 *MOT: whos got red hair ?
 *CHI: thats red hair .
 *MOT: yes .
-*MOT: I have I think  Becky actually .
+*MOT: I have I think Becky actually .
 *CHI: I have a hair .
 *CHI: red hair .
 *CHI: chooo .
-*CHI: get get
+*CHI: get get .
 *CHI: oh train .
 *CHI: theres was a hole .
 *CHI: there was a hole .
@@ -1063,9 +1066,9 @@
 *MOT: why ?
 *CHI: yeah .
 *MOT: dont know .
-*MOT: um  it would be better if you put them in here  Becky .
+*MOT: um it would be better if you put them in here Becky .
 *MOT: youre putting them in the wrong box .
-*CHI: theres some
+*CHI: theres some .
 *CHI: choochooo .
 *CHI: hiya .
 *CHI: hiya .
@@ -1086,7 +1089,7 @@
 *CHI: park .
 *CHI: chooo .
 *CHI: chooo .
-*MOT: can you bring the train back over here  Becky so I can see ?
+*MOT: can you bring the train back over here Becky so I can see ?
 *CHI: all fall down .
 *CHI: all fall down .
 *MOT: lets have a look then .
@@ -1113,7 +1116,7 @@
 *CHI: those are broken .
 *INV: well .
 *INV: theyre not broken .
-*INV: I just
+*INV: I just .
 *INV: theyre just not there .
 *INV: are they ?
 *INV: theyve already been used .
@@ -1124,25 +1127,26 @@
 *CHI: yeah .
 *MOT: did you ?
 *CHI: yes .
-*MOT: you had them for your tea  did you ?
+*MOT: you had them for your tea did you ?
 *CHI: yes .
 *MOT: were they nice ?
 *CHI: yeah .
 *MOT: good .
+*CHI: and .
 *CHI: this is another egg .
-*CHI: this is number
+*CHI: this is number .
 *CHI: thats broken too .
 *MOT: mhm .
 *CHI: all gone .
 *CHI: all gone away .
 *INV: all gone away .
 *INV: into your tummy .
-*MOT: have you finished on the pottie  Becky ?
+*MOT: have you finished on the pottie Becky ?
 *CHI: no no .
 *CHI: those are broken .
-*CHI: when its hot  you have some .
+*CHI: when its hot you have some .
 *MOT: right .
-*MOT: we dont eat cold eggs though  do we ?
+*MOT: we dont eat cold eggs though do we ?
 *CHI: no .
 *MOT: no .
 *MOT: hafta be cooked .
@@ -1162,7 +1166,7 @@
 *INV: no .
 *INV: it doesnt drip .
 *MOT: hang on .
-*MOT: because youve got your pants round your knees  havent you ?
+*MOT: because youve got your pants round your knees havent you ?
 *CHI: oh .
 *CHI: look .
 *CHI: look .
@@ -1174,7 +1178,7 @@
 *CHI: put them back .
 *MOT: www .
 *CHI: thats made you better .
-*INV: thats made it all better  has it ?
+*INV: thats made it all better has it ?
 *CHI: made you better .
 *INV: good .
 *CHI: those fit .
@@ -1192,7 +1196,7 @@
 *CHI: oh .
 *MOT: poor Sukie .
 *MOT: poor Sukie .
-*MOT: hes very very cold  isnt he ?
+*MOT: hes very very cold isnt he ?
 *CHI: hes coming on knee .
 *MOT: well .
 *MOT: hes on my knee .
@@ -1200,15 +1204,15 @@
 *CHI: thats make you better .
 *CHI: Sukies made Sukie made you better and washed .
 *INV: and washed .
-*MOT: are you okay  Sukie ?
-*CHI: are you okay  Sukie ?
+*MOT: are you okay Sukie ?
+*CHI: are you okay Sukie ?
 *CHI: Sukies wanna sit on knee ?
 *MOT: no .
 *MOT: he doesnt wanna sit on my knee .
 *CHI: whats Sukie doing ?
 *MOT: hes having a look what youre doing .
 *CHI: does he love the Pingu so much ?
-*MOT: he loves Pingu so much  does he ?
+*MOT: he loves Pingu so much does he ?
 *CHI: what whats Sukie cat doing ?
 *MOT: hes just having his head scratched .
 *CHI: because why ?
@@ -1219,7 +1223,7 @@
 *MOT: no .
 *CHI: youre very fluffy .
 *INV: www .
-*MOT: youre an old softie  arent you ?
+*MOT: youre an old softie arent you ?
 *CHI: choochooo .
 *MOT: oh .
 *MOT: crashed .
@@ -1234,7 +1238,7 @@
 *CHI: Im making a tower .
 *INV: making what ?
 *CHI: Im making a tower .
-*MOT: making what  Becky ?
+*MOT: making what Becky ?
 *CHI: Im making .
 *INV: tower ?
 *CHI: yeah .
@@ -1242,22 +1246,23 @@
 *CHI: thats right .
 *MOT: oh .
 *CHI: thats right .
+*CHI: thats .
 *CHI: thats okay .
 *CHI: cats sit there .
 *MOT: mhm .
 *MOT: can do .
-*MOT: our cat sits there  doesnt he ?
+*MOT: our cat sits there doesnt he ?
 *CHI: whats that ?
 *CHI: thats a eye .
 *MOT: mhm .
 *CHI: ladybird eye .
 *MOT: mhm .
 *CHI: ladybird eye .
-*MOT: its a ladybirds eye  is it ?
+*MOT: its a ladybirds eye is it ?
 *CHI: yeah .
 *CHI: yellow .
 *INV: yellow .
-*MOT: its blue  Becky .
+*MOT: its blue Becky .
 *CHI: its blue .
 *MOT: thats yellow .
 *MOT: whoops .
@@ -1272,7 +1277,7 @@
 *CHI: there we are .
 *MOT: what a tall tower .
 *CHI: more bricks .
-*CHI: come out  more bricks .
+*CHI: come out more bricks .
 *CHI: its not all finish .
 *MOT: no .
 *MOT: wrong way .
@@ -1281,12 +1286,12 @@
 *CHI: this .
 *CHI: whats this ?
 *CHI: um wheres .
-*CHI: hes climbing up  Mum .
+*CHI: hes climbing up Mum .
 *MOT: stand him on top .
 *MOT: oh .
-*MOT: very tall now  isnt he ?
+*MOT: very tall now isnt he ?
 *CHI: bounce .
-*MOT: hes going to bounce  is he ?
+*MOT: hes going to bounce is he ?
 *CHI: boingo .
 *MOT: oh .
 *CHI: what you done ?
@@ -1301,7 +1306,7 @@
 *CHI: I cant do it .
 *MOT: whoops .
 *CHI: eggs .
-*CHI: this is my
+*CHI: this is my .
 *CHI: I dont know .
 *CHI: some eggs .
 *CHI: those are eggs .
@@ -1326,11 +1331,11 @@
 *MOT: catch ?
 *CHI: Sukies want the ball .
 *CHI: hes lick my nose .
-*MOT: hes licked your nose  has he ?
+*MOT: hes licked your nose has he ?
 *MOT: ah .
 *INV: ah .
 *CHI: yes .
-*CHI: really horrible  my nose .
+*CHI: really horrible my nose .
 *MOT: its horrible .
 *CHI: its .
 *MOT: yeah .
@@ -1345,9 +1350,9 @@
 *CHI: no .
 *MOT: yes .
 *MOT: you do .
-*MOT: he bit you  didnt he ?
+*MOT: he bit you didnt he ?
 *CHI: yes .
-*MOT: or hell do it again  Becky .
+*MOT: or hell do it again Becky .
 *MOT: hes orange .
 *MOT: wheres it gone ?
 *CHI: um .
@@ -1372,8 +1377,8 @@
 *MOT: look .
 *MOT: Im covered in cat hairs now .
 *MOT: no .
-*MOT: I wouldnt go after him because hes not very happy now  Becky .
+*MOT: I wouldnt go after him because hes not very happy now Becky .
 *CHI: Sukie .
 *CHI: Sukie .
-*MOT: Ive warned you  Becky .
+*MOT: Ive warned you Becky .
 *MOT: oh .

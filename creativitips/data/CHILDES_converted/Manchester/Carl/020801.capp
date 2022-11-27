@@ -23,7 +23,7 @@
 *CHI: Daddy coming .
 *CHI: Daddy coming .
 *CHI: brummo .
-*MOT: are you going shopping  Carl ?
+*MOT: are you going shopping Carl ?
 *MOT: do you want some pennys to go to the shops ?
 *CHI: whoops .
 *CHI: brummo .
@@ -37,14 +37,14 @@
 *CHI: whats that ?
 *MOT: old dribbly chops .
 *CHI: its not .
-*MOT: oh leave it  Carl .
+*MOT: oh leave it Carl .
 *MOT: leave it .
 *MOT: its mucky .
 *CHI: oh I couldnt .
 *MOT: no .
 *CHI: theres another stone in there .
 *MOT: a stone ?
-*CHI: it oh
+*CHI: it oh .
 *CHI: oh no .
 *CHI: brummo .
 *MOT: what are you saying little one ?
@@ -55,7 +55,7 @@
 *MOT: and tomatos ?
 *CHI: yeah .
 *CHI: out .
-*MOT: do we need anything else  Eve ?
+*MOT: do we need anything else Eve ?
 *CHI: that wheel .
 *CHI: that wheels too stuck .
 *CHI: I couldnt .
@@ -70,7 +70,7 @@
 *CHI: green .
 *CHI: brummo .
 *MOT: good boy .
-*MOT: you hadta think about that one  didnt you ?
+*MOT: you hadta think about that one didnt you ?
 *MOT: say beepbeepo .
 *MOT: toot your horn .
 *MOT: beepbeepo .
@@ -114,7 +114,7 @@
 *MOT: oh Daddys going now .
 *CHI: that car bump .
 *CHI: brummo .
-*MOT: be careful  Carl .
+*MOT: be careful Carl .
 *MOT: look where youre going .
 *FAT: bye darling .
 *CHI: bye .
@@ -144,10 +144,10 @@
 *MOT: big wave .
 *MOT: are you waving as well ?
 *MOT: hes gone .
-*MOT: whatre you going to do today  Carl ?
+*MOT: whatre you going to do today Carl ?
 *MOT: who stayed in Carls house ?
 *MOT: whos upstairs in Carls house ?
-*MOT: youve forgotten  havent you ?
+*MOT: youve forgotten havent you ?
 *CHI: what ?
 *CHI: whats upstairs ?
 *MOT: whos upstairs in the bed upstairs ?
@@ -191,7 +191,7 @@
 *MOT: Carl .
 *MOT: Carl .
 *MOT: listen to me .
-*MOT: I thought you were going to tell me what you did
+*MOT: I thought you were going to tell me what you did .
 *CHI: Granddad .
 *MOT: oh suddenly .
 *CHI: Anna .
@@ -199,7 +199,7 @@
 *INV: did you yesterday ?
 *INV: did you go for a walk ?
 *CHI: yeah .
-*CHI: and I see &-um
+*CHI: and I see um .
 *INV: what did you see ?
 *MOT: go on .
 *MOT: tell us .
@@ -212,14 +212,14 @@
 *MOT: I thought you were just going to tell me where you went yesterday .
 *CHI: no .
 *CHI: no .
-*MOT: youre not happy today  are you little one ?
+*MOT: youre not happy today are you little one ?
 *MOT: come here dribbly chops .
 *CHI: whoops .
 *CHI: whoops .
 *CHI: it works .
-*MOT: it doesnt work on there  does it ?
+*MOT: it doesnt work on there does it ?
 *MOT: I told you that .
-*CHI: want a wee  Mummy .
+*CHI: want a wee Mummy .
 *MOT: you want a wee ?
 *MOT: okay .
 *MOT: I thought you did .
@@ -270,7 +270,7 @@
 *MOT: do you wanna try and put them on ?
 *MOT: lets see if you can put them on like a big boy .
 *CHI: whoops .
-*MOT: come on  Carl .
+*MOT: come on Carl .
 *MOT: sit on the floor .
 *MOT: lets see if you can put them on your feet .
 *CHI: you wanna do them .
@@ -299,7 +299,7 @@
 *CHI: they go again .
 *CHI: oh .
 *CHI: that bridge .
-*MOT: thats not a very good bridge  is it ?
+*MOT: thats not a very good bridge is it ?
 *CHI: no .
 *CHI: it goes like a bridge .
 *CHI: Saver help .
@@ -333,7 +333,7 @@
 *CHI: I better go get a train .
 *MOT: oh come on .
 *MOT: I know darling .
-*MOT: youre not happy  are you ?
+*MOT: youre not happy are you ?
 *MOT: are you getting your brothers nasty cold ?
 *MOT: yes .
 *MOT: Ill take that as a yes .
@@ -341,13 +341,13 @@
 *MOT: lets see you .
 *MOT: oh .
 *MOT: well dont put them on like that .
-*MOT: sit on the seat  Carl .
+*MOT: sit on the seat Carl .
 *MOT: theres easier ways of doing it .
 *CHI: I want put my shoes on .
 *CHI: you put my shoes on .
 *MOT: okay .
 *MOT: lets see if we can do this .
-*MOT: you want me to jiggle you  dont you ?
+*MOT: you want me to jiggle you dont you ?
 *MOT: right .
 *MOT: now where does this go now ?
 *CHI: that that foot .
@@ -359,7 +359,7 @@
 *CHI: this one .
 *MOT: good boy .
 *MOT: thats right .
-*MOT: so why have you put it on that one when youve just said it goes on
+*MOT: so why have you put it on that one when youve just said it goes on .
 *CHI: no .
 *CHI: this one .
 *MOT: well open it up .
@@ -367,7 +367,7 @@
 *MOT: you hafta take the .
 *MOT: thats it .
 *MOT: other foot .
-*MOT: its your other foot  Carl .
+*MOT: its your other foot Carl .
 *MOT: other foot .
 *CHI: no .
 *MOT: sorry sweetie .
@@ -444,6 +444,7 @@
 *MOT: oh those .
 *MOT: I thought you said toes .
 *CHI: no .
+*CHI: they .
 *CHI: no .
 *CHI: they not .
 *CHI: they are .
@@ -451,7 +452,7 @@
 *MOT: whereabouts are they ?
 *MOT: I dont think youve got any toes .
 *CHI: you got your toes .
-*MOT: theyre Mummys socks  look .
+*MOT: theyre Mummys socks look .
 *CHI: socks .
 *CHI: Annas not got socks .
 *MOT: I bet she has in her boots .
@@ -478,7 +479,7 @@
 *CHI: it runs and still and crashed .
 *CHI: look .
 *CHI: Anna .
-*CHI: look  Anna .
+*CHI: look Anna .
 *INV: oh yes .
 *CHI: look .
 *CHI: its going whee .
@@ -523,12 +524,12 @@
 *CHI: and round to there .
 *CHI: round to there .
 *CHI: because they still hafta go over there .
-*MOT: right  Carl .
+*MOT: right Carl .
 *MOT: are we going to feed Harold ?
-*MOT: weve not fed him  have we ?
+*MOT: weve not fed him have we ?
 *CHI: over there .
 *CHI: because they still have another one .
-*MOT: come on  Carl .
+*MOT: come on Carl .
 *MOT: Carl .
 *MOT: are you going to feed him ?
 *CHI: the blue one .
@@ -536,7 +537,7 @@
 *MOT: thats right .
 *MOT: the blue one .
 *MOT: right .
-*MOT: oh you got up there too easily then  didnt you ?
+*MOT: oh you got up there too easily then didnt you ?
 *CHI: I open it .
 *MOT: put a little bit on there .
 *MOT: right .
@@ -547,7 +548,7 @@
 *MOT: there we go .
 *MOT: put it back .
 *MOT: thats it .
-*MOT: oh youre putting it up there  are you ?
+*MOT: oh youre putting it up there are you ?
 *MOT: has he eaten it ?
 *CHI: hes a fishie .
 *CHI: look .
@@ -576,7 +577,7 @@
 *MOT: oh .
 *MOT: uhoh .
 *MOT: that was Mummys fault .
-*CHI: I want sing along  Mummy .
+*CHI: I want sing along Mummy .
 *MOT: oh dear .
 *MOT: ssh .
 *MOT: oh darling .
@@ -587,7 +588,7 @@
 *MOT: oh not now .
 *MOT: look .
 *MOT: we scared Eve .
-*MOT: Eves poorly  isnt she ?
+*MOT: Eves poorly isnt she ?
 *MOT: shes got your cold .
 *CHI: I want my dodiec .
 *MOT: you dont want that .
@@ -602,7 +603,7 @@
 *CHI: I want one .
 *MOT: whatre you going to do with it ?
 *CHI: I want that blue dodiec .
-*MOT: come on  Carl .
+*MOT: come on Carl .
 *MOT: what do you wanna do ?
 *MOT: do you wanna play something ?
 *CHI: mhm .
@@ -700,7 +701,7 @@
 *CHI: a racing car .
 *CHI: two cars .
 *MOT: oh look .
-*MOT: theres your other hammer  Carl .
+*MOT: theres your other hammer Carl .
 *MOT: you were looking for that yesterday .
 *MOT: when you were downstairs helping Daddy .
 *MOT: what did you build with Daddy ?
@@ -712,7 +713,7 @@
 *CHI: and I make a big table .
 *MOT: a big table .
 *MOT: thats right .
-*MOT: and you ate your dinner off it  didnt you ?
+*MOT: and you ate your dinner off it didnt you ?
 *CHI: I want .
 *MOT: why dont you fix something ?
 *MOT: what needs fixing ?
@@ -742,7 +743,7 @@
 *CHI: like this .
 *MOT: oh .
 *MOT: thats where it opens up .
-*MOT: there  look .
+*MOT: there look .
 *MOT: look .
 *CHI: there .
 *CHI: there we are .
@@ -761,7 +762,7 @@
 *CHI: go through bricks .
 *CHI: heres a engine .
 *CHI: look like Thomas .
-*CHI: its a engine  Mummy .
+*CHI: its a engine Mummy .
 *CHI: its .
 *MOT: yes .
 *MOT: I can see that .
@@ -776,19 +777,19 @@
 *CHI: Bert the horsie .
 *INV: yeah .
 *MOT: thats right .
-*MOT: you went to see Bert the horsie  didnt you ?
+*MOT: you went to see Bert the horsie didnt you ?
 *CHI: yeah .
 *MOT: it looks just like Bert .
 *CHI: it just like Bert .
 *CHI: neigho .
 *MOT: neigho .
 *CHI: pooo .
-*MOT: I dont think horses do that  do they ?
+*MOT: I dont think horses do that do they ?
 *CHI: go neigho .
 *MOT: neigho .
 *CHI: wheres another horsie ?
 *MOT: oh look .
-*MOT: theres a little baby one  look .
+*MOT: theres a little baby one look .
 *CHI: a baby one .
 *CHI: come on baby .
 *CHI: get up .
@@ -799,7 +800,7 @@
 *CHI: he sitting down and watching .
 *CHI: neigho .
 *CHI: brummo .
-*MOT: its not a car  Carl .
+*MOT: its not a car Carl .
 *MOT: horses dont go brummo .
 *CHI: no .
 *CHI: he not .
@@ -860,7 +861,7 @@
 *MOT: you said it right that time .
 *CHI: the .
 *CHI: oh .
-*MOT: shall we make a farm  Carl ?
+*MOT: shall we make a farm Carl ?
 *CHI: yeah .
 *MOT: for the horses .
 *MOT: do you wanna help me ?
@@ -878,10 +879,10 @@
 *CHI: one two three .
 *CHI: I want smoke .
 *MOT: smoke .
-*MOT: dont ask for much  do you  Carl ?
+*MOT: dont ask for much do you Carl ?
 *CHI: I want a carwash .
 *CHI: I wanna clean the cars .
-*MOT: you know the trains need
+*MOT: you know the trains need .
 *MOT: make it into a water tower .
 *CHI: that ones the petrol .
 *CHI: that ones the petrol .
@@ -892,7 +893,7 @@
 *CHI: this is in .
 *CHI: and he get the petrol .
 *CHI: steer onto the bridge .
-*CHI: he steer onto
+*CHI: he steer onto .
 *MOT: right .
 *MOT: shall Mummy make a bridge for you ?
 *MOT: why dont you make a bridge ?
@@ -900,7 +901,7 @@
 *CHI: off you go .
 *MOT: right .
 *MOT: how big does it needta be ?
-*MOT: right  Carl .
+*MOT: right Carl .
 *MOT: here comes the bridge .
 *CHI: here come the bridge goes .
 *CHI: there they go the bridge goes .
@@ -917,13 +918,13 @@
 *CHI: clicketyclacko .
 *CHI: no .
 *CHI: clicketyclacko .
-*MOT: are you trying to say clicketyclacko  Carl ?
+*MOT: are you trying to say clicketyclacko Carl ?
 *CHI: yeah .
 *CHI: clicketyclacko .
 *CHI: look .
 *CHI: theres the .
 *MOT: yeah .
-*MOT: weve not got enough room here  have we ?
+*MOT: weve not got enough room here have we ?
 *MOT: here he comes .
 *CHI: here he comes .
 *CHI: theres another one coming .
@@ -978,7 +979,7 @@
 *CHI: oh .
 *CHI: pull .
 *CHI: push .
-*MOT: wheres the train off to  Carl ?
+*MOT: wheres the train off to Carl ?
 *MOT: wheres it going ?
 *CHI: its going that way .
 *MOT: just that way ?
@@ -1029,7 +1030,7 @@
 *MOT: are you going to fix that bridge ?
 *CHI: no .
 *CHI: because you wanna fix it .
-*MOT: oh I wanna fix it  do I ?
+*MOT: oh I wanna fix it do I ?
 *CHI: yeah .
 *MOT: well pass me the bits then please .
 *CHI: no .
@@ -1073,7 +1074,7 @@
 *CHI: choochooo .
 *MOT: this is a slow train .
 *CHI: thats a faster train .
-*MOT: this is a fast train  is it ?
+*MOT: this is a fast train is it ?
 *MOT: right .
 *MOT: slow train .
 *CHI: thats a faster train .
@@ -1086,7 +1087,7 @@
 *CHI: still got to go under bridge .
 *CHI: couldnt go like that .
 *CHI: he passed .
-*MOT: its nice and sunny outside  Carl .
+*MOT: its nice and sunny outside Carl .
 *CHI: beepbeepo .
 *MOT: Mister sunshines out .
 *MOT: youll be able to go in the garden and plant your seeds .
@@ -1096,7 +1097,7 @@
 *MOT: look .
 *MOT: can you see the sun ?
 *CHI: that train .
-*MOT: not interested  are you ?
+*MOT: not interested are you ?
 *CHI: run quickly .
 *CHI: quickly .
 *CHI: quickly .
@@ -1108,7 +1109,7 @@
 *CHI: theres two fastersn .
 *CHI: two faster trains .
 *CHI: two faster trains .
-*MOT: I think youre breaking all the rules here  Carl .
+*MOT: I think youre breaking all the rules here Carl .
 *CHI: go on .
 *CHI: go on .
 *CHI: go on .
@@ -1192,19 +1193,19 @@
 *CHI: you stop my going .
 *CHI: this one .
 *MOT: right .
-*MOT: wheres it going now  Carl ?
+*MOT: wheres it going now Carl ?
 *CHI: it went up .
 *MOT: it went up the hill .
 *MOT: choochooo .
-*CHI: and it
+*CHI: and it .
 *CHI: Im stuck up the hill .
 *MOT: right .
-*MOT: into his
+*MOT: into his .
 *CHI: Im stuck .
 *MOT: stuck .
 *CHI: you wanna go to get that one goes the truck .
 *MOT: no .
-*MOT: this ones going to get the elephant now  look .
+*MOT: this ones going to get the elephant now look .
 *MOT: are the horses going in the field ?
 *MOT: galloppy gallop .
 *CHI: no .
@@ -1223,9 +1224,9 @@
 *CHI: oh no .
 *CHI: you wanna go to get the train goes onto the car train .
 *MOT: its coming .
-*MOT: its got to go very slow now because its got a big heavy whale on
+*MOT: its got to go very slow now because its got a big heavy whale on .
 *MOT: choochooo .
-*MOT: oh look  Carl .
+*MOT: oh look Carl .
 *MOT: look look .
 *MOT: choochooo .
 *MOT: whoops .
@@ -1252,7 +1253,7 @@
 *MOT: no no .
 *MOT: choochooo .
 *CHI: crash .
-*MOT: its going under your bridge  look .
+*MOT: its going under your bridge look .
 *MOT: giraffe .
 *MOT: get out of the way .
 *MOT: get off the line .
@@ -1269,12 +1270,12 @@
 *CHI: peeppeepo .
 *MOT: that little baby should be with his Mummy .
 *MOT: oh .
-*MOT: look at the Mummy  look .
+*MOT: look at the Mummy look .
 *MOT: is it a Mummy or a Daddy ?
 *CHI: Daddy .
 *MOT: its a Daddy .
 *CHI: oh .
-*MOT: oh tigers dont crash  Carl .
+*MOT: oh tigers dont crash Carl .
 *MOT: come on .
 *MOT: look .
 *MOT: the horse is trying to chase the train .
@@ -1302,12 +1303,12 @@
 *CHI: out .
 *CHI: the wheels .
 *CHI: its stuck up in the water .
-*MOT: whats happened to the poor whale  Carl ?
+*MOT: whats happened to the poor whale Carl ?
 *CHI: hes swimming .
 *MOT: oh .
 *CHI: hes doing swimming .
 *CHI: swimming .
-*MOT: oh its swimming  is it ?
+*MOT: oh its swimming is it ?
 *MOT: okay .
 *MOT: do you need your nose wiping ?
 *CHI: I think you do .
@@ -1358,7 +1359,7 @@
 *CHI: galloppy galloppy .
 *CHI: hes on the train .
 *CHI: galloppy galloppy .
-*MOT: oh hes chasing it  is he ?
+*MOT: oh hes chasing it is he ?
 *MOT: is he chasing it ?
 *MOT: oh you cant catch me .
 *MOT: whoops .
@@ -1413,7 +1414,7 @@
 *CHI: wipe bull .
 *CHI: be better .
 *MOT: hes all better now .
-*MOT: oh youre wiping the bull  are you ?
+*MOT: oh youre wiping the bull are you ?
 *CHI: that one wipe .
 *MOT: oh hes nice and clean now .
 *CHI: and I wanna wipe this horse .
@@ -1424,7 +1425,7 @@
 *MOT: are they all getting cleaned ?
 *CHI: I drying Bert the horse .
 *MOT: yeah .
-*MOT: its just like Bert the horse  isnt he ?
+*MOT: its just like Bert the horse isnt he ?
 *CHI: its a little girl .
 *CHI: thats Bert .
 *MOT: a little girl ?
@@ -1437,7 +1438,7 @@
 *CHI: Bert the horse .
 *GRA: is it ?
 *CHI: yes .
-*MOT: just like him  isnt it ?
+*MOT: just like him isnt it ?
 *CHI: its Bert the horse and he goes .
 *GRA: are you cleaning him ?
 *MOT: no .
@@ -1452,7 +1453,7 @@
 *MOT: oh .
 *MOT: clean clean .
 *CHI: and I clean the tiger .
-*MOT: were they all very dirty  Carl ?
+*MOT: were they all very dirty Carl ?
 *CHI: yeah .
 *CHI: the tigers finish .
 *MOT: oh right .
@@ -1466,22 +1467,22 @@
 *MOT: come on silly giddywp kipperwp .
 *CHI: I the piggy .
 *MOT: oh he needs cleaning .
-*MOT: pigs like mud  dont they ?
+*MOT: pigs like mud dont they ?
 *CHI: he oinko .
 *MOT: oinko .
 *MOT: are you okay sweetie ?
 *MOT: big fat cheeks .
 *CHI: look .
 *CHI: squeezing them .
-*MOT: youre squeezing it  are you ?
+*MOT: youre squeezing it are you ?
 *CHI: yeah .
 *MOT: to get the water out .
-*MOT: oh don't
+*MOT: oh dont .
 *CHI: look .
 *CHI: nice now .
 *CHI: its cleaned .
 *CHI: clean and nice .
-*MOT: oh hes lovely  isnt he ?
+*MOT: oh hes lovely isnt he ?
 *CHI: I knock .
 *MOT: its okay .
 *CHI: you can dry him .
@@ -1492,8 +1493,8 @@
 *CHI: dry this hen .
 *MOT: that hen as well .
 *MOT: oh look .
-*MOT: theyve got babys  look .
+*MOT: theyve got babys look .
 *CHI: oh baby .
 *CHI: and you can dry the doggy .
-*MOT: thats Holly  isnt it ?
+*MOT: thats Holly isnt it ?
 *CHI: you wanna dry them .

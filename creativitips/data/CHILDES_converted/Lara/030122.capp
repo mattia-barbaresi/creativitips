@@ -67,7 +67,7 @@
 *MOT: yummy .
 *MOT: right .
 *MOT: put my lunch on .
-*CHI: can I have
+*CHI: can I have .
 *CHI: I want this one .
 *MOT: can you have what ?
 *MOT: that one ?
@@ -79,7 +79,7 @@
 *CHI: you can color whatever you want .
 *MOT: thank you .
 *CHI: can you put the lid on ?
-*MOT: why dont ?
+*MOT: why dont .
 *MOT: yes .
 *MOT: alright then .
 *MOT: there .
@@ -99,7 +99,7 @@
 *CHI: can I do this ?
 *MOT: yes .
 *MOT: no .
-*MOT: youre not doing that  are you ?
+*MOT: youre not doing that are you ?
 *MOT: youre just scribbling .
 *MOT: try and keep within the lines .
 *MOT: youre too big to scribble now .
@@ -124,7 +124,7 @@
 *CHI: would you like green like me ?
 *MOT: yes .
 *MOT: you have a light green and Ill have a dark green .
-*MOT: thats right  isnt it  Amy ?
+*MOT: thats right isnt it Amy ?
 *MOT: Amy ?
 *CHI: oh .
 *MOT: Ill do it .
@@ -142,18 +142,18 @@
 *MOT: good girl .
 *MOT: oh .
 *MOT: thats brilliant .
-*CHI: this is daddys picture  it is .
+*CHI: this is daddys picture it is .
 *MOT: mhm .
 *CHI: is that daddys picture too ?
 *MOT: are we doing it for daddy ?
-*MOT: thats nice of us  isnt it ?
-*CHI: when Amy gets bigger shell be able to walk and shell be able to
-*CHI: will she be able to talk very much and she be able to be the
+*MOT: thats nice of us isnt it ?
+*CHI: when Amy gets bigger shell be able to walk and shell be able to .
+*CHI: will she be able to talk very much and she be able to be the .
 *CHI: she wont be a baby when she gets a big girl .
 *MOT: no .
-*MOT: I dont think shell talk as much as you do though  do you ?
+*MOT: I dont think shell talk as much as you do though do you ?
 *CHI: no .
-*MOT: you talk loads  dont you ?
+*MOT: you talk loads dont you ?
 *CHI: yes .
 *MOT: do you ever stop talking ?
 *CHI: pardon ?
@@ -183,11 +183,11 @@
 *MOT: no .
 *MOT: Im not sticky .
 *MOT: but Amy is because shes eating banana .
-*CHI: we be careful with banana  wont we ?
+*CHI: we be careful with banana wont we ?
 *MOT: why do we hafta be careful with banana ?
-*CHI: because  we havent got to get sticky sticky hand or sticky
+*CHI: because we havent got to get sticky sticky hand or sticky .
 *MOT: well .
-*MOT: Amy gets sticky hand sticky nose and sticky face when she eats
+*MOT: Amy gets sticky hand sticky nose and sticky face when she eats .
 *MOT: yes .
 *CHI: I 0have nearly finished .
 *MOT: have you ?
@@ -199,8 +199,8 @@
 *MOT: shall we go for a walk ?
 *CHI: look .
 *MOT: hooray for Lara .
-*CHI: look  Amy .
-*MOT: look  Amy .
+*CHI: look Amy .
+*MOT: look Amy .
 *MOT: Lara colored the whole of it in .
 *MOT: now shes gonna do another bit .
 *MOT: oh .
@@ -213,10 +213,10 @@
 *CHI: you havent got the same as me .
 *MOT: I havent got the same as you now .
 *MOT: no .
-*CHI: I want
+*CHI: I want .
 *MOT: you could do yellow .
 *CHI: can I do the black orange ?
-*MOT: can you have +..?
+*MOT: can you have .
 *MOT: there isnt a black orange .
 *MOT: do you want the orange ?
 *CHI: yes .
@@ -225,7 +225,7 @@
 *MOT: and Ill have the yellow .
 *MOT: no ?
 *MOT: you want the green .
-*MOT: I think your sister likes green  Amy .
+*MOT: I think your sister likes green Amy .
 *CHI: do you like green ?
 *MOT: I like green as well .
 *CHI: but you havent got green .
@@ -235,7 +235,7 @@
 *CHI: you hafta hold on the bottom .
 *MOT: I know but I cant .
 *MOT: if I hold on the bottom then you cant color .
-*MOT: because my hands in the way which is why Im holding it like this
+*MOT: because my hands in the way which is why Im holding it like this .
 *MOT: is that alright ?
 *CHI: whatre you doing ?
 *MOT: pardon ?
@@ -247,7 +247,7 @@
 *MOT: like thats your chest .
 *MOT: www .
 *CHI: whats this called ?
-*CHI: whats this called ?
+*CHI: whats this called .
 *MOT: pardon ?
 *CHI: whats that called ?
 *MOT: his chest .
@@ -257,7 +257,7 @@
 *MOT: I think hes a raccoon .
 *CHI: hes not .
 *MOT: he is .
-*CHI: can I do  orange please ?
+*CHI: can I do orange please ?
 *MOT: what do you wanna do ?
 *MOT: orange ?
 *MOT: alright then .
@@ -279,12 +279,12 @@
 *MOT: oh what ?
 *MOT: with the bunnyrabbit ?
 *MOT: thank you .
-*MOT: that was your present from Sophie A  wasnt it ?
+*MOT: that was your present from Sophie A wasnt it ?
 *CHI: yes .
 *CHI: which one do you like ?
 *MOT: whichever one you want .
 *MOT: Ill have the other one .
-*CHI: I want the (.)
+*CHI: I want the .
 *MOT: do you want the light blue ?
 *MOT: there you go .
 *MOT: Ill have the dark blue then .
@@ -292,7 +292,7 @@
 *MOT: yes .
 *MOT: theyre yours .
 *CHI: you can keep that all day .
-*MOT: what the ?
+*MOT: what the .
 *CHI: where does blue hafta go ?
 *MOT: where do you want the blue to go ?
 *CHI: I want it to go here .
@@ -318,7 +318,7 @@
 *MOT: there .
 *MOT: I am .
 *MOT: hes got a blue tongue .
-*MOT: thats funny  isnt it  Amy ?
+*MOT: thats funny isnt it Amy ?
 *MOT: and well do his ears .
 *CHI: cant see .
 *CHI: I think mine hasta go that way .
@@ -340,7 +340,7 @@
 *MOT: oh .
 *MOT: and theres a nice man .
 *MOT: dont know whats happened .
-*MOT: we dont really know this story  do we ?
+*MOT: we dont really know this story do we ?
 *MOT: theres an Indian .
 *MOT: do you know what Indians say ?
 *MOT: thats right .
@@ -357,18 +357,18 @@
 *MOT: see your mouth ?
 *MOT: let let me get Amys little mirror .
 *MOT: then you might be able to see better .
-*MOT: cant really see anything  can you ?
+*MOT: cant really see anything can you ?
 *CHI: think its just right down my mouth .
 *CHI: does that press ?
 *MOT: no .
 *MOT: nothing .
 *MOT: doesnt do anything .
-*MOT: does it  Amy ?
+*MOT: does it Amy ?
 *MOT: no .
 *CHI: do they press ?
 *MOT: no .
-*MOT: they go
-*CHI: er is there any +..?
+*MOT: they go .
+*CHI: er is there any .
 *MOT: do you wanna have a look at the nurseryrhyme book ?
 *CHI: can you read the nurseryrhyme ?
 *MOT: yes .
@@ -377,11 +377,11 @@
 *MOT: Miranda bought you that .
 *MOT: you can use it to wipe your mouth after your dinner .
 *MOT: it says the Oxford Nursery book .
-*MOT: it says +"/.
-*MOT: dear  Lara .
-*MOT: from  Miranda .
+*MOT: it says .
+*MOT: dear Lara .
+*MOT: from Miranda .
 *MOT: June ninety ninety seven .
-*MOT: thats nice  isnt it ?
+*MOT: thats nice isnt it ?
 *CHI: can I do that ?
 *MOT: thought you wanted to read this ?
 *MOT: dont you wanna read this ?
@@ -395,7 +395,7 @@
 *MOT: thats a horrid color to color in with .
 *CHI: I like black .
 *MOT: I know you do .
-*MOT: heres a drawing book  look .
+*MOT: heres a drawing book look .
 *MOT: and that one .
 *MOT: which one would you like to do ?
 *CHI: More Dadaw bought me that .
@@ -409,7 +409,7 @@
 *CHI: I I wanna see your dinner .
 *CHI: a little tiny stalk .
 *CHI: spilt .
-*CHI: somebody spilt the paint  look .
+*CHI: somebody spilt the paint look .
 *CHI: look .
 *MOT: I know .
 *CHI: can you see its spilt .
@@ -444,14 +444,14 @@
 *CHI: because I dont want you to .
 *CHI: can I do that one ?
 *MOT: there .
-*MOT: thats a bit more room  isnt it ?
-*CHI: would you like
+*MOT: thats a bit more room isnt it ?
+*CHI: would you like .
 *CHI: 0 .
 *CHI: I did blue .
 *CHI: is that the sea ?
 *MOT: yes .
 *MOT: thats right .
-*CHI: sea ?
+*CHI: sea .
 *MOT: I think it it might be a river actually .
 *MOT: looking at the fact theres a plant in it .
 *MOT: you get seaweed in the sea .
@@ -464,13 +464,13 @@
 *MOT: its hot .
 *CHI: I want you to blow it .
 *CHI: I want you to blow blow mine .
-*MOT: you like fish  do you ?
+*MOT: you like fish do you ?
 *MOT: here you go then .
 *MOT: there .
 *MOT: you dont like fish ?
 *MOT: does your mouth hurt when you eat ?
 *MOT: let me feel .
-*MOT: does it hurt there  at the back ?
+*MOT: does it hurt there at the back ?
 *CHI: I had loads of dinner and then I got poorly .
 *MOT: you didnt have loads of dinner today .
 *MOT: you mean yesterday .
@@ -490,7 +490,7 @@
 *MOT: no .
 *MOT: the sun .
 *MOT: do you wanna color the sun yellow ?
-*CHI: I wanna do  do a big big big big big circle .
+*CHI: I wanna do do a big big big big big circle .
 *CHI: 0 .
 *CHI: I wanna scribble .
 *MOT: Ill get you some paper then .
@@ -500,11 +500,11 @@
 *CHI: look .
 *MOT: oh .
 *MOT: Ill pick them up for you .
-*MOT: er  Amy ?
+*MOT: er Amy ?
 *MOT: do you want a drink ?
 *CHI: can I have a breadstick ?
 *MOT: pardon ?
-*CHI: can I have a breadstick ?
+*CHI: can I have a breadstick .
 *MOT: a breadstick ?
 *MOT: okay .
 *CHI: is it Amys water ?
@@ -513,7 +513,7 @@
 *CHI: I got 0a big breadstick .
 *MOT: Amys got a breadstick of her own .
 *CHI: look .
-*CHI: I can go
+*CHI: I can go .
 *MOT: 0 .
 *CHI: can you help me ?
 *MOT: what do you want me to do ?
@@ -522,17 +522,17 @@
 *CHI: help me color .
 *MOT: help you color ?
 *MOT: well .
-*MOT: thats the third time you asked me that and what did I say when you
+*MOT: thats the third time you asked me that and what did I say when you .
 *CHI: dont know .
 *MOT: I said when Ive finished my lunch .
-*CHI: Im going to  I am .
+*CHI: Im going to I am .
 *MOT: Im going to have some of your birthday cake .
 *CHI: okay .
 *MOT: do you want some ?
 *CHI: I dont like it .
 *MOT: you dont like it .
 *CHI: you can have a bit of my birthday cake .
-*MOT: is mummy gonna
+*MOT: is mummy gonna .
 *CHI: yes .
 *MOT: whos this ?
 *MOT: who is it ?
@@ -569,7 +569,7 @@
 *MOT: you mean a saxophone ?
 *CHI: yes .
 *MOT: well it looks like a saxophone .
-*CHI: its for you  it is .
+*CHI: its for you it is .
 *MOT: thank you .
 *CHI: would you like that all for yourself ?
 *MOT: uhhuh ?
@@ -593,7 +593,7 @@
 *CHI: hello .
 *CHI: hello .
 *CHI: Amy was .
-*CHI: shes  she is .
+*CHI: shes she is .
 *MOT: who is ?
 *MOT: that breadstick ?
 *MOT: ooh .
@@ -604,28 +604,28 @@
 *MOT: yes .
 *CHI: and shes Helena .
 *MOT: and who are you ?
-*CHI: and Im Im  Kate .
+*CHI: and Im Im Kate .
 *MOT: mhm .
 *MOT: wheres Jonathan ?
 *CHI: I havent got Jonathan .
-*MOT: daddy can be Jonathan  cant he ?
+*MOT: daddy can be Jonathan cant he ?
 *CHI: Jonathans at work .
 *MOT: is he ?
 *MOT: right .
-*CHI: Jonathans quite big then  isnt he ?
+*CHI: Jonathans quite big then isnt he ?
 *MOT: even if he is only nine .
 *CHI: does he go to work ?
 *MOT: who ?
 *MOT: me ?
 *CHI: no .
 *MOT: Jonathan .
-*MOT: Jonathan doesnt really go to work  does he ?
+*MOT: Jonathan doesnt really go to work does he ?
 *MOT: he goes to school .
 *MOT: youll go to school soon .
 *CHI: would you like to do the coloring ?
 *MOT: okay .
 *MOT: what shall I draw .
-*MOT: Ill draw something and you tell me who
+*MOT: Ill draw something and you tell me who .
 *CHI: thats grandad .
 *MOT: it looks a bit like grandad .
 *CHI: can you do a people ?
@@ -650,7 +650,7 @@
 *MOT: I could do a Christmas tree ?
 *CHI: tree .
 *CHI: 0I cant see what youre doing .
-*CHI: youre gonna
+*CHI: youre gonna .
 *CHI: look .
 *CHI: look like a tree .
 *MOT: it does .
@@ -661,7 +661,7 @@
 *CHI: can you do Santa Claus ?
 *MOT: Ive done Santa Claus .
 *MOT: theyre the same person .
-*MOT: have you finished  Amy ?
+*MOT: have you finished Amy ?
 *MOT: have you ?
 *CHI: you didnt do Santa Claus .
 *MOT: I did .
@@ -669,7 +669,7 @@
 *CHI: thats Santa Claus and thats Father Christmas .
 *CHI: I cant see Father Christmas .
 *MOT: this is Father Christmas but sometimes we call him Santa Claus .
-*MOT: its like we call daddy daddy but sometimes we call him George ,
+*MOT: its like we call daddy daddy but sometimes we call him George .
 *MOT: sometimes we call mummy Caroline .
 *MOT: sometimes you call Santa Claus Father Christmas .
 *MOT: okay ?
@@ -677,7 +677,7 @@
 *MOT: another breadstick ?
 *MOT: I dont think so .
 *CHI: why ?
-*MOT: because all youve eaten today is breadsticks and and
+*MOT: because all youve eaten today is breadsticks and and .
 *MOT: I want you to eat your tea .
 *MOT: Im going to draw a flower .
 *CHI: and I 0will draw a big big flower .
@@ -686,19 +686,19 @@
 *MOT: you wanna draw a flower ?
 *MOT: okay .
 *AMY: 0 .
-*MOT: I think were gonna clean you up  Amy .
+*MOT: I think were gonna clean you up Amy .
 *CHI: I cant .
 *MOT: yes .
 *MOT: you can .
-*CHI: 0I cant do it  you see .
+*CHI: 0I cant do it you see .
 *MOT: do you want me to help you ?
 *CHI: yes .
 *MOT: okay .
-*MOT: we do
+*MOT: we do .
 *MOT: hold the pen properly .
 *MOT: like that .
 *MOT: right .
-*MOT: we do a circle like that  and then we do lots of little petals
+*MOT: we do a circle like that and then we do lots of little petals .
 *MOT: and then we do a stalk and some leaves .
 *MOT: there .
 *MOT: you did one .
@@ -718,10 +718,10 @@
 *CHI: there .
 *MOT: where ?
 *CHI: its on the clock .
-*MOT: no  sweetheart .
+*MOT: no sweetheart .
 *MOT: its yucky .
 *AMY: 0 .
-*CHI: shes coming  Amy .
+*CHI: shes coming Amy .
 *CHI: shes coming .
 *MOT: Im coming .
 *CHI: 0 .
@@ -735,14 +735,14 @@
 *CHI: they hafta go that way .
 *CHI: can I start yellow ?
 *CHI: did you do yellow ?
-*MOT: oh  Amy .
+*MOT: oh Amy .
 *MOT: youre very hot .
 *MOT: oh .
 *MOT: shes pooed .
 *MOT: lets go and do a drawing in the front room so I can change her .
 *MOT: I shall get them in a minute .
 *MOT: let me do Amys nappie .
-*CHI: youve got the same as mine  look .
+*CHI: youve got the same as mine look .
 *MOT: I know .
 *MOT: you gave it to me .
 *CHI: Ive got 0a picture and you got a 0a picture like me .
@@ -766,13 +766,13 @@
 *MOT: well .
 *MOT: Abi can share hers with Cesca and you can share yours with Amy .
 *CHI: yes .
-*CHI: Cescas going share
+*CHI: Cescas going share .
 *CHI: I can .
 *CHI: 0 .
 *CHI: everybody share mine .
 *MOT: okay .
 *MOT: www .
-*CHI: can we ?
+*CHI: can we .
 *MOT: www .
 *CHI: and we can play snap .
 *MOT: right well .
@@ -786,7 +786,7 @@
 *MOT: here we are .
 *CHI: 0 .
 *MOT: oh .
-*MOT: shes got food on her head  hasnt she ?
+*MOT: shes got food on her head hasnt she ?
 *MOT: Ill get that off in a minute .
 *MOT: right then .
 *CHI: thats your one and this is mine .
@@ -808,13 +808,13 @@
 *MOT: you need two of the same to play snap .
 *MOT: Amy .
 *MOT: www .
-*CHI: I think I
+*CHI: I think I .
 *MOT: we dont just hafta play snap you know ?
 *MOT: we can play lots of things .
 *MOT: lots of games .
 *CHI: can you open it ?
 *MOT: yes .
-*CHI: I can open badges  I can .
+*CHI: I can open badges I can .
 *MOT: badges .
 *CHI: yes .
 *MOT: I know .
@@ -835,7 +835,7 @@
 *MOT: Im going to shuffle them .
 *AMY: 0 .
 *CHI: can I have mine ?
-*CHI: can I have mine  mummy ?
+*CHI: can I have mine mummy .
 *MOT: yes .
 *CHI: how do you play it ?
 *MOT: right well .
@@ -862,9 +862,9 @@
 *CHI: Ive got .
 *MOT: Amy .
 *MOT: shes being naughty .
-*MOT: go and play with the bricks  Amy .
+*MOT: go and play with the bricks Amy .
 *MOT: Amy .
-*MOT: bricks  look .
+*MOT: bricks look .
 *MOT: get off me .
 *MOT: whatre you doing ?
 *CHI: shall I pour them out ?
@@ -883,7 +883,7 @@
 *MOT: not snap yet .
 *CHI: Amy .
 *CHI: blocksiewocksiesc .
-*MOT: youve got to concentrate  look .
+*MOT: youve got to concentrate look .
 *MOT: put a card down .
 *MOT: the top card .
 *CHI: this .
@@ -903,7 +903,7 @@
 *MOT: youve got two again .
 *MOT: you great big cheater !
 *MOT: thats a beetle .
-*MOT: thats horrid  isnt it ?
+*MOT: thats horrid isnt it .
 *MOT: baby rabbits .
 *MOT: no .
 *CHI: shall I do that one .
@@ -913,7 +913,7 @@
 *MOT: elephant .
 *CHI: have you got another elephant ?
 *MOT: I dont know .
-*MOT: well hafta wait and see  wont we ?
+*MOT: well hafta wait and see wont we ?
 *MOT: whats that ?
 *CHI: horse .
 *MOT: horse .
@@ -925,7 +925,7 @@
 *MOT: bears are real .
 *MOT: Amy .
 *MOT: I dont know what youre doing but youre mad .
-*MOT: your go  sweetheart .
+*MOT: your go sweetheart .
 *CHI: is that real ?
 *MOT: yes .
 *CHI: is this real ?
@@ -965,7 +965,7 @@
 *MOT: yes .
 *CHI: is this a real dog ?
 *MOT: a real dog ?
-*MOT: the pictures are real dogs  arent they ?
+*MOT: the pictures are real dogs arent they ?
 *CHI: I wanna see them .
 *MOT: well .
 *MOT: turn it round then .
@@ -1013,7 +1013,7 @@
 *MOT: she stood up !
 *MOT: clever girl .
 *MOT: get off my taperecorder .
-*CHI: Im trying to see er &-er
+*CHI: Im trying to see er er .
 *MOT: pardon ?
 *CHI: a horsie on that bit .
 *MOT: okay .
@@ -1023,12 +1023,12 @@
 *CHI: butterfly .
 *CHI: butterfly .
 *CHI: butterfly .
-*CHI: I made a butterfly song  I do .
+*CHI: I made a butterfly song I do .
 *MOT: hooray .
 *CHI: 0 .
 *MOT: Im going to put another card down then .
 *MOT: wrong way .
-*MOT: hang on Im sure
+*MOT: hang on Im sure .
 *CHI: 0 .
 *MOT: oh .
 *MOT: were using the wrong cards .
@@ -1046,14 +1046,14 @@
 *CHI: no .
 *MOT: Ive got lots of red cards .
 *MOT: and thats why were not getting any snaps .
-*MOT: because Ive got all the red cards and youve got all the blue
+*MOT: because Ive got all the red cards and youve got all the blue .
 *CHI: Ive got all .
 *CHI: can I have the red cards ?
 *MOT: no .
 *MOT: we hafta share them so we can play snap properly .
 *CHI: you can have the blue cards .
 *MOT: no .
-*MOT: I cant play with you if you blue cards
+*MOT: I cant play with you if you blue cards .
 *CHI: I dont wanna play snap now .
 *MOT: do you wanna play mummy and dad babies game ?
 *CHI: I wanna play bubbles .
@@ -1071,7 +1071,7 @@
 *MOT: come here and Ill help .
 *MOT: oh yuck .
 *MOT: no .
-*MOT: dont dont do that  Lara .
+*MOT: dont dont do that Lara .
 *MOT: youre just spitting on me .
 *MOT: thats horrible .
 *MOT: wait a minute .
@@ -1096,7 +1096,7 @@
 *MOT: ooh .
 *MOT: let Amy get .
 *MOT: oh god .
-*MOT: oh  Lara .
+*MOT: oh Lara .
 *MOT: look .
 *MOT: youre spilling it all .
 *MOT: just sit down to do it please .
@@ -1125,7 +1125,7 @@
 *MOT: I think its dead really .
 *CHI: pardon ?
 *MOT: didnt last very long .
-*MOT: its not working very well  is it ?
+*MOT: its not working very well is it ?
 *CHI: get some more water in it .
 *MOT: you dont need more water .
 *MOT: we need special bubble mixture .
@@ -1182,7 +1182,7 @@
 *CHI: I I dont wanna play snap .
 *CHI: I wanna play .
 *MOT: you wanna play what ?
-*CHI: can I play +..?
+*CHI: can I play .
 *CHI: can I play .
 *MOT: what do you wanna play ?
 *CHI: pardon ?
@@ -1201,7 +1201,7 @@
 *MOT: quickly .
 *MOT: alright then .
 *MOT: look at all this rubbish on the floor .
-*CHI: youll hafta hoover  wont you ?
+*CHI: youll hafta hoover wont you ?
 *MOT: we cant .
 *MOT: the hoovers broken .
 *CHI: it ?
@@ -1210,7 +1210,7 @@
 *CHI: I think a bit broke it .
 *CHI: she can play 0with my blocks .
 *MOT: thank you .
-*MOT: there you go  Amy .
+*MOT: there you go Amy .
 *CHI: shall we take them all out ?
 *MOT: why ?
 *CHI: because I wanna .
@@ -1243,12 +1243,12 @@
 *MOT: www .
 *CHI: shall we color them in ?
 *MOT: ooh .
-*CHI: is this red ?
+*CHI: is this red .
 *MOT: www .
 *CHI: now .
 *CHI: dont pull me .
 *MOT: right .
-*MOT: now you hafta find which one of these Sammy Snakes hasnt got a
+*MOT: now you hafta find which one of these Sammy Snakes hasnt got a .
 *MOT: which one is the odd one out ?
 *MOT: that one .
 *MOT: you hafta circle that .
@@ -1278,17 +1278,18 @@
 *MOT: Im just running away from Amy .
 *AMY: 0 .
 *MOT: www .
-*CHI: Im the mummy and you will be dad  yes ?
+*CHI: Im the mummy and you will be dad yes ?
 *MOT: okay .
 *MOT: right then .
 *MOT: now you hafta find .
 *MOT: on this page you hafta find the same .
-*MOT: so circle the same letterland in this row that is the same as that
+*MOT: so circle the same letterland in this row that is the same as that .
 *MOT: so whos that ?
 *CHI: er .
 *CHI: Poor Peter .
 *MOT: no .
 *MOT: look again .
+*MOT: bouncing .
 *CHI: Bouncing Ben ?
 *MOT: thats it .
 *MOT: so can you find the other Bouncing Ben ?
@@ -1328,8 +1329,9 @@
 *MOT: thank you .
 *AMY: 0 .
 *CHI: which one can we do ?
-*CHI: which one can we do ?
-*CHI: which one can we do ?
+*CHI: which one can we do .
+*CHI: what .
+*CHI: which one can we do .
 *MOT: er this one .
 *MOT: have you circled the elephant ?
 *MOT: you havent circled Bouncing Ben either .
@@ -1343,7 +1345,7 @@
 *MOT: pardon ?
 *MOT: www .
 *CHI: look at all the toys .
-*MOT: look at all these toys  Amy .
+*MOT: look at all these toys Amy .
 *CHI: look at all these toys .
 *MOT: lets take that out .
 *MOT: because she shouldnt really be playing with that .
@@ -1368,7 +1370,7 @@
 *MOT: you can walk the doggy if you want .
 *CHI: you stay at home ?
 *MOT: yes .
-*MOT: well were going to go for a walk later  arent we ?
+*MOT: well were going to go for a walk later arent we ?
 *MOT: but I dont wanna go yet .
 *CHI: but Im going to pretend .
 *MOT: okay .
@@ -1392,9 +1394,9 @@
 *CHI: doggy hafta stay at home because hes very tired .
 *MOT: is he ?
 *MOT: oh .
-*CHI: dont eat them again  will you ?
+*CHI: dont eat them again will you ?
 *MOT: no .
-*MOT: we wont  will me  Amy ?
+*MOT: we wont will me Amy ?
 *CHI: Im getting grapes .
 *CHI: Im the mummy and youre the daddy and shes the baby .
 *CHI: shes the doggy .
@@ -1419,7 +1421,7 @@
 *MOT: I did that on the hoover .
 *MOT: silly hoover .
 *CHI: did you press it really hard and then did you hurt yourself ?
-*MOT: I was hoovering like that and scraped the
+*MOT: I was hoovering like that and scraped the .
 *CHI: would you like to help Amy play with the toys ?
 *MOT: no .
 *MOT: Im just watching you help her play .
@@ -1437,7 +1439,7 @@
 *CHI: thats my grandmas kitchen .
 *MOT: is it ?
 *AMY: 0 .
-*CHI: ouch  Amy .
+*CHI: ouch Amy .
 *CHI: Amy .
 *MOT: here you are .
 *MOT: www .
@@ -1455,6 +1457,8 @@
 *CHI: do you want ketchup ?
 *MOT: yummy .
 *CHI: sposta be good .
+*CHI: when .
+*CHI: well .
 *MOT: are you going to cook with that ?
 *CHI: ugh ugh .
 *MOT: 0 .
@@ -1474,12 +1478,13 @@
 *MOT: wherere we going ?
 *CHI: the tables here .
 *MOT: okay .
-*MOT: what about cups and saucers  and plates ?
+*MOT: what about cups and saucers and plates ?
 *CHI: oh yes .
 *CHI: this is food .
 *CHI: oh yummy .
 *CHI: Amy cant have any food .
 *MOT: why not ?
+*CHI: because .
 *CHI: no .
 *CHI: thats a gate .
 *CHI: she cant get out .
@@ -1542,25 +1547,26 @@
 *MOT: Amy .
 *MOT: do you want these ?
 *MOT: right .
-*MOT: it is now time for me to wash up and then we can go to the park
+*MOT: it is now time for me to wash up and then we can go to the park .
 *MOT: alright ?
 *MOT: so if you just play here a minute while I go and wash up .
 *MOT: are you gonna sit there ?
-*MOT: why dont you sit there in your place and then we can play it
+*MOT: why dont you sit there in your place and then we can play it .
 *MOT: yes ?
 *CHI: I wanna sit next to you .
 *MOT: well .
 *MOT: then you will be next to me if you sit there .
+*MOT: but .
 *MOT: pull it out like that .
 *MOT: thats it .
-*MOT: were playing picture lotto  Amy .
+*MOT: were playing picture lotto Amy .
 *CHI: and that .
 *MOT: well .
 *MOT: which are we doing first ?
 *CHI: this one .
 *MOT: okay .
 *MOT: can I pick a card ?
-*MOT: alright  Amy ?
+*MOT: alright Amy ?
 *CHI: Ive got loads of cards .
 *MOT: I know .
 *MOT: theres six cards .
@@ -1568,7 +1574,7 @@
 *MOT: er tell you what .
 *MOT: lets put these in here .
 *MOT: there .
-*MOT: because they hafta be upside down  dont they ?
+*MOT: because they hafta be upside down dont they ?
 *MOT: to play picture lotto .
 *MOT: shake them around a bit .
 *CHI: that ones yours .
@@ -1585,7 +1591,7 @@
 *MOT: how do we play ?
 *CHI: you pick one each from .
 *MOT: yes .
-*MOT: you hafta pick one card  dont you and see if it fits on your
+*MOT: you hafta pick one card dont you and see if it fits on your .
 *MOT: and if it doesnt you hafta put it back .
 *MOT: does it ?
 *MOT: no .
@@ -1593,6 +1599,7 @@
 *CHI: youve got it .
 *MOT: yes .
 *MOT: but you still hafta put it back .
+*MOT: so .
 *MOT: other way .
 *MOT: thats it .
 *MOT: you shake them .
@@ -1625,8 +1632,8 @@
 *MOT: so what you hafta do .
 *MOT: you hafta remember where it is so you can find it again .
 *MOT: no .
-*MOT: then you can find this one  cant you ?
-*MOT: because if you remember where it is then youll be able to pick it
+*MOT: then you can find this one cant you ?
+*MOT: because if you remember where it is then youll be able to pick it .
 *MOT: thats it .
 *MOT: my go .
 *MOT: a parrot ?
@@ -1634,7 +1641,7 @@
 *MOT: put it down .
 *MOT: yes .
 *MOT: but you havent got a parrot .
-*MOT: theres no point taking the parrot  is there ?
+*MOT: theres no point taking the parrot is there ?
 *MOT: because you havent got one .
 *MOT: have you got that ?
 *MOT: no .
@@ -1646,11 +1653,11 @@
 *MOT: your go .
 *MOT: shall we have two boards each ?
 *MOT: yes .
-*MOT: because then um  it makes it better  doesnt it ?
+*MOT: because then um it makes it better doesnt it ?
 *CHI: I want that one .
 *CHI: I dont want that one .
 *MOT: well .
-*MOT: youve got that little boy  look .
+*MOT: youve got that little boy look .
 *MOT: if you had that one you could put the little boy on it .
 *CHI: I dont want the lion .
 *MOT: dont you ?
@@ -1671,14 +1678,14 @@
 *CHI: Ive got an aeroplane .
 *MOT: Ive got a jumper .
 *MOT: have I got a jumper on my board ?
-*MOT: have I  Amy ?
+*MOT: have I Amy ?
 *MOT: have I ?
 *MOT: yeah .
 *MOT: www .
 *CHI: Ive got a boat .
 *MOT: youve got a boat .
 *MOT: have you got a boat ?
-*MOT: oy  cheat .
+*MOT: oy cheat .
 *MOT: you cant do that .
 *MOT: Ive got an iron .
 *MOT: I think you you might have an iron .
@@ -1686,7 +1693,7 @@
 *CHI: pick it .
 *MOT: pardon ?
 *CHI: pick it .
-*MOT: we put it back and Lara hasta remember where it was
+*MOT: we put it back and Lara hasta remember where it was .
 *MOT: thats it .
 *MOT: okay .
 *MOT: www .
@@ -1719,7 +1726,7 @@
 *MOT: Ive got a television .
 *MOT: have you got a television ?
 *MOT: right .
-*MOT: so  thats it .
+*MOT: so thats it .
 *MOT: I keep getting all the ones that are on your board .
 *MOT: www .
 *CHI: yes .
@@ -1733,14 +1740,14 @@
 *MOT: oh .
 *MOT: its lion .
 *MOT: no .
-*MOT: that was on the one we didnt get pick out  wasnt it ?
+*MOT: that was on the one we didnt get pick out wasnt it ?
 *MOT: put it back .
 *MOT: your go .
 *MOT: what is it ?
 *CHI: elephant .
 *MOT: Ive got an elephant .
 *MOT: Ive got an elephant .
-*MOT: look  Amy .
+*MOT: look Amy .
 *MOT: Ive got an elephant .
 *MOT: you cant have it .
 *MOT: got to go on my board .
@@ -1751,7 +1758,7 @@
 *MOT: dont you ?
 *CHI: I wanna play that game .
 *MOT: do you wanna play that ?
-*MOT: you wanna play that game  do you ?
+*MOT: you wanna play that game do you ?
 *CHI: I pour my bits in .
 *MOT: alright .
 *MOT: you pour your bits in .
@@ -1768,12 +1775,12 @@
 *MOT: okay .
 *MOT: shall we see how to play ?
 *CHI: yes .
-*MOT: we hafta read the instructions  dont we ?
+*MOT: we hafta read the instructions dont we ?
 *CHI: yes .
 *CHI: have you got to turn them over ?
 *MOT: no .
 *MOT: no .
-*MOT: it says use the blue cards  and the red card .
+*MOT: it says use the blue cards and the red card .
 *MOT: this is the blue card .
 *MOT: shall I read what it says ?
 *CHI: yes .
@@ -1791,10 +1798,10 @@
 *MOT: no .
 *MOT: does it have that sign ?
 *MOT: yes .
-*MOT: it does  you banana .
+*MOT: it does you banana .
 *MOT: lets find the right cards .
 *MOT: that one does .
-*CHI: I dont want
+*CHI: I dont want .
 *MOT: hang on .
 *MOT: we havent started yet .
 *MOT: lets give it a go .
@@ -1813,12 +1820,12 @@
 *MOT: whos going to go first ?
 *CHI: me .
 *MOT: you ?
-*MOT: Laras going to go first  Amy .
+*MOT: Laras going to go first Amy .
 *MOT: we hafta spread .
 *MOT: dont dont look .
 *MOT: move your elbows .
 *MOT: right .
-*MOT: what you hafta do  is youve got to turn over two cards and see
+*MOT: what you hafta do is youve got to turn over two cards and see .
 *MOT: so you choose two cards .
 *MOT: lets see what they are .
 *MOT: oh .
@@ -1848,7 +1855,7 @@
 *MOT: youve got to try and find the mummy rabbit .
 *MOT: I think you might hafta kneel up for this one .
 *CHI: why ?
-*MOT: on the  chair .
+*MOT: on the chair .
 *MOT: www .
 *MOT: do you reckon thats mummy rabbit ?
 *MOT: no .
@@ -1868,7 +1875,7 @@
 *MOT: whats that ?
 *MOT: puppies and a sheep .
 *MOT: now .
-*MOT: theyre not a pair  are they ?
+*MOT: theyre not a pair are they ?
 *MOT: do you remember where the lamb was ?
 *MOT: do you remember where the baby sheep was ?
 *MOT: I think I do .

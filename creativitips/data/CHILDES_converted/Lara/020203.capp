@@ -23,7 +23,7 @@
 *CHI: down you go .
 *MOT: my ladys gonna go off the ramp .
 *MOT: watch .
-*MOT: ready steady
+*MOT: ready steady .
 *CHI: more .
 *MOT: Lara do it .
 *CHI: no .
@@ -35,7 +35,7 @@
 *MOT: excuse me .
 *MOT: out of the way .
 *MOT: Laras ladys coming .
-*CHI: ready steady
+*CHI: ready steady .
 *MOT: go .
 *MOT: do you want wee wee ?
 *CHI: no .
@@ -47,7 +47,7 @@
 *CHI: mummy .
 *MOT: bring it to mummy then .
 *CHI: there .
-*MOT: one two three  go .
+*MOT: one two three go .
 *CHI: go .
 *MOT: go .
 *MOT: oh .
@@ -63,11 +63,11 @@
 *MOT: no .
 *MOT: not if youre gonna do that because they break it .
 *MOT: here .
-*CHI: come up here  lady mummy lady .
-*CHI: ready steady
+*CHI: come up here lady mummy lady .
+*CHI: ready steady .
 *MOT: go .
 *CHI: there .
-*CHI: here  mummy .
+*CHI: here mummy .
 *MOT: thank you .
 *CHI: up we go .
 *MOT: up we go .
@@ -82,10 +82,11 @@
 *MOT: your lady is coming up .
 *CHI: sings .
 *CHI: excuse me .
-*MOT: excuse me  lady .
-*CHI: say excuse me  mummy lady .
+*MOT: excuse me lady .
+*CHI: say excuse me mummy lady .
 *CHI: because my coming .
-*MOT: youre coming  are you ?
+*CHI: my .
+*MOT: youre coming are you ?
 *MOT: go on then .
 *MOT: into the lift .
 *MOT: the ladys down here .
@@ -114,11 +115,11 @@
 *MOT: okay .
 *CHI: this go down mummy lift ?
 *MOT: wanna go down the slide or go down the lift ?
-*CHI: mummy lady go down the
+*CHI: mummy lady go down the .
 *CHI: say excuse me .
 *CHI: say excuse me .
 *MOT: excuse me .
-*MOT: out of the way  mummys lady .
+*MOT: out of the way mummys lady .
 *MOT: let let Laras lady come down .
 *MOT: hello .
 *MOT: hello .
@@ -126,7 +127,7 @@
 *CHI: hide .
 *MOT: quick quick .
 *MOT: hide .
-*CHI: now  mummy lady .
+*CHI: now mummy lady .
 *CHI: mummy .
 *CHI: mummy lady hide .
 *MOT: Im going to open the door .
@@ -148,7 +149,7 @@
 *MOT: is it ?
 *CHI: okay .
 *CHI: wheres my car gone ?
-*MOT: wheres your car gone  lady ?
+*MOT: wheres your car gone lady ?
 *CHI: here it is .
 *MOT: can you see it ?
 *CHI: big step .
@@ -205,7 +206,7 @@
 *MOT: whos waking up .
 *CHI: mummy lady .
 *MOT: mummys lady .
-*MOT: doors open  ladies .
+*MOT: doors open ladies .
 *MOT: wake up .
 *MOT: there .
 *MOT: theyve woken up .
@@ -230,7 +231,7 @@
 *MOT: thats daddys money .
 *CHI: mummys .
 *MOT: thats daddys .
-*CHI: here you are  daddy .
+*CHI: here you are daddy .
 *MOT: I think daddys asleep .
 *CHI: mummy .
 *CHI: see ?
@@ -257,7 +258,7 @@
 *DAD: lie down again .
 *DAD: www .
 *CHI: 0 .
-*DAD: whats the matter  Lara ?
+*DAD: whats the matter Lara ?
 *DAD: whats the matter ?
 *MOT: Lara .
 *MOT: whats the matter ?
@@ -289,10 +290,10 @@
 *CHI: thats babys .
 *MOT: that is .
 *MOT: give it to baby then .
-*CHI: here  baby .
+*CHI: here baby .
 *CHI: its your bottle here .
-*MOT: heres your bottle  baby .
-*MOT: the tractors in here  look .
+*MOT: heres your bottle baby .
+*MOT: the tractors in here look .
 *CHI: three little men sit on the wall .
 *MOT: come on then .
 *MOT: put three little men on the wall .
@@ -310,7 +311,7 @@
 *CHI: daddy .
 *DAD: yes ?
 *MOT: whatre you doing ?
-*MOT: you look very strange
+*MOT: you look very strange .
 *MOT: can I have those bricks over there ?
 *MOT: there .
 *MOT: the ones by your knee that youre looking at .
@@ -342,7 +343,7 @@
 *MOT: whats this ?
 *CHI: whats that ?
 *MOT: baby horsie .
-*MOT: theres another man  look .
+*MOT: theres another man look .
 *MOT: all the garage people here .
 *MOT: what do you want now ?
 *CHI: this .
@@ -399,7 +400,7 @@
 *CHI: policeman .
 *MOT: and whos this ?
 *CHI: farmer .
-*MOT: farmer can talk to the policeman there  look .
+*MOT: farmer can talk to the policeman there look .
 *MOT: oh .
 *MOT: policemans drunk .
 *MOT: oh .
@@ -425,6 +426,7 @@
 *MOT: pardon ?
 *CHI: giraffe .
 *MOT: you cant fit the mouth on ?
+*CHI: giraffe .
 *MOT: I think I can find an elephant .
 *MOT: shall I find an elephant ?
 *CHI: no .
@@ -433,18 +435,18 @@
 *CHI: yes .
 *MOT: the piggy ?
 *CHI: piggys fit .
-*MOT: the piggyll fit there  will he ?
+*MOT: the piggyll fit there will he ?
 *MOT: is elephant too big ?
 *CHI: yes .
 *MOT: heres baby piggy .
 *CHI: fit in there .
 *CHI: fit in there middle .
 *MOT: in the middle .
-*MOT: do you want a wee wee  Lara ?
+*MOT: do you want a wee wee Lara ?
 *MOT: sausage ?
 *MOT: Lara ?
 *MOT: Lara .
-*CHI: here you are  baby .
+*CHI: here you are baby .
 *MOT: do you want wee wee ?
 *CHI: no .
 *MOT: well .
@@ -458,7 +460,7 @@
 *MOT: it wont fit .
 *MOT: itll fall over there .
 *CHI: how about here ?
-*CHI: how about here ?
+*CHI: how about here .
 *MOT: I think youll hafta prop it up with something .
 *MOT: shall we put it here ?
 *MOT: there .
@@ -466,6 +468,7 @@
 *MOT: what other animals do you want ?
 *MOT: whats this ?
 *CHI: baby .
+*MOT: baby .
 *CHI: lion .
 *MOT: do you want him ?
 *CHI: no .
@@ -478,7 +481,7 @@
 *MOT: heres a little one .
 *MOT: how about a little one .
 *MOT: does he go in the field ?
-*MOT: a little  penguin .
+*MOT: a little penguin .
 *CHI: here .
 *MOT: oh .
 *MOT: whats the matter ?
@@ -486,7 +489,7 @@
 *CHI: lie down .
 *CHI: its bedtime .
 *CHI: bedtime .
-*MOT: bedtime  Heidi .
+*MOT: bedtime Heidi .
 *CHI: no want that .
 *MOT: um obviously .
 *CHI: its a bit .
@@ -498,7 +501,7 @@
 *MOT: pass me that bit of food .
 *MOT: the food goes in this box and the brick goes in that box .
 *CHI: sings .
-*MOT: come on then  Heidi .
+*MOT: come on then Heidi .
 *MOT: come and go to sleep .
 *MOT: oh sorry .
 *MOT: shouldnt she be on her back ?
@@ -508,6 +511,7 @@
 *MOT: you go and get here .
 *MOT: there .
 *MOT: shes up there .
+*CHI: its .
 *CHI: fit .
 *MOT: pardon ?
 *CHI: fit .
@@ -545,7 +549,7 @@
 *MOT: put what on ?
 *CHI: put rock a bye baby on .
 *MOT: oh no .
-*MOT: lets sing it  shall we ?
+*MOT: lets sing it shall we ?
 *CHI: put rock a bye baby on .
 *MOT: no .
 *MOT: well sing it .
@@ -557,7 +561,7 @@
 *CHI: sings .
 *CHI: that ?
 *CHI: whats that ?
-*CHI: that ?
+*CHI: that .
 *MOT: what is it ?
 *MOT: listen .
 *MOT: shh .
@@ -565,12 +569,12 @@
 *MOT: poor old daddy .
 *CHI: come on .
 *CHI: come on .
-*CHI: hi  daddy .
+*CHI: hi daddy .
 *DAD: no .
 *DAD: no .
 *DAD: dont hit daddy .
 *DAD: no .
-*DAD: dont do that  sweetheart .
+*DAD: dont do that sweetheart .
 *DAD: Lara .
 *DAD: what did daddy say ?
 *CHI: I want ride my neenawo .
@@ -592,12 +596,12 @@
 *CHI: daddy .
 *DAD: whats the matter ?
 *CHI: wheres my watch gone ?
-*DAD: I dont know  sweetheart .
+*DAD: I dont know sweetheart .
 *DAD: youd better ask mummy when she comes down .
 *CHI: daddy find it .
-*DAD: daddy doesnt know where mummys put it  sweetheart .
+*DAD: daddy doesnt know where mummys put it sweetheart .
 *DAD: ask mummy when she comes down .
-*CHI: its in
+*CHI: its in .
 *DAD: its alright .
 *DAD: mummyll find it for you when she comes down .
 *DAD: you remember about it and tell mummy .
@@ -643,8 +647,8 @@
 *CHI: you put it on .
 *MOT: okay .
 *MOT: Im sitting down .
-*MOT: do you want me to put it on you or put
-*MOT: thats the wrong way  sweetheart .
+*MOT: do you want me to put it on you or put .
+*MOT: thats the wrong way sweetheart .
 *MOT: shall mummy do it ?
 *CHI: yes .
 *MOT: why dont you put it on Samantha .
@@ -659,12 +663,12 @@
 *CHI: mummy .
 *DAD: www .
 *CHI: wheres the little girl gone ?
-*MOT: shes on there  look .
-*CHI: wheres the little girl gone ?
+*MOT: shes on there look .
+*CHI: wheres the little girl gone .
 *MOT: there .
-*CHI: wheres the little girl gone ?
+*CHI: wheres the little girl gone .
 *MOT: well .
-*MOT: dont keep asking asking the same question when Ive told you
+*MOT: dont keep asking asking the same question when Ive told you .
 *CHI: put it on there .
 *MOT: do you wanna put it on your wrist ?
 *CHI: no .
@@ -691,7 +695,7 @@
 *MOT: here you are .
 *DAD: nose wiping time .
 *MOT: yes .
-*MOT: oh yuck  Lara .
+*MOT: oh yuck Lara .
 *DAD: www .
 *MOT: do you want wee wee ?
 *CHI: 0 .
@@ -746,7 +750,7 @@
 *DAD: oh dear .
 *DAD: no no no no no .
 *DAD: youre not getting daddys feet .
-*DAD: be careful  sweetheart .
+*DAD: be careful sweetheart .
 *DAD: or else you might fall off the settee .
 *DAD: no .
 *DAD: Im gonna tickle Lara .
@@ -773,7 +777,7 @@
 *CHI: Eeyores birthday .
 *MOT: I dont think theres an Eeyores birthday song .
 *MOT: you can sing happy birthday .
-*DAD: sing sing happy birthday to Eeyore  Lara .
+*DAD: sing sing happy birthday to Eeyore Lara .
 *CHI: sings .
 *CHI: hooray .
 *DAD: hooray for Eeyores birthday .

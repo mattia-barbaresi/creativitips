@@ -11,7 +11,7 @@
 *MOT: want your car ?
 *CHI: yes .
 *MOT: mhm .
-*MOT: thats your big one  isnt it ?
+*MOT: thats your big one isnt it ?
 *MOT: eh ?
 *CHI: this one is my big one .
 *MOT: no .
@@ -24,13 +24,13 @@
 *CHI: no .
 *CHI: my Daddy bought that one .
 *MOT: didnt he ?
-*CHI: go away  sun .
+*CHI: go away sun .
 *CHI: go away .
 *MOT: the sun cant go away .
 *MOT: not yet .
 *CHI: its daytime .
-*CHI: go away  sun .
-*CHI: go away  sun .
+*CHI: go away sun .
+*CHI: go away sun .
 *MOT: the sunll go away tonight .
 *MOT: do you want me to shut the curtain a bit ?
 *CHI: yeah .
@@ -86,13 +86,13 @@
 *MOT: okay .
 *CHI: man in truck .
 *MOT: oh .
-*MOT: its a man now  is it ?
+*MOT: its a man now is it ?
 *MOT: hes grown up very quickly .
 *CHI: there .
 *MOT: oh .
 *MOT: that one .
 *MOT: oh .
-*CHI: another one go in  look .
+*CHI: another one go in look .
 *MOT: mhm .
 *CHI: oh .
 *CHI: spilled it over .
@@ -121,7 +121,7 @@
 *CHI: go away .
 *MOT: go away ?
 *CHI: go away .
-*CHI: go away  sun .
+*CHI: go away sun .
 *CHI: again .
 *MOT: well .
 *MOT: weve closed the curtains so the suns gone a little bit .
@@ -132,7 +132,7 @@
 *CHI: it again .
 *MOT: what again ?
 *MOT: window bit a windows .
-*MOT: whatre you talking about  darling ?
+*MOT: whatre you talking about darling ?
 *CHI: oh .
 *CHI: oh no .
 *MOT: oh no .
@@ -151,6 +151,7 @@
 *CHI: whoops car .
 *CHI: whoops .
 *CHI: whoops .
+*MOT: youre .
 *CHI: crash .
 *MOT: crashing it into your other cars .
 *CHI: no .
@@ -183,12 +184,12 @@
 *MOT: youre like Daddy .
 *CHI: no .
 *CHI: I dont like my Daddy .
-*MOT: youre very much like your Daddy  young man .
+*MOT: youre very much like your Daddy young man .
 *MOT: is that nice ?
 *CHI: go and get some more drink .
 *MOT: no .
 *MOT: you havent finished that one .
-*MOT: and Im not getting you any more just yet  young man .
+*MOT: and Im not getting you any more just yet young man .
 *CHI: Thomas do like orangejuice .
 *MOT: Thomas does not like orangejuice .
 *MOT: believe me .
@@ -285,7 +286,7 @@
 *MOT: has he ?
 *CHI: yes .
 *CHI: gone in sleep .
-*MOT: going to sleep  is he ?
+*MOT: going to sleep is he ?
 *CHI: ah !
 *CHI: he .
 *MOT: you can be very noisy sometimes .
@@ -300,8 +301,8 @@
 *MOT: its going round because youre turning it .
 *CHI: ah .
 *CHI: lorry .
-*CHI: pulling it  look .
-*CHI: pull your trailer  lorry .
+*CHI: pulling it look .
+*CHI: pull your trailer lorry .
 *MOT: yes .
 *MOT: www .
 *CHI: oh .
@@ -357,7 +358,7 @@
 *MOT: I dont want .
 *MOT: it isnt mine .
 *MOT: that was brought you for you .
-*MOT: I do not have a blue aeroplane  Dominic .
+*MOT: I do not have a blue aeroplane Dominic .
 *MOT: can I have the car please ?
 *MOT: please ?
 *MOT: I only wanna have a look at it .
@@ -369,7 +370,7 @@
 *CHI: thank you .
 *MOT: thank you .
 *MOT: there .
-*MOT: that wasnt so painful  was it ?
+*MOT: that wasnt so painful was it ?
 *CHI: you have blue aeroplane .
 *MOT: I dont want the blue aeroplane .
 *MOT: honestly .
@@ -379,7 +380,7 @@
 *CHI: you have that one .
 *MOT: I dont want that .
 *CHI: you do .
-*MOT: I do  do I ?
+*MOT: I do do I ?
 *CHI: yes .
 *CHI: have that .
 *MOT: so youre youre a mindreader .
@@ -416,7 +417,7 @@
 *CHI: you can play this .
 *MOT: oh .
 *MOT: wonderful .
-*MOT: thank you  Dominic .
+*MOT: thank you Dominic .
 *CHI: vroomo .
 *MOT: www .
 *CHI: vroomo my cars .
@@ -435,7 +436,7 @@
 *CHI: two wheels are going around around .
 *MOT: is that right ?
 *MOT: thats because youre turning them .
-*MOT: noisy  isnt he ?
+*MOT: noisy isnt he ?
 *INV: www .
 *CHI: oh .
 *CHI: oh .
@@ -487,7 +488,7 @@
 *MOT: are you sure ?
 *CHI: cant do that together .
 *MOT: well .
-*MOT: if you didnt chuck all your cars all over the floor youd have
+*MOT: if you didnt chuck all your cars all over the floor youd have .
 *MOT: oh .
 *MOT: oh .
 *MOT: oh .
@@ -505,12 +506,12 @@
 *MOT: yes .
 *CHI: will crash .
 *CHI: crash .
-*CHI: crash  lorry .
+*CHI: crash lorry .
 *CHI: crash .
-*CHI: crash  car .
+*CHI: crash car .
 *CHI: is is crash .
 *CHI: crash on there .
-*MOT: think were gonna hafta stop you watching
+*MOT: think were gonna hafta stop you watching .
 *MOT: all these crashes .
 *CHI: no .
 *CHI: oh no .
@@ -528,7 +529,7 @@
 *CHI: no .
 *CHI: no .
 *MOT: oh dear .
-*CHI: you fix it  Mum .
+*CHI: you fix it Mum .
 *MOT: no .
 *MOT: Im not .
 *MOT: you told me to move .
@@ -536,10 +537,10 @@
 *CHI: no .
 *CHI: please .
 *MOT: I cant come over there and fix it .
-*CHI: you fix it  Mum .
+*CHI: you fix it Mum .
 *MOT: Ill fix it soon .
 *CHI: you fix .
-*MOT: oh dear  Nina .
+*MOT: oh dear Nina .
 *MOT: Mummy tired .
 *MOT: dont worry about it .
 *MOT: you useta play with it when the door wasnt on anyway .
@@ -557,12 +558,13 @@
 *CHI: done it now .
 *MOT: done it now .
 *MOT: youve done what now ?
+*CHI: done .
 *MOT: just leave it .
 *MOT: you can play with the lorry without the door being on .
 *MOT: it doesnt matter .
 *CHI: whats that noise ?
 *CHI: oh .
-*CHI: stop it  lorrys .
+*CHI: stop it lorrys .
 *MOT: what noise ?
 *CHI: crashing noise .
 *CHI: doing .
@@ -576,7 +578,7 @@
 *MOT: you havent .
 *CHI: oh .
 *CHI: done it .
-*MOT: just leave it  Dominic .
+*MOT: just leave it Dominic .
 *MOT: play with something else .
 *CHI: I dont wanna play something else .
 *MOT: ah .
@@ -599,11 +601,11 @@
 *MOT: it isnt broken .
 *MOT: the door does come off .
 *MOT: www .
-*CHI: that mine  Nina .
+*CHI: that mine Nina .
 *MOT: no .
-*MOT: but you willnt want it when youre a bit older  will you ?
+*MOT: but you willnt want it when youre a bit older will you ?
 *MOT: Nina might be able to play with it then .
-*CHI: that mine  Nina .
+*CHI: that mine Nina .
 *MOT: cant Nina play with it though when shes bigger ?
 *CHI: no .
 *MOT: oh .
@@ -612,7 +614,7 @@
 *MOT: what you got ?
 *MOT: whoops .
 *CHI: oh .
-*CHI: other one  Nina .
+*CHI: other one Nina .
 *MOT: thank you .
 *CHI: I fix my lorry .
 *MOT: shes got a dirty face .
@@ -645,7 +647,7 @@
 *CHI: you fix that one .
 *INV: well .
 *MOT: that one doesnt need fixing .
-*CHI: you you play that one  Caroline .
+*CHI: you you play that one Caroline .
 *MOT: fix what ?
 *CHI: I play that .
 *INV: you want me to play with this one ?
@@ -655,7 +657,7 @@
 *MOT: very honoured .
 *MOT: oh .
 *MOT: there .
-*CHI: thank you  Caroline .
+*CHI: thank you Caroline .
 *MOT: there .
 *INV: youre welcome .
 *MOT: right .
@@ -674,7 +676,7 @@
 *MOT: yellow car .
 *MOT: near your white car .
 *MOT: no .
-*MOT: youre looking in the wrong direction  Dominic .
+*MOT: youre looking in the wrong direction Dominic .
 *MOT: there you go .
 *MOT: can I have that yellow car please ?
 *CHI: you have that one .
@@ -682,14 +684,14 @@
 *MOT: I want the yellow car please .
 *CHI: dont want that one .
 *MOT: its for your sister .
-*CHI: here you are  Nina .
+*CHI: here you are Nina .
 *CHI: here you are .
 *MOT: well .
-*MOT: he gave you his van  Nina .
+*MOT: he gave you his van Nina .
 *MOT: thats a start .
 *MOT: you can eat that .
 *CHI: dont eat it .
-*CHI: dont eat it  Nina .
+*CHI: dont eat it Nina .
 *CHI: dont eat it .
 *MOT: oh .
 *CHI: oh no .
@@ -701,16 +703,16 @@
 *MOT: lets have the yellow car please .
 *CHI: no .
 *CHI: have octopus .
-*MOT: oh  Dominic .
-*MOT: thats not very nice  is it ?
+*MOT: oh Dominic .
+*MOT: thats not very nice is it ?
 *CHI: oh Nina .
 *CHI: you eat that one .
 *CHI: you eat it .
 *CHI: I cant eat it .
-*MOT: I think he he thinks that you really do eat it  sweetheart .
+*MOT: I think he he thinks that you really do eat it sweetheart .
 *CHI: do eat it .
 *CHI: I playing with my cars .
-*MOT: dont put your lorrys in there because you get them stuck and then
+*MOT: dont put your lorrys in there because you get them stuck and then .
 *CHI: I can .
 *MOT: you cant .
 *CHI: go in that way .
@@ -734,8 +736,8 @@
 *CHI: going up now .
 *CHI: going up .
 *CHI: ah .
-*CHI: dont wanna  car .
-*CHI: dont wanna go that way  car .
+*CHI: dont wanna car .
+*CHI: dont wanna go that way car .
 *CHI: my my lorry .
 *CHI: bus .
 *MOT: www .
@@ -745,7 +747,7 @@
 *INV: oh right .
 *MOT: little steamroller .
 *CHI: little little .
-*MOT: theres some big ones across the road  isnt there ?
+*MOT: theres some big ones across the road isnt there ?
 *CHI: yes .
 *MOT: mhm .
 *CHI: big one down road there .
@@ -765,7 +767,7 @@
 *MOT: oh .
 *MOT: okay .
 *CHI: cant do that .
-*MOT: its not in your way now  darling .
+*MOT: its not in your way now darling .
 *CHI: yes .
 *MOT: www .
 *CHI: cant do that one .
@@ -776,8 +778,8 @@
 *MOT: theyll get stuck .
 *CHI: no .
 *MOT: yes .
-*MOT: argumentative  arent you ?
-*MOT: take the lorry out  Dominic because itll get stuck .
+*MOT: argumentative arent you ?
+*MOT: take the lorry out Dominic because itll get stuck .
 *MOT: because its too big .
 *CHI: oh .
 *CHI: can do it .
@@ -792,10 +794,10 @@
 *CHI: nenawo .
 *CHI: nenawo .
 *CHI: no .
-*MOT: I thought we were gonna get that yellow car then ,
-*CHI: you you not get it that one car  Nina .
+*MOT: I thought we were gonna get that yellow car then .
+*CHI: you you not get it that one car Nina .
 *MOT: why not ?
-*CHI: you having that one  Nina .
+*CHI: you having that one Nina .
 *MOT: but we want a car .
 *CHI: you dont want it .
 *MOT: we do .
@@ -812,7 +814,7 @@
 *CHI: no .
 *CHI: you dont want it .
 *MOT: there you go .
-*MOT: he willnt share  will he ?
+*MOT: he willnt share will he ?
 *MOT: well hafta reeducate him on the joys of sharing .
 *CHI: soon .
 *CHI: you have it soon .
@@ -822,23 +824,23 @@
 *MOT: nothing else ?
 *CHI: yes .
 *MOT: watch your head .
-*CHI: you have this one  Nina .
+*CHI: you have this one Nina .
 *MOT: thank you .
-*CHI: you dont want that one  Nina .
+*CHI: you dont want that one Nina .
 *MOT: thats something else for you to play with .
-*CHI: dont eat it  Nina .
-*MOT: shes not eating it  darling .
+*CHI: dont eat it Nina .
+*MOT: shes not eating it darling .
 *MOT: shes got it in her hands .
-*CHI: its its mine  Nina .
-*MOT: we know its yours  darling .
+*CHI: its its mine Nina .
+*MOT: we know its yours darling .
 *MOT: shes just holding it at the moment .
 *CHI: it my .
-*CHI: it my garage  Nina .
+*CHI: it my garage Nina .
 *MOT: yes .
-*MOT: it that belongs with the garage  doesnt it ?
+*MOT: it that belongs with the garage doesnt it ?
 *CHI: yes .
 *MOT: mhm .
-*CHI: belongs with the garage  doesnt it  Nina .
+*CHI: belongs with the garage doesnt it Nina .
 *MOT: www .
 *CHI: other .
 *CHI: oh .
@@ -858,7 +860,7 @@
 *CHI: I I wanna play my cars .
 *CHI: brummo .
 *MOT: whats that ?
-*MOT: whats that  Dominic ?
+*MOT: whats that Dominic ?
 *CHI: man gone .
 *MOT: alright .
 *MOT: alright .
@@ -919,7 +921,7 @@
 *MOT: whats that ?
 *MOT: whats this ?
 *CHI: oh .
-*MOT: its a hippo  isnt it ?
+*MOT: its a hippo isnt it ?
 *CHI: yeah .
 *MOT: yeah .
 *CHI: hippo toy .
@@ -1018,14 +1020,14 @@
 *CHI: dont dont open that one .
 *MOT: okay .
 *CHI: what that noise ?
-*MOT: its from the factory  darling .
+*MOT: its from the factory darling .
 *MOT: I dont know what it is .
 *CHI: it .
 *MOT: its what ?
 *CHI: whats that ?
 *MOT: its the from the factory .
 *CHI: whats that noise ?
-*MOT: I honestly dont know  darling .
+*MOT: I honestly dont know darling .
 *CHI: oh .
 *CHI: a bowl .
 *MOT: its an empty bowl now .
@@ -1046,7 +1048,7 @@
 *CHI: put that in there .
 *MOT: hey .
 *MOT: hey .
-*MOT: when we go out Ill buy you a sweetie if you let your sister play
+*MOT: when we go out Ill buy you a sweetie if you let your sister play .
 *MOT: yes ?
 *MOT: let your sister play with it else you get no sweetie .
 *MOT: compromise .
@@ -1084,7 +1086,7 @@
 *MOT: look .
 *CHI: it not yours .
 *MOT: right .
-*MOT: when we go out youre not having anything now because youre being
+*MOT: when we go out youre not having anything now because youre being .
 *CHI: oh .
 *CHI: it not yours .
 *MOT: youre being silly .
@@ -1096,7 +1098,7 @@
 *MOT: alright .
 *MOT: I get the message .
 *MOT: youre being antisocial now .
-*MOT: go and play with the toys else Im gonna put them all
+*MOT: go and play with the toys else Im gonna put them all .
 *CHI: no .
 *MOT: yes .
 *MOT: volumecontrol .
@@ -1110,20 +1112,20 @@
 *MOT: I dont want you to be hot .
 *CHI: yes .
 *MOT: yes .
-*MOT: so if anything Ill put your coat on but I dont think youll need
+*MOT: so if anything Ill put your coat on but I dont think youll need .
 *CHI: oh .
 *MOT: oh .
 *MOT: be .
 *MOT: thats why I told you to be careful .
 *CHI: ow .
-*MOT: you never listen  do you ?
+*MOT: you never listen do you ?
 *MOT: never ever listen .
 *MOT: eh ?
 *MOT: never listen .
-*MOT: never listen  do you ?
-*MOT: never listen  do you ?
+*MOT: never listen do you ?
+*MOT: never listen do you ?
 *CHI: ah .
-*MOT: youre not playing with the toys  are you ?
+*MOT: youre not playing with the toys are you ?
 *MOT: youve chucked them all out and youre not even playing with them .
 *MOT: you youre not that thirsty .
 *CHI: oh .
@@ -1146,7 +1148,7 @@
 *MOT: well .
 *MOT: put it down then .
 *CHI: I do like it .
-*MOT: you dont know what you like  do you ?
+*MOT: you dont know what you like do you ?
 *CHI: I I like sweeties .
 *MOT: yes .
 *MOT: its funny that .
@@ -1187,7 +1189,7 @@
 *MOT: well .
 *MOT: I dont really want a bridge .
 *CHI: it .
-*MOT: well do a big one  shall we ?
+*MOT: well do a big one shall we ?
 *CHI: yeah .
 *MOT: well .
 *CHI: not .
@@ -1225,7 +1227,7 @@
 *CHI: you fix it .
 *MOT: I will fix it .
 *CHI: it fall over .
-*MOT: fall over  didnt it ?
+*MOT: fall over didnt it ?
 *MOT: oh no .
 *CHI: fall over again .
 *MOT: right .
@@ -1233,12 +1235,12 @@
 *CHI: oh .
 *CHI: you build it again .
 *MOT: Ill try .
-*MOT: not such a good bridge  eh ?
+*MOT: not such a good bridge eh ?
 *MOT: right .
 *MOT: lets see .
 *MOT: I need another brick just there .
 *MOT: oh .
-*MOT: its not very good bridge  Dominic .
+*MOT: its not very good bridge Dominic .
 *CHI: yes .
 *CHI: that big one .
 *MOT: no .
@@ -1249,7 +1251,7 @@
 *MOT: lets see .
 *MOT: hafta try and make it a little bit stronger .
 *MOT: there .
-*MOT: its not very good because its gonna collapse any
+*MOT: its not very good because its gonna collapse any .
 *CHI: oh crash .
 *MOT: there you go .
 *CHI: there you go .
@@ -1259,7 +1261,7 @@
 *CHI: yes .
 *MOT: okay ?
 *CHI: yes .
-*MOT: youre not letting the car ride over my bridge  are you ?
+*MOT: youre not letting the car ride over my bridge are you ?
 *CHI: I I am .
 *MOT: but hell make it fall down .
 *MOT: hm ?
@@ -1270,7 +1272,7 @@
 *CHI: oh .
 *CHI: do that .
 *MOT: what ?
-*MOT: youre kneeling on my bony bits  young man .
+*MOT: youre kneeling on my bony bits young man .
 *CHI: Im not .
 *MOT: you are .
 *MOT: and youre standing on my knee .
@@ -1337,7 +1339,7 @@
 *CHI: up .
 *CHI: lorry going break your bridge .
 *MOT: oh no .
-*MOT: please dont break my bridge  lorry .
+*MOT: please dont break my bridge lorry .
 *CHI: put put bridge up .
 *MOT: no .
 *MOT: lets put it down there .
@@ -1355,7 +1357,7 @@
 *MOT: you cant get through now .
 *MOT: Ive put some barriers up .
 *MOT: there .
-*MOT: youre confused now  are you ?
+*MOT: youre confused now are you ?
 *CHI: put some down .
 *MOT: you wanna get .
 *MOT: well .
@@ -1372,7 +1374,7 @@
 *MOT: no .
 *MOT: you can go through now .
 *MOT: youve paid me .
-*MOT: you cant come back through unless you pay me some more money
+*MOT: you cant come back through unless you pay me some more money .
 *MOT: so there .
 *MOT: if you wanna come back through youve got to pay me some money .
 *MOT: more money please .
@@ -1410,7 +1412,7 @@
 *MOT: what you doing ?
 *CHI: bricks .
 *MOT: right .
-*MOT: have I got to um  open these before I can come through with my
+*MOT: have I got to um open these before I can come through with my .
 *CHI: mhm .
 *MOT: right then .
 *MOT: what have we got here ?
@@ -1428,7 +1430,7 @@
 *MOT: shut the gates .
 *MOT: nobody can come through now .
 *MOT: no .
-*MOT: sorry  lorry .
+*MOT: sorry lorry .
 *MOT: you cant come through unless youve payed some money .
 *MOT: one brick please .
 *MOT: thank you .
@@ -1490,7 +1492,7 @@
 *MOT: and he broke the bridge .
 *CHI: yes .
 *MOT: naughty man .
-*CHI: I through  man .
+*CHI: I through man .
 *MOT: right .
 *CHI: he going through again .
 *MOT: but I havent finished building the bridge yet .
@@ -1502,21 +1504,22 @@
 *MOT: there .
 *MOT: oh .
 *CHI: you break it .
-*MOT: I did  didnt I ?
+*MOT: I did didnt I ?
 *MOT: oh dear .
-*MOT: that wasnt very good  was it ?
+*MOT: that wasnt very good was it ?
 *CHI: yes .
 *CHI: that not very kind .
 *MOT: no .
 *CHI: that not very kind .
 *CHI: not very kind .
 *MOT: my last bridge now .
+*MOT: because .
 *CHI: it my bridge .
 *CHI: oh .
 *CHI: broke it .
 *MOT: right .
 *CHI: broke it .
-*MOT: its not built to last  Dominic Im afraid .
+*MOT: its not built to last Dominic Im afraid .
 *MOT: its just been quickly done .
 *CHI: this one broke it again .
 *MOT: no .
@@ -1528,13 +1531,13 @@
 *CHI: oh .
 *CHI: you break it .
 *MOT: oh no .
-*MOT: thats it now  Dominic .
+*MOT: thats it now Dominic .
 *MOT: I cant do it .
 *MOT: Ive broke it .
 *CHI: you can do it .
 *MOT: I cant .
 *CHI: you can .
-*MOT: Im not deaf  Dominic .
+*MOT: Im not deaf Dominic .
 *MOT: Im right here .
 *MOT: hello .
 *MOT: this is me .
@@ -1545,7 +1548,7 @@
 *MOT: yeah ?
 *CHI: yes .
 *MOT: right .
-*MOT: so  we want a big strong bridge  do we ?
+*MOT: so we want a big strong bridge do we ?
 *CHI: another one yellow one .
 *MOT: well .
 *MOT: well .
@@ -1574,7 +1577,7 @@
 *CHI: bridge .
 *MOT: no .
 *MOT: its not very good .
-*MOT: I cant be bothered now  Dominic .
+*MOT: I cant be bothered now Dominic .
 *CHI: I can .
 *CHI: you can build it .
 *MOT: I cant .
@@ -1599,7 +1602,7 @@
 *CHI: all train coaches .
 *MOT: what train ?
 *CHI: all train coaches .
-*MOT: I dont know what youre on about  darling .
+*MOT: I dont know what youre on about darling .
 *CHI: the other one .
 *CHI: the other coaches .
 *MOT: I dont know .
@@ -1631,7 +1634,7 @@
 *MOT: www .
 *CHI: Mummy .
 *CHI: you you have that one .
-*MOT: I dont want the orange  Dominic .
+*MOT: I dont want the orange Dominic .
 *CHI: here you are .
 *CHI: here you are .
 *MOT: yeah .
@@ -1640,27 +1643,27 @@
 *MOT: anything else ?
 *CHI: me my orange .
 *CHI: I cant get it .
-*MOT: but you dont needta get it  do you ?
+*MOT: but you dont needta get it do you ?
 *MOT: alright then .
-*MOT: were gonna put all these other toys away if
+*MOT: were gonna put all these other toys away if .
 *CHI: bricks .
-*MOT: Im gonna put them all away if youre gonna
+*MOT: Im gonna put them all away if youre gonna .
 *MOT: I really am .
 *MOT: thats Gordon .
 *MOT: no .
 *MOT: it isnt .
 *MOT: its Henry .
-*MOT: thats Gordon  isnt it ?
+*MOT: thats Gordon isnt it ?
 *INV: www .
 *CHI: leave Gordon away .
 *MOT: now .
 *MOT: are you happy now ?
-*MOT: theres an ambulance  isnt it ?
+*MOT: theres an ambulance isnt it ?
 *MOT: thats .
 *MOT: is that the one youre looking for ?
 *CHI: mhm .
 *MOT: okay .
-*MOT: now youre going to be happy  are you ?
+*MOT: now youre going to be happy are you ?
 *CHI: mhm .
 *CHI: yes .
 *CHI: put Gordon on that then .
@@ -1733,7 +1736,7 @@
 *MOT: youre gonna hafta wait a bit .
 *CHI: oh .
 *CHI: that mine .
-*MOT: I havent got one  have I ?
+*MOT: I havent got one have I ?
 *CHI: yeah .
 *CHI: that mine .
 *CHI: gone in my mouth .
@@ -1741,7 +1744,7 @@
 *MOT: youve got crumbs all round your face .
 *CHI: I I got it in .
 *MOT: I know .
-*MOT: youve eaten it  havent you ?
+*MOT: youve eaten it havent you ?
 *CHI: yeah .
 *MOT: you just told me you didnt like it though .
 *CHI: I do like it .
@@ -1749,7 +1752,7 @@
 *CHI: yes .
 *MOT: oh .
 *CHI: got other one bridge .
-*MOT: other bridge  eh ?
+*MOT: other bridge eh ?
 *CHI: vroomo .
 *MOT: I didnt do anything .
 *CHI: you dont want my foot .

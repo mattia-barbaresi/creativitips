@@ -10,7 +10,7 @@
 *CHI: Humpty Dumpty .
 *CHI: Humpty Dumpty .
 *MOT: lets go and find your farm .
-*MOT: you were wanting to play with your farm  werent you all morning ?
+*MOT: you were wanting to play with your farm werent you all morning ?
 *MOT: and I said well well wait for Anna .
 *CHI: look .
 *CHI: the farm .
@@ -27,7 +27,7 @@
 *CHI: hen .
 *CHI: oh a elephant .
 *CHI: no .
-*INV: well why dont you put them back in your farm and play with them
+*INV: well why dont you put them back in your farm and play with them .
 *MOT: you can give them a drink .
 *CHI: mhm .
 *MOT: give the elephant a drink .
@@ -40,7 +40,7 @@
 *CHI: horse .
 *INV: yes .
 *CHI: yes .
-*INV: I cant hold them all  John .
+*INV: I cant hold them all John .
 *INV: my hands are full .
 *MOT: how about if you give some to me ?
 *CHI: look .
@@ -56,7 +56,7 @@
 *INV: okay .
 *INV: Ill put him there .
 *CHI: its a horse .
-*MOT: can you find me the big horse  John ?
+*MOT: can you find me the big horse John ?
 *CHI: oh .
 *MOT: oh very good .
 *CHI: look .
@@ -90,7 +90,7 @@
 *INV: I dont know .
 *INV: where has he gone ?
 *INV: oh there he is .
-*MOT: what else is in your farm  John .
+*MOT: what else is in your farm John .
 *MOT: whos already here ?
 *CHI: cow .
 *MOT: yeah .
@@ -109,11 +109,11 @@
 *CHI: look .
 *CHI: pig .
 *INV: and a pig as well .
-*INV: oh youve got everything  havent you ?
+*INV: oh youve got everything havent you ?
 *CHI: look .
 *CHI: horse .
 *INV: another horse ?
-*MOT: how many horses have you got  John ?
+*MOT: how many horses have you got John ?
 *MOT: can you count the horses ?
 *MOT: how many ?
 *CHI: more get .
@@ -154,7 +154,7 @@
 *MOT: walking like that .
 *MOT: are you gonna put him back on the tractor ?
 *CHI: uhoh .
-*MOT: whats he got on his shoes there  John ?
+*MOT: whats he got on his shoes there John ?
 *MOT: ah .
 *MOT: I think .
 *CHI: broken .
@@ -178,13 +178,13 @@
 *CHI: on there .
 *CHI: no .
 *MOT: is this the farmer ?
-*MOT: is he the farmer  John ?
+*MOT: is he the farmer John ?
 *CHI: mhm .
 *MOT: yes .
 *CHI: John go on the tractor .
 *CHI: on the digger and Daddy .
 *MOT: yes .
-*MOT: John and Daddy went on the tractor  didnt you ?
+*MOT: John and Daddy went on the tractor didnt you ?
 *CHI: mhm .
 *CHI: the green tractor .
 *CHI: John and Daddy go on the blue tractor .
@@ -206,7 +206,7 @@
 *MOT: yeah ?
 *CHI: and Daddy .
 *MOT: and Daddy on the tractor .
-*MOT: that was a good day  wasnt it ?
+*MOT: that was a good day wasnt it ?
 *CHI: look .
 *CHI: man the farmer .
 *INV: mhm .
@@ -256,8 +256,8 @@
 *INV: there you go .
 *CHI: man come off .
 *INV: yes he did .
-*INV: well he will do if you tip him off  wont he ?
-*MOT: this pig  John .
+*INV: well he will do if you tip him off wont he ?
+*MOT: this pig John .
 *MOT: hes driving the car .
 *MOT: what do you think about that ?
 *MOT: is the little pig happy ?
@@ -283,14 +283,14 @@
 *MOT: mhm .
 *CHI: put the pig .
 *CHI: no .
-*MOT: oh hes a bit stubborn  isnt he ?
+*MOT: oh hes a bit stubborn isnt he ?
 *MOT: doesnt he wanna sit down ?
 *CHI: mhm .
 *MOT: try him again .
 *MOT: do it again .
 *MOT: thats it .
 *CHI: the man there .
-*MOT: well youve got to try a different position if he doesnt &-er
+*MOT: well youve got to try a different position if he doesnt er .
 *CHI: on there .
 *MOT: thats it .
 *CHI: thats it .
@@ -301,13 +301,13 @@
 *MOT: thats it .
 *CHI: more horses .
 *MOT: mhm .
-*MOT: well hafta make this farm a bit bigger  wont we
+*MOT: well hafta make this farm a bit bigger wont we .
 *MOT: how can we make that bigger ?
 *MOT: perhaps if we make it bigger that way .
 *MOT: would that be better ?
 *CHI: gate .
 *MOT: who else has got to fit in ?
-*MOT: another two horses  John .
+*MOT: another two horses John .
 *MOT: another two horses to fit in there .
 *CHI: open the door .
 *MOT: mhm .
@@ -315,17 +315,17 @@
 *MOT: hes peeping over the gate .
 *MOT: yeah .
 *MOT: oh very good .
-*MOT: he can eat the grass the other side now  cant he ?
+*MOT: he can eat the grass the other side now cant he ?
 *CHI: peeping the gate .
 *MOT: yes .
 *CHI: he peeping the gate .
 *MOT: peeping through the gate .
 *CHI: uhoh .
 *MOT: and the other two .
-*MOT: two more horses  John .
+*MOT: two more horses John .
 *CHI: mhm .
 *MOT: two more horses .
-*MOT: its a very busy farm youve got there  John .
+*MOT: its a very busy farm youve got there John .
 *MOT: what a lot of animals youve got .
 *MOT: theyre all well behaved all together .
 *MOT: even the elephant .
@@ -342,7 +342,7 @@
 *MOT: now where is the food trough ?
 *MOT: where is the trough where we can give the animals some hay ?
 *MOT: do you remember ?
-*MOT: the yellow trough  John .
+*MOT: the yellow trough John .
 *MOT: cab you remember where it is ?
 *CHI: yellow trough .
 *MOT: the yellow trough .
@@ -350,7 +350,7 @@
 *CHI: mhm .
 *MOT: you think it is .
 *MOT: very good .
-*MOT: now we can feed the animals now  cant we ?
+*MOT: now we can feed the animals now cant we ?
 *CHI: no .
 *MOT: what are they having today for their breakfast ?
 *CHI: have some fruit .
@@ -362,10 +362,10 @@
 *MOT: well you like rockets .
 *MOT: I dont know if the animals like rockets .
 *MOT: no .
-*MOT: theres no rockets for you  John .
+*MOT: theres no rockets for you John .
 *MOT: www .
 *MOT: John .
-*MOT: you had the last one yesterday  didnt you ?
+*MOT: you had the last one yesterday didnt you ?
 *CHI: mhm .
 *MOT: mhm .
 *CHI: drop it on the floor .
@@ -376,7 +376,7 @@
 *MOT: John .
 *CHI: no .
 *MOT: how about some water then ?
-*MOT: is the door shut on the freezer  John ?
+*MOT: is the door shut on the freezer John ?
 *MOT: John .
 *MOT: did you shut the freezer door ?
 *CHI: mhm .
@@ -389,10 +389,10 @@
 *MOT: thats fine .
 *MOT: John .
 *MOT: www .
-*MOT: come and give your animals a drink  John .
+*MOT: come and give your animals a drink John .
 *MOT: theyre looking very thirsty to me .
 *MOT: are you gonna give them a drink ?
-*MOT: oh youre a horse  are you ?
+*MOT: oh youre a horse are you ?
 *MOT: oh oh .
 *MOT: John .
 *CHI: water .
@@ -464,7 +464,7 @@
 *MOT: no .
 *CHI: Nicole .
 *MOT: no .
-*MOT: Nicole doesnt have a car  does she ?
+*MOT: Nicole doesnt have a car does she ?
 *CHI: no .
 *MOT: no .
 *CHI: Nicole go in Demis car .
@@ -481,10 +481,10 @@
 *CHI: grass .
 *MOT: oh grass .
 *MOT: sorry .
-*CHI: grass  look .
+*CHI: grass look .
 *CHI: look .
 *CHI: grass .
-*INV: theres grass outside  is there ?
+*INV: theres grass outside is there ?
 *CHI: the farm .
 *INV: oh on the farm .
 *MOT: right .
@@ -492,7 +492,7 @@
 *CHI: no .
 *CHI: animals the farm and they eating the grass .
 *MOT: thats right .
-*MOT: cows eat the grass  dont they on the farm ?
+*MOT: cows eat the grass dont they on the farm ?
 *CHI: oh .
 *CHI: tape stop .
 *INV: dont think so .
@@ -503,7 +503,7 @@
 *CHI: round and round .
 *CHI: round and round and round .
 *MOT: mhm .
-*MOT: your tape goes round and round as well  doesnt it when it (i)s
+*MOT: your tape goes round and round as well doesnt it when it is .
 *CHI: no wheels .
 *MOT: no wheels ?
 *CHI: wheel round and round .
@@ -511,7 +511,7 @@
 *MOT: tiny tiny wheels .
 *CHI: mhm .
 *MOT: yeah .
-*MOT: there are lots of wheels everywhere  arent there ?
+*MOT: there are lots of wheels everywhere arent there ?
 *MOT: when you begin to look .
 *MOT: how many wheels ?
 *CHI: one two three four five .
@@ -520,7 +520,7 @@
 *CHI: one two three four five .
 *MOT: five wheels .
 *CHI: yeah .
-*MOT: how many wheels does your tractor have  John ?
+*MOT: how many wheels does your tractor have John ?
 *CHI: tape stop .
 *MOT: John .
 *MOT: how many wheels does your tractor have ?
@@ -539,17 +539,17 @@
 *MOT: oh .
 *MOT: is it quiet ?
 *CHI: mhm .
-*MOT: we heard something noisy yesterday  didnt we  John ?
+*MOT: we heard something noisy yesterday didnt we John ?
 *MOT: do you remember when we went for our walk ?
 *CHI: mhm .
 *MOT: and the double decker went by .
 *CHI: mhm .
-*MOT: it was scary and you didnt like that  did you ?
+*MOT: it was scary and you didnt like that did you ?
 *CHI: mhm .
 *MOT: it was really noisy .
 *CHI: mhm .
 *MOT: mhm .
-*MOT: what else was noisy when we took Granny to the station  John ?
+*MOT: what else was noisy when we took Granny to the station John ?
 *CHI: mhm .
 *CHI: noisy .
 *MOT: noisy what ?
@@ -562,7 +562,7 @@
 *CHI: fast .
 *MOT: what color were they ?
 *CHI: yellow .
-*MOT: they were  were they ?
+*MOT: they were were they ?
 *MOT: I think they were yeah .
 *CHI: on John .
 *MOT: pardon ?
@@ -582,12 +582,12 @@
 *MOT: mhm .
 *CHI: go on a quiet train .
 *MOT: yeah .
-*MOT: we went on a quiet train when we went to the pancake house didn't
+*MOT: we went on a quiet train when we went to the pancake house didnt .
 *MOT: we went on a metro little train .
 *MOT: and you remember the floor was moving ?
 *CHI: mhm .
 *MOT: do you remember that ?
-*MOT: that was funny  wasnt it ?
+*MOT: that was funny wasnt it ?
 *CHI: mhm .
 *CHI: choochooo .
 *CHI: moving .
@@ -596,7 +596,7 @@
 *MOT: thats right .
 *MOT: and what happened to the buggy ?
 *MOT: what happened to the buggy on the train ?
-*MOT: the buggy got stuck in the doors  didnt it ?
+*MOT: the buggy got stuck in the doors didnt it ?
 *CHI: mhm .
 *MOT: it was a very eventful journey that one .
 *CHI: mhm .
@@ -624,8 +624,8 @@
 *MOT: come on .
 *MOT: come out .
 *MOT: come out .
-*MOT: where are you  John ?
-*MOT: you are a little pickle ever since you got up at six oclock this
+*MOT: where are you John ?
+*MOT: you are a little pickle ever since you got up at six oclock this .
 *MOT: come on .
 *MOT: come out .
 *MOT: these curtains wont last forever .
@@ -634,7 +634,7 @@
 *CHI: cow .
 *MOT: one of those days .
 *MOT: no .
-*MOT: no  John .
+*MOT: no John .
 *MOT: youre very silly .
 *MOT: John .
 *MOT: listen to me .
@@ -688,7 +688,7 @@
 *CHI: and theres a cow .
 *MOT: are you sure its a cow ?
 *CHI: its a horse .
-*MOT: the baby horse  isnt it ?
+*MOT: the baby horse isnt it ?
 *MOT: put it next to the Mummy horse .
 *CHI: a big cow .
 *MOT: mhm .
@@ -794,7 +794,7 @@
 *MOT: who else is sleeping ?
 *CHI: the cows not off .
 *MOT: mhm .
-*MOT: well cant I just watch from up here  John ?
+*MOT: well cant I just watch from up here John ?
 *CHI: find animals .
 *CHI: find animals .
 *CHI: oh another cow .
@@ -807,14 +807,14 @@
 *CHI: the cow .
 *CHI: a bottle milk .
 *MOT: no .
-*MOT: its not time for your bottle of milk yet  John .
+*MOT: its not time for your bottle of milk yet John .
 *CHI: oh .
 *MOT: what tune is that ?
 *CHI: bus .
 *MOT: oh .
 *MOT: the wheels on the bus .
 *MOT: John .
-*MOT: we could also make a zoo  couldnt we with all the other animals .
+*MOT: we could also make a zoo couldnt we with all the other animals .
 *MOT: youve got farm animals and youve got zoo animals .
 *CHI: farm .
 *MOT: no .
@@ -856,11 +856,11 @@
 *MOT: what have you bought ?
 *CHI: orange .
 *CHI: big lemon .
-*MOT: it is  isnt it ?
+*MOT: it is isnt it ?
 *CHI: Mummy have it .
 *MOT: okay .
 *MOT: thank you .
-*MOT: you like lemons  dont you ?
+*MOT: you like lemons dont you ?
 *CHI: yeah .
 *MOT: what do they taste like ?
 *MOT: lemons .
@@ -920,7 +920,7 @@
 *MOT: were they fourteen pounds ?
 *CHI: mhm .
 *MOT: your tyres .
-*MOT: most things are fourteen pounds  arent they ?
+*MOT: most things are fourteen pounds arent they ?
 *MOT: do you needta go to the Cashpoint to get some more money ?
 *CHI: mhm .
 *MOT: yeah .
@@ -942,7 +942,7 @@
 *CHI: yeah .
 *MOT: yes .
 *CHI: they come in the bag .
-*MOT: whatre you going to do now  John ?
+*MOT: whatre you going to do now John ?
 *MOT: are you going to go to Tescos ?
 *CHI: mhm .
 *MOT: yes .
@@ -1012,9 +1012,9 @@
 *MOT: John the statue of liberty .
 *CHI: whoops .
 *MOT: whoops .
-*MOT: no  John .
+*MOT: no John .
 *MOT: oy .
-*MOT: we wont be able to find them under there  will we ?
+*MOT: we wont be able to find them under there will we ?
 *MOT: okay .
 *MOT: where are the other animals then ?
 *MOT: shall we give the other animals to the dolly ?
@@ -1027,7 +1027,7 @@
 *MOT: do you want a tickle again ?
 *MOT: are you ?
 *MOT: no .
-*MOT: no  John .
+*MOT: no John .
 *MOT: oy .
 *CHI: oh ding dong bell .
 *CHI: ding dong bell .
@@ -1057,7 +1057,7 @@
 *MOT: can you shut the door ?
 *MOT: very good .
 *CHI: Daddy .
-*MOT: Daddys working  isnt he upstairs ?
+*MOT: Daddys working isnt he upstairs ?
 *CHI: mhm .
 *MOT: in his new room .
 *CHI: get out .
@@ -1071,7 +1071,7 @@
 *CHI: yeah .
 *CHI: farmers crying .
 *CHI: pig is crying .
-*MOT: why is he crying  John ?
+*MOT: why is he crying John ?
 *CHI: no eyes .
 *CHI: hen broken .
 *MOT: whats broken ?
@@ -1097,7 +1097,7 @@
 *MOT: John .
 *MOT: John .
 *MOT: no .
-*MOT: Daddys down here anyway  John .
+*MOT: Daddys down here anyway John .
 *MOT: Daddys not upstairs anymore .
 *MOT: can you come downstairs please ?
 *CHI: no .
@@ -1128,7 +1128,7 @@
 *MOT: can you put me some topping on it ?
 *CHI: mhm .
 *MOT: what topping is that ?
-*MOT: its not dog food  is it ?
+*MOT: its not dog food is it ?
 *MOT: oh baked beans .
 *MOT: just as good .
 *MOT: okay .
@@ -1136,7 +1136,7 @@
 *MOT: lovely .
 *MOT: would you like it now ?
 *MOT: a baked bean icecream .
-*MOT: I thought you like baked beans  John .
+*MOT: I thought you like baked beans John .
 *CHI: orange .
 *CHI: eat that over there .
 *MOT: okay .
@@ -1147,7 +1147,7 @@
 *CHI: strawberry .
 *MOT: okay .
 *CHI: on the icecream .
-*MOT: thatll be nice  wont it ?
+*MOT: thatll be nice wont it ?
 *CHI: eat .
 *MOT: you want me to eat this now ?
 *MOT: I dont think I fancy this after the baked beans .
@@ -1159,7 +1159,7 @@
 *CHI: put on the icecream .
 *CHI: the icecream on the floor .
 *CHI: fall on the floor .
-*MOT: it fell on the floor  didnt it that Wibbly Pigs icecream ?
+*MOT: it fell on the floor didnt it that Wibbly Pigs icecream ?
 *CHI: Wibbly Pig was very sad .
 *MOT: do you remember ?
 *MOT: in the story .
@@ -1172,7 +1172,7 @@
 *MOT: then the dog came and gave him a lick .
 *CHI: mhm .
 *MOT: and then what happened ?
-*MOT: Wibbly Pig was
+*MOT: Wibbly Pig was .
 *CHI: crying .
 *MOT: happy .
 *CHI: happy .
@@ -1181,7 +1181,7 @@
 *MOT: nice icecream .
 *MOT: mhm .
 *CHI: look .
-*MOT: what are these  John ?
+*MOT: what are these John ?
 *CHI: this go on there .
 *CHI: not work .
 *MOT: no .
@@ -1210,7 +1210,7 @@
 *MOT: heres the bag .
 *MOT: do you wanna put the toys in the bag ?
 *CHI: yeah .
-*MOT: and you want some porridge  do you ?
+*MOT: and you want some porridge do you ?
 *CHI: mhm .
 *MOT: some real porridge or pretend porridge ?
 *CHI: hm ?

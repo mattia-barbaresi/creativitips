@@ -1,49 +1,51 @@
 *CHI: oh .
 *MOT: yes .
 *MOT: but you can bring your little green footstool here as well .
-*MOT: oh thats a nice chair isnt it ?
-*CHI: here you are  Dimitra .
-*CHI: Dimitra !
-*INV: is that for me ?
+*MOT: oh thats a nice chair isnt it .
+*CHI: here you are Dimitra .
+*CHI: Dimitra .
+*INV: is that for me .
 *CHI: here you are .
 *INV: okay .
 *CHI: change .
 *INV: some change .
 *CHI: yes .
-*MOT: whats this ?
-*MOT: are we at the cafe ?
-*MOT: are we in a restaurant ?
+*MOT: whats this .
+*MOT: are we at the cafe .
+*MOT: are we in a restaurant .
 *CHI: hm .
 *MOT: if I open my purse do wanna see if we can afford a cup of tea .
 *CHI: and milk .
 *MOT: there you are .
 *MOT: you see if weve got enough money to pay the waitress .
-*CHI: Dimitra  here you are .
+*CHI: Dimitra here you are .
 *INV: oh thank you .
 *CHI: Mummy Mummys .
 *INV: Mummys .
 *CHI: yes .
 *INV: right .
 *INV: those are Dimitras .
-*MOT: whos that ?
+*MOT: whos that .
 *CHI: no no .
 *CHI: put it away .
 *MOT: put it away .
 *CHI: yes .
 *MOT: ah well Ive just gone to see if we can have a cup of tea .
+*CHI: no .
 *MOT: I thought we were sitting in a .
+*CHI: no .
 *MOT: okay .
 *MOT: gosh Thomas has tidied away .
 *MOT: Thomas has tidied away .
-*CHI: here you are  Mummy .
+*CHI: here you are Mummy .
 *CHI: oh empty .
-*INV: whats empty ?
+*INV: whats empty .
 *CHI: 0 .
 *MOT: it doesnt sound empty to me .
 *CHI: no .
-*MOT: what are we paying for ?
+*MOT: what are we paying for .
 *CHI: um Dimitra Mum Thomas Mummy .
-*MOT: well shall we all have fifty pence ?
+*MOT: well shall we all have fifty pence .
 *CHI: yes .
 *MOT: look at this one with the fancy sides .
 *CHI: hm .
@@ -55,98 +57,98 @@
 *MOT: look .
 *MOT: one two three four five six seven .
 *MOT: oh Thomas has far more money than we do .
-*MOT: is that all for you ?
+*MOT: is that all for you .
 *MOT: just a second .
-*CHI: what happened ?
-*CHI: what 0has happened now ?
+*CHI: what happened .
+*CHI: what 0has happened now .
 *INV: I dont know .
-*INV: what do you think happened ?
+*INV: what do you think happened .
 *CHI: um .
-*CHI: what happened ?
-*MOT: what has happened ?
+*CHI: what happened .
+*MOT: what has happened .
 *MOT: Mummy has just gone to turn the machine off on the landing .
 *CHI: some change .
 *MOT: some change .
-*MOT: you know the machine that weve got up there to stop all the
-*CHI: whats this ?
+*MOT: you know the machine that weve got up there to stop all the .
+*CHI: whats this .
 *MOT: thats a pound coin .
 *MOT: thats a two pence piece and thats a ten pence piece .
-*MOT: what could we buy with that ?
+*MOT: what could we buy with that .
 *CHI: a shop .
-*MOT: shall I go to the shop ?
-*MOT: what shall I buy ?
+*MOT: shall I go to the shop .
+*MOT: what shall I buy .
 *CHI: um strawberries raspberries .
 *MOT: strawberries and raspberries .
 *MOT: okay .
-*MOT: Ill get the basket and Ill see  if theres anything like that
+*MOT: Ill get the basket and Ill see if theres anything like that .
 *CHI: greengrocer .
 *MOT: oh I cant see anything .
 *MOT: Ill have a look on the shelves .
 *CHI: yes .
-*MOT: I dont think were going to get any  Thomas .
-*MOT: the strawberries and raspberries are fruit that are grown in Summer
+*MOT: I dont think were going to get any Thomas .
+*MOT: the strawberries and raspberries are fruit that are grown in Summer .
 *MOT: and its Winter now .
-*MOT: oh !
+*MOT: oh .
 *MOT: he has got one strawberry left .
 *MOT: no raspberries but one strawberry .
 *CHI: yes .
 *CHI: strawberry .
-*MOT: is that what you wanted ?
+*MOT: is that what you wanted .
 *CHI: here you are .
 *MOT: thank you .
 *MOT: right .
 *MOT: you give that to .
 *CHI: um one strawberry .
 *CHI: one two strawberries .
-*MOT: he hasnt got any more  Thomas .
+*MOT: he hasnt got any more Thomas .
 *MOT: he has sold out .
 *MOT: he had one strawberry and I bought it .
 *MOT: there it is .
-*MOT: what else would you like ?
-*CHI: um some more  uh fishes .
+*MOT: what else would you like .
+*CHI: um some more uh fishes .
 *CHI: yellow fishes .
 *MOT: some fish .
 *CHI: yellow ones .
 *MOT: yellow ones .
-*MOT: you mean smoked haddock  like you see in Simsburys .
+*MOT: you mean smoked haddock like you see in Simsburys .
 *CHI: hm .
 *MOT: right .
 *MOT: well Ill go to the fishmonger and see if we can buy some fish .
 *MOT: oh yes .
-*MOT: he has got two fillets of yellow fish  Thomas .
+*MOT: he has got two fillets of yellow fish Thomas .
 *MOT: there you are .
 *MOT: just let me go back and pay him .
 *MOT: there we are .
-*MOT: well give him two pounds for those shall we ?
+*MOT: well give him two pounds for those shall we .
 *CHI: oh .
 *CHI: there you are .
 *MOT: thank you .
-*CHI: thank you  counter .
+*CHI: thank you counter .
 *MOT: thank you kindly .
-*CHI: thank you  counter .
-*MOT: oh thank you  counter .
+*CHI: thank you counter .
+*MOT: oh thank you counter .
 *MOT: yes .
 *CHI: yes .
-*CHI: thank you  man .
-*INV: thank you  man .
-*MOT: that was the fishmonger wasnt it ?
+*CHI: thank you man .
+*INV: thank you man .
+*MOT: that was the fishmonger wasnt it .
 *MOT: at the fish shop .
 *CHI: hm .
 *CHI: chip .
 *CHI: buy ap chips hot please .
 *MOT: youd like some hot chips .
 *CHI: yes .
-*MOT: I dont think the chip shops open at this time  Thomas .
+*MOT: I dont think the chip shops open at this time Thomas .
 *MOT: it doesnt open until eleven oclock .
 *CHI: want chips in MacDonalds .
 *MOT: alright .
 *MOT: Ill go and see if MacDonalds is open .
 *MOT: it probably is .
-*INV: what about some grapes ?
+*INV: what about some grapes .
 *CHI: here you are .
 *INV: thank you .
 *CHI: ap grapes Dimitra ap .
-*MOT: Thomas  I came back from MacDonalds and Im sorry .
+*MOT: Thomas I came back from MacDonalds and Im sorry .
 *CHI: ap broken .
 *MOT: Ive Ive broke the box that the chips were in .
 *MOT: look .
@@ -154,15 +156,15 @@
 *CHI: it broken .
 *MOT: yes .
 *MOT: look .
-*MOT: whos that ?
+*MOT: whos that .
 *CHI: elephant .
-*MOT: is that your elephant ?
+*MOT: is that your elephant .
 *MOT: yes .
-*MOT: we were going to cut this out for you werent we ?
+*MOT: we were going to cut this out for you werent we .
 *MOT: but we somehow the box got crashed .
 *MOT: what Ill do later on .
-*MOT: well see if weve got some sticky tape and stick it back together
-*MOT: shall we do that ?
+*MOT: well see if weve got some sticky tape and stick it back together .
+*MOT: shall we do that .
 *CHI: yes please .
 *MOT: right .
 *MOT: well pop it there until later .
@@ -170,44 +172,44 @@
 *MOT: so weve got fish .
 *MOT: sorry about the chips .
 *MOT: weve got a strawberry .
-*MOT: anything else ?
-*MOT: are you going to the bank ?
+*MOT: anything else .
+*MOT: are you going to the bank .
 *CHI: um no .
 *MOT: no .
 *CHI: shut bank .
-*MOT: is the bank shut ?
+*MOT: is the bank shut .
 *CHI: hm .
 *MOT: its closed .
 *CHI: hm .
-*MOT: what about the Post Office ?
+*MOT: what about the Post Office .
 *CHI: no Post Office there .
-*MOT: oh not in your mouth  sweetheart .
+*MOT: oh not in your mouth sweetheart .
 *CHI: some more moneys .
 *MOT: oh .
 *MOT: theres some more money .
 *CHI: yes .
 *MOT: oh I didnt see you buy those grapes .
-*MOT: where are they from ?
-*MOT: the supermarket of the greengrocer ?
+*MOT: where are they from .
+*MOT: the supermarket of the greengrocer .
 *CHI: green greensofac .
 *MOT: the greensofac .
 *MOT: the greengrocer .
 *MOT: laughs .
 *MOT: the greengrocer .
 *CHI: greengrocer .
-*MOT: well we have a green sofa but the greengrocer is the man who sells
-*MOT: do you remember that story about Pippin the monkey and Tom ?
-*MOT: they went shopping with Mummy didnt they ?
+*MOT: well we have a green sofa but the greengrocer is the man who sells .
+*MOT: do you remember that story about Pippin the monkey and Tom .
+*MOT: they went shopping with Mummy didnt they .
 *CHI: yes .
 *CHI: buying carrots .
 *MOT: yes .
 *MOT: buying carrots .
 *MOT: I dont think they were buying carrots .
-*MOT: but Tom took his little toy monkey along and he said to the man on
+*MOT: but Tom took his little toy monkey along and he said to the man on .
 *MOT: please may I have a little piece of cheese for Biffo .
-*MOT: but the monkey didnt get the cheese did he ?
+*MOT: but the monkey didnt get the cheese did he .
 *CHI: no .
-*MOT: what happened to the cheese ?
+*MOT: what happened to the cheese .
 *CHI: a piece fall over .
 *MOT: a piece .
 *CHI: Tom over .
@@ -216,62 +218,63 @@
 *MOT: whatever hes called .
 *MOT: I dont know .
 *MOT: the cheese monger .
-*MOT: the cheese man cut a piece of cheese and gave it to Tom and Tom ate
+*MOT: the cheese man cut a piece of cheese and gave it to Tom and Tom ate .
 *CHI: yes .
-*MOT: and then he went to the greengrocer and asked for a nice juicy plum
+*MOT: and then he went to the greengrocer and asked for a nice juicy plum .
 *MOT: and a little piece of bread .
-*MOT: he asked for some bread didnt he ?
+*MOT: he asked for some bread didnt he .
 *MOT: here you are .
-*MOT: have you counted all your money ?
+*MOT: have you counted all your money .
 *CHI: no .
 *CHI: more money .
 *CHI: thanks .
-*MOT: are there anything else you would like from the shop ?
+*MOT: are there anything else you would like from the shop .
 *CHI: no .
-*MOT: are you going to help Sonia go for her shop ?
+*MOT: are you going to help Sonia go for her shop .
 *CHI: no .
 *MOT: no .
-*MOT: I think yesterday you were taking some food round werent you ?
-*MOT: were you delivering food to people ?
+*MOT: I think yesterday you were taking some food round werent you .
+*MOT: were you delivering food to people .
 *CHI: hm .
-*MOT: what do you do ?
-*MOT: go to the shops and you buy the food and then you take it round to
+*MOT: what do you do .
+*MOT: go to the shops and you buy the food and then you take it round to .
 *CHI: uh .
+*MOT: are .
 *MOT: a roundabout .
 *CHI: yes .
 *MOT: are you going to do some deliverys today .
 *CHI: no .
-*MOT: who else makes deliverys ?
+*MOT: who else makes deliverys .
 *CHI: Postman Pat .
 *MOT: the Postman .
 *CHI: yes .
 *MOT: Postman Pat .
-*MOT: and what about the milkman ?
+*MOT: and what about the milkman .
 *CHI: the milkman too .
-*MOT: does the milkman come with bottles of milk ?
+*MOT: does the milkman come with bottles of milk .
 *CHI: yes .
 *MOT: theres a bottle of milk here that the postman has brought .
 *MOT: not the postman .
 *MOT: the milkman .
 *MOT: Mummys getting confused .
 *MOT: oh well be careful .
-*MOT: if you throw the bottle of milk down itll smash and the milkll go
+*MOT: if you throw the bottle of milk down itll smash and the milkll go .
 *CHI: 0 .
 *MOT: yes .
-*MOT: but Thomas  who has milk ?
+*MOT: but Thomas who has milk .
 *MOT: oh thats not nice .
 *MOT: thats not nice .
 *MOT: throwing .
-*MOT: is it ?
+*MOT: is it .
 *CHI: yes .
 *MOT: no .
-*MOT: we had milk on our cereal this morning and Mummy has milk in her
+*MOT: we had milk on our cereal this morning and Mummy has milk in her .
 *MOT: and youll have a drink of milk later on .
-*MOT: and who else likes milk ?
+*MOT: and who else likes milk .
 *CHI: Purdie like milk .
 *MOT: Purdie likes milk .
 *MOT: yes .
-*MOT: how does Purdie drink her milk ?
+*MOT: how does Purdie drink her milk .
 *MOT: like that .
 *CHI: hm .
 *MOT: from a saucer on the floor .
@@ -279,9 +282,9 @@
 *MOT: does she lap it up .
 *CHI: yes .
 *MOT: show us again .
-*INV: wheres Purdie now ?
+*INV: wheres Purdie now .
 *CHI: run away .
-*MOT: has she gone away ?
+*MOT: has she gone away .
 *CHI: yes .
 *CHI: run away .
 *CHI: run away in trees .
@@ -289,19 +292,19 @@
 *MOT: she has not run away in the trees .
 *MOT: shes having a sleep .
 *CHI: sleep .
-*INV: is she upstairs ?
+*INV: is she upstairs .
 *CHI: yes .
 *CHI: sleep .
 *CHI: sleep the bed .
-*INV: what the bed ?
+*INV: what the bed .
 *CHI: sleep bed .
 *MOT: shes sleeping in her bed .
 *CHI: yes .
-*MOT: she has a special little bed doesnt she ?
+*MOT: she has a special little bed doesnt she .
 *MOT: Purdie .
 *CHI: hm .
 *MOT: on the floor by the radiator .
-*MOT: now is there anything else you want from the shop  Thomas ?
+*MOT: now is there anything else you want from the shop Thomas .
 *MOT: no .
 *CHI: no .
 *CHI: touch .
@@ -310,10 +313,11 @@
 *MOT: touch .
 *CHI: oh money .
 *CHI: more money .
-*MOT: are you going to put all the money into piles ?
+*MOT: are you going to put all the money into piles .
 *MOT: the same shaped money .
 *CHI: yes .
 *MOT: look .
+*MOT: all .
 *MOT: yes .
 *MOT: Dimitra can do some as well .
 *INV: ah thank you .
@@ -325,31 +329,32 @@
 *MOT: we can build a tower up .
 *MOT: all these different sizes and shapes .
 *MOT: here you are .
-*MOT: the twenty pences are like the fifty pences except theyre smaller
+*MOT: the twenty pences are like the fifty pences except theyre smaller .
 *CHI: crash .
 *MOT: crash .
 *CHI: build a tower again .
 *MOT: build a tower again .
-*MOT: whats that ?
-*MOT: are you going to look at it ?
-*MOT: it has driven past now  Thomas .
+*MOT: whats that .
+*MOT: are you going to look at it .
+*MOT: it has driven past now Thomas .
 *CHI: big brown car there .
 *MOT: brown .
+*CHI: brown .
 *INV: brown car there .
 *CHI: yes .
 *MOT: its its not brown .
-*MOT: what color is it ?
+*MOT: what color is it .
 *CHI: brown .
-*INV: are you talking about my car ?
+*INV: are you talking about my car .
 *MOT: yes .
 *CHI: its brown .
 *INV: its purple .
 *CHI: purple .
 *INV: yes .
-*CHI: what has happened to Dimitras other car ?
+*CHI: what has happened to Dimitras other car .
 *CHI: gone .
 *MOT: it has gone .
-*MOT: where has it gone ?
+*MOT: where has it gone .
 *CHI: run away .
 *MOT: it has run away .
 *CHI: yes .
@@ -359,7 +364,7 @@
 *CHI: frighten it .
 *INV: frighten frighten Purdie .
 *CHI: yes .
-*MOT: I would imagine it would frighten Purdie if car suddenly comes
+*MOT: I would imagine it would frighten Purdie if car suddenly comes .
 *CHI: oh dear .
 *INV: do you know where my .
 *CHI: Mummy .
@@ -367,6 +372,7 @@
 *CHI: no .
 *CHI: Thomas do it .
 *CHI: Mummy do it .
+*CHI: Thomas .
 *INV: Thomas wants to do it .
 *CHI: hm .
 *INV: www .
@@ -374,29 +380,30 @@
 *CHI: meow .
 *CHI: 0 .
 *CHI: ringing about .
-*INV: what ?
+*INV: what .
 *CHI: putting about .
-*INV: what about ?
+*INV: what about .
+*CHI: ringing .
 *INV: ringing about .
 *CHI: yes .
 *CHI: money about .
 *CHI: help me .
 *MOT: help you .
 *MOT: right .
-*MOT: we will do as soon
+*MOT: we will do as soon .
 *MOT: there are some pennys .
 *MOT: smaller coins than these .
-*MOT: they probably would go through the slot but Mummy has put those
+*MOT: they probably would go through the slot but Mummy has put those .
 *MOT: the only problem is I dont know what weve done with them .
 *MOT: I cant remember the safe place .
 *MOT: they wont go will they .
 *CHI: wont go .
-*MOT: what shape is this  Thomas ?
-*MOT: is it a circle ?
-*MOT: is it round like a wheel ?
+*MOT: what shape is this Thomas .
+*MOT: is it a circle .
+*MOT: is it round like a wheel .
 *CHI: not like wheel .
 *CHI: Dimitra .
-*MOT: oh has Dimitra gone away ?
+*MOT: oh has Dimitra gone away .
 *CHI: no .
 *MOT: ah .
 *CHI: naughty Dimitra .
@@ -418,7 +425,7 @@
 *CHI: sitting Dimitras .
 *CHI: sitting .
 *MOT: sitting where Dimitras sat .
-*MOT: youre something else arent you ?
+*MOT: youre something else arent you .
 *MOT: this is funny .
 *MOT: look .
 *MOT: all the things that normally go inside the basket .
@@ -427,7 +434,7 @@
 *CHI: oh no .
 *MOT: oh dear .
 *MOT: no .
-*MOT: I think thats a little too round isnt it ?
+*MOT: I think thats a little too round isnt it .
 *MOT: the eggs are slightly pointed .
 *MOT: look .
 *MOT: so theyre standing better .
@@ -435,75 +442,75 @@
 *CHI: some more .
 *MOT: some more .
 *MOT: there should be three more eggs .
-*MOT: what happened to all the fruit when you tipped up the basket this
+*MOT: what happened to all the fruit when you tipped up the basket this .
 *CHI: no no light on .
 *MOT: no .
 *MOT: we dont need the light on .
-*MOT: where do you think theyve gone ?
-*MOT: shall we start looking under the chairs ?
-*MOT: we needn't
-*MOT: oh look  Thomas .
+*MOT: where do you think theyve gone .
+*MOT: shall we start looking under the chairs .
+*MOT: we neednt .
+*MOT: oh look Thomas .
 *MOT: theyre all under that chair .
-*MOT: can you see all the eggs ?
+*MOT: can you see all the eggs .
 *MOT: and theres a small lemon .
 *CHI: I find it .
 *CHI: can reach .
-*MOT: can you find it ?
+*MOT: can you find it .
 *CHI: hm .
 *MOT: you can reach them .
-*INV: what are you saying ?
-*MOT: what are you saying ?
+*INV: what are you saying .
+*MOT: what are you saying .
 *CHI: no .
 *CHI: all mended now .
 *MOT: all mended now .
 *CHI: yes .
 *MOT: oh dear .
-*MOT: I think some things like the grapes are too large to go on top
-*MOT: what about the banana ?
-*MOT: I still think weve got another egg under there  Thomas .
+*MOT: I think some things like the grapes are too large to go on top .
+*MOT: what about the banana .
+*MOT: I still think weve got another egg under there Thomas .
 *MOT: I cant reach it .
 *MOT: oh no .
 *MOT: its not an egg .
 *MOT: its the lemon .
 *CHI: lemon .
 *MOT: a lemon .
-*MOT: were still one egg short arent we ?
+*MOT: were still one egg short arent we .
 *CHI: head .
 *MOT: put them on my head .
 *MOT: no .
-*MOT: I dont know what has happened  Thomas .
-*CHI: what happened
-*MOT: it doesnt matter weve plenty of things here havent we ?
+*MOT: I dont know what has happened Thomas .
+*CHI: what happened .
+*MOT: it doesnt matter weve plenty of things here havent we .
 *CHI: plenty of things .
-*MOT: it looks quite pretty doesnt it ?
+*MOT: it looks quite pretty doesnt it .
 *CHI: hm .
-*MOT: are you posting ?
+*MOT: are you posting .
 *CHI: no .
-*MOT: do you think the milkman brings eggs as well as milk when he comes
+*MOT: do you think the milkman brings eggs as well as milk when he comes .
 *CHI: no .
 *MOT: oh .
 *MOT: well done .
 *MOT: oh Thomas .
-*MOT: now are you going to pick all those up ?
+*MOT: now are you going to pick all those up .
 *CHI: Mummy do it .
 *MOT: oh Mummys not picking everything up .
 *MOT: I wasnt the one to throw them on the floor .
 *CHI: do it there .
-*CHI: Mummy  come on .
+*CHI: Mummy come on .
 *CHI: no no .
 *MOT: oh Postman Pat .
-*MOT: I thought he could help because hes really good at posting things
-*CHI: Postman Pat
-*MOT: Postman Pat Postman Pat with his black white
-*MOT: is that what you just said ?
+*MOT: I thought he could help because hes really good at posting things .
+*CHI: Postman Pat .
+*MOT: Postman Pat Postman Pat with his black white .
+*MOT: is that what you just said .
 *CHI: Postman Pat .
 *MOT: there you are .
 *MOT: yes .
-*MOT: but hes very clever isnt he ?
+*MOT: but hes very clever isnt he .
 *CHI: hm .
 *MOT: thank you .
 *CHI: thanks .
-*CHI: um Postman Pat
+*CHI: um Postman Pat .
 *MOT: just a second .
 *CHI: telephone .
 *MOT: it is the telephone .
@@ -511,19 +518,20 @@
 *MOT: www .
 *CHI: 0 .
 *MOT: there we are .
-*MOT: we didnt talk to whoever that lady was did we ?
-*MOT: thats perhaps a bit rude but  but weve got deliverys to
+*MOT: we didnt talk to whoever that lady was did we .
+*MOT: thats perhaps a bit rude but but weve got deliverys to .
 *CHI: hm .
 *MOT: we havent time to be chatting on the telephone when .
 *CHI: no .
+*MOT: weve .
 *CHI: no .
 *CHI: 0 .
 *CHI: no Postman Pat .
-*MOT: you see you didnt want Postman Pat to help but actually he (h)as
+*MOT: you see you didnt want Postman Pat to help but actually he has .
 *CHI: hm .
-*MOT: hello  Thomas .
+*MOT: hello Thomas .
 *CHI: hiya .
-*MOT: hello  Thomas .
+*MOT: hello Thomas .
 *CHI: see you .
 *CHI: Postman Pat away .
 *CHI: see him .
@@ -532,7 +540,7 @@
 *MOT: hes ready to take some more money now .
 *CHI: right .
 *CHI: oops .
-*CHI: sorry  Postman Pat .
+*CHI: sorry Postman Pat .
 *CHI: drop one .
 *MOT: you dropped one .
 *CHI: yes .
@@ -541,17 +549,17 @@
 *MOT: oh dear .
 *CHI: oh dear .
 *CHI: jump .
-*MOT: oh hes getting some round the end isnt he ?
+*MOT: oh hes getting some round the end isnt he .
 *MOT: round the edge .
 *CHI: edge .
-*MOT: hes not managing to post everything is he ?
+*MOT: hes not managing to post everything is he .
 *CHI: no no .
 *MOT: do you think he should try again ?
 *CHI: hm .
 *MOT: there .
 *CHI: going that one .
 *CHI: oh no .
-*CHI: sorry  Postman Pat .
+*CHI: sorry Postman Pat .
 *CHI: oop .
 *MOT: look .
 *MOT: just hold him .
@@ -580,11 +588,11 @@
 *MOT: that tells us how we can dry clean his coat at the end of the day .
 *MOT: right .
 *MOT: this ones for Mrs Pottage .
-*CHI: Mrs Pottage
+*CHI: Mrs Pottage .
 *MOT: just be careful for Mrs Pottage .
 *MOT: right .
 *MOT: that ones for .
-*MOT: youre enjoying that  Thomas .
+*MOT: youre enjoying that Thomas .
 *CHI: Sam .
 *MOT: Sam .
 *MOT: Sam from the mobile shop .
@@ -604,6 +612,7 @@
 *MOT: he can put that through his own letter box cant he ?
 *CHI: hm .
 *MOT: cant he ?
+*CHI: Postman .
 *MOT: that ones for Jess .
 *CHI: red red van .
 *MOT: oh and thats the red van as well .
@@ -624,7 +633,7 @@
 *CHI: Granny Dryden .
 *MOT: Granny Dryden .
 *MOT: oh dear .
-*MOT: he has not doing so well now  Thomas .
+*MOT: he has not doing so well now Thomas .
 *MOT: is he ?
 *MOT: hes dropping quite a few .
 *MOT: and whos this one for ?
@@ -645,15 +654,15 @@
 *CHI: yes .
 *MOT: where are all the tea things ?
 *CHI: um .
-*CHI: Postman Pat
+*CHI: Postman Pat .
 *MOT: hes just having a little rest .
 *CHI: get a drink for you .
 *MOT: get a drink for you .
 *MOT: yes .
-*MOT: were getting a drink for you  Postman Pat .
+*MOT: were getting a drink for you Postman Pat .
 *CHI: back in a minute .
-*MOT: hell be with you in a minute  Postman Pat .
-*MOT: oh youll hafta be quick  Thomas .
+*MOT: hell be with you in a minute Postman Pat .
+*MOT: oh youll hafta be quick Thomas .
 *MOT: because he has only got a few minutes for his coffee break .
 *MOT: hes very very tired .
 *MOT: is he having coffee or tea ?
@@ -661,7 +670,7 @@
 *MOT: coffee .
 *MOT: right .
 *CHI: here you are .
-*MOT: tell him to be careful he doesnt burn himself because its quite a
+*MOT: tell him to be careful he doesnt burn himself because its quite a .
 *CHI: hm .
 *MOT: is it hot or warm ?
 *CHI: um hot or warm .
@@ -671,12 +680,12 @@
 *MOT: its warm .
 *MOT: right .
 *MOT: okay .
-*MOT: oh hes enjoying that  Thomas .
+*MOT: oh hes enjoying that Thomas .
 *CHI: mm .
 *CHI: yes .
 *CHI: Postman Postman Pat .
 *CHI: drink it .
-*MOT: oh he has been drinking it  Thomas .
+*MOT: oh he has been drinking it Thomas .
 *MOT: there you are .
 *CHI: yes .
 *MOT: yes .
@@ -692,7 +701,7 @@
 *INV: shall we have a look at this ?
 *CHI: hm .
 *INV: let me show you what you can do .
-*CHI: whats this ?
+*CHI: whats this .
 *CHI: Thomas The Tank Engine .
 *INV: yes .
 *INV: Thomas The Tank Engine .
@@ -757,10 +766,10 @@
 *INV: do you want that one off ?
 *INV: whos that ?
 *CHI: Percy .
-*INV: what  Purdie ?
+*INV: what Purdie ?
 *INV: ah its Percy .
 *CHI: Percy .
-*INV: where shall we put
+*INV: where shall we put .
 *INV: where are we going to put Percy ?
 *CHI: here .
 *CHI: too small .
@@ -811,9 +820,9 @@
 *CHI: cheeky .
 *CHI: oh .
 *INV: whats that ?
-*CHI: whats that ?
+*CHI: whats that .
 *INV: its a fridge .
-*CHI: whats this ?
+*CHI: whats this .
 *CHI: whats this ?
 *INV: ah I think its uh cream .
 *INV: whipped cream or sweeties .
@@ -846,7 +855,7 @@
 *INV: whats happening ?
 *INV: I dont know ?
 *CHI: ap mending the fridge .
-*INV: you wanna
+*INV: you wanna .
 *INV: are you fixing the fridge ?
 *INV: does it need some mending ?
 *INV: look .
@@ -885,7 +894,7 @@
 *CHI: no .
 *CHI: whats this ?
 *INV: I dont know .
-*CHI: whats this ?
+*CHI: whats this .
 *INV: thats tomato ketchup .
 *INV: what about this ?
 *INV: is this a hat ?
@@ -976,7 +985,7 @@
 *INV: thank you .
 *CHI: right .
 *CHI: uhoh .
-*INV: through here  Thomas .
+*INV: through here Thomas .
 *CHI: yes .
 *INV: oh .
 *INV: what did you do ?
@@ -995,8 +1004,8 @@
 *INV: what are you going to do ?
 *INV: oh no .
 *INV: dont do that .
-*INV: please  Thomas .
-*INV: please  Thomas .
+*INV: please Thomas .
+*INV: please Thomas .
 *INV: dont do that .
 *INV: what are you doing ?
 *CHI: there .
@@ -1016,7 +1025,7 @@
 *CHI: watch .
 *INV: oh .
 *INV: broken now if they were real eggs .
-*INV: I think they go all together  Thomas .
+*INV: I think they go all together Thomas .
 *INV: you cant pull them apart .
 *INV: whats in the freezer ?
 *CHI: um fridge .
@@ -1050,7 +1059,7 @@
 *INV: what about the policeman ?
 *CHI: hurt me .
 *INV: hurt me .
-*INV: oh no  Thomas .
+*INV: oh no Thomas .
 *INV: well youre making a very big mess now .
 *CHI: oh no .
 *CHI: baby .
@@ -1073,7 +1082,7 @@
 *INV: that away too .
 *INV: wheres he taking them ?
 *INV: what is the policeman going to do with the ladders ?
-*INV: Thomas  whats the policeman doing with the ladders ?
+*INV: Thomas whats the policeman doing with the ladders ?
 *CHI: oh no .
 *CHI: kiss me .
 *INV: did you say kiss me ?
@@ -1093,6 +1102,7 @@
 *INV: the policemans coming .
 *CHI: done a window .
 *INV: what are they doing now ?
+*CHI: doing .
 *CHI: Thomas The Tank Engine .
 *CHI: come back a window .
 *INV: come back .
@@ -1162,18 +1172,19 @@
 *INV: hm .
 *CHI: Bertie found them .
 *CHI: doing now .
-*INV: I thought Thomas was broken and the Fireman was
-*CHI: Thomas coming
+*INV: I thought Thomas was broken and the Fireman was .
+*CHI: Thomas coming .
+*CHI: frightened .
 *CHI: happy birthday .
 *INV: laughs .
 *CHI: who has got a birthday ?
 *CHI: yes .
-*CHI: hello  Dimitra .
-*INV: hello  Thomas .
+*CHI: hello Dimitra .
+*INV: hello Thomas .
 *CHI: jumping around .
 *INV: are they jumping around ?
 *CHI: 0 .
-*INV: Thomas  where are you going ?
+*INV: Thomas where are you going ?
 *INV: where are you doing now ?
 *CHI: 0 .
 *INV: come here .
@@ -1204,7 +1215,7 @@
 *INV: its broken .
 *INV: we broke it right there .
 *INV: see .
-*INV: if you break it anymore I wont be able to bring it again because
+*INV: if you break it anymore I wont be able to bring it again because .
 *INV: okay .
 *CHI: put it away now .
 *INV: put it away now .

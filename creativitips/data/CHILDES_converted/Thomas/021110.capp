@@ -13,7 +13,7 @@
 *CHI: yes .
 *CHI: look .
 *CHI: this is a train now .
-*MOT: oh is it ?
+*MOT: oh is it .
 *MOT: Im sorry .
 *CHI: Im train man .
 *MOT: youre a train man .
@@ -21,7 +21,7 @@
 *CHI: I press this button 0 .
 *MOT: oh I thought you were a dustbin man .
 *CHI: this button .
-*INV: and what does this button do ?
+*INV: and what does this button do .
 *CHI: 0 .
 *INV: it makes that noise .
 *CHI: no .
@@ -32,21 +32,21 @@
 *INV: like that .
 *CHI: the train stopped .
 *CHI: down that path is not difficult .
-*MOT: what path ?
+*MOT: what path .
 *MOT: the path is not difficult .
 *CHI: no .
-*MOT: what path  darling ?
+*MOT: what path darling .
 *CHI: like that path .
 *CHI: thats difficult .
-*MOT: whats difficult ?
+*MOT: whats difficult .
 *CHI: this rug is difficult .
 *CHI: I need a dustbin man fix it .
 *MOT: the rubbish is difficult and you need a dustbin man to fix it .
 *CHI: yes .
-*CHI: oh yes I do  Mummy .
-*MOT: youve just dropped a piece of Blu Tack  Thomas .
+*CHI: oh yes I do Mummy .
+*MOT: youve just dropped a piece of Blu Tack Thomas .
 *MOT: it has gone underneath the sofa .
-*MOT: can you see it ?
+*MOT: can you see it .
 *CHI: I cant see it .
 *MOT: oh its its right under there .
 *MOT: it doesnt matter .
@@ -63,31 +63,31 @@
 *MOT: you need a fishing rod .
 *INV: you needta fix it .
 *CHI: oh yes .
-*INV: is it broken ?
+*INV: is it broken .
 *CHI: yes .
 *CHI: it is broken .
-*MOT: is it ?
+*MOT: is it .
 *CHI: it is .
 *CHI: really it is .
 *MOT: really it is .
 *CHI: I show you .
 *CHI: okay .
-*INV: I didnt get that  Thomas .
+*INV: I didnt get that Thomas .
 *CHI: Fireman Sams hero next door .
 *MOT: oh Fireman Sam is the hero next door .
 *CHI: I 0am Fireman Sam .
 *INV: youre Fireman Sam .
 *CHI: yes .
-*MOT: I think youve played this before  Dimitra .
+*MOT: I think youve played this before Dimitra .
 *CHI: Fireman Sam .
-*INV: what did you say ?
+*INV: what did you say .
 *CHI: Fireman Sam .
-*MOT: well Fireman Sam is pretending to be asleep and in a minute his
+*MOT: well Fireman Sam is pretending to be asleep and in a minute his .
 *MOT: and hell wake up .
 *MOT: and youve got to say I wonder if well see Fireman Sam today .
 *INV: ah yes .
 *INV: lets see .
-*INV: oh is Fireman Sam asleep now ?
+*INV: oh is Fireman Sam asleep now .
 *CHI: yes .
 *CHI: um .
 *CHI: his eyes is open .
@@ -96,40 +96,40 @@
 *CHI: everybody is squashed his bed .
 *MOT: hes squashed in his bed .
 *CHI: yes .
-*MOT: wheres he squashed ?
+*MOT: wheres he squashed .
 *CHI: hes making .
 *CHI: nice and comfy .
-*MOT: oh is he making himself nice and comfy ?
+*MOT: oh is he making himself nice and comfy .
 *CHI: hes hes probably going making helmet nice and shiny .
 *MOT: hes probably going to make his helmet nice and shiny .
 *CHI: yes .
 *CHI: nice and .
-*MOT: I was going to say hell hafta get out of bed to do that wont he
+*MOT: I was going to say hell hafta get out of bed to do that wont he .
 *MOT: oh this is what Fireman Sam does as well all the time .
-*MOT: we have this dont we ?
+*MOT: we have this dont we .
 *INV: like that .
 *CHI: yes .
 *INV: Ive got my ring on my finger because it falls on the other ones .
 *INV: like this .
 *CHI: yes .
-*INV: is that what Sam Fireman Sam does ?
+*INV: is that what Sam Fireman Sam does .
 *CHI: yes .
 *CHI: Fireman Sam jump out his fire engine .
 *INV: ooh .
-*INV: where is he going now ?
+*INV: where is he going now .
 *CHI: Mummys house .
 *INV: Mummys house .
 *CHI: yes .
 *CHI: say nee nao nee nao .
-*MOT: whys he going to my house ?
-*MOT: what has happened ?
+*MOT: whys he going to my house .
+*MOT: what has happened .
 *CHI: nothing .
-*MOT: oh hes just coming to see me is he ?
+*MOT: oh hes just coming to see me is he .
 *CHI: Fireman Sam coming to see Mummy .
-*MOT: is coming for a cuddle with his Mummy ?
+*MOT: is coming for a cuddle with his Mummy .
 *CHI: yes .
 *MOT: oh big burly fireman coming for a cuddle with his Mummy .
-*MOT: ah have you had a big busy day  Fireman Sam ?
+*MOT: ah have you had a big busy day Fireman Sam .
 *CHI: yes .
 *CHI: I am .
 *MOT: putting out fires .
@@ -143,15 +143,15 @@
 *MOT: so youve been a busy fireman .
 *CHI: and apples .
 *MOT: and apples .
-*MOT: have you been up the trees for the apples ?
+*MOT: have you been up the trees for the apples .
 *CHI: yes .
 *MOT: thats not a very brave thing to do .
 *CHI: yes .
 *CHI: it is .
-*MOT: is it ?
-*MOT: thats a bit of a naughty thing to do isnt it ?
+*MOT: is it .
+*MOT: thats a bit of a naughty thing to do isnt it .
 *CHI: bye bye .
-*MOT: bye bye  Fireman .
+*MOT: bye bye Fireman .
 *MOT: have a nice afternoon .
 *MOT: take care .
 *MOT: see you soon .
@@ -160,56 +160,56 @@
 *MOT: okay .
 *MOT: youre going to take the fishing rod .
 *CHI: nee nao nee nao .
-*INV: hello  Fireman Sam .
-*CHI: I coming back to see you  Dimitra .
+*INV: hello Fireman Sam .
+*CHI: I coming back to see you Dimitra .
 *INV: oh right .
 *INV: yes .
-*INV: I would like to see you too  Thomas .
+*INV: I would like to see you too Thomas .
 *CHI: Fireman Sam .
 *INV: oh Fireman Sam .
 *INV: Im sorry .
-*INV: so whats up  Fireman Sam ?
+*INV: so whats up Fireman Sam .
 *CHI: nothing yet .
 *CHI: this is .
 *CHI: it has got some hosepipes in it .
-*INV: has it got hosepipes in it ?
+*INV: has it got hosepipes in it .
 *CHI: yes .
 *INV: yes .
-*INV: where are they ?
+*INV: where are they .
 *INV: here .
 *CHI: yes .
 *INV: like that .
 *CHI: yes .
 *CHI: the is on fire .
-*INV: whats on fire ?
+*INV: whats on fire .
 *CHI: on fire .
 *INV: right .
-*INV: and what are you going to do about it ?
+*INV: and what are you going to do about it .
 *CHI: I open it .
 *INV: right .
-*CHI: Mummy  your tractor on fire .
-*MOT: is it ?
+*CHI: Mummy your tractor on fire .
+*MOT: is it .
 *CHI: yes .
 *MOT: right .
 *CHI: Im coming to .
 *CHI: nee nao nee nao .
-*INV: Fireman Sam  I think there is another fire here .
+*INV: Fireman Sam I think there is another fire here .
 *MOT: yes .
 *INV: yes .
 *INV: look .
 *INV: there .
 *INV: a big fire here .
-*INV: oh what are you going to do ?
-*INV: oh have you got your hosepipe ?
+*INV: oh what are you going to do .
+*INV: oh have you got your hosepipe .
 *CHI: lets get to work .
 *CHI: nee nao .
 *INV: lets get to work .
 *CHI: lets get to work .
 *INV: okay great .
-*INV: what are we going to do ?
+*INV: what are we going to do .
 *CHI: jump out the fire engines .
 *CHI: and I got some two brothers called Fireman Elvis .
-*INV: have you got two brothers ?
+*INV: have you got two brothers .
 *CHI: called Fireman Elvis .
 *MOT: called Fireman Elvis .
 *INV: Elvis .
@@ -217,12 +217,12 @@
 *MOT: yes .
 *MOT: Elvis .
 *INV: right .
-*INV: so are we going to put down the fire then ?
+*INV: so are we going to put down the fire then .
 *CHI: thats thats a fire .
 *INV: thats a fire there .
 *CHI: yes .
-*INV: whats on fire ?
-*CHI: the chips 0are
+*INV: whats on fire .
+*CHI: the chips 0are .
 *INV: oh wow .
 *CHI: nee nao .
 *CHI: nee nao .
@@ -231,53 +231,53 @@
 *CHI: this little one .
 *CHI: nee nao .
 *CHI: its out now .
-*INV: wow that was very good  Fireman Sam .
+*INV: wow that was very good Fireman Sam .
 *CHI: bye bye .
 *CHI: bye bye .
 *INV: bye bye .
-*INV: where are you going now ?
+*INV: where are you going now .
 *INV: are you blowing me a kiss .
 *CHI: I need that sofa now asleep .
-*INV: is it over now ?
+*INV: is it over now .
 *CHI: yes .
 *CHI: it is over .
-*INV: who are you telling that to ?
+*INV: who are you telling that to .
 *CHI: Dimitra .
 *INV: oh to me .
-*INV: would you like to give me a ring on your mobile ?
+*INV: would you like to give me a ring on your mobile .
 *CHI: uh I 0have not got it .
-*INV: where is it ?
+*INV: where is it .
 *CHI: its not anywhere .
 *INV: oh its not anywhere right .
 *CHI: nee nao .
-*INV: where are you going now ?
+*INV: where are you going now .
 *CHI: in bed .
 *INV: on the bed .
-*INV: whats happening on the bed ?
+*INV: whats happening on the bed .
 *CHI: nothing .
 *INV: nothing .
 *INV: right .
 *CHI: you sit on it and lie on it .
-*INV: am I to sit on it too ?
+*INV: am I to sit on it too .
 *CHI: yes .
 *INV: there .
 *INV: with you .
 *INV: okay .
 *INV: cheerio .
-*INV: are you going to lie on it did you say ?
+*INV: are you going to lie on it did you say .
 *CHI: oh no .
 *CHI: sit on it .
 *INV: oh no .
-*INV: its what ?
+*INV: its what .
 *CHI: sit on it .
 *INV: oh just sit on it .
 *INV: yes .
 *INV: I think thats thats better .
 *INV: so what are you going to talk to me about ?
 *INV: you dont know .
-*INV: have you had a good week ?
+*INV: have you had a good week .
 *CHI: I picking apple off .
-*INV: what did you do ?
+*INV: what did you do .
 *CHI: picking apple off .
 *INV: you you picked an apple off a tree .
 *CHI: yes .
@@ -288,24 +288,24 @@
 *CHI: broken them .
 *INV: bruised them .
 *INV: ah right .
-*INV: oh did they fall down really hard and they got bruised ?
+*INV: oh did they fall down really hard and they got bruised .
 *CHI: yes .
 *INV: oh .
 *CHI: I know .
 *CHI: a hammer .
 *INV: a hammer .
 *CHI: yes .
-*INV: where is the hammer ?
+*INV: where is the hammer .
 *CHI: I get it .
 *INV: youre youre going to get it .
 *INV: okay .
-*INV: are you going to show me ?
+*INV: are you going to show me .
 *CHI: uh uh my fire engine is broken .
-*INV: is it ?
+*INV: is it .
 *CHI: yes .
 *CHI: I need a snipperc .
 *INV: a snipperc .
-*INV: do you need a hammer too ?
+*INV: do you need a hammer too .
 *CHI: this is broken here .
 *INV: oh right .
 *INV: it needs mending then .
@@ -316,34 +316,34 @@
 *CHI: feet off .
 *INV: okay .
 *INV: lets do that then .
-*CHI: ooh ooh whats this ?
-*INV: have you found something exciting there ?
+*CHI: ooh ooh whats this .
+*INV: have you found something exciting there .
 *CHI: yes .
 *INV: ah thats thats a little plant I think .
 *CHI: yes .
 *CHI: it is .
 *INV: it is .
 *INV: yes .
-*INV: you find it outside dont you ?
+*INV: you find it outside dont you .
 *CHI: yes .
-*CHI: look  Mummy .
+*CHI: look Mummy .
 *CHI: its a plant .
-*MOT: it is isnt it ?
-*MOT: are you going to go and give that to Dimitra ?
-*MOT: are you going to go and give that to Dimitra ?
+*MOT: it is isnt it .
+*MOT: are you going to go and give that to Dimitra .
+*MOT: are you going to go and give that to Dimitra .
 *CHI: no .
 *MOT: its for Mummy .
 *MOT: oh thank you .
 *MOT: bye bye .
 *CHI: these apples .
-*MOT: oh theyre apples are they ?
+*MOT: oh theyre apples are they .
 *MOT: right .
-*CHI: excuse me  train .
-*INV: are we going to get something else now ?
-*MOT: did you say excuse me train ?
+*CHI: excuse me train .
+*INV: are we going to get something else now .
+*MOT: did you say excuse me train .
 *MOT: that was good .
 *CHI: its a secret .
-*INV: whats a secret ?
+*INV: whats a secret .
 *CHI: secret .
 *INV: a secret .
 *MOT: you have a secret .
@@ -384,15 +384,15 @@
 *INV: it does it by itself .
 *INV: okay .
 *INV: Ill make them .
-*INV: did it turn on ?
+*INV: did it turn on .
 *CHI: no .
 *INV: no .
 *INV: well maybe its not working anymore .
-*INV: what do you think ?
+*INV: what do you think .
 *INV: maybe if if you come closely maybe .
 *INV: come close like the other time .
 *INV: come close .
-*INV: what do you think ?
+*INV: what do you think .
 *CHI: oh look .
 *CHI: I 0have not got my spanner .
 *INV: no .
@@ -401,23 +401,23 @@
 *INV: oh weve found it .
 *CHI: yes .
 *CHI: its a green spanner .
-*INV: is it ?
-*INV: have you got any other color spanner ?
+*INV: is it .
+*INV: have you got any other color spanner .
 *CHI: I 0have got a yellow one .
 *CHI: I bring it out .
-*CHI: it has gone ?
-*INV: has it gone ?
+*CHI: it has gone .
+*INV: has it gone .
 *CHI: yes .
 *CHI: this is a funny thing .
 *INV: I know .
-*INV: what is it for ?
+*INV: what is it for .
 *CHI: I dont know .
 *INV: you dont know .
 *CHI: no .
 *CHI: this is new fire engine .
 *INV: right .
-*INV: are you going to fix it now ?
-*INV: is is this how Fireman Sam fixes his uh fire truck ?
+*INV: are you going to fix it now .
+*INV: is is this how Fireman Sam fixes his uh fire truck .
 *CHI: no .
 *INV: its not a fire engine .
 *INV: Im sorry .
@@ -430,23 +430,23 @@
 *INV: its not a fire truck like I said .
 *CHI: no .
 *INV: no .
-*INV: are you going to fix it then ?
+*INV: are you going to fix it then .
 *CHI: not going to see you tomorrow .
 *CHI: not see you tomorrow .
-*INV: who are you talking to ?
+*INV: who are you talking to .
 *CHI: I dont know .
 *INV: you dont know .
-*INV: youre telling somebody that they youre not going to see them
+*INV: youre telling somebody that they youre not going to see them .
 *CHI: no .
 *CHI: not .
 *INV: no .
 *CHI: I cant see spanner anywhere .
 *INV: you cant .
 *CHI: I cant see spanner .
-*INV: but you found that green one didnt you ?
+*INV: but you found that green one didnt you .
 *CHI: yes .
 *CHI: not that yellow one .
-*INV: did you only want your yellow one ?
+*INV: did you only want your yellow one .
 *CHI: yes .
 *INV: ah right .
 *INV: Im sure the green one with do the job .
@@ -457,58 +457,58 @@
 *INV: you can use your green one instead .
 *CHI: I want my yellow one to come .
 *INV: right .
-*INV: where do you think your yellow one is ?
+*INV: where do you think your yellow one is .
 *CHI: I dont know .
-*CHI: okay  Mummy .
-*CHI: wheres my yellow spanner ?
-*INV: are you going to ask Mummy where your spanner is ?
+*CHI: okay Mummy .
+*CHI: wheres my yellow spanner .
+*INV: are you going to ask Mummy where your spanner is .
 *CHI: yellow spanner .
 *INV: the yellow spanner .
 *INV: yes .
 *CHI: you see my yellow spanner .
-*MOT: I can say I have  Thomas .
+*MOT: I can say I have Thomas .
 *MOT: no .
 *CHI: oh I wanted to come back .
 *MOT: well just bear with me a second .
 *MOT: excuse me .
-*MOT: are you sure its not in this cupboard ?
+*MOT: are you sure its not in this cupboard .
 *CHI: no .
-*INV: you did find the green spanner didnt you ?
+*INV: you did find the green spanner didnt you .
 *CHI: yes .
 *CHI: not yellow one .
-*MOT: will the green one not do  Thomas ?
+*MOT: will the green one not do Thomas .
 *CHI: no .
 *CHI: I need the yellow one .
 *MOT: well Ill have a look but I cant promise anything .
 *MOT: yes .
-*MOT: its not in that drawer because somebody didnt put it in the right
-*MOT: isnt it ?
-*MOT: I cant see it  Thomas .
+*MOT: its not in that drawer because somebody didnt put it in the right .
+*MOT: isnt it .
+*MOT: I cant see it Thomas .
 *CHI: I can .
 *CHI: yes .
 *CHI: you can .
 *MOT: heres your fire engine .
-*MOT: do you not want that ?
+*MOT: do you not want that .
 *CHI: no .
 *CHI: only my yellow spanner .
 *MOT: really .
 *CHI: naughty Mummy .
 *MOT: naughty Mummy .
-*INV: is the yellow spanner different from the green one in any other way
+*INV: is the yellow spanner different from the green one in any other way .
 *CHI: oh yes .
 *CHI: it is .
 *INV: yes .
 *INV: it is .
-*INV: are you sure  Thomas ?
+*INV: are you sure Thomas .
 *CHI: sure it is .
 *CHI: sure .
-*INV: can I play with your green one ?
+*INV: can I play with your green one .
 *CHI: yes .
 *CHI: of course you can .
 *INV: of course I can .
 *INV: thank you .
-*MOT: Thomas  I dont know .
-*INV: I think try and fix your fire engine is that okay ?
+*MOT: Thomas I dont know .
+*INV: I think try and fix your fire engine is that okay .
 *CHI: I go over here and you sit over there .
 *INV: you sit over there .
 *CHI: I go under the fire engine .
@@ -520,14 +520,14 @@
 *INV: I think Im going to fix this one .
 *INV: okay great .
 *INV: together .
-*INV: I think its much better now this one  Thomas .
+*INV: I think its much better now this one Thomas .
 *INV: fire engine Fireman Sam .
 *INV: sorry .
 *INV: its a mouthful saying Fireman Sam and I get confused .
 *MOT: well I cant find the yellow spanner .
 *MOT: Im terribly sorry .
 *CHI: I need it back .
-*MOT: Im sorry  love .
+*MOT: Im sorry love .
 *CHI: I need the yellow spanner .
 *MOT: well I dont know where it is .
 *INV: you can use the green one .
@@ -535,11 +535,11 @@
 *CHI: I think its not .
 *CHI: its not fixing my fire engine anyway .
 *INV: well I did fix that side .
-*INV: if you try and fix that side too then I think your fire engine's
+*INV: if you try and fix that side too then I think your fire engines .
 *MOT: Im sure well find it when we stop looking .
 *MOT: if it doesnt turn up .
 *CHI: racing car has gone .
-*INV: what has gone ?
+*INV: what has gone .
 *CHI: the car has gone .
 *INV: your car has gone .
 *CHI: yes .
@@ -547,8 +547,8 @@
 *INV: its not .
 *INV: its there .
 *CHI: it has gone now .
-*INV: I think not  Fireman Sam .
-*INV: if you do that your your fire engine is going to be broken
+*INV: I think not Fireman Sam .
+*INV: if you do that your your fire engine is going to be broken .
 *MOT: oops .
 *CHI: nice and shiny .
 *INV: yes .
@@ -559,84 +559,84 @@
 *CHI: going to a fire now .
 *CHI: beep beep .
 *CHI: nee nao nee nao .
-*INV: is it working now ?
-*INV: is your fire engine working now ?
+*INV: is it working now .
+*INV: is your fire engine working now .
 *INV: yes .
 *INV: okay .
 *CHI: oh just a minute .
-*CHI: where my black thing ?
+*CHI: where my black thing .
 *CHI: here it .
 *CHI: oh yes .
 *INV: oh yes .
-*INV: what is that black thing then ?
-*INV: did you put it here a little while ago ?
+*INV: what is that black thing then .
+*INV: did you put it here a little while ago .
 *CHI: no .
 *CHI: its in there .
-*INV: is it ?
+*INV: is it .
 *CHI: yes .
 *INV: oh yes .
 *INV: it is .
-*INV: would you like me to help you get it out ?
+*INV: would you like me to help you get it out .
 *CHI: yes .
 *INV: oh no .
 *INV: I cant .
 *INV: its going further and further in .
 *CHI: oh .
 *INV: it has gone very far in the tube Im afraid .
-*INV: sorry  Thomas .
+*INV: sorry Thomas .
 *CHI: Fireman Sam .
-*INV: Fireman Sam  Im so very sorry .
-*INV: I keep calling you Thomas  Fireman Sam .
+*INV: Fireman Sam Im so very sorry .
+*INV: I keep calling you Thomas Fireman Sam .
 *CHI: yes .
 *INV: well Im very sorry about that .
 *INV: you know I have an idea .
 *INV: shall we try it and see if that black thing is going to come out ?
 *CHI: yes .
 *INV: look .
-*INV: here it is  Fireman Sam .
+*INV: here it is Fireman Sam .
 *CHI: thank you .
 *INV: youre welcome .
 *CHI: thank you called Dimitra .
-*INV: thank you what  Dimitra ?
+*INV: thank you what Dimitra .
 *CHI: thank you called Dimitra .
 *CHI: thank you Dimitra .
-*INV: youre welcome  Thomas Fireman Sam .
+*INV: youre welcome Thomas Fireman Sam .
 *INV: oh I keep forgetting .
 *INV: oh .
-*CHI: what has Fireman Sam got got in his hand ?
+*CHI: what has Fireman Sam got got in his hand .
 *CHI: Fireman Sam 0has got nothing in his hand .
-*INV: Thomas  I still dont know what that little thing youve got in
+*INV: Thomas I still dont know what that little thing youve got in .
 *CHI: I dont know .
 *CHI: I think its .
-*INV: you think its what ?
+*INV: you think its what .
 *CHI: Mummy .
-*MOT: yes  Thomas .
-*CHI: you got clue what this is ?
-*MOT: have I got a clue what this is ?
+*MOT: yes Thomas .
+*CHI: you got clue what this is .
+*MOT: have I got a clue what this is .
 *CHI: yes .
-*MOT: I think its some sort of screw isnt it ?
+*MOT: I think its some sort of screw isnt it .
 *CHI: yes .
 *CHI: it is .
 *CHI: go and tell Dimitra its a screw .
 *CHI: Dimitra .
 *MOT: a nut and bolt .
-*CHI: Dimitra  this is a bolt .
+*CHI: Dimitra this is a bolt .
 *CHI: this is a screw .
 *INV: oh right .
 *INV: okay .
 *INV: thats what it is .
-*INV: what about that yellow thing there ?
-*CHI: where ?
+*INV: what about that yellow thing there .
+*CHI: where .
 *INV: that big yellow thing .
 *CHI: the .
-*INV: oh uh Fireman Sam  I think youve dropped this black funny thing
-*CHI: Fireman Sam going and
-*INV: would you like to bring this over here and play with it ?
-*CHI: what play with ?
+*INV: oh uh Fireman Sam I think youve dropped this black funny thing .
+*CHI: Fireman Sam going and .
+*INV: would you like to bring this over here and play with it .
+*CHI: what play with .
 *INV: play with that there .
 *CHI: that .
 *INV: yes .
-*INV: what is it called ?
+*INV: what is it called .
 *MOT: a bead counter .
 *INV: yes .
 *INV: the bead counter .
@@ -646,16 +646,16 @@
 *CHI: it is .
 *INV: it is .
 *INV: right .
-*INV: so how do you play ?
+*INV: so how do you play .
 *CHI: um I cant remember it .
 *INV: you dont remember .
 *CHI: no .
-*INV: maybe you try and take the beads from one side and put them to the
+*INV: maybe you try and take the beads from one side and put them to the .
 *INV: like this .
 *CHI: like these funny beads .
 *INV: yes .
 *INV: they are .
-*INV: theyre very nice and colorful arent they ?
+*INV: theyre very nice and colorful arent they .
 *INV: they make funny noises .
 *CHI: more like yours .
 *INV: more like mine .
@@ -663,10 +663,11 @@
 *INV: I dont have any beads .
 *CHI: you do .
 *INV: yes .
-*INV: there was one time when I brought some beads didnt I ?
+*INV: I .
+*INV: there was one time when I brought some beads didnt I .
 *INV: very very small ones though .
 *INV: very different from these ones .
-*INV: do you remember ?
+*INV: do you remember .
 *CHI: these beads are mine .
 *INV: yes .
 *INV: these are definitely yours .
@@ -678,54 +679,54 @@
 *CHI: yes .
 *INV: ah right .
 *INV: because theyre yours you mean .
-*MOT: thats not nice is it ?
+*MOT: thats not nice is it .
 *CHI: no .
-*INV: would you take them off Dimitra ?
+*INV: would you take them off Dimitra .
 *CHI: yes .
 *INV: yes .
-*INV: can I play with them now though ?
+*INV: can I play with them now though .
 *CHI: oh no .
 *CHI: its a secret .
-*INV: its a what ?
+*INV: its a what .
 *CHI: its a secret .
 *INV: its a secret .
 *INV: okay .
-*MOT: I think you took them off Becky or was it Abigail ?
+*MOT: I think you took them off Becky or was it Abigail .
 *CHI: no .
 *CHI: thats Abigail .
-*MOT: but you soon let her play with them didnt you ?
-*INV: can I play with them  Thomas ?
+*MOT: but you soon let her play with them didnt you .
+*INV: can I play with them Thomas .
 *CHI: oh no .
 *CHI: crocodiles .
 *INV: crocodiles .
 *CHI: yes .
-*INV: are you a big crocodile ?
+*INV: are you a big crocodile .
 *CHI: yes .
 *CHI: little little crocodile .
 *INV: youre a little crocodile .
-*INV: hello  little crocodile .
-*CHI: hello  Dimitra .
-*INV: what are you doing here ?
-*INV: have you come for a lie down ?
+*INV: hello little crocodile .
+*CHI: hello Dimitra .
+*INV: what are you doing here .
+*INV: have you come for a lie down .
 *CHI: yes .
 *INV: yes .
 *CHI: on on the rock .
 *INV: on the rock .
 *CHI: this is the rocks .
 *INV: thats thats the rock .
-*INV: and who am I ?
-*INV: am I the big crocodile ?
+*INV: and who am I .
+*INV: am I the big crocodile .
 *CHI: yes .
 *INV: okay .
-*INV: come here  little crocodile .
+*INV: come here little crocodile .
 *INV: then .
-*INV: Ill give you a big hug  little crocodile .
+*INV: Ill give you a big hug little crocodile .
 *INV: Ill give you a big hug .
-*INV: how have you been  little crocodile ?
-*INV: have you been a happy little crocodile ?
+*INV: how have you been little crocodile .
+*INV: have you been a happy little crocodile .
 *CHI: Dimitra .
 *INV: yes .
-*INV: do you live in the rivers ?
+*INV: do you live in the rivers .
 *CHI: yes .
 *INV: yes .
 *CHI: I eat people .
@@ -733,120 +734,120 @@
 *CHI: yes .
 *CHI: in the water .
 *INV: ah .
-*INV: are you a scary crocodile ?
+*INV: are you a scary crocodile .
 *CHI: yes .
 *INV: oh no .
-*INV: have you eaten many people ?
+*INV: have you eaten many people .
 *CHI: yes .
 *INV: oh no .
-*INV: what else do you eat ?
+*INV: what else do you eat .
 *CHI: um fishes .
 *INV: fish .
 *INV: yes .
 *CHI: I eat fish and dogs .
 *INV: and dogs .
 *CHI: yes .
-*INV: where do you find the dogs  little crocodile ?
+*INV: where do you find the dogs little crocodile .
 *CHI: um in the forest .
 *INV: in the forest .
-*INV: are they wandering around ?
+*INV: are they wandering around .
 *CHI: yes .
 *CHI: I eat them .
 *INV: right .
 *INV: let me press some buttons now .
 *INV: and Ill come back .
-*CHI: where are you running  Dimitra ?
+*CHI: where are you running Dimitra .
 *INV: Im running to come to you .
-*INV: hello again  little crocodile .
-*INV: are you tired ?
+*INV: hello again little crocodile .
+*INV: are you tired .
 *CHI: yes .
-*INV: are you lying in the sun ?
+*INV: are you lying in the sun .
 *CHI: yes .
-*INV: I know little crocodiles like to lie in the sun dont they ?
+*INV: I know little crocodiles like to lie in the sun dont they .
 *CHI: yes .
 *CHI: I know .
 *INV: you know .
 *CHI: yes .
 *INV: ah thank you .
-*INV: so tell me what else youve been doing  little crocodile .
-*INV: what have you done today ?
+*INV: so tell me what else youve been doing little crocodile .
+*INV: what have you done today .
 *CHI: Ive been in Fireman Sams bed .
-*INV: have you been in Fireman Sams bed ?
+*INV: have you been in Fireman Sams bed .
 *CHI: yes .
-*INV: did you sneak into his bed ?
-*INV: oh did he see you ?
+*INV: did you sneak into his bed .
+*INV: oh did he see you .
 *CHI: yes .
 *CHI: he fell down his crocodile .
-*INV: what did you say ?
+*INV: what did you say .
 *CHI: he fell down on top of me .
-*INV: was he a little bit scared ?
+*INV: was he a little bit scared .
 *CHI: um no .
 *INV: no .
 *CHI: no .
-*INV: is he
+*INV: is he .
 *INV: yes .
 *INV: I know .
-*INV: Fireman Sam is a very brave man isnt he ?
+*INV: Fireman Sam is a very brave man isnt he .
 *CHI: yes .
-*INV: hes not scared of little crocodiles is he ?
+*INV: hes not scared of little crocodiles is he .
 *CHI: no .
 *INV: no .
 *INV: probably he was happy to see you .
 *CHI: yes .
 *INV: um .
-*INV: are you going to visit anybody else ?
+*INV: are you going to visit anybody else .
 *CHI: oh no .
 *INV: no .
 *CHI: Im looking for Fireman Sam .
 *INV: right .
-*INV: maybe thats a very good idea because everybody else would get
+*INV: maybe thats a very good idea because everybody else would get .
 *CHI: yes .
 *INV: yes .
 *INV: but Fireman Sams a very brave man .
 *CHI: um .
 *INV: yes .
-*INV: does Fireman Sam like crocodiles ?
+*INV: does Fireman Sam like crocodiles .
 *CHI: yes .
 *INV: yes .
 *CHI: pussy cats and dogs .
 *INV: oh .
 *INV: yes .
 *INV: I know .
-*INV: because he goes and saves them doesnt he ?
+*INV: because he goes and saves them doesnt he .
 *CHI: yes .
 *INV: um when they get stuck on trees .
 *CHI: he found theres a ladders .
 *INV: yes .
-*INV: he gets the the ladders doesnt he ?
+*INV: he gets the the ladders doesnt he .
 *INV: then he climbs up like this .
-*INV: then what does he do ?
+*INV: then what does he do .
 *CHI: down down .
 *INV: down down .
 *INV: holding the little pussy cat or the dog that he rescued .
 *INV: yes .
-*INV: is that what he does ?
+*INV: is that what he does .
 *CHI: um .
 *CHI: a boys stuck .
 *INV: a boy is stuck .
 *INV: I think maybe we should let Fireman Sam know now .
 *CHI: Im sleeping .
-*INV: are you sleeping  Fireman Sam ?
+*INV: are you sleeping Fireman Sam .
 *CHI: little crocodile .
-*INV: are you a little crocodile still ?
-*INV: are you sleeping  little crocodile ?
+*INV: are you a little crocodile still .
+*INV: are you sleeping little crocodile .
 *CHI: this is Fireman Sam .
-*INV: where is Fireman Sam ?
+*INV: where is Fireman Sam .
 *CHI: there .
 *INV: there .
 *INV: oh yes .
-*INV: hello  little crocodile .
-*INV: could you go and and let Fireman Sam know that theres a boy up
-*INV: and could you please come and help the little boy ?
+*INV: hello little crocodile .
+*INV: could you go and and let Fireman Sam know that theres a boy up .
+*INV: and could you please come and help the little boy .
 *CHI: I tell him .
 *INV: okay .
-*INV: go go and tell him  little crocodile .
+*INV: go go and tell him little crocodile .
 *CHI: nobody here .
-*INV: is he not there ?
+*INV: is he not there .
 *CHI: no .
 *CHI: not in his tunnel .
 *INV: not in his tunnel .
@@ -854,117 +855,117 @@
 *CHI: I cant see him anywhere .
 *INV: you cant see him anywhere .
 *INV: thats a shame .
-*INV: uh did you look um in his room ?
-*CHI: here you are  Fireman Sam .
+*INV: uh did you look um in his room .
+*CHI: here you are Fireman Sam .
 *CHI: little boys stuck .
-*CHI: I told you little boy
-*INV: what did you say about the little boy and Fireman Sam ?
+*CHI: I told you little boy .
+*INV: what did you say about the little boy and Fireman Sam .
 *CHI: um .
 *CHI: him .
 *CHI: with him .
 *INV: yes .
 *INV: right .
-*CHI: hey  Mummy .
+*CHI: hey Mummy .
 *CHI: youre standing on Fireman Sam .
 *MOT: oh sorry .
-*INV: oops whats that ?
+*INV: oops whats that .
 *CHI: its a squirrel .
 *INV: ah yes .
-*INV: you were telling me werent you ?
+*INV: you were telling me werent you .
 *CHI: yes .
-*CHI: here you are  Dimitra .
+*CHI: here you are Dimitra .
 *INV: thank you very much .
 *INV: can I put it in my mouth .
 *CHI: yes .
-*CHI: crocodiles where are you  little crocodile ?
+*CHI: crocodiles where are you little crocodile .
 *INV: oh the little crocodile was just here before .
 *INV: just a little while ago .
 *INV: I wonder where the little crocodile has gone .
 *INV: oh I really miss the little crocodile .
 *INV: he has forgotten his little black thing here .
-*INV: hello  little crocodile .
+*INV: hello little crocodile .
 *CHI: the crocodiles out .
-*INV: where is the little crocodile ?
+*INV: where is the little crocodile .
 *CHI: I think hes feeding his sheep .
 *INV: feeding his sheep .
 *CHI: yes .
 *INV: oh right .
-*INV: is he out in the field ?
+*INV: is he out in the field .
 *CHI: yes .
-*INV: when is he going to come back ?
+*INV: when is he going to come back .
 *CHI: little crocodile post out .
 *CHI: crocodile saying got it .
 *INV: oh wow .
-*INV: whats this ?
+*INV: whats this .
 *CHI: its a postbox .
 *INV: its a postbox .
 *CHI: yes .
 *CHI: it is .
 *CHI: I post this letter and this parcel .
 *INV: okay .
-*INV: uh who are you posting them to ?
+*INV: uh who are you posting them to .
 *CHI: you post them .
 *INV: I post them .
 *INV: okay .
-*INV: who am I then ?
-*INV: am I uh Postman Pat ?
+*INV: who am I then .
+*INV: am I uh Postman Pat .
 *CHI: no .
 *CHI: Im Postman Pat .
 *INV: youre Postman Pat .
 *INV: I thought you were the little crocodile .
 *CHI: Im Postman Pat .
 *INV: okay .
-*INV: so who am I then ?
+*INV: so who am I then .
 *CHI: youre Dimitra .
-*INV: am I just Dimitra then ?
+*INV: am I just Dimitra then .
 *INV: okay .
 *INV: well Im going to post this uh envelope parcel .
-*INV: and then Ill be waiting for Postman Pat to come and empty the box
+*INV: and then Ill be waiting for Postman Pat to come and empty the box .
 *CHI: tick tock .
 *INV: oh .
 *INV: oops I cant see Postman Pat .
 *INV: he was just disappearing in the postbox .
 *INV: great .
-*INV: are you going to be delivering the parcel and the letter to my
+*INV: are you going to be delivering the parcel and the letter to my .
 *INV: shes a long long way away .
 *INV: shes in Greece my sister .
-*INV: thank you so much  Postman Pat .
+*INV: thank you so much Postman Pat .
 *CHI: tick tock .
 *CHI: hes over .
 *CHI: bye now .
 *CHI: uh Postman Pats over now .
-*INV: was she very happy to to get the letter and the parcel ?
+*INV: was she very happy to to get the letter and the parcel .
 *CHI: um the parcel .
 *CHI: yes .
 *INV: yes .
-*CHI: whats this ?
+*CHI: whats this .
 *CHI: its somebodys hankie .
-*INV: whos hankie ?
+*INV: whos hankie .
 *CHI: this hankie .
 *INV: hankie .
 *CHI: its one of mine .
 *INV: the hankie for her .
 *CHI: Postman Pats here .
-*INV: oh hello  Postman Pat .
-*CHI: hurry  Mummy Mummy .
-*INV: I think shes on the phone  Postman Pat .
+*INV: oh hello Postman Pat .
+*CHI: hurry Mummy Mummy .
+*INV: I think shes on the phone Postman Pat .
 *CHI: Mummy .
 *INV: shes going to be coming downstairs very soon .
 *INV: Im sure about that .
-*CHI: here you are  Dimitra .
+*CHI: here you are Dimitra .
 *INV: thank you .
 *INV: look .
 *INV: its my now .
 *CHI: letters .
 *INV: oh theres so many letters to be posted .
 *INV: I hadnt realized there were so many .
-*INV: are are there any for me ?
+*INV: are are there any for me .
 *CHI: theres some fall off the postcard .
 *INV: oh great .
-*INV: are you going to put some on the postcard ?
+*INV: are you going to put some on the postcard .
 *CHI: this postcard .
 *CHI: it has not come on .
-*INV: are you going to put them in the postbox ?
+*INV: are you going to put them in the postbox .
 *CHI: uh for your friend .
 *INV: yes .
 *INV: thank you .
@@ -972,36 +973,36 @@
 *INV: I miss her so much .
 *INV: I wrote to her many many letters .
 *INV: ah so many letters .
-*INV: do you think shes going to be happy ?
+*INV: do you think shes going to be happy .
 *CHI: yes .
 *INV: yes .
 *CHI: loads of lovely letters .
 *INV: oop .
-*CHI: Ive got some
+*CHI: Ive got some .
 *CHI: Ive got some lots and lots of letters .
-*INV: have you ?
+*INV: have you .
 *CHI: I 0have got some in there .
 *INV: okay .
 *CHI: in the loft .
 *INV: in the loft .
 *INV: right .
-*INV: are there any for me  Postman Pat ?
+*INV: are there any for me Postman Pat .
 *CHI: yes .
 *CHI: of course .
 *CHI: a white one for you .
-*INV: oh thank you very much  Postman Pat .
+*INV: oh thank you very much Postman Pat .
 *CHI: youve got some more white ones .
 *INV: ah white ones .
 *INV: theyre my favorite .
 *CHI: yes .
-*CHI: here you are  Dimitra .
+*CHI: here you are Dimitra .
 *CHI: loads of letters .
 *CHI: Dimitras friend .
-*INV: ah are there none for me ?
+*INV: ah are there none for me .
 *CHI: yes .
 *INV: there are .
 *CHI: yes .
-*INV: has she replied my friend ?
+*INV: has she replied my friend .
 *CHI: um yes .
 *INV: thank you .
 *INV: it has .
@@ -1019,56 +1020,56 @@
 *CHI: loads and loads and loads of letters .
 *INV: loads and loads and loads of letters .
 *CHI: yes .
-*INV: what are you going to do with them ?
+*INV: what are you going to do with them .
 *CHI: I put them on rocking chair really slowly .
 *INV: very slowly .
 *INV: yes .
-*INV: otherwise youre going to drop them arent you ?
+*INV: otherwise youre going to drop them arent you .
 *CHI: yes .
-*INV: would you like some help ?
+*INV: would you like some help .
 *CHI: no .
 *CHI: there on the track .
 *CHI: I need your help .
-*INV: you do ?
-*INV: what would you like me to do ?
+*INV: you do .
+*INV: what would you like me to do .
 *CHI: post some letters .
 *CHI: its not got anything in it .
 *INV: like this one .
 *CHI: like .
-*INV: is it empty ?
+*INV: is it empty .
 *CHI: yes .
 *INV: right .
 *CHI: its its probably that rocking chair .
 *CHI: thats I get even more letters .
-*INV: are there even more letters ?
+*INV: are there even more letters .
 *CHI: yes .
-*INV: are they all for my sister ?
+*INV: are they all for my sister .
 *CHI: oh yes .
 *CHI: of course .
 *INV: of course they are .
-*CHI: little sister  posting some more letters for you .
-*INV: did you call her little sister ?
+*CHI: little sister posting some more letters for you .
+*INV: did you call her little sister .
 *CHI: yes .
 *INV: yes .
-*INV: she is the little sister isnt she ?
+*INV: she is the little sister isnt she .
 *CHI: youre big huge sister .
 *INV: Im big huge sister .
 *CHI: yes .
 *INV: ah okay .
 *INV: Im the huge sister .
 *INV: oh even more letters .
-*INV: shes really popular my my little sister isnt she ?
+*INV: shes really popular my my little sister isnt she .
 *CHI: yes .
 *INV: shes getting all these letters and Ive only got one .
-*INV: are there any more letters for me  Postman Pat ?
+*INV: are there any more letters for me Postman Pat .
 *CHI: no .
 *INV: nothing .
 *CHI: no .
 *CHI: just some white letters .
-*INV: who writes letters ?
+*INV: who writes letters .
 *CHI: white letters .
 *INV: white letters .
-*INV: are they all for my sister ?
+*INV: are they all for my sister .
 *CHI: here you are .
 *CHI: another one here .
 *INV: oh great .
@@ -1076,26 +1077,27 @@
 *INV: somebody loves me after all .
 *CHI: all that .
 *CHI: all that .
-*INV: what did you say ?
+*INV: what did you say .
 *CHI: all that .
 *INV: all that .
 *CHI: package .
 *CHI: Charlotte parcel .
 *INV: a yellow parcel .
 *CHI: Charlotte parcel .
-*INV: what kind of parcel ?
+*INV: what kind of parcel .
 *CHI: Charlotte parcel .
 *CHI: Charlotte parcel .
 *CHI: I mean Charlotte parcel .
 *INV: Charlotte Charlotte uh your friend Charlotte .
+*CHI: Charlotte .
 *INV: right .
 *INV: thats for her then .
-*INV: are all the rest of the letters for my little sister ?
+*INV: are all the rest of the letters for my little sister .
 *CHI: yes .
-*INV: ah you know I think shes going to have a lot of reading to do this
+*INV: ah you know I think shes going to have a lot of reading to do this .
 *CHI: yes .
 *CHI: I know .
-*CHI: but Im sure shes going to be very happy reading all these letters
+*CHI: but Im sure shes going to be very happy reading all these letters .
 *CHI: yes .
 *INV: and from all the rest of her friends .
 *CHI: loads and loads of letters .
@@ -1103,15 +1105,15 @@
 *INV: yes .
 *CHI: loads and loads of letters .
 *INV: you have .
-*INV: are you going to be delivering all these ?
+*INV: are you going to be delivering all these .
 *CHI: yes .
-*INV: are there any more for me in there ?
+*INV: are there any more for me in there .
 *CHI: uh no .
 *INV: no .
-*INV: uh who are they for this time ?
-*INV: who are you going to post them to ?
-*CHI: uh its post
-*INV: would you like me to help you pick them up ?
+*INV: uh who are they for this time .
+*INV: who are you going to post them to .
+*CHI: uh its post .
+*INV: would you like me to help you pick them up .
 *CHI: pick them up .
 *INV: we can do it together .
 *INV: hold on .
@@ -1119,15 +1121,15 @@
 *INV: its difficult .
 *INV: I think thats okay now .
 *INV: there we go .
-*CHI: thank you  Dimitra .
-*INV: youre very welcome  Thomas .
+*CHI: thank you Dimitra .
+*INV: youre very welcome Thomas .
 *CHI: Thomas .
 *INV: youre not Thomas .
 *INV: youre Postman Pat .
 *MOT: Postman Pat .
 *CHI: yes .
 *INV: oh actually Im afraid this is mine .
-*INV: this is uh you know
+*INV: this is uh you know .
 *INV: yes .
 *INV: these are both mine .
 *INV: uh .
@@ -1135,11 +1137,11 @@
 *CHI: yes .
 *INV: its very colorful .
 *CHI: in this postbox .
-*INV: are you going to put them in this postbox ?
+*INV: are you going to put them in this postbox .
 *CHI: yes .
 *INV: um okay .
 *CHI: I post this in the postbox too .
-*INV: are you sure about this ?
+*INV: are you sure about this .
 *CHI: yes .
 *INV: but its not a letter .
 *INV: its just a screw .
@@ -1151,9 +1153,9 @@
 *CHI: no .
 *INV: no .
 *CHI: 0 .
-*INV: whats that ?
-*INV: Postman Pat  where are you going ?
-*INV: what are you doing there  Postman Pat ?
+*INV: whats that .
+*INV: Postman Pat where are you going .
+*INV: what are you doing there Postman Pat .
 *CHI: um I dont know .
 *INV: hello .
 *INV: I almost tripped on the bead counter .
@@ -1161,13 +1163,13 @@
 *CHI: now .
 *INV: oh .
 *INV: I think Postman Pat has had a little accident there .
-*INV: is he stuck to his truck ?
+*INV: is he stuck to his truck .
 *CHI: yes .
 *CHI: he is .
-*INV: are you stuck to your truck  Postman Pat ?
+*INV: are you stuck to your truck Postman Pat .
 *CHI: he wants some more red ones .
-*INV: are those for me ?
-*INV: would you like some help ?
+*INV: are those for me .
+*INV: would you like some help .
 *INV: oh there you go .
 *CHI: I put them in the postbox .
 *INV: oh right .
@@ -1176,65 +1178,66 @@
 *CHI: yes .
 *CHI: not for Dimitra .
 *CHI: for your friend .
-*INV: are they for my friend ?
+*INV: are they for my friend .
 *CHI: yes .
 *INV: right .
-*INV: thank you very much for delivering all these
+*INV: thank you very much for delivering all these .
 *CHI: yes .
-*INV: youre very kind  Postman Pat .
+*INV: youre very kind Postman Pat .
 *CHI: yes .
 *CHI: I am Postman Pat .
 *CHI: no more letters .
 *INV: thats brilliant .
 *CHI: yes .
-*CHI: it is brilliant  Dimitra .
-*INV: what did you say ?
-*INV: I didnt get this one  Thomas .
+*CHI: it is brilliant Dimitra .
+*INV: what did you say .
+*INV: I didnt get this one Thomas .
 *INV: Im afraid .
 *CHI: one two three four five fingers .
 *CHI: one two three four five .
-*INV: have you got five fingers ?
+*INV: have you got five fingers .
 *CHI: yes .
 *CHI: and toes .
 *INV: and five toes .
 *INV: yes .
 *INV: you do .
 *CHI: theyre smelly .
-*INV: have you got smelly feet did you say ?
+*INV: have you got smelly feet did you say .
 *CHI: um .
 *INV: oh no .
 *INV: I cant smell anything .
+*CHI: its .
 *INV: they cant be that bad because I cant smell them .
 *CHI: another one your friend .
 *INV: another one for my friend .
 *CHI: I post it in the postbox .
 *INV: great .
 *CHI: Dimitra .
-*INV: is that mine ?
+*INV: is that mine .
 *CHI: no .
 *CHI: thats .
 *INV: it has got a hole on it .
 *CHI: yes .
-*INV: why does it have a hole on it ?
+*INV: why does it have a hole on it .
 *CHI: dont know .
-*INV: do you not know ?
-*CHI: your friend what has this got a hole in it ?
-*CHI: what has this hole in it what for ?
+*INV: do you not know .
+*CHI: your friend what has this got a hole in it .
+*CHI: what has this hole in it what for .
 *INV: maybe Mummy knows .
 *CHI: whats this hole in this train .
-*MOT: because when we were sitting on a train and a guard came along and
-*MOT: and we hadta show our ticket and he punched to prove that hed seen
-*CHI: what for ?
-*MOT: you had better tell Dimitra hadnt you ?
+*MOT: because when we were sitting on a train and a guard came along and .
+*MOT: and we hadta show our ticket and he punched to prove that hed seen .
+*CHI: what for .
+*MOT: you had better tell Dimitra hadnt you .
 *CHI: Dimitras friend .
-*INV: would you like to come and tell me ?
+*INV: would you like to come and tell me .
 *CHI: I tell you Dimitras friend .
 *CHI: yes .
 *CHI: 0 .
-*INV: are you not going to tell me ?
-*INV: whys there a hole ?
+*INV: are you not going to tell me .
+*INV: whys there a hole .
 *CHI: uh I tell you in a minute .
-*INV: are you going to tell me in a minute ?
+*INV: are you going to tell me in a minute .
 *CHI: uh I told your friend .
 *CHI: oh sorry .
 *CHI: one two three four five .
@@ -1242,42 +1245,42 @@
 *MOT: oh I see .
 *MOT: one two three four five .
 *MOT: once I caught a fish alive .
-*INV: why are you telling that to my friend ?
+*INV: why are you telling that to my friend .
 *CHI: uh I dont know .
 *INV: oh okay .
 *CHI: one two three four five .
 *CHI: Firemans helmet .
 *CHI: Thomas spit .
 *MOT: camels might spit .
-*MOT: but youre not a camel are you ?
+*MOT: but youre not a camel are you .
 *CHI: yes .
 *CHI: I am .
-*MOT: oh Dimitra  weve got a camel in our house .
+*MOT: oh Dimitra weve got a camel in our house .
 *INV: oh .
 *CHI: theres a funny camel called silly billywp .
 *CHI: spitting .
-*MOT: oh its not nice  Thomas .
-*MOT: thats really not nice is it ?
+*MOT: oh its not nice Thomas .
+*MOT: thats really not nice is it .
 *CHI: the the camel spit at Dimitra .
 *MOT: no .
 *INV: oh no .
-*INV: I dont think I like that  camel .
-*CHI: Dimitra  spit again .
+*INV: I dont think I like that camel .
+*CHI: Dimitra spit again .
 *INV: oh no no .
 *MOT: no no .
 *INV: no .
-*INV: you wouldnt like me
+*INV: you wouldnt like me .
 *INV: yuck yuck .
 *MOT: no .
-*INV: I dont think this is so funny  Thomas .
+*INV: I dont think this is so funny Thomas .
 *CHI: youre Mummy camel .
 *INV: Im Mummy camel .
 *MOT: Thomas .
-*INV: are you baby camel ?
+*INV: are you baby camel .
 *CHI: yes .
 *INV: you you wouldnt like me to spit on you like that .
 *MOT: no .
-*MOT: youre not a nice boy  Thomas .
+*MOT: youre not a nice boy Thomas .
 *CHI: 0 .
 *MOT: Thomas .
 *CHI: 0 .
@@ -1286,46 +1289,46 @@
 *INV: yes .
 *INV: you are .
 *CHI: 0 .
-*INV: Thomas Thomas  thats not very nice .
+*INV: Thomas Thomas thats not very nice .
 *CHI: I told you snap .
 *CHI: 0 .
-*MOT: why dont you tell Dimitra where we went on Friday ?
-*MOT: who has been poorly for a long time and was suddenly better on
+*MOT: why dont you tell Dimitra where we went on Friday .
+*MOT: who has been poorly for a long time and was suddenly better on .
 *CHI: Purdie .
 *MOT: no .
 *MOT: not Purdie .
 *CHI: yes .
-*MOT: Julian the music teacher so we went back to bang^a^drum^time@c
+*MOT: Julian the music teacher so we went back to bangadrumtimec .
 *CHI: I got some .
-*INV: by the way  Thomas .
-*INV: where is Purdie ?
+*INV: by the way Thomas .
+*INV: where is Purdie .
 *CHI: Purdie upstairs in the bedroom .
-*INV: is she sleeping ?
+*INV: is she sleeping .
 *CHI: like Missus Selby .
-*MOT: upstairs in the bedroom like Missus Selby whos a character from
-*INV: is Missus Selby sleeping all the time ?
+*MOT: upstairs in the bedroom like Missus Selby whos a character from .
+*INV: is Missus Selby sleeping all the time .
 *CHI: yes .
 *CHI: and Dimitra .
 *INV: ah right .
-*INV: well thats um not got a very
-*INV: is that an alternative way of posting things ?
+*INV: well thats um not got a very .
+*INV: is that an alternative way of posting things .
 *CHI: yes .
 *CHI: Im throwing them .
 *INV: youre throwing them .
-*INV: youre not posting them are you ?
-*INV: uh Postman Pat  I think you might be tired if you do that .
+*INV: youre not posting them are you .
+*INV: uh Postman Pat I think you might be tired if you do that .
 *INV: youre sposta be delivering things .
-*INV: you dont wanna get tired  Postman Pat .
+*INV: you dont wanna get tired Postman Pat .
 *CHI: 0 .
 *INV: not only have you thrown them youve .
 *CHI: 0 .
-*INV: youre jumping all over them arent you ?
+*INV: youre jumping all over them arent you .
 *CHI: you sit .
-*INV: what do you want me to do ?
+*INV: what do you want me to do .
 *CHI: sit on the radiator .
 *INV: sit on the radiator .
 *CHI: yes .
-*INV: why do you want me to sit on the radiator ?
+*INV: why do you want me to sit on the radiator .
 *CHI: sit on there .
 *INV: on the fireguard you mean .
 *CHI: on there .
@@ -1333,4 +1336,4 @@
 *INV: here .
 *INV: oh right right .
 *CHI: 0 .
-*MOT: whats the matter ?
+*MOT: whats the matter .

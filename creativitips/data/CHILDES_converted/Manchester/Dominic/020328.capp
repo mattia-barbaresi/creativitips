@@ -14,8 +14,8 @@
 *CHI: Frank Cat .
 *MOT: Frank cat .
 *MOT: Frank cat .
-*MOT: Frank cat ate your cheese this morning  didnt he ?
-*CHI: cat eat cheese  Caroline .
+*MOT: Frank cat ate your cheese this morning didnt he ?
+*CHI: cat eat cheese Caroline .
 *INV: did he ?
 *INV: oh no .
 *MOT: yes .
@@ -24,7 +24,7 @@
 *INV: naughty cat .
 *CHI: dirty .
 *MOT: yes .
-*MOT: Mummy told you to let me have it  didnt I ?
+*MOT: Mummy told you to let me have it didnt I ?
 *CHI: have more cheese .
 *MOT: you had some more cheese .
 *MOT: yes .
@@ -49,12 +49,12 @@
 *MOT: when ?
 *CHI: I have some at aunties .
 *MOT: you well .
-*MOT: you had some on the way to aunties  didnt you yesterday ?
+*MOT: you had some on the way to aunties didnt you yesterday ?
 *CHI: mhm .
 *MOT: did you have anything else at aunties ?
 *CHI: I have cake .
 *MOT: yes .
-*MOT: you did have cake  didnt you ?
+*MOT: you did have cake didnt you ?
 *MOT: anything else ?
 *CHI: I has um crisps .
 *MOT: you had a drink .
@@ -103,18 +103,18 @@
 *MOT: theyre all over the place .
 *MOT: in the sofa .
 *MOT: on the sofa .
-*MOT: even this morning they were on my feet when I was trying to read
+*MOT: even this morning they were on my feet when I was trying to read .
 *CHI: mhm .
 *MOT: mhm .
-*CHI: read paper  Caroline .
+*CHI: read paper Caroline .
 *MOT: mhm .
 *INV: I know .
-*CHI: I had toast  Caroline .
+*CHI: I had toast Caroline .
 *MOT: yes .
 *MOT: you had some toast .
 *CHI: I .
 *MOT: and some cheese .
-*CHI: I I had toast  Caroline .
+*CHI: I I had toast Caroline .
 *INV: did you ?
 *CHI: mhm .
 *MOT: and youre having some fish for dinner .
@@ -146,9 +146,9 @@
 *MOT: al for apple .
 *MOT: whats that one ?
 *CHI: that bl .
-*MOT: thats a bl for
+*MOT: thats a bl for .
 *CHI: cat .
-*MOT: bl for
+*MOT: bl for .
 *CHI: for cats .
 *MOT: no .
 *MOT: bl for ball .
@@ -188,6 +188,7 @@
 *CHI: ear .
 *MOT: for ear .
 *MOT: thats right .
+*MOT: and .
 *CHI: elephant .
 *MOT: elephant .
 *MOT: do you know what that one is ?
@@ -210,7 +211,7 @@
 *MOT: mhm .
 *INV: www .
 *MOT: um do you know what that one is ?
-*MOT: its a hl for
+*MOT: its a hl for .
 *CHI: ball .
 *MOT: whats that on the mans head ?
 *CHI: that hat .
@@ -276,11 +277,13 @@
 *CHI: hl .
 *MOT: thats an nl .
 *CHI: nl .
+*MOT: for .
 *CHI: finger .
 *MOT: no .
 *MOT: nl .
 *MOT: nl .
 *CHI: nl .
+*MOT: for .
 *CHI: nose .
 *MOT: nose .
 *CHI: a wheel .
@@ -297,6 +300,7 @@
 *CHI: jl .
 *MOT: its a pl .
 *CHI: pl .
+*MOT: for .
 *MOT: whatve they got on the back there ?
 *MOT: oh .
 *MOT: I think theyve got a dog on the back of there .
@@ -340,11 +344,11 @@
 *MOT: do you know what that one is ?
 *MOT: its a tl .
 *CHI: tl .
-*MOT: you start to get bored after a bit with these  dont you ?
+*MOT: you start to get bored after a bit with these dont you ?
 *CHI: I got tea .
 *MOT: tl .
 *MOT: you have tea .
-*MOT: you normally have Daddys tea  dont you ?
+*MOT: you normally have Daddys tea dont you ?
 *CHI: mhm .
 *MOT: mhm .
 *CHI: like I like tea .
@@ -379,8 +383,8 @@
 *MOT: were remembering again our colors .
 *CHI: orange digger .
 *MOT: thats right .
-*MOT: I think Daddys been hounding you with your colors at night as well
-*MOT: that trailer doesnt really go with that digger  darling .
+*MOT: I think Daddys been hounding you with your colors at night as well .
+*MOT: that trailer doesnt really go with that digger darling .
 *CHI: hm ?
 *MOT: theyre not really sposta be together .
 *MOT: and look a bit silly together actually .
@@ -393,7 +397,7 @@
 *MOT: either that one .
 *MOT: or that one .
 *CHI: that one .
-*MOT: that one  is it ?
+*MOT: that one is it ?
 *CHI: that one .
 *MOT: right .
 *CHI: that one .
@@ -442,7 +446,7 @@
 *CHI: Henry not sofa .
 *MOT: oh right .
 *MOT: well .
-*MOT: I thought he might be bearing in mind what I found this morning in
+*MOT: I thought he might be bearing in mind what I found this morning in .
 *CHI: he in bed .
 *MOT: oh right .
 *CHI: he in bed .
@@ -454,11 +458,11 @@
 *CHI: look .
 *CHI: Henry .
 *INV: Henry .
-*MOT: Henrys got lots of wheels  hasnt he ?
+*MOT: Henrys got lots of wheels hasnt he ?
 *MOT: oh .
 *CHI: Henry .
 *MOT: um .
-*MOT: Id be very grateful if you played with it on the floor actually ,
+*MOT: Id be very grateful if you played with it on the floor actually .
 *MOT: I dont want it to fall onto your sister .
 *MOT: or Mummyll be very cross .
 *CHI: Henry on there .
@@ -474,12 +478,12 @@
 *MOT: because youre not looking .
 *MOT: bit like what you say to your Aunty .
 *CHI: here .
-*MOT: not listening  are you ?
+*MOT: not listening are you ?
 *MOT: not Aunty not listening .
 *MOT: Dominic not listening .
 *CHI: I byebye Aunty .
 *MOT: yes .
-*MOT: you said byebye to Aunty yesterday  didnt you ?
+*MOT: you said byebye to Aunty yesterday didnt you ?
 *CHI: I see Nana .
 *MOT: yes .
 *MOT: you saw Nana .
@@ -531,22 +535,22 @@
 *MOT: you didnt go out .
 *CHI: mhm .
 *MOT: no .
-*MOT: I didnt think you would because you were
+*MOT: I didnt think you would because you were .
 *CHI: Daddy go out .
 *MOT: did he ?
-*MOT: and he left you on your own  did he ?
+*MOT: and he left you on your own did he ?
 *CHI: no .
 *MOT: well .
 *MOT: I didnt think he would .
 *CHI: Daddy Daddys red car .
-*MOT: you went in the car  did you ?
+*MOT: you went in the car did you ?
 *MOT: where did you go ?
 *CHI: Daddys red car .
 *MOT: Daddys red car ?
 *MOT: what about Daddys red car ?
 *CHI: it downstairs .
 *MOT: its not downstairs .
-*MOT: Daddy went to work late this morning because he went to watch the
+*MOT: Daddy went to work late this morning because he went to watch the .
 *MOT: thatll teach him .
 *CHI: Caroline .
 *INV: yeah .
@@ -555,7 +559,7 @@
 *INV: has he ?
 *CHI: mhm .
 *MOT: yes .
-*MOT: but hes gonna be back late so youve got Nana to look
+*MOT: but hes gonna be back late so youve got Nana to look .
 *CHI: want Percy .
 *CHI: Percy in there .
 *MOT: well .
@@ -569,7 +573,7 @@
 *CHI: mhm .
 *CHI: lorry in there .
 *MOT: well .
-*MOT: lorry willnt fit  darling .
+*MOT: lorry willnt fit darling .
 *MOT: too big .
 *CHI: yes .
 *MOT: not listening .
@@ -640,11 +644,11 @@
 *MOT: I know its a train .
 *CHI: choochooo .
 *CHI: a passenger train .
-*MOT: a passenger train  is it ?
+*MOT: a passenger train is it ?
 *CHI: it is .
 *MOT: oh right .
 *CHI: oh dear train .
-*MOT: you really love trains  dont you ?
+*MOT: you really love trains dont you ?
 *INV: www .
 *CHI: I dont like train .
 *CHI: I dont like train .
@@ -662,7 +666,7 @@
 *CHI: look .
 *MOT: what ?
 *CHI: passenger train .
-*MOT: passenger train  is it ?
+*MOT: passenger train is it ?
 *CHI: that passenger train .
 *MOT: oh right .
 *MOT: it might not be .
@@ -672,9 +676,9 @@
 *CHI: that coal lorry .
 *MOT: its .
 *MOT: well .
-*MOT: its not a coal lorry  is it ?
+*MOT: its not a coal lorry is it ?
 *CHI: that coal one .
-*MOT: thats a coal one  is it ?
+*MOT: thats a coal one is it ?
 *CHI: that coal train .
 *MOT: okay .
 *MOT: its a coal train .
@@ -733,7 +737,7 @@
 *CHI: play Edward .
 *MOT: oh .
 *MOT: dont wanna play with Edward .
-*MOT: youre gonna be just like your Dad  arent you ?
+*MOT: youre gonna be just like your Dad arent you ?
 *MOT: bossy .
 *CHI: dont have car .
 *MOT: why not ?
@@ -760,7 +764,7 @@
 *CHI: I want car .
 *MOT: please .
 *MOT: Mummy said please .
-*MOT: please  Dominic .
+*MOT: please Dominic .
 *CHI: gone now .
 *CHI: gone now .
 *CHI: lorry .
@@ -777,7 +781,7 @@
 *MOT: what ?
 *CHI: want that .
 *MOT: alright then .
-*MOT: Ill have
+*MOT: Ill have .
 *CHI: Edward .
 *CHI: want that car .
 *MOT: you said I could have it .
@@ -822,7 +826,7 @@
 *CHI: um get car .
 *MOT: you keep taking it off me .
 *CHI: no .
-*MOT: Ill keep it then  shall I ?
+*MOT: Ill keep it then shall I ?
 *MOT: can leave it there .
 *MOT: oh .
 *MOT: its back in .
@@ -877,7 +881,7 @@
 *MOT: okay .
 *MOT: okay .
 *CHI: passenger train .
-*MOT: its a passenger train  is it ?
+*MOT: its a passenger train is it ?
 *MOT: thought it had coal on actually .
 *CHI: coal on .
 *MOT: so its a passenger train with coal ?
@@ -910,7 +914,7 @@
 *CHI: Mummy hurt .
 *MOT: uhoh .
 *MOT: that was a big mistake .
-*MOT: I I keep forgetting youre a little parrot and you copy
+*MOT: I I keep forgetting youre a little parrot and you copy .
 *MOT: right then .
 *MOT: thats your brother .
 *MOT: hes mad .
@@ -926,7 +930,7 @@
 *CHI: sister .
 *CHI: Percy .
 *MOT: you give sister Percy ?
-*MOT: told you he was mad  didnt I ?
+*MOT: told you he was mad didnt I ?
 *CHI: I want do this .
 *MOT: dont do that .
 *MOT: Mummy said no .
@@ -942,7 +946,7 @@
 *CHI: police car .
 *INV: police car .
 *CHI: got two wheels .
-*MOT: its got more than two wheels  Dominic .
+*MOT: its got more than two wheels Dominic .
 *MOT: how many wheels has it got ?
 *CHI: got one two three five six .
 *MOT: excuse me .
@@ -951,17 +955,17 @@
 *CHI: oh .
 *CHI: fix it please .
 *MOT: fix it please .
-*CHI: please  Mummy .
+*CHI: please Mummy .
 *MOT: mhm .
 *CHI: please .
 *MOT: yes .
 *MOT: Dominic .
 *CHI: on floor .
-*MOT: yes  Dominic .
+*MOT: yes Dominic .
 *MOT: shall I get the hoover upstairs and well hoover your room ?
 *CHI: no .
 *MOT: no .
-*MOT: you dont like the hoover  do you ?
+*MOT: you dont like the hoover do you ?
 *MOT: Dominic .
 *CHI: no .
 *CHI: no hoover .
@@ -1006,7 +1010,7 @@
 *CHI: look .
 *CHI: lorry .
 *MOT: look .
-*MOT: your sisters gone to sleep  Dominic .
+*MOT: your sisters gone to sleep Dominic .
 *CHI: no .
 *CHI: get up .
 *MOT: shes going to sleep .
@@ -1127,7 +1131,7 @@
 *MOT: I dont want that .
 *CHI: no .
 *CHI: no .
-*MOT: um you know this screaming you do when you dont get your own way
+*MOT: um you know this screaming you do when you dont get your own way .
 *MOT: you hafta stop it .
 *MOT: youre gonna hafta stop it .
 *CHI: want that .
@@ -1181,7 +1185,7 @@
 *MOT: isnt it ?
 *MOT: oh right .
 *CHI: Mummy own .
-*MOT: Mummys got her own  has she ?
+*MOT: Mummys got her own has she ?
 *CHI: mhm .
 *MOT: looking for some donations .
 *CHI: not have it .
@@ -1230,7 +1234,7 @@
 *MOT: poor little thing .
 *CHI: poor doll .
 *MOT: poor doll .
-*MOT: I was actually thinking of your sister because youre waking her up
+*MOT: I was actually thinking of your sister because youre waking her up .
 *MOT: shall we just do your normal method ?
 *MOT: that method .
 *MOT: its a lot quicker .
@@ -1278,7 +1282,7 @@
 *MOT: thats not green .
 *CHI: blue one .
 *MOT: I want some green in my tower please .
-*MOT: youre not paying any attention to me  are you ?
+*MOT: youre not paying any attention to me are you ?
 *MOT: mummie got to build my own tower ?
 *CHI: mhm .
 *MOT: hm ?
@@ -1308,7 +1312,7 @@
 *CHI: oh dear .
 *MOT: oh dear .
 *MOT: you havent put this one .
-*MOT: Ill put that one there  shall I ?
+*MOT: Ill put that one there shall I ?
 *CHI: oh dear .
 *MOT: there .
 *CHI: I cant do it .
@@ -1370,7 +1374,7 @@
 *MOT: you hafta just push it down a bit .
 *MOT: shall I knock it over ?
 *CHI: no knock it over .
-*MOT: I willnt hafta because its gonna fall down soon
+*MOT: I willnt hafta because its gonna fall down soon .
 *CHI: a horse .
 *MOT: yes .
 *CHI: neigho .
@@ -1380,7 +1384,7 @@
 *MOT: no .
 *MOT: no no .
 *CHI: cow mooo .
-*MOT: I didnt say that  did I ?
+*MOT: I didnt say that did I ?
 *CHI: other fence .
 *MOT: thats right .
 *MOT: I think theres a few more but Im not sure .
@@ -1397,6 +1401,7 @@
 *MOT: yes .
 *MOT: what is it ?
 *CHI: burger cheese .
+*MOT: what .
 *CHI: look .
 *MOT: burger cheese .
 *MOT: well .
@@ -1407,7 +1412,7 @@
 *MOT: its a dolphin .
 *CHI: not stay on .
 *MOT: well .
-*MOT: it doesnt really go on top of there but still
+*MOT: it doesnt really go on top of there but still .
 *CHI: penguin .
 *MOT: what ?
 *MOT: its what ?
@@ -1476,8 +1481,8 @@
 *MOT: oh dear .
 *MOT: mummie get herself into trouble .
 *MOT: oh dear .
-*MOT: thats because its a bit too tall  Dominic .
-*MOT: you see when you make it right up to there it falls down when you
+*MOT: thats because its a bit too tall Dominic .
+*MOT: you see when you make it right up to there it falls down when you .
 *MOT: you see .
 *MOT: it needs to be .
 *CHI: fit there .
@@ -1511,7 +1516,7 @@
 *CHI: two penguin .
 *MOT: thats right .
 *CHI: look .
-*MOT: its a what  darling ?
+*MOT: its a what darling ?
 *MOT: whats that one ?
 *CHI: a penguin .
 *MOT: that one ?
@@ -1520,13 +1525,13 @@
 *CHI: I like grapes .
 *MOT: yes .
 *MOT: I know you like grapes .
-*MOT: every Tuesday you nanas and ask for the
+*MOT: every Tuesday you nanas and ask for the .
 *CHI: I have strawberry .
 *MOT: yes .
 *CHI: I eat at Nanas .
 *MOT: yes .
 *MOT: you did eat strawberrys with your nana .
-*MOT: because they grow them  dont they ?
+*MOT: because they grow them dont they ?
 *CHI: mhm .
 *MOT: mhm .
 *CHI: that nice .
@@ -1568,7 +1573,7 @@
 *MOT: I dont think so .
 *MOT: youre a bit too young .
 *CHI: look .
-*MOT: when youre older well hafta teach you  willnt we ?
+*MOT: when youre older well hafta teach you willnt we ?
 *CHI: look .
 *MOT: thats it .
 *MOT: its tins .
@@ -1584,7 +1589,7 @@
 *MOT: yes .
 *CHI: Caroline .
 *MOT: yes .
-*MOT: Carolines just gone downstairs  Dominic .
+*MOT: Carolines just gone downstairs Dominic .
 *CHI: get get drinks .
 *MOT: no .
 *MOT: no no .
@@ -1652,7 +1657,7 @@
 *CHI: car .
 *CHI: bridge .
 *MOT: well .
-*MOT: you want a bridge still  do you ?
+*MOT: you want a bridge still do you ?
 *CHI: no .
 *CHI: car bridge .
 *MOT: a car bridge ?
@@ -1668,7 +1673,7 @@
 *CHI: my tower .
 *MOT: oh .
 *MOT: whoops .
-*MOT: I was gonna say do you wanna keep it but it (i)s
+*MOT: I was gonna say do you wanna keep it but it is .
 *MOT: now .
 *MOT: you want a bridge .
 *CHI: a car .
@@ -1676,7 +1681,7 @@
 *MOT: for that car .
 *CHI: yeah .
 *MOT: okay .
-*MOT: so it needs to be  quite a big bridge .
+*MOT: so it needs to be quite a big bridge .
 *MOT: to get the car through .
 *MOT: like that .
 *MOT: thats big enough .
@@ -1720,7 +1725,7 @@
 *MOT: shall we knock it down ?
 *CHI: no .
 *MOT: okay .
-*MOT: youre a bit of a spoilsport really  Dominic  arent you ?
+*MOT: youre a bit of a spoilsport really Dominic arent you ?
 *CHI: panda in there .
 *CHI: panda got new shoes .
 *MOT: has he ?
@@ -1772,8 +1777,8 @@
 *MOT: go on then .
 *CHI: that way .
 *MOT: oh sorry .
-*MOT: the only thing is you dont really put horses on Gordon  Dominic .
-*MOT: and if you find horses on Gordon theres something very strange
+*MOT: the only thing is you dont really put horses on Gordon Dominic .
+*MOT: and if you find horses on Gordon theres something very strange .
 *CHI: poor Gordon .
 *MOT: well .
 *MOT: never mind poor Gordon .
@@ -1790,7 +1795,7 @@
 *CHI: panda .
 *MOT: yes .
 *MOT: I know .
-*CHI: hello  panda .
+*CHI: hello panda .
 *MOT: what a clever panda ?
 *MOT: oh dear .
 *CHI: oh .
@@ -1802,15 +1807,15 @@
 *MOT: oh dear .
 *CHI: no break it .
 *CHI: no break it .
-*MOT: Im sorry  Dominic .
+*MOT: Im sorry Dominic .
 *CHI: no break it .
-*INV: your mums terrible  isnt she  Dominic ?
+*INV: your mums terrible isnt she Dominic ?
 *CHI: mhm .
-*MOT: mummies a bit
+*MOT: mummies a bit .
 *INV: always breaking your toys .
 *MOT: heavy handed .
 *MOT: never mind .
-*MOT: Im sorry  Dominic .
+*MOT: Im sorry Dominic .
 *MOT: mummie fix it .
 *MOT: oh dear .
 *MOT: there .
@@ -1874,9 +1879,9 @@
 *MOT: youve got a mouthful .
 *MOT: you always do that .
 *INV: chaineating .
-*MOT: anything that goes into that tub gets kept by Caroline  Dominic .
+*MOT: anything that goes into that tub gets kept by Caroline Dominic .
 *CHI: no .
-*MOT: so are you gonna give Gordon away  are you ?
+*MOT: so are you gonna give Gordon away are you ?
 *MOT: okay ?
 *MOT: in that case well put James and Edward in .
 *MOT: they they can go .
@@ -1920,7 +1925,7 @@
 *MOT: no .
 *MOT: mummie said no .
 *MOT: mummie said no .
-*CHI: have biscuit  Caroline .
+*CHI: have biscuit Caroline .
 *INV: well .
 *INV: I cant .
 *INV: mummie you hafta ask mummie .
@@ -1964,7 +1969,7 @@
 *CHI: there .
 *MOT: oh .
 *MOT: hes behind me .
-*CHI: sit down  Frank .
+*CHI: sit down Frank .
 *MOT: excuse me .
 *MOT: you were going for a wee wee on your pottie a minute ago .
 *CHI: sit down now .
@@ -1977,12 +1982,12 @@
 *MOT: hes not to have any more cheese .
 *MOT: and you are to eat your food quickly in future .
 *MOT: instead of messing about with it .
-*MOT: what do you want  Frank ?
+*MOT: what do you want Frank ?
 *CHI: Frank want milk .
 *MOT: Frank does not want milk .
 *CHI: mhm .
 *CHI: that milk .
-*MOT: um youre standing on mummie  Dominic .
+*MOT: um youre standing on mummie Dominic .
 *MOT: Dominic .
 *MOT: dont stand on me .
 *MOT: thank you .
@@ -2011,18 +2016,18 @@
 *MOT: how many ?
 *MOT: count them .
 *CHI: no .
-*MOT: lets see if you can just put put the biscuit down for a minute
+*MOT: lets see if you can just put put the biscuit down for a minute .
 *MOT: how many eggs ?
 *CHI: in car .
 *MOT: you you get bored .
 *MOT: youre not listening .
 *MOT: how many eggs are there ?
-*MOT: is that right  mummie ?
+*MOT: is that right mummie ?
 *MOT: yes .
 *MOT: there is .
 *MOT: well done .
 *MOT: www .
-*MOT: whatre you going to do with the eggs  Dominic ?
+*MOT: whatre you going to do with the eggs Dominic ?
 *MOT: you should put them back in the egg box .
 *MOT: put them back in the egg box .
 *MOT: no .
@@ -2031,7 +2036,7 @@
 *CHI: no .
 *MOT: she is .
 *MOT: shes going lasi lasi lasi .
-*MOT: and you hate people singing  dont you ?
+*MOT: and you hate people singing dont you ?
 *MOT: eh ?
 *CHI: where top ?
 *CHI: there .
@@ -2039,13 +2044,13 @@
 *CHI: no .
 *CHI: sister sing .
 *MOT: can I dance ?
-*MOT: you dont like it when I sing and dance  do you ?
+*MOT: you dont like it when I sing and dance do you ?
 *MOT: oh dear .
 *CHI: oh dear .
 *MOT: is it alright for sister to sing ?
 *CHI: mhm .
 *MOT: well .
-*MOT: how come its alright for her to sing but if mummie and daddy do it
+*MOT: how come its alright for her to sing but if mummie and daddy do it .
 *CHI: sister .
 *MOT: you be careful .
 *MOT: www .
@@ -2053,7 +2058,7 @@
 *MOT: and her head .
 *CHI: mhm .
 *MOT: well .
-*MOT: youve got all these out and youre not exactly playing with them ,
+*MOT: youve got all these out and youre not exactly playing with them .
 *MOT: are you ?
 *CHI: mhm .
 *MOT: are we gonna put some away then ?
@@ -2106,12 +2111,12 @@
 *CHI: where other one ?
 *MOT: I dont know .
 *CHI: where ?
-*MOT: I think theres only four  Dominic .
+*MOT: I think theres only four Dominic .
 *CHI: only four .
 *MOT: only four .
 *CHI: where other one ?
 *CHI: where other one ?
-*MOT: I dont know  Dominic .
+*MOT: I dont know Dominic .
 *MOT: theres only four .
 *CHI: four .
 *MOT: so that there should be a space there and there .
@@ -2138,7 +2143,7 @@
 *CHI: gone now .
 *MOT: gone ?
 *MOT: the poor things been covered over by bricks and all sorts .
-*MOT: I dont think the doll likes that  Dominic .
+*MOT: I dont think the doll likes that Dominic .
 *MOT: she says please let me out .
 *MOT: so Im going to rescue her .
 *MOT: there .
@@ -2156,8 +2161,8 @@
 *CHI: digger .
 *CHI: digger .
 *MOT: I sometimes worry about you .
-*MOT: youre not going to be one of these wifebeaters  are you ?
+*MOT: youre not going to be one of these wifebeaters are you ?
 *MOT: www .
 *CHI: I sister doll .
 *MOT: thats nice .
-*CHI: there you are  sister .
+*CHI: there you are sister .

@@ -66,7 +66,7 @@
 *MOT: downstairs .
 *MOT: www .
 *CHI: downstairs .
-*INV: downstairs  is it ?
+*INV: downstairs is it ?
 *MOT: somewhere .
 *CHI: somewhere .
 *MOT: whats this ?
@@ -126,7 +126,7 @@
 *CHI: brick .
 *INV: I know .
 *INV: yeah .
-*MOT: doesnt go in there  does it ?
+*MOT: doesnt go in there does it ?
 *CHI: um go in there .
 *MOT: what goes in the car ?
 *CHI: um car .
@@ -187,7 +187,7 @@
 *CHI: red .
 *MOT: no .
 *MOT: youve decided for some strange reason thats red .
-*MOT: it isnt  Dominic .
+*MOT: it isnt Dominic .
 *CHI: isnt .
 *CHI: red .
 *MOT: yes .
@@ -238,7 +238,7 @@
 *CHI: book .
 *MOT: oh .
 *MOT: go and get it .
-*MOT: its in your box  isnt it ?
+*MOT: its in your box isnt it ?
 *CHI: box .
 *CHI: no .
 *MOT: oh .
@@ -252,14 +252,14 @@
 *MOT: no no no .
 *INV: trainset .
 *MOT: no no no .
-*MOT: thank you  Dominic .
+*MOT: thank you Dominic .
 *INV: www .
 *CHI: tip them out .
 *INV: tip them out .
 *MOT: are you going to build that ?
 *CHI: build that .
 *MOT: no .
-*MOT: youre not  are you ?
+*MOT: youre not are you ?
 *CHI: oh right .
 *MOT: what is it ?
 *CHI: oh dear .
@@ -291,7 +291,7 @@
 *MOT: www .
 *MOT: whatre you doing ?
 *MOT: putting the track together ?
-*MOT: not doing a very good job  are you ?
+*MOT: not doing a very good job are you ?
 *CHI: oh .
 *MOT: oh .
 *CHI: oh .
@@ -320,9 +320,9 @@
 *MOT: whats this ?
 *CHI: tree .
 *INV: tree .
-*MOT: not very successful at building that  are you  Dominic ?
+*MOT: not very successful at building that are you Dominic ?
 *MOT: oh dear .
-*MOT: thats daddys bus  isnt it ?
+*MOT: thats daddys bus isnt it ?
 *CHI: daddys bus .
 *MOT: yeah .
 *MOT: I know .
@@ -350,7 +350,7 @@
 *INV: thank you .
 *MOT: oh .
 *INV: thank you .
-*MOT: doesnt stay on  does it ?
+*MOT: doesnt stay on does it ?
 *CHI: track .
 *MOT: what ?
 *MOT: track ?
@@ -410,7 +410,7 @@
 *MOT: youve got enough on the floor .
 *CHI: yellow car .
 *MOT: you want your red car ?
-*MOT: you want me to get the car  dont you ?
+*MOT: you want me to get the car dont you ?
 *CHI: yeah .
 *MOT: yeah .
 *INV: www .
@@ -419,10 +419,10 @@
 *MOT: say thank you .
 *MOT: what ?
 *CHI: oh .
-*MOT: youre not gonna take it apart  are you ?
+*MOT: youre not gonna take it apart are you ?
 *MOT: thats the aerial .
 *CHI: thats aerial .
-*MOT: it works with a remote  doesnt it ?
+*MOT: it works with a remote doesnt it ?
 *INV: it did .
 *MOT: it did .
 *MOT: thats why we dont give it to you all the time .
@@ -501,8 +501,8 @@
 *MOT: youre sposta put the cars in the garage .
 *CHI: car garage .
 *MOT: cars .
-*MOT: suppose Ill hafta take them all out again  havent I ?
-*MOT: willnt fit  will it ?
+*MOT: suppose Ill hafta take them all out again havent I ?
+*MOT: willnt fit will it ?
 *CHI: fit .
 *CHI: fit .
 *CHI: fit .
@@ -605,7 +605,7 @@
 *MOT: why not ?
 *CHI: no no no .
 *MOT: no no no ?
-*MOT: hes nearly as big as you  isnt he ?
+*MOT: hes nearly as big as you isnt he ?
 *CHI: no .
 *CHI: oh .
 *CHI: oh .
@@ -639,7 +639,7 @@
 *CHI: um um a .
 *MOT: whats that ?
 *CHI: tree .
-*MOT: whats this  Dominic ?
+*MOT: whats this Dominic ?
 *CHI: tree .
 *MOT: tree .
 *MOT: yes .
@@ -663,14 +663,14 @@
 *MOT: yes .
 *MOT: what else is there ?
 *MOT: hm !
-*MOT: were not being cooperative at all today  are we ?
+*MOT: were not being cooperative at all today are we ?
 *MOT: no .
 *MOT: whatre you doing over there ?
 *CHI: over there .
 *MOT: Im putting your toys away .
 *CHI: away .
 *MOT: I will .
-*MOT: because youre being awkward  arent you ?
+*MOT: because youre being awkward arent you ?
 *CHI: oh .
 *MOT: right .
 *MOT: Im putting your toys away because youre not playing with them .
@@ -680,7 +680,7 @@
 *MOT: yeah ?
 *CHI: no no .
 *MOT: see .
-*MOT: youve got too many things on the floor  Dominic .
+*MOT: youve got too many things on the floor Dominic .
 *MOT: oh no .
 *CHI: car .
 *CHI: oh .
@@ -690,7 +690,7 @@
 *CHI: car .
 *MOT: oh no .
 *MOT: no .
-*MOT: not that one  Dominic .
+*MOT: not that one Dominic .
 *CHI: right .
 *MOT: www .
 *MOT: oh no .
@@ -715,15 +715,15 @@
 *MOT: whyve you put them there ?
 *MOT: do you wanna kick your football ?
 *CHI: yeah .
-*MOT: youre just making a big mess  arent you ?
+*MOT: youre just making a big mess arent you ?
 *CHI: mess .
 *MOT: mhm .
 *MOT: oh .
 *INV: oh .
 *MOT: Dominic .
-*MOT: if you had put some of these away wed have some
+*MOT: if you had put some of these away wed have some .
 *CHI: space .
-*MOT: youve done a poo poo  havent you ?
+*MOT: youve done a poo poo havent you ?
 *CHI: no .
 *MOT: yes you have .
 *MOT: I can smell it .
@@ -777,7 +777,7 @@
 *MOT: oh .
 *CHI: look .
 *MOT: yeah .
-*MOT: you might not know what they are but youve broken
+*MOT: you might not know what they are but youve broken .
 *MOT: theyre eggs .
 *MOT: look .
 *MOT: theres another one .
@@ -792,10 +792,10 @@
 *CHI: car .
 *MOT: mhm .
 *MOT: oh .
-*MOT: thank you  Dominic .
+*MOT: thank you Dominic .
 *MOT: whats these ?
 *CHI: all gone .
-*MOT: theyre eggs  arent they ?
+*MOT: theyre eggs arent they ?
 *MOT: theyre chips .
 *MOT: but you cant eat .
 *CHI: chips .
@@ -807,7 +807,7 @@
 *MOT: youve got one of these somewhere but your rings have disappeared .
 *MOT: or at least one of them has anyway .
 *MOT: oh .
-*MOT: you just want the tub  do you ?
+*MOT: you just want the tub do you ?
 *MOT: theyre clothes .
 *MOT: whatre you doing ?
 *CHI: away .
@@ -821,12 +821,12 @@
 *MOT: thats a bottle .
 *MOT: whats this ?
 *CHI: that .
-*MOT: look what its got on the tin  Dominic .
+*MOT: look what its got on the tin Dominic .
 *MOT: look .
 *CHI: oh .
 *CHI: cat .
 *MOT: thats right .
-*MOT: so its catfood  isnt it ?
+*MOT: so its catfood isnt it ?
 *MOT: so they catfoods going for a ride .
 *MOT: dont you wanna put that little person in the car ?
 *CHI: person .
@@ -834,16 +834,16 @@
 *MOT: is it a panda ?
 *INV: its a panda .
 *INV: he goes in the car .
-*MOT: put the panda in the car  Dominic .
+*MOT: put the panda in the car Dominic .
 *CHI: car .
 *CHI: panda .
 *CHI: car .
-*MOT: they willnt fit properly  Dominic .
+*MOT: they willnt fit properly Dominic .
 *MOT: put the panda in the car .
 *CHI: panda in car .
-*MOT: Daddys cars red  isnt it ?
+*MOT: Daddys cars red isnt it ?
 *MOT: Dominic .
-*MOT: Daddys cars red  isnt it ?
+*MOT: Daddys cars red isnt it ?
 *CHI: Daddy car red .
 *MOT: mhm .
 *MOT: what colors Mummys car ?
@@ -859,22 +859,22 @@
 *MOT: dont want that .
 *CHI: that ?
 *CHI: that ?
-*MOT: whats that  Dominic ?
+*MOT: whats that Dominic ?
 *INV: oh dear .
 *MOT: thats a doll .
 *CHI: car .
 *MOT: yes .
-*MOT: we know youre obsessed with cars  Dominic .
+*MOT: we know youre obsessed with cars Dominic .
 *MOT: oh .
 *MOT: whats these ?
 *CHI: man .
-*INV: its a burger  I think .
+*INV: its a burger I think .
 *CHI: biscuit .
 *MOT: biscuit .
 *MOT: yes .
 *MOT: its a biscuit .
 *MOT: www .
-*MOT: you reckon thats a chocolate biscuit  do you ?
+*MOT: you reckon thats a chocolate biscuit do you ?
 *CHI: chocolate biscuit .
 *MOT: well .
 *MOT: I can understand why you think that as well .
@@ -887,8 +887,8 @@
 *MOT: theyre chips .
 *MOT: yeah .
 *MOT: cant eat them though .
-*MOT: sorry  Dominic .
-*CHI: sorry  Dominic .
+*MOT: sorry Dominic .
+*CHI: sorry Dominic .
 *CHI: they chips .
 *MOT: chips .
 *MOT: what else can you see ?
@@ -914,14 +914,15 @@
 *CHI: orange .
 *CHI: orange .
 *MOT: no .
-*MOT: it isnt  darling .
+*MOT: it isnt darling .
 *MOT: that whats that ?
 *MOT: that is .
+*MOT: and .
 *MOT: what is it ?
 *CHI: um orange .
 *INV: yeah .
 *MOT: thats an orange .
-*MOT: that looks like a baby one  doesnt it ?
+*MOT: that looks like a baby one doesnt it ?
 *INV: mhm .
 *INV: www .
 *CHI: that ?
@@ -954,12 +955,12 @@
 *CHI: grapes .
 *INV: more grapes .
 *CHI: more grapes .
-*MOT: you can grow them in the garden  Dominic .
+*MOT: you can grow them in the garden Dominic .
 *INV: oh .
 *CHI: car .
 *MOT: mhm .
 *CHI: car .
-*MOT: you dont see very many grapes driving cars  Dominic .
+*MOT: you dont see very many grapes driving cars Dominic .
 *INV: no .
 *INV: www .
 *MOT: it willnt fit .
@@ -968,8 +969,8 @@
 *MOT: what ?
 *CHI: that ?
 *MOT: its grapes .
-*MOT: you wanna keep them  do you ?
-*MOT: why dont you put the panda in the car  Dominic ?
+*MOT: you wanna keep them do you ?
+*MOT: why dont you put the panda in the car Dominic ?
 *CHI: panda car .
 *MOT: put the panda .
 *MOT: dont wanna put the panda in .
@@ -993,15 +994,15 @@
 *MOT: you have them quite regularly but theyre not that small normally .
 *CHI: chips .
 *MOT: chips .
-*MOT: but you cant have them  see .
+*MOT: but you cant have them see .
 *MOT: mm .
-*MOT: we had some chips last night  didnt we ?
+*MOT: we had some chips last night didnt we ?
 *MOT: www .
 *CHI: Daddy .
 *MOT: Daddy ?
 *MOT: I dont think Daddy looks like that .
 *MOT: I dont think hed be very pleased to be called a panda .
-*MOT: but still
+*MOT: but still .
 *INV: but if Daddy drives a red car ?
 *MOT: well .
 *MOT: yes .
@@ -1010,7 +1011,7 @@
 *CHI: Daddy .
 *MOT: mhm .
 *CHI: Daddy .
-*MOT: but that doesnt look like Daddy  does it ?
+*MOT: but that doesnt look like Daddy does it ?
 *CHI: yeah .
 *MOT: Ill tell him when he comes home that he looks like a panda .
 *MOT: whatre those ?
@@ -1022,14 +1023,14 @@
 *INV: well .
 *INV: it can be a hammer .
 *INV: yeah .
-*MOT: youve been watching Daddy too much  havent you ?
+*MOT: youve been watching Daddy too much havent you ?
 *MOT: whatre you doing ?
 *MOT: yes .
 *MOT: thats your drink .
 *CHI: drink .
 *MOT: oh dear .
-*MOT: not gonna last long with you about  is it ?
-*MOT: thats a box  isnt it ?
+*MOT: not gonna last long with you about is it ?
+*MOT: thats a box isnt it ?
 *CHI: banana .
 *MOT: banana .
 *MOT: yes .
@@ -1041,10 +1042,10 @@
 *CHI: shopping .
 *MOT: shopping .
 *CHI: shopping .
-*MOT: you normally go shopping with Daddy when Ive gone to work on
+*MOT: you normally go shopping with Daddy when Ive gone to work on .
 *CHI: shopping .
 *MOT: you do .
-*MOT: you go shopping  dont you with Daddy ?
+*MOT: you go shopping dont you with Daddy ?
 *CHI: shopping .
 *CHI: Daddy .
 *MOT: mhm .
@@ -1082,7 +1083,7 @@
 *CHI: train .
 *MOT: Dominic .
 *MOT: whats this ?
-*MOT: its an elephant  isnt it ?
+*MOT: its an elephant isnt it ?
 *CHI: train .
 *MOT: yes .
 *MOT: and the train .
@@ -1109,14 +1110,14 @@
 *INV: there are little boys actually .
 *INV: look .
 *MOT: oh look .
-*MOT: there you go  Dominic .
+*MOT: there you go Dominic .
 *MOT: little boy .
 *INV: www .
 *CHI: Mum .
 *MOT: hm ?
 *MOT: whats this ?
 *MOT: oh .
-*MOT: its a little monkey  Dominic .
+*MOT: its a little monkey Dominic .
 *MOT: like you are .
 *MOT: this is a dolphin by the looks of it .
 *CHI: Mum .
@@ -1137,24 +1138,24 @@
 *MOT: please .
 *MOT: give Mummy the man .
 *MOT: thank you .
-*MOT: well put him to drive  shall we ?
+*MOT: well put him to drive shall we ?
 *MOT: whoops .
 *MOT: there we go .
 *MOT: brummo .
 *MOT: oh .
 *MOT: okay .
 *MOT: so you dont want him there .
-*MOT: thats a train driver then  is it ?
+*MOT: thats a train driver then is it ?
 *CHI: Mum .
 *MOT: what ?
 *MOT: what colors that ?
 *CHI: yellow .
-*MOT: its green  isnt it ?
+*MOT: its green isnt it ?
 *MOT: green brick .
 *MOT: there .
 *CHI: no no .
 *MOT: no no ?
-*MOT: bit fiddly for you  isnt it ?
+*MOT: bit fiddly for you isnt it ?
 *MOT: have you done it ?
 *MOT: thats it .
 *CHI: no no .
@@ -1165,12 +1166,12 @@
 *MOT: let me look at your hand .
 *MOT: oh .
 *MOT: thats when you had your tantrum this morning .
-*MOT: you bit yourself  didnt you ?
+*MOT: you bit yourself didnt you ?
 *CHI: Mum .
 *MOT: what ?
 *MOT: whats this ?
 *MOT: this is a giraffe .
-*MOT: hafta take you to the zoo again so you can see some of these
+*MOT: hafta take you to the zoo again so you can see some of these .
 *INV: mhm .
 *MOT: last time we took you you were a little bit too small .
 *MOT: thats a giraffe .
@@ -1184,8 +1185,8 @@
 *MOT: www .
 *CHI: that ?
 *MOT: thats a fish .
-*MOT: youre fascinated with those  arent you ?
-*MOT: fences  arent they ?
+*MOT: youre fascinated with those arent you ?
+*MOT: fences arent they ?
 *CHI: fence .
 *MOT: fence .
 *CHI: fences .
@@ -1218,22 +1219,22 @@
 *CHI: no .
 *MOT: www .
 *CHI: that .
-*MOT: you say Mummys car  dont you ?
+*MOT: you say Mummys car dont you ?
 *CHI: Mummy car .
 *MOT: Mummy car .
 *MOT: www .
 *CHI: Mummy car .
-*MOT: whys everything got to go in the car  Dominic ?
-*CHI: car  Dominic .
+*MOT: whys everything got to go in the car Dominic ?
+*CHI: car Dominic .
 *MOT: Dominic .
-*MOT: thats your name  isnt it ?
+*MOT: thats your name isnt it ?
 *CHI: car .
 *MOT: mhm .
 *MOT: oh .
 *CHI: car .
 *MOT: yes .
 *MOT: we know youre obsessed with cars .
-*MOT: you like to watch them out the window  dont you ?
+*MOT: you like to watch them out the window dont you ?
 *MOT: and buss .
 *MOT: and diggers .
 *MOT: and trucks .
@@ -1250,7 +1251,7 @@
 *MOT: whats that on there ?
 *MOT: whats that ?
 *CHI: that .
-*MOT: its a dog  isnt it ?
+*MOT: its a dog isnt it ?
 *MOT: and theyre tins .
 *CHI: tin .
 *MOT: tin .
@@ -1265,7 +1266,7 @@
 *MOT: what ?
 *MOT: theres theres one in there .
 *MOT: another tin .
-*INV: theres lots here  look .
+*INV: theres lots here look .
 *MOT: that ones got baked beans .
 *CHI: baked beans .
 *MOT: oh .
@@ -1281,7 +1282,7 @@
 *MOT: hes taller then your Daddy .
 *CHI: Dad .
 *MOT: mhm .
-*MOT: and your Daddys quite tall  isnt he ?
+*MOT: and your Daddys quite tall isnt he ?
 *CHI: yeah .
 *CHI: that .
 *MOT: what ?
@@ -1297,15 +1298,15 @@
 *MOT: I think it goes the other way if it does .
 *MOT: shall we turn it round ?
 *MOT: no .
-*MOT: dont pull it off  sweetheart .
+*MOT: dont pull it off sweetheart .
 *MOT: there we go .
 *MOT: excuse me .
-*MOT: gonna pull it off  arent you ?
+*MOT: gonna pull it off arent you ?
 *MOT: give it to Mummy .
 *MOT: give it to Mummy .
 *MOT: thank you .
 *MOT: its a tin .
-*MOT: you wanna take the top off  dont you ?
+*MOT: you wanna take the top off dont you ?
 *CHI: that .
 *MOT: no .
 *MOT: I dont wanna pull it .
@@ -1349,7 +1350,7 @@
 *MOT: are you happy now ?
 *MOT: put it in there .
 *MOT: are you putting them away ?
-*MOT: youre not talking to me  are you ?
+*MOT: youre not talking to me are you ?
 *MOT: Dominic .
 *MOT: no .
 *MOT: thats your drink .
@@ -1370,9 +1371,9 @@
 *MOT: actually its a pig .
 *MOT: mhm .
 *MOT: are you putting them away ?
-*MOT: not talking  are you ?
+*MOT: not talking are you ?
 *MOT: well .
-*MOT: when youve finished with them you can put the ones upstairs away
+*MOT: when youve finished with them you can put the ones upstairs away .
 *CHI: upstairs .
 *MOT: upstairs .
 *MOT: yes .

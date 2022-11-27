@@ -17,7 +17,7 @@
 *CHI: my Nana .
 *MOT: thats right .
 *CHI: my Nana .
-*MOT: thats your Nana  isnt it ?
+*MOT: thats your Nana isnt it ?
 *CHI: that Carl and Nana .
 *MOT: oh look .
 *MOT: whos this ?
@@ -28,12 +28,12 @@
 *INV: oh I havent brought the nana .
 *INV: Im sorry .
 *CHI: all right .
-*MOT: you dont forget that  do you ?
+*MOT: you dont forget that do you ?
 *MOT: you like bananas .
 *MOT: whos that ?
 *MOT: whos that there ?
 *CHI: there Mummy .
-*MOT: thats Mummy  isnt it ?
+*MOT: thats Mummy isnt it ?
 *CHI: yeah .
 *MOT: ah now .
 *CHI: that Zita .
@@ -125,7 +125,7 @@
 *MOT: running .
 *CHI: one two .
 *MOT: hes running .
-*MOT: hes running  fast .
+*MOT: hes running fast .
 *MOT: whats Carls man doing ?
 *CHI: oh dear .
 *MOT: whats Carls man doing ?
@@ -197,7 +197,7 @@
 *CHI: a hand and a man .
 *MOT: whats that Carl ?
 *CHI: a man and another man .
-*MOT: thats his hat  isnt it ?
+*MOT: thats his hat isnt it ?
 *CHI: a hat .
 *CHI: a man .
 *MOT: put his hat on .
@@ -223,6 +223,7 @@
 *CHI: blue shoes .
 *CHI: one two three .
 *CHI: ow .
+*MOT: whats .
 *MOT: wheres that man ?
 *MOT: wheres he gone ?
 *CHI: where ?
@@ -264,7 +265,7 @@
 *MOT: oh man .
 *MOT: thats not nice .
 *CHI: gone bobof .
-*MOT: hes gone bobosf  has he ?
+*MOT: hes gone bobosf has he ?
 *MOT: oh hes sleeping .
 *MOT: night night .
 *MOT: night night .
@@ -399,7 +400,7 @@
 *CHI: another one .
 *MOT: is that man going to bed as well ?
 *CHI: man on a train .
-*MOT: oh hes on a train  is he ?
+*MOT: oh hes on a train is he ?
 *MOT: right .
 *MOT: sit that man in the train then .
 *CHI: no .
@@ -470,7 +471,7 @@
 *MOT: horsie .
 *CHI: its not a horsie .
 *CHI: no a horsie .
-*MOT: he wont stay up  will he not ?
+*MOT: he wont stay up will he not ?
 *CHI: oh .
 *CHI: oh dear .
 *CHI: the man .
@@ -519,7 +520,7 @@
 *CHI: oh dear .
 *MOT: what is that ?
 *CHI: that a bridge .
-*CHI: bridge and a
+*CHI: bridge and a .
 *MOT: oh he knocked it over .
 *CHI: Granddad in there .
 *MOT: is that his house ?
@@ -574,7 +575,7 @@
 *CHI: there tree .
 *MOT: thats right .
 *MOT: its a tree .
-*CHI: and there
+*CHI: and there .
 *CHI: that apple .
 *CHI: what that ?
 *CHI: whats that ?
@@ -605,7 +606,7 @@
 *FAT: a bridge ?
 *CHI: cow .
 *FAT: cow .
-*CHI: man and a
+*CHI: man and a .
 *MOT: oh Carl show Daddy the elephant jumping .
 *CHI: where cow ?
 *CHI: where cow ?
@@ -637,7 +638,7 @@
 *MOT: what did he do Carl ?
 *MOT: what did the horse do ?
 *CHI: oh train Thomas .
-*MOT: its Thomas  is it ?
+*MOT: its Thomas is it ?
 *CHI: oh train .
 *CHI: a train .
 *MOT: is he going very fast ?
@@ -647,7 +648,7 @@
 *MOT: its going round and round Carl .
 *CHI: whoops .
 *MOT: Carl .
-*MOT: shall we look in the book of Thomas and see what
+*MOT: shall we look in the book of Thomas and see what .
 *CHI: Thomas and train .
 *MOT: heres Thomas look .
 *MOT: theres animals in this book .
@@ -783,7 +784,7 @@
 *MOT: whatre you doing now ?
 *CHI: what doing ?
 *MOT: oh .
-*CHI: Thomas and
+*CHI: Thomas and .
 *MOT: whats Carl doing ?
 *CHI: turning the page .
 *CHI: turn page .
@@ -837,6 +838,7 @@
 *MOT: thats Zita and Carls drink ?
 *CHI: that Carls .
 *CHI: that Carls .
+*CHI: that .
 *MOT: its Carls .
 *CHI: that Carls juice .
 *MOT: thats Carls juice .
@@ -873,7 +875,7 @@
 *CHI: there bobosf .
 *CHI: oh .
 *CHI: a fish and a baby .
-*MOT: oh theyre tiny little baby fishes  arent they .
+*MOT: oh theyre tiny little baby fishes arent they .
 *CHI: baby fishes .
 *MOT: yeah .
 *MOT: thats what babys say .
@@ -881,7 +883,7 @@
 *CHI: there a man and a pao .
 *MOT: whats the man doing ?
 *CHI: want sweeties .
-*MOT: oh you want some sweeties  do you ?
+*MOT: oh you want some sweeties do you ?
 *MOT: what do you say ?
 *CHI: okay .
 *MOT: okay ?
@@ -889,7 +891,7 @@
 *CHI: that train .
 *CHI: that train Thomas .
 *CHI: that train Thomas .
-*MOT: thats Thomas  is it ?
+*MOT: thats Thomas is it ?
 *CHI: the train and Thomas .
 *CHI: train .
 *MOT: is Thomas going over the river ?
@@ -983,7 +985,7 @@
 *CHI: there .
 *CHI: there door .
 *CHI: elephant .
-*CHI: elephant in the  train .
+*CHI: elephant in the train .
 *CHI: elephant train .
 *CHI: train .
 *CHI: elephant in the train .
@@ -1028,7 +1030,7 @@
 *CHI: oh .
 *CHI: oh .
 *CHI: oh .
-*MOT: the baby for a ride
+*MOT: the baby for a ride .
 *MOT: in your pram .
 *CHI: in the pram .
 *MOT: oh is she going back in there ?
@@ -1045,7 +1047,7 @@
 *CHI: ow .
 *CHI: elephant .
 *CHI: that Zita .
-*MOT: its Zita  is it ?
+*MOT: its Zita is it ?
 *CHI: yeah .
 *MOT: is that her name ?
 *CHI: ah .
@@ -1179,7 +1181,7 @@
 *CHI: oh .
 *CHI: whee oh .
 *CHI: oh .
-*MOT: thats a nice pool  isnt it ?
+*MOT: thats a nice pool isnt it ?
 *CHI: giraffe and the baby .
 *CHI: whee .
 *MOT: the giraffes going in the pool as well ?
@@ -1311,7 +1313,7 @@
 *MOT: Carl .
 *MOT: whose eggs this ?
 *CHI: ah .
-*MOT: you just wanna hear the cheep  dont you ?
+*MOT: you just wanna hear the cheep dont you ?
 *MOT: here Mummy .
 *MOT: Carl .
 *MOT: Carl .
@@ -1444,7 +1446,7 @@
 *MOT: shes got no shoes on now .
 *CHI: no shoe shoes .
 *MOT: whatre you going to do ?
-*MOT: are you going to put them  back on ?
+*MOT: are you going to put them back on ?
 *CHI: no .
 *CHI: no shoe shoes .
 *MOT: oh are you putting them away ?
@@ -1460,14 +1462,14 @@
 *CHI: there a penguin .
 *CHI: there a penguin .
 *MOT: penguin .
-*MOT: who else
+*MOT: who else .
 *MOT: Carl Carl have a look .
 *CHI: there a penguin .
 *CHI: there a penguin .
 *CHI: that Daddy penguin fish .
 *CHI: oh that Daddy .
 *MOT: Carl whos that ?
-*CHI: that Daddy  fish .
+*CHI: that Daddy fish .
 *CHI: that .
 *MOT: thats a Daddy fish ?
 *MOT: whos that ?
@@ -1752,7 +1754,7 @@
 *CHI: that the man .
 *MOT: is he rubbing his head ?
 *CHI: the man .
-*CHI: there a man and a
+*CHI: there a man and a .
 *CHI: oh .
 *CHI: where the sweeties ?
 *CHI: no man on there .

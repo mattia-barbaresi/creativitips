@@ -1,6 +1,6 @@
 *CHI: what see ?
 *CHI: Thomas .
-*CHI: Thomas and
+*CHI: Thomas and .
 *CHI: Thomas and Toby and Percy .
 *CHI: Thomas .
 *CHI: Thomas and Toby .
@@ -11,7 +11,7 @@
 *CHI: Percy train .
 *MOT: whats Percy doing ?
 *CHI: Percy .
-*CHI: Percy and
+*CHI: Percy and .
 *CHI: that Percy .
 *CHI: that Percy .
 *CHI: that Percy .
@@ -33,7 +33,7 @@
 *CHI: theres Percy .
 *CHI: there Percy .
 *CHI: that cross .
-*MOT: hes cross  is he ?
+*MOT: hes cross is he ?
 *MOT: why is he cross ?
 *CHI: Thomas cross .
 *MOT: hes cross at Thomas ?
@@ -45,16 +45,16 @@
 *CHI: there .
 *CHI: there Thomas .
 *CHI: there .
-*MOT: theyre flying a kite in that  arent they Carl ?
+*MOT: theyre flying a kite in that arent they Carl ?
 *CHI: that Percy .
 *CHI: that Percy .
 *CHI: that Percy .
 *CHI: what those Percy ?
 *CHI: that train .
 *CHI: back on the train .
-*MOT: look those are kites  flying .
+*MOT: look those are kites flying .
 *CHI: that Percy .
-*MOT: it is a little Percy  isnt it ?
+*MOT: it is a little Percy isnt it ?
 *MOT: a little Percy .
 *CHI: what those Percy ?
 *MOT: look thats a bat .
@@ -114,7 +114,7 @@
 *MOT: youve found Thomas .
 *CHI: Percy .
 *CHI: cross .
-*MOT: oh he is cross  isnt he ?
+*MOT: oh he is cross isnt he ?
 *CHI: cross .
 *MOT: look at that face .
 *CHI: that face .
@@ -126,7 +126,7 @@
 *CHI: beepo Thomas .
 *CHI: beepo Percy .
 *MOT: Carl whos that ?
-*CHI: Carl and
+*CHI: Carl and .
 *MOT: thats Carl .
 *MOT: and whos that ?
 *CHI: that Carl .
@@ -137,7 +137,7 @@
 *MOT: Daddys got a big kite look .
 *CHI: that Thomas .
 *MOT: Daddys got a big kite .
-*MOT: oh look there's
+*MOT: oh look theres .
 *MOT: Carl .
 *MOT: theres Zita .
 *CHI: cat .
@@ -325,12 +325,12 @@
 *MOT: no dont do that .
 *CHI: whats that ?
 *CHI: that Henry James .
-*MOT: that useta be James  didnt it ?
+*MOT: that useta be James didnt it ?
 *CHI: that James .
 *MOT: hes all broken .
 *CHI: there bus .
 *MOT: thats a bus .
-*MOT: Carls been on a bus  havent you ?
+*MOT: Carls been on a bus havent you ?
 *CHI: that Thomas .
 *MOT: thats Thomas .
 *CHI: that Thomas .
@@ -425,7 +425,7 @@
 *CHI: oh .
 *CHI: what that Mummy ?
 *CHI: that Daddys .
-*MOT: thats Daddys  is it ?
+*MOT: thats Daddys is it ?
 *CHI: Mummys that truck .
 *MOT: better fix that truck .
 *CHI: a man and a hat .
@@ -453,7 +453,7 @@
 *MOT: is it fixed ?
 *CHI: fixed .
 *CHI: there the truck and a penny .
-*MOT: theres a penny  is there ?
+*MOT: theres a penny is there ?
 *CHI: there truck .
 *CHI: a penny in the truck .
 *MOT: a penny in the truck ?
@@ -555,7 +555,7 @@
 *CHI: oh .
 *CHI: where Percy Toby ?
 *CHI: what see ?
-*CHI: Thomas and
+*CHI: Thomas and .
 *CHI: Percy one two .
 *CHI: Percy .
 *CHI: Percy .
@@ -576,7 +576,7 @@
 *CHI: there Percy .
 *INV: Percy ?
 *CHI: oh he cross .
-*INV: oh hes cross  is he ?
+*INV: oh hes cross is he ?
 *CHI: that Thomas .
 *INV: oh yeah .
 *CHI: Thomas .
@@ -596,7 +596,7 @@
 *MOT: whos that ?
 *CHI: that Grandpa .
 *CHI: ticktock .
-*MOT: its Grandpas ticktock  is it ?
+*MOT: its Grandpas ticktock is it ?
 *MOT: it is like Grandpas ticktock .
 *CHI: Grandpas ticktock .
 *CHI: Grandpas ticktock .
@@ -646,7 +646,7 @@
 *CHI: ah .
 *MOT: silly Tiggie .
 *CHI: oh .
-*MOT: oh hes getting a good smack there  isnt he ?
+*MOT: oh hes getting a good smack there isnt he ?
 *MOT: poor Tiggie .
 *MOT: hes a silly Tigger .
 *CHI: go away Tiggie .
@@ -683,7 +683,7 @@
 *MOT: is that what Pooh said ?
 *CHI: where Toby and Percy ?
 *MOT: wheres Toby and Percy ?
-*MOT: thats what he said  was it ?
+*MOT: thats what he said was it ?
 *CHI: all right .
 *MOT: oh look .
 *MOT: look Carl .
@@ -730,7 +730,7 @@
 *CHI: there a man .
 *CHI: theres a man and a brumbrumo .
 *MOT: is the man in the brumbrumo ?
-*CHI: no man  brumbrumo .
+*CHI: no man brumbrumo .
 *CHI: no .
 *CHI: not .
 *CHI: sit .
@@ -744,7 +744,7 @@
 *CHI: ow .
 *CHI: fall .
 *MOT: he did .
-*MOT: he fell  didnt he ?
+*MOT: he fell didnt he ?
 *CHI: truck .
 *MOT: he fell .
 *CHI: the truck .
@@ -819,7 +819,7 @@
 *CHI: oh teddy .
 *MOT: shall Mummy go get him ?
 *CHI: oh teddy pram .
-*MOT: because teddys still sleeping  isnt he ?
+*MOT: because teddys still sleeping isnt he ?
 *MOT: Mummyll go and get him .
 *MOT: Mummyll get teddy out of bed .
 *MOT: stay there .
@@ -862,7 +862,7 @@
 *CHI: no .
 *CHI: choochooo .
 *MOT: put this .
-*MOT: lets pick this up and put this  teddy in .
+*MOT: lets pick this up and put this teddy in .
 *MOT: put him in .
 *MOT: ah big hug .
 *CHI: no .
@@ -926,7 +926,7 @@
 *CHI: wheres the baby ?
 *MOT: oh theres the baby yeah .
 *CHI: Daddy .
-*MOT: you didnt know Daddy had come down  did you ?
+*MOT: you didnt know Daddy had come down did you ?
 *CHI: where baby gone ?
 *CHI: Dad and baby .
 *CHI: there the baby .
@@ -1035,7 +1035,7 @@
 *MOT: hes putting his shoes on .
 *MOT: oh dear .
 *MOT: oh all right .
-*MOT: Mummys  back here .
+*MOT: Mummys back here .
 *CHI: no .
 *CHI: where the brumbrumo ?
 *MOT: shall Mummy take it off ?
@@ -1087,7 +1087,7 @@
 *MOT: thats one hat and thats two hats .
 *MOT: oh .
 *CHI: Mummy .
-*MOT: oh thats going to be Mummys  is it ?
+*MOT: oh thats going to be Mummys is it ?
 *MOT: Mummys a policeman .
 *MOT: alloo alloo alloo .
 *MOT: what have we here ?
@@ -1275,7 +1275,7 @@
 *CHI: sweeties .
 *CHI: there biscuits .
 *MOT: some biscuits .
-*MOT: hes having a lovely dinner  isnt he ?
+*MOT: hes having a lovely dinner isnt he ?
 *CHI: there teddy .
 *CHI: biscuits .
 *CHI: there biscuits .
@@ -1297,7 +1297,7 @@
 *CHI: oh .
 *MOT: go and get the spoon .
 *MOT: look look .
-*MOT: are you putting them in there  are you ?
+*MOT: are you putting them in there are you ?
 *MOT: say here you go teddy .
 *CHI: want spoon .
 *MOT: you want the spoon ?
@@ -1317,7 +1317,7 @@
 *MOT: Carl .
 *MOT: Carl .
 *MOT: Carl what are you doing to for teddy ?
-*CHI: egg and
+*CHI: egg and .
 *CHI: egg and apple .
 *MOT: oh would teddy like an egg ?
 *MOT: Carl .
@@ -1354,7 +1354,7 @@
 *CHI: all gone .
 *MOT: its all gone ?
 *MOT: hes eaten it all up ?
-*MOT: hes a good teddy  isnt he ?
+*MOT: hes a good teddy isnt he ?
 *MOT: eaten all his dinner .
 *CHI: want a biscuit .
 *MOT: he wants a biscuit now ?
@@ -1428,7 +1428,7 @@
 *CHI: it squeaks .
 *CHI: what you done ?
 *MOT: Carl .
-*MOT: is it  teddys car ?
+*MOT: is it teddys car ?
 *CHI: no .
 *CHI: no want teddy car .
 *MOT: its not teddys car ?
@@ -1489,7 +1489,7 @@
 *CHI: no .
 *CHI: no .
 *CHI: birdie .
-*MOT: you can see a birdie  can you ?
+*MOT: you can see a birdie can you ?
 *CHI: there birdie .
 *MOT: oh theres lots of birdies .
 *CHI: birdie .
@@ -1563,7 +1563,7 @@
 *MOT: put your shoes on .
 *CHI: no walk .
 *CHI: no walk .
-*MOT: you see if you put your shoes on you can go for a
+*MOT: you see if you put your shoes on you can go for a .
 *MOT: you can go for a walk outside .
 *MOT: come on .
 *MOT: sit on Mummys knee .
@@ -1598,7 +1598,7 @@
 *CHI: hello .
 *CHI: car .
 *CHI: hello car .
-*MOT: mhm you like your cars  dont you Carl ?
+*MOT: mhm you like your cars dont you Carl ?
 *CHI: no !
 *MOT: oh you dont like cars ?
 *MOT: you could have fooled me .

@@ -15,19 +15,19 @@
 *CHI: pig .
 *CHI: look .
 *CHI: a pig .
-*MOT: can I have your bottle a minute  John ?
+*MOT: can I have your bottle a minute John ?
 *CHI: yeah .
 *MOT: thank you .
 *CHI: eating the cow now .
 *CHI: John .
 *CHI: pigs having hay .
 *MOT: is he having some hay ?
-*MOT: hes a hungry pig  isnt he ?
+*MOT: hes a hungry pig isnt he ?
 *MOT: wheres he off to then ?
 *MOT: wheres he going ?
 *CHI: bl and ql .
 *MOT: bl and ql .
-*MOT: youve been to bl and ql so many times  havent you this week ?
+*MOT: youve been to bl and ql so many times havent you this week ?
 *CHI: bl and ql .
 *CHI: that the pig bl and ql .
 *MOT: oh right .
@@ -54,7 +54,7 @@
 *CHI: right .
 *MOT: you parrot .
 *CHI: big hair .
-*MOT: thats off the horse  isnt it ?
+*MOT: thats off the horse isnt it ?
 *CHI: horse .
 *CHI: horse .
 *MOT: shall I throw it away ?
@@ -89,7 +89,7 @@
 *CHI: that wolf .
 *CHI: Peter and wolf .
 *MOT: thats right .
-*MOT: we were listening to Peter and the wolf  werent we this morning ?
+*MOT: we were listening to Peter and the wolf werent we this morning ?
 *CHI: yeah .
 *MOT: John .
 *MOT: what happened on Peter and the wolf story ?
@@ -99,7 +99,7 @@
 *CHI: yeah .
 *MOT: which animals were there in the story .
 *CHI: duck in the water .
-*MOT: a duck in the water  wasnt there ?
+*MOT: a duck in the water wasnt there ?
 *MOT: and a bird in the tree .
 *CHI: spider book .
 *CHI: theres a spider book .
@@ -129,7 +129,7 @@
 *CHI: in here .
 *CHI: want a gate .
 *CHI: want a gate .
-*MOT: we might hafta make another shed for the animals  John .
+*MOT: we might hafta make another shed for the animals John .
 *MOT: this looks a little bit small .
 *MOT: yeah thats it .
 *MOT: on top of the wall .
@@ -141,7 +141,7 @@
 *MOT: good .
 *CHI: where the gate ?
 *MOT: wheres the gate ?
-*MOT: well theres a couple here and theres probably another two in the
+*MOT: well theres a couple here and theres probably another two in the .
 *MOT: good .
 *CHI: a tower .
 *CHI: er some neigho .
@@ -154,15 +154,15 @@
 *CHI: mhm .
 *MOT: okay then .
 *MOT: lets take them out a little bit .
-*MOT: well need some more bricks  wont we ?
+*MOT: well need some more bricks wont we ?
 *CHI: gate out .
-*MOT: oh look  John .
+*MOT: oh look John .
 *MOT: this looks like a much bigger building .
 *MOT: shall we have this here ?
 *CHI: yeah .
 *MOT: well have it as another room for the animals .
 *MOT: ah .
-*MOT: thats really good for the horses  isnt it ?
+*MOT: thats really good for the horses isnt it ?
 *CHI: horses .
 *CHI: oh there .
 *MOT: whats the problem ?
@@ -180,7 +180,7 @@
 *CHI: elephant .
 *CHI: all the animals .
 *MOT: yeah .
-*MOT: youve got lots of animals here  havent you ?
+*MOT: youve got lots of animals here havent you ?
 *MOT: perhaps if we make a little bit more room in there .
 *CHI: John do it .
 *MOT: mhm .
@@ -245,7 +245,7 @@
 *MOT: one two three four .
 *CHI: five .
 *MOT: five .
-*MOT: and another one makes
+*MOT: and another one makes .
 *CHI: makes .
 *MOT: six .
 *MOT: seven .
@@ -257,6 +257,7 @@
 *CHI: five .
 *MOT: after eight comes nine .
 *MOT: then what ?
+*MOT: number .
 *CHI: three .
 *CHI: three .
 *MOT: mhm .
@@ -306,6 +307,7 @@
 *CHI: look .
 *MOT: is he going to join the party ?
 *CHI: in the parlor .
+*CHI: eating .
 *MOT: bread and honey .
 *MOT: thank you .
 *CHI: out along the line .
@@ -341,7 +343,7 @@
 *CHI: look .
 *CHI: heres some money .
 *CHI: look .
-*CHI: all the money  look .
+*CHI: all the money look .
 *MOT: can we have it ?
 *CHI: my money .
 *CHI: look .
@@ -380,7 +382,7 @@
 *CHI: more John got more .
 *MOT: oh John .
 *CHI: got more .
-*MOT: oh its for Anna  is it ?
+*MOT: oh its for Anna is it ?
 *MOT: okay .
 *CHI: I got more .
 *INV: oh thank you .
@@ -389,7 +391,7 @@
 *CHI: got money .
 *CHI: got money .
 *CHI: got money .
-*MOT: I think youre hallucinating  John .
+*MOT: I think youre hallucinating John .
 *MOT: I havent got money at all .
 *MOT: how about making the dinner now ?
 *CHI: mhm .
@@ -414,14 +416,14 @@
 *MOT: and some milk .
 *CHI: yeah .
 *MOT: oh very good .
-*MOT: youre carrying that very carefully  John .
+*MOT: youre carrying that very carefully John .
 *MOT: thank you .
-*MOT: its rather full  isnt it ?
+*MOT: its rather full isnt it ?
 *MOT: thats it .
 *MOT: pour it carefully onto the cornflakes .
 *MOT: and heres the jug back .
 *MOT: oh .
-*MOT: are you going to have some  John ?
+*MOT: are you going to have some John ?
 *MOT: what are you eating ?
 *CHI: hm ?
 *MOT: what are you eating ?
@@ -432,7 +434,7 @@
 *MOT: good .
 *CHI: more .
 *CHI: whoo .
-*MOT: we should put that in your bedroom  shouldnt we ?
+*MOT: we should put that in your bedroom shouldnt we ?
 *MOT: John .
 *MOT: what about this pig ?
 *MOT: hes all on his own .
@@ -446,7 +448,7 @@
 *CHI: Mummy up .
 *MOT: you hold on tight .
 *MOT: hold on tight .
-*MOT: hold on tight  John to the horse .
+*MOT: hold on tight John to the horse .
 *MOT: John .
 *MOT: hold on tight .
 *MOT: look .
@@ -487,7 +489,7 @@
 *MOT: are you having some fun ?
 *MOT: you can see quite a long way .
 *MOT: can you see past the hedge up there ?
-*MOT: oh you can  cant you ?
+*MOT: oh you can cant you ?
 *CHI: look house .
 *MOT: the hedge .
 *CHI: hedge .
@@ -505,11 +507,11 @@
 *MOT: you just got a little bit dirty .
 *MOT: it wasnt naughty .
 *MOT: oh John .
-*MOT: now thats a bit naughty because this doesnt grow again like your
+*MOT: now thats a bit naughty because this doesnt grow again like your .
 *MOT: once it comes out thats out for good .
 *MOT: give it to me .
 *MOT: no .
-*MOT: if you do this again  John youre off the horse .
+*MOT: if you do this again John youre off the horse .
 *MOT: okay .
 *MOT: your choice .
 *MOT: you either stay on the horse and dont pull its hair .
@@ -518,7 +520,7 @@
 *MOT: off you get .
 *CHI: on .
 *MOT: no .
-*MOT: not if youre gonna pull the horses hair  look .
+*MOT: not if youre gonna pull the horses hair look .
 *CHI: this is peoples .
 *MOT: are you gonna give it to me ?
 *MOT: John .
@@ -543,16 +545,16 @@
 *CHI: at Tescos .
 *MOT: no .
 *MOT: hes not at Tescos either .
-*MOT: he hadta go home  didnt he ?
+*MOT: he hadta go home didnt he ?
 *MOT: he went home in his car two days ago .
-*MOT: Im not quite sure whats in that suitcase but I think it belongs
+*MOT: Im not quite sure whats in that suitcase but I think it belongs .
 *MOT: I dont think he wants it trampled on .
 *CHI: look .
 *CHI: tape go round and round .
 *INV: mhm .
 *MOT: John .
 *MOT: did you drop it ?
-*MOT: you havent got it any more  have you ?
+*MOT: you havent got it any more have you ?
 *CHI: round round .
 *CHI: wheels on the bus go round and round .
 *CHI: round and round .
@@ -594,7 +596,7 @@
 *CHI: on .
 *MOT: I cant pick you up for very long you see .
 *MOT: you hold on tight pop .
-*MOT: your horse goes fast  doesnt he ?
+*MOT: your horse goes fast doesnt he ?
 *MOT: does he know how to stop ?
 *CHI: on the trees .
 *MOT: what ?
@@ -609,7 +611,7 @@
 *CHI: I running .
 *MOT: ah .
 *MOT: you hurt it when you were running .
-*MOT: its a shame its wet  John .
+*MOT: its a shame its wet John .
 *MOT: we cant go to the park .
 *CHI: yes .
 *MOT: youd like to go ?
@@ -679,7 +681,7 @@
 *INV: whats that ?
 *CHI: look .
 *INV: oh yeah .
-*INV: are you gonna get the hoops out as well that go on
+*INV: are you gonna get the hoops out as well that go on .
 *CHI: yeah .
 *CHI: two .
 *INV: mhm .
@@ -705,7 +707,7 @@
 *CHI: oh .
 *MOT: no .
 *MOT: no amount of pushing is gonna make that one fit .
-*MOT: maybe there are some more hoops in the bag  John .
+*MOT: maybe there are some more hoops in the bag John .
 *CHI: grapes .
 *MOT: oh yes .
 *CHI: big grapes .
@@ -736,7 +738,7 @@
 *CHI: theres dolly .
 *CHI: theres dolly .
 *CHI: sheep .
-*MOT: ah thats new  isnt it ?
+*MOT: ah thats new isnt it ?
 *CHI: sheep .
 *INV: yeah .
 *CHI: another sheep .
@@ -746,7 +748,7 @@
 *CHI: and a bull .
 *MOT: yeah .
 *MOT: I think this ones a bull as well .
-*MOT: hes got horns  look .
+*MOT: hes got horns look .
 *CHI: cow .
 *CHI: got a horse .
 *MOT: mhm .
@@ -760,10 +762,10 @@
 *CHI: choochooo .
 *MOT: oh .
 *CHI: there train .
-*MOT: where is the train to pull this carriage  John ?
+*MOT: where is the train to pull this carriage John ?
 *CHI: there .
 *CHI: train .
-*MOT: ah thats a good train  isnt it ?
+*MOT: ah thats a good train isnt it ?
 *MOT: thats Duplo again .
 *CHI: choochooo .
 *CHI: oh .
@@ -776,12 +778,12 @@
 *MOT: mhm .
 *MOT: oh dear .
 *MOT: ah .
-*MOT: wheres your train going  John ?
+*MOT: wheres your train going John ?
 *MOT: where are you taking your horse to ?
-*MOT: are you all right  John ?
+*MOT: are you all right John ?
 *CHI: all the lights .
 *MOT: oh I see .
-*MOT: youre just watching it  are you ?
+*MOT: youre just watching it are you ?
 *MOT: watching the wheels .
 *CHI: watching the wheels .
 *CHI: look .
@@ -806,7 +808,7 @@
 *CHI: there we go .
 *CHI: there we go .
 *MOT: is your train going to bl and ql ?
-*MOT: I think theres a staple there  John .
+*MOT: I think theres a staple there John .
 *MOT: oh its a pin .
 *MOT: mhm .
 *MOT: er John .
@@ -821,7 +823,7 @@
 *CHI: another horse .
 *CHI: another horse .
 *MOT: thats a new one too .
-*MOT: see what else youve got in this box  John .
+*MOT: see what else youve got in this box John .
 *MOT: there might be some other new things .
 *MOT: John .
 *MOT: John .
@@ -837,13 +839,13 @@
 *MOT: kiss her better .
 *CHI: Mummy do it .
 *MOT: well I dont know where she had her ouch .
-*MOT: oh there  was it ?
+*MOT: oh there was it ?
 *MOT: right .
 *CHI: poor dolly .
 *MOT: John .
 *MOT: oh .
 *MOT: poor dolly .
-*MOT: youre going to be gentle with the baby  arent you when it
+*MOT: youre going to be gentle with the baby arent you when it .
 *CHI: baby .
 *MOT: are you gonna pretend its a baby ?
 *CHI: hello .
@@ -881,7 +883,7 @@
 *CHI: dollys dress .
 *CHI: bottom .
 *MOT: no .
-*MOT: that doesnt come undone  John .
+*MOT: that doesnt come undone John .
 *MOT: no .
 *CHI: come off .
 *MOT: no .
@@ -911,7 +913,7 @@
 *CHI: have shoes .
 *MOT: thats right .
 *MOT: put it over her legs .
-*MOT: awkward to put on  arent they ?
+*MOT: awkward to put on arent they ?
 *CHI: no .
 *MOT: oh .
 *MOT: well lets undo them first so you can see what youre doing .
@@ -966,7 +968,7 @@
 *MOT: theyre like trousers .
 *CHI: big pajamas .
 *MOT: pajamas yes .
-*MOT: they do look like more like pajamas  dont they ?
+*MOT: they do look like more like pajamas dont they ?
 *MOT: shall we put a blouse on as well ?
 *CHI: yeah .
 *MOT: okay .
@@ -1002,7 +1004,7 @@
 *CHI: the farmers .
 *CHI: farmers .
 *CHI: farmer .
-*MOT: well I dont know where the farmer is but theres your farm animals
+*MOT: well I dont know where the farmer is but theres your farm animals .
 *CHI: farm .
 *MOT: perhaps there isnt a farmer .
 *CHI: farm animals .
@@ -1022,13 +1024,13 @@
 *CHI: got it .
 *CHI: John get in the boat .
 *CHI: John get in the boat .
-*MOT: its a bit small  isnt it for a boat that one ?
+*MOT: its a bit small isnt it for a boat that one ?
 *MOT: you can usually do it in the other boxes .
 *CHI: again .
 *MOT: its rough weather .
 *CHI: dolly in there .
 *MOT: okay .
-*MOT: better with dolly  isnt it ?
+*MOT: better with dolly isnt it ?
 *MOT: you give dolly a ride in the boat .
 *CHI: again .
 *MOT: mhm .
@@ -1043,7 +1045,7 @@
 *CHI: put those on there .
 *MOT: mhm .
 *CHI: chicks on .
-*MOT: theres another one  John .
+*MOT: theres another one John .
 *CHI: where ?
 *MOT: there .
 *CHI: theres another one .
@@ -1143,7 +1145,7 @@
 *MOT: and I think this is his office equipment .
 *CHI: oh .
 *CHI: in there .
-*MOT: you can still reach your cooker  look without treading on it .
+*MOT: you can still reach your cooker look without treading on it .
 *CHI: cooking it .
 *MOT: John Benjamin .
 *CHI: I cooking .
@@ -1169,7 +1171,7 @@
 *MOT: ah .
 *MOT: youre carrying it very carefully .
 *MOT: it must be ready .
-*MOT: thank you very much  John .
+*MOT: thank you very much John .
 *MOT: carried beautifully .
 *CHI: carry this .
 *MOT: yes .
@@ -1179,10 +1181,10 @@
 *CHI: cake .
 *MOT: cake and chips .
 *MOT: thank you .
-*MOT: its only when you carry er drinks and things really you hafta be
+*MOT: its only when you carry er drinks and things really you hafta be .
 *MOT: thank you .
 *MOT: very good .
-*MOT: I shall need a plate very soon for all this food  John .
+*MOT: I shall need a plate very soon for all this food John .
 *MOT: do you have a plate to put all the food on ?
 *CHI: yeah .
 *MOT: thank you very much .
@@ -1212,11 +1214,11 @@
 *MOT: okay .
 *MOT: thatll be good .
 *CHI: please .
-*MOT: thanks  John .
+*MOT: thanks John .
 *CHI: and post in .
 *MOT: no no .
-*MOT: you post it back through the letterbox  dont you ?
-*MOT: can you remember who that was from  John ?
+*MOT: you post it back through the letterbox dont you ?
+*MOT: can you remember who that was from John ?
 *MOT: do you remember who I said it was from ?
 *CHI: dear John .
 *MOT: it says dear John on it yes .

@@ -15,7 +15,7 @@
 *CHI: oh .
 *MOT: thats alright .
 *CHI: there .
-*CHI: and this go
+*CHI: and this go .
 *CHI: that go there ?
 *MOT: yeah .
 *MOT: what colors that one ?
@@ -86,7 +86,7 @@
 *MOT: whatve you lost ?
 *CHI: oh .
 *MOT: whats the matter ?
-*CHI: lost on the
+*CHI: lost on the .
 *CHI: what ?
 *MOT: do you need a wee ?
 *CHI: no .
@@ -125,9 +125,9 @@
 *CHI: where this go ?
 *CHI: there .
 *MOT: thats it .
-*INV: whose birthday is it  Anne ?
+*INV: whose birthday is it Anne ?
 *CHI: this ?
-*MOT: whose are all the cards  Anne ?
+*MOT: whose are all the cards Anne ?
 *CHI: Mummys .
 *MOT: mhm .
 *INV: is it Mummys birthday today ?
@@ -163,6 +163,7 @@
 *MOT: youve done them all .
 *MOT: thats brilliant .
 *MOT: well done .
+*CHI: do .
 *CHI: Mummy .
 *MOT: shall we do these puzzles ?
 *MOT: lets see if we can do these puzzles .
@@ -172,7 +173,7 @@
 *MOT: lets get that out of the way .
 *MOT: oh .
 *MOT: now .
-*MOT: Id better sort some out because otherwise there might be a bit too
+*MOT: Id better sort some out because otherwise there might be a bit too .
 *MOT: lets see if we can find some to do .
 *MOT: hang on .
 *MOT: move back a bit .
@@ -192,7 +193,7 @@
 *MOT: you cant put it ?
 *CHI: there .
 *MOT: I think youve just done it havent you ?
-*CHI: oh  Mum .
+*CHI: oh Mum .
 *CHI: wheres this go ?
 *MOT: wheres what go ?
 *CHI: wheres this .
@@ -206,7 +207,7 @@
 *MOT: lets spread all the pieces out so that we can see them .
 *MOT: oh .
 *MOT: right .
-*MOT: whats the matter with that bike  Anne ?
+*MOT: whats the matter with that bike Anne ?
 *MOT: whats the matter with that bike ?
 *MOT: its got one wheel .
 *MOT: what about there ?
@@ -248,7 +249,7 @@
 *CHI: needta mend it .
 *MOT: hell needta mend it ?
 *MOT: who needs to mend it ?
-*MOT: who mends things  Anne ?
+*MOT: who mends things Anne ?
 *CHI: wheres the other key ?
 *MOT: theres a key isnt it ?
 *MOT: what does the key go in ?
@@ -351,7 +352,7 @@
 *CHI: paint pot .
 *CHI: thats a paintbrush .
 *MOT: yeah .
-*MOT: its like the paintbrush Mummy useta paint the bathroom isnt it
+*MOT: its like the paintbrush Mummy useta paint the bathroom isnt it .
 *CHI: yes .
 *MOT: yes .
 *CHI: here we go .
@@ -390,7 +391,7 @@
 *MOT: youd better stand up then .
 *MOT: hadnt you ?
 *MOT: www .
-*MOT: keep your pants on though  eh ?
+*MOT: keep your pants on though eh ?
 *MOT: alright .
 *CHI: oh .
 *CHI: pants .
@@ -416,7 +417,7 @@
 *MOT: that would be a good thing .
 *MOT: I cant see a milkman though .
 *MOT: can you remember ?
-*MOT: where did the puppys on the video get the milk from
+*MOT: where did the puppys on the video get the milk from .
 *MOT: can you remember ?
 *CHI: cows .
 *MOT: right .
@@ -439,7 +440,7 @@
 *CHI: I like .
 *CHI: thats the bottle .
 *MOT: what are you doing ?
-*MOT: I dont think youre gonna be able to do them while
+*MOT: I dont think youre gonna be able to do them while .
 *MOT: are they all going under your legs ?
 *MOT: whats this here ?
 *MOT: whatve you been doing to your leg ?
@@ -466,7 +467,7 @@
 *MOT: no no no .
 *MOT: were not gonna sit on them .
 *MOT: what shall we do now ?
-*MOT: shall we have  the dolls house furniture ?
+*MOT: shall we have the dolls house furniture ?
 *CHI: dont .
 *CHI: finished .
 *MOT: the farmyard ?
@@ -499,14 +500,14 @@
 *MOT: shall we have a picnic ?
 *CHI: no .
 *MOT: no .
-*MOT: shall we  find all the animals and play hideandseek with them
+*MOT: shall we find all the animals and play hideandseek with them .
 *MOT: yeah .
 *CHI: no .
 *MOT: do you wanna get the farmyard out then ?
 *CHI: yes .
 *MOT: yes ?
 *CHI: Anne do it .
-*MOT: I think the rest of the animals are in the icecream pot aren't
+*MOT: I think the rest of the animals are in the icecream pot arent .
 *MOT: up here .
 *CHI: I dont wanna .
 *MOT: you dont want those ones .
@@ -554,13 +555,14 @@
 *MOT: nice place .
 *INV: wheres Anne gone ?
 *INV: is she under the table ?
-*INV: is she  on the sofa ?
+*INV: is she on the sofa ?
 *INV: is she behind the curtains ?
 *MOT: yeah .
 *INV: yeah .
 *MOT: tell you what .
 *MOT: this time .
 *MOT: you come on out .
+*MOT: hide .
 *CHI: tiger .
 *MOT: well see if you can find the tiger .
 *CHI: right .
@@ -568,7 +570,7 @@
 *MOT: oh sorry .
 *CHI: right .
 *MOT: okay then .
-*MOT: close your eyes then  Anne .
+*MOT: close your eyes then Anne .
 *MOT: because Im gonna hide the tiger .
 *INV: oh .
 *MOT: there we are .
@@ -684,7 +686,7 @@
 *INV: under the table ?
 *INV: in the pram ?
 *INV: behind the kitchen ?
-*INV: or  behind the curtain .
+*INV: or behind the curtain .
 *MOT: no .
 *MOT: Annes not here .
 *INV: or behind Mummy behind the curtain .
@@ -696,8 +698,8 @@
 *MOT: right .
 *MOT: but .
 *CHI: find us .
-*MOT: the tiger wants a turn  Anne .
-*CHI: Anne have turn then
+*MOT: the tiger wants a turn Anne .
+*CHI: Anne have turn then .
 *MOT: tigers turn .
 *CHI: oh .
 *MOT: right .
@@ -709,6 +711,7 @@
 *CHI: oh .
 *MOT: whoops .
 *MOT: jump up .
+*CHI: tiger .
 *MOT: youll fall .
 *CHI: and your turn .
 *MOT: what ?
@@ -740,7 +743,7 @@
 *MOT: its your turn .
 *MOT: well .
 *MOT: what .
-*CHI: um  I dont wanna .
+*CHI: um I dont wanna .
 *MOT: you dont wanna .
 *MOT: who wants to hide then ?
 *MOT: does Caitlin ?
@@ -750,7 +753,7 @@
 *MOT: no .
 *MOT: shes gonna hide somewhere really good .
 *MOT: you close your eyes .
-*CHI: I dont want her  close her .
+*CHI: I dont want her close her .
 *CHI: you close the eyes .
 *INV: one two .
 *MOT: www .
@@ -785,7 +788,7 @@
 *MOT: there she is .
 *CHI: Caitlin .
 *MOT: Caitlin .
-*MOT: where are you  Caitlin ?
+*MOT: where are you Caitlin ?
 *CHI: Annes turn .
 *CHI: Annes turn all again .
 *CHI: no .
@@ -797,7 +800,7 @@
 *MOT: what .
 *MOT: five minutes .
 *MOT: I tell you what .
-*MOT: lets um  build something with your Duplo .
+*MOT: lets um build something with your Duplo .
 *CHI: no .
 *MOT: no .
 *MOT: lets get your dolls house toys out .
@@ -810,7 +813,7 @@
 *MOT: shall we have a look at your sticker book ?
 *CHI: no .
 *INV: well .
-*INV: you cant play with those played with your
+*INV: you cant play with those played with your .
 *MOT: lets have a look at this sticker book .
 *MOT: oh .
 *MOT: lets have a look .
@@ -825,7 +828,7 @@
 *MOT: shall we see if we can find their boots ?
 *CHI: oh .
 *CHI: these bits .
-*MOT: I think you you moved a lot of bits  Anne didnt you
+*MOT: I think you you moved a lot of bits Anne didnt you .
 *MOT: oh .
 *MOT: theres the boots .
 *MOT: can you see some shoes ?
@@ -877,7 +880,7 @@
 *CHI: oh .
 *CHI: these boots .
 *MOT: yeah .
-*MOT: thats the elf
+*MOT: thats the elf .
 *CHI: wheres elf ones .
 *MOT: wheres the elf ones ?
 *MOT: in the middle .
@@ -917,7 +920,7 @@
 *CHI: oh no no .
 *INV: in about thirty seconds .
 *MOT: oh right .
-*INV: do you wanna put your dollys clothes away so weve got room to
+*INV: do you wanna put your dollys clothes away so weve got room to .
 *MOT: oh .
 *MOT: thatd be a good idea .
 *MOT: lets put the dollys clothes away in the rucksack .
@@ -947,7 +950,7 @@
 *MOT: oh .
 *MOT: theyre all cold arent they ?
 *INV: yes .
-*CHI: this is a
+*CHI: this is a .
 *MOT: www .
 *MOT: oh .
 *MOT: have you got lots of bracelets ?
@@ -991,11 +994,11 @@
 *CHI: drive .
 *CHI: drive drive drive .
 *MOT: wheres he going ?
-*CHI: take them
+*CHI: take them .
 *CHI: pants .
 *MOT: hang on .
-*MOT: undo it round the back  look .
-*MOT: just because you like all your clothes off doesnt mean everybody
+*MOT: undo it round the back look .
+*MOT: just because you like all your clothes off doesnt mean everybody .
 *MOT: www .
 *CHI: done a poo .
 *CHI: done a poo .
@@ -1031,7 +1034,7 @@
 *CHI: oh .
 *CHI: I want a .
 *CHI: me .
-*CHI: I want a
+*CHI: I want a .
 *CHI: want a .
 *CHI: thing .
 *CHI: mummie .
@@ -1078,12 +1081,12 @@
 *MOT: youve got some there .
 *CHI: no want some .
 *MOT: well .
-*CHI: I wanna
+*CHI: I wanna .
 *CHI: these are Mummys .
 *INV: are they ?
 *CHI: yeah .
 *INV: thats nice isnt it ?
-*MOT: who brought it for Mummy  Anne ?
+*MOT: who brought it for Mummy Anne ?
 *MOT: no .
 *MOT: leave it because the marbles are too little for Anne .
 *CHI: I 0am just looking .
@@ -1196,7 +1199,7 @@
 *MOT: theres a green one .
 *CHI: green one .
 *MOT: and a blue one .
-*MOT: and  a yellow one .
+*MOT: and a yellow one .
 *CHI: and a yellow one .
 *MOT: what colors that one ?
 *MOT: do you know ?
@@ -1297,6 +1300,7 @@
 *MOT: oh .
 *MOT: thats no good .
 *MOT: two .
+*MOT: thats .
 *MOT: oh .
 *MOT: I need a green .
 *MOT: two yellow ones .
@@ -1316,7 +1320,7 @@
 *CHI: cant go under it .
 *MOT: oh dear .
 *MOT: mind .
-*MOT: the train willnt fit under now because youve put your bridge
+*MOT: the train willnt fit under now because youve put your bridge .
 *MOT: will it ?
 *MOT: theres no room for me .
 *MOT: what about me says the train .
@@ -1328,10 +1332,10 @@
 *MOT: crash .
 *MOT: crash crash .
 *MOT: is that better ?
-*CHI: said  engine .
+*CHI: said engine .
 *MOT: pardon ?
 *CHI: said he broke his bone .
-*MOT: pardon  Anne ?
+*MOT: pardon Anne ?
 *CHI: broke his bone .
 *MOT: oh .
 *MOT: I know .
@@ -1343,7 +1347,7 @@
 *MOT: need an engine driver .
 *MOT: here .
 *MOT: are you ready ?
-*MOT: piggy on the railway picking up stones along came the engine driver
+*MOT: piggy on the railway picking up stones along came the engine driver .
 *CHI: again .
 *MOT: again ?
 *MOT: you help me this time then .
@@ -1351,13 +1355,13 @@
 *MOT: again ?
 *MOT: go on then .
 *CHI: me not cares .
-*CHI: hey there  engine .
+*CHI: hey there engine .
 *CHI: me not cares .
 *CHI: me not cares .
 *CHI: broke piggys bones .
 *MOT: piggy coming under ?
 *MOT: oh .
-*MOT: the pig could hide in the trailer  look couldnt he ?
+*MOT: the pig could hide in the trailer look couldnt he ?
 *MOT: will the piggy go under ?
 *MOT: oh whoops .
 *CHI: I wanna .
@@ -1376,12 +1380,12 @@
 *CHI: tunnel .
 *MOT: mhm .
 *MOT: oh whoops .
-*MOT: stand up  tunnel please .
+*MOT: stand up tunnel please .
 *MOT: oh .
 *MOT: whats happened ?
 *MOT: oh .
 *MOT: its all broken up .
-*MOT: whyre you breaking it all up  Anne ?
+*MOT: whyre you breaking it all up Anne ?
 *MOT: to get a reaction ?
 *MOT: theres a big tiger coming .
 *MOT: theres a tiger coming .
@@ -1412,7 +1416,7 @@
 *CHI: hello .
 *MOT: whos on the phone ?
 *CHI: hello .
-*CHI: hello  tiger .
+*CHI: hello tiger .
 *MOT: its the tiger .
 *MOT: whats he telling you ?
 *CHI: yeah .
@@ -1426,17 +1430,17 @@
 *CHI: yeah .
 *MOT: go and talk to Pongo then .
 *CHI: hello .
-*CHI: hello  Pongo .
+*CHI: hello Pongo .
 *CHI: yes .
 *CHI: mhm .
 *CHI: are you alright ?
 *CHI: yes .
 *CHI: alright .
 *CHI: alright .
-*MOT: are his puppys alright  Anne ?
+*MOT: are his puppys alright Anne ?
 *MOT: oh .
 *MOT: just bang your eye ?
-*CHI: hello  puppys .
+*CHI: hello puppys .
 *CHI: yes .
 *CHI: alright now ?
 *CHI: yes .
@@ -1468,7 +1472,7 @@
 *MOT: he doesnt go in there does he ?
 *CHI: no .
 *MOT: piggys playing with the Duplo .
-*MOT: are you going to be going to the shops today  Anne ?
+*MOT: are you going to be going to the shops today Anne ?
 *MOT: you tipped all the food out .
 *MOT: Anne .
 *MOT: are you going to go to the shops ?
@@ -1486,7 +1490,7 @@
 *CHI: no .
 *CHI: Im Anne .
 *MOT: oh .
-*CHI: hello  little puppy .
+*CHI: hello little puppy .
 *MOT: are there lots of puppys here or just one ?
 *CHI: only two .
 *MOT: two ?
@@ -1508,7 +1512,7 @@
 *CHI: bit cold .
 *MOT: he was a bit cold .
 *MOT: so what did Pongo do ?
-*CHI: and little one said +"/.
+*CHI: and little one said .
 *CHI: oh Im getting cold .
 *MOT: thats right .
 *MOT: little one said Im getting cold .
@@ -1518,7 +1522,7 @@
 *CHI: wanna put the video on .
 *CHI: and Pongos .
 *MOT: no .
-*MOT: were not watching the video for a bit  Anne .
+*MOT: were not watching the video for a bit Anne .
 *MOT: you watched it all morning .
 *MOT: youve watched it lots today .
 *CHI: no .

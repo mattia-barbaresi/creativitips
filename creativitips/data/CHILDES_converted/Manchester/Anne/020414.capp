@@ -3,8 +3,8 @@
 *CHI: yes .
 *CHI: oh yes .
 *CHI: wheres this go ?
-*MOT: I think
-*MOT: I think that goes on there  look .
+*MOT: I think .
+*MOT: I think that goes on there look .
 *MOT: like this .
 *MOT: oh .
 *MOT: perhaps it .
@@ -48,7 +48,7 @@
 *MOT: um Im not sure what that is .
 *CHI: I dont know .
 *CHI: wonder whats here .
-*CHI: oh  look .
+*CHI: oh look .
 *CHI: thats a funny man .
 *MOT: well .
 *MOT: I think that might be sposta go like that .
@@ -56,7 +56,7 @@
 *CHI: oh .
 *MOT: think hes a ghost .
 *CHI: oh .
-*CHI: what this   Caroline ?
+*CHI: what this Caroline ?
 *INV: dont know .
 *CHI: its a bone .
 *INV: its a what ?
@@ -66,12 +66,12 @@
 *MOT: wheres the dog ?
 *MOT: um cant see a dog .
 *MOT: oh .
-*MOT: what about that  look ?
+*MOT: what about that look ?
 *CHI: yes .
 *CHI: oh look .
 *CHI: hes stuck .
 *MOT: where does that .
-*MOT: that piece is off the bed  look .
+*MOT: that piece is off the bed look .
 *MOT: I think .
 *MOT: hows that ?
 *CHI: oh .
@@ -85,7 +85,7 @@
 *CHI: here .
 *CHI: a floppy hat .
 *MOT: like that ?
-*CHI: whats this  Caroline ?
+*CHI: whats this Caroline ?
 *INV: um I think its a doctors case .
 *CHI: wheres the doctors ?
 *MOT: well .
@@ -102,7 +102,7 @@
 *CHI: whats this .
 *INV: I dont know .
 *CHI: I dont know .
-*MOT: there we are  look .
+*MOT: there we are look .
 *CHI: look at this one .
 *MOT: there .
 *CHI: look at this one .
@@ -115,6 +115,7 @@
 *MOT: we tried to make it work at the health center .
 *MOT: oh .
 *MOT: thats a good idea .
+*MOT: he .
 *CHI: brummo .
 *MOT: hes got a poorly leg has he ?
 *CHI: yeah .
@@ -152,20 +153,20 @@
 *MOT: she could go on the .
 *MOT: I thought there was a motorbike in here .
 *MOT: I think it might be in my bag still .
-*MOT: theres a bike  look .
+*MOT: theres a bike look .
 *MOT: she could go on this bike .
 *MOT: with her bag .
 *MOT: there you are .
 *MOT: oh .
 *MOT: she cant hold on if shes carrying a bag .
 *MOT: wed better have somebody else hadnt we ?
-*MOT: sit down  lady .
+*MOT: sit down lady .
 *CHI: lady going in boat .
 *MOT: okay .
 *CHI: swim .
 *CHI: oh look .
 *CHI: oh .
-*MOT: I think thats to give somebody a poorly  foot or a poorly hand
+*MOT: I think thats to give somebody a poorly foot or a poorly hand .
 *CHI: oh look .
 *CHI: thats funny man .
 *CHI: thats funny man .
@@ -176,7 +177,7 @@
 *CHI: oh whoops .
 *MOT: I think theyre sposta be nurses .
 *MOT: to look after the people in hospital .
-*MOT: in the beds  look .
+*MOT: in the beds look .
 *MOT: over the wall .
 *MOT: www .
 *MOT: oh .
@@ -184,7 +185,7 @@
 *CHI: oh .
 *CHI: oh .
 *CHI: oh .
-*MOT: oh there he is  look .
+*MOT: oh there he is look .
 *CHI: oh naughty table .
 *CHI: thats a naughty table .
 *MOT: whys it naughty ?
@@ -226,7 +227,7 @@
 *CHI: up .
 *CHI: have a ride .
 *CHI: oh .
-*MOT: she wants to sit on the roundabout  look .
+*MOT: she wants to sit on the roundabout look .
 *CHI: I wanna go on the roundabout .
 *MOT: okay .
 *CHI: I 0am going on that bit .
@@ -328,7 +329,7 @@
 *CHI: look .
 *CHI: that ones on the grass .
 *MOT: that horse looks as if hes eating the grass .
-*MOT: have a good cough  Anne .
+*MOT: have a good cough Anne .
 *MOT: pardon ?
 *CHI: oh .
 *MOT: oh .
@@ -354,7 +355,7 @@
 *MOT: good idea .
 *CHI: oh .
 *MOT: www .
-*CHI: I want a
+*CHI: I want a .
 *CHI: that one .
 *CHI: mummie .
 *MOT: hm ?
@@ -387,7 +388,7 @@
 *CHI: that baby .
 *MOT: hello Grandad and Daddy .
 *MOT: going to give them a kiss ?
-*MOT: say to Grandad and Daddy +"/.
+*MOT: say to Grandad and Daddy .
 *MOT: will you take me to the park ?
 *MOT: I wanna play on the slide and the roundabout .
 *MOT: alright then .
@@ -434,7 +435,7 @@
 *MOT: whats that one now ?
 *CHI: soldier .
 *MOT: a soldier .
-*MOT: think its a ghost ghost  Anne .
+*MOT: think its a ghost ghost Anne .
 *CHI: ghost .
 *MOT: a ghost .
 *MOT: www .
@@ -481,19 +482,19 @@
 *MOT: did she fall off again ?
 *CHI: I need a little girl .
 *MOT: you need a little one .
-*MOT: theres some little ones  look .
+*MOT: theres some little ones look .
 *MOT: over there .
 *CHI: oh .
 *CHI: yes .
 *CHI: yes .
-*MOT: whos gonna go to bed  Anne on the bed ?
+*MOT: whos gonna go to bed Anne on the bed ?
 *CHI: this .
 *CHI: this one .
 *MOT: right .
 *MOT: one .
 *CHI: oh .
 *CHI: that one got a hand .
-*MOT: that ones got a
+*MOT: that ones got a .
 *CHI: hand .
 *MOT: a hand .
 *CHI: got bad cough .
@@ -519,7 +520,7 @@
 *MOT: here it is .
 *CHI: whoopsie .
 *MOT: whoops .
-*MOT: stand up  table .
+*MOT: stand up table .
 *MOT: oh .
 *MOT: fell down again .
 *MOT: not a very good table is it ?
@@ -540,9 +541,10 @@
 *CHI: yeah .
 *MOT: thats better .
 *MOT: oh .
-*MOT: this girls getting a bit dizzy going round and round on the
+*MOT: this girls getting a bit dizzy going round and round on the .
 *CHI: yes .
 *MOT: says can I get off now ?
+*CHI: what .
 *CHI: Mummy .
 *CHI: Mummy .
 *CHI: Mummy .
@@ -574,6 +576,7 @@
 *MOT: thats a good idea .
 *MOT: and theres your spoon .
 *CHI: baby .
+*CHI: you .
 *CHI: yeah .
 *CHI: this ones your chair .
 *CHI: thats me chair .
@@ -593,7 +596,7 @@
 *CHI: come on .
 *CHI: oh .
 *CHI: there you are .
-*MOT: there we are  look .
+*MOT: there we are look .
 *CHI: oh .
 *CHI: this come off .
 *MOT: I think she looks like Goldilocks eating all the porridge .
@@ -622,7 +625,7 @@
 *CHI: baby .
 *CHI: baby .
 *CHI: thats Mummy over there .
-*CHI: come on  baby .
+*CHI: come on baby .
 *CHI: in your bed .
 *CHI: in your bed .
 *CHI: oh oh .
@@ -678,7 +681,7 @@
 *CHI: a leaf .
 *MOT: is there a leaf in there ?
 *MOT: oh .
-*MOT: these ones have all gone to sleep  Anne .
+*MOT: these ones have all gone to sleep Anne .
 *CHI: look .
 *MOT: whatve you got ?
 *MOT: shush .
@@ -710,7 +713,7 @@
 *CHI: you come in bed .
 *MOT: well .
 *MOT: wait a minute .
-*MOT: whats Father Christmas gonna bring them all for
+*MOT: whats Father Christmas gonna bring them all for .
 *CHI: presents and some animals .
 *CHI: youre a present .
 *CHI: go to sleep .
@@ -745,8 +748,8 @@
 *CHI: this one .
 *CHI: you have sleep here .
 *INV: alright then .
-*CHI: Mummys go
-*CHI: wheres you go  Mummy ?
+*CHI: Mummys go .
+*CHI: wheres you go Mummy ?
 *MOT: Ill go this end .
 *CHI: yes .
 *MOT: here I go .
@@ -756,7 +759,7 @@
 *MOT: oh .
 *CHI: in my .
 *MOT: fast asleep .
-*CHI: you coming under
+*CHI: you coming under .
 *CHI: you coming under here .
 *MOT: oh no .
 *MOT: Im just fine .
@@ -802,7 +805,7 @@
 *MOT: pardon ?
 *CHI: raining on me .
 *MOT: oh dear .
-*MOT: I hope youre not gonna get too wet going backwards
+*MOT: I hope youre not gonna get too wet going backwards .
 *MOT: tell you what .
 *MOT: why dont you put it all in the big box .
 *MOT: in the big tin .
@@ -875,7 +878,7 @@
 *MOT: oh .
 *CHI: Im all snuggled .
 *MOT: youre all snuggled .
-*CHI: go  over .
+*CHI: go over .
 *MOT: well .
 *MOT: I thought you wanted me to read the story .
 *CHI: everybody come in here .
@@ -884,7 +887,7 @@
 *MOT: oh .
 *MOT: alright then .
 *CHI: you come in here .
-*INV: I Im in  look .
+*INV: I Im in look .
 *MOT: its called Boo .
 *MOT: oh .
 *MOT: oh .
@@ -903,7 +906,7 @@
 *MOT: hes a little pussycat isnt it ?
 *CHI: lets do this bit first .
 *MOT: oh .
-*MOT: this piggy is creeping up on somebody  look .
+*MOT: this piggy is creeping up on somebody look .
 *MOT: making hes trying to make sure they cant see him .
 *MOT: can you see ?
 *CHI: yes .
@@ -1005,7 +1008,7 @@
 *MOT: is it ?
 *CHI: yes .
 *CHI: it is .
-*MOT: do you want me to help or
+*MOT: do you want me to help or .
 *CHI: yes .
 *CHI: bit tired .
 *MOT: shes a bit tired ?
@@ -1019,7 +1022,7 @@
 *CHI: those those are trousers .
 *CHI: these is pajamas .
 *INV: oh right .
-*CHI: have some breakfast  Anne .
+*CHI: have some breakfast Anne .
 *CHI: and then put some pajamas on .
 *CHI: you put some pajamas on .
 *MOT: okay .
@@ -1045,7 +1048,7 @@
 *CHI: yes .
 *MOT: okay .
 *MOT: are you going to do her up ?
-*MOT: at the top  look .
+*MOT: at the top look .
 *MOT: well done .
 *CHI: do you want your other pajamas on ?
 *CHI: pajamas .
@@ -1076,11 +1079,11 @@
 *MOT: whats she doing with her foot in the bowl ?
 *CHI: wheres your cot ?
 *MOT: hm ?
-*CHI: wheres a cot  for this baby ?
+*CHI: wheres a cot for this baby ?
 *MOT: well .
 *MOT: you could use your cot couldnt you ?
 *CHI: you 0have not got a cot .
-*MOT: bring it over here  look .
+*MOT: bring it over here look .
 *CHI: is it .
 *CHI: you not got a cot .
 *CHI: you Christmas .
@@ -1098,7 +1101,7 @@
 *INV: no .
 *INV: we got a bike .
 *CHI: oh .
-*CHI: Anne got that and  Anne got .
+*CHI: Anne got that and Anne got .
 *CHI: Santa not bring one for me .
 *INV: no .
 *INV: Santa got us one .
@@ -1119,7 +1122,7 @@
 *INV: we got a bike .
 *CHI: oh bike .
 *MOT: Father Christmas bought you a cot didnt he ?
-*MOT: and what you were asking was whether
+*MOT: and what you were asking was whether .
 *MOT: www .
 *CHI: no .
 *CHI: Anne got .
@@ -1186,17 +1189,17 @@
 *MOT: like this .
 *MOT: Anne do it .
 *MOT: thats it .
-*CHI: hiya  Caitlin .
+*CHI: hiya Caitlin .
 *MOT: bring Caitlin .
 *MOT: bring the cot a bit closer .
-*MOT: have the bedroom just here  look .
+*MOT: have the bedroom just here look .
 *CHI: no .
 *CHI: bedrooms here .
 *MOT: oh .
 *CHI: this bed ?
 *MOT: yes .
 *MOT: is she awake now ?
-*MOT: does she wanna do +"/.
+*MOT: does she wanna do .
 *MOT: this is the way that Anne rides .
 *CHI: sit on my lap .
 *MOT: does she like that ?
@@ -1208,7 +1211,7 @@
 *CHI: oh .
 *CHI: baby .
 *CHI: baby .
-*INV: got a lot of dollys in that cot  Anne .
+*INV: got a lot of dollys in that cot Anne .
 *CHI: snuggled .
 *CHI: all snuggled .
 *CHI: Lucy .
@@ -1250,7 +1253,7 @@
 *MOT: go on .
 *MOT: take him to his Mummy .
 *INV: ah .
-*INV: hello  baby .
+*INV: hello baby .
 *INV: ah .
 *INV: can I have a big cuddle ?
 *MOT: did you fall ?
@@ -1280,23 +1283,23 @@
 *MOT: hes sad .
 *CHI: okay .
 *CHI: Ill put him here .
-*CHI: put  here .
+*CHI: put here .
 *CHI: stop crying .
 *MOT: hes not crying now .
 *CHI: here .
 *MOT: well bring the cot to over here .
 *CHI: no .
 *CHI: I want you come here .
-*CHI: you come
+*CHI: you come .
 *MOT: steady .
-*CHI: you come
+*CHI: you come .
 *INV: you want me to come ?
 *MOT: well .
 *MOT: why dont you .
 *MOT: look .
 *MOT: theres a big space .
 *MOT: lets put it just here .
-*MOT: put it just here  look .
+*MOT: put it just here look .
 *CHI: no no no .
 *CHI: Anne stay down here said .
 *MOT: oh .
@@ -1370,7 +1373,7 @@
 *MOT: yeah ?
 *CHI: here monkey .
 *MOT: right .
-*MOT: let me build you a tree  little monkey .
+*MOT: let me build you a tree little monkey .
 *CHI: theres a monkey .
 *MOT: okay .
 *CHI: do one .
@@ -1463,7 +1466,7 @@
 *MOT: have you got some steps ?
 *CHI: yeah .
 *MOT: and the tiger can go on there .
-*MOT: then they can talk to each other  look .
+*MOT: then they can talk to each other look .
 *MOT: oh .
 *CHI: putting this on there .
 *CHI: oh .
@@ -1483,7 +1486,7 @@
 *CHI: mummie .
 *CHI: Mummy .
 *MOT: yes baby .
-*CHI: can I have some  dinner please .
+*CHI: can I have some dinner please .
 *MOT: yes .
 *MOT: of course you can .
 *MOT: whatre they gonna have for dinner ?
@@ -1561,6 +1564,7 @@
 *MOT: oh .
 *MOT: is this a car ?
 *CHI: yes .
+*CHI: and .
 *MOT: wherere we going ?
 *CHI: we 0have got the doctors in here .
 *MOT: uhhum .
@@ -1598,7 +1602,7 @@
 *MOT: do you think youd better go and see the doctors ?
 *MOT: okay .
 *MOT: shall I be the doctor then ?
-*MOT: hello  Anne .
+*MOT: hello Anne .
 *MOT: whats the matter with you ?
 *MOT: youre poorly ?
 *MOT: Id better have a look at your tummy .
@@ -1657,7 +1661,7 @@
 *MOT: Im so poorly .
 *CHI: lie on tummy .
 *CHI: oh .
-*MOT: think youd better have a look in my ears and in my mouth  Anne .
+*MOT: think youd better have a look in my ears and in my mouth Anne .
 *MOT: whoops .
 *MOT: oh thank you .
 *MOT: oh .
@@ -1720,7 +1724,7 @@
 *CHI: you wanna go in in bed .
 *CHI: in your bed .
 *MOT: youre not very good at tl ll cl are you ?
-*MOT: people who are poorly needta go to sleep  Anne .
+*MOT: people who are poorly needta go to sleep Anne .
 *MOT: is the doctor poorly now too ?
 *CHI: Im not poorly .
 *CHI: Im not doctor again .
