@@ -22,17 +22,24 @@ for subdir, dirs, files in os.walk(rootdir):
                     # get rid of special chars!!
                     # if lpt != "." or lpt != "?":
                     #     print("sdsdsfds: ", lpt)
-                    line = line.replace("	"," ")
+                    line = line.replace("	"," ").strip()
+                    if line[-1] == "?":
+                        last = "?"
+                    elif line[-1] == "!":
+                        last = "!"
+                    else:
+                        last = "."
                     ss = " ".join(re.sub(r'\[[^()]*\]', '', line).split())
                     ss = " ".join(re.sub(r'\<[^()]*\>', '', ss).split())
                     ss = " ".join(re.sub(r'\[^()]*\', '', ss).split())
-                    pcs = ss.replace("„","").replace("+...","").replace("‡","").replace("_"," ")\
-                        .replace("xxx","").replace("+//","").replace("+/","").split()
-                    ss = " ".join(pcs[1:-1]).replace("  ", " ")
 
-                    nl = ss.translate(str.maketrans('', '', string.punctuation)).strip()
+                    ss = ss.replace("„","").replace("+...","").replace("‡","").replace("_"," ") \
+                        .replace("xxx","").replace("+//","").replace("+/","")
+                    first = ss.split()[0]
+                    ss = ss.translate(str.maketrans('', '', string.punctuation)).strip().split()
+                    nl = " ".join(ss[1:]).replace("  ", " ")
                     if len(nl.strip()) > 0:
-                        new_lines.append(" ".join([pcs[0], nl, pcs[-1]]) + "\n")
+                        new_lines.append(" ".join([first, nl, last]) + "\n")
 
             if new_lines:
                 vals = "/".join(subdir.split("/")[-1].split("\\"))
