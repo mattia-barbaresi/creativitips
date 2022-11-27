@@ -143,7 +143,7 @@ hurt
 Rosie
 does || it
 you || 0are || very naughty
-you 0are
+you || 0are
 what || she || do
 hurts || Lara
 where
@@ -319,6 +319,7 @@ yes
 actually || its quarter || past || six
 past || six
 yes
+so
 yes
 I || think || its bathtime
 no
@@ -407,6 +408,7 @@ yes
 wheres Rosies bag
 there
 and || Jims book
+wheres
 there
 oh good
 there
@@ -444,6 +446,7 @@ washing || up
 yes
 Im || going to wash || up
 why || you || want || me || to wash || up
+wheres
 its there
 oops
 thats || it
@@ -637,7 +640,7 @@ what || is || it
 no
 the boat || goes || the other side
 poor man
-think || if || youre gonna || eat || him || its probably || getting
+think || if || youre gonna || eat || him || its probably getting
 oh yuck
 come || on
 lets wash || your face
@@ -974,6 +977,7 @@ did mummy fall || down
 yes
 where || she || fall
 outside || on || the ground
+outside
 laughs
 look
 Sarahs || got || a swimming costume || on || it || says || sun
@@ -1060,6 +1064,7 @@ no
 hes || there || is || he
 wheres daddy
 wheres || your daddy
+at
 work
 and || whos || coming || tomorrow
 More Dadaw
@@ -1094,7 +1099,7 @@ kiss || at || the side
 because || it || hurts || too much
 thats || it
 good girl
-and || then || Ill || go travel || all the way || up || to || the poorly wo
+and || then || Ill || go travel || all the way || up || to || the poorly wont
 in || fact || you || could probably kiss || there and itll || travel || all the way
 no
 you || stay || here || look || after || Sarah || while || I || get || the paintbrush

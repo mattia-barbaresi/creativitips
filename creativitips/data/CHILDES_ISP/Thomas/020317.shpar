@@ -56,7 +56,7 @@ watch
 youre || looking || out || of || the window
 are || you || watching || the trucks
 I || can just see || a lot || of || rain
-what else can you || see
+what else can || you || see
 cars
 cars
 yes
@@ -127,6 +127,7 @@ little Sonny cry
 Sonny
 Isabel || cried || didnt || she
 Sonia || gave || us || a lift || in || her car || when || we || got || into || the car Isabel
+0
 yes
 is || that || what || she || was saying
 yes
@@ -146,7 +147,7 @@ yellow boxes
 thats || right
 you || were posting || things || through || the letterbox
 you || call || them || yellow boxes || theyre letterboxes
-there || was || a huge Wendy House || it || had || its own front door || with
+there || was || a huge Wendy House || it || had || its own front door || with || a
 yes
 so || you || kept posting || things || through || the letterbox
 a blue one
@@ -166,7 +167,7 @@ shut || the door
 yes
 you || opened || the cooker didnt || you
 and || took || out || lots || of || plates || you || set || the table
-and || you || were handing || round plates || of || biscuits werent || you
+and || you || were handing || round plates || of || biscuits || werent || you
 and || what || happened || at || eleven oclock
 the ladys || came || round || with || a drink || of || juice || a slice || of || toast || for
 yes
@@ -202,9 +203,11 @@ whos a big boy
 0
 no
 dont || start being || naughty || now
+0
 you || look || quite tired
 are || you || going to have || a sleep || after || lunch
 be || careful or youre || going to fall || off
+0
 Thomas dont
 no
 come || on
@@ -213,6 +216,7 @@ Im || going to change || you
 0
 whats || all the fuss || about
 whats || the matter
+no
 whats || the matter love
 0
 do || you || want || you nappie || changing
@@ -227,6 +231,7 @@ oh you || were just saying || Isabel || was || a cry baby
 and || now || Thomas || is being || a cry baby
 0
 what || a noise
+0
 whats || the matter
 youre holding || your bottom
 is || it || sore
@@ -282,7 +287,7 @@ is || it || ringing
 no
 no no ring
 yes
-I || think || when || it || was || new || if || you || pressed || it || it useta || go || 0
+I || think || when || it || was || new || if || you || pressed || it || it || useta || go || 0
 it doesnt || do || that || now || does || it
 can || you || make || the noise || it useta || make
 no
@@ -393,6 +398,7 @@ sore knee
 ap Grandad cream || on || it
 thats || right
 you || fell || didnt || you
+Granddad
 Granddads cream || on || it
 thats || right
 you || fell || on || Friday || hurt || your knee
@@ -534,6 +540,7 @@ but || Rachel || was || the one crying
 mhm
 she || seemed || alright today || though || didnt || she
 shall || we || let || Purdie || in || now
+Bow
 www
 Nin Nin
 yes
@@ -584,7 +591,7 @@ thats || right
 wash hand
 you || were playing || in || the sandpit
 wash hands
-and || you || were playing || in
+and || you || were playing || in || the
 there || was || a big tub || filled || with || water wasnt || there
 yes
 in || the Wendy House
@@ -655,7 +662,7 @@ what || do || you || say
 yes please
 say thank || you || now || youve been given || it
 thank || you
-I || can hear || someone banging || you
+I || can hear || someone banging || can || you
 ap trucks
 do || you || think || its Brian banging
 yes
@@ -746,7 +753,7 @@ Nin Nin
 bang
 no Thomas
 dont || use || your fork || to eat || those || with
-is || the coleslaw nice
+is || the coleslaw || nice
 do || you || want || some more
 youre || enjoying || that || arent || you
 oops
@@ -763,7 +770,7 @@ oh big boy || all || done
 big boy || all || done
 have || you || nearly || finished
 oh its raining || again now || Thomas
-you cant || really || see || it || from || the back || if || you || look || out || of
+you cant || really || see || it || from || the back || if || you || look || out || of || the
 pitterpattero
 pitterpattero
 pitterpattero rain
@@ -788,6 +795,7 @@ your hands || are covered || in || coleslaw
 0
 Thomas dont || be || silly
 whats || the matter
+0
 whats || the matter || with || you
 has || something || hurt || you
 whats || the matter
@@ -822,9 +830,11 @@ no
 no
 there
 does || this mean youre || ready || for || a little sleep
+yes
 I || know
 how || about || some apple
 shhshho
+no
 you wanna || sit || on || my knee
 whats || the matter
 you || sound || a bit || stuffed || up || all || of || a sudden
@@ -888,7 +898,7 @@ trains
 yes
 yes
 thats || right
-when || Dimitra || comes || she || brings || trains doesnt || she
+when || Dimitra || comes || she || brings || trains || doesnt || she
 a
 yes
 thats || right
@@ -896,6 +906,8 @@ a big choo choos
 a big
 a big choo choo
 a which
+which
+which
 oops || a dear
 oops || a dear
 are || you || jumping
@@ -931,7 +943,7 @@ Nin Nin || yes
 a train
 yes
 trains
-do || you || think || you || can do || with || your nappie || changing
+do || you || think || you || can do || with || your nappie changing
 yes
 yes
 after || your sleep
@@ -1001,7 +1013,7 @@ thats || right
 yes
 Im || going to change || your nappie
 Nin Nin
-I || couldnt find || some
+I couldnt || find || some
 Ive || still || forgotten || the nappie Thomas
 I || brought || the creams || forgotten || the nappie
 Nin Nin
@@ -1104,7 +1116,7 @@ thats || thats || the car seat
 ap Sonny car
 Sonias car
 thats || right
-we hadta || take || the car seat || out || of || Daddys car || put || it || in || Sonia's
+we hadta || take || the car seat || out || of || Daddys car || put || it || in || Sonias
 there || we || are
 there || should be || a red box
 and || well || put || the chair || in || front
@@ -1149,7 +1161,9 @@ look
 youve all the others || on || the chair
 there || the boxes
 no no the way
+no
 the chip shops
+no
 what || are || you || saying || about || the chip shops
 a Nana || the chip shops
 Nana || at || the chip shops
@@ -1234,7 +1248,7 @@ theyre letters || arent || they
 a big bang
 yes
 a big bang
-but || theyre letters || are put || into || envelopes || its
+but || theyre letters || are put || into || envelopes || its the
 we || put || a stamp || on || the envelope || post || it
 we || saw || the postman || on || Friday || emptying || the letterbox didnt || we
 Nin Nin
@@ -1300,7 +1314,7 @@ you cant || say || you || wanna sleep
 no
 youve || just || woken || up || havent || you
 did || you || have || a lovely sleep
-oh you || were || very tired werent || you
+oh you || were || very tired || werent || you
 you || were || up || running round || early || in || the morning
 Nin Nin
 yes
@@ -1316,12 +1330,12 @@ juice tummy and toast tummy
 yes
 lots || of || things || have gone || in || your tummy
 Thomas
-after || youve || had || your bath || you || can get || into || Mummys bed || we || 'll
+after || youve || had || your bath || you || can get || into || Mummys bed || well
 a Purdie || coming
 Purdies || coming
 can || you || see || her || at || the door
 yes
-and || then || we || can have || a cuddle || together || go to sleep || then || ca
+and || then || we || can have || a cuddle || together || go to sleep || then || cant
 yes
 would || you || like || that
 I || think || youre || worn || out || after || your stay || at || Grandmas arent || you

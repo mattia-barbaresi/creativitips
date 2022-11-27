@@ -15,6 +15,7 @@ clap clap clap clap
 would || you || like || some more banana
 snap || snap
 Nin Nin
+snap
 snap || snap
 there || we || are
 right
@@ -43,7 +44,7 @@ snip snip
 Im || going to cut || them || with || a knife
 cut || them || in || half
 because || theyre quite large grapes arent || they
-if || we || do || that || then || you || look || as if || youve || got || twice as many || as
+if || we || do || that || then || you || look || as if || youve || got || twice as many as
 mm
 theyre nice and cold || because || theyve || been || in || the fridge
 mm
@@ -119,7 +120,7 @@ put || those || in || the bin || because || theyre empty || now || arent || they
 you || like || putting || things || in || the bin dont || you
 mm
 when || Mummy || came || back || from || shopping || today || you || wanted to pack
-and || you || put || some receipts || from || Mummys shopping || in || the bin || did
+and || you || put || some receipts || from || Mummys shopping || in || the bin didnt
 didnt || you
 laughs
 yes
@@ -199,7 +200,8 @@ and || James || is || red
 help help
 help help
 yes
-James || says || + " /
+James || says
+help
 doesnt || he
 Im || not quite || sure || what color Edward || is
 blue
@@ -221,7 +223,7 @@ ap || there
 ap || there
 no
 this || is || the hot kettle Thomas
-you cant || pick || that || up || you
+you cant || pick || that || up || can || you
 Mummys || going to make || herself || a cup || of || tea
 oh tea
 yes
@@ -260,7 +262,7 @@ no
 you || might
 and || you || might hurt || somebody || as well
 no
-so youre || going to have || just || to be || a bit careful what || you || throw
+so youre || going to have || just || to be || a bit careful || what || you || throw
 and || you || shouldnt throw || food || anyway
 no
 no
@@ -282,7 +284,7 @@ Nana
 Nana
 mm
 and || Grandad
-what || will || Grandad || say
+what || will Grandad say
 theyd all || say || the same wouldnt || they
 oh Thomas Thomas
 they || would say
@@ -315,6 +317,7 @@ shoes
 shoe shoe
 shoe shoe
 its a watch strap
+watch
 strap
 watch || strap
 thats || right
@@ -460,6 +463,7 @@ ap this
 whats || what || love
 white truck
 its a white truck
+white
 I || think || its a van || really
 a vans || a little bit || smaller || than || a truck
 you || have || cars
@@ -477,12 +481,16 @@ but || its the same || as || a truck
 if || you wanna || call || it || a truck || thats || quite alright
 0 truck
 its a dirty truck
+0
 its || really || that || dirty Thomas
 I || think || its just that
 white truck 0
 when || white cars and vans and trucks || go || through || the mud || they || look
+0
+0
 its not too dirty || really || is || it
 mm
+0
 oh || dear
 mess
 two
@@ -568,6 +576,7 @@ but || you || need || a bit || of || help || because || theyve || fallen || over
 help help
 Nin Nin
 yes
+help
 help help
 0
 oh || dear
@@ -718,7 +727,7 @@ what || are || they
 are || they sunglasses
 well || youve got to take || very good care || of || them || havent || you
 no
-and || when || youre || not wearing || them || they
+and || when || youre || not wearing || them || they hafta
 lets put || them || away || now
 when || we || put || them || on || keep || them || on
 thats || it
@@ -729,10 +738,10 @@ oh || dear
 oh || dear
 ap this
 right
-be || very gentle || with || them wont || you
+be || very gentle || with || them || wont || you
 no
 thats || right
-now || lets fold || them || up || put || them || away || in || the case || we
+now || lets fold || them || up || put || them || away || in || the case || shall || we
 I || like || those
 what a smart boy
 night night
@@ -839,7 +848,7 @@ scissors || all done
 thats || right
 scissors || all done
 ap Nin Nin chair
-youre || going || to || hafta || wear || your sunglasses || now || all day
+youre || going || to || hafta || wear || your sunglasses || now || all day || every
 Nin Nin
 yes
 Nin Nin chair
@@ -897,7 +906,7 @@ you kiss || her || gently
 Thomas || thats || her tail || you || dont pull || her tail || do || you
 no
 no
-because || itll || hurt || her wont || it
+because || itll || hurt || her || wont || it
 okay
 just || stroke || her
 you pretend thats Purdie
@@ -940,7 +949,7 @@ turn || the glasses || round || the other way Thomas
 uhoh
 Dipsy
 oh || dear
-youve || pressed || Dipsys tummy || he || has started to talk || has
+youve || pressed || Dipsys tummy || he || has started to talk || hasnt
 and || now || youve || pressed || Pos tummy and shes || talking
 theyre both || talking || arent || they
 what || were || the teletubbies || saying || to || you
@@ -1014,7 +1023,7 @@ put || it || on || Mummys head
 no
 uhoh
 I || think || your friend Daniels Mummy || wanted || some || for || her door || as well
-so if || this || works well || hafta || tell || them || all || about || it wont || we
+so if || this || works well || hafta || tell || them || all || about || it || wont || we
 Nin Nin
 yes
 Nin Nin
@@ -1080,6 +1089,7 @@ blue
 a blue ball
 a blue ball
 blue ball
+ball
 what || you || see
 what || you || see || Thomas
 what || you || see || out || of || the window
@@ -1091,7 +1101,7 @@ I || dont || think || theres anybody || there || is || there
 oh
 Nin Nin
 well || show || Daddy || the || when || he || comes || down
-he || can fit || it cant || he
+he || can fit || it || cant || he
 oh
 Nin Nin
 Nin Nin
@@ -1193,7 +1203,7 @@ ap this
 ap this
 thats || a little boy digging || in || the sand
 now || weve just || been talking || about || Summer holidays || havent || we
-because if || your remember Mummy || said || you || have || shorts || a t + shirt
+because if || your remember Mummy || said || you || have || shorts || a tshirt
 and || sunglasses
 look || at || that little boy || with || his sunglasses
 and || all the children || are wearing || hats
@@ -1243,7 +1253,7 @@ mooo
 Nin Nin
 theres || some children || playing || in || the water
 theres || an umbrella
-the umbrellas || stopping || the rain water || from || falling || on
+the umbrellas || stopping || the rain water || from || falling || on || the
 and || the Wellingtons || are stopping || the little girls feet || from
 look
 she || says || “ splish splash splosh ”
@@ -1261,7 +1271,7 @@ those || are || some children || helping || in || the kitchen arent || they
 theres || the little boy
 hes || helping || his Daddy || to do || the washingup
 and || this little girl || is helping || Daddy || dry || up || the dishes
-and || that || little boy || has been rolling || some pastry || with
+and || that || little boy || has been rolling || some pastry || with || the
 and || hes || cutting || out || some shapes
 you || do || that || with || your Play Doh dont || you
 whats || this
@@ -1333,7 +1343,7 @@ what || did || Mummy || just || say || about || tails
 no
 no
 we dont touch tails
-if || you || do touch || her || you || just || touch || her || very very || gently || to give
+if || you || do touch || her || you || just || touch || her || very very gently || to give
 no Thomas
 no
 the only type || of || stroke youll || give || Purdie || is || a very nice

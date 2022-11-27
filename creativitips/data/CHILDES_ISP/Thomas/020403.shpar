@@ -258,6 +258,7 @@ oh mind || the toys
 yes
 mind || the toys
 Nin Nin
+mind
 mind || the toys
 oh
 a blue pot
@@ -277,7 +278,7 @@ mixer
 and || you || missed || them || all didnt || you
 did || you || have || a nice sleep || this afternoon
 yes
-you || were || very tired werent || you
+you || were || very tired || werent || you
 ooh
 pardon
 one toe
@@ -376,7 +377,7 @@ its not || late for most people
 no
 but || you || were || asleep || a long time || this afternoon
 oh || yes
-and || the trouble || is || if || you || were going to sleep || near || teatime you
+and || the trouble || is || if || you || were going to sleep || near || teatime || you
 0
 do || you || think || Purdie || wants to go || out || Thomas
 oh || yes
@@ -474,6 +475,7 @@ and || then || after || youve || brushed || your teeth || well || read || a stor
 and || you || can go || to || bed cant || you
 Purdie
 laughs
+Thomas
 and || do || you || know || what || she || did || then
 yes
 now || just take || that || as || a warning
@@ -537,10 +539,10 @@ no
 theres || no man || in || the mixing machine
 oh
 ah
-oh I || think || thats || the fireman Thomas || that || youve || put || inside
+oh I || think || thats || the fireman Thomas || that || youve || put || inside || the
 no
 if if || youve || put || a man || inside || of || a mixing machine || hed get
-see || the mixing machines || you || see || on || the road || have || the driver || in
+see || the mixing machines || you || see || on || the road || have || the driver || in || the
 but || you dont || see || men
 Nin Nin || the mixer
 oh || dear
@@ -602,7 +604,7 @@ too much speed
 too much speed
 too much speed
 too much speed
-Im sure thats || what || you || must be trying to say || because || you || 're
+Im sure thats || what || you || must be trying to say || because || youre
 too much speed
 too much
 too much speed
@@ -629,7 +631,7 @@ oh ap ap carrots
 a carrot
 thats || right
 leaf || on
-it || has got || a leaf || on || it hasnt || it
+it || has got || a leaf || on || it || hasnt || it
 yes
 are || you || going to sit || at || this side
 yes
@@ -638,7 +640,7 @@ are || you || going to snuggle || up || to || your blanket
 well || this || is
 it || says || “ Pocket Pets ”
 touch and || feel
-its the new set || of || books isnt || it
+its the new set || of || books || isnt || it
 whats || this
 well || you || tell || me || what || it || is
 football
@@ -661,7 +663,7 @@ big fish
 theyre all touch || feel || books
 yes
 well || we || have || a look || at || that one
-it || says || + " /
+it || says
 touch and || feel || colors
 we || can look || at || it
 look
@@ -671,7 +673,7 @@ big bear
 big bear
 oh look || at || the shiny snake
 gosh thats beautiful isnt || it
-it || says || + " /
+it || says
 over || in || the green grass
 whats || that
 mouse
@@ -706,7 +708,7 @@ big nose
 he || has got || a big nose || has || he
 yes
 and || a furry tail
-and || theres || one || here || about
+and || theres || one || here about
 that || was || about colors
 and || this || is || about || opposites
 and ap carrot
@@ -714,7 +716,7 @@ ap carrot
 carrot
 carrot ap leaf || on
 a carrot || with || a leaf || on
-and || that's
+and || thats
 whats || that
 two pounds
 two pounds
@@ -734,14 +736,14 @@ the pink rabbit || belongs || in || your cot
 open || the lid
 open || the lid
 you wanna look || at || some more books
-it || says || + " /
+it || says
 theres || a big cat purring
 theres || a slow tortoise plodding
 oh
 whats || that
 a tortoise
 tortoise
-can || you || see || the rabbits fluffy tail
+can || you || see || the rabbits || fluffy tail
 yes
 whats || your bunny rabbit || called
 Molly
@@ -749,6 +751,7 @@ Molly
 away
 youre || putting || it || away
 youre || putting || it || back || in || the box || are || you
+just
 no no
 very gently || Thomas
 gently
@@ -757,7 +760,7 @@ there || we || are
 look
 even || the carrying case || is || nice isnt || it
 because || it || has got || fish || the ladybird butterfly ducks pigs
-and || whats || this
+and || whats this
 oh
 snake
 snake
@@ -797,11 +800,11 @@ piglets || are || baby pigs
 and || weve || seen || ducklings
 ducklings
 and ducklings || are || baby ducks
-and || here || it || says || + " /
+and || here || it || says
 and || here || in || the cornfield || there || are || five mice || munching
 one two three four five
 can || you || see || those flowers || in || the cornfield
-oh what || this
+oh || what || this
 thats corn
 corn
 Thomas || eat
@@ -820,6 +823,7 @@ whats || this
 this || is || a book about shapes
 look || at || the dogs || shiny black nose
 oh || knock knock
+knock
 knock || knock
 thats || a yellow door isnt || it
 with || a brown
@@ -827,7 +831,7 @@ shut ap door
 doormat
 shut || the door
 yes
-it || says || + " /
+it || says
 patient puppys || waited
 oh
 oh
@@ -843,7 +847,7 @@ its a circle
 what shape || is || that
 its a star star shape
 star shape
-and || it || says || + " /
+and || it || says
 bouncy puppys || looking || in || the big shiny mirror
 what shape || is || the mirror
 its a square
@@ -895,7 +899,7 @@ oh I || was going to see || if || weve || got || some more books
 yes please
 because || we || bought || some new books didnt || we
 yes
-we || like || reading || books dont || we
+we || like || reading || books || dont || we
 tad || much much
 oh || whats || this
 one
@@ -1027,21 +1031,21 @@ oh poor Mummy
 are || you || running || around
 oh look || at || this picture Thomas
 this || is || of || the teddy bear || the rabbit || the bath || with
-we || like || blowing || bubbles dont || we
+we || like || blowing || bubbles || dont || we
 yes
 this || is || rabbit
 yes
 quack quack || quack
-I || havent read || this book || I || think || its saying that bubbles
+I || havent read || this book || I || think || its saying || that || bubbles
 that || they dont || last || very long || do || they
 do || you || remember seeing || snow || last year Thomas
 at || Christmas time || do || you || remember seeing || the snow
-I || think || you || do || because || you || were talking || about || Po playing || in
+I || think || you || do || because || you || were talking || about || Po || playing || in || the
 yes
 yes please
-you || were watching || the Teletubbies and Po || was
+you || were watching || the Teletubbies || Po || was
 yes
-these || are || beautiful books arent || they
+these || are || beautiful books || arent || they
 sleep
 oh
 you || wanna || sleep
@@ -1056,8 +1060,10 @@ Mummy
 look
 Thomas || is rolling || around || running || backwards || on || the floor
 no no Mummy
+no
 no no Mummy
 do || you || wanna || do || that
+no
 0
 oops || a daisy
 he || has fallen || over
@@ -1287,7 +1293,7 @@ Mummy || has got to have || a little smell
 a little sniff || a little taste || a little || look || at || all the
 and || Daddy || has got to go || to || work
 oh
-so || Grandma || Granddad || are coming to look || after || Thomas || in
+so || Grandma || Granddad || are coming to look || after || Thomas || in || the
 baby
 but || Mummyll || be || home || at || lunchtime
 0
@@ -1301,7 +1307,7 @@ because || therell || be || some animals || there
 animals
 and || a roundabout
 yes
-were bound to find || an ice cream van selling ice lollies || ice
+were bound to find || an ice cream van selling ice lollies and ice
 pink red yellow one
 pink red and yellow ones
 oh Im sure well || find || something || like || that
@@ -1318,7 +1324,7 @@ well || youre || saying yes
 youve || been || before || they || do usually have || things || like
 oh all your favorite things || like
 big machines
-things || that || normal people || would n't
+things || that || normal people wouldnt
 machines
 yes
 normal people wouldnt
@@ -1331,6 +1337,7 @@ no
 I dont || think || youll || see || any racing cars
 I dont || think || Manchester City Council || will have || any racing cars
 but || youll || see || road sweepers || dustbin lorrys and lawnmowers
+big
 do || you || remember || the big lawnmower || in || the park || a few weeks || ago
 yes
 we || were watching || the man || cutting || the grass || in || the park || with || that
@@ -1384,7 +1391,7 @@ Sonia Isabel
 and || then || we || went || to || the park || afterwards || didnt || we
 with || them
 have || a play || on || the swings || the slide
-it || was || quite nice wasnt || it
+it || was || quite nice || wasnt || it
 night night Mummy
 night night Thomas
 night night || racing || car
@@ -1398,7 +1405,7 @@ have || you || got || a bit || of || a poorly tooth
 yes
 yes
 well || this || is || why || youre || up || quite late || now
-its fairly late || for || you isnt || it
+its fairly late || for || you || isnt || it
 oh dont || start getting || all your toys || out || now || Thomas
 what || are || you || doing
 thats || the big
@@ -1416,7 +1423,7 @@ are || you || putting || them || back || in || the box
 please dont || be || rough
 a big box
 no Thomas
-if || youre || going to go to sleep || in || a minute please dont start
+if || youre || going to go to sleep || in || a minute || please || dont start
 what 0have || got || here
 oh Thomas Thomas
 I || bet || Daddy || heard || that upstairs
@@ -1433,7 +1440,7 @@ and || then || you || get || up || to play || with || something || else dont || 
 we || must look || for || the train driver Thomas
 yes
 because || he || has gone missing || hasnt || he
-with || the train || set || now || weve || got || the horse rider || we havent || got
+with || the train || set || now || weve || got || the horse rider || we || havent || got
 I || suspect || hes || in || the garden
 I || think || perhaps || you || threw || him || down || when || we || were having || a meal
 weve not || eaten || many meals || outside || have || we
@@ -1455,6 +1462,7 @@ dont || get || the big box || out || as || well Thomas
 its the big train
 oops
 watch || your feet || because || youve nothing || on || your feet || have || you
+big
 here || you || are || Mummy
 thank || you
 here || you || are || Mummy
@@ -1480,7 +1488,7 @@ when || youre || in || the house || ready || for || bed
 wind Thomas || now
 wind Thomas || now
 wind Thomas || now
-youd || like || to wind || it || up || you
+youd || like || to wind || it || up || would || you
 helicopter
 a helicopter
 thats || right
@@ -1495,6 +1503,7 @@ the other side || of || the helicopter
 0
 oh || dear
 do || you || wanna || do || that
+0
 oh dear dear
 tired || now
 pick || your blanket || up || go and lie || down

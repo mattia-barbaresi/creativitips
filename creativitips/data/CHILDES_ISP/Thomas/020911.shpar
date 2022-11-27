@@ -22,7 +22,7 @@ the big one
 yes
 hm
 no
-I || bet || you didnt || really || you
+I || bet || you didnt || really || did || you
 yes
 did || you
 yes
@@ -117,7 +117,7 @@ look
 my horse
 a horse
 yes
-its || like || yours isnt || it
+its || like || yours || isnt || it
 its mine
 no
 it || isnt
@@ -126,7 +126,7 @@ look
 the doggys || coming
 doggy || coming
 yes
-would || you || like
+would || you || like || to
 would || you || like to put || the horse || there || to come
 its not fit
 well || yes
@@ -148,6 +148,7 @@ hold || it || down
 let go || the horse || is stopping
 0
 you || wait
+wait
 wait
 yes
 would || you || like to put || somebody || else || in || there || to
@@ -268,6 +269,7 @@ not || bounce || out || now
 stop || it
 playing
 oh whats || happening || with || the balls
+0
 thank || you chocolate balls
 oh
 a clever girl
@@ -326,7 +328,7 @@ yes
 and || Nana || Mummy
 and || Nana || Mummy || three || of || us || to hold || your hand
 where || has || it || all || gone
-do || you || know || if || you || tips || all down everything || is going to fall || on
+do || you || know || if || you || tips || all down everything || is going to fall || on || the
 we dont || want || that
 look
 laughs
@@ -376,7 +378,7 @@ would || you || like || to || blickt something
 Dimitra || I || wanna || 0 baby penguin
 is || that || a baby penguin
 no
-I wanna
+I || wanna
 I || want || one
 you || have
 you wanna || have || a baby penguin
@@ -529,7 +531,7 @@ you || dont || like || Mummy
 no
 you || liked || me || when || you || bumps || your head
 yes
-you || liked || me || when || I || gave || you || a cuddle and chocolate ball || did n't
+you || liked || me || when || I || gave || you || a cuddle and chocolate ball didnt
 0
 big fat nose
 have || you || got || a bump || on || your head || now
@@ -556,7 +558,7 @@ just || a minute || because || weve || got || some things || in || here that
 are || you || going to go || to || the shops || now
 yes
 my money || my shop
-these things || are || a little bit || small || for || you || to play || with || so we || hid
+these things || are || a little bit || small || for || you || to play || with || we || hid
 right
 the shop || is || here || on || the table
 shop || is || here
@@ -570,7 +572,7 @@ yes
 yes
 I || am || a supermarket
 Thomas
-ah || is || it Thomass
+ah || is || it || Thomass
 yes
 right
 um || I || come || buy || some things || from || you || then
@@ -633,7 +635,7 @@ yes
 because || eggs || are || very fragile arent || they
 yes
 they || break
-now || when || Dimitra || comes || to || your shop || asks || for || some eggs || you || 'll
+now || when || Dimitra || comes || to || your shop || asks || for || some eggs youll
 yes
 your shop
 my shop
@@ -713,6 +715,7 @@ hey
 Thomas no
 not || in || your mouth
 hey hey
+not
 I || 0am || Thomas
 I || 0am || supermarket
 youre
@@ -742,7 +745,7 @@ shall || we || put || everything || in || there || now
 yes
 my putting || in || there
 Im || trying to think
-Im || trying to think || what || it || was || you useta || play || with || you || useta
+Im || trying to think || what || it || was || you useta || play || with || you useta
 because || you || useta tap || on || it || as || if || you || were
 tap || now
 prices
@@ -755,13 +758,13 @@ a bit heavc
 or || a lot || of || money
 wheres || the moneys
 well || thats || your purse isnt || it
-the purse || is || what || you || take || to || the shops || with || some money || in
+the purse || is || what || you || take || to || the shops || with || some money || in || the
 um
-what || was || it Thomas
+what || was || it || Thomas
 you useta || play || with
 do || you || remember
 yes
-you || were playing || at || shops || you || useta tap || in || as if || you || were
+you || were playing || at || shops || you || useta tap || in || as || if || you || were
 the till
 yes
 I || cant || remember
@@ -919,8 +922,8 @@ got || lots
 oh || yes
 certainly
 you || can do || that || with || pleasure
-Ive || got || some fruit || some milk || some yoghurt and Ive || come
-I || think || I || did || slightly better || than || Dimitras || buy || two get four || free
+Ive || got || some fruit || some milk || some yoghurt || Ive || come
+I || think || I || did || slightly better || than || Dimitras || buy || two || get || four free
 um
 oh I || got || some more
 yes
@@ -1002,15 +1005,19 @@ not || need || this baby fire engine
 my fireman
 look
 well || you || carry || on || being || a fireman
+Ill
+my
 my fireman
 I || know youre || a fireman || Im || to have || a little || look || at || this
 no
 no Mummy
 why
+no
 not carry || this
 well || we || not just leave || it || there
 no
 in || case || we || need || back || up
+no
 if || its a big fire || you || might need || another fire engine
 no
 no
@@ -1065,7 +1072,7 @@ yes
 my I || hide || one || now
 I 0am || hiding || one
 youre || hiding || one
-um I 0am
+um || I || 0am
 Thomas || you || like to read || this || to || me
 oh youve || got || a poorly hand || as well
 no
@@ -1078,7 +1085,7 @@ its a good job || there arent || any eggs || in || that or theyd break
 my legs || hurting
 I || think || it || needs || a bandage
 no
-oh it's
+oh || its
 oh its sore
 youre || taking || my hand || away too
 oh I || think || my saw something
@@ -1124,7 +1131,7 @@ what || are || you || building
 a big tower
 a big lot || of || bricks
 oh || right
-we || saw || some men || building || a wall || this morning || in || Didsbury || did
+we || saw || some men || building || a wall || this morning || in || Didsbury didnt
 yes
 ap || build || them || with || my hammer
 want || my hammer
@@ -1211,6 +1218,7 @@ yes
 I || probably || will start crying || if || you || say || that || to || me
 oh ow
 I || dont || think Dimitra || likes to listen || to || banging || either
+yes
 its not nice
 I || like || banging
 no
@@ -1344,7 +1352,7 @@ build || this || again
 youre || going to build || it || again
 yes
 its not fun
-whats || fun
+whats || not || fun
 oh || dear
 wheres || the other one
 its || on || the floor || near || Dimitras || big blue box
@@ -1474,6 +1482,8 @@ oh oh || dear
 hey hey
 ah Im peeping
 look
+no
+hey
 0
 a thing 0has || come || out
 its a money || out
@@ -1580,7 +1590,7 @@ a building site
 a building site
 yes
 more || like || a bomb site || in || here || isnt || it
-oh Thomas
+oh || Thomas
 all this hasta || be picked || up || you || know
 no
 are || you || going to wear || your hat || again
@@ -1674,7 +1684,7 @@ ah no cards
 weve || not || got || a tree
 no
 oh no
-do || you || think || weve || got || a turkey || for || lunch tomorrow
+do || you || think || weve || got || a turkey || for || lunch || tomorrow
 yes
 yes
 turkey

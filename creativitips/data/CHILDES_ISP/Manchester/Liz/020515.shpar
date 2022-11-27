@@ -133,9 +133,10 @@ six
 can || you || count || these tiny chicks
 one two three
 four five
+and
 four
 and || five || there
-and || so || thats || number
+and || so || thats number
 five
 number six
 six
@@ -809,6 +810,7 @@ its its big
 lets get || it || up
 oh
 these these || are || big
+thats
 look
 oh its nearly as big as that one isnt || it
 nearly || bigger

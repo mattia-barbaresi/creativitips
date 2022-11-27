@@ -103,7 +103,7 @@ hafta || take
 0
 you || 0are || poorly
 pardon
-you 0are
+you || 0are
 am || I || poorly
 yes
 am || I
@@ -253,7 +253,7 @@ no
 dont || they || have || orange centres || with || black
 er
 no
-I || wouldnt like to be || one hundred percent || sure || Im sure || they || 've
+I || wouldnt like to be || one hundred percent || sure || Im sure theyve
 www
 I || think
 Lara
@@ -662,14 +662,14 @@ listen
 what || do || you || do || if || you || wake || up || in || the middle || of || the night
 five minutes
 yes
-but || as long || as || you || tell || me || what || do || you || do || if || you || wake || up || in
+but || as long || as || you || tell || me || what || do || you || do || if || you || wake || up || in || the
 er dont || know
 yes || you || do
 what || do || you || do
 you || go back to sleep
 go || back || to || sleep
 and || what dont || you || do
-you dont + ..
+you || dont
 get || out || 0of bed
 or
 shout
@@ -687,11 +687,11 @@ go || back || to
 sleep
 and || what arent || you || going to do
 go
-youre || going || to || + ..
-youre || going || to || + ..
+youre || going || to
+youre || going || to
 0
 what arent || you || going to do
-youre || going to shout and youre not going || to || + ..
+youre || going to shout and youre not going || to
 get || out || of || bed || are || you
 hey
 go || there

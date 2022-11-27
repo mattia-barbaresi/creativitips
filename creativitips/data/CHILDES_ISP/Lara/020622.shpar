@@ -348,6 +348,7 @@ can || you || keep || it
 can || you || keep || my balloon
 can || I || kick || it
 dont || kick || it
+just
 go || round and round and round
 yes
 okay
@@ -494,7 +495,7 @@ shh
 shh
 what 0have || got
 pardon
-what 0have
+what || 0have
 what || got
 I || need || more
 you dont || need || more
@@ -558,6 +559,7 @@ dbldbldblc
 I wanna play sandcastles
 okay
 let || me || get || them
+sandcastles
 Im gonna || get || your birthday cake
 okay
 0
@@ -832,6 +834,7 @@ what 0are || doing
 look || what Im || doing
 yes
 what || is || it
+can
 pardon
 can || you || tell || me
 yes
@@ -1026,6 +1029,7 @@ no
 get || the nut || out || your mouth sweetheart
 thank || you
 can || I || eat || that || one please Lara
+um
 oh
 laughs
 laughs
@@ -1117,6 +1121,7 @@ shh
 shh
 shes || out || like || a light
 shall || we || turn || the light || off
+well
 turn || lights || off
 turn || the lights || off
 we || hafta be || quiet
@@ -1157,11 +1162,13 @@ www
 Lara
 I || think || thats || enough playing || with || the light
 turn || it || on || please
+I
 no
 dont youll || break || the bulbs
 turn || it || on || please
 no
 keep || it || on
+I
 whats || that
 hedgehog
 hedgehog
@@ -1269,6 +1276,7 @@ no
 no
 cheers
 www
+you
 www
 Lara
 what || happened || to || my story
@@ -1578,6 +1586,7 @@ Ill || have || pink
 do || you || want || one mum
 no thanks
 mummy doesnt || want || one
+0do
 no || thank || you
 do || you wanna || use || this spoon sweetheart
 I spoon
@@ -1628,6 +1637,7 @@ why
 you || can do || it || Friday
 you || can have || Friday mum
 thanks Lara
+what
 can || you || put || this || in || the bin || for || me
 what
 yes
@@ -1636,6 +1646,7 @@ Ill || do || it || in || a minute
 what story || are || we || going to have || tonight
 tell || mummy
 do || you || want || a Peter Rabbit story || a Monster story
+um
 what Lara
 www
 that || one there
@@ -1732,6 +1743,7 @@ can
 oh
 do || you || want || me || to lie || down
 okay
+wheres
 turn || light || off
 this light || off
 www
@@ -1747,7 +1759,7 @@ turn || it || off
 right
 now || come || down
 come || down
-youre || going to be || able || to play || with || it || at || all || if || you || do
+youre || going to be || able || to play || with || it || at || all || if || you || dont
 www
 in || here
 theyre || on || top || of || the sideboard sweetheart
@@ -1939,6 +1951,7 @@ Ill || be || a good boy
 right
 let || me || take || my shoes || off
 shoes || off
+thats
 okay
 are || you || ready
 oh || nearly

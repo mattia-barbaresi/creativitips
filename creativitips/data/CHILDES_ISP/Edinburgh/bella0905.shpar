@@ -63,9 +63,9 @@ hello || Mummy
 hello || Bella
 hello hello || ya
 hello
-hello Bella
-hello Bella
-hello Bella
+hello || Bella
+hello || Bella
+hello || Bella
 how || you || today
 Im good
 good
@@ -108,7 +108,7 @@ tee
 da da
 yiday
 da
-mhm whos || that
+mhm || whos || that
 puss whos || that puddy cat
 is || that Monty
 babble
@@ -145,7 +145,7 @@ nn || thats || the end
 laughs
 youre || doing || bad
 there || you || go
-oh what || is || it huh
+oh what || is || it || huh
 you || wanting
 oh || here || she || comes
 here || she || comes
@@ -243,9 +243,9 @@ ah
 come || to
 yay
 what || ya || want
-what ya || wanting
-what ya || wanting
-what ya || wanting
+what || ya || wanting
+what || ya || wanting
+what || ya || wanting
 what || is
 come || up || with || us
 you || want || ya milk
@@ -268,8 +268,8 @@ ah || what || ya
 all spilt
 cant || believe || it
 Im || here
-diddy dee diddy dee diddy dee & diddy
-doo whats || that || noise
+diddy dee diddy dee diddy dee diddy
+doo whats || that noise
 what || is || that noise
 what || is || that noise
 that noise || is || your milk || getting made

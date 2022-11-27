@@ -160,6 +160,7 @@ hello || Daddy
 hello man
 oh || yes
 and || the postmans || coming || as well
+postman
 www
 www
 woof woof
@@ -175,6 +176,7 @@ yes
 I || tell || you || what
 when || Daddy || goes
 theres || a big lorry || on || the way round || as well
+cleaning
 oh || right
 watching
 we || had || the road sweeper || round || the other day
@@ -247,7 +249,7 @@ mhm
 Nin Nin
 the white door
 white door
-you wanna
+you || wanna
 well || no
 we cant post anything || else || Thomas
 because || were || on || this side || of || the door
@@ -294,7 +296,7 @@ look
 Thomas I dont || know || what || has happened || to || the box
 no
 I dont || know || where || the box || is
-wheres 0the box
+wheres || 0the box
 door
 oh Ive || found || it
 yes
@@ -326,7 +328,7 @@ Daddy
 Nin Nin
 yes
 that || for || Daddy
-oh || is || for || Daddy || that || letter
+oh || is || for || Daddy || that letter
 a big bang
 big bang
 Nin Nin
@@ -416,7 +418,7 @@ two Smarties
 well || talking || of || Smarties
 were || going || to || Reardons party || because || Mummys || at || work
 mhm
-and weve || got || a card || for || him || so || later || on || when || Mummy || h || as
+and weve || got || a card || for || him || so || later || on || when || Mummy || has
 Jake
 Jo
 no
@@ -537,6 +539,7 @@ Nin Nin
 helicopter
 some breakfast
 no no
+helicopter
 I || think || Mummy || better || get || a cloth || wipe || this window ledge
 it || looks || like || Purdie || has been sitting || there || because || there || are
 Nin Nin
@@ -599,7 +602,7 @@ ap Nin Nin juice
 this || is || cardboard box || that || Mummy || made || into || a tunnel and bridge || for
 train train
 if || youre || having || Cornflakes || with || milk || though || Thomas
-you || mustnt get || your milk || onto || the cardboard || otherwise || it || 'll
+you || mustnt get || your milk || onto || the cardboard otherwise itll
 yes
 yes
 its noisy isnt || it
@@ -704,7 +707,7 @@ no touch
 no touch
 thats || right
 yes
-she || said || + " /
+she || said
 you || must never touch || the lights
 didnt || she
 yes
@@ -718,7 +721,7 @@ hello
 yes
 bye bye
 oh youre || pretending || to || phone || the Council
-where || you || saying || hello || having || a talk || to || somebody
+where || you || saying || hello || having || a talk || to || somebody || then
 yes
 and || then || a man || came || with || a machine didnt || he
 just || like || that one
@@ -740,6 +743,7 @@ no
 anything Pippin || the dog
 oh
 oh Purdie Purdie
+Purdie
 that || reminds || me
 I || was going to wipe || the windowsill wasnt || I
 yes
@@ -757,7 +761,7 @@ anything Pippin cant touch Thomas mustnt || touch || either
 no
 and || do || you || know || something Thomas
 hm
-if || Pippin || came to visit || us || in || this house || we || took || him || in
+if || Pippin || came to visit || us || in || this house || we || took || him || in || the
 yes
 he wouldnt || start pulling || the flower || heads || off || he
 no
@@ -779,7 +783,7 @@ anything Pippin doesnt || do || Thomas doesnt || do
 and || Pippin || would not pull || the heads || off || a flower || would || he
 no
 he || wouldnt
-are || the Cornflakes nice
+are || the Cornflakes || nice
 Cornflakes crunch
 crunch
 is || that || what theyre || doing
@@ -795,7 +799,7 @@ Purdies old || now || she hasnt || got || a lot || of || teeth
 no
 you || brush || your teeth dont || you
 mm
-and || did Aunty Mabel and Pippin || talk || about || tooth brushing and || going
+and || did Aunty Mabel and Pippin || talk || about || tooth || brushing and going
 that || Purdies
 here || it || is
 do || you || remember || the day || they || went || to || the factory || to see || the stripes
@@ -804,7 +808,7 @@ and || Aunty Mabel || went || to || the vet
 no
 she || didnt
 she || went || to || the Dentist || to have || her teeth || checked || didnt || she
-oh Pippin
+oh || Pippin
 are || you || telling || Pippin || off
 yes
 you || brush || your teeth dont || you
@@ -813,8 +817,8 @@ yes
 and || every night
 oh night
 no
-oh Pippin
-oh Pippin
+oh || Pippin
+oh || Pippin
 you || sound || like || you || might be telling || Pippin || off || for || something
 yes
 what || has || Pippin || done
@@ -823,6 +827,7 @@ Purdies || crunching
 yes
 oh Thomas crunching
 Thomass crunching
+Tom
 Purdie
 Thomas || crunching and || Purdie crunching
 yes
@@ -932,7 +937,7 @@ but || its not || the Georgia || whose Christening || we || went || to || the ot
 this || is || a different Georgia
 this Georgias || a much bigger girl || than || baby Georgia
 thats || the Cornflake packet || making || a crunchy sound
-theyre crunchy || to eat || theyre || crunchy || to get || in || out || of
+theyre crunchy || to eat || theyre || crunchy || to get || in || out || of || the
 oh mind || the train
 mind || the train
 yes
@@ -1048,7 +1053,7 @@ wash andp || down
 no
 not || a wash || down yet
 no
-youve || had || some Cornflakes || some bread but youve not || had || any
+youve || had || some Cornflakes || some bread but youve || had || any
 Ill || just || peel || you || an apple || you || can eat || that
 two pears
 two pears
@@ -1099,6 +1104,7 @@ lets have || an apple || first
 a apple
 no
 apple
+no
 Mummys || blowing || her nose
 what || she || have said
 excuse || me
@@ -1106,16 +1112,18 @@ oh
 what || did || Thomas || say || yesterday || when || you || made || that rude noise
 what || you || say
 no
-you || said || + " /
+you || said
 excuse || me
 no apple
 no || please
 no apple
+no
 no apple
 no
 no apple
 no
 oh I || thought || you || liked || apple
+no
 no apple
 no apple
 well || Im || going || to || peel || it || cut || it || anyway
@@ -1203,7 +1211,7 @@ Po ap taxi
 Po || in || a taxi
 yes
 yes
-well || we || 'll
+well well
 yes
 I || think || we || better || take || Po || with || us || to || Spain dont || you
 yes
@@ -1248,7 +1256,7 @@ ap bed ap
 it || was || about six oclock || this morning
 you || were crying || werent || you
 I || think || you || must have had || a bad dream
-was || Thomas || crying
+was || Thomas crying
 you || were || a bit upset werent || you
 yes
 had || you || had || a bad dream

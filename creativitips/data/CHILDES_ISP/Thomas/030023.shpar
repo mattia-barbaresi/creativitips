@@ -128,6 +128,7 @@ hello
 shop
 is || it || open
 yes
+it
 yes
 it || is
 hello
@@ -186,7 +187,7 @@ is || the shop || open
 yes
 oh || hello
 could || I || have || three more tomatoes || please
-the other three || were || delicious || um || I || didnt || buy || enough || because
+the other three || were || delicious || um || I || didnt buy || enough because
 um || I || have || three
 have || you || got || three || left
 yes
@@ -386,6 +387,7 @@ yes
 Mummy
 I || got || them || in || the postoffice
 right
+well
 did || I || actually || pay || for || those two stamps Thomas
 for || Grandads birthday card
 can || you || reach || alright darling
@@ -465,7 +467,7 @@ I || think || its time || I || turned || the cooker || off || now
 laughs
 we || usually || do || a tape || before || Mummy || goes to work || on || a Wednesday
 yes
-we didnt || manage || it || this morning || we
+we didnt || manage || it || this morning || did || we
 so || it || has got to be || teatime instead
 right
 has || Ginger || gone || away now
@@ -555,8 +557,8 @@ just smell || this
 it || smells || ever || so strong
 did || you || know || what || an onion || smelt || like || before
 I || dont know
-can || you || smell
-does || it || smell || nice
+can || you || smell || that
+does || it || smell nice
 nice || strong
 yes
 it || is
@@ -573,7 +575,7 @@ does || Grandad || grow || onions
 yes
 Grandad Lastname
 Grandad Lastname || Grandad Bielbie
-they || both || grow onions dont || they
+they || both || grow onions || dont || they
 they || grow || lots || of || things || in || their garden
 yes
 and || then
@@ -582,7 +584,7 @@ yes
 well || Grandad Bielbie || has got || a a shed too
 so || 0has Grandad Lastname
 yes
-well || Grandad Lastname || has || a greenhouse || Grandad Bielbie || does
+well || Grandad Lastname || has || a greenhouse || Grandad Bielbie doesnt
 no
 green clawsc
 green clawsc
@@ -621,7 +623,7 @@ and || the money || too
 yes
 that money || keeps turning || up || doesnt || it
 yes
-I || do think || it || would be || more sensible || if || you || put || the money || in
+I || do think || it || would be || more sensible || if || you || put || the money || in || the
 before before || it || gets lost
 that || would be || a shame wouldnt || it
 um
@@ -630,7 +632,7 @@ tea || is cooked
 wow
 wow
 I || think || its cool enough || to eat
-so || we || just || tidy || away || for || a moment || we || can play || with
+so || we || just || tidy || away || for || a moment || we || can play || with || the
 Im || playing || it
 not || it || away
 no
@@ -644,7 +646,7 @@ yes
 oh || I || see
 ah || right
 yes
-thats || a little place || you || can swipe || it isnt || it
+thats || a little place || you || can swipe || it || isnt || it
 shall || I || load || up || the shop || just || before || we || shut || for || the night
 yes
 Ill || restock || the shelves || with || cornflakes and biscuits
@@ -667,6 +669,7 @@ right
 the shops || nicely || stocked || now
 right
 shall || we || change || the sign || now
+well
 Mummy some letters || in || there
 are || there
 yes
@@ -678,6 +681,7 @@ well put || the sign || up || that || says || closed
 yes
 yes
 and
+then
 why || why || dont || you || empty || the postbox || all the letters
 you || be || a sorting office
 Im || going to be || a sorting office || am || I
@@ -689,7 +693,7 @@ postmans || ringing || the bell
 is || he
 yes
 oh well || you || could let || the postman || in
-because || the postman || needs || to || um || collect || all the letters || does
+because || the postman || needs || to || um || collect || all the letters doesnt
 right
 there || we || are
 the shops || closed || now
@@ -719,7 +723,7 @@ then || the shop || then || some letters || went || in
 oh theyll hafta wait || for || the morning collection || now || wont || they
 right
 thats || it
-well people || can still post || letters cant || they
+well people || can still post || letters || cant || they
 in || the postbox
 even || though || the Post Office || the shop || is shut
 no
@@ -841,7 +845,7 @@ would || you || like to try || one || of || the tomatoes || that || we || bought
 no
 theyre || very good || for || you Thomas
 I || 0have got || lots || of || pasta || here
-you || have || havent you
+you || have || havent || you
 its nice
 would || you || like || some baked beans
 um
@@ -917,7 +921,7 @@ yes
 and || we || can see || where || Robert || sleeps || from || here
 no
 um yes
-so || I dont || think || Robert || could see || you || now || because || he || wouldnt be
+so || I dont || think || Robert || could see || you || now || because || he wouldnt || be
 and || we couldnt || see || whose car || that || was || because of || the trees
 but || we || could hear || it || it || was || very noisy wasnt || it
 yes
@@ -977,7 +981,7 @@ and || its the same cry
 and || if || youre || hurt
 if || youre || poorly || thats || a different cry
 and babies || have || a different cry || when || theyre cross
-when || theyre || very frustrated || they || want || something || they || ca
+when || theyre || very frustrated || they || want || something || they cant
 a bad tempered cry
 yes
 pardon
@@ -1004,6 +1008,7 @@ yes
 yes please
 yes please
 well || what || about || some cheese
+0
 would || you || like || some cheese || as well
 yes please
 and || what || about || a drink
@@ -1065,7 +1070,7 @@ um
 its nice
 the toast || is || on || that floor
 whats || on || the floor
-I || mean || Im || talking || last night || you 0
+I || mean || Im || talking || last night || you 0 || hot
 oh || yes
 youre || saying || last night || when || I || made || hot buttered toast
 it wasnt || last night
@@ -1114,7 +1119,7 @@ weve || never || hadta || throw || pasta
 last night || it || 0 || very dark || smoky
 0 I || saw || lots || of || clean ones
 I || saw || a dirty one
-a clean and dirty what darling
+a clean and dirty || what darling
 that pasta
 last night || I || threw || very hard || on || that ground
 its really big fire
@@ -1128,9 +1133,9 @@ then || ladys and Missus Price
 oh || well || its obviously Fireman Sam || because || Missus Price || is || on
 yes
 emergency || when || Missus Price
-uh Missus Price || said || + " /
+uh Missus Price || said
 0 your Stations || on || fire
-Missus Price || said || + " /
+Missus Price || said
 your Stations || on || fire
 yes
 was || she || talking || to || Fireman Sam || when || she || said || that
@@ -1215,7 +1220,7 @@ no
 no
 dont || do || that
 now || what || happened || with || that strawberry
-what one
+what || one
 this one
 no
 the strawberry
@@ -1279,7 +1284,7 @@ please
 I || have || it || on || here || this table
 its going nee nao nee nao
 no no
-you || can have || your little fire engine || not || the one || that || makes
+you || can have || your little fire engine || not || the one || that || makes || the
 no
 really
 Mummy || has had || a busy day || at || work
@@ -1310,7 +1315,7 @@ whos || on || fire
 Jeannine
 Jeannine
 yes
-you cant || say || Jeannine || you
+you cant || say || Jeannine || can || you
 no
 I || call || him || Jean
 you || call || her || Jean
@@ -1336,7 +1341,7 @@ just once || more
 no
 your once more || is || always || about || ten times || more
 no Thomas
-you || can play || with || the engine but youre || to keep pressing
+you || can play || with || the engine but youre || to keep pressing || the
 I dont || want || any noise || at || the moment || thank || you
 I || need || a wash || down
 no
@@ -1393,7 +1398,7 @@ good boy
 you || can still talk || to || me cant || you
 I || cant || talk
 yes
-when || youre || sitting || on || your potty || you || can still talk || to || me || ca
+when || youre || sitting || on || your potty || you || can still talk || to || me cant
 yes
 there || you || are
 I || need || it || very dark
@@ -1518,6 +1523,7 @@ Daddy Isabels Daddy
 oh more || like || Rod
 look
 what || love
+those
 oh midgeysd
 did || you || see || two midgeysd || outside || the patio door
 two midgeysd dancing

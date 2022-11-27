@@ -7,7 +7,7 @@ hello || Bow
 0
 are || you || running || around
 oh ooh
-youre a sillybilly arent you
+youre a sillybilly arent || you
 come || on || Purdie
 there || you || go || Puss || out || you || go
 go || on || out || you || go || Puss
@@ -215,7 +215,7 @@ no
 what || you || like || for || breakfast || this morning
 juice
 juice
-yes || you || can have || some fruit juice || what else
+yes || you || can have || some fruit juice || what || else
 chips
 chips
 you cant || have || chips || for || breakfast
@@ -235,7 +235,7 @@ a big mess
 poo
 wheres there || a mess
 poo
-what your feet
+what || your feet
 do || they || smell
 yeah
 well || they || shouldnt
@@ -295,7 +295,7 @@ weve || still || got || your teeshirt and shirt || to put || on
 Bow door
 yes Purdies || still || at || the door
 I dont || think || shes || too worried || about || going || out
-I || think || shes || just looking || through || the glass || to see || what's
+I || think || shes || just looking || through || the glass || to see || whats
 um
 Bow
 yes
@@ -340,7 +340,7 @@ do || your shirt || up
 you || look || a smart boy || today
 pop
 pop
-we || always || hafta || dress || you || nicely || when || Grandma and Grandad || come
+we || always || hafta || dress || you || nicely || when || Grandma || Grandad || come
 no
 they || do
 see || you Nin Nin
@@ -432,7 +432,7 @@ Nin Nin
 mhm
 aah Bow
 I || know
-we || love || her || very much || really || dont || we Thomas
+we || love || her || very much || really || dont || we || Thomas
 there || you || are || Puss
 Puss food
 thats || right
@@ -444,12 +444,12 @@ ap Bow || done
 shes || still || here
 Nin Nin
 yack Bow
-no || shes || not dirty || Mummy hasta || wash || her hands || after || she || h || as
+no || shes || not dirty || Mummy hasta || wash || her hands || after || she || has
 no no no
 other juice
 another juice
 thats orange juice
-shes || dirty || you || do || hafta || wash || your hands || when || you || 've
+shes || dirty || you || do || hafta || wash || your hands || when || youve
 because || she || has been playing || out || in || the garden
 when || youve || been playing || out || in || the garden || we || make || you || take || your
 no
@@ -491,7 +491,7 @@ Mummys || filling || the kettle || so || she || can make || herself || a cup || 
 Bows food || all || done
 thats || right
 Bows food || all || done
-thats || a little bit || left || from || last night || that || she didnt || want || so
+thats || a little bit || left || from || last night || that || she || didnt want || so
 whos upstairs
 whos upstairs
 Daddad
@@ -504,7 +504,7 @@ choo choosf
 is || that || what || you || want
 the choo choosf
 there || you || are
-you || can play || with || those || while || youre || eating || your breakfast || ca n't
+you || can play || with || those || while || youre || eating || your breakfast cant
 Nin Nin
 Nin Nin
 shall Mummy || put || some toast || in || the toaster || now
@@ -544,8 +544,8 @@ Mummys || making || herself || some tea
 in || the little teapot
 teapot
 teapot
-we || put || a teabag || into || the teapot and Ill || pour || on || boiling || water
-after || a few minutes || brewing || pour || it || pour || it || into || Mummy's
+we || put || a teabag || into || the teapot and Ill || pour || on || boiling water
+after || a few minutes || brewing || pour || it || pour || it || into || Mummys
 whos this || now
 Daddad
 its Daddy
@@ -593,7 +593,7 @@ it || hasnt broken
 its just weve || put || it || a different way || up || this morning havent || we
 Daddys || going || out
 choo choosf ap || broke
-choo choosf || a || broke
+choo choosf || a broke
 you || can clip || them || up || together very well || cant || you
 choo choosf || in || there
 juice
@@ -602,7 +602,7 @@ juice
 choo choosf ap juice
 choo choosf ap juice
 no
-no the juice wont fit || in || the back || of || the trailer || because
+no the juice wont fit || in || the back || of || the trailer || because || the
 Nin Nin
 yes
 choo choosf ju ju ju
@@ -632,7 +632,7 @@ I || tried || to || hook || it || on || the hook || it || fell || off || didnt |
 so || are || you || going to be || a good boy || today Thomas
 no
 no
-Im || going to be || able || to leave || you || if || youre || not going to be
+Im || going to be || able || to leave || you || if || youre || not going to be || a
 oh dear dear
 oh dear dear
 Im not || doing || very well || this morning || am || I
@@ -648,7 +648,7 @@ no
 oh dear || Thomas
 oh dear dear
 where || 0has Daddad || gone
-Daddy || has just gone || to || Lisas house || to return || two books
+Daddy || has just gone || to || Lisas house || to return || two books || that
 she || wanted || them || back || this morning || before || she || went to work
 so || he || has only gone || to || a house || just || round || the corner
 hell || be || back || very soon || wont || he
@@ -726,7 +726,7 @@ Ive || put || some butter || on || this toast
 juice all || gone
 youve drunk all your juice
 juice
-you || must be || very thirsty || this morning || because || yesterday || you || did
+you || must be || very thirsty || this morning || because || yesterday || you didnt
 mos ap juice
 yes Ill || get || you || some more juice
 just || let || me || put || some Marmite || on || the toast
@@ -820,7 +820,7 @@ ap tea || gone
 where || has || the tea || gone
 or || where || has || cheese || gone
 if || you || said || tea || its upstairs || with || Daddy
-and || if || you || said || cheese || its || here || Im || just || to spread || it || on
+and || if || you || said || cheese || its || here || Im || just || to spread || it || on || the
 oops || oh || dear
 oh || dear
 have || you || dropped || the juice
@@ -935,7 +935,7 @@ well || I || think || she || is
 she || has got || a beautiful coat
 a big fluffy tabby cat
 mm
-and tomorrow || were going || to || York || to see || the other Grandma
+and tomorrow || were going || to || York || to see || the other Grandma and
 weve not || seen || them || for || quite a while
 are || you || going to be || a good boy
 no
@@ -977,6 +977,7 @@ well || put || some more biscuits || on || see || if || youll || eat || it
 they || make || a nice rattling sound Thomas dont || they
 listen
 Purdies biscuits
+Bow
 a lot || smaller || than || our biscuits || arent || they
 chocf all || gone
 I || beg || your pardon
@@ -984,12 +985,12 @@ no this || is || toast and marmalade
 it || isnt || chocolate
 choc chocf
 choc chocf || no
-choc choc || f
+choc chocf
 mhm
 juice || in || there
 Mummy cant talk || now || because || she || has got || a mouth || full || of || toast
 ap juice ap choo choosf
-oh || have || you || put || some || of || the cornflakes || on || the train || with
+oh || have || you || put || some || of || the cornflakes || on || the train || with || the
 no
 have || you || finished
 good boy
@@ -1053,6 +1054,7 @@ aah
 ap this
 Nin Nin
 mhm
+this
 you || have || your plate || with || some toast || on || it || youve || got
 oh youre || eating || Mummys toast || are || you
 does || Mummys toast taste || nice || than || yours
@@ -1089,13 +1091,13 @@ we || read || that story || last night || about || the caterpillar || whose tumm
 do || you || remember
 0
 mm thats || right
-it || was || about || a little egg || on || a leaf || when || the sun || came || up || in
+it || was || about || a little egg || on || a leaf || when || the sun || came || up || in || the
 pop
 thats || right
 out of || the egg || popped || a caterpillar
 he || was || tiny || very hungry || wasnt || he
 and || he || ate || through || a lot || of || food || in || a week didnt || he
-I || think || it || was || apples pears strawberries oranges plums || I || ca
+I || think || it || was || apples pears strawberries oranges plums || I cant
 and || then || on || Saturday || he || had || an absolutely enormous feast
 he || had || a piece || of || chocolate cake || an icecream cone || a slice || of
 what else || did || he || have
@@ -1114,7 +1116,7 @@ that || was || the picture || with || all the brown circles || he || stayed
 pop
 pop
 he || popped || again
-he || popped || out || of || the cocoon || he || was || beautiful butterfly || was
+he || popped || out || of || the cocoon || he || was || beautiful butterfly wasnt
 more ap || do
 you || want || me || to say || it || again
 well || its not || as || easy || saying || it || again || without || the book Thomas
@@ -1290,7 +1292,7 @@ Nin Nin
 yes
 pear
 its apple Thomas
-youd || had enough hadnt || you || until || I || put || it || in || the pink box
+youd || had enough hadnt || you || until || I || put || it || in || the pink box || then
 Thomas Lastname
 what || do || you || say
 youre || making || very rude noises || this morning

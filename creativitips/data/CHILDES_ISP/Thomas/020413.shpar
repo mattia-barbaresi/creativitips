@@ -50,6 +50,7 @@ and || its not || a very nice day || for || them || today
 its raining isnt || it
 yes
 have || they || gathered || all the black bags || up || into || a pile
+yes
 did || you || see || Linda || coming || out || with || a bin bag
 yes
 hello || Linda
@@ -95,6 +96,7 @@ I dont || think || it || makes || that || noise Thomas
 Ive || never || heard || it
 0
 Mummy
+0
 yes
 oh || its such a miserable day || today Thomas isnt || it
 mhm
@@ -236,7 +238,7 @@ mhm
 Daddy || has gone || upstairs || to read || his newspaper
 cars
 yes
-youve || got || all your cars || lined || up || on || the window bottom || have
+youve || got || all your cars || lined || up || on || the window bottom havent
 on || the window sill
 were || you || playing || with || them || earlier
 one man
@@ -276,10 +278,12 @@ what || have || you || done
 tipped || all the bricks || on || the floor
 0
 Thomas we dont wanna bang || the drum
+0
 Daddy || has just come || home || Daddy || wanted || a bit || of || peace
 he doesnt wanna || listen || to || drums || being bashed
 0
 well || do || that || later || Thomas
+0
 to || park park
 we cant || go || to || the park Thomas
 its pouring || with || rain
@@ -315,7 +319,7 @@ no no
 0
 Mummy
 do || it
-whats || this || coming
+whats || this coming
 this || is || a big box
 a baby one
 do || you wanna || have || a look || at || it
@@ -364,6 +368,7 @@ yes
 open || the box
 open || the box
 yes
+Thomas
 Thomas
 help
 Thomas
@@ -676,7 +681,7 @@ yes
 because || the driver || waved || at || you || this week didnt || he
 yes
 I || think || he || must know || that || youre || waiting || for || him
-I || think || he || looks || inside
+I || think || he || looks || inside || the
 and waves || at || us
 no
 dont climb || up there || now
@@ -866,7 +871,7 @@ ap Pippin
 Pippin || went || got || help
 mhm
 but || what || had happened
-was || there a fire
+was || there || a fire
 yes
 ap
 fire 0 Pippins house
@@ -914,6 +919,7 @@ very posh
 oh Ive || found || another piece || on || the floor
 look
 this || is called || a people carrier
+a
 yes
 our friend Gavin and Gabrielle || have || a people carrier
 yes
@@ -1050,7 +1056,7 @@ shapes
 here || you || are || Mummy
 you || are || a clever boy || because
 ah arent || you || clever
-that || really || is || clever || because || when || Mummy || said || you || pass
+that || really || is || clever || because || when || Mummy || said || you || pass || the
 so thats very clever
 lets have || a look || at || these then || together || shall || we
 what shape || is || that
@@ -1105,12 +1111,13 @@ yes
 can || you || see || this table
 thats || square
 square
-and || whats || this
+and || whats this
 yellow
 its yellow but what || is || it
 a circle
 yes
 its round
+yellow
 ah a circle || is || round Thomas
 like || the wheels || on || these vehicles
 and || theres || a green circle || here
@@ -1125,7 +1132,7 @@ roll
 a round shape || to roll
 round one
 0
-are || you || going to put || the shapes || back now
+are || you || going to put || the shapes || back || now
 oh || have || you || found || your toy telephone
 Mummy Mummy
 ring
@@ -1149,13 +1156,13 @@ ap playing ap toys
 bye bye
 did || you || say || hello Im || playing || with || some toys || said || goodbye
 yes
-ah || do || you || think || you'd
+ah || do || you || think || youd
 ah youre || giving || them || a kiss
 thats || lovely
-would || you || like to talk || to || them || again || tell || them || what sort || of
+would || you || like to talk || to || them || again || tell || them || what || sort || of
 Mummy
 ring
-Ill dial || the number || you || tell || them || what || sort || of || things || you || 've
+Ill dial || the number || you || tell || them || what || sort || of || things youve
 its a jigsaw isnt || it
 oh hello Grandma
 yes
@@ -1169,10 +1176,10 @@ did || you || drop || the phone
 tell || them || what toys youve || been playing || with
 play || ap toys
 bye bye bye bye
-ah youve || given || them || a || you || didnt tell || them || what sort || of
+ah youve || given || them || a || you || didnt tell || them || what || sort || of
 its a jigsaw || made || with || all different sorts || of
 jigsaw
-jigsaw || made || up || of || all different sorts || of || vehicles isnt || it
+jigsaw || made || up || of || all different sorts || of || vehicles || isnt || it
 bye bye
 theres a car || a van || another car
 hello
@@ -1388,6 +1395,7 @@ her toes || are || on || the end || of || her foot
 oh || whats || this
 her eyes
 when || her eyes || are closed || shes || asleep
+sleep
 open
 open
 thats || right
@@ -1397,7 +1405,7 @@ open || the
 whats || happening || now
 open the Sue eyes
 whats || happening || now || Sue
-were || you || telling || Sue || to open || her eyes || then saying || what's
+were || you || telling || Sue || to open || her eyes || then saying || whats
 what || can || Sue || see
 a big tummy
 a big tummy
@@ -1423,7 +1431,7 @@ hello Nana andp Grandad
 a Sue || no well
 shes || poorly || isnt || she
 poorly || good nights || sleep
-shell || get || better || if || she || sees || the Doctor || has || a good night's
+shell || get || better || if || she || sees || the Doctor || has || a good nights
 Thomas || poorly
 Thomas || is || poorly
 no
@@ -1433,7 +1441,7 @@ the Thomas || poorly
 no
 Thomas || is || poorly
 Thomas || sleep || ap || poorly
-I || keep thinking || youve || got || a cough || then I half wonder || if || you || 're
+I || keep thinking || youve || got || a cough || then I half wonder || if || youre
 bin men || comes
 bin men
 oh the bin men wont || be coming || now || till || next week
@@ -1459,7 +1467,7 @@ man
 a man || there
 yes
 the mans || opening || his car boot
-hes || opening || his car boot || the ladys || looking || in || her bag || for
+hes || opening || his car boot || the ladys || looking || in || her bag || for || the
 shut || door
 two handbags
 two bags
@@ -1488,6 +1496,7 @@ yes
 thats || right
 when || we || met || Jo one day Jo || was talking || to || that lady || who || was walking
 the dogs || called || Candy
+Candy
 bye bye Candy
 we useta || see || a lot || of || Candy || last Summer
 ap Candy
@@ -1512,7 +1521,7 @@ you || carry || it || very || very carefully || into || the kitchen
 just || pop || it || on || the work surface || for || Mummy
 a mess
 I || know || youve || got to get || through || all this mess || first
-I || think || we || needta || tidy || up || soon dont || you
+I || think || we || needta || tidy || up || soon || dont || you
 put || all these cars and bricks || away
 thats || a good boy
 be || careful

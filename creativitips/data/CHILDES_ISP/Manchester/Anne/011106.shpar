@@ -433,7 +433,7 @@ wheres || my || Mummy
 here
 there
 wheres || the little horse
-Mummy horse || says || + " /
+Mummy horse || says
 wheres || my baby
 wheres || the baby horse
 oh
@@ -442,7 +442,7 @@ where || Mummy
 there
 are || they || happy || now
 yeah
-and || the pig || says || + " /
+and || the pig || says
 wheres || my baby
 ah
 are || they || alright || now
@@ -453,7 +453,7 @@ oh
 the little lambs || going || for || a walk
 wheres || he || going
 up || here
-and || the sheep || says || + " /
+and || the sheep || says
 wheres my m baby
 wheres || my baby
 in || there
@@ -481,6 +481,7 @@ baby || sleeping
 baby || sleeping
 right
 horse || like || sleep || lie || down
+cover
 pardon
 down
 you || want || the cover
@@ -664,6 +665,7 @@ that
 thats || right
 a big jumps
 its tricky isnt || it
+ready
 jump
 oh
 its a bit tricky
@@ -1060,7 +1062,7 @@ there
 under || the bridge
 is || it || going || under || the bridge
 can || the giraffe || come || under || the bridge
-he || says || + " /
+he || says
 no
 Im || too || tall
 there || he || goes
@@ -1354,7 +1356,7 @@ babys cake || down || there
 babys || cakes || there
 baby
 err
-she || says || + " /
+she || says
 I || dont || like || cake
 she doesnt || like || cake
 err
@@ -1622,7 +1624,7 @@ theres || Sam the farm dog
 Sam || can hear || a chugging noise
 what || that || be
 what || does || the elephant || think || it || is
-he || says || + " /
+he || says
 I || think || its a
 doggie
 doggie

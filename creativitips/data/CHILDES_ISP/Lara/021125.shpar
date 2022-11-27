@@ -151,6 +151,7 @@ there || he || is
 look
 oh || right
 hes || a || funny
+wheres
 oh
 hes || got || something || stuck || to || him
 thats || why || he || looks || funny
@@ -161,7 +162,7 @@ right
 good morning madam
 you || be || the lady || having having || her hair cut
 good morning madam
-you hafta || say || + " /
+you || hafta say
 good morning hairdresser
 good morning hairdresser
 how || you || like || your hair || today
@@ -232,12 +233,12 @@ theres || a man
 right
 Ill || be || the lady
 you || be || the hairdresser || now
-Id || just || like || er || my hair || cut || short
+Id || just || like || er || my hair || cut || short || please
 I || like || a bit || of || my hair || cut || short || please
 Im || the lady
 youre || the hairdresser
 gab
-and || my lady || says || + " /
+and || my lady || says
 I || want || my hair || cut || short || please
 well || come || on || then
 youve || got to wash || it
@@ -257,10 +258,10 @@ money || please
 thank || you
 what || does
 0
-what
-what || do || you || mean || + " /
+what || does
+what || do || you || mean
 what || does || somebody || else wanna || come
-what
+what || does
 he || wants to go
 to go
 shes || getting || for || this
@@ -341,7 +342,7 @@ Amy || keeps going || backwards
 you || sillybilly
 what || do || you || want || me || to do
 0
-youre || going || + " /
+youre || going
 mummy mummy mummy
 Im || going || backwards
 Im || falling || under || the chair
@@ -411,15 +412,15 @@ what || do || you || say
 wah wah
 I || say || I || want || my dolly
 I || want || my dolly
-is || that || what || you || say || do || you || say || + " /
+is || that || what || you || say || do || you || say
 please || I || have || my dolly mummy
 which one || do || you || say
 Amys || got || it
 I || know
 well || which one || do || you || say
-do || we || say || + " /
+do || we || say
 I || want || my dolly
-or || do || we || say || + " /
+or || do || we || say
 please || I || have || my dolly mummy
 please || I || have || my dolly mummy
 hooray
@@ -470,6 +471,7 @@ its || on || next week
 dont || break || it
 what || are || you || doing
 leave || that || on || please
+Im
 dont || break || it
 shall || we || put || it || on || Amy
 it || might fit || Amy
@@ -504,7 +506,7 @@ just || sort || it || out
 try || that || on
 try || that || on || Amy
 how || that || feel
-how || that || feel
+how || that feel
 do || you || think || you || look || nice || in || that
 think || you || look || nice || in || that
 let || me || just || do || it || up || for || you
@@ -715,6 +717,7 @@ well
 you || might || hafta || see || if || you || get || one || for || your birthday
 sings
 what || is || that || little red thing || in || there
+its
 I || dont know
 its just a little red thingy
 laughs
@@ -1082,11 +1085,11 @@ and theres Jess
 Im || just || going to make || a coffee
 do || you || want || a drink
 no thanks
-shes || upside down || she
+shes || upside down || isnt || she
 push || it || down || really hard
 like || this
 think || we || need || 0a bit || more glue
-because || it's
+because || its
 yours || is not sticking || any more
 I || need || a bit more glue
 stay || down
@@ -1620,7 +1623,7 @@ are || we || going to take || the pram
 no
 because || we || can put || Amy || in || the trolley
 have || you || got || all the bits
-I || think || youre || missing || one || of || the little little boys || are
+I || think || youre || missing || one || of || the little little boys arent
 youve || only || got || the little girl
 havent || got || the little boy
 oh
@@ -1655,7 +1658,7 @@ I wanna || go || fast
 I dont wanna || go
 I || wanna climb || up
 youre || not || allowed to climb || up
-says || mummy +
+says || mummy
 thats naughty
 youll fall and hurt || your head and hafta || go || to || hospital
 I || didnt
@@ -1686,8 +1689,9 @@ I dont || like || my sandwiches
 you dont || like || your sandwiches || either
 well
 dont || eat || them || you || wont get || anything || else
-says || Polly Pocket +
-and || I dont || want
+says || Polly Pocket
+I
+and || I || dont want
 eat || your sandwiches
 I wanna || sit || next || to || baby
 Im || going to get || the dinner || first
@@ -1941,7 +1945,7 @@ oh
 its difficult || going || in || the hair
 hooray
 oh
-he || says || + " /
+he || says
 Im || going to climb || up || Lara || now
 laughs
 no
@@ -1954,7 +1958,7 @@ I || think || thats || enough || of || that || then
 climb || up || you
 no
 hes || finished || now
-he || says || + " /
+he || says
 Im || tired || now
 can || I || go || to || bed
 yes
@@ -2004,7 +2008,7 @@ sit || down || at || the table
 are || we || going to sit || outside || are || we || going to sit || inside
 going || to || sit || inside
 okay
-little boys || going
+little boys || going || sit
 they 0are || going || 0to || sit || outside
 okay
 Im || going to sit || outside

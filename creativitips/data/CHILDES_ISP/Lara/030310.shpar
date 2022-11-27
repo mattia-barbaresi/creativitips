@@ -43,7 +43,7 @@ Im || dropping || them || on || here
 thats || a funny thing || to do
 I || bet || they || 0are not broken
 pardon
-I || bet || they
+I || bet || they 0are
 I dont || think || theyll || be broken || either
 uh || oh
 uh || oh
@@ -52,6 +52,7 @@ all the other children
 right
 twos || gone || on || there
 whats || happened || petal
+twos
 two || have gone || down || there
 er
 one || went || in || I || lost || it
@@ -74,7 +75,7 @@ hang || on || then
 coming
 hes || dropped || out
 hes || dropped || out
-we 0are
+we || 0are
 in || here
 not || there
 theres lots || of || marbles || here
@@ -194,6 +195,7 @@ lets || just || tidy || up || these books
 oh
 silly || mummy
 he || has got || a poorly
+he
 hes || sad
 can || you || read || that story || to || me
 yes
@@ -222,11 +224,11 @@ one || was || sleepy
 one || was || slow
 one || liked || her food || ever so
 come || lets || to || bed
-says || sleepyhead +
+says || sleepyhead
 stay || a while
-said || slow +
+said || slow
 put || on || the pan
-says || Greedy Nan +
+says || Greedy Nan
 lets eat || before || we || go
 whats || she || doing || now
 what
@@ -247,11 +249,11 @@ oh my goodness
 she || had || an icecream sundae || thick || with || nuts
 and || a tart || with || cherries || on || the top
 back || to || bed
-says || sleepyhead +
+says || sleepyhead
 stay || a while
-says || slow +
+says || slow
 lets put || on || the kettle
-says || Greedy Nan +
+says || Greedy Nan
 lets || have || something || just || before || we || go
 what || did || nan || have || then
 she || had || a glass || of || fizzy pop || drank || it || with || a straw
@@ -265,6 +267,7 @@ okay
 lets read || this and Ill || get || you || one
 she || had || a bag || of || jelly babies || red and green and yellow
 she || ate || them || one || by || one
+what
 greedy old nan || had || a great big tummyache
 shes || eaten || too much
 thats || it
@@ -390,7 +393,7 @@ you || follow || me
 well
 if || youre || going || you || might as well get || it
 after || I || have || an apple || I || have || a lolly || after
-you || can have || something || after || that apple || as || long || as || you || eat || it
+you || can have || something || after || that apple || as || long || as || you || eat || it || all
 bring || it || in || here
 Lara
 you || eat || all that apple
@@ -400,7 +403,7 @@ its juicy
 good
 can || you || give || it || to || to || me || I || sit || down
 thank || you
-if || you || eat || that || you || can have || a lolly
+if || you || eat || that || you || can have || a lolly or
 youve || got || one || a lolly || up || there || look
 your your sweetie bag
 are || you || going to watch || Peter Pan || the Pirates || this afternoon
@@ -475,11 +478,11 @@ one || was || sleepy
 one || was || slow
 one || liked || her food || ever so
 come || next || to || bed
-says || sleepyhead +
+says || sleepyhead
 stay || a while
-said || slow +
+said || slow
 put || on || the pan
-says || Greedy Nan +
+says || Greedy Nan
 lets eat || before || we || go
 what || did || nan hafta || eat
 she || had || bread and butter
@@ -489,9 +492,9 @@ one two three
 what || did || nan || have || then
 she || had || bubblegum || to || blow and blow
 next || to bed
-said || sleepyhead +
+said || sleepyhead
 no
-says || Greedy Nan +
+says || Greedy Nan
 lets sup || before || we || go
 what || did || nan || have || for || supper
 she || had || baked beans || on || toast
@@ -502,11 +505,11 @@ she || had || an icecream sundae || thick || with || nuts
 what || she || have || then
 she || had || a tart || with || cherries || on || the top
 next || to bed
-says || sleepyhead +
+says || sleepyhead
 stay || a while
-says || slow +
+says || slow
 put || on || the kettle
-says || Greedy Nan +
+says || Greedy Nan
 lets || have || something || just || before || we || go
 what || did || nan || have || then
 she || had || a glass || of || fizzy pop || drank || it || with || a straw
@@ -650,8 +653,8 @@ I || think || he || was stirring || up || the recipe || there wasnt || he
 pardon
 he || was stirring
 whats || happened || here
-clowns || doing || their + ..
-brushing || their + ..
+clowns || doing || their
+brushing || their
 what || are || you || doing
 you || crawler
 no
@@ -823,7 +826,7 @@ what type || of || car || is || it
 um its
 its a type || of || car black || is || it
 yes
-is || it || a Nova || like || mummys || a Peugot || like || grandads || is || it
+is || it || a Nova || like || mummys || a Peugot || like || grandads || is || it || a
 like || grandmas
 its a Rover || like || grandmas || is || it
 Rover

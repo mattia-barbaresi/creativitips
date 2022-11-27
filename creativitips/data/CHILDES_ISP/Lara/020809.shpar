@@ -491,7 +491,7 @@ is || the what
 is || the biscuits || ready
 is || the biscuits || ready
 yes
-but || well hafta || wait || for || after || Amys || had || her dinner || do
+but || well hafta || wait || for || after || Amys || had || her dinner dont
 why || have || you || got || pen || on || your nose
 well || wash || it || later
 we || will will || we
@@ -551,6 +551,7 @@ do || you || want || me || to do || your hair || again
 yes
 pardon
 and || the bobble
+yes
 yes || what
 and || the bobble
 yes
@@ -733,6 +734,7 @@ right
 ah
 this || is || difficult
 youre || in
+ready
 oh
 its a bit high
 er
@@ -770,7 +772,7 @@ wait || a minute
 you || do || this
 dont || pull || me || off || legs || right
 pardon
-you dont pull
+you || dont || pull
 oh || right
 shut 0the door
 whatre || you || doing
@@ -811,7 +813,7 @@ well
 no
 I || want shut
 yes
-but || I || wanna lock || the back door || because || otherwise || we wont || be || able
+but || I || wanna lock || the back door || because || otherwise || we || wont be || able
 can || you || shut || the door
 there
 right
@@ -1055,7 +1057,7 @@ yes
 I || have
 why
 so || we || can see || them
-I wanna
+I || wanna
 okay
 horsie
 Im gonna || make || a field || for || horsie
@@ -1115,10 +1117,11 @@ by || squirrel
 hello pandabear
 can || I || come || next || to || you
 0of course || you cant
+0of
 0of course || he cant
 why
 you || can go || in there
-he || can go || in || the woods || as well || because || the squirrels || up || in
+he || can go || in || the woods || as well || because || the squirrels || up || in || the
 and || the pandas || on || the ground
 he || is || on || the trees || now
 oh || yes
@@ -1502,6 +1505,7 @@ ow
 I dont || know || words
 you dont || know || the words
 after || all those years || the prince || came || saw || three women
+when
 no one || knows
 but || no one || has ever tried to go || in
 then || I || will try said || the prince
@@ -1549,6 +1553,7 @@ right
 here || we || go
 whats || on || this page
 dalmatian puppies
+with
 mummy
 daddy
 Pongo
@@ -1592,6 +1597,7 @@ puppies || have gone
 they || send || a message || to || the other dogs
 and || all the dogs and cats
 dont || they
+and
 my froggie
 froggie
 are || you || turning || light || on
@@ -1667,7 +1673,7 @@ because || I || went || outside || to see || if || there || was || anybody || th
 and || I || didnt bother to put || my shoes || on
 did || I
 sings
-we 0are
+we || 0are
 are || we gonna || read || Cat || in || the Hat || then
 have || you || finished writing
 not || yet
@@ -1701,10 +1707,13 @@ yes
 you || just || dont || know || which || to choose do || you
 ready
 yes
+Monday
 Runday
 Runday
+Tuesday
 snooze
 snooze day
+Wednesday
 whats || Wednesday
 Friday
 Wednesday
@@ -1730,13 +1739,16 @@ no
 hes || a lion
 alright
 hes || a lion
+Friday
 Tieday
 Tieday
+Saturday
 Splatterday
 Splatterday
 Im || in || splatter
 no
 youre not dirty || are || you
+Sunday
 bun day
 bun day
 mm
@@ -1758,7 +1770,7 @@ and || I || cant do || anything || until || you || ask || nicely
 I || want || another book || please
 which book || do || you || want
 let || me || do
-um & um
+um um
 weve || read || that || already
 let || me || do
 let || me || do || this one
@@ -1801,14 +1813,15 @@ Im not gonna || let || you || pat || him || hard
 poor froggie
 no
 hell || sit || over || here where || he || cant be hurt
-Im || doing || this || hurting
+Im || doing || this hurting
 no
-Im not gonna
+Im || not || gonna
 no
 pat || him || gently
 are || you gonna pat || him || gently
 no
 youre horrid
+Im
 Im
 youll fall
 oh
@@ -1879,9 +1892,11 @@ right
 let || me || read || it || to || you
 okay
 they || 0are || asleep
+0are
 no
 theyre || not asleep
 what || are || they || doing
+theyre
 what || whats || she || doing || there
 I || dont know
 well
@@ -1932,7 +1947,7 @@ dont || tread || on || them || please
 which one
 Abc
 Abc
-which one
+which || one
 that one
 Abc
 this one
@@ -1982,7 +1997,7 @@ no
 you cant || see || them || though
 I || can see || them
 I || can see || them
-I wanna
+I || wanna
 I || want || some || of || them
 them
 I || want || this one
@@ -2009,7 +2024,7 @@ okay
 for || many years England || had || a wise and good king
 but || he || fell || ill
 and || the greedy captain || of || the guard Captain Pete || saw || his chance
-the people || suffered || terribly || it || seemed || no one || could save
+the people || suffered || terribly || it || seemed || no one || could save || the
 my hand || is || cold
 oh
 is || it
@@ -2105,6 +2120,7 @@ no
 jump
 shall || we || skip
 here
+put
 here || we || are
 can || you || put || these || on
 come || in || here || Ill || put || them || on
@@ -2140,9 +2156,10 @@ real walk
 with || her pram
 do || you wanna || go || for || a walk
 walk || with || my pram
+um
 with || my pram
 well
-we cant || go || with || your pram || because || Ive || got to take || Amy || in
+we cant || go || with || your pram || because || Ive || got to take || Amy || in || the
 and || I || wont be || able || to help push || your pram
 no
 I || got to push || your pram
@@ -2209,6 +2226,7 @@ its || in || my pocket
 okay
 thank || you
 heres || your change
+you
 oh
 you || want || me || to put || it || in || your pram
 oh
