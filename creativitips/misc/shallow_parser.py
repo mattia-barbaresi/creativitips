@@ -3,6 +3,7 @@
 #
 import os
 from ccg_nlpy import local_pipeline
+from ccg_nlpy import remote_pipeline
 
 pipeline = local_pipeline.LocalPipeline()
 root_dir = '../data/CHILDES_converted/'
@@ -30,13 +31,21 @@ for subdir, dirs, files in os.walk(root_dir):
                         tks = " || ".join(x["tokens"] for x in doc.get_shallow_parse.cons_list)
                         fpo.write(tks + "\n")
 
-# doc = pipeline.doc("The dog chase the cat", pretokenized=False)
-# sp = list(x["tokens"] for x in doc.get_shallow_parse.cons_list)
-# print(sp)
 
-# from ccg_nlpy import remote_pipeline
-#
-# pipeline = remote_pipeline.RemotePipeline()
-# doc = pipeline.doc(" whose are all these?")
-# sp = " || ".join(x["tokens"] for x in doc.get_shallow_parse.cons_list)
-# print(sp)
+def test():
+    pipeline_remote = remote_pipeline.RemotePipeline()
+    pipeline_local = local_pipeline.LocalPipeline()
+    doc_r = pipeline_remote.doc("youve not played with this .", pretokenized=False)
+    doc_l = pipeline_local.doc("youve not played with this .", pretokenized=False)
+    doc_3 = pipeline_local.doc(["youve", "not", "played", "with", "this", "."], pretokenized=True)
+    spr = " || ".join(x["tokens"] for x in doc_r.get_shallow_parse.cons_list)
+    spl = " || ".join(x["tokens"] for x in doc_l.get_shallow_parse.cons_list)
+    sp3 = " || ".join(x["tokens"] for x in doc_3.get_shallow_parse.cons_list)
+    sp = list(x["tokens"] for x in doc.get_shallow_parse.cons_list)
+    print("spl:", spl)
+    print("spr: ", spr)
+    print("spr: ", sp3)
+
+
+if __name__ == "__main__":
+    test()
