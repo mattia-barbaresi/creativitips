@@ -30,7 +30,7 @@
 *INV: 0 .
 *INV: shes not going to happy at school with you tomorrow is she .
 *CHI: 0 .
-*CHI: say “Mrs Wee” .
+*CHI: say Mrs Wee .
 *CHI: Mrs Poo .
 *CHI: have a poo .
 *CHI: poo .
@@ -111,9 +111,9 @@
 *CHI: can you be rude .
 *MOT: no .
 *MOT: I said dont be rude and .
-*MOT: I said “Thomas dont you be rude to Jeannine” .
+*MOT: I said Thomas dont you be rude to Jeannine .
 *MOT: and if you are she will go home .
-*MOT: and he said “before weve done a tape” .
+*MOT: and he said before weve done a tape .
 *MOT: and I said yesq .
 *INV: aw .
 *INV: I dont wanna go home .
@@ -124,12 +124,12 @@
 *MOT: he doesnt .
 *MOT: listen to this Jeannine .
 *MOT: last Wednesday morning we woke up and I knew it was school .
-*MOT: and I said to Thomas “come along” .
+*MOT: and I said to Thomas come along .
 *MOT: get out of bed .
 *MOT: go have breakfast and get dressed .
-*MOT: he said “is Jeannine coming” .
+*MOT: he said is Jeannine coming .
 *MOT: and I said noq .
-*MOT: he said “where are we going” .
+*MOT: he said where are we going .
 *MOT: and I said schoolq .
 *MOT: and he said wowq .
 *MOT: and shot out of bed to tell Daddy .
@@ -139,7 +139,7 @@
 *MOT: and hes been counting down the days .
 *INV: aw .
 *MOT: and then as I picked him up from school today .
-*MOT: I said “come on” .
+*MOT: I said come on .
 *MOT: weve got to go home quickly today because Jeannines coming .
 *MOT: and he was very excited .
 *MOT: then we rushed didnt we .
@@ -187,7 +187,7 @@
 *CHI: because it is .
 *INV: what do you do .
 *CHI: why dont we draw an apple .
-*CHI: you say “now now” .
+*CHI: you say now now .
 *CHI: youre not allowed to eat it now .
 *INV: really .
 *CHI: yeah .
@@ -312,7 +312,7 @@
 *CHI: we took it back just yesterday .
 *MOT: he gets a new library book every day and a .
 *INV: really .
-*MOT: and the book was “the lost teddy” .
+*MOT: and the book was the lost teddy .
 *MOT: it was a nice book wasnt it .
 *CHI: but now you missed it .
 *CHI: to school .
@@ -386,9 +386,9 @@
 *INV: shes more tasty .
 *MOT: more tastier .
 *MOT: so well talking of tastier just let me finish this story .
-*MOT: so Mrs Wilson said “Thomas youve done very well eating your .
+*MOT: so Mrs Wilson said Thomas youve done very well eating your .
 *MOT: your Mummy said you wouldnt eat very much .
-*MOT: and he said “I play jokes on her” .
+*MOT: and he said I play jokes on her .
 *INV: did you .
 *INV: laughs .
 *CHI: I didnt .
@@ -597,7 +597,7 @@
 *MOT: and we went straight from school to Sainsburys last .
 *MOT: and I wanted a can of green beans to make a salad .
 *MOT: in the middle of Sainsburys .
-*MOT: Thomas started going “runner beans” and running around .
+*MOT: Thomas started going runner beans and running around .
 *INV: is that the first youd ever heard of it .
 *MOT: well Id heard before but I think thats the first time hed done .
 *INV: is that p e is it .
@@ -651,7 +651,7 @@
 *INV: and you know Ive just driven all the way here to come and say .
 *INV: did I not ring you the other day .
 *INV: and what did you say to me on the phone .
-*INV: you said “come and see me please” .
+*INV: you said come and see me please .
 *INV: so Ive come all this way to come and see you and now youre being .
 *INV: arent you .
 *INV: oh .
@@ -705,7 +705,7 @@
 *INV: ooh .
 *INV: you can still watch them all .
 *INV: I saw this show the other day for the .
-*INV: it was called “the lampies” .
+*INV: it was called the lampies .
 *INV: what are you laughing at .
 *CHI: the lampies .
 *INV: have you heard of that show before .
@@ -723,7 +723,7 @@
 *MOT: Thomas no .
 *MOT: no .
 *CHI: say yeahq .
-*CHI: “were just doing a poo” say .
+*CHI: were just doing a poo say .
 *CHI: no .
 *CHI: oh you .
 *MOT: www .
@@ -743,7 +743,7 @@
 *CHI: laughs .
 *MOT: ooh .
 *CHI: oh wheres it gone .
-*MOT: that was Daddy saying “have you heard whats going on in America” ?
+*MOT: that was Daddy saying have you heard whats going on in America ?
 *CHI: Mummy I wanna do something .
 *MOT: no .
 *MOT: Pritt .
@@ -764,7 +764,7 @@
 *INV: how funny .
 *CHI: 0 .
 *MOT: listen Thomas .
-*MOT: Daddy was just on the phone then and he said “is Thomas being good” .
+*MOT: Daddy was just on the phone then and he said is Thomas being good .
 *MOT: to hafta tell him fibs .
 *CHI: no .
 *INV: right .
@@ -845,7 +845,7 @@
 *CHI: all of that black track .
 *INV: wow .
 *INV: Ive not seen that before .
-*INV: and then do you go “on your marks” .
+*INV: and then do you go on your marks .
 *INV: get set .
 *INV: goq .
 *CHI: yeah .
@@ -1138,7 +1138,7 @@
 *INV: is that from school .
 *MOT: ooh no .
 *MOT: that was nursery .
-*MOT: weve had coolq and “cool man” for a long time .
+*MOT: weve had coolq and cool man for a long time .
 *INV: cool man .
 *MOT: a lot of these things we havent heard .
 *INV: thats .
@@ -1407,7 +1407,7 @@
 *INV: www .
 *MOT: buy one get one free .
 *CHI: buy one .
-*MOT: or as Thomas said the other day um “get one free buy one” .
+*MOT: or as Thomas said the other day um get one free buy one .
 *MOT: laughs .
 *CHI: youre all the rubbish Im collecting up .
 *MOT: laughs .
@@ -1905,7 +1905,7 @@
 *INV: I think youre an aeroplane .
 *INV: laughs .
 *MOT: laughs .
-*CHI: I said “meowo” .
+*CHI: I said meowo .
 *INV: oh youre a cat .
 *MOT: laughs .
 *INV: what about this .
@@ -2068,7 +2068,7 @@
 *INV: look .
 *INV: Ive pinned it on the wall up here so that you cant .
 *INV: 0 .
-*MOT: we read a story last night called “Prowl puss” didnt we .
+*MOT: we read a story last night called Prowl puss didnt we .
 *INV: what does Prowl puss do .
 *CHI: he chases them .
 *INV: chases them .
@@ -2130,7 +2130,7 @@
 *CHI: say .
 *CHI: 0 .
 *CHI: 0 .
-*INV: my catd go “meowo meowo” .
+*INV: my catd go meowo meowo .
 *INV: and Purdie would just hear .
 *INV: laughs .
 *INV: wouldnt he .

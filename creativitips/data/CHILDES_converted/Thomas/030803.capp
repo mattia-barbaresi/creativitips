@@ -37,18 +37,18 @@
 *INV: laughs .
 *MOT: www .
 *INV: www .
-*CHI: say “oh my God the dustbin men are here” .
+*CHI: say oh my God the dustbin men are here .
 *CHI: say .
-*CHI: say “oh my God” Mum .
+*CHI: say oh my God Mum .
 *MOT: no .
-*CHI: just say “oh my God” .
-*CHI: just say “oh my God” .
+*CHI: just say oh my God .
+*CHI: just say oh my God .
 *INV: www .
 *MOT: laughs .
 *INV: laughs .
-*CHI: say “oh my God” Mum .
+*CHI: say oh my God Mum .
 *MOT: goodness me the dustbin men are here .
-*INV: you say “oh my goodness” .
+*INV: you say oh my goodness .
 *CHI: Mummy .
 *MOT: yes .
 *CHI: I just found some rubbish .
@@ -74,7 +74,7 @@
 *INV: laughs .
 *INV: thats not very good is it .
 *CHI: no .
-*CHI: this can go “duddudo” .
+*CHI: this can go duddudo .
 *INV: come on then .
 *INV: do you think that will balance on here ?
 *CHI: no .
@@ -99,10 +99,10 @@
 *CHI: thank you .
 *MOT: thank you .
 *INV: you look very hard at work there Thomas .
-*CHI: say “oh my God a little dolly has gone in the rubbish lorry” .
+*CHI: say oh my God a little dolly has gone in the rubbish lorry .
 *MOT: Ill not say that because its not nice Thomas .
 *MOT: its not nice to say that .
-*CHI: say “oh my dolly has gone in 0the rubbish” .
+*CHI: say oh my dolly has gone in 0the rubbish .
 *MOT: oh my dolly has gone in the rubbish .
 *CHI: but then a man just policeman .
 *CHI: and a naughty man .
@@ -327,12 +327,12 @@
 *CHI: help .
 *CHI: fire .
 *CHI: fire .
-*CHI: Apple you say “fire fire Mummy” .
+*CHI: Apple you say fire fire Mummy .
 *INV: fire .
 *INV: fire on Mummy .
 *INV: laughs .
 *MOT: laughs .
-*CHI: you say “fire fire” Mummy and you say “fire fire” and a big bag and .
+*CHI: you say fire fire Mummy and you say fire fire and a big bag and .
 *INV: okay .
 *INV: fire .
 *INV: fire .
@@ -438,7 +438,7 @@
 *INV: are you the boss then are you .
 *CHI: I am a boss .
 *CHI: Mummy shut your eyes .
-*CHI: say “whos that hooting” .
+*CHI: say whos that hooting .
 *MOT: whos that hooting .
 *CHI: not yet because I 0am not in the .
 *CHI: I will tell you .
@@ -657,12 +657,12 @@
 *INV: look at the dustbin men .
 *MOT: I useta hafta do that with my little boy called Thomas .
 *MOT: I useta hafta watch the dustbin men .
-*CHI: say “look Mum hes taking it to the” .
+*CHI: say look Mum hes taking it to the .
 *INV: oh .
 *CHI: back of the lorry .
 *INV: look Mum .
 *CHI: back of the lorry .
-*CHI: say “look hes taking it” .
+*CHI: say look hes taking it .
 *CHI: needta tip some rubbish so we can .
 *MOT: not tipping too much .
 *MOT: shh .
@@ -696,7 +696,7 @@
 *MOT: right .
 *MOT: shake hands first then hell sing a song .
 *INV: okay .
-*CHI: and I say “look at Jean Apple ” .
+*CHI: and I say look at Jean Apple .
 *MOT: are you going to sing your song .
 *CHI: when .
 *CHI: oh I 0have just forgotten something .
@@ -714,7 +714,7 @@
 *MOT: just sing your song Thomas .
 *CHI: then when Santa got stuck up that bunny he began to sing .
 *MOT: oh come on .
-*MOT: you said in the taxi you said “I wanna sing my song to Jeannine” .
+*MOT: you said in the taxi you said I wanna sing my song to Jeannine .
 *INV: ah .
 *INV: Thomas Id love to hear it .
 *MOT: shall we sing it together .
@@ -729,7 +729,7 @@
 *INV: oh do I .
 *CHI: doesnt matter .
 *CHI: do my songs .
-*CHI: I say “ladies and gentlemen heres Santa” .
+*CHI: I say ladies and gentlemen heres Santa .
 *CHI: now ladies and gentlemen .
 *CHI: open your eyes because step on a step and be and heres .
 *MOT: 0 .
@@ -767,7 +767,7 @@
 *CHI: sorting out rubbish .
 *INV: so the wood man sorts out rubbish as well .
 *CHI: yeah .
-*CHI: say “what are those big planks” .
+*CHI: say what are those big planks .
 *MOT: whats those big planks Thomas on your shoulder .
 *CHI: Im Bob the Builder and Fireman the builder .
 *MOT: youre Fireman the builder are you .
@@ -783,8 +783,8 @@
 *CHI: some guns .
 *MOT: some guns .
 *INV: laughs .
-*CHI: it says the person that is standing next to them say “shoot shoot” .
-*CHI: like that but dont say “shoot shoot” now .
+*CHI: it says the person that is standing next to them say shoot shoot .
+*CHI: like that but dont say shoot shoot now .
 *CHI: oh .
 *CHI: look at the woman running .
 *CHI: put that coat on there .
@@ -825,7 +825,7 @@
 *CHI: not in a minute it will 0not be .
 *CHI: then it put up .
 *CHI: then theyre going to shut the lights off .
-*INV: I thought we were going to say “ladys and gentlemen heres Thomas .
+*INV: I thought we were going to say ladys and gentlemen heres Thomas .
 *CHI: no .
 *CHI: this is Mummys very best tree wood sweets .
 *CHI: you know wrap up these theres chocolate lions in .
@@ -872,7 +872,7 @@
 *CHI: when theres a fire .
 *INV: Mummys on fire .
 *CHI: it doesnt matter .
-*CHI: we and I go “nee nawo nee nawo” .
+*CHI: we and I go nee nawo nee nawo .
 *CHI: theres a big fire .
 *CHI: theres a big fire .
 *CHI: theres a big fire .
@@ -1262,7 +1262,7 @@
 *INV: can you imagine if you dropped something how .
 *CHI: yes .
 *INV: what can we see out there .
-*INV: if anyone looks in theyre going to think “look at that tall boy” .
+*INV: if anyone looks in theyre going to think look at that tall boy .
 *CHI: that stupid land .
 *INV: where .
 *INV: out theres stupid land .
@@ -1570,7 +1570,7 @@
 *MOT: oh dear .
 *CHI: Mummy .
 *MOT: yes ?
-*CHI: you saw some snakes at the zoo and Mummy you shouted “Daddy I .
+*CHI: you saw some snakes at the zoo and Mummy you shouted Daddy I .
 *MOT: no .
 *CHI: then and tickle you .
 *MOT: laughs .
@@ -1634,10 +1634,10 @@
 *CHI: you silly thing .
 *MOT: Thomas please dont say that .
 *MOT: I dont like that .
-*CHI: this is my you say “ah snake you died have you” .
+*CHI: this is my you say ah snake you died have you .
 *CHI: and I say yeahq .
 *CHI: okay .
-*CHI: you say “have you died” .
+*CHI: you say have you died .
 *MOT: have you died little snake .
 *CHI: yeah .
 *MOT: oh youve died .
@@ -1658,7 +1658,7 @@
 *CHI: I wasnt .
 *CHI: Im little snake and Mummy .
 *CHI: excuse me Mummy .
-*CHI: you can make me better and say “lie down little snake” .
+*CHI: you can make me better and say lie down little snake .
 *MOT: lie down little snake .
 *INV: ah .
 *INV: oh no hes not the snake that doesnt speak again is he .

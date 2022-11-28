@@ -274,7 +274,7 @@
 *INV: so whos this on there then .
 *CHI: Eeyore .
 *MOT: Eeyore .
-*CHI: Eeyore thinks he likes honey but then he thinks “I dont like .
+*CHI: Eeyore thinks he likes honey but then he thinks I dont like .
 *INV: really .
 *INV: Eeyore doesnt like honey .
 *CHI: he doesnt .
@@ -484,7 +484,7 @@
 *CHI: 0 .
 *INV: this were you saying that my face looks like an airport .
 *CHI: Mummy come for hospital .
-*CHI: just move up a bit and say “what has happened to this man” .
+*CHI: just move up a bit and say what has happened to this man .
 *MOT: oh dear .
 *MOT: do you want your tummy looking at .
 *CHI: no .
@@ -640,12 +640,12 @@
 *INV: Im going to put it in my bag .
 *CHI: the trees are going to eat it all up .
 *INV: Im going to hide it here .
-*CHI: 0a tree said “were going to eat Apple and me” .
+*CHI: 0a tree said were going to eat Apple and me .
 *INV: do do the trees eat apples .
 *CHI: yes and me .
 *INV: I hope not or else I wont be safe will I .
 *CHI: there you go .
-*CHI: you can say “whats that tickling” .
+*CHI: you can say whats that tickling .
 *CHI: its me .
 *CHI: tickling snake .
 *INV: oh I dont like tickling snakes because I dont like to be .
@@ -686,7 +686,7 @@
 *INV: I know that .
 *INV: when does he say dohq .
 *INV: when something has gone wrong .
-*CHI: just hold that up and say “whats behind that fence” .
+*CHI: just hold that up and say whats behind that fence .
 *CHI: then you can knock it down .
 *INV: okay .
 *INV: whats behind that fence .
@@ -711,7 +711,7 @@
 *MOT: I know what you mean .
 *INV: a snaky pet .
 *MOT: its so nice having a quiet snake .
-*CHI: say “look at this big big big snake” .
+*CHI: say look at this big big big snake .
 *INV: look hes very long this snake .
 *INV: look at that .
 *INV: stretches all the way along .
@@ -719,7 +719,7 @@
 *INV: www .
 *MOT: www .
 *INV: look how big that snake is .
-*CHI: say “look at this tiny snake” .
+*CHI: say look at this tiny snake .
 *INV: how many snakes are there .
 *MOT: is there just one .
 *MOT: one baby snake .
@@ -740,8 +740,8 @@
 *MOT: ah .
 *MOT: the other day Thomas was in bed and said that he was a snake that .
 *INV: oh really .
-*MOT: and I said “why do you needta go to the vets” .
-*MOT: and he said “because Im dead” .
+*MOT: and I said why do you needta go to the vets .
+*MOT: and he said because Im dead .
 *INV: oh no .
 *MOT: it was a little bit late to take you to the vets then wasnt it .
 *MOT: hello snake .
@@ -776,15 +776,15 @@
 *INV: oh it is .
 *MOT: oh no .
 *MOT: youre not having anymore .
-*CHI: say “look at this ” .
+*CHI: say look at this .
 *INV: www .
 *CHI: Mummy say whatq .
 *INV: www .
-*CHI: Mummy say to the vet “what has gone wrong with this snake” .
+*CHI: Mummy say to the vet what has gone wrong with this snake .
 *MOT: whats the problem with the snake .
 *INV: well I dont know .
 *INV: the snakes just not very well .
-*CHI: “but thats my pet” you say .
+*CHI: but thats my pet you say .
 *MOT: but thats my pet .
 *INV: what do I say .
 *MOT: have I got a poorly pet .
@@ -803,7 +803,7 @@
 *MOT: goodness me .
 *INV: its most peculiar .
 *MOT: well put him down .
-*CHI: say “Mummy you can be the vet” .
+*CHI: say Mummy you can be the vet .
 *INV: I am the vet .
 *CHI: you can be 0a icklec animal .
 *CHI: you can just scratch your back .
@@ -848,7 +848,7 @@
 *CHI: 0 .
 *MOT: no .
 *MOT: thats not nice .
-*CHI: Mum you can say “whats the problem with my snake” .
+*CHI: Mum you can say whats the problem with my snake .
 *CHI: you say to the vet .
 *MOT: what is the problem with the snake .
 *INV: I think the snake wants to have a go with the bubble blower .
@@ -938,7 +938,7 @@
 *INV: were back to that one .
 *CHI: Mummy you can be a Mummy .
 *CHI: the window .
-*CHI: say “whats the problem with your snake” .
+*CHI: say whats the problem with your snake .
 *INV: so Mrs Lastname I hear youve got a poorly snake .
 *CHI: stop .
 *MOT: Ive got three snakes .
@@ -1035,7 +1035,7 @@
 *INV: Mummy Mummy .
 *CHI: you can move along and you can drive a lorry .
 *CHI: fire engine .
-*CHI: just pretend thats a fire engine and say “whats the problem .
+*CHI: just pretend thats a fire engine and say whats the problem .
 *INV: this is a great game isnt it .
 *MOT: whats the problem little snake .
 *CHI: but you not go on your seat and you should get a bell and you .
@@ -1135,7 +1135,7 @@
 *MOT: be careful .
 *INV: why do you need help other snake friend .
 *CHI: you can be a vet .
-*CHI: say “whats wrong” .
+*CHI: say whats wrong .
 *INV: wheres the other snake gone .
 *MOT: is this the snake .
 *INV: no thats not him .
@@ -1213,7 +1213,7 @@
 *INV: hey hey .
 *CHI: you say .
 *CHI: the crocodile .
-*CHI: say “whats the problem with the other one” .
+*CHI: say whats the problem with the other one .
 *INV: whats the problem with the other one .
 *INV: oh .
 *INV: let me give you some friends first to lie beside you and keep you .
@@ -1243,7 +1243,7 @@
 *INV: youve got to be tickled .
 *MOT: youve got some dinosaurs here that need some attention .
 *MOT: oops .
-*CHI: say “whats wrong” .
+*CHI: say whats wrong .
 *CHI: this could be a .
 *CHI: a vet couldnt you .
 *MOT: I could be a vet .
@@ -1441,7 +1441,7 @@
 *MOT: yes .
 *MOT: what about Daddy Lastname .
 *INV: yes weve got a Daddy voice as well .
-*MOT: is that Daddys deep voice saying “I like you very much” .
+*MOT: is that Daddys deep voice saying I like you very much .
 *INV: ah .
 *MOT: you and Daddy are best friends arent you .
 *INV: weve also got .
@@ -1499,7 +1499,7 @@
 *INV: ah .
 *INV: is that whats wrong .
 *INV: youve eaten too many sweeties .
-*INV: and then we can ask Mr snake “what can we do about it” .
+*INV: and then we can ask Mr snake what can we do about it .
 *INV: what can we do about it .
 *CHI: somebody has pushed me over and say 0 .
 *MOT: who pushed you over darling .
@@ -1590,7 +1590,7 @@
 *CHI: because I just do .
 *INV: do you like it .
 *INV: is it because you like having the attention of poorly snake is it .
-*INV: you like us to go “oh poor little poorly snake” .
+*INV: you like us to go oh poor little poorly snake .
 *INV: hm .
 *INV: is that what you want .
 *INV: hm .
@@ -1603,7 +1603,7 @@
 *CHI: you .
 *MOT: Anthony Vanthony .
 *CHI: yeah .
-*CHI: Mummy say “whats the problem” .
+*CHI: Mummy say whats the problem .
 *CHI: and I can crawl away .
 *MOT: whats the problem little snake .
 *MOT: I hope youre going to crawl this way and I can have a cuddle .

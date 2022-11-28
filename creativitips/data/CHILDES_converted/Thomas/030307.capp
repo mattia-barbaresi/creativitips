@@ -566,7 +566,7 @@
 *MOT: what about little train in Torremolinos .
 *INV: you went to Torremolinos .
 *CHI: Thomasinlinosc .
-*MOT: Thomas says “Thomasinlinosc” .
+*MOT: Thomas says Thomasinlinosc .
 *INV: Thomasinlinosc .
 *MOT: Thomasinlinosc .
 *MOT: but its Torremolinos .
@@ -795,7 +795,7 @@
 *INV: Purdie doesnt talk English unfortunately .
 *CHI: yes .
 *CHI: he does .
-*INV: he just goes “meowo” .
+*INV: he just goes meowo .
 *INV: 0 .
 *CHI: 0 .
 *CHI: Im a pussy cat .
@@ -813,14 +813,14 @@
 *INV: what says woof woof .
 *CHI: a dog .
 *INV: very good .
-*INV: what goes “mooo” .
+*INV: what goes mooo .
 *CHI: dont know .
 *INV: you get milk from it .
 *CHI: mug .
 *INV: cow .
 *INV: a mug .
 *INV: laughs .
-*CHI: a cow go “mooo” .
+*CHI: a cow go mooo .
 *INV: hey .
 *INV: youre a .
 *INV: Thomas .
@@ -901,13 +901,13 @@
 *CHI: get on the ride .
 *INV: why was there an ambulance .
 *CHI: because I had I and man had other seat .
-*INV: a man said “have a seat” and then an ambulance came .
+*INV: a man said have a seat and then an ambulance came .
 *MOT: no .
 *MOT: what happened we saw the first aid tent and there was .
 *INV: really .
 *MOT: and we went for a look didnt we .
 *CHI: yes .
-*CHI: and the man said “h have a seat” .
+*CHI: and the man said h have a seat .
 *MOT: and the ambulance man stuck his head out of the back and I said .
 *INV: really .
 *MOT: they put a white helmet on him .
@@ -1145,7 +1145,7 @@
 *MOT: sorry .
 *CHI: oh bother .
 *INV: laughs .
-*INV: “oh bother” is that what you said .
+*INV: oh bother is that what you said .
 *CHI: yeah .
 *INV: do you watch any fire man programmes on the television .
 *MOT: well .
@@ -1155,7 +1155,7 @@
 *CHI: yeah .
 *INV: is that what you think .
 *MOT: he doesnt .
-*MOT: but one night we were trying to get you to bed and “Londons .
+*MOT: but one night we were trying to get you to bed and Londons .
 *MOT: it took about half an hour to get upstairs .
 *MOT: no .
 *MOT: right .
@@ -1490,7 +1490,7 @@
 *INV: and why not .
 *INV: is it because I wont let you pull my hair .
 *CHI: 0 .
-*INV: if I say “Thomas pull my hair” youll like me .
+*INV: if I say Thomas pull my hair youll like me .
 *CHI: you 0are .
 *INV: what have I done .
 *INV: why am I naughty .
@@ -1568,7 +1568,7 @@
 *INV: okay .
 *INV: well done .
 *INV: weve finished and then this is where I see the fire men .
-*INV: they come back in and they go “well done” .
+*INV: they come back in and they go well done .
 *INV: and then they drive back .
 *CHI: nee nawnee nawo .
 *INV: no .
@@ -2211,7 +2211,7 @@
 *MOT: you end up in there most nights .
 *INV: aw .
 *INV: do you .
-*MOT: usually about four or five in the morning we hear “I wanna come in .
+*MOT: usually about four or five in the morning we hear I wanna come in .
 *CHI: bed .
 *MOT: laughs .
 *MOT: shout what you shout to me in the middle of the night .
