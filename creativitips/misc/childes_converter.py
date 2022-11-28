@@ -36,7 +36,7 @@ for subdir, dirs, files in os.walk(rootdir):
                     ss = ss.replace("„","").replace("+...","").replace("‡","").replace("_"," ") \
                         .replace("xxx","").replace("+//","").replace("+/","")
                     first = ss.split()[0]
-                    ss = ss.translate(str.maketrans('', '', string.punctuation)).strip().split()
+                    ss = ss.translate(str.maketrans('', '', string.punctuation+"”“")).strip().split()
                     nl = " ".join(ss[1:]).replace("  ", " ")
                     if len(nl.strip()) > 0:
                         new_lines.append(" ".join([first, nl, last]) + "\n")
