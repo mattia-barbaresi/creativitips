@@ -18,7 +18,7 @@ def run():
                 os.makedirs(outdir, exist_ok=True)
 
                 print("processing file: ", filenm)
-                with open(textfile, "r", encoding='cp1252') as fpi:
+                with open(textfile, "r", encoding='utf-8') as fpi:
                     with open(outdir + '/' + filenm.split('.capp')[0] + '.shpar', "w") as fpo:
                         for line in fpi.readlines():
                             if '*AGEIS:' in line:
