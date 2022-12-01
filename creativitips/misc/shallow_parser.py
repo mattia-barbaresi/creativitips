@@ -17,7 +17,7 @@ def run():
                 outdir = subdir.replace("CHILDES_converted", "CHILDES_ISP")
                 os.makedirs(outdir, exist_ok=True)
 
-                print("processing file: ", filenm)
+                print("processing file: ", textfile)
                 with open(textfile, "r", encoding='utf-8') as fpi:
                     with open(outdir + '/' + filenm.split('.capp')[0] + '.shpar', "w") as fpo:
                         for line in fpi.readlines():
@@ -46,4 +46,4 @@ def test():
 
 
 if __name__ == "__main__":
-    test()
+    run()
