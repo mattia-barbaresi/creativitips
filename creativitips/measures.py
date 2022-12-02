@@ -1,5 +1,4 @@
 """Module for models tests and  measures"""
-
 # from Learning a Generative Probabilistic Grammar of Experience: A Process-Level Model of Language Acquisition
 # (https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cogs.12140)
 #  generative model can be evaluated with regard to its precision and
@@ -11,14 +10,21 @@
 # and specific (ranging from word segmentation to structure-dependent syntactic generalization).
 # Characteristics of the learned representation: equivalence (substitutability)
 # of phrases and the similarity structure of the phrase space
+import json
 import math
+import os
+import matplotlib.pyplot as plt
+import numpy as np
 
 
-def recall(tp,fn):
+def recall(tp, fn):
     """defined as in https://livrepository.liverpool.ac.uk/3028272/1/McCauley_Christiansen_in_press_Psych_Rev.pdf"""
     # """ defined as the proportion of sentences in a corpus withheld for testing that the model can generate
     #  (see Solan et al., 2005; for an earlier use and for a discussion of their roots in information retrieval)"""
-    return tp / (tp + fn)
+    if tp + fn > 0:
+        return tp / (tp + fn)
+    else:
+        return 0
 
 
 def precision(tp, fp):
@@ -31,7 +37,17 @@ def precision(tp, fp):
     # Sentences were scored for their acceptability on a scale of 1 (not acceptable) to 7 (completely acceptable; Waterfall et al., 2010).
     # As the 50 sentences chosen from the original corpus ranged in length between three and eleven words,
     # in the analysis we excluded shorter and longer sentences generated...
-    return tp / (tp + fp)
+    if tp + fp > 0:
+        return tp / (tp + fp)
+    else:
+        return 0
+
+
+def f_score(prec, rec, beta=1.0):
+    if prec + rec != 0:
+        return (1 + beta**2) * (prec * rec) / ((beta**2 * prec) + rec)
+    else:
+        return 0
 
 
 def perplexity(model, sequences, n_words):
@@ -45,5 +61,158 @@ def perplexity(model, sequences, n_words):
     tot = 0
     for s in sequences:
         tot += math.log(model.get_prob(s))
-    return 10 ** - (tot/n_words)
+    return 10 ** - (tot / n_words)
 
+
+def calculate_stats(data, ref_key=""):
+    if not ref_key:
+        ref_key = data.keys()[0]
+    res_stats = dict()
+    res_stats["par"] = dict()
+    res_stats["par"]["word_pairs"] = 0
+    res_stats["par"]["bound_n"] = 0
+    mods_keys = list([k for k in data.keys() if k != ref_key])
+    for k in mods_keys:
+        res_stats[k] = {"tp": 0, "fn": 0, "fp": 0}
+
+    # for each line
+    for idx, line_ref in enumerate(data[ref_key]):
+        ref_arr = line_ref
+        res_stats["par"]["bound_n"] += len([x for x in line_ref if x == "||"])
+        res_stats["par"]["word_pairs"] += (len([x for x in line_ref if x != "||"]) - 1)
+        # count occurences for beta
+        # for each model
+        for curr_key in mods_keys:
+            curr_arr = data[curr_key][idx]
+            # calculate stats
+            ctp = 0
+            cfn = 0
+            cfp = 0
+            j = 0
+            i = 0
+            # print("ref_arr: ", ref_arr)
+            # print("curr_arr, {} : ".format(curr_key), curr_arr)
+            while i < len(ref_arr):
+                # no neutral cases!
+                # true positive
+                if ref_arr[i] == "||" and curr_arr[j] == "||":
+                    ctp += 1
+                    i += 1
+                    j += 1
+                # false positive
+                elif ref_arr[i] != "||" and curr_arr[j] == "||":
+                    cfp += 1
+                    j += 1
+                # false negative
+                elif ref_arr[i] == "||" and curr_arr[j] != "||":
+                    cfn += 1
+                    i += 1
+                # true negative, not collected
+                elif ref_arr[i] == curr_arr[j]:
+                    i += 1
+                    j += 1
+                else:
+                    if ref_arr[i] != curr_arr[j]:
+                        print("---------------------------------------")
+                        print("diff: ", ref_arr[i], curr_arr[j])
+                        print("{}   : ".format(ref_key), ref_arr)
+                        print("{}   : ".format(curr_key), curr_arr)
+                    else:
+                        print("WHAAAAAAAAAAAAAAAAAAAAAAAAAAAAT !!!!!!!!")
+                    j += 1  # skip word in curr cause ref (illinois localPipeline) has a problem
+
+            res_stats[curr_key]["tp"] += ctp
+            res_stats[curr_key]["fn"] += cfn
+            res_stats[curr_key]["fp"] += cfp
+
+    res_stats["par"]["beta"] = res_stats["par"]["bound_n"] / res_stats["par"]["word_pairs"]
+    for ck in mods_keys:
+        res_stats[ck]["recall"] = recall(res_stats[ck]["tp"], res_stats[ck]["fn"])
+        res_stats[ck]["precision"] = precision(res_stats[ck]["tp"], res_stats[ck]["fp"])
+        res_stats[ck]["f_score"] = f_score(res_stats[ck]["precision"],  res_stats[ck]["recall"], beta=res_stats["par"]["beta"])
+
+    return res_stats
+
+
+def draw_boxplot(res, dir_out):
+    data = [[],[]]
+    fig, ax = plt.subplots()
+    # Creating axes instance
+    ax.set_title('F-score for TiPs and CBL')
+
+    for rf, vf in res.items():
+        for mk, mv in vf.items():
+            # Creating dataset
+            data[0].append(res[rf]["cbl"]["f_score"])
+            data[1].append(res[rf]["tips"]["f_score"])
+
+    # Creating plot
+    bp = ax.boxplot(data, labels=["cbl", "tips"])
+    # show plot
+    plt.show()
+    plt.savefig(dir_out + 'boxplot.pdf')
+
+
+def collect_data():
+    ref_dir = "data/CHILDES_converted/"
+    root_out = "data/CHILDES_results/"
+    model_dirs = {
+        "isp": "data/CHILDES_ISP/",
+        "cbl": "data/CHILDES_cbl/",
+        "tips": "data/CHILDES_tips/"
+    }
+    os.makedirs(root_out, exist_ok=True)
+    results = {}
+    data = {}
+    for subdir, dirs, files in os.walk(ref_dir):
+        if "Edinburgh" in subdir:
+            continue
+        for fn in files:
+            if '.capp' in fn:
+                data[fn] = {}
+                for mk, mv in model_dirs.items():
+                    m_dir = subdir.replace(ref_dir, mv)
+                    file_ext = '.shpar' + (mk if mk != "isp" else "")
+                    data[fn][mk] = []
+                    with open(m_dir + '/' + fn.split('.capp')[0] + file_ext, 'r', encoding="utf-8") as fpi:
+                        print("processing file:", fpi)
+                        for line in fpi.readlines():
+                            arr = line.strip().split()
+                            data[fn][mk].append(arr)
+
+            results[fn] = calculate_stats(data[fn], "isp")
+
+    tots = {
+        "cbl": {"tot_tp": 0, "tot_fn": 0, "tot_fp": 0},
+        "tips": {"tot_tp": 0, "tot_fn": 0, "tot_fp": 0},
+        "par": {"bound_n": 0, "word_pairs": 0, "beta_sum": 0}
+    }
+
+    for rf, vf in results.items():
+        for mk, mv in vf.items():
+            if mk != "par":
+                tots[mk]["tot_tp"] += mv["tp"]
+                tots[mk]["tot_fp"] += mv["fp"]
+                tots[mk]["tot_fn"] += mv["fn"]
+            else:
+                tots["par"]["bound_n"] += vf["par"]["bound_n"]
+                tots["par"]["word_pairs"] += vf["par"]["word_pairs"]
+                tots["par"]["beta_sum"] += vf["par"]["beta"]
+
+    tots["par"]["beta_avg"] = float(tots["par"]["beta_sum"]) / len(results.keys())
+    tots["par"]["beta"] = tots["par"]["bound_n"] / tots["par"]["word_pairs"]
+
+    for k in [x for x in tots.keys() if x != "par"]:
+        tots[k]["precision"] = precision(tots[k]["tot_tp"], tots[k]["tot_fp"])
+        tots[k]["recall"] = recall(tots[k]["tot_tp"], tots[k]["tot_fn"])
+        tots[k]["f_score"] = f_score(tots[k]["precision"], tots[k]["recall"], beta=tots["par"]["beta"])
+
+    draw_boxplot(results, root_out)
+    with open(root_out + "results.json", "w") as fpo:
+        json.dump(results, fpo)
+    with open(root_out + "aggregated.json", "w") as fpo:
+        json.dump(tots, fpo)
+
+
+if __name__ == "__main__":
+    collect_data()
