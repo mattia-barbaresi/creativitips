@@ -30,7 +30,7 @@ def run():
                                 continue
                             doc = pipeline.doc(" ".join(utter[1:]), pretokenized=False)
                             tks = " || ".join(x["tokens"] for x in doc.get_shallow_parse.cons_list)
-                            fpo.write(tks + "\n")
+                            fpo.write(tks.strip().strip("!?.") + "\n")
 
 
 def test():
