@@ -45,5 +45,5 @@ for subdir, dirs, files in os.walk(rootdir):
                 vals = "/".join(subdir.split("/")[-1].split("\\"))
                 fout = outdir + vals
                 os.makedirs(fout, exist_ok=True)
-                with open(fout + "/" + new_file,"w") as fp:
+                with open(fout + "/" + new_file,"w",  encoding='utf-8') as fp:
                     fp.writelines(new_lines)

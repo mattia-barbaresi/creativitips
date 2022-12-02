@@ -11,14 +11,14 @@ if __name__ == "__main__":
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     t_mem = 1.0
-    interf = 0.00001
-    tps_order = 2
+    interf = 0.0001
+    tps_order = 1
     # method = [met_pars]
     # met: AVG, FTP, MI, CT or BRENT
     # pars: W = with, N=No, F=forgetting, I=interference
-    methods = ["AVG_WFWI","FTP_WFWI"]
+    methods = ["FTP_WFWI"]
 
-    root_dir = "data/CHILDES_tips/"
+    root_dir = "data/CHILDES_tips_ftps_withAVG/"
     dir_in = 'data/CHILDES_converted/'
     for tps_met in methods:
         # init
@@ -28,16 +28,16 @@ if __name__ == "__main__":
         for subdir, dirs, files in os.walk(dir_in):
             for fn in files:
                 if '.capp' in fn:
-                    print("processing {} series ...".format(fn))
+                    print("processing {} series ...".format(subdir))
                     fi_dir = subdir.replace(dir_in, root_dir)
                     os.makedirs(fi_dir, exist_ok=True)
                     # clean sequences
                     sequences = []
-                    with open(subdir + "/" + fn, "r") as fp:
+                    with open(subdir + "/" + fn, "r", encoding='utf-8') as fp:
                         for line in fp.readlines():
                             if '*AGEIS:' in line:
                                 continue
-                            utter = line.strip().split()
+                            utter = line.strip().strip("!?.").split()
                             # if list has less than 3 elements, it is empty b/c
                             # auto-cleaning removed a non-speech sound, etc.
                             if len(utter) < 3:
@@ -49,6 +49,6 @@ if __name__ == "__main__":
                     # compute series
                     cm.compute(sequences)
                     # save shallow parsing results
-                    with open(fi_dir + "/" + fn.split('.capp')[0] + '.shpartips', "w") as fp:
+                    with open(fi_dir + "/" + fn.split('.capp')[0] + '.shpartips', "w", encoding='utf-8') as fp:
                         for ln in cm.shallow_parsing:
                             fp.write(ln + "\n")

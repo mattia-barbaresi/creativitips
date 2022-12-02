@@ -19,7 +19,7 @@ def run():
 
                 print("processing file: ", textfile)
                 with open(textfile, "r", encoding='utf-8') as fpi:
-                    with open(outdir + '/' + filenm.split('.capp')[0] + '.shpar', "w") as fpo:
+                    with open(outdir + '/' + filenm.split('.capp')[0] + '.shpar', "w", encoding='utf-8') as fpo:
                         for line in fpi.readlines():
                             if '*AGEIS:' in line:
                                 continue

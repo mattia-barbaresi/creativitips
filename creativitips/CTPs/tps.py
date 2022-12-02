@@ -241,7 +241,6 @@ class TPS:
 
         return []
 
-
     def get_next_unit_btps(self, percept, past=None):
         # if order = 1 no past required
         if self.order > 1 and past:
