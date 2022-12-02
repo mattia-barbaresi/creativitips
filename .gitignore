@@ -141,6 +141,6 @@ dmypy.json
 **/out/*
 **/out_*
 
-/creativitips/data/CHILDES_tips/
-/creativitips/data/CHILDES_results/
-/creativitips/data/CHILDES_cbl/
+*/data/CHILDES_tips*/
+*/data/CHILDES_result*/
+*/data/CHILDES_cbl*/
