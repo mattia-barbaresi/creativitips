@@ -19,7 +19,7 @@ if __name__ == "__main__":
     dir_in = 'data/CHILDES_converted/'
 
     for tps_met in methods:
-        root_dir = "data/CHILDES_tipssss_" + tps_met + "/"
+        root_dir = "data/CHILDES_tips_" + tps_met + "/"
         # init
         rng = np.random.default_rng(const.RND_SEED)
         os.makedirs(root_dir, exist_ok=True)
