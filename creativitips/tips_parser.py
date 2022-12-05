@@ -15,7 +15,7 @@ if __name__ == "__main__":
     # method = [met_pars]
     # met: AVG, FTP, FTPAVG, CT, BRENT..
     # pars: W = with, N=No, F=forgetting, I=interference
-    methods = ["BRENT_NFWI"]
+    methods = ["BRENT_NFWI", "AVG_NFWI", "FTPAVG_NFWI"]
     dir_in = 'data/CHILDES_converted/'
 
     for tps_met in methods:
