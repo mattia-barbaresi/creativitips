@@ -62,8 +62,8 @@ if __name__ == "__main__":
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
-    interferences = [0.0005]
-    tps_orders = [2]
+    interferences = [0.0001]
+    tps_orders = [1]
     # method = [met_pars]
     # met: AVG, FTP, MI, CT or BRENT
     # pars: W = with, N=No, F=forgetting, I=interference

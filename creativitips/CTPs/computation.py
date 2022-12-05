@@ -52,11 +52,11 @@ class Computation:
         i = self.rng.integers(low=1, high=4)
         s = sequence
         actions = []
-        while len(s) > 0 and i != 0:
+        while len(s) > 0 and i > 0:
             action = ""
             unit = []
             # units_list = [(k,v) for k,v in mem.items() if s.startswith(k)]
-            units_list = [k for k in active_mem.keys() if " ".join(s).startswith(k)]
+            units_list = [k for k in active_mem.keys() if (" ".join(s)+" ").startswith(k+" ")]
             h_list = []
             # if higher_list:
             #     h_list = [k for k in higher_list if " ".join(s).startswith(k)]
@@ -65,11 +65,11 @@ class Computation:
             #     unit = s
             #     action = "end"
             # el
-            if h_list:
-                unit = (sorted(h_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
-                # print("mem unit:", unit)
-                action = "high_mem"
-            elif units_list:
+            # if h_list:
+            #     unit = (sorted(h_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
+            #     # print("mem unit:", unit)
+            #     action = "high_mem"
+            if units_list:
                 # a unit in mem matched
                 unit = (sorted(units_list, key=lambda key: len(key), reverse=True)[0]).strip().split(" ")
                 print("mem unit:", unit)
@@ -83,10 +83,12 @@ class Computation:
                     unit = self.tps_1.get_next_unit_mi(s[:5], past=old_seq)
                 elif "BTP" in self.method:
                     unit = self.tps_1.get_next_unit_btps(s[:5], past=old_seq)
+                elif "FTPAVG" in self.method:
+                    unit = self.tps_1.get_next_unit_ftps_withAVG(s[:5], past=old_seq)
                 elif "AVG" in self.method:
                     unit = self.tps_1.get_next_unit_with_AVG(s[:5], past=old_seq)
                 else:  # if TPS
-                    unit = self.tps_1.get_next_unit_ftps_withAVG(s[:5], past=old_seq)
+                    unit = self.tps_1.get_next_unit_ftps(s[:5], past=old_seq)
                 action = "tps"
 
             # if no unit found, pick at random length
@@ -101,7 +103,6 @@ class Computation:
             sf = s[len(unit):]
             if len(sf) == 1:
                 unit += sf
-                print("added last:", unit)
             # if self.tps_1:
             #     self.tps_1.update_avg(self.tps_1.get_ftps_sequence(old_seq + unit))
             res.append(" ".join(unit))
@@ -116,8 +117,8 @@ class Computation:
 
     def compute(self, sequences):
         for s in sequences:
-            if len(s) < 2:
-                continue
+            # if len(s) < 2:
+            #     continue
             self.old_p = ["START"]
             self.old_p_units = ["START"]
             shpar_units = []

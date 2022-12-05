@@ -1,3 +1,4 @@
+import json
 import os
 import numpy as np
 from creativitips import utils
@@ -6,24 +7,34 @@ from creativitips.CTPs.computation import Computation
 
 
 if __name__ == "__main__":
-
     np.set_printoptions(linewidth=np.inf)
-
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     t_mem = 1.0
     interf = 0.0001
     tps_order = 1
     # method = [met_pars]
-    # met: AVG, FTP, MI, CT or BRENT
+    # met: AVG, FTP, FTPAVG, CT, BRENT..
     # pars: W = with, N=No, F=forgetting, I=interference
-    methods = ["FTP_WFWI"]
-
-    root_dir = "data/CHILDES_tips_ftps_withAVG/"
+    methods = ["BRENT_NFWI"]
     dir_in = 'data/CHILDES_converted/'
+
     for tps_met in methods:
+        root_dir = "data/CHILDES_tipssss_" + tps_met + "/"
         # init
         rng = np.random.default_rng(const.RND_SEED)
         os.makedirs(root_dir, exist_ok=True)
+        with open(root_dir + "params.json", "w") as of:
+            json.dump({
+                "method": tps_met,
+                "rnd": const.RND_SEED,
+                "mem thresh": t_mem,
+                "interference": interf,
+                "weight": const.WEIGHT,
+                "lens": const.ULENS,
+                "tps_order": tps_order,
+                "parser_decay_rate": const.STM_DECAY_RATE,
+                "tps_decay_rate": const.LTM_DECAY_RATE,
+            }, of)
         # read files
         for subdir, dirs, files in os.walk(dir_in):
             for fn in files:
@@ -40,7 +51,7 @@ if __name__ == "__main__":
                             utter = line.strip().strip("!?.").split()
                             # if list has less than 3 elements, it is empty b/c
                             # auto-cleaning removed a non-speech sound, etc.
-                            if len(utter) < 3:
+                            if len(utter) < 2:
                                 continue
                             sequences.append(utter[1:])
 
