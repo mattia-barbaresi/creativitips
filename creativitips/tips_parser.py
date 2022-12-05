@@ -10,7 +10,7 @@ if __name__ == "__main__":
     np.set_printoptions(linewidth=np.inf)
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     t_mem = 1.0
-    interf = 0.0001
+    interf = 0.00001
     tps_order = 1
     # method = [met_pars]
     # met: AVG, FTP, FTPAVG, CT, BRENT..
