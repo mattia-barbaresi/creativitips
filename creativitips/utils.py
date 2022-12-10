@@ -193,6 +193,9 @@ def read_sequences(rng, fn):
         # split lines by space
         seqs = read_spaced("data/" + fn + ".txt")
         # seqs = convert_songs("data/" + fn + "/", fn)
+    elif fn == "CHILDES":
+        with open("data/CHILDES_unseg_Barbara.txt".format(fn), "r") as fp:
+            seqs = [list(line.strip()) for line in fp]
     else:
         with open("data/{}.txt".format(fn), "r") as fp:
             # split lines char by char

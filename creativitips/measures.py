@@ -148,22 +148,16 @@ def draw_boxplot(res, dir_out):
 
     # Creating plot
     bp = ax.boxplot(data, labels=["cbl", "tips"])
+    plt.yticks(np.arange(0, 1.1, step=0.1))
     # show plot
-    plt.show()
     plt.savefig(dir_out + 'boxplot.pdf')
+    plt.show()
 
 
-def collect_data():
-    ref_dir = "data/CHILDES_converted/"
-    root_out = "data/CHILDES_results/"
-    model_dirs = {
-        "isp": "data/CHILDES_ISP/",
-        "cbl": "data/CHILDES_cbl/",
-        "tips": "data/CHILDES_tips/"
-    }
-    os.makedirs(root_out, exist_ok=True)
+def collect_data(ref_dir, root_out, model_dirs):
     results = {}
     data = {}
+
     for subdir, dirs, files in os.walk(ref_dir):
         if "Edinburgh" in subdir:
             continue
@@ -214,5 +208,23 @@ def collect_data():
         json.dump(tots, fpo)
 
 
+def collect_arrays(dir_in):
+    data = json.load(open(dir_in + "results.json","r"))
+    with open(dir_in + "cbl_arr.txt", "w") as fpc:
+        with open(dir_in + "tips_arr.txt", "w") as fpt:
+            for itm, vl in data.items():
+                fpc.write(str(vl["cbl"]["f_score"]) + "\n")
+                fpt.write(str(vl["tips"]["f_score"]) + "\n")
+
+
 if __name__ == "__main__":
-    collect_data()
+    rd = "data/CHILDES_converted/"
+    ro = "data/CHILDES_results2_BRENT_NFWI/"
+    os.makedirs(ro, exist_ok=True)
+    mdls = {
+        "isp": "data/CHILDES_ISP/",
+        "cbl": "data/CHILDES_cbl/",
+        "tips": "data/CHILDES_tips2_BRENT_NFWI/"
+    }
+    collect_data(rd, ro, mdls)
+    collect_arrays(ro)
