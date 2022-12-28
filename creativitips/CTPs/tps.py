@@ -363,6 +363,35 @@ class TPS:
 
         return []
 
+    def get_next_certain_unit_wiht_AVG(self, percept, past=None):
+        """
+        Returns segmented percept using stored TPs.
+        Returns the longest segments of transitions, from the start symbol, with p=1
+        """
+        # if order = 1 no past required
+        if self.order > 1 and past:
+            past = past[-(self.order - 1):]
+        else:
+            past = []
+        pp_seq = past + percept
+        if self.order > 0:
+            if self.order < len(pp_seq):
+                tps_seqs = self.get_ftps_sequence(pp_seq)
+                avgTP = sum(tps_seqs)/len(tps_seqs)
+                ii = 0
+                if tps_seqs[ii] > avgTP:
+                    while ii < len(tps_seqs) and tps_seqs[ii] > avgTP:
+                        ii += 1
+                    print("tps unit: ", percept[:(self.order - len(past)) + ii])
+                    return percept[:(self.order - len(past)) + ii]
+            else:
+                print("(TPmodule):Order grater than percept length. Percept is too short.")
+        else:
+            print("(TPmodule):Order must be grater than 1.")
+
+        return []
+
+
     def get_next_unit_mi(self, percept, past=None):
         """
         Returns segmented percept using stored MIs.
