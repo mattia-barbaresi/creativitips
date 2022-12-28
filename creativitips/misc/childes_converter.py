@@ -3,9 +3,9 @@ import string
 import re
 import const
 
-rootdir = const.CHILDES_REPO
-outdir = "../data/CHILDES_converted/"
-
+rootdir = const.CHILDES_REPO + "Belfast/Barbara/"
+outdir = "../data/CHILDES_unseg_Barbara.txt"
+new_lines = []
 for subdir, dirs, files in os.walk(rootdir):
     for file in files:
         if '.cha' in file:
@@ -16,7 +16,6 @@ for subdir, dirs, files in os.walk(rootdir):
             lines = file.readlines()
             file.close()
 
-            new_lines = []
             for line in lines:
                 if line.startswith("*"):
                     # get rid of special chars!!
@@ -37,13 +36,14 @@ for subdir, dirs, files in os.walk(rootdir):
                         .replace("xxx","").replace("+//","").replace("+/","")
                     first = ss.split()[0]
                     ss = ss.translate(str.maketrans('', '', string.punctuation+"”“")).strip().split()
-                    nl = " ".join(ss[1:]).replace("  ", " ")
+                    nl = "".join(ss[1:]).replace("  ", "")
                     if len(nl.strip()) > 0:
-                        new_lines.append(" ".join([first, nl, last]) + "\n")
+                        new_lines.append("".join([nl]) + "\n")
 
-            if new_lines:
-                vals = "/".join(subdir.split("/")[-1].split("\\"))
-                fout = outdir + vals
-                os.makedirs(fout, exist_ok=True)
-                with open(fout + "/" + new_file,"w",  encoding='utf-8') as fp:
-                    fp.writelines(new_lines)
+if new_lines:
+    # vals = "/".join(subdir.split("/")[-1].split("\\"))
+    # fout = outdir + vals
+    # os.makedirs(fout, exist_ok=True)
+    # with open(fout + "/" + new_file,"w",  encoding='utf-8') as fp:
+    with open(outdir,"w",  encoding='utf-8') as fp:
+        fp.writelines(new_lines)
