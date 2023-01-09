@@ -1,4 +1,6 @@
 import os
+
+import numpy as np
 from graphviz import Digraph
 from matplotlib import pyplot as plt
 import networkx as nx
@@ -153,7 +155,7 @@ def plot_gra_from_nx(graph, filename="", render=False):
         gra.node(str(li), label=graph.nodes[li]["words"])
     for x,y,attr in graph.edges(data=True):
         p = attr["weight"]
-        gra.edge(str(x), str(y), label="{:.3f}".format(p), p=str(p), u="-1", v="0", penwidth=str(3 * p))
+        gra.edge(str(x), str(y), label="{:.3f}".format(p), p=np.format_float_positional(p, trim='-'), u="-1", v="0", penwidth=str(3 * p))
     # print(gra.source)
 
     if render:

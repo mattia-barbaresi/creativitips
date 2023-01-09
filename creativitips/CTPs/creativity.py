@@ -12,7 +12,7 @@ from metrics import interval_functions as intfun, utility
 
 def calculate_creativity(p, u, v):
     cc = 0
-    if u == -1.0:
+    if u < 0.0:
         # v = 0 --> choose least probable
         return 1.0 - p
     # elif p == 1:
@@ -20,7 +20,7 @@ def calculate_creativity(p, u, v):
     # elif v == 1:
     #     return (1.0 - p) * u
     else:
-        return (1.0 - p) * u * (1.0 - v)
+        return (1.0001 - p) * u * (1.0001 - v)
 
 
 def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
@@ -169,7 +169,8 @@ def evaluate_similarity(seqs, rep):
     vals = []
     for seq in seqs:
         sseq = "".join([_.replace(" ", "") for _ in seq])
-        val = rep_similarity(sseq, rep)
+        val = rep_similarity(sseq, [rep])
+        # print("val: ",val)
         vals.append((seq, val))
 
     return vals
@@ -214,15 +215,23 @@ def get_class_from_node(self, node_name):
     return -1
 
 
-def plot_nx_creativity(G, filename="tps", ):
+def plot_nx_creativity(G, filename="tps", gen=True):
     gra = Digraph()
     for k, v, d in G.edges(data=True):
         # gra.edge(k, v, label="{:.2f}-{:.2f}-{:.2f}".format(float(d["p"]),float(d["u"]),float(d["v"])))
         c = calculate_creativity(float(d["p"]), float(d["u"]), float(d["v"]))
-        gra.edge("\n".join(G.nodes[k]["label"].split(" | ")), "\n".join(G.nodes[v]["label"].split(" | ")),
-                 label="{:.3f}\n({:.3f},{:.2f},{:.3f})".format(c, float(d["p"]), float(d["u"]), float(d["v"])),
-                 # label="{:.2f}".format(c),
-                 penwidth=str(0.1 + abs(3 * c))
-                 )
+        if gen:
+            gra.edge("\n".join(G.nodes[k]["label"].split(" | ")), "\n".join(G.nodes[v]["label"].split(" | ")),
+                     label="{:.4f}\n({:.3f},{:.2f},{:.3f})".format(c, float(d["p"]), float(d["u"]), float(d["v"])),
+                     # label="{:.2f}".format(c),
+                     penwidth=str(0.1 + abs(3 * c))
+                     )
+        else:
+            end_node = "END" if v == "END" else G.nodes[v]["label"].split("(")[0]
+            gra.edge(G.nodes[k]["label"].split("(")[0], end_node,
+                     label="{:.4f}\n({:.3f},{:.2f},{:.3f})".format(c, float(d["p"]), float(d["u"]), float(d["v"])),
+                     # label="{:.2f}".format(c),
+                     penwidth=str(0.1 + abs(3 * c))
+                     )
     # print(gra.source)
     gra.render(filename, view=False)
