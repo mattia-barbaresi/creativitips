@@ -10,7 +10,6 @@ rng = np.random.default_rng(const.RND_SEED)
 
 if __name__ == "__main__":
     interf = 0.005
-    forget = const.FORGETTING
     t_mem = 1.0
     tps_order = 2
     tps_method = "CT"
