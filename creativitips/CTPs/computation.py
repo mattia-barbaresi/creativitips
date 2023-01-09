@@ -78,7 +78,8 @@ class Computation:
                 if "BRENT" in self.method:
                     unit = self.tps_1.get_next_unit_brent(s[:5], past=old_seq)
                 elif "CT" in self.method:
-                    unit = self.tps_1.get_next_certain_unit(s[:5], past=old_seq)
+                    # unit = self.tps_1.get_next_certain_unit(s[:5], past=old_seq)
+                    unit = self.tps_1.get_next_certain_unit_wiht_AVG(s[:5], past=old_seq)
                 elif "MI" in self.method:
                     unit = self.tps_1.get_next_unit_mi(s[:5], past=old_seq)
                 elif "BTP" in self.method:
