@@ -11,7 +11,7 @@ if __name__ == "__main__":
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     t_mem = 1.0
     interf = 0.00001
-    tps_order = 1
+    tps_order = 2
     # method = [met_pars]
     # met: AVG, FTP, FTPAVG, CT, BRENT..
     # pars: W = with, N=No, F=forgetting, I=interference
@@ -19,10 +19,10 @@ if __name__ == "__main__":
     dir_in = 'data/CHILDES_converted/'
 
     for tps_met in methods:
-        root_dir = "data/CHILDES_tips_" + tps_met + "/"
+        root_dir = "data/CHILDES_tips2_" + tps_met + "/"
         # init
         rng = np.random.default_rng(const.RND_SEED)
-        os.makedirs(root_dir, exist_ok=True)
+        os.makedirs(root_dir, exist_ok=False)
         with open(root_dir + "params.json", "w") as of:
             json.dump({
                 "method": tps_met,
