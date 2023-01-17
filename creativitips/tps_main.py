@@ -62,7 +62,7 @@ if __name__ == "__main__":
     #               "Onnis2003_L1_12","Onnis2003_L2_12","Onnis2003_L1_24","Onnis2003_L2_24",
     #               "all_songs_in_G", "all_irish-notes_and_durations-abc", "bach_preludes", "ocarolan", "scottish"]
 
-    file_names = ["input", "input2"]
+    file_names = ["all_irish-notes_and_durations-abc"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
