@@ -130,9 +130,11 @@ def thompson_newport2007():
                     res.append(c + d + e + f)
 
     random.shuffle(res)
-    with open("../data/thompson_newport.txt", "w") as fp:
+
+    with open("../data/thompson_newport_nebrelsot.txt", "w") as fp:
         for _l in res:
-            fp.write(_l + "\n")
+            if "nebrelsot" not in _l:
+                fp.write(_l + "\n")
 
 
 def Gomez2002():
@@ -200,4 +202,4 @@ def Onnis2003():
 if __name__ == "__main__":
     # generate_from_grammar()
     # hello()
-    Onnis2003()
+    thompson_newport2007()
