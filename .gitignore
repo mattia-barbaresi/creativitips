@@ -134,8 +134,11 @@ dmypy.json
 # VSCode
 .vscode
 
-# out dir
+# out dirs
 **/out/*
+**/out_*
 
-
-
+#other code
+*/CBL*
+*/data/CHILDES*
+*/data/convergence_divergence_results/
