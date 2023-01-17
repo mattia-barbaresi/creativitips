@@ -59,7 +59,7 @@ if __name__ == "__main__":
     #               "saffran", "thompson_newport","thompson_newport_ABCDEF",
     #               "all_irish-notes_and_durations-abc", "all_songs_in_G",  "bach_preludes", "ocarolan", "scottish"]
     # file_names = ["thompson_newport_ABCDEF"]
-    file_names = ["all_songs_in_G"]
+    file_names = ["all_irish-notes_and_durations-abc"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
@@ -72,28 +72,28 @@ if __name__ == "__main__":
     # methods = ["BRENT_WFWI","BRENT_NFWI","FTPAVG_WFWI","FTPAVG_NFWI","AVG_WFWI","AVG_NFWI"]
     methods = ["BRENT_NFWI", "AVG_NFWI","FTPAVG_NFWI"]
 
-    for rip in [1]:
+    for rip in [10,100,500,1000,5000,10000]:
         for tps_method in methods:
             for tps_order in tps_orders:
                 for interf in interferences:
                     for t_mem in thresholds_mem:
                         # init
                         rng = np.random.default_rng(const.RND_SEED)
-                        root_out_dir = const.OUT_DIR + "tps_results_pars_50/" + "tps_results_" + str(rip) + "/" + "{}/".format(tps_method)
+                        root_out_dir = const.OUT_DIR + "convergence_divergence_results/" + "tps_results_pars_50/" + "tps_results_" + str(rip) + "/" + "{}/".format(tps_method)
                         # root_out_dir = const.OUT_DIR + "tps_results_childes_500/{}/".format(tps_method)
                         os.makedirs(root_out_dir, exist_ok=True)
 
-                        with open(root_out_dir + "params.txt", "w") as of:
-                            json.dump({
-                                "rnd": const.RND_SEED,
-                                "mem thresh": t_mem,
-                                "interference": interf,
-                                "weight": const.WEIGHT,
-                                "lens": const.ULENS,
-                                "tps_order": tps_order,
-                                "parser_decay_rate": const.STM_DECAY_RATE,
-                                "tps_decay_rate": const.LTM_DECAY_RATE,
-                            }, of)
+                        # with open(root_out_dir + "params.txt", "w") as of:
+                        #     json.dump({
+                        #         "rnd": const.RND_SEED,
+                        #         "mem thresh": t_mem,
+                        #         "interference": interf,
+                        #         "weight": const.WEIGHT,
+                        #         "lens": const.ULENS,
+                        #         "tps_order": tps_order,
+                        #         "parser_decay_rate": const.STM_DECAY_RATE,
+                        #         "tps_decay_rate": const.LTM_DECAY_RATE,
+                        #     }, of)
 
                         for fn in file_names:
                             print("processing {} series ...".format(fn))
@@ -121,11 +121,11 @@ if __name__ == "__main__":
                             # classes = fc.form_classes(dc)
                             # class_patt = fc.classes_patterns(classes, fc_seqs)
 
-                            shallow_parsed = []
-                            with open(fi_dir + 'parsed.shpartips', "w", encoding='utf-8') as fp:
-                                for ln in cm.shallow_parsing:
-                                    shallow_parsed.append(ln.strip().replace(" ","").split("||"))
-                                    fp.write(ln + "\n")
+                            # shallow_parsed = []
+                            # with open(fi_dir + 'parsed.shpartips', "w", encoding='utf-8') as fp:
+                            #     for ln in cm.shallow_parsing:
+                            #         shallow_parsed.append(ln.strip().replace(" ","").split("||"))
+                            #         fp.write(ln + "\n")
 
                             results["processing time"] = str((datetime.now() - start_time).total_seconds())
 
@@ -210,46 +210,46 @@ if __name__ == "__main__":
                             #     print("----------")
 
                             # CONVERGENCE AND DIVERGENCE TESTS
-                            test_data = []
-                            train_data = []
-                            with open("data/thompson_newport_test.txt", "r") as fpt:
-                                for ln in fpt.readlines():
-                                    test_data.append(ln.strip())
-                            with open("data/thompson_newport_train.txt", "r") as fpt:
-                                for ln in fpt.readlines():
-                                    train_data.append(ln.strip())
-                            nn_gen = 0
-                            nn_ggen = 0
-                            gen_err = 0
-                            ggen_err = 0
-                            set_g = set()
-                            set_g_err = set()
-                            set_gg = set()
-                            set_gg_err = set()
-                            for xg in gens:
-                                if xg.replace(" ","") in test_data:
-                                    nn_gen += 1
-                                    set_g.add(xg.replace(" ",""))
-                                if xg.replace(" ", "") in train_data:
-                                    gen_err += 1
-                                    set_g_err.add(xg.replace(" ", ""))
-                            for xgg in gg_gens:
-                                if xgg.replace(" ","") in test_data:
-                                    nn_ggen += 1
-                                    set_gg.add(xgg.replace(" ", ""))
-                                if xgg.replace(" ", "") in train_data:
-                                    ggen_err += 1
-                                    set_gg_err.add(xgg.replace(" ", ""))
-                            with open(fi_dir + "test_gen.json", "w") as fpt:
-                                json.dump({
-                                    "gen_hits":nn_gen,
-                                    "gen_same":gen_err,
-                                    "set_g": len(set_g),
-                                    "set_g_same": len(set_g_err),
-                                    "ggen_hits": nn_ggen,
-                                    "ggen_same":ggen_err,
-                                    "set_gg": len(set_gg),
-                                    "set_gg_same": len(set_gg_err)}, fpt)
+                            # test_data = []
+                            # train_data = []
+                            # with open("data/thompson_newport_test.txt", "r") as fpt:
+                            #     for ln in fpt.readlines():
+                            #         test_data.append(ln.strip())
+                            # with open("data/thompson_newport_train.txt", "r") as fpt:
+                            #     for ln in fpt.readlines():
+                            #         train_data.append(ln.strip())
+                            # nn_gen = 0
+                            # nn_ggen = 0
+                            # gen_err = 0
+                            # ggen_err = 0
+                            # set_g = set()
+                            # set_g_err = set()
+                            # set_gg = set()
+                            # set_gg_err = set()
+                            # for xg in gens:
+                            #     if xg.replace(" ","") in test_data:
+                            #         nn_gen += 1
+                            #         set_g.add(xg.replace(" ",""))
+                            #     if xg.replace(" ", "") in train_data:
+                            #         gen_err += 1
+                            #         set_g_err.add(xg.replace(" ", ""))
+                            # for xgg in gg_gens:
+                            #     if xgg.replace(" ","") in test_data:
+                            #         nn_ggen += 1
+                            #         set_gg.add(xgg.replace(" ", ""))
+                            #     if xgg.replace(" ", "") in train_data:
+                            #         ggen_err += 1
+                            #         set_gg_err.add(xgg.replace(" ", ""))
+                            # with open(fi_dir + "test_gen.json", "w") as fpt:
+                            #     json.dump({
+                            #         "gen_hits":nn_gen,
+                            #         "gen_same":gen_err,
+                            #         "set_g": len(set_g),
+                            #         "set_g_same": len(set_g_err),
+                            #         "ggen_hits": nn_ggen,
+                            #         "ggen_same":ggen_err,
+                            #         "set_gg": len(set_gg),
+                            #         "set_gg_same": len(set_gg_err)}, fpt)
 
                             # # TEST nebrelsot
                             # nebrelsot_g = 0
@@ -264,8 +264,6 @@ if __name__ == "__main__":
                             #     json.dump({
                             #         "g_hits":nebrelsot_g,
                             #         "gg_hits":nebrelsot_gg},fpt)
-
-
 
                             # # UNSEGMENTED TESTS
                             # seg_data = []
@@ -315,11 +313,11 @@ if __name__ == "__main__":
                             utils.plot_gra_from_normalized(cm.tps_units,
                                                            filename=fi_dir + "tps_units",
                                                            thresh=plot_thresh,
-                                                           render=True)
+                                                           render=False)
                             print("plotting tps symbols...")
                             utils.plot_gra_from_normalized(cm.tps_1,
                                                            filename=fi_dir + "tps_symbols",
                                                            thresh=plot_thresh,
-                                                           render=True)
+                                                           render=False)
 
     print("END..")

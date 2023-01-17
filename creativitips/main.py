@@ -15,7 +15,6 @@ file_names = ["all_irish-notes_and_durations"]
 
 # maintaining INTERFERENCES/FORGETS separation by a factor of 10
 interferences = [0.005]
-forgets = [0.05]
 thresholds_mem = [1.0]
 tps_orders = [2]
 methods = ["BRENT_WFWI","FTPAVG_WFWI","AVG_WFWI"]
@@ -70,10 +69,10 @@ methods = ["BRENT_WFWI","FTPAVG_WFWI","AVG_WFWI"]
 
 rng = np.random.default_rng(const.RND_SEED)
 
-rep = "merhoxjessottafnav"
+# rep = "merhoxjessottafnav"
 
 # read input model
-for subdir, dirs, files in os.walk(const.OUT_DIR):
+for subdir, dirs, files in os.walk(const.OUT_DIR + "convergence_divergence_results/"):
     for file in files:
         if 'tps_units.dot' in file:
             in_path = subdir + "/tps_units.dot"
@@ -106,19 +105,20 @@ for subdir, dirs, files in os.walk(const.OUT_DIR):
                     gens_data[_i]["ggens"] = ggens
                     gens_data[_i]["gg_ids"] = ggens_id
 
-            ct.plot_nx_creativity(G, subdir + "/creative_graph3", gen=False)
-            ct.plot_nx_creativity(GG, subdir + "/creative_ggraph3")
+            output_dir = subdir.replace("convergence_divergence_results","music_result")
+            ct.plot_nx_creativity(G, output_dir + "/creative_graph3", gen=False, render=False)
+            ct.plot_nx_creativity(GG, output_dir + "/creative_ggraph3", render=False)
             gens_out = ["".join([y.replace(" ","") for y in x]) for x in ct.creative_gens(rng, G, n_seq=1000)]
             ggens_out, ggoid = ct.creative_ggens(rng, GG, n_seq=1000)
             ggens_out = ["".join([y.replace(" ","") for y in x]) for x in ggens_out]
 
-            gens_data["results"]["gen_hits"] = len([x for x in gens_out if x == rep])
-            gens_data["results"]["ggen_hits"] = len([x for x in ggens_out if x == rep])
-            with open(subdir + "/generatedM3.json", "w") as fp:
+            # gens_data["results"]["gen_hits"] = len([x for x in gens_out if x == rep])
+            # gens_data["results"]["ggen_hits"] = len([x for x in ggens_out if x == rep])
+            with open(output_dir + "/generatedM3.json", "w") as fp:
                 json.dump(gens_out, fp)
-            with open(subdir + "/ggeneratedM3.json", "w") as fp:
+            with open(output_dir + "/ggeneratedM3.json", "w") as fp:
                 json.dump(ggens_out, fp)
-            with open(subdir + "/gens_dataM3.json", "w") as fp:
+            with open(output_dir + "/gens_dataM3.json", "w") as fp:
                 json.dump(gens_data, fp)
 
             print("GG edges: ", GG.edges(data=True))

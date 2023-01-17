@@ -1,5 +1,6 @@
 """Module for creativity classes and functions"""
 import math
+import os
 
 import more_itertools as mit
 import numpy as np
@@ -228,7 +229,7 @@ def get_class_from_node(self, node_name):
     return -1
 
 
-def plot_nx_creativity(G, filename="tps", gen=True):
+def plot_nx_creativity(G, filename="tps", gen=True, render=True):
     gra = Digraph()
     for k, v, d in G.edges(data=True):
         # gra.edge(k, v, label="{:.2f}-{:.2f}-{:.2f}".format(float(d["p"]),float(d["u"]),float(d["v"])))
@@ -248,3 +249,8 @@ def plot_nx_creativity(G, filename="tps", gen=True):
                      )
     # print(gra.source)
     gra.render(filename, view=False)
+    if render:
+        gra.render(filename, view=False, engine="dot", format="pdf")
+        os.rename(filename, filename + '.dot')
+    else:
+        gra.save(filename + '.dot')
