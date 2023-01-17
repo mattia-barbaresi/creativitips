@@ -217,14 +217,46 @@ def collect_arrays(dir_in):
                 fpt.write(str(vl["tips"]["f_score"]) + "\n")
 
 
+def convergence_data(rootd):
+    for pars_mem in [50,500,1000]:
+        rd = "tps_results_pars_{}/".format(pars_mem)
+        tps_data = {}
+        for rip in [10,100,500,1000,5000,10000]:
+            ripd = "tps_results_{}/".format(rip)
+            for met in ["BRENT", "AVG", "FTPAVG"]:
+                metd = "{}_NFWI/thompson_newport_train/".format(met)
+                with open(rd + ripd + metd + "test_gen.json","r") as fpi:
+                    data = json.load(fpi)
+                    print(data)
+
+    fig, ax = plt.subplots()
+    # Creating axes instance
+    ax.set_title('divergence: TPS vs. generalized')
+
+    for rf, vf in res.items():
+        for mk, mv in vf.items():
+            # Creating dataset
+            data[0].append(res[rf]["cbl"]["f_score"])
+            data[1].append(res[rf]["tips"]["f_score"])
+
+    # Creating plot
+    bp = ax.boxplot(data, labels=["cbl", "tips"])
+    plt.yticks(np.arange(0, 1.1, step=0.1))
+    # show plot
+    plt.savefig(dir_out + 'boxplot.pdf')
+    plt.show()
+
+
+
 if __name__ == "__main__":
     rd = "data/CHILDES_converted/"
     ro = "data/CHILDES_results2_BRENT_NFWI/"
-    os.makedirs(ro, exist_ok=True)
-    mdls = {
-        "isp": "data/CHILDES_ISP/",
-        "cbl": "data/CHILDES_cbl/",
-        "tips": "data/CHILDES_tips2_BRENT_NFWI/"
-    }
-    collect_data(rd, ro, mdls)
-    collect_arrays(ro)
+    # os.makedirs(ro, exist_ok=True)
+    # mdls = {
+    #     "isp": "data/CHILDES_ISP/",
+    #     "cbl": "data/CHILDES_cbl/",
+    #     "tips": "data/CHILDES_tips2_BRENT_NFWI/"
+    # }
+    # collect_data(rd, ro, mdls)
+    # collect_arrays(ro)
+    collect_convergence_data("/data/out")
