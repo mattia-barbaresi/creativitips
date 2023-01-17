@@ -11,16 +11,31 @@ from metrics import interval_functions as intfun, utility
 
 
 def calculate_creativity(p, u, v):
-    cc = 0
     if u < 0.0:
-        # v = 0 --> choose least probable
         return 1.0 - p
-    # elif p == 1:
-    #     return (1.0 - p) * u
-    # elif v == 1:
-    #     return (1.0 - p) * u
     else:
         return (1.0001 - p) * u * (1.0001 - v)
+
+
+def calculate_creativity2(p, u, v):
+    ut = u if u > 0.0 else 0.0001
+    vt = v if v > 0.0 else 0.0001
+    return (1.0001 - p) * ut * (1.0001 - vt)
+
+
+def calculate_creativity3(p, u, v):
+    ut = u if u > 0.0 else 0.0001
+    return (1.0001 - p) * ut
+
+
+def normalize_arr(arr):
+    nar = np.array(arr)
+    sm = nar.sum()
+    if sm == 0:
+        # flat probs
+        return [1.0 / len(nar)] * len(nar)
+    else:
+        return nar / sm
 
 
 def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
@@ -31,7 +46,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
         # tot = sum([float(x[2]["label"]) for x in kg0.edges(data=True) if x[0] in kg0.successors("START")])
         for x, y, v in kg0.edges("START", data=True):
             init_keys.append(y)
-            c = calculate_creativity(float(v["p"]), float(v["u"]), float(v["v"]))
+            c = calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"]))
             init_values.append(c)
     else:
         print("no START found")
@@ -51,7 +66,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
             succs_values = []
             for x, y, v in kg0.edges(_s, data=True):
                 succs.append(y)
-                succs_values.append(calculate_creativity(float(v["p"]), float(v["u"]), float(v["v"])))
+                succs_values.append(calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"])))
             if succs:
                 _s = succs[utils.mc_choice(rand_gen, normalize_arr(succs_values))]
                 if _s != "END":
@@ -59,16 +74,6 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
         res.append(seq)
 
     return res
-
-
-def normalize_arr(arr):
-    nar = np.array(arr)
-    sm = nar.sum()
-    if sm == 0:
-        # flat probs
-        return [1.0 / len(nar)] * len(nar)
-    else:
-        return nar / sm
 
 
 def creative_ggens(rand_gen, kg0, n_seq=10, min_len=30):
@@ -81,7 +86,7 @@ def creative_ggens(rand_gen, kg0, n_seq=10, min_len=30):
         # tot = sum([float(x[2]["label"]) for x in kg0.edges(data=True) if x[0] in kg0.successors("START")])
         for x, y, v in kg0.edges(init_node, data=True):
             init_keys.append(y)
-            c = calculate_creativity(float(v["p"]), float(v["u"]), float(v["v"]))
+            c = calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"]))
             init_values.append(c)
     else:
         print("no START found")
@@ -105,7 +110,7 @@ def creative_ggens(rand_gen, kg0, n_seq=10, min_len=30):
             succs_values = []
             for x, y, v in kg0.edges(_s, data=True):
                 succs.append(y)
-                succs_values.append(calculate_creativity(float(v["p"]), float(v["u"]), float(v["v"])))
+                succs_values.append(calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"])))
             if succs:
                 _s = succs[utils.mc_choice(rand_gen, normalize_arr(succs_values))]
                 # if _s != "END":
@@ -183,13 +188,21 @@ def rep_similarity(seq, rep):
     return val / len(rep)  # mean similarity
 
 
+def creative_edge(edge,out_par=""):
+    c = (1.0 - float(edge["p"])) * edge["u"] * (1.0 - edge["v"])
+    if c > 0.75:
+        print("CREATIVE " + out_par + " EDGE: ", edge, c)
+
+
 def update(g_evals, G):
     for seq, val in g_evals:
         for sn, en in mit.pairwise(seq):
             u = float(G[sn][en]["u"]) if "u" in G[sn][en] else 0
+            u = 0 if u == -1.0 else u
             # v = float(G[sn][en]["v"]) if "v" in G[sn][en] else 0
             G[sn][en]["u"] = (u + val) / 2  # u average (u mean)
             G[sn][en]["v"] = 1.0 - math.sqrt((u - val) ** 2)  # v average (u variability)
+            creative_edge(G[sn][en])
     return G
 
 
@@ -204,7 +217,7 @@ def gupdate(GG, g_evals, gensids):
             # v = float(GG[sn][en]["v"]) if "v" in GG[sn][en] else 0
             GG[sn][en]["u"] = (u + val) / 2  # u average (u mean)
             GG[sn][en]["v"] = 1.0 - math.sqrt((u - val) ** 2)  # v average (u variability)
-
+            creative_edge(GG[sn][en])
     return GG
 
 
