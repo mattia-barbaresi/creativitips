@@ -4,7 +4,7 @@ import re
 import const
 
 rootdir = const.CHILDES_REPO + "Belfast/Barbara/"
-outdir = "../data/CHILDES_unseg_Barbara.txt"
+outdir = "../data/CHILDES_seg_Barbara.txt"
 new_lines = []
 for subdir, dirs, files in os.walk(rootdir):
     for file in files:
@@ -36,7 +36,7 @@ for subdir, dirs, files in os.walk(rootdir):
                         .replace("xxx","").replace("+//","").replace("+/","")
                     first = ss.split()[0]
                     ss = ss.translate(str.maketrans('', '', string.punctuation+"”“")).strip().split()
-                    nl = "".join(ss[1:]).replace("  ", "")
+                    nl = " ".join(ss[1:]).replace("  ", "")
                     if len(nl.strip()) > 0:
                         new_lines.append("".join([nl]) + "\n")
 
