@@ -59,7 +59,8 @@ if __name__ == "__main__":
     #               "saffran", "thompson_newport","thompson_newport_ABCDEF",
     #               "all_irish-notes_and_durations-abc", "all_songs_in_G",  "bach_preludes", "ocarolan", "scottish"]
     # file_names = ["thompson_newport_ABCDEF"]
-    file_names = ["all_irish-notes_and_durations-abc"]
+    file_names = ["thompson_newport_but_last","thompson_newport_train",
+                  "thompson_newport_ABCDEF_nebrelsot","thompson_newport_nebrelsot"]
 
     # maintaining INTERFERENCES/FORGETS separation by a factor of 10
     thresholds_mem = [1.0]
@@ -79,8 +80,9 @@ if __name__ == "__main__":
                     for t_mem in thresholds_mem:
                         # init
                         rng = np.random.default_rng(const.RND_SEED)
-                        root_out_dir = const.OUT_DIR + "convergence_divergence_results/" + "tps_results_pars_50/" + "tps_results_" + str(rip) + "/" + "{}/".format(tps_method)
+                        root_out_dir = const.OUT_DIR + "convergence_divergence_results/" + "tps_results_pars_1000/" + "tps_results_" + str(rip) + "/" + "{}/".format(tps_method)
                         # root_out_dir = const.OUT_DIR + "tps_results_childes_500/{}/".format(tps_method)
+
                         os.makedirs(root_out_dir, exist_ok=True)
 
                         # with open(root_out_dir + "params.txt", "w") as of:
@@ -121,11 +123,11 @@ if __name__ == "__main__":
                             # classes = fc.form_classes(dc)
                             # class_patt = fc.classes_patterns(classes, fc_seqs)
 
-                            # shallow_parsed = []
-                            # with open(fi_dir + 'parsed.shpartips', "w", encoding='utf-8') as fp:
-                            #     for ln in cm.shallow_parsing:
-                            #         shallow_parsed.append(ln.strip().replace(" ","").split("||"))
-                            #         fp.write(ln + "\n")
+                            shallow_parsed = []
+                            with open(fi_dir + 'parsed.shpartips', "w", encoding='utf-8') as fp:
+                                for ln in cm.shallow_parsing:
+                                    shallow_parsed.append(ln.strip().replace(" ","").split("||"))
+                                    fp.write(ln + "\n")
 
                             results["processing time"] = str((datetime.now() - start_time).total_seconds())
 
@@ -209,61 +211,63 @@ if __name__ == "__main__":
                             #         print(it, vl)
                             #     print("----------")
 
-                            # CONVERGENCE AND DIVERGENCE TESTS
-                            # test_data = []
-                            # train_data = []
-                            # with open("data/thompson_newport_test.txt", "r") as fpt:
-                            #     for ln in fpt.readlines():
-                            #         test_data.append(ln.strip())
-                            # with open("data/thompson_newport_train.txt", "r") as fpt:
-                            #     for ln in fpt.readlines():
-                            #         train_data.append(ln.strip())
-                            # nn_gen = 0
-                            # nn_ggen = 0
-                            # gen_err = 0
-                            # ggen_err = 0
-                            # set_g = set()
-                            # set_g_err = set()
-                            # set_gg = set()
-                            # set_gg_err = set()
-                            # for xg in gens:
-                            #     if xg.replace(" ","") in test_data:
-                            #         nn_gen += 1
-                            #         set_g.add(xg.replace(" ",""))
-                            #     if xg.replace(" ", "") in train_data:
-                            #         gen_err += 1
-                            #         set_g_err.add(xg.replace(" ", ""))
-                            # for xgg in gg_gens:
-                            #     if xgg.replace(" ","") in test_data:
-                            #         nn_ggen += 1
-                            #         set_gg.add(xgg.replace(" ", ""))
-                            #     if xgg.replace(" ", "") in train_data:
-                            #         ggen_err += 1
-                            #         set_gg_err.add(xgg.replace(" ", ""))
-                            # with open(fi_dir + "test_gen.json", "w") as fpt:
-                            #     json.dump({
-                            #         "gen_hits":nn_gen,
-                            #         "gen_same":gen_err,
-                            #         "set_g": len(set_g),
-                            #         "set_g_same": len(set_g_err),
-                            #         "ggen_hits": nn_ggen,
-                            #         "ggen_same":ggen_err,
-                            #         "set_gg": len(set_gg),
-                            #         "set_gg_same": len(set_gg_err)}, fpt)
+                            # DIVERGENCE TESTS
+                            if fn == "thompson_newport_train":
+                                test_data = []
+                                train_data = []
+                                with open("data/thompson_newport_test.txt", "r") as fpt:
+                                    for ln in fpt.readlines():
+                                        test_data.append(ln.strip())
+                                with open("data/thompson_newport_train.txt", "r") as fpt:
+                                    for ln in fpt.readlines():
+                                        train_data.append(ln.strip())
+                                nn_gen = 0
+                                nn_ggen = 0
+                                gen_err = 0
+                                ggen_err = 0
+                                set_g = set()
+                                set_g_err = set()
+                                set_gg = set()
+                                set_gg_err = set()
+                                for xg in gens:
+                                    if xg.replace(" ","") in test_data:
+                                        nn_gen += 1
+                                        set_g.add(xg.replace(" ",""))
+                                    if xg.replace(" ", "") in train_data:
+                                        gen_err += 1
+                                        set_g_err.add(xg.replace(" ", ""))
+                                for xgg in gg_gens:
+                                    if xgg.replace(" ","") in test_data:
+                                        nn_ggen += 1
+                                        set_gg.add(xgg.replace(" ", ""))
+                                    if xgg.replace(" ", "") in train_data:
+                                        ggen_err += 1
+                                        set_gg_err.add(xgg.replace(" ", ""))
+                                with open(fi_dir + "test_gen.json", "w") as fpt:
+                                    json.dump({
+                                        "gen_hits":nn_gen,
+                                        "gen_same":gen_err,
+                                        "set_g": len(set_g),
+                                        "set_g_same": len(set_g_err),
+                                        "ggen_hits": nn_ggen,
+                                        "ggen_same":ggen_err,
+                                        "set_gg": len(set_gg),
+                                        "set_gg_same": len(set_gg_err)}, fpt)
 
-                            # # TEST nebrelsot
-                            # nebrelsot_g = 0
-                            # nebrelsot_gg = 0
-                            # for xg in gens:
-                            #     if "nebrelsot" in xg.replace(" ",""):
-                            #         nebrelsot_g += 1
-                            # for xgg in gg_gens:
-                            #     if "nebrelsot" in xgg.replace(" ",""):
-                            #         nebrelsot_gg += 1
-                            # with open(fi_dir + "nebrelsot.json", "w") as fpt:
-                            #     json.dump({
-                            #         "g_hits":nebrelsot_g,
-                            #         "gg_hits":nebrelsot_gg},fpt)
+                            # TEST nebrelsot
+                            if "nebrelsot" in fn:
+                                nebrelsot_g = 0
+                                nebrelsot_gg = 0
+                                for xg in gens:
+                                    if "nebrelsot" in xg.replace(" ",""):
+                                        nebrelsot_g += 1
+                                for xgg in gg_gens:
+                                    if "nebrelsot" in xgg.replace(" ",""):
+                                        nebrelsot_gg += 1
+                                with open(fi_dir + "nebrelsot.json", "w") as fpt:
+                                    json.dump({
+                                        "g_hits":nebrelsot_g,
+                                        "gg_hits":nebrelsot_gg},fpt)
 
                             # # UNSEGMENTED TESTS
                             # seg_data = []
