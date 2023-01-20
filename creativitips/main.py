@@ -72,7 +72,7 @@ rng = np.random.default_rng(const.RND_SEED)
 rep = "merhoxjessottafnav"
 
 # read input model
-for subdir, dirs, files in os.walk(const.OUT_DIR + "convergence_divergence_results/"):
+for subdir, dirs, files in os.walk(const.OUT_DIR + "convergence_divergence_results_142/"):
     if "thompson_newport_but_last" in subdir:
         for file in files:
             if 'tps_units.dot' in file:
@@ -92,11 +92,11 @@ for subdir, dirs, files in os.walk(const.OUT_DIR + "convergence_divergence_resul
                     gens = ct.creative_gens(rng, G, n_seq=100, min_len=100)
                     ggens, ggens_id = ct.creative_ggens(rng, GG, n_seq=100, min_len=100)
                     # EVALUATE
-                    # g_evals = ct.evaluate_similarity(gens, rep)
-                    # gg_evals = ct.evaluate_similarity(ggens, rep)
+                    g_evals = ct.evaluate_similarity(gens, rep)
+                    gg_evals = ct.evaluate_similarity(ggens, rep)
                     # g_evals = ct.evaluate_online(gens)
-                    g_evals = ct.evaluate_interval_function(gens)
-                    gg_evals = ct.evaluate_interval_function(ggens)
+                    # g_evals = ct.evaluate_interval_function(gens)
+                    # gg_evals = ct.evaluate_interval_function(ggens)
                     # UPDATE
                     G = ct.update(g_evals, G)
                     GG = ct.gupdate(GG, gg_evals, ggens_id)
@@ -106,21 +106,22 @@ for subdir, dirs, files in os.walk(const.OUT_DIR + "convergence_divergence_resul
                         gens_data[_i]["ggens"] = ggens
                         gens_data[_i]["gg_ids"] = ggens_id
 
-                output_dir = subdir.replace("convergence_divergence_results","music_result")
-                ct.plot_nx_creativity(G, output_dir + "/creative_graph3", gen=False, render=False)
-                ct.plot_nx_creativity(GG, output_dir + "/creative_ggraph3", render=False)
+                # output_dir = subdir.replace("convergence_divergence_results","divergence_results")
+                output_dir = subdir
+                # ct.plot_nx_creativity(G, output_dir + "/creative_graph2", gen=False, render=False)
+                # ct.plot_nx_creativity(GG, output_dir + "/creative_ggraph2", render=False)
                 gens_out = ["".join([y.replace(" ","") for y in x]) for x in ct.creative_gens(rng, G, n_seq=1000)]
                 ggens_out, ggoid = ct.creative_ggens(rng, GG, n_seq=1000)
                 ggens_out = ["".join([y.replace(" ","") for y in x]) for x in ggens_out]
 
                 gens_data["results"]["gen_hits"] = len([x for x in gens_out if x == rep])
                 gens_data["results"]["ggen_hits"] = len([x for x in ggens_out if x == rep])
-                with open(output_dir + "/generatedM3.json", "w") as fp:
+                with open(output_dir + "/generatedM2.json", "w") as fp:
                     json.dump(gens_out, fp)
-                with open(output_dir + "/ggeneratedM3.json", "w") as fp:
+                with open(output_dir + "/ggeneratedM2.json", "w") as fp:
                     json.dump(ggens_out, fp)
-                with open(output_dir + "/gens_dataM3.json", "w") as fp:
+                with open(output_dir + "/gens_dataM2.json", "w") as fp:
                     json.dump(gens_data, fp)
 
-                print("GG edges: ", GG.edges(data=True))
+                # print("GG edges: ", GG.edges(data=True))
 print("END")

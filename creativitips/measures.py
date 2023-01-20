@@ -13,8 +13,12 @@
 import json
 import math
 import os
+import statistics
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
+
+parser_decays = [20, 50, 100, 500, 1000]
 
 
 def recall(tp, fn):
@@ -45,7 +49,7 @@ def precision(tp, fp):
 
 def f_score(prec, rec, beta=1.0):
     if prec + rec != 0:
-        return (1 + beta**2) * (prec * rec) / ((beta**2 * prec) + rec)
+        return (1 + beta ** 2) * (prec * rec) / ((beta ** 2 * prec) + rec)
     else:
         return 0
 
@@ -129,13 +133,14 @@ def calculate_stats(data, ref_key=""):
     for ck in mods_keys:
         res_stats[ck]["recall"] = recall(res_stats[ck]["tp"], res_stats[ck]["fn"])
         res_stats[ck]["precision"] = precision(res_stats[ck]["tp"], res_stats[ck]["fp"])
-        res_stats[ck]["f_score"] = f_score(res_stats[ck]["precision"],  res_stats[ck]["recall"], beta=res_stats["par"]["beta"])
+        res_stats[ck]["f_score"] = f_score(res_stats[ck]["precision"], res_stats[ck]["recall"],
+                                           beta=res_stats["par"]["beta"])
 
     return res_stats
 
 
 def draw_boxplot(res, dir_out):
-    data = [[],[]]
+    data = [[], []]
     fig, ax = plt.subplots()
     # Creating axes instance
     ax.set_title('F-score for TiPs and CBL')
@@ -209,7 +214,7 @@ def collect_data(ref_dir, root_out, model_dirs):
 
 
 def collect_arrays(dir_in):
-    data = json.load(open(dir_in + "results.json","r"))
+    data = json.load(open(dir_in + "results.json", "r"))
     with open(dir_in + "cbl_arr.txt", "w") as fpc:
         with open(dir_in + "tips_arr.txt", "w") as fpt:
             for itm, vl in data.items():
@@ -217,40 +222,155 @@ def collect_arrays(dir_in):
                 fpt.write(str(vl["tips"]["f_score"]) + "\n")
 
 
-def convergence_data(rootd):
-    for pars_mem in [50,500,1000]:
+def divergence_convergence_thompson_newport(rootd):
+    tps_data = {}
+    for pars_mem in parser_decays:
+        tps_data[pars_mem] = {}
         rd = "tps_results_pars_{}/".format(pars_mem)
-        tps_data = {}
-        for rip in [10,100,500,1000,5000,10000]:
+        for rip in [10, 100, 500, 1000, 5000, 10000]:
+            tps_data[pars_mem][rip] = {}
             ripd = "tps_results_{}/".format(rip)
-            for met in ["BRENT", "AVG", "FTPAVG"]:
-                metd = "{}_NFWI/thompson_newport_train/".format(met)
-                with open(rd + ripd + metd + "test_gen.json","r") as fpi:
+            for met in ["BRENT_NFWI", "AVG_NFWI", "FTPAVG_NFWI"]:
+                tps_data[pars_mem][rip][met] = {}
+                dirin = rootd + rd + ripd + "{}/".format(met)
+
+                # nebrelsot
+                with open(dirin + "thompson_newport_nebrelsot/nebrelsot.json", "r") as fpi:
+                    tps_data[pars_mem][rip][met]["nebrelsot"] = json.load(fpi)
+                with open(dirin + "thompson_newport_ABCDEF_nebrelsot/nebrelsot.json", "r") as fpi:
+                    tps_data[pars_mem][rip][met]["ABCDEF_nebrelsot"] = json.load(fpi)
+
+                # train-test
+                with open(dirin + "thompson_newport_train/test_gen.json", "r") as fpi:
+                    tps_data[pars_mem][rip][met]["train"] = json.load(fpi)
+    with open(rootd + "thompson_newport_results.json", "w") as fpo:
+        json.dump(tps_data, fpo)
+
+
+def tables_data_thompson_newport_nebrelsot(rootd):
+    whole_d = {}
+    for fname in ["nebrelsot", "ABCDEF_nebrelsot"]:
+        count_tot = 0
+        table_data = dict((x,{"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}}) for x in parser_decays)
+        # table_data = {
+        #     20: {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}},
+        #     50: {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}},
+        #     100: {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}},
+        #     500: {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}},
+        #     1000: {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}},
+        # }
+        for subdir, dirs, files in os.walk(rootd):
+            for file in files:
+                if 'thompson_newport_results.json' in file:
+                    with open(subdir + "/thompson_newport_results.json", "r") as fpi:
+                        data = json.load(fpi)
+                    count_tot += 1
+                    for pars_mem in parser_decays:
+                        for met in ["BRENT_NFWI", "AVG_NFWI", "FTPAVG_NFWI"]:
+                            for rip in [10, 100, 500, 1000, 5000, 10000]:
+                                if rip not in table_data[pars_mem][met]:
+                                    table_data[pars_mem][met][rip] = [0, 0]
+                                gc = int(data[str(pars_mem)][str(rip)][met][fname]["g_hits"])
+                                ggc = int(data[str(pars_mem)][str(rip)][met][fname]["gg_hits"])
+                                table_data[pars_mem][met][rip][0] += gc
+                                table_data[pars_mem][met][rip][1] += ggc
+
+        table_data["total_count"] = count_tot
+        for pars_mem in parser_decays:
+            for met in ["BRENT_NFWI", "AVG_NFWI", "FTPAVG_NFWI"]:
+                for rip in [10, 100, 500, 1000, 5000, 10000]:
+                    table_data[pars_mem][met][rip][0] = round(table_data[pars_mem][met][rip][0] / count_tot)
+                    table_data[pars_mem][met][rip][1] = round(table_data[pars_mem][met][rip][1] / count_tot)
+        whole_d[fname] = table_data
+    with open(rootd + "thompson_newport_table_data_nebrelsot.json", "w") as fpo:
+        json.dump(whole_d, fpo)
+
+
+def tables_data_thompson_newport_train(rootd):
+    count_tot = 0
+    table_data = dict((x, {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}}) for x in parser_decays)
+    table_stats = dict((x, {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}}) for x in parser_decays)
+    for subdir, dirs, files in os.walk(rootd):
+        for file in files:
+            if 'thompson_newport_results.json' in file:
+                with open(subdir + "/thompson_newport_results.json", "r") as fpi:
                     data = json.load(fpi)
-                    print(data)
+                count_tot += 1
+                for pars_mem in parser_decays:
+                    for met in ["BRENT_NFWI", "AVG_NFWI", "FTPAVG_NFWI"]:
+                        for rip in [10, 100, 500, 1000, 5000, 10000]:
+                            if rip not in table_data[pars_mem][met]:
+                                table_stats[pars_mem][met][rip] = [[], []]
+                                table_data[pars_mem][met][rip] = [0, 0, 0, 0, 0, 0]
+                            table_data[pars_mem][met][rip][0] += int(
+                                data[str(pars_mem)][str(rip)][met]["train"]["gen_hits"])
+                            hrate = int(data[str(pars_mem)][str(rip)][met]["train"]["set_g"]) / int(
+                                data[str(pars_mem)][str(rip)][met]["train"]["gen_hits"])
+                            table_data[pars_mem][met][rip][1] += hrate
+                            table_stats[pars_mem][met][rip][0].append(
+                                int(data[str(pars_mem)][str(rip)][met]["train"]["gen_hits"]))
+                            table_data[pars_mem][met][rip][3] += int(
+                                data[str(pars_mem)][str(rip)][met]["train"]["ggen_hits"])
+                            gg_hrate = int(data[str(pars_mem)][str(rip)][met]["train"]["set_gg"]) / int(
+                                data[str(pars_mem)][str(rip)][met]["train"]["ggen_hits"])
+                            table_data[pars_mem][met][rip][4] += gg_hrate
+                            table_stats[pars_mem][met][rip][1].append(
+                                int(data[str(pars_mem)][str(rip)][met]["train"]["ggen_hits"]))
 
-    fig, ax = plt.subplots()
-    # Creating axes instance
-    ax.set_title('divergence: TPS vs. generalized')
+    for pars_mem in parser_decays:
+        for met in ["BRENT_NFWI", "AVG_NFWI", "FTPAVG_NFWI"]:
+            for rip in [10, 100, 500, 1000, 5000, 10000]:
+                # G
+                table_data[pars_mem][met][rip][0] = round(table_data[pars_mem][met][rip][0] / count_tot)
+                table_data[pars_mem][met][rip][1] = round(table_data[pars_mem][met][rip][1] / count_tot, 1)
+                table_data[pars_mem][met][rip][2] = round(statistics.stdev(table_stats[pars_mem][met][rip][0]), 1)
+                # GG
+                table_data[pars_mem][met][rip][3] = round(table_data[pars_mem][met][rip][2] / count_tot)
+                table_data[pars_mem][met][rip][4] = round(table_data[pars_mem][met][rip][3] / count_tot, 1)
+                table_data[pars_mem][met][rip][5] = round(statistics.stdev(table_stats[pars_mem][met][rip][1]), 1)
 
-    for rf, vf in res.items():
-        for mk, mv in vf.items():
-            # Creating dataset
-            data[0].append(res[rf]["cbl"]["f_score"])
-            data[1].append(res[rf]["tips"]["f_score"])
+    table_data["total_count"] = count_tot
+    with open(rootd + "thompson_newport_table_data_train.json", "w") as fpo:
+        json.dump(table_data, fpo)
+    with open(rootd + "thompson_newport_table_data_train_stdevs.json", "w") as fpo:
+        json.dump(table_stats, fpo)
 
-    # Creating plot
-    bp = ax.boxplot(data, labels=["cbl", "tips"])
-    plt.yticks(np.arange(0, 1.1, step=0.1))
-    # show plot
-    plt.savefig(dir_out + 'boxplot.pdf')
+
+def draw_multibar(mem, method):
+    with open("data/out/thompson_newport_table_data_train.json", "r") as fp:
+        data = json.load(fp)
+
+    data_arr = []
+    for k, v in data[mem][method].items():
+        v.insert(0, k)
+        data_arr.append(v)
+    # create data
+    df = pd.DataFrame(data_arr,
+                      columns=['methods', '10', '100', '500', '1000', "5000", "10000"])
+
+    # plot grouped bar chart
+    df.plot.bar(x='repetitions',
+                title='Stats for ' + method + ", parser decay: " + mem,
+                color=["#D95319", "#EDB120", "#0072BD", "#4DBEEE"])
     plt.show()
 
 
+def draw_stacked():
+    plt.style.use('ggplot')
+
+    df = pd.DataFrame({'a': [10, 20], 'b': [15, 25], 'c': [35, 40], 'd': [45, 50]}, index=['john', 'bob'])
+
+    fig, ax = plt.subplots()
+    df[['a', 'c']].plot.bar(stacked=True, width=0.1, position=1.5, colormap="bwr", ax=ax, alpha=0.7)
+    df[['b', 'd']].plot.bar(stacked=True, width=0.1, position=-0.5, colormap="RdGy", ax=ax, alpha=0.7)
+    df[['a', 'd']].plot.bar(stacked=True, width=0.1, position=0.5, colormap="BrBG", ax=ax, alpha=0.7)
+    plt.legend(loc="upper center")
+    plt.show()
+
 
 if __name__ == "__main__":
-    rd = "data/CHILDES_converted/"
-    ro = "data/CHILDES_results2_BRENT_NFWI/"
+    # rd = "data/CHILDES_converted/"
+    # ro = "data/CHILDES_results2_BRENT_NFWI/"
     # os.makedirs(ro, exist_ok=True)
     # mdls = {
     #     "isp": "data/CHILDES_ISP/",
@@ -259,4 +379,9 @@ if __name__ == "__main__":
     # }
     # collect_data(rd, ro, mdls)
     # collect_arrays(ro)
-    collect_convergence_data("/data/out")
+    # divergence_convergence_thompson_newport("data/out/convergence_divergence_results_4/")
+
+    tables_data_thompson_newport_nebrelsot("data/out/")
+    tables_data_thompson_newport_train("data/out/")
+    # draw_multibar("50","BRENT_NFWI")
+    # draw_stacked()

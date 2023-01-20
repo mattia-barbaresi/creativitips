@@ -73,31 +73,31 @@ if __name__ == "__main__":
     # methods = ["BRENT_WFWI","BRENT_NFWI","FTPAVG_WFWI","FTPAVG_NFWI","AVG_WFWI","AVG_NFWI"]
     methods = ["BRENT_NFWI", "AVG_NFWI","FTPAVG_NFWI"]
 
-    for rip in [10,100,500,1000,5000,10000]:
-        for tps_method in methods:
-            for tps_order in tps_orders:
-                for interf in interferences:
-                    for t_mem in thresholds_mem:
-                        # init
-                        rng = np.random.default_rng(const.RND_SEED)
-                        root_out_dir = const.OUT_DIR + "convergence_divergence_results/" + "tps_results_pars_1000/" + "tps_results_" + str(rip) + "/" + "{}/".format(tps_method)
-                        # root_out_dir = const.OUT_DIR + "tps_results_childes_500/{}/".format(tps_method)
 
-                        os.makedirs(root_out_dir, exist_ok=True)
-
-                        # with open(root_out_dir + "params.txt", "w") as of:
-                        #     json.dump({
-                        #         "rnd": const.RND_SEED,
-                        #         "mem thresh": t_mem,
-                        #         "interference": interf,
-                        #         "weight": const.WEIGHT,
-                        #         "lens": const.ULENS,
-                        #         "tps_order": tps_order,
-                        #         "parser_decay_rate": const.STM_DECAY_RATE,
-                        #         "tps_decay_rate": const.LTM_DECAY_RATE,
-                        #     }, of)
-
+    for tps_method in methods:
+        for tps_order in tps_orders:
+            for interf in interferences:
+                for t_mem in thresholds_mem:
+                    for rip in [10, 100, 500, 1000, 5000, 10000]:
                         for fn in file_names:
+                            rng = np.random.default_rng(const.RND_SEED)
+                            root_out_dir = const.OUT_DIR + "convergence_divergence_results_" + str(
+                                const.RND_SEED) + "/" + "tps_results_pars_20/" + "tps_results_" + str(
+                                rip) + "/" + "{}/".format(tps_method)
+                            # root_out_dir = const.OUT_DIR + "tps_results_childes_500/{}/".format(tps_method)
+                            os.makedirs(root_out_dir, exist_ok=True)
+
+                            # with open(root_out_dir + "params.txt", "w") as of:
+                            #     json.dump({
+                            #         "rnd": const.RND_SEED,
+                            #         "mem thresh": t_mem,
+                            #         "interference": interf,
+                            #         "weight": const.WEIGHT,
+                            #         "lens": const.ULENS,
+                            #         "tps_order": tps_order,
+                            #         "parser_decay_rate": const.STM_DECAY_RATE,
+                            #         "tps_decay_rate": const.LTM_DECAY_RATE,
+                            #     }, of)
                             print("processing {} series ...".format(fn))
                             fi_dir = root_out_dir + "{}/".format(fn)
                             try:

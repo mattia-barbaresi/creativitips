@@ -47,7 +47,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
         # tot = sum([float(x[2]["label"]) for x in kg0.edges(data=True) if x[0] in kg0.successors("START")])
         for x, y, v in kg0.edges("START", data=True):
             init_keys.append(y)
-            c = calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"]))
+            c = calculate_creativity2(float(v["p"]), float(v["u"]), float(v["v"]))
             init_values.append(c)
     else:
         print("no START found")
@@ -67,7 +67,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
             succs_values = []
             for x, y, v in kg0.edges(_s, data=True):
                 succs.append(y)
-                succs_values.append(calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"])))
+                succs_values.append(calculate_creativity2(float(v["p"]), float(v["u"]), float(v["v"])))
             if succs:
                 _s = succs[utils.mc_choice(rand_gen, normalize_arr(succs_values))]
                 if _s != "END":
@@ -87,7 +87,7 @@ def creative_ggens(rand_gen, kg0, n_seq=10, min_len=30):
         # tot = sum([float(x[2]["label"]) for x in kg0.edges(data=True) if x[0] in kg0.successors("START")])
         for x, y, v in kg0.edges(init_node, data=True):
             init_keys.append(y)
-            c = calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"]))
+            c = calculate_creativity2(float(v["p"]), float(v["u"]), float(v["v"]))
             init_values.append(c)
     else:
         print("no START found")
@@ -111,7 +111,7 @@ def creative_ggens(rand_gen, kg0, n_seq=10, min_len=30):
             succs_values = []
             for x, y, v in kg0.edges(_s, data=True):
                 succs.append(y)
-                succs_values.append(calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"])))
+                succs_values.append(calculate_creativity2(float(v["p"]), float(v["u"]), float(v["v"])))
             if succs:
                 _s = succs[utils.mc_choice(rand_gen, normalize_arr(succs_values))]
                 # if _s != "END":
@@ -189,7 +189,7 @@ def rep_similarity(seq, rep):
     return val / len(rep)  # mean similarity
 
 
-def creative_edge(edge,out_par=""):
+def creative_edge(edge, out_par=""):
     c = (1.0 - float(edge["p"])) * edge["u"] * (1.0 - edge["v"])
     if c > 0.75:
         print("CREATIVE " + out_par + " EDGE: ", edge, c)
@@ -203,7 +203,7 @@ def update(g_evals, G):
             # v = float(G[sn][en]["v"]) if "v" in G[sn][en] else 0
             G[sn][en]["u"] = (u + val) / 2  # u average (u mean)
             G[sn][en]["v"] = 1.0 - math.sqrt((u - val) ** 2)  # v average (u variability)
-            creative_edge(G[sn][en])
+            creative_edge(G[sn][en], "G")
     return G
 
 
@@ -218,7 +218,7 @@ def gupdate(GG, g_evals, gensids):
             # v = float(GG[sn][en]["v"]) if "v" in GG[sn][en] else 0
             GG[sn][en]["u"] = (u + val) / 2  # u average (u mean)
             GG[sn][en]["v"] = 1.0 - math.sqrt((u - val) ** 2)  # v average (u variability)
-            creative_edge(GG[sn][en])
+            creative_edge(GG[sn][en], "GG")
     return GG
 
 
@@ -233,7 +233,7 @@ def plot_nx_creativity(G, filename="tps", gen=True, render=True):
     gra = Digraph()
     for k, v, d in G.edges(data=True):
         # gra.edge(k, v, label="{:.2f}-{:.2f}-{:.2f}".format(float(d["p"]),float(d["u"]),float(d["v"])))
-        c = calculate_creativity(float(d["p"]), float(d["u"]), float(d["v"]))
+        c = calculate_creativity2(float(d["p"]), float(d["u"]), float(d["v"]))
         if gen:
             gra.edge("\n".join(G.nodes[k]["label"].split(" | ")), "\n".join(G.nodes[v]["label"].split(" | ")),
                      label="{:.4f}\n({:.3f},{:.2f},{:.3f})".format(c, float(d["p"]), float(d["u"]), float(d["v"])),
@@ -248,8 +248,8 @@ def plot_nx_creativity(G, filename="tps", gen=True, render=True):
                      penwidth=str(0.1 + abs(3 * c))
                      )
     # print(gra.source)
-    gra.render(filename, view=False)
     if render:
+        # gra.render(filename, view=False)
         gra.render(filename, view=False, engine="dot", format="pdf")
         os.rename(filename, filename + '.dot')
     else:
