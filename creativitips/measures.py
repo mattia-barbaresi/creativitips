@@ -243,6 +243,14 @@ def divergence_convergence_thompson_newport(rootd):
                 # train-test
                 with open(dirin + "thompson_newport_train/test_gen.json", "r") as fpi:
                     tps_data[pars_mem][rip][met]["train"] = json.load(fpi)
+
+                # convergence
+                tps_data[pars_mem][rip][met]["but_last"] = {"u2:":{},"u3":{}}
+                with open(dirin + "thompson_newport_but_last/gens_dataM2.json", "r") as fpi:
+                    data = json.load(fpi)["results"]
+                    tps_data[pars_mem][rip][met]["but_last"]["u2"] = data
+                with open(dirin + "thompson_newport_but_last/gens_dataM3.json", "r") as fpi:
+                    tps_data[pars_mem][rip][met]["but_last"]["u3"] = json.load(fpi)["results"]
     with open(rootd + "thompson_newport_results.json", "w") as fpo:
         json.dump(tps_data, fpo)
 
@@ -252,13 +260,6 @@ def tables_data_thompson_newport_nebrelsot(rootd):
     for fname in ["nebrelsot", "ABCDEF_nebrelsot"]:
         count_tot = 0
         table_data = dict((x,{"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}}) for x in parser_decays)
-        # table_data = {
-        #     20: {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}},
-        #     50: {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}},
-        #     100: {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}},
-        #     500: {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}},
-        #     1000: {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}},
-        # }
         for subdir, dirs, files in os.walk(rootd):
             for file in files:
                 if 'thompson_newport_results.json' in file:
@@ -276,20 +277,28 @@ def tables_data_thompson_newport_nebrelsot(rootd):
                                 table_data[pars_mem][met][rip][1] += ggc
 
         table_data["total_count"] = count_tot
+        table_data["count_mem"] = {}
+        table_data["count_g_gg"] = {"G": 0, "GG_10":0,"GG_100":0,"GG_500":0,"GG_1000":0,"GG_5000":0,"GG_10000":0,}
         for pars_mem in parser_decays:
+            table_data["count_mem"][pars_mem] = 0
             for met in ["BRENT_NFWI", "AVG_NFWI", "FTPAVG_NFWI"]:
                 for rip in [10, 100, 500, 1000, 5000, 10000]:
                     table_data[pars_mem][met][rip][0] = round(table_data[pars_mem][met][rip][0] / count_tot)
                     table_data[pars_mem][met][rip][1] = round(table_data[pars_mem][met][rip][1] / count_tot)
+                    if rip == 10:
+                        table_data["count_mem"][pars_mem] += table_data[pars_mem][met][rip][0]
+                        table_data["count_g_gg"]["G"] += table_data[pars_mem][met][rip][0]
+                    table_data["count_mem"][pars_mem] += table_data[pars_mem][met][rip][1]
+                    table_data["count_g_gg"]["GG_"+str(rip)] += table_data[pars_mem][met][rip][1]
         whole_d[fname] = table_data
+
     with open(rootd + "thompson_newport_table_data_nebrelsot.json", "w") as fpo:
         json.dump(whole_d, fpo)
 
 
-def tables_data_thompson_newport_train(rootd):
+def tables_data_thompson_newport_but_last(rootd):
     count_tot = 0
-    table_data = dict((x, {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}}) for x in parser_decays)
-    table_stats = dict((x, {"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}}) for x in parser_decays)
+    table_data = dict((x,{"BRENT_NFWI": {}, "AVG_NFWI": {}, "FTPAVG_NFWI": {}}) for x in parser_decays)
     for subdir, dirs, files in os.walk(rootd):
         for file in files:
             if 'thompson_newport_results.json' in file:
@@ -300,34 +309,73 @@ def tables_data_thompson_newport_train(rootd):
                     for met in ["BRENT_NFWI", "AVG_NFWI", "FTPAVG_NFWI"]:
                         for rip in [10, 100, 500, 1000, 5000, 10000]:
                             if rip not in table_data[pars_mem][met]:
-                                table_stats[pars_mem][met][rip] = [[], []]
-                                table_data[pars_mem][met][rip] = [0, 0, 0, 0, 0, 0]
-                            table_data[pars_mem][met][rip][0] += int(
-                                data[str(pars_mem)][str(rip)][met]["train"]["gen_hits"])
-                            hrate = int(data[str(pars_mem)][str(rip)][met]["train"]["set_g"]) / int(
-                                data[str(pars_mem)][str(rip)][met]["train"]["gen_hits"])
-                            table_data[pars_mem][met][rip][1] += hrate
-                            table_stats[pars_mem][met][rip][0].append(
-                                int(data[str(pars_mem)][str(rip)][met]["train"]["gen_hits"]))
-                            table_data[pars_mem][met][rip][3] += int(
-                                data[str(pars_mem)][str(rip)][met]["train"]["ggen_hits"])
-                            gg_hrate = int(data[str(pars_mem)][str(rip)][met]["train"]["set_gg"]) / int(
-                                data[str(pars_mem)][str(rip)][met]["train"]["ggen_hits"])
-                            table_data[pars_mem][met][rip][4] += gg_hrate
-                            table_stats[pars_mem][met][rip][1].append(
-                                int(data[str(pars_mem)][str(rip)][met]["train"]["ggen_hits"]))
+                                table_data[pars_mem][met][rip] = [0, 0]
+                            gc = int(data[str(pars_mem)][str(rip)][met]["but_last"]["g_hits"])
+                            ggc = int(data[str(pars_mem)][str(rip)][met]["but_last"]["gg_hits"])
+                            table_data[pars_mem][met][rip][0] += gc
+                            table_data[pars_mem][met][rip][1] += ggc
+
+    table_data["total_count"] = count_tot
+    table_data["count_mem"] = {}
+    table_data["count_g_gg"] = {"G": 0, "GG_10":0,"GG_100":0,"GG_500":0,"GG_1000":0,"GG_5000":0,"GG_10000":0}
+    for pars_mem in parser_decays:
+        table_data["count_mem"][pars_mem] = 0
+        for met in ["BRENT_NFWI", "AVG_NFWI", "FTPAVG_NFWI"]:
+            for rip in [10, 100, 500, 1000, 5000, 10000]:
+                table_data[pars_mem][met][rip][0] = round(table_data[pars_mem][met][rip][0] / count_tot)
+                table_data[pars_mem][met][rip][1] = round(table_data[pars_mem][met][rip][1] / count_tot)
+                if rip == 10:
+                    table_data["count_mem"][pars_mem] += table_data[pars_mem][met][rip][0]
+                    table_data["count_g_gg"]["G"] += table_data[pars_mem][met][rip][0]
+                table_data["count_mem"][pars_mem] += table_data[pars_mem][met][rip][1]
+                table_data["count_g_gg"]["GG_"+str(rip)] += table_data[pars_mem][met][rip][1]
+
+    with open(rootd + "thompson_newport_table_data_but_last.json", "w") as fpo:
+        json.dump(table_data, fpo)
+
+
+def tables_data_thompson_newport_train(rootd):
+    count_tot = 0
+    table_data = dict((x, {"BRENT_NFWI": {"G":[0,0,0,0],"GG":{}}, "AVG_NFWI": {"G":[0,0,0,0],"GG":{}}, "FTPAVG_NFWI": {"G":[0,0,0,0],"GG":{}}}) for x in parser_decays)
+    table_stats = dict((x, {"BRENT_NFWI": {"G":[],"GG":{}}, "AVG_NFWI": {"G":[],"GG":{}}, "FTPAVG_NFWI": {"G":[],"GG":{}}}) for x in parser_decays)
+    for subdir, dirs, files in os.walk(rootd):
+        for file in files:
+            if 'thompson_newport_results.json' in file:
+                with open(subdir + "/thompson_newport_results.json", "r") as fpi:
+                    data = json.load(fpi)
+                count_tot += 1
+                for pars_mem in parser_decays:
+                    for met in ["BRENT_NFWI", "AVG_NFWI", "FTPAVG_NFWI"]:
+                        for rip in [10, 100, 500, 1000, 5000, 10000]:
+                            if rip == 10:
+                                table_data[pars_mem][met]["G"][0] += int(data[str(pars_mem)][str(rip)][met]["train"]["gen_hits"])
+                                hrate = float(data[str(pars_mem)][str(rip)][met]["train"]["set_g"]) / int(data[str(pars_mem)][str(rip)][met]["train"]["gen_hits"])
+                                table_data[pars_mem][met]["G"][1] += hrate
+                                table_stats[pars_mem][met]["G"].append(int(data[str(pars_mem)][str(rip)][met]["train"]["gen_hits"]))
+
+                            if rip not in table_data[pars_mem][met]["GG"]:
+                                table_data[pars_mem][met]["GG"][rip] = [0, 0, 0, 0]
+                                table_stats[pars_mem][met]["GG"][rip] = []
+
+                            table_data[pars_mem][met]["GG"][rip][0] += int(data[str(pars_mem)][str(rip)][met]["train"]["ggen_hits"])
+                            gg_hrate = int(data[str(pars_mem)][str(rip)][met]["train"]["set_gg"]) / int(data[str(pars_mem)][str(rip)][met]["train"]["ggen_hits"])
+                            table_data[pars_mem][met]["GG"][rip][1] += gg_hrate
+                            table_stats[pars_mem][met]["GG"][rip].append(int(data[str(pars_mem)][str(rip)][met]["train"]["ggen_hits"]))
 
     for pars_mem in parser_decays:
         for met in ["BRENT_NFWI", "AVG_NFWI", "FTPAVG_NFWI"]:
+            # G
+            table_data[pars_mem][met]["G"][0] = round(table_data[pars_mem][met]["G"][0] / count_tot)
+            table_data[pars_mem][met]["G"][1] = round(table_data[pars_mem][met]["G"][1] / count_tot, 2)
+            table_data[pars_mem][met]["G"][2] = max(table_stats[pars_mem][met]["G"])
+            table_data[pars_mem][met]["G"][3] = min(table_stats[pars_mem][met]["G"])
+
             for rip in [10, 100, 500, 1000, 5000, 10000]:
-                # G
-                table_data[pars_mem][met][rip][0] = round(table_data[pars_mem][met][rip][0] / count_tot)
-                table_data[pars_mem][met][rip][1] = round(table_data[pars_mem][met][rip][1] / count_tot, 1)
-                table_data[pars_mem][met][rip][2] = round(statistics.stdev(table_stats[pars_mem][met][rip][0]), 1)
                 # GG
-                table_data[pars_mem][met][rip][3] = round(table_data[pars_mem][met][rip][2] / count_tot)
-                table_data[pars_mem][met][rip][4] = round(table_data[pars_mem][met][rip][3] / count_tot, 1)
-                table_data[pars_mem][met][rip][5] = round(statistics.stdev(table_stats[pars_mem][met][rip][1]), 1)
+                table_data[pars_mem][met]["GG"][rip][0] = round(table_data[pars_mem][met]["GG"][rip][0] / count_tot)
+                table_data[pars_mem][met]["GG"][rip][1] = round(table_data[pars_mem][met]["GG"][rip][1] / count_tot, 2)
+                table_data[pars_mem][met]["GG"][rip][2] = max(table_stats[pars_mem][met]["GG"][rip])
+                table_data[pars_mem][met]["GG"][rip][3] = min(table_stats[pars_mem][met]["GG"][rip])
 
     table_data["total_count"] = count_tot
     with open(rootd + "thompson_newport_table_data_train.json", "w") as fpo:
@@ -336,23 +384,45 @@ def tables_data_thompson_newport_train(rootd):
         json.dump(table_stats, fpo)
 
 
-def draw_multibar(mem, method):
-    with open("data/out/thompson_newport_table_data_train.json", "r") as fp:
-        data = json.load(fp)
-
-    data_arr = []
-    for k, v in data[mem][method].items():
-        v.insert(0, k)
-        data_arr.append(v)
+def draw_multibar_count_mem():
     # create data
-    df = pd.DataFrame(data_arr,
-                      columns=['methods', '10', '100', '500', '1000', "5000", "10000"])
+    data = []
+
+    df = pd.DataFrame([['Full', 397, 295, 232, 191, 163],
+                       ['ABCDEF', 354, 312, 228, 181, 184]],
+                      columns=['grammars', '20', '50', '100', '500', '1000'])
+    # view data
+    print(df)
 
     # plot grouped bar chart
-    df.plot.bar(x='repetitions',
-                title='Stats for ' + method + ", parser decay: " + mem,
-                color=["#D95319", "#EDB120", "#0072BD", "#4DBEEE"])
-    plt.show()
+    df.plot(x='grammars',
+            kind='bar',
+            stacked=False,
+            title='Total number of hits aggregate by C (memory) values')
+
+    # plt.show()
+    plt.savefig('data/out/aggr_divergence1.pdf', bbox_inches='tight')
+
+
+def draw_multibar_g_gg():
+    # create data
+    data = []
+
+    df = pd.DataFrame([['Full', 93, 199, 204, 201, 196,192,193],
+                       ['ABCDEF', 137, 166, 190, 190, 192,188,196]],
+                      columns=['grammars', 'G', 'GG_10', 'GG_100', 'GG_500', 'GG_1000', 'GG_5000', 'GG_10000'])
+    # view data
+    print(df)
+
+    # plot grouped bar chart
+    df.plot(x='grammars',
+            kind='bar',
+            stacked=False,
+            title='Total number of hits aggregate by graph types')
+
+    # plt.show()
+    plt.legend(loc='upper center')
+    plt.savefig('data/out/aggr_divergence1b.pdf', bbox_inches='tight')
 
 
 def draw_stacked():
@@ -379,9 +449,15 @@ if __name__ == "__main__":
     # }
     # collect_data(rd, ro, mdls)
     # collect_arrays(ro)
-    # divergence_convergence_thompson_newport("data/out/convergence_divergence_results_4/")
-
-    tables_data_thompson_newport_nebrelsot("data/out/")
-    tables_data_thompson_newport_train("data/out/")
-    # draw_multibar("50","BRENT_NFWI")
+    divergence_convergence_thompson_newport("data/out/convergence_divergence_results_4/")
+    # divergence_convergence_thompson_newport("data/out/convergence_divergence_results_13/")
+    # divergence_convergence_thompson_newport("data/out/convergence_divergence_results_77/")
+    # divergence_convergence_thompson_newport("data/out/convergence_divergence_results_128/")
+    # divergence_convergence_thompson_newport("data/out/convergence_divergence_results_142/")
+    #
+    # tables_data_thompson_newport_nebrelsot("data/out/")
+    # tables_data_thompson_newport_train("data/out/")
+    tables_data_thompson_newport_but_last("data/out/")
+    # draw_multibar_count_mem()
+    # draw_multibar_g_gg()
     # draw_stacked()

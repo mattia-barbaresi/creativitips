@@ -47,7 +47,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
         # tot = sum([float(x[2]["label"]) for x in kg0.edges(data=True) if x[0] in kg0.successors("START")])
         for x, y, v in kg0.edges("START", data=True):
             init_keys.append(y)
-            c = calculate_creativity2(float(v["p"]), float(v["u"]), float(v["v"]))
+            c = calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"]))
             init_values.append(c)
     else:
         print("no START found")
@@ -67,7 +67,7 @@ def creative_gens(rand_gen, kg0, n_seq=10, min_len=30):
             succs_values = []
             for x, y, v in kg0.edges(_s, data=True):
                 succs.append(y)
-                succs_values.append(calculate_creativity2(float(v["p"]), float(v["u"]), float(v["v"])))
+                succs_values.append(calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"])))
             if succs:
                 _s = succs[utils.mc_choice(rand_gen, normalize_arr(succs_values))]
                 if _s != "END":
@@ -87,7 +87,7 @@ def creative_ggens(rand_gen, kg0, n_seq=10, min_len=30):
         # tot = sum([float(x[2]["label"]) for x in kg0.edges(data=True) if x[0] in kg0.successors("START")])
         for x, y, v in kg0.edges(init_node, data=True):
             init_keys.append(y)
-            c = calculate_creativity2(float(v["p"]), float(v["u"]), float(v["v"]))
+            c = calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"]))
             init_values.append(c)
     else:
         print("no START found")
@@ -111,7 +111,7 @@ def creative_ggens(rand_gen, kg0, n_seq=10, min_len=30):
             succs_values = []
             for x, y, v in kg0.edges(_s, data=True):
                 succs.append(y)
-                succs_values.append(calculate_creativity2(float(v["p"]), float(v["u"]), float(v["v"])))
+                succs_values.append(calculate_creativity3(float(v["p"]), float(v["u"]), float(v["v"])))
             if succs:
                 _s = succs[utils.mc_choice(rand_gen, normalize_arr(succs_values))]
                 # if _s != "END":
@@ -233,7 +233,7 @@ def plot_nx_creativity(G, filename="tps", gen=True, render=True):
     gra = Digraph()
     for k, v, d in G.edges(data=True):
         # gra.edge(k, v, label="{:.2f}-{:.2f}-{:.2f}".format(float(d["p"]),float(d["u"]),float(d["v"])))
-        c = calculate_creativity2(float(d["p"]), float(d["u"]), float(d["v"]))
+        c = calculate_creativity3(float(d["p"]), float(d["u"]), float(d["v"]))
         if gen:
             gra.edge("\n".join(G.nodes[k]["label"].split(" | ")), "\n".join(G.nodes[v]["label"].split(" | ")),
                      label="{:.4f}\n({:.3f},{:.2f},{:.3f})".format(c, float(d["p"]), float(d["u"]), float(d["v"])),
