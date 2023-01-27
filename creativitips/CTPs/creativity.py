@@ -9,24 +9,34 @@ from creativitips import utils
 from difflib import SequenceMatcher
 from graphviz import Digraph
 from metrics import interval_functions as intfun, utility
+import jellyfish
 
+from thefuzz import fuzz
+from thefuzz import process
 
 def calculate_creativity(p, u, v):
     if u < 0.0:
-        return 1.0 - p
+        return 1.0001 - p
     else:
         return (1.0001 - p) * u * (1.0001 - v)
 
 
 def calculate_creativity2(p, u, v):
-    ut = u if u > 0.0 else 0.0001
+    ut = u if u > 0.0 else 1.0
     vt = v if v > 0.0 else 0.0001
     return (1.0001 - p) * ut * (1.0001 - vt)
 
 
 def calculate_creativity3(p, u, v):
-    ut = u if u > 0.0 else 0.0001
+    ut = u if u > 0.0 else 1.0
     return (1.0001 - p) * ut
+
+
+def calculate_creativityb3(p, u, v):
+    if u < 0.0:
+        return 1.0001 - p
+    else:
+        return (1.0001 - p) * u
 
 
 def normalize_arr(arr):
@@ -175,18 +185,32 @@ def evaluate_similarity(seqs, rep):
     vals = []
     for seq in seqs:
         sseq = "".join([_.replace(" ", "") for _ in seq])
-        val = rep_similarity(sseq, [rep])
-        # print("val: ",val)
+        val = rep_similarity(sseq, rep)
         vals.append((seq, val))
+    return vals
 
+
+def evaluate_similarity_nebrelsot(seqs):
+    vals = []
+    for seq in seqs:
+        sseq = "".join([_.replace(" ", "") for _ in seq])
+        val = 1 if "nebrelsot" in sseq else 0
+        vals.append((seq, val))
     return vals
 
 
 def rep_similarity(seq, rep):
     val = 0
-    for _ in rep:
-        val += SequenceMatcher(None, seq, _).ratio()
-    return val / len(rep)  # mean similarity
+    # print(seq)
+    # print("val1:", (SequenceMatcher(seq, rep).ratio() + fuzz.partial_token_sort_ratio(seq, "nebrelsot")) / 2)
+    # for _ in rep:
+    #     val += SequenceMatcher(None, seq, _).ratio()
+    # return val / len(rep)  # mean similarity
+    # return (SequenceMatcher(seq, rep).ratio() + fuzz.partial_token_sort_ratio(seq, "nebrelsot")) / 200
+    if seq in rep:
+        return 1.0
+    else:
+        return fuzz.partial_token_sort_ratio(seq, "nebrelsot") / 200
 
 
 def creative_edge(edge, out_par=""):
@@ -197,14 +221,68 @@ def creative_edge(edge, out_par=""):
 
 def update(g_evals, G):
     for seq, val in g_evals:
-        for sn, en in mit.pairwise(seq):
+        for sn, en in mit.pairwise(["START"] + seq):
             u = float(G[sn][en]["u"]) if "u" in G[sn][en] else 0
             u = 0 if u == -1.0 else u
             # v = float(G[sn][en]["v"]) if "v" in G[sn][en] else 0
             G[sn][en]["u"] = (u + val) / 2  # u average (u mean)
             G[sn][en]["v"] = 1.0 - math.sqrt((u - val) ** 2)  # v average (u variability)
-            creative_edge(G[sn][en], "G")
+            # creative_edge(G[sn][en], "G")
     return G
+
+
+def collect_creative_g(g_evals, G, itr, creative_solutions):
+    best_seq = " "
+    best_c = 0
+    for seq, val in g_evals:
+        p = 1
+        v = 0
+        count = 0
+        for sn, en in mit.pairwise(seq):
+            p *= float(G[sn][en]["p"])
+            v += float(G[sn][en]["v"]) if "v" in G[sn][en] else 0
+            count += 1
+        v = v/count
+        ss = "".join(seq).replace(" ","")
+        c = (1-p) * val * (1-v)
+        if ss not in creative_solutions:
+            if c > best_c:
+                best_c = c
+                best_seq = ss
+        else:
+            if creative_solutions[ss][0] < c:
+                print("WTF (old,new): ", creative_solutions[ss][0], " - ", c)
+
+    creative_solutions[best_seq] = [best_c, itr]
+
+
+def collect_creative_g_arr(g_evals, G, creative_solutions,gen_data):
+    best_seq = " "
+    max_c = 0
+    min_c = 2 #j ust grater than mac C
+    mean_c = 0
+    for seq, val in g_evals:
+        p = 1
+        v = 0
+        count = 0
+        for sn, en in mit.pairwise(seq):
+            p *= float(G[sn][en]["p"])
+            v += float(G[sn][en]["v"]) if "v" in G[sn][en] else 0
+            count += 1
+        v = v/count
+        ss = "".join(seq).replace(" ","")
+        c = (1-p) * val * (1-v)
+        if c > max_c:
+            max_c = c
+            best_seq = ss
+        if c < min_c:
+            min_c = c
+        mean_c += c
+    gen_data["trends"]["G"]["mean"].append(mean_c/len(g_evals))
+    gen_data["trends"]["G"]["min"].append(min_c)
+    gen_data["trends"]["G"]["max"].append(max_c)
+
+    creative_solutions.append((best_seq,max_c))
 
 
 def gupdate(GG, g_evals, gensids):
@@ -218,8 +296,64 @@ def gupdate(GG, g_evals, gensids):
             # v = float(GG[sn][en]["v"]) if "v" in GG[sn][en] else 0
             GG[sn][en]["u"] = (u + val) / 2  # u average (u mean)
             GG[sn][en]["v"] = 1.0 - math.sqrt((u - val) ** 2)  # v average (u variability)
-            creative_edge(GG[sn][en], "GG")
+            # creative_edge(GG[sn][en], "GG")
     return GG
+
+
+def collect_creative_gg(GG, g_evals, gensids, itr, creative_solutions):
+    best_seq = " "
+    best_c = 0
+    init_node = [x[0] for x in GG.nodes(data="label") if x[1] == "START"]
+    for indx, (seq, val) in enumerate(g_evals):
+        path_idxs = init_node + gensids[indx]
+        p = 0
+        v = 0
+        count = 0
+        for sn, en in mit.pairwise(path_idxs):
+            p *= float(GG[sn][en]["p"])
+            v += float(GG[sn][en]["v"]) if "v" in GG[sn][en] else 0
+            count += 1
+        v = v / count
+        ss = "".join(seq).replace(" ","")
+        c = (1 - p) * val * (1 - v)
+        if ss not in creative_solutions:
+            if c > best_c:
+                best_c = c
+                best_seq = ss
+        else:
+            if creative_solutions[ss][0] <= c:
+                print("WTF(old,new): ", creative_solutions[ss][0],creative_solutions[ss][0],creative_solutions[ss][0], " - ", c)
+    creative_solutions[best_seq] = [best_c, itr]
+
+
+def collect_creative_gg_arr(GG, g_evals, gensids, creative_solutions, gen_data):
+    best_seq = " "
+    mean_c = 0
+    min_c = 2  # just a number greater than max C
+    max_c = 0
+    init_node = [x[0] for x in GG.nodes(data="label") if x[1] == "START"]
+    for indx, (seq, val) in enumerate(g_evals):
+        path_idxs = init_node + gensids[indx]
+        count = 0
+        p = 0
+        v = 0
+        for sn, en in mit.pairwise(path_idxs):
+            p *= float(GG[sn][en]["p"])
+            v += float(GG[sn][en]["v"]) if "v" in GG[sn][en] else 0
+            count += 1
+        v = v / count
+        ss = "".join(seq).replace(" ","")
+        c = (1 - p) * val * (1 - v)
+        if c > max_c:
+            max_c = c
+            best_seq = ss
+        if c < min_c:
+            min_c = c
+        mean_c += c
+    gen_data["trends"]["GG"]["mean"].append(mean_c/len(g_evals))
+    gen_data["trends"]["GG"]["min"].append(min_c)
+    gen_data["trends"]["GG"]["max"].append(max_c)
+    creative_solutions.append((best_seq,max_c))
 
 
 def get_class_from_node(self, node_name):
