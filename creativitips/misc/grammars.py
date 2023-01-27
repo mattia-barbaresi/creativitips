@@ -131,10 +131,16 @@ def thompson_newport2007():
 
     random.shuffle(res)
 
-    with open("../data/thompson_newport_nebrelsot.txt", "w") as fp:
+    nebrelsot_arr = []
+    with open("../data/thompson_newport_ABCDEF_nebrelsot.txt", "w") as fp:
         for _l in res:
             if "nebrelsot" not in _l:
                 fp.write(_l + "\n")
+            else:
+                nebrelsot_arr.append(_l)
+    with open("../data/thompson_newport_ABCDEF_nebrelsot_only.txt", "w") as fp:
+        for _l in nebrelsot_arr:
+            fp.write(_l + "\n")
 
 
 def Gomez2002():
