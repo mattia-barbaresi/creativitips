@@ -40,11 +40,11 @@ def plot_trends(data,dir_out,sname):
     plt.savefig(dir_out + '/trends_GG' + sname + '.pdf')
 
 
-for seed in [4]:
+for seed in [13,77,128,142]:
     for subdir, dirs, files in os.walk(const.OUT_DIR + "convergence_divergence_results_" + str(seed) + "/"):
         if "thompson_newport_ABCDEF_nebrelsot" in subdir:
             for file in files:
-                if "\\AVG_NFWI" in subdir and "results_pars_20\\" in subdir and "tps_results_1000\\" not in subdir \
+                if "\\AVG_NFWI" in subdir and "results_pars_50\\" in subdir and "tps_results_1000\\" not in subdir \
                         and "tps_results_10000\\" not in subdir and "tps_results_5000\\" not in subdir:
                     if 'tps_units.dot' in file:
                         in_path = subdir + "/tps_units.dot"
@@ -69,9 +69,10 @@ for seed in [4]:
 
                         print("generating...  ", subdir)
                         rng = np.random.default_rng(const.RND_SEED)
+                        rng2 = np.random.default_rng(const.RND_SEED)
                         for _i in range(0, 1000):
                             # GENERATE CREATIVELY
-                            gens = ct.creative_gens(rng, G, n_seq=100, min_len=100)
+                            gens = ct.creative_gens(rng2, G, n_seq=100, min_len=100)
                             ggens, ggens_id = ct.creative_ggens(rng, GG, n_seq=100, min_len=100)
                             # EVALUATE
                             g_evals = ct.evaluate_similarity(gens, rep)
@@ -96,10 +97,10 @@ for seed in [4]:
                         gens_data["results"]["tot"] = 1000
                         gens_out = []
                         ggens_out = []
-                        uf = "3"
+                        uf = "2"
                         ct.plot_nx_creativity(G, output_dir + "/creative_graph" + uf, gen=False, render=True)
                         ct.plot_nx_creativity(GG, output_dir + "/creative_ggraph" + uf, render=True)
-                        for x in ct.creative_gens(rng, G, n_seq=gens_data["results"]["tot"]):
+                        for x in ct.creative_gens(rng2, G, n_seq=gens_data["results"]["tot"]):
                             xg = "".join(x).replace(" ","")
                             gens_out.append(x)
                             if xg in rep:
